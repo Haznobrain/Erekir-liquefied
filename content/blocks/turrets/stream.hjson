@@ -9,6 +9,7 @@ shootEffect: shootLiquid
 reload: 140
 recoil: 2
 shootSound: artillery
+loopSound: none
 ammoTypes: {
   slag: {
     type: LiquidBulletType
@@ -51,7 +52,18 @@ ammoTypes: {
     splashDamage: 15
     boilTime: 140
 }
+  arkycite: {
+    type: LiquidBulletType
+    liquid: arkycite
+    lifetime: 140
+    speed: 2
+    knockback: 2.9
+    orbSize: 4
+    puddleSize: 35
+    damage: 25
+    splashDamage: 40
 }
+  }
 requirements: [
   beryllium/250
   graphite/400
