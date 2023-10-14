@@ -16,7 +16,7 @@ ammoTypes: {
     lifetime: 140
     speed: 1.6
     knockback: 3
-    puddleSize: 8
+    puddleSize: 25
     orbSize: 5
     statusDuration: 240
     status: melting
@@ -36,6 +36,20 @@ ammoTypes: {
     splashDamage: 45
     splashDamageRadius: 25
     boilTime: 140
+}
+  hydrogen: {
+    type: LiquidBulletType
+    liquid: hydrogen
+    lifetime: 140
+    speed: 1.6
+    knockback: 2.5
+    orbsize: 4
+    puddleSize: 25
+    status: burning
+    statusDuration: 180
+    damage: 20
+    splashDamage: 15
+    boiltime: 140
 }
 }
 requirements: [
