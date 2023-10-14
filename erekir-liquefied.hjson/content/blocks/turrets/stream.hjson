@@ -1,4 +1,4 @@
-type: liquidTurret
+type: LiquidTurret
 size: 3
 health: 3200
 range: 224
@@ -11,7 +11,7 @@ recoil: 2
 inaccuracy: 10
 ammoTypes: {
   slag: {
-    type: liquidBulletType
+    type: LiquidBulletType
     liquid: slag
     lifetime: 140
     speed: 1.6
