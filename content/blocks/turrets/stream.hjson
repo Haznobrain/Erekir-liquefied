@@ -8,6 +8,7 @@ targetGround: true
 shootEffect: shootLiquid
 reload: 140
 recoil: 2
+shootSound: artillery
 ammoTypes: {
   slag: {
     type: LiquidBulletType
