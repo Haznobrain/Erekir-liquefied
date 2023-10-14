@@ -25,4 +25,9 @@ ammoTypes: {
     splashDamage: 25
     splashDamageRadius: 4.5
       }
-buildVisiblilty: sandboxOnly
+requirements: [
+  berillium/250
+  graphite/400
+  tungsten/50
+  silicon/150
+]
