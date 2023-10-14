@@ -31,6 +31,7 @@ ammoTypes: {
     speed: 2
     knockback: 3.5
     orbSize: 6
+    puddleSize: 25
     damage: 18
     splashDamage: 45
     splashDamageRadius: 25
