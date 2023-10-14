@@ -62,6 +62,7 @@ ammoTypes: {
     puddleSize: 35
     damage: 25
     splashDamage: 40
+    splashDamageRadius: 35
 }
   }
 requirements: [
