@@ -1,0 +1,28 @@
+type: LiquidTurret
+size: 3
+health: 3200
+range: 224
+rotateSpeed: 3
+targetAir: false
+targetGround: true
+shootEffect: shootLiquid
+reload:140
+recoil: 2
+inaccuracy: 10
+ammoTypes: {
+  slag: {
+    type: LiquidBulletType
+    liquid: slag
+    lifetime: 140
+    speed: 1.6
+    knockback: 3
+    puddlesize: 8
+    orbSize: 5
+    drag: 0.0002
+    statusDuration: 240
+    status: melting
+    damage: 35
+    splashDamage: 25
+    splashDamageRadius: 4.5
+      }
+buildVisiblilty: sandboxOnly
