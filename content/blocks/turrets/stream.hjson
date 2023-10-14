@@ -102,8 +102,14 @@ ammoTypes: {
     splashDamage: 85
     splashDamageRadius: 65
     puddleSize: 65
-}
+    }
   }
+coolantMultiplier: 6
+consumes: {
+  coolant: nitrogen {
+    amount: 0.2
+}
+}
 requirements: [
   beryllium/250
   graphite/400
