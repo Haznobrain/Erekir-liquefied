@@ -22,8 +22,19 @@ ammoTypes: {
     status: melting
     damage: 35
     splashDamage: 25
-    splashDamageRadius: 4.5
+    splashDamageRadius: 16
    }
+  ozone: {
+    type: LiquidBulletType
+    liquid: ozone
+    lifetime: 160
+    speed: 2
+    knockback: 3.5
+    orbSize: 6
+    damage: 18
+    splashDamage: 45
+    splashDamageRadius: 25
+}
 }
 requirements: [
   beryllium/250
