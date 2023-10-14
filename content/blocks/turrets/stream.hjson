@@ -111,7 +111,7 @@ nitrogen: {
   knockback: 1.5
   orbSize: 2
   damage: 60
-  reload: 70
+  reloadMultiplier: 0.5
   boilTime: 140
 }
 }
