@@ -1,4 +1,6 @@
 type: LiquidTurret
+name: Stream
+description: a medium size medium-range turret. Uses fluids as ammunition to shoot at ennemy ground targets. May be inacurrate when using gases.
 size: 3
 health: 3200
 range: 224
