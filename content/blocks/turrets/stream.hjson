@@ -73,7 +73,21 @@ ammoTypes: {
     orbSize: 5
     puddleSize: 30
     damage: 5
-    boilTime: 280
+    boilTime: 140
+}
+  cyanogen: {
+    type: LiquidBulletType
+    liquid: cyanogen
+    lifetime: 140
+    speed: 2.2
+    knockback: 4
+    orbsize: 2
+    damage: 35
+    splashDamage: 60
+    splashDamageRadius: 45
+    status: burning
+    statusDuration: 240
+    boiltime: 140
 }
   }
 requirements: [
