@@ -91,6 +91,18 @@ ammoTypes: {
     statusDuration: 240
     boilTime: 140
 }
+  neoplasm: {
+    type: LiquidBulletType
+    liquid: neoplasm
+    lifetime: 160
+    speed: 1.6
+    knockback: 4.5
+    orbSize: 8
+    damage: 65
+    splashDamage: 85
+    splashDamageRadius: 65
+    puddleSize: 65
+}
   }
 requirements: [
   beryllium/250
