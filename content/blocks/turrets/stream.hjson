@@ -104,11 +104,13 @@ ammoTypes: {
     puddleSize: 65
     }
 }
-coolantMultiplier: 2.7
-coolant: {
-  type: ConsumeLiquid
+consumes: {
+ liquid: {
   liquid: nitrogen
-  amount: 0.5
+  amount: 0.1
+  booster: true
+  optional: true
+  }
 }
 requirements: [
   beryllium/250
