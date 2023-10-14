@@ -34,7 +34,7 @@ ammoTypes: {
     damage: 18
     splashDamage: 45
     splashDamageRadius: 25
-    boilTime: 140
+    boilTime: 280
 }
   hydrogen: {
     type: LiquidBulletType
