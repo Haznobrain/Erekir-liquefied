@@ -87,7 +87,7 @@ ammoTypes: {
     splashDamageRadius: 45
     status: burning
     statusDuration: 240
-    boiltime: 140
+    boilTime: 140
 }
   }
 requirements: [
