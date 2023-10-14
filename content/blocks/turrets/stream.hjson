@@ -27,8 +27,8 @@ ammoTypes: {
   ozone: {
     type: LiquidBulletType
     liquid: ozone
-    lifetime: 160
-    speed: 2
+    lifetime: 140
+    speed: 1.6
     knockback: 3.5
     orbSize: 6
     puddleSize: 25
