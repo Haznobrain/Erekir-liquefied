@@ -49,7 +49,7 @@ ammoTypes: {
     statusDuration: 180
     damage: 20
     splashDamage: 15
-    boiltime: 140
+    boilTime: 140
 }
 }
 requirements: [
