@@ -115,6 +115,7 @@ nitrogen: {
   boilTime: 140
 }
 }
+research: diffuse
 requirements: [
   beryllium/250
   graphite/400
