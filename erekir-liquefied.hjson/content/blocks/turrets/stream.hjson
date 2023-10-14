@@ -23,7 +23,7 @@ ammoTypes: {
     status: melting
     damage: 35
     splashDamage: 25
-    splashDamageRadius: 4.5
+    splashDamageRadius: 16
       }
     }
 requirements: [
