@@ -104,12 +104,6 @@ ammoTypes: {
     puddleSize: 65
     }
 }
-coolantMultiplier: 5
-consumes: {
-  coolant: {nitrogen
-    amount: 0.2
-}
-}
 requirements: [
   beryllium/250
   graphite/400
