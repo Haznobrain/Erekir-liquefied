@@ -64,6 +64,17 @@ ammoTypes: {
     splashDamage: 40
     splashDamageRadius: 35
 }
+  water: {
+    type: LiquidBulletType
+    liquid: water
+    lifetime: 140
+    speed: 1.6
+    knockback: 4
+    orbSize: 5
+    puddleSize: 30
+    damage: 5
+    boilTime: 280
+}
   }
 requirements: [
   beryllium/250
