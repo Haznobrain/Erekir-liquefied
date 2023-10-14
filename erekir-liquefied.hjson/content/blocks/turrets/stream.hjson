@@ -1,4 +1,4 @@
-type: LiquidTurret
+type: liquidTurret
 size: 3
 health: 3200
 range: 224
@@ -11,7 +11,7 @@ recoil: 2
 inaccuracy: 10
 ammoTypes: {
   slag: {
-    type: LiquidBulletType
+    type: liquidBulletType
     liquid: slag
     lifetime: 140
     speed: 1.6
@@ -25,9 +25,11 @@ ammoTypes: {
     splashDamage: 25
     splashDamageRadius: 4.5
       }
+    }
 requirements: [
   berillium/250
   graphite/400
   tungsten/50
   silicon/150
 ]
+buildVisibility: sandboxOnly
