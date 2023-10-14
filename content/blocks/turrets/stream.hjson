@@ -8,7 +8,6 @@ targetGround: true
 shootEffect: shootLiquid
 reload: 140
 recoil: 2
-inaccuracy: 10
 ammoTypes: {
   slag: {
     type: LiquidBulletType
@@ -43,7 +42,7 @@ ammoTypes: {
     lifetime: 140
     speed: 1.6
     knockback: 2.5
-    orbsize: 4
+    orbsize: 5
     puddleSize: 25
     status: burning
     statusDuration: 180
