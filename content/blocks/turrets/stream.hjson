@@ -103,10 +103,9 @@ ammoTypes: {
     splashDamageRadius: 65
     puddleSize: 65
     }
-  }
-coolantMultiplier: 6
+coolantMultiplier: 5
 consumes: {
-  coolant: nitrogen {
+  coolant: {nitrogen
     amount: 0.2
 }
 }
