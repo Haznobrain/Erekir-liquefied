@@ -101,6 +101,7 @@ fragBullet: {
       splashDamageRadius
       speed: 3
       lifetime: 15
+      orbsize: 2
       type: LiquidBulletType
       liquid: cyanogen
       boiltime: 15
