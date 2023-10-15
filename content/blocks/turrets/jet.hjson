@@ -80,6 +80,21 @@ type: LiquidBulletType
   damage: 32
  reloadMultiplier: 3
   }
+ cyanogen: {
+type: LiquidBulletType
+  liquid: cyanogen
+  lifetime: 70
+  speed: 5
+  knockback: 2
+  orbsize: 8
+  statusDuration: 600
+  status: burning
+  boilTime: 70
+  damage: 40
+  splashDamage: 75
+  splashDamageRadius: 80
+reloadMultiplier: 1.5
+}
 }
 requirements: [
   beryllium/400
