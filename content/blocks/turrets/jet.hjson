@@ -8,3 +8,4 @@ targetGround: true
 targetAir: false
 rotateSpeed: 1.7
 reload: 3
+recoil: 1
