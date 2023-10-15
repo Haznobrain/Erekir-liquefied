@@ -11,3 +11,18 @@ reload: 3
 recoil: 1
 shootEffect: shootLiquid
 ammoTypes: {
+ slag: {
+    type: LiquidBulletType
+    liquid: slag
+    lifetime: 56
+    speed: 5
+    knockback: 1.6
+    puddleSize: 25
+    orbSize: 5
+    statusDuration: 300
+    status: melting
+    damage: 15
+    splashDamage: 20
+    splashDamageRadius: 25
+   }
+}
