@@ -36,9 +36,23 @@ ammoTypes: {
   statusDuration: 300
   status: blasted
   boilTime: 56
-  damage: 8
+  damage: 10
   splashDamage: 35
   splashDamageRadius: 40
+}
+ hydrogen: {
+type: LiquidBulletType
+  liquid: hydrogen
+  lifetime: 56
+  speed: 5
+  knockback: 0.8
+  orbsize: 4
+  statusDuration: 300
+  status: burning
+  boilTime: 56
+  damage: 10
+  splashDamage: 15
+  splashDamageRadius: 24
 }
 }
 requirements: [
