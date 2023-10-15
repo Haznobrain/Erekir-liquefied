@@ -9,6 +9,7 @@ targetAir: false
 rotateSpeed: 1.7
 reload: 3
 recoil: 1
+inaccuracy: 5
 shootEffect: shootLiquid
 ammoTypes: {
  slag: {
