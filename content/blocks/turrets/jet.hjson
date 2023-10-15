@@ -11,6 +11,7 @@ reload: 3
 recoil: 1
 inaccuracy: 5
 shootEffect: shootLiquid
+despawnHit: true
 ammoTypes: {
  slag: {
     type: LiquidBulletType
@@ -25,6 +26,7 @@ ammoTypes: {
     damage: 15
     splashDamage: 20
     splashDamageRadius: 25
+    hitEffect: explosion
    }
  ozone: {
   type: LiquidBulletType
@@ -39,6 +41,7 @@ ammoTypes: {
   damage: 10
   splashDamage: 35
   splashDamageRadius: 40
+  hitEffect: explosion
 }
  hydrogen: {
 type: LiquidBulletType
@@ -54,6 +57,7 @@ type: LiquidBulletType
   splashDamage: 15
   splashDamageRadius: 24
 reloadMultiplier: 1.3
+  hitEffect: explosion
 }
  water: {
 type: LiquidBulletType
@@ -95,7 +99,7 @@ type: LiquidBulletType
   splashDamageRadius: 80
   reloadMultiplier: 1.5
   fragBullets: 4
-  despawnHit: true
+  hitEffect: explosion
 fragBullet: {
       collidesGround: true
       splashDamage: 8
@@ -110,7 +114,7 @@ fragBullet: {
       makeFire: true
       status: burning
       statusDuration: 240
-      despawnHit: true
+      hitEffect: explosion
     }
 }
  arkycite: {
@@ -126,6 +130,7 @@ type: LiquidBulletType
   puddleSize: 40
   splashDamage: 40
   splashDamageRadius: 40
+  hitEffect: explosion
  }
  neoplasm: {
 type: LiquidBulletType
@@ -140,7 +145,7 @@ type: LiquidBulletType
   splashDamage: 95
   splashDamageRadius: 120
   puddlesize: 120
-  despawnHit: true
+  hitEffect: explosion
 fragBullets: 4
 fragBullet: {
       collidesGround: true
@@ -154,7 +159,7 @@ fragBullet: {
       drag: 0.02
       status: tarred
       statusDuration: 240
-      despawnHit: true
+      hitEffect: explosion
     }
 }
 }
