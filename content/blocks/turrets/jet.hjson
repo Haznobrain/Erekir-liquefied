@@ -93,7 +93,19 @@ type: LiquidBulletType
   damage: 40
   splashDamage: 75
   splashDamageRadius: 80
-reloadMultiplier: 1.5
+  reloadMultiplier: 1.5
+  fragBullets: 4
+fragBullet: {
+      collidesGround: true
+      splashDamage: 8
+      splashDamageRadius
+      speed: 3
+      lifetime: 15
+      type: LiquidBulletType
+      liquid: cyanogen
+      boiltime: 15
+      makeFire: true
+    }
 }
  arkycite: {
 type: LiquidBulletType
