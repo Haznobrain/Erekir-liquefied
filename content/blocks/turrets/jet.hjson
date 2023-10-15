@@ -67,6 +67,19 @@ type: LiquidBulletType
   boilTime: 56
   damage: 8
   }
+ nitrogen: {
+type: LiquidBulletType
+  liquid: nitrogen
+  lifetime: 56
+  speed: 5
+  knockback: 1.2
+  orbsize: 3
+  statusDuration: 300
+  status: freezing
+  boilTime: 56
+  damage: 32
+ reloadMultiplier: 3
+  }
 }
 requirements: [
   beryllium/400
