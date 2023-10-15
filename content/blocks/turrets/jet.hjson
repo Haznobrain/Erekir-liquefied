@@ -95,6 +95,20 @@ type: LiquidBulletType
   splashDamageRadius: 80
 reloadMultiplier: 1.5
 }
+ arkycite: {
+type: LiquidBulletType
+  liquid: arkycite
+  lifetime: 56
+  speed: 5
+  knockback: 1.5
+  orbsize: 6
+  statusDuration: 300
+  status: shocked
+  damage: 15
+  puddleSize: 40
+  splashDamage: 40
+  splashDamageRadius: 40
+}
 }
 requirements: [
   beryllium/400
