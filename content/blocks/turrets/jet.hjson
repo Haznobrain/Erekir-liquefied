@@ -105,6 +105,7 @@ fragBullet: {
       type: LiquidBulletType
       liquid: cyanogen
       boiltime: 60
+      drag: 0.02
       makeFire: true
       status: burning
       statusDuration: 240
@@ -123,6 +124,34 @@ type: LiquidBulletType
   puddleSize: 40
   splashDamage: 40
   splashDamageRadius: 40
+ }
+ neoplasm: {
+type: LiquidBulletType
+  liquid: neoplasm
+  lifetime: 80
+  speed: 4.9
+  knockback: 2.7
+  orbsize: 10
+  statusDuration: 600
+  status: tarred
+  damage: 65
+  splashDamage: 95
+  splashDamageRadius: 120
+  puddlesize: 120
+fragBullets: 4
+fragBullet: {
+      collidesGround: true
+      splashDamage: 15
+      splashDamageRadius: 24
+      speed: 2.5
+      lifetime: 120
+      orbsize: 7
+      type: LiquidBulletType
+      liquid: neoplasm
+      drag: 0.02
+      status: tarred
+      statusDuration: 240
+    }
 }
 }
 requirements: [
