@@ -1,0 +1,5 @@
+name: jet
+description: fires a stream of liquid bombs at ennemy targets.
+targetsGround: yes
+targetsAir: yes
+type: LiquidTurret
