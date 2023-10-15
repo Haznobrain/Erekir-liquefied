@@ -98,7 +98,7 @@ type: LiquidBulletType
 fragBullet: {
       collidesGround: true
       splashDamage: 8
-      splashDamageRadius
+      splashDamageRadius: 16
       speed: 3
       lifetime: 15
       orbsize: 2
