@@ -7,3 +7,4 @@ health: 5600
 targetGround: true
 targetAir: false
 rotateSpeed: 1.7
+reload: 3
