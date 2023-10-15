@@ -12,6 +12,7 @@ reload: 140
 recoil: 2
 shootSound: artillery
 loopSound: none
+despawnHit: true
 ammoTypes: {
   slag: {
     type: LiquidBulletType
