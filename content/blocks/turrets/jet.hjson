@@ -26,3 +26,10 @@ ammoTypes: {
     splashDamageRadius: 25
    }
 }
+requirements: [
+  beryllium/400
+  graphite/750
+  tungsten/250
+  silicon/400
+  carbide/65
+]
