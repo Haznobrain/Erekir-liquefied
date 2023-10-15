@@ -1,0 +1,4 @@
+type: LiquidTurret
+name: Jet
+description: A large long-range liquid turret, fires a jet of liquid bombs at ennemy targets.
+range: 280
