@@ -2,3 +2,8 @@ type: LiquidTurret
 name: Jet
 description: A large long-range liquid turret, fires a jet of liquid bombs at ennemy targets.
 range: 280
+size: 4
+health: 5600
+targetGround: true
+targetAir: false
+rotateSpeed: 1.7
