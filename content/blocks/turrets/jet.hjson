@@ -95,6 +95,7 @@ type: LiquidBulletType
   splashDamageRadius: 80
   reloadMultiplier: 1.5
   fragBullets: 4
+  despawnHit: true
 fragBullet: {
       collidesGround: true
       splashDamage: 8
@@ -109,6 +110,7 @@ fragBullet: {
       makeFire: true
       status: burning
       statusDuration: 240
+      despawnHit: true
     }
 }
  arkycite: {
@@ -138,6 +140,7 @@ type: LiquidBulletType
   splashDamage: 95
   splashDamageRadius: 120
   puddlesize: 120
+  despawnHit: true
 fragBullets: 4
 fragBullet: {
       collidesGround: true
@@ -151,6 +154,7 @@ fragBullet: {
       drag: 0.02
       status: tarred
       statusDuration: 240
+      despawnHit: true
     }
 }
 }
