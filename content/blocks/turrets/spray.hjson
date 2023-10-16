@@ -28,3 +28,11 @@ ammoTypes: {
     hitEffect: explosion
   }
 }
+requirements: [
+  berillium/400
+  silicon/400
+  tungsten/250
+  carbide/125
+  oxide/250
+]
+category: turret
