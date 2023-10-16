@@ -10,7 +10,6 @@ rotateSpeed: 3.2
 reload: 20
 recoil: 3
 inaccuracy: 15
-shootEffect: ShootLiquid
 despawnHit: true
 ammoTypes: {
   slag: {
