@@ -9,21 +9,21 @@ targetAir: true
 rotateSpeed: 3.2
 reload: 20
 recoil: 3
-shots: 8
 shootSound: artillery
 loopSound: none
 inaccuracy: 15
 despawnHit: true
+shoot: {
+      shots: 20
+          }
 ammoTypes: {
   slag: {
-    shoot: {
-      shots: 7
-          }
     type: LiquidBulletType
     liquid: slag
     speed: 4.6
     lifetime: 68
     orbSize: 8
+    knockback: 3.2
     puddleSize: 32
     damage: 15
     splashDamage: 35
@@ -33,12 +33,10 @@ ammoTypes: {
     hitEffect: explosion
   }
   ozone: {
-    shoot: {
-      shots: 9
-          }
     type: LiquidBulletType
     liquid: slag
     speed: 4.6
+    knockback: 2.8
     lifetime: 68
     boilTime: 68
     orbSize: 9
