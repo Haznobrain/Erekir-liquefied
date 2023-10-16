@@ -9,6 +9,7 @@ targetAir: true
 rotateSpeed: 3.2
 reload: 20
 recoil: 3
+shots: 8
 shootSound: artillery
 loopSound: none
 inaccuracy: 15
@@ -17,7 +18,6 @@ ammoTypes: {
   slag: {
     type: LiquidBulletType
     liquid: slag
-    shots: 4
     speed: 4.6
     lifetime: 68
     orbSize: 8
