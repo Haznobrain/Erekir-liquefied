@@ -34,7 +34,7 @@ ammoTypes: {
   }
   ozone: {
     type: LiquidBulletType
-    liquid: slag
+    liquid: ozone
     speed: 4.6
     knockback: 2.8
     lifetime: 68
@@ -47,6 +47,22 @@ ammoTypes: {
     status: blasted
     statusDuration: 240
     hitEffect: explosion
+  }
+ hydrogen: {
+    type: LiquidBulletType
+    liquid: hydrogen
+    speed: 4.6
+    lifetime: 68
+    boilTime: 68
+    orbSize: 6
+    knockback: 2.2
+    damage: 6
+    splashDamage: 25
+    splashDamageRadius: 16
+    status: burning
+    statusDuration: 240
+    hitEffect: explosion
+    reloadMultiplier: 0.75
   }
 }
 requirements: [
