@@ -62,7 +62,7 @@ ammoTypes: {
     status: burning
     statusDuration: 240
     hitEffect: explosion
-    reloadMultiplier: 0.75
+    reloadMultiplier: 1.5
   }
 }
 requirements: [
