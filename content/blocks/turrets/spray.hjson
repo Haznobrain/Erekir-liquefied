@@ -9,6 +9,8 @@ targetAir: true
 rotateSpeed: 3.2
 reload: 20
 recoil: 3
+shootSound: artillery
+loopSound: none
 inaccuracy: 15
 despawnHit: true
 ammoTypes: {
