@@ -15,6 +15,7 @@ despawnHit: true
 ammoTypes: {
   slag: {
     type: LiquidBulletType
+    liquid: slag
     shots: 4
     speed: 4.6
     lifetime: 68
