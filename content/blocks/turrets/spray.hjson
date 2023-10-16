@@ -29,7 +29,7 @@ ammoTypes: {
   }
 }
 requirements: [
-  berillium/400
+  beryllium/400
   silicon/400
   tungsten/250
   carbide/125
