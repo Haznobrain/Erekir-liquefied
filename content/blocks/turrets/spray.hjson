@@ -1,6 +1,6 @@
 name: Spray
 description: shoots an arc of powerful long-range liquid shells at ennemy target.
-type: LiquidTurretType
+type: LiquidTurret
 range: 312
 size: 4
 health: 6450
