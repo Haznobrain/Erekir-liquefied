@@ -13,12 +13,12 @@ shots: 8
 shootSound: artillery
 loopSound: none
 inaccuracy: 15
-shoot: {
-  shots: 8
-}
 despawnHit: true
 ammoTypes: {
   slag: {
+    shoot: {
+      shots: 7
+          }
     type: LiquidBulletType
     liquid: slag
     speed: 4.6
@@ -29,6 +29,24 @@ ammoTypes: {
     splashDamage: 35
     splashDamageRadius: 32
     status: melting
+    statusDuration: 240
+    hitEffect: explosion
+  }
+  ozone: {
+    shoot: {
+      shots: 9
+          }
+    type: LiquidBulletType
+    liquid: slag
+    speed: 4.6
+    lifetime: 68
+    boilTime: 68
+    orbSize: 9
+    puddleSize: 32
+    damage: 8
+    splashDamage: 45
+    splashDamageRadius: 40
+    status: blasted
     statusDuration: 240
     hitEffect: explosion
   }
