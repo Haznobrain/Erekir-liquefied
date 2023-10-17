@@ -19,6 +19,7 @@ shootType: {
   length: 200
   width: 24
   damage: 340
+shootSound: lightning
 }
 requirements: [
   beryllium/150
