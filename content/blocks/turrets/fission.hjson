@@ -27,6 +27,7 @@ ammoTypes: {
       damage: 60
       intervalSpread: 5
       shootSound: spark
+      intervalAngle: 5
       }
       }
 }
