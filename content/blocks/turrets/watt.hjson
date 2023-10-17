@@ -6,7 +6,10 @@ type: PowerTurret
 range: 208
 recoil: 4
 size: 3
-shots: 3
+reload: 45
+shoot: {
+      shots: 3
+          }
 innacuracy: 5
 consumes: {
   power:500
