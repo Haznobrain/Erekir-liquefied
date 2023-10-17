@@ -106,7 +106,7 @@ arkycite: {
     damage: 12
     splashDamage: 40
     splashDamageRadius: 32
-    status: melting
+    status: shocked
     statusDuration: 240
     hitEffect: explosion
     lightning: 7
