@@ -119,7 +119,7 @@ neoplasm: {
     speed: 4.6
     lifetime: 72
     orbSize: 14
-    knockback: 9
+    knockback: 4
     puddleSize: 80
     damage: 90
     splashDamage: 120
