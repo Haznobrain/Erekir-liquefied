@@ -1,0 +1,23 @@
+name: Watt
+description: fires 3 powerful electric arcs at ennemy ground targets
+targetAir: false
+targetGround: true
+type: PowerTurret
+range: 208
+recoil: 4
+shots: 3
+innacuracy: 5
+consumes: {
+  power:500
+} 
+shootType: {
+  type: LightningBulletType
+  length: 140
+  width: 24
+  damage: 340
+}
+requirements: [
+  beryllium/150
+  silicon/450
+  tungsten/150
+  graphite/350
