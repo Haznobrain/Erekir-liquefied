@@ -113,6 +113,22 @@ arkycite: {
     lightningLength: 15
     lightningDamage: 24
   }
+neoplasm: {
+    type: LiquidBulletType
+    liquid: neoplasm
+    speed: 4.6
+    lifetime: 72
+    orbSize: 14
+    knockback: 9
+    puddleSize: 80
+    damage: 90
+    splashDamage: 120
+    splashDamageRadius: 80
+    status: tarred
+    statusDuration: 600
+    hitEffect: massiveExplosion
+    homingPower: 0.5
+  }
 }
 requirements: [
   beryllium/400
