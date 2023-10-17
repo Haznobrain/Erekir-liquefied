@@ -9,6 +9,7 @@ targetGround: true
 targetAir: true
 shootSound: laserbig
 loopSound: beam
+moveWhileCharging: false
 continuous: true
 ammoTypes: {
   phase-fabric: {
