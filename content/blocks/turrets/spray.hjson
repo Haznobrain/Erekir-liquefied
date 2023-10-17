@@ -95,6 +95,24 @@ cyanogen: {
     hitEffect: explosion
     reloadMultiplier: 1.5
   }
+arkycite: {
+    type: LiquidBulletType
+    liquid: arkycite
+    speed: 4.6
+    lifetime: 68
+    orbSize: 7
+    knockback: 3
+    puddleSize: 40
+    damage: 12
+    splashDamage: 40
+    splashDamageRadius: 32
+    status: melting
+    statusDuration: 240
+    hitEffect: explosion
+    lightning: 7
+    lightningLength: 24
+    lightningDamage: 24
+  }
 }
 requirements: [
   beryllium/400
