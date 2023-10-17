@@ -3,7 +3,7 @@ description: ionizes air to create a path for 3 powerful electric discharges to 
 targetAir: false
 targetGround: true
 type: PowerTurret
-range: 160
+range: 200
 recoil: 4
 size: 3
 reload: 45
@@ -17,7 +17,7 @@ consumes: {
 } 
 shootType: {
   type: LightningBulletType
-  length: 200
+  lightningLength: 200
   width: 24
   damage: 340
 shootSound: lightning
