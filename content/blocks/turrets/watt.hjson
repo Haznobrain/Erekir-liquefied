@@ -35,3 +35,4 @@ requirements: [
   graphite/350
 ]
 category: turret
+research: stream
