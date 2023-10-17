@@ -25,7 +25,8 @@ ammoTypes: {
       lightningLength: 45
       lightningColor: ff8632
       damage: 60
-      intervalSpread: 15
+      intervalSpread: 5
+      shootSound: spark
       }
       }
 }
