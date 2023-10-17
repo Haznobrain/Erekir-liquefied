@@ -7,6 +7,7 @@ range: 208
 recoil: 4
 size: 3
 reload: 45
+shootSound: spark
 shoot: {
       shots: 3
           }
