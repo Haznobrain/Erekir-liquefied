@@ -9,7 +9,7 @@ targetGround: true
 targetAir: true
 ammoTypes: {
   phase-fabric: {
-    bulletType: LaserBulletType
+    type: LaserBulletType
     colors: #ff8632
     damage: 1450
     Length: 336
