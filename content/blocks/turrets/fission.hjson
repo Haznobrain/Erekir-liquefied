@@ -10,7 +10,7 @@ targetAir: true
 ammoTypes: {
   phase-fabric: {
     type: ContinuousLaserBulletType
-    colors: [ff8632,ff5032,#ffaa32,#ff4732]
+    colors: [ff8632,ff5032,ffaa32,ff4732]
     damage: 250
     Length: 336
     width: 24
