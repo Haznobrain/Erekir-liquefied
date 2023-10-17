@@ -11,9 +11,10 @@ ammoTypes: {
   phase-fabric: {
     type: ContinuousLaserBulletType
     colors: [ff8632]
-    damage: 1450
+    damage: 250
     Length: 336
     width: 24
+    lifetime: 300
       }
 }
 requirements: [
