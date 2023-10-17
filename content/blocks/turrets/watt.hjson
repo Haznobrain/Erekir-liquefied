@@ -3,7 +3,7 @@ description: fires 3 powerful electric arcs at ennemy ground targets
 targetAir: false
 targetGround: true
 type: PowerTurret
-range: 208
+range: 160
 recoil: 4
 size: 3
 reload: 45
@@ -13,7 +13,7 @@ shoot: {
           }
 innacuracy: 5
 consumes: {
-  power:25
+  power:10
 } 
 shootType: {
   type: LightningBulletType
