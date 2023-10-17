@@ -14,7 +14,7 @@ ammoTypes: {
     type: ContinuousLaserBulletType
     colors: [ff8632,ff5032,ffaa32,ff4732]
     damage: 250
-    Length: 336
+    length: 336
     width: 24
     lifetime: 300
       }
