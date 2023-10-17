@@ -110,7 +110,7 @@ arkycite: {
     statusDuration: 240
     hitEffect: explosion
     lightning: 7
-    lightningLength: 24
+    lightningLength: 15
     lightningDamage: 24
   }
 }
