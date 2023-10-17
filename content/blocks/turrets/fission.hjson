@@ -1,0 +1,25 @@
+name: Fission
+size: 5
+reload: 300
+type: itemTurret
+range: 336
+reload: 300
+recoil: 4
+targetGround: true
+targetAir: true
+ammoTypes: {
+  phase-fabric: {
+    bulletType: LaserBulletType
+    colors: #ff8632
+    damage: 1450
+    Length: 336
+    width: 24
+      }
+}
+requirements: [
+  beryllium/1600
+  silicon/900
+  graphite/750
+  carbide/400
+  phase-fabric/300
+  oxide/400
