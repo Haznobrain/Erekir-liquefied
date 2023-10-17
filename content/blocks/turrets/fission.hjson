@@ -7,6 +7,8 @@ reload: 300
 recoil: 4
 targetGround: true
 targetAir: true
+shootSound: laserbig
+loopSound: beam
 ammoTypes: {
   phase-fabric: {
     type: ContinuousLaserBulletType
