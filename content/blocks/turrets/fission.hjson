@@ -33,6 +33,9 @@ ammoTypes: {
       intervalSpread: 5
       shootSound: spark
       intervalAngle: 5
+      shoot: {
+      shots: 5
+          }
       }
       }
 }
