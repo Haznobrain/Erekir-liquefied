@@ -64,6 +64,20 @@ ammoTypes: {
     hitEffect: explosion
     reloadMultiplier: 1.5
   }
+nitrogen: {
+    type: LiquidBulletType
+    liquid: nitrogen
+    speed: 4.6
+    lifetime: 68
+    boilTime: 68
+    orbSize: 3
+    knockback: 3.6
+    damage: 54
+    status: freezing
+    statusDuration: 240
+    hitEffect: explosion
+    reloadMultiplier: 3
+  }
 }
 requirements: [
   beryllium/400
