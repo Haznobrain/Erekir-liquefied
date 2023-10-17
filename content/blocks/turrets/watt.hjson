@@ -23,3 +23,4 @@ requirements: [
   tungsten/150
   graphite/350
 ]
+category: turret
