@@ -23,3 +23,5 @@ requirements: [
   carbide/400
   phase-fabric/300
   oxide/400
+]
+category: turret
