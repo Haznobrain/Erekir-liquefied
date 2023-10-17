@@ -16,7 +16,7 @@ consumes: {
 } 
 shootType: {
   type: LightningBulletType
-  length: 140
+  length: 200
   width: 24
   damage: 340
 }
