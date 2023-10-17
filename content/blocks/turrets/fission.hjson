@@ -20,11 +20,12 @@ ammoTypes: {
     width: 24
     lifetime: 300
     intervalBullet: {
-      bulletInterval: 20
+      bulletInterval: 5
       type: LightningBulletType
       lightningLength: 45
       lightningColor: ff8632
       damage: 60
+      intervalSpread: 15
       }
       }
 }
