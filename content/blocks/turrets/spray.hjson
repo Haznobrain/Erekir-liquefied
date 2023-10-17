@@ -78,6 +78,23 @@ nitrogen: {
     hitEffect: explosion
     reloadMultiplier: 3
   }
+cyanogen: {
+    type: LiquidBulletType
+    liquid: cyanogen
+    speed: 5.2
+    lifetime: 68
+    boilTime: 68
+    orbSize: 12
+    knockback: 3.4
+    damage: 45
+    splashDamage: 95
+    splashDamageRadius: 64
+    status: burning
+    statusDuration: 600
+      makeFire: true
+    hitEffect: explosion
+    reloadMultiplier: 1.5
+  }
 }
 requirements: [
   beryllium/400
