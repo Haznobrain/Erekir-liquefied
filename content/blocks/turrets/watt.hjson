@@ -1,5 +1,5 @@
 name: Watt
-description: fires 3 powerful electric arcs at ennemy ground targets
+description: ionizes air to create a path for 3 powerful electric discharges to take to deal large damage to ground targets. Can optionally use nitrogen to help with the creation of the conductive plasma.
 targetAir: false
 targetGround: true
 type: PowerTurret
