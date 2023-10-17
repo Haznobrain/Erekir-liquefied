@@ -22,6 +22,12 @@ shootType: {
   damage: 340
 shootSound: lightning
 }
+coolantMultiplier: 2.7
+coolant: {
+  type: ConsumeLiquid
+  liquid: nitrogen
+  amount: 0.5
+}
 requirements: [
   beryllium/150
   silicon/450
