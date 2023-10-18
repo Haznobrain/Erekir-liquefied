@@ -1,2 +1,4 @@
 name: Amp
 description: rapidly fires a piercing laser at ennemy ground targets and ignores armor.
+size: 4 
+reload: 25
