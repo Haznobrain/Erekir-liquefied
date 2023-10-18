@@ -1,7 +1,7 @@
 name: Amp
 description: rapidly fires a long-range piercing laser at ennemy ground targets and ignores armor.
 size: 4 
-reload: 25
+reload: 12
 range: 432
 heatRequirement: 20
 maxHeatEfficiency: 2
