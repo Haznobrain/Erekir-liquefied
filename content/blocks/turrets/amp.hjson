@@ -9,10 +9,10 @@ type: PowerTurret
 rotateSpeed: 2.4
 recoil: 4
 shoot: {
-type: laserBulletType
 consumes: {
   power: 30
 } 
+shootType: laserBulletType
 length: 432
 width: 16
 damage: 96
