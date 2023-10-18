@@ -1,4 +1,26 @@
 name: Amp
-description: rapidly fires a piercing laser at ennemy ground targets and ignores armor.
+description: rapidly fires a long-range piercing laser at ennemy ground targets and ignores armor.
 size: 4 
 reload: 25
+range: 432
+heatRequirement: 20
+maxHeatEfficiency: 2
+type: PowerTurret
+rotateSpeed: 2.4
+recoil: 4
+shoot: {
+type: laserBulletType
+consumes: {
+  power: 30
+} 
+length: 432
+width: 16
+damage: 96
+}
+requirements: [
+beryllium/350
+graphite/600
+silicon/600
+tungsten/400
+carbide/200
+]
