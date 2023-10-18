@@ -21,6 +21,7 @@ ammoTypes: {
     colors: [ff8632,ff5032,ffaa32,ff4732]
     damage: 125
     length: 336
+    hitEffect: instHit
     width: 24
     lifetime: 300
     largeHit: true
