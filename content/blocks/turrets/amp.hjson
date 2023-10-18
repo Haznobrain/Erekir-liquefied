@@ -12,10 +12,12 @@ shoot: {
 consumes: {
   power: 30
 } 
-shootType: laserBulletType
-length: 432
-width: 16
-damage: 96
+shootType: {
+  type: LaserBulletType
+  lightningLength: 432
+  width: 16
+  damage: 95
+}
 }
 requirements: [
 beryllium/350
