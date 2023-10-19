@@ -113,6 +113,20 @@ arkycite: {
     lightningLength: 15
     lightningDamage: 24
   }
+azpanogen: {
+  type: LiquidBulletType
+  liquid: azpanogen
+  lifetime: 140
+  speed: 1.6
+  knockback: 3
+  splashDamage: 135
+  splashDamageRadius: 80
+  boilTime: 140
+  hitEffect: massiveExplosion
+      homingPower: 0.2
+      statusDuration: 600
+      status: melting
+  }
 neoplasm: {
     type: LiquidBulletType
     liquid: neoplasm
