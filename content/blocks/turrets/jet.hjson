@@ -159,6 +159,37 @@ fragBullet: {
       statusDuration: 240
       hitEffect: explosion
     }
+ azpanogen: {
+type: LiquidBulletType
+  liquid: azpanogen
+  lifetime: 70
+  speed: 5
+  knockback: 2
+  orbsize: 8
+  statusDuration: 600
+  status: melting
+  boilTime: 70
+  damage: 45
+  splashDamage: 70
+  splashDamageRadius: 100
+  reloadMultiplier: 1.5
+  fragBullets: 4
+  hitEffect: explosion
+fragBullet: {
+      collidesGround: true
+      splashDamage: 8
+      splashDamageRadius: 16
+      speed: 3
+      lifetime: 60
+      drag: 0.02
+      makeFire: true
+      status: burning
+      statusDuration: 240
+      hitEffect: explosion
+      width: 4
+      height: 8
+    }
+}
 }
 }
 requirements: [
