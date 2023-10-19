@@ -18,9 +18,7 @@ consumes: {
 shootType: {
   type: LightningBulletType
   lightningLength: 35
-  width: 24
   damage: 24O
-shootSound: lightning
 }
 coolantMultiplier: 2.7
 coolant: {
