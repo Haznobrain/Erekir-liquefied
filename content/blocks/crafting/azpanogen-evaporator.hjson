@@ -2,7 +2,7 @@ name: Azpanogen evaporator
 descrption: Creates azpanogen from silicon and hydrogen. Requires heating.
 type: HeatCrafter
 heatRequirment: 20
-outputLiquid: azpanogen/3
+outputLiquid: azpanogen/0.05
 craftTime: 60
 liquidCapacity: 60
 category: crafting
