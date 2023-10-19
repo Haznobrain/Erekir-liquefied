@@ -20,7 +20,7 @@ consumes: {
 }
   research: cyanogen-synthetizer
 requirements: [
-  berillium/150
+  beryllium/150
   silicon/200
   graphite/150
   oxide/50
