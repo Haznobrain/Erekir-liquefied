@@ -92,6 +92,16 @@ ammoTypes: {
     statusDuration: 240
     boilTime: 140
 }
+azpanogen: {
+  type: LiquidBulletType
+  liquid: azpanogen
+  lifetime: 140
+  speed: 1.6
+  knockback: 3
+  splashDamage: 115
+  splashDamageRadius: 80
+  boilTime: 140
+  }
   neoplasm: {
     type: LiquidBulletType
     liquid: neoplasm
