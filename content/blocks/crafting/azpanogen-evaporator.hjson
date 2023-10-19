@@ -35,6 +35,5 @@ drawer: [
   }
   {
     type: DrawRegion
-    suffix: -top
   }
 ]
