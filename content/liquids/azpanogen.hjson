@@ -1,0 +1,11 @@
+name: Azpanogen
+description: a reactive and hot gas that is used in different applications. Can be cooled to form azpacite.
+gas: true
+color: 00984e
+gasColor: 00984e
+flammability: 0.2
+temperature: 1
+heatCapacity: 0.6
+viscosity: 0.1
+explosiveness: 1
+research: cyanogen
