@@ -1,2 +1,40 @@
 name: Azpanogen evaporator
 descrption: Creates azpanogen from silicon and hydrogen. Requires heating.
+type: HeatCrafter
+heatRequirment: 20
+outputLiquid: azpanogen/3
+craftTime: 60
+liquidCapacity: 60
+category: crafting
+hasLiquids: true
+size: 3
+consumes: {
+  power: 6
+  items: [
+    silicon/2
+    ]
+  liquid: {
+    liquid: hydrogen
+    amount: 0.05
+  }
+}
+  research: cyanogen-synthetizer
+requirements: [
+  berillium/150
+  silicon/200
+  graphite/150
+  oxide/50
+  carbide/50
+]
+craftEffect: smoke
+drawer: [
+   {
+    type: DrawLiquidTile
+    drawLiquid: azpanogen
+    padding: 1
+  }
+  {
+    type: DrawRegion
+    suffix: -top
+  }
+]
