@@ -35,5 +35,6 @@ drawer: [
   }
   {
     type: DrawRegion
+    suffix: -liquid
   }
 ]
