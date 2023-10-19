@@ -27,7 +27,7 @@ requirements: [
   carbide/50
 ]
 craftEffect: smoke
-drawer: [
+drawer: {
    {
     type: DrawLiquidTile
     drawLiquid: azpanogen
@@ -37,4 +37,4 @@ drawer: [
     type: DrawRegion
     suffix: -top
   }
-]
+}
