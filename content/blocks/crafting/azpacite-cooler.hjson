@@ -8,7 +8,6 @@ craftTime: 120
 rotate: true
 consumes: {
   power: 2
-  liquid: {
 liquids: [
     nitrogen/0.125
     azpanogen/0.1
