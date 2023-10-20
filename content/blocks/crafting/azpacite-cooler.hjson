@@ -9,10 +9,10 @@ rotate: true
 consumes: {
   power: 2
   liquid: {
-    liquid: nitrogen
-    amount: 0.125
-    liquid: azpanogen
-    amount: 0.1
+liquids: [
+    nitrogen/0.125
+    azpanogen/0.1
+  ]
   }
 }
 heatOutput: 20
