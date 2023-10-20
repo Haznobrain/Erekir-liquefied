@@ -23,6 +23,8 @@ requirements: [
 drawer: [
    {
     type: DrawHeatRegion
-    suffix:-heat
+  }
+  {
+    type: DrawDefault
   }
   ]
