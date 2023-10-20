@@ -20,3 +20,10 @@ requirements: [
   tungsten/200
   carbide/25
 ]
+drawer: [
+   {
+    type: DrawHeatRegion
+    suffix:-heat
+  }
+  }
+]
