@@ -19,7 +19,7 @@ ammoTypes: {
   phase-fabric: {
     type: ContinuousLaserBulletType
     colors: [ff8632,ff5032,ffaa32,ff4732]
-    damage: 125
+    damage: 175
     length: 336
     hitEffect: instHit
     width: 24
@@ -47,6 +47,7 @@ requirements: [
   carbide/400
   phase-fabric/300
   oxide/400
+  azpacite/200
 ]
 category: turret
 research: smite
