@@ -5,9 +5,8 @@ outputItems: azpacite
 craftTime: 120
 rotate: true
 consumes:{
-  power: {
+  power: 
 2
-  }
   liquid: {
     liquid: nitrogen
     amount: 0,125
