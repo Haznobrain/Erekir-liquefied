@@ -10,7 +10,7 @@ rotateSpeed: 2.4
 recoil: 4
 shootSound: laser
 consumes: {
-  power: 30
+  power: 15
 } 
 shootType: {
 type: LaserBulletType
