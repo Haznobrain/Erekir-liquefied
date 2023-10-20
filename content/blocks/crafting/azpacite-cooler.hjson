@@ -10,9 +10,9 @@ consumes: {
   power: 2
   liquid: {
     liquid: nitrogen
-    amount: 0,12
+    amount: 0.125
     liquid: azpanogen
-    amount: 0,1
+    amount: 0.1
   }
 }
 heatOutput: 20
