@@ -13,7 +13,6 @@ liquids: [
     azpanogen/0.1
   ]
   }
-}
 heatOutput: 20
 requirements: [
   beryllium/100
