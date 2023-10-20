@@ -1,0 +1,23 @@
+type: HeatProducer
+name: Azpacite Cooler
+description: uses nitrogen in a powerful heatsink to cool azpanogen and crystallise it into azpacite.
+outputItems: azpacite
+craftTime: 120
+consumes: {
+  power: 2
+  liquid: {
+    liquid: nitrogen
+    amount: 0,125
+  }
+  liquid: {
+    liquid: azpanogen
+    amount: 0,1
+  }
+}
+heatOutput: 20
+requirements: [
+  beryllium/100
+  silicon/100
+  tungsten/200
+  carbide/25
+]
