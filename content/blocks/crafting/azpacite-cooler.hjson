@@ -4,8 +4,9 @@ description: uses nitrogen in a powerful heatsink to cool azpanogen and crystall
 outputItems: azpacite
 craftTime: 120
 consumes:{
-{
-  power: 2
+
+  power: {
+2
   }
   liquid: {
     liquid: nitrogen
