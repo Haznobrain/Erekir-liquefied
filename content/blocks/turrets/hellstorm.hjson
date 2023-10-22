@@ -30,6 +30,7 @@ despawnHit: true
         buildingDamageMultiplier: 0.3
         statusDuration: 360
         makeFire: true
+        boilTime: 1000000
           }
 }
 requirements: [
