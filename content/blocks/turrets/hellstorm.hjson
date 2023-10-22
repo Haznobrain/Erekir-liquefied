@@ -36,6 +36,28 @@ despawnHit: true
         boilTime: 24
         trailChance: 1
           }
+    hydrogen: {
+        damage: 45
+        speed: 8
+        lifetime: 24
+        effectColor: ff89a8
+        type: FireBulletType
+        colorFrom: b8fcff
+        colorMid: 73a1a3
+        colorTo: #111415
+        radius: 4
+        pierce: true
+        pierceCap: 10
+        hitEffect: fire
+        status: melting
+        buildingDamageMultiplier: 0.3
+        statusDuration: 360
+        makeFire: true
+        boilTime: 24
+        drag: 0.01
+        velMin: 7
+        velMax: 9
+          }
 }
 requirements: [
     beryllium/300
