@@ -33,7 +33,7 @@ despawnHit: true
         buildingDamageMultiplier: 0.3
         statusDuration: 360
         makeFire: true
-        boilTime: 24
+        boilTime: 1000000
         trailChance: 1
           }
     hydrogen: {
@@ -53,7 +53,51 @@ despawnHit: true
         buildingDamageMultiplier: 0.3
         statusDuration: 360
         makeFire: true
-        boilTime: 24
+        boilTime: 100000
+        drag: 0.01
+        velMin: 7
+        velMax: 9
+          }
+   cyanogen: {
+        damage: 65
+        speed: 8
+        lifetime: 24
+        effectColor: ff89a8
+        type: FireBulletType
+        colorFrom: 2d745b
+        colorMid: 2e5849
+        colorTo: 18201d
+        radius: 4
+        pierce: true
+        pierceCap: 10
+        hitEffect: fire
+        status: melting
+        buildingDamageMultiplier: 0.3
+        statusDuration: 360
+        makeFire: true
+        boilTime: 100000
+        drag: 0.01
+        velMin: 7
+        velMax: 9
+          }
+   azpanogen: {
+        damage: 70
+        speed: 8
+        lifetime: 24
+        effectColor: ff89a8
+        type: FireBulletType
+        colorFrom: 187227
+        colorMid: 265a2e
+        colorTo: 1c241d
+        radius: 4
+        pierce: true
+        pierceCap: 10
+        hitEffect: fire
+        status: melting
+        buildingDamageMultiplier: 0.3
+        statusDuration: 360
+        makeFire: true
+        boilTime: 100000
         drag: 0.01
         velMin: 7
         velMax: 9
