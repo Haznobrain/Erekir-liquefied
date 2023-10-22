@@ -31,7 +31,8 @@ despawnHit: true
         statusDuration: 360
         makeFire: true
         boilTime: 24
-        shootEffect: fire
+        shootEffect: shootPyraFlame
+        trailEffect: shootSmallFlame
           }
 }
 requirements: [
