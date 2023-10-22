@@ -14,6 +14,9 @@ recoil: 2
 shootSound: artillery
 loopSound: none
 despawnHit: true
+shoot: {
+    shots: 3
+  }
 ammoTypes: {
   slag: {
     type: LiquidBulletType
