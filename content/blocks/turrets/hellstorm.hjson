@@ -44,7 +44,7 @@ despawnHit: true
         type: FireBulletType
         colorFrom: b8fcff
         colorMid: 73a1a3
-        colorTo: #111415
+        colorTo: 111415
         radius: 4
         pierce: true
         pierceCap: 10
