@@ -7,6 +7,7 @@ range: 224
 rotateSpeed: 3
 liquidCapacity: 40
 targetAir: false
+inaccuracy: 5
 targetGround: true
 shootEffect: shootLiquid
 reload: 140
@@ -117,6 +118,7 @@ azpanogen: {
     splashDamage: 85
     splashDamageRadius: 65
     puddleSize: 65
+    homingPower: 0.1
     }
 nitrogen: {
   type: LiquidBulletType
