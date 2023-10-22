@@ -11,6 +11,8 @@ reload: 5
 recoil: 1
 shootSound: artillery
 loopSound: none
+shootEffect: shootPyraFlame
+trailEffect: shootSmallFlame
 inaccuracy: 15
 despawnHit: true
   ammoTypes:{
@@ -31,8 +33,6 @@ despawnHit: true
         statusDuration: 360
         makeFire: true
         boilTime: 24
-        shootEffect: shootPyraFlame
-        trailEffect: shootSmallFlame
           }
 }
 requirements: [
