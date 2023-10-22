@@ -7,7 +7,7 @@ health: 6450
 targetGround: true
 targetAir: false
 rotateSpeed: 2.8
-reload: 5
+reload: 2
 recoil: 1
 shootSound: artillery
 loopSound: none
