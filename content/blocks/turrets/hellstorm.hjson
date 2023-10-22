@@ -39,6 +39,7 @@ despawnHit: true
     hydrogen: {
         damage: 45
         speed: 8
+        trailEffect: shootSmallFlame
         lifetime: 24
         effectColor: ff89a8
         type: FireBulletType
@@ -60,6 +61,7 @@ despawnHit: true
           }
    cyanogen: {
         damage: 65
+        trailEffect: shootSmallFlame
         speed: 8
         lifetime: 24
         effectColor: ff89a8
@@ -84,6 +86,7 @@ despawnHit: true
         damage: 70
         speed: 8
         lifetime: 24
+        trailEffect: shootSmallFlame
         effectColor: ff89a8
         type: FireBulletType
         colorFrom: 187227
