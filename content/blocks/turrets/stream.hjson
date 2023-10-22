@@ -5,6 +5,7 @@ size: 3
 health: 3200
 range: 224
 rotateSpeed: 3
+liquidCapacity: 40
 targetAir: false
 targetGround: true
 shootEffect: shootLiquid
