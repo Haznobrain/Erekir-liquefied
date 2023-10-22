@@ -18,7 +18,7 @@ despawnHit: true
         damage: 50
         speed: 8
         lifetime: 24
-        type: FireBulletType
+        type: BulletType
         colorFrom: ff89a8
         colorMid: 723848
         colorTo: 0f090b
@@ -31,6 +31,7 @@ despawnHit: true
         statusDuration: 360
         makeFire: true
         boilTime: 24
+        shootEffect: fire
           }
 }
 requirements: [
