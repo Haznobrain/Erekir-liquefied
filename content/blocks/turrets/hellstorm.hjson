@@ -12,7 +12,6 @@ recoil: 1
 shootSound: artillery
 loopSound: none
 shootEffect: shootPyraFlame
-trailEffect: shootSmallFlame
 inaccuracy: 15
 despawnHit: true
   ammoTypes:{
@@ -20,6 +19,8 @@ despawnHit: true
         damage: 50
         speed: 8
         lifetime: 24
+        trailEffect: shootSmallFlame
+        effectColor: ff89a8
         type: BulletType
         colorFrom: ff89a8
         colorMid: 723848
