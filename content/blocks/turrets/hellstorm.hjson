@@ -1,0 +1,40 @@
+type: LiquidTurret
+name: Hellstorm
+description: shoots a powerful stream of flames at ennemy ground targets by combusting flammable gases.
+range: 192
+size: 3
+health: 6450
+targetGround: true
+targetAir: false
+rotateSpeed: 2.8
+reload: 5
+recoil: 1
+shootSound: artillery
+loopSound: none
+inaccuracy: 15
+despawnHit: true
+  ammoTypes:{
+    ozone: {
+        damage: 50
+        speed: 8
+        lifetime: 24
+        type: FireBulletType
+        colorFrom: ff89a8
+        colorMid: 723848
+        colorTo: 0f090b
+        radius: 4
+        pierce: true
+        pierceCap: 10
+        hitEffect: fire
+        status: melting
+        buildingDamageMultiplier: 0.3
+        statusDuration: 360
+        makeFire: true
+          }
+}
+requirements: [
+    beryllium/300
+    silicon/150
+    graphite/500
+    azapacite/25
+  ]
