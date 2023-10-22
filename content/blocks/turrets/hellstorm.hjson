@@ -34,6 +34,7 @@ despawnHit: true
         statusDuration: 360
         makeFire: true
         boilTime: 24
+        trailChance: 1
           }
 }
 requirements: [
