@@ -32,3 +32,4 @@ shootSound: MediumCannon
             buildingDamageMultiplier: 0.2
               }
     }
+}
