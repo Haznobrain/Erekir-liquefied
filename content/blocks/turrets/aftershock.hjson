@@ -33,3 +33,11 @@ shootSound: MediumCannon
               }
     }
 }
+requirements: [
+  beryllium/1500
+  tungsten/800
+  carbide/450
+  azpacite/300
+  phase-fabric/350
+  silicon/900
+]
