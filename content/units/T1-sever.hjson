@@ -9,9 +9,10 @@ targetAir: false
 faceTargets: true
 singleTarget: true
 fogRadius: 20
-engines: 
+engines: { 
 engineOffset: 1.2
 engineSize: 2
+}
   weapons: [{
     y: 4
     reload: 45
