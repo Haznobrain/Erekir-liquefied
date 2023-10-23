@@ -11,8 +11,10 @@ faceTargets: true
 singleTarget: true
 fogRadius: 20
 engineOffset: 5
+engineColor: d4816b
   weapons: [{
     y: 4
+    mirror: false
     x: 0
     reload: 45
     shootCone: 5
@@ -25,4 +27,4 @@ engineOffset: 5
       width: 3
         }
 }]
-layer: 65
+lowAltitude: true
