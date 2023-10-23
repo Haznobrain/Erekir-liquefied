@@ -2,6 +2,7 @@ name: Aftershock
 type: turret
 ammoPerShot: 6
 inaccuracy: 1
+size: 5
 reload: 80
 targetAir: false
 shootSound: MediumCannon
