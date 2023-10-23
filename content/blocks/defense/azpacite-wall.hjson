@@ -1,0 +1,10 @@
+name: Azpacite wall
+insulated: true
+health: 740
+absorbsLasers: true
+description: A small wall that absorbs ennemy bullets and stops laser projectiles.
+  requirements: [
+    azpacite/4
+    tungsten/2
+  ]
+  research: surge-wall
