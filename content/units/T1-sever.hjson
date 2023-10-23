@@ -1,6 +1,5 @@
 name: Sever
-type: Flying
-flying: true
+type: FlyingUnit
 description: a simple and fast air specialist that shoots a piercing laser at ennemy targets.
 health: 700
 hitSize: 10
