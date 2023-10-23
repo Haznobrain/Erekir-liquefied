@@ -4,6 +4,7 @@ flying: true
 description: a simple and fast air specialist that shoots a piercing laser at ennemy targets.
 health: 700
 hitSize: 10
+lowAltitude: true
 armor: 1
 speed: 2.13
 targetAir: false
@@ -27,4 +28,4 @@ engineColor: d4816b
       width: 3
         }
 }]
-lowAltitude: true
+
