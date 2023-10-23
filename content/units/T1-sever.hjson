@@ -34,5 +34,5 @@ research: elude
 parent: ship-fabricator
   requirements: [
     silicon/60
-    beryllium/60
+    graphite/60
     ]
