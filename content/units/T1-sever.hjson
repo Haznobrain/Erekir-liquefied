@@ -8,6 +8,7 @@ armor: 1
 speed: 2.13
 targetAir: false
 faceTargets: true
+lightRadius: 5
 singleTarget: true
 fogRadius: 20
 engineOffset: 5
