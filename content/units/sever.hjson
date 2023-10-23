@@ -1,0 +1,24 @@
+name: Sever
+type: flying
+description: a simple and fast air specialist that shoots a piercing laser at ennemy targets.
+health: 700
+hitSize: 10
+armor: 1
+speed: 2.13
+engineOffset: 1.2
+engineSize
+targetAir: false
+faceTargets: true
+singleTarget: true
+fogRadius: 20
+  weapons: 
+    y: 4
+    shootCone: 5
+    range: 96
+    bullet: {
+      type: LaserBulletType
+      damage: 25
+      pierceCap: 5
+      length: 96
+      width: 3
+        }
