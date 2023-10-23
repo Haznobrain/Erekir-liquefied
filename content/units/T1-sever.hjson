@@ -19,11 +19,11 @@ fogRadius: 20
     reload: 45
     shootCone: 5
     range: 96
-    bullet: 
+    bullet: {
       type: LaserBulletType
       damage: 25
       pierceCap: 5
       length: 96
       width: 3
-        
+        }
 ]
