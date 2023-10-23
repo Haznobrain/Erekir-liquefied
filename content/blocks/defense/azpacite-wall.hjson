@@ -1,5 +1,6 @@
 name: Azpacite wall
 insulated: true
+size: 1
 health: 740
 absorbsLasers: true
 description: A small wall that absorbs ennemy bullets and stops laser projectiles.
