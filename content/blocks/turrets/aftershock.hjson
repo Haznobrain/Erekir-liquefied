@@ -16,6 +16,9 @@ shootSound: mediumCannon
       speed: 4
       lifetime: 108
       buildingDamageMultiplier: 0.2
+      width: 16
+      height: 20
+      color: ffcbdd
       scaleLife: true
       hittable: false
       despawnHit: true
