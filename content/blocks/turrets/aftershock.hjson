@@ -11,7 +11,8 @@ shootSound: mediumCannon
   ammoTypes: {
     thorium: {
       type: ArtilleryBulletType
-      splashdamage: 85
+      damage: 0
+      splashDamage: 85
       splashDamageRadius: 80
       speed: 4
       lifetime: 108
@@ -22,11 +23,13 @@ shootSound: mediumCannon
       scaleLife: true
       hittable: false
       despawnHit: true
+      hitColor: ff0000
       hitShake: 1
       hitEffect: scatheExplosion
       fragBullets: 2
       fragBullet: {
             width: 12
+            hitColor: ff0000
             height: 16
             hitEffect: scatheExplosion
             lifetime: 45
