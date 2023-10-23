@@ -16,6 +16,7 @@ singleTarget: true
 fogRadius: 20
   weapons: {
     y: 4
+    reload: 45
     shootCone: 5
     range: 96
     bullet: {
