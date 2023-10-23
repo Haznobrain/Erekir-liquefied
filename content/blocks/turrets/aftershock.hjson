@@ -116,9 +116,10 @@ shootSound: mediumCannon
             fragBullets: 4
                   fragBullet: {
                   type: LightningBulletType
-                  lightningLength: 6
+                  lightningLength: 12
                   lightningColor: 567148
                   damage: 45
+                  lifetime: 15
                         }
               }
     }
