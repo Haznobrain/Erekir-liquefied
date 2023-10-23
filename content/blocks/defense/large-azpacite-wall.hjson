@@ -3,3 +3,9 @@ type: Wall
 description: A large wall that blocks incoming ennemy projectiles and stops lasers.
 health: 2960
 insulating: true
+absorbsLasers: true
+requirements: [
+  azpacite/16
+  tungsten/8
+]
+research: azpacite-wall
