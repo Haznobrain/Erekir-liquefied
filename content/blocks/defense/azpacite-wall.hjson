@@ -8,3 +8,5 @@ description: A small wall that absorbs ennemy bullets and stops laser projectile
     tungsten/2
   ]
   research: reinforced-surge-wall
+type: Wall
+category: defense
