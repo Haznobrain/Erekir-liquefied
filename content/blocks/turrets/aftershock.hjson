@@ -1,5 +1,5 @@
 name: Aftershock
-type: turret
+type: itemTurret
 ammoPerShot: 6
 inaccuracy: 1
 size: 5
