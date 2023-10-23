@@ -84,6 +84,44 @@ shootSound: mediumCannon
               }
     }
 }
+ azpacite: {
+      type: ArtilleryBulletType
+      damage: 0
+      splashDamage: 95
+      splashDamageRadius: 80
+      speed: 4
+      lifetime: 108
+      buildingDamageMultiplier: 0.2
+      width: 16
+      height: 20
+      color: ffcbdd
+      scaleLife: true
+      hittable: false
+      despawnHit: true
+      hitColor: 567148
+      hitShake: 1
+      hitEffect: scatheExplosion
+      fragBullets: 3
+      fragBullet: {
+            width: 12
+            hitColor: 567148
+            height: 16
+            hitEffect: scatheExplosion
+            lifetime: 45
+            speed: 3
+            type: ArtilleryBulletType
+            splashDamage: 315
+            splashDamageRadius: 80
+            buildingDamageMultiplier: 0.2
+            fragBullets: 4
+                  fragBullet: {
+                  type: LightningTypeBullet
+                  lightningLength: 6
+                  lightningColor: 567148
+                  damage: 45
+                        }
+              }
+    }
 }
 requirements: [
   beryllium/1500
