@@ -110,7 +110,7 @@ shootSound: mediumCannon
             lifetime: 45
             speed: 3
             type: ArtilleryBulletType
-            splashDamage: 315
+            splashDamage: 310
             splashDamageRadius: 80
             buildingDamageMultiplier: 0.2
             fragBullets: 4
@@ -118,7 +118,7 @@ shootSound: mediumCannon
                   type: LightningBulletType
                   lightningLength: 12
                   lightningColor: 567148
-                  damage: 45
+                  damage: 12
                   lifetime: 15
                         }
               }
