@@ -30,7 +30,7 @@ shootSound: mediumCannon
             height: 16
             hitEffect: scatheExplosion
             lifetime: 45
-            speed: 4
+            speed: 3
             type: ArtilleryBulletType
             splashDamage: 275
             splashDamageRadius: 80
