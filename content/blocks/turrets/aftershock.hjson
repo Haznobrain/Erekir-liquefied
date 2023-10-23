@@ -115,7 +115,7 @@ shootSound: mediumCannon
             buildingDamageMultiplier: 0.2
             fragBullets: 4
                   fragBullet: {
-                  type: LightningTypeBullet
+                  type: LightningBulletType
                   lightningLength: 6
                   lightningColor: 567148
                   damage: 45
