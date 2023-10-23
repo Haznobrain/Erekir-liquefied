@@ -6,14 +6,13 @@ health: 700
 hitSize: 10
 armor: 1
 speed: 2.13
-engines: {
-engineOffset: 1.2
-engineSize: 2
-}
 targetAir: false
 faceTargets: true
 singleTarget: true
 fogRadius: 20
+engines: 
+engineOffset: 1.2
+engineSize: 2
   weapons: [{
     y: 4
     reload: 45
