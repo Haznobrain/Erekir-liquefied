@@ -14,6 +14,7 @@ fogRadius: 20
 engineOffset: 5
 engineColor: d4816b
   weapons: [{
+    shootSound: laser
     y: 4
     mirror: false
     x: 0
@@ -29,3 +30,11 @@ engineColor: d4816b
         }
 }]
 lightRadius: 200
+{
+research: elude
+parent: ship-fabricator
+  requirements: [
+    silicon/60
+    beryllium/60
+    ]
+}
