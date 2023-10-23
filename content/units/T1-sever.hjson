@@ -14,7 +14,7 @@ targetAir: false
 faceTargets: true
 singleTarget: true
 fogRadius: 20
-  weapons: [
+  weapons: {[
     y: 4
     reload: 45
     shootCone: 5
@@ -26,4 +26,4 @@ fogRadius: 20
       length: 96
       width: 3
         }
-]
+]}
