@@ -23,12 +23,12 @@ shootSound: mediumCannon
       hittable: false
       despawnHit: true
       hitShake: 1
-      hitEffect: massiveExplosion
+      hitEffect: scatheExplosion
       fragBullets: 2
       fragBullet: {
             width: 12
             height: 16
-            hitEffect: massiveExplosion
+            hitEffect: scatheExplosion
             lifetime: 45
             speed: 4
             type: ArtilleryBulletType
