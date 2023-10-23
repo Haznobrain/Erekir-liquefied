@@ -115,3 +115,4 @@ requirements: [
     graphite/500
     azpacite/25
   ]
+category: turret
