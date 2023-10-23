@@ -5,7 +5,7 @@ inaccuracy: 1
 size: 5
 reload: 80
 targetAir: false
-shootSound: MediumCannon
+shootSound: mediumCannon
   recoil: 4
   range: 432
   ammoTypes: {
@@ -20,16 +20,17 @@ shootSound: MediumCannon
       hittable: false
       despawnHit: true
       hitShake: 1
+      hitEffect: massiveExplosion
       fragBullets: 2
       fragBullet: {
             width: 12
             height: 16
+            hitEffect: massiveExplosion
             lifetime: 45
             speed: 4
             type: ArtilleryBulletType
             splashDamage: 275
             splashDamageRadius: 80
-            hitEffect: MassiveExplosion
             buildingDamageMultiplier: 0.2
               }
     }
