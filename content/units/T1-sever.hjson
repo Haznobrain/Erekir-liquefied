@@ -16,6 +16,7 @@ engineSize: 2
 }
   weapons: [{
     y: 4
+    x: 0
     reload: 45
     shootCone: 5
     range: 96
