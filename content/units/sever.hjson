@@ -6,12 +6,12 @@ hitSize: 10
 armor: 1
 speed: 2.13
 engineOffset: 1.2
-engineSize
+engineSize: 2
 targetAir: false
 faceTargets: true
 singleTarget: true
 fogRadius: 20
-  weapons: 
+  weapons: {
     y: 4
     shootCone: 5
     range: 96
@@ -22,3 +22,4 @@ fogRadius: 20
       length: 96
       width: 3
         }
+}
