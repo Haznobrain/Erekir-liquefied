@@ -11,7 +11,7 @@ faceTargets: true
 singleTarget: true
 fogRadius: 20
 engines: { 
-engineOffset: 1.2
+engineOffset: 5
 engineSize: 2
 }
   weapons: [{
