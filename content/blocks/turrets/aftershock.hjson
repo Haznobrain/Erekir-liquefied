@@ -1,0 +1,34 @@
+name: Aftershock
+type: turret
+ammoPerShot: 6
+inaccuracy: 1
+reload: 80
+targetAir: false
+shootSound: MediumCannon
+  recoil: 4
+  range: 432
+  ammoTypes: {
+    thorium: {
+      type: ArtilleryBulletType
+      splashdamage: 85
+      splashDamageRadius: 80
+      speed: 4
+      lifetime: 108
+      buildingDamageMultiplier: 0.2
+      scaleLife: true
+      hittable: false
+      despawnHit: true
+      hitShake: 1
+      fragBullets: 2
+      fragBullet: {
+            width: 12
+            height: 16
+            lifetime: 45
+            speed: 4
+            type: ArtilleryBulletType
+            splashDamage: 275
+            splashDamageRadius: 80
+            hitEffect: MassiveExplosion
+            buildingDamageMultiplier: 0.2
+              }
+    }
