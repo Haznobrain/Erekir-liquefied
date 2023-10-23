@@ -23,13 +23,13 @@ shootSound: mediumCannon
       scaleLife: true
       hittable: false
       despawnHit: true
-      hitColor: ff0000
+      hitColor: ff5656
       hitShake: 1
       hitEffect: scatheExplosion
       fragBullets: 2
       fragBullet: {
             width: 12
-            hitColor: ff0000
+            hitColor: ff5656
             height: 16
             hitEffect: scatheExplosion
             lifetime: 45
@@ -40,6 +40,50 @@ shootSound: mediumCannon
             buildingDamageMultiplier: 0.2
               }
     }
+ phase-fabric: {
+      type: ArtilleryBulletType
+      damage: 0
+      splashDamage: 75
+      splashDamageRadius: 80
+      speed: 4
+      lifetime: 108
+      buildingDamageMultiplier: 0.2
+      width: 16
+      height: 20
+      color: ffcbdd
+      scaleLife: true
+      hittable: false
+      despawnHit: true
+      hitColor: ff5656
+      hitShake: 1
+      hitEffect: scatheExplosion
+      fragBullets: 2
+      fragBullet: {
+            width: 12
+            hitColor: ff5656
+            height: 16
+            hitEffect: scatheExplosion
+            lifetime: 45
+            speed: 3
+            type: ArtilleryBulletType
+            splashDamage: 265
+            splashDamageRadius: 80
+            buildingDamageMultiplier: 0.2
+            fragBullets: 2
+                  fragBullet: {
+                      width: 12
+                      hitColor: ff5656
+                      height: 16
+                      hitEffect: scatheExplosion
+                      lifetime: 45
+                      speed: 3
+                      type: ArtilleryBulletType
+                      splashDamage: 95
+                      splashDamageRadius: 64
+                      buildingDamageMultiplier: 0.2
+              }
+    }
+}
 }
 requirements: [
   beryllium/1500
