@@ -13,7 +13,7 @@ fogRadius: 20
 engines: 
 engineOffset: 1.2
 engineSize: 2
-  weapons: [{
+  weapons: [
     y: 4
     reload: 45
     shootCone: 5
@@ -25,4 +25,4 @@ engineSize: 2
       length: 96
       width: 3
         }
-}]
+]
