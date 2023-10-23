@@ -4,6 +4,7 @@ flying: true
 description: a simple and fast air specialist that shoots a piercing laser at ennemy targets.
 health: 700
 hitSize: 10
+constructor: ship-fabricator
 armor: 1
 speed: 2.13
 engines: {
