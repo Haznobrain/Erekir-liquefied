@@ -4,7 +4,7 @@ description: A large wall that blocks incoming ennemy projectiles and stops lase
 health: 2960
 insulating: true
 size: 2
-absorbsLasers: true
+absorbLasers: true
 requirements: [
   azpacite/16
   tungsten/8
