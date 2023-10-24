@@ -1,3 +1,52 @@
-name: laceration
-description: shoots a piercing continuous laser at ennemy targets as well as 2 smaller lasers.
-  
+name: Laceration
+type: flying
+flying: true
+description: Shoots a continuous laser and 2 smaller lasers at ennemy targets.
+health: 3400
+hitSize: 24
+armor: 6
+speed: 1.5
+targetAir: true
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 25
+engineOffset: 10
+engineSize: 8
+engineColor: d4816b
+  weapons: [
+{
+    shootSound: beam
+    y: 12
+    mirror: false
+    x: 0
+    reload: 45
+    shootCone: 5
+    range: 208
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 2
+      pierceCap: 25
+      length: 208
+      width: 8
+}
+}
+{
+    mirror: true
+    y: 12
+    x: -6
+    reload: 15
+    shootCone: 15
+    range: 160
+    shootSound: laser
+    bullet: {
+        type: LaserBulletType
+        color: 8ca9e8
+        pierce: true
+        pierceCap: 10
+        damage: 30
+     }     
+}
+  ]
+lightRadius: 208
+research: avert
