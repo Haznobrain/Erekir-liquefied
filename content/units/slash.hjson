@@ -28,7 +28,7 @@ engineColor: d4816b
       damage: 12.5
       pierceCap: 25
       length: 208
-      width: 8
+      width: 5
       lifetime: 240
       colors: [72e0ff, 72a8ff, 3b38ff, 725aff]
       shootSound: laserbig
