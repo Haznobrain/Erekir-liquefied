@@ -20,7 +20,7 @@ engineColor: d4816b
     y: 12
     mirror: false
     x: 0
-    reload: 45
+    reload: 480
     shootCone: 5
     range: 208
     bullet: {
@@ -29,6 +29,7 @@ engineColor: d4816b
       pierceCap: 25
       length: 208
       width: 8
+      lifetime: 240
 }
 }
 {
