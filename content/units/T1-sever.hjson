@@ -31,8 +31,3 @@ engineColor: d4816b
 }]
 lightRadius: 200
 research: elude
-parent: ship-fabricator
-  requirements: [
-    silicon/60
-    graphite/60
-    ]
