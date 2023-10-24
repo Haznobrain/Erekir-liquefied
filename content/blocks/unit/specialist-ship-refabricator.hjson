@@ -10,14 +10,13 @@ items: {
       silicon/80
       tungsten/60
     ]
-{
+
 liquid: {
     liquid: hydrogen
     amount: 0.05
 }
 }
   }
-}
 upgrades: [
 [
   T1-sever,
