@@ -15,7 +15,7 @@ engineOffset: 5
 engineColor: d4816b
   weapons: [
 {
-weapon: {  
+weapon: 
 name: cut
     shootSound: laser
     y: 6
@@ -30,9 +30,8 @@ name: cut
       pierceCap: 10
       length: 124
       width: 6
-        }
 }
-weapon: {
+weapon: 
   name: cut-weapon1
     mirror: true
     y: -4
@@ -50,7 +49,6 @@ weapon: {
         lifetime: 32
         speed: 5
           }
-}
 }
   ]
 lightRadius: 200
