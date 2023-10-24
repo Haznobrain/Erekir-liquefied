@@ -26,6 +26,7 @@ engineColor: d4816b
       type: ContinuousLaserBulletType
       damage: 34
       lifetime: 240
+      colors: [72e0ff, 72a8ff, 3b38ff, 725aff]
       length: 256
       width: 6
         }
