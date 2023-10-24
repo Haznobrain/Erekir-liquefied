@@ -25,6 +25,7 @@ engineColor: d4816b
     bullet: {
       type: ContinuousLaserBulletType
       damage: 34
+      lifetime: 240
       length: 256
       width: 6
         }
