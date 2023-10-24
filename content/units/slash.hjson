@@ -29,7 +29,10 @@ engineColor: d4816b
       length: 208
       width: 8
       lifetime: 240
+      colors: [72e0ff, 72a8ff, 3b38ff, 725aff]
       shootSound: beam
+      shootStatus: unmoving
+      shootStatusDuration: 240
 }
 }
 {
