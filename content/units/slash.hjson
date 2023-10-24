@@ -16,7 +16,6 @@ engineSize: 8
 engineColor: d4816b
   weapons: [
 {
-    shootSound: beam
     y: 12
     mirror: false
     x: 0
@@ -25,11 +24,12 @@ engineColor: d4816b
     range: 208
     bullet: {
       type: ContinuousLaserBulletType
-      damage: 2
+      damage: 12.5
       pierceCap: 25
       length: 208
       width: 8
       lifetime: 240
+      shootSound: beam
 }
 }
 {
