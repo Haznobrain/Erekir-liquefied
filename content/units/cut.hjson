@@ -17,7 +17,7 @@ engineColor: d4816b
 {
   name: cut
     shootSound: laser
-    y: 4
+    y: 6
     mirror: false
     x: 0
     reload: 45
@@ -33,16 +33,19 @@ engineColor: d4816b
   name: cut-weapon1
     mirror: true
     y: -4
-    x: -4
+    x: -6
     reload: 30
     shootCone: 15
     range: 160
+    shootSound: Missile
     bullet: {
         type: MissileBulletType
         color: 8ca9e8
         pierce: true
         pierceCap: 5
         damage: 20
+        lifetime: 32
+        speed: 5
           }
 }
   ]
