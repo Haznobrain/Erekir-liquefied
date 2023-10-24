@@ -11,7 +11,8 @@ faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 20
-engineOffset: 5
+engineOffset: 7
+engineSize: 6
 engineColor: d4816b
   weapons: [
 {
