@@ -21,6 +21,7 @@ engineColor: d4816b
     x: 0
     reload: 480
     shootCone: 5
+    continuous: true
     range: 208
     bullet: {
       type: ContinuousLaserBulletType
