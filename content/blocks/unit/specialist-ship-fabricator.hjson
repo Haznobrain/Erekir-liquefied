@@ -3,9 +3,9 @@ size: 3
 description: Produces Sever units using beryllium and silicon.
 type: unitFactory
 configurable: false
-  consumes: [
+  consumes: {
     power: 2
-  ]
+  }
 plans: [{
 unit: T1-sever
   requirements: [
