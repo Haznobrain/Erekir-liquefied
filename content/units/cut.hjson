@@ -1,0 +1,50 @@
+name: Incise
+type: flying
+flying: true
+description: A more bulky air specialist that shoots a piercing short-range laser and piercing medium-range homing missiles.
+health: 1200
+hitSize: 16
+armor: 3
+speed: 1.8
+targetAir: true
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 20
+engineOffset: 5
+engineColor: d4816b
+  weapons: [
+{
+  name: cut
+    shootSound: laser
+    y: 4
+    mirror: false
+    x: 0
+    reload: 45
+    shootCone: 5
+    range: 124
+    bullet: {
+      type: LaserBulletType
+      damage: 40
+      pierceCap: 10
+      length: 124
+      width: 6
+        }
+  name: cut-weapon1
+    mirror: true
+    y: -4
+    x: -4
+    reload: 30
+    shootCone: 15
+    range: 160
+    bullet: {
+        type: MissileBulletType
+        color: 8ca9e8
+        pierce: true
+        pierceCap: 5
+        damage: 20
+          }
+}
+  ]
+lightRadius: 200
+research: avert
