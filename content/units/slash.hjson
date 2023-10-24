@@ -23,6 +23,7 @@ engineColor: d4816b
     shootCone: 5
     continuous: true
     range: 208
+    shootSound: laserbig
     bullet: {
       type: ContinuousLaserBulletType
       damage: 12.5
@@ -31,7 +32,6 @@ engineColor: d4816b
       width: 5
       lifetime: 240
       colors: [72e0ff, 72a8ff, 3b38ff, 725aff]
-      shootSound: laserbig
 }
 }
 {
