@@ -5,13 +5,14 @@ description: A strong specialist air unit that shoots a powerful long-range pier
 health: 7100
 hitSize: 24
 armor: 9
-speed: 2.13
+speed: 1.06
 targetAir: false
 faceTargets: true
 lightRadius: 5
 singleTarget: true
-fogRadius: 20
-engineOffset: 5
+fogRadius: 32
+engineOffset: 12
+engineSize: 10
 engineColor: d4816b
   weapons: [{
     shootSound: beam
@@ -28,5 +29,5 @@ engineColor: d4816b
       width: 6
         }
 }]
-lightRadius: 200
+lightRadius: 256
 research: quell
