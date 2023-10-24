@@ -29,6 +29,7 @@ engineColor: d4816b
       length: 124
       width: 6
 }
+{
   name: cut-weapon1
     mirror: true
     y: -4
@@ -46,6 +47,7 @@ engineColor: d4816b
         lifetime: 32
         speed: 5
           }
+}
 }
   ]
 lightRadius: 200
