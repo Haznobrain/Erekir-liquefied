@@ -1,6 +1,6 @@
 name: Specialist ship refabricator
 size: 3
-type: UnitFactory
+type: Reconstructor
 configurable: false
 category: units
   consumes: {
@@ -10,9 +10,11 @@ items: {
       silicon/80
       tungsten/60
     ]
+{
 liquid: {
     liquid: hydrogen
     amount: 0.05
+}
 }
   }
 }
