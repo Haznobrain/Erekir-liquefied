@@ -1,0 +1,20 @@
+  consumes: {
+    power: 5
+items: {
+    items: [
+      silicon/100
+      thorium/80
+    ]
+
+liquid: {
+    liquid: nitrogen
+    amount: 10/60
+}
+}
+  }
+upgrades: [
+[
+  cut,
+  slash
+]
+]
