@@ -17,7 +17,7 @@ liquid: {
   }
 }
 upgrades: [
-  T1-sever
+  T1-sever,
   cut
 ]
 requirements: [
