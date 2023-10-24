@@ -15,6 +15,7 @@ liquid: {
     amount: 0.05
 }
   }
+}
 upgrades: [
   T1-sever
   cut
