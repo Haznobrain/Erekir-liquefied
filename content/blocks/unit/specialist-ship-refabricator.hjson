@@ -1,3 +1,26 @@
 name: Specialist ship refabricator
 size: 3
 type: UnitFactory
+configurable: false
+category: units
+  consumes: {
+    power: 2
+items: {
+    items: [
+      silicon/80
+      tungsten/60
+    ]
+liquid: {
+    liquid: hydrogen
+    amount: 0.05
+}
+  }
+upgrades: [
+  T1-sever
+  cut
+]
+requirements: [
+  tungsten/150
+  oxide/60
+  silicon/250
+]
