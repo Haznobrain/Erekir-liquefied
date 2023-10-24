@@ -33,3 +33,16 @@ engineColor: d4816b
 }]
 lightRadius: 256
 research: quell
+abilities: [
+{
+type: EnergyFieldAbility
+statusDuration: 300
+maxTargets: 25
+damage: 50
+range: 176
+color: d1efff
+reload: 45
+healPercent: 0
+sectors: 6
+}
+]
