@@ -1,1 +1,32 @@
-
+name: Dismember
+type: flying
+flying: true
+description: A strong specialist air unit that shoots a powerful long-range piercing lasers at ennemy targets while having an electric field.
+health: 7100
+hitSize: 24
+armor: 9
+speed: 2.13
+targetAir: false
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 20
+engineOffset: 5
+engineColor: d4816b
+  weapons: [{
+    shootSound: beam
+    y: 16
+    mirror: false
+    x: 0
+    reload: 360
+    continuous: true
+    range: 256
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 34
+      length: 256
+      width: 6
+        }
+}]
+lightRadius: 200
+research: quell
