@@ -47,8 +47,7 @@ engineColor: d4816b
         damage: 20
         lifetime: 32
         speed: 5
-          }
-}
+     }     
 }
   ]
 lightRadius: 200
