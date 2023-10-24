@@ -15,7 +15,6 @@ engineOffset: 5
 engineColor: d4816b
   weapons: [
 {
-weapon: 
 name: cut
     shootSound: laser
     y: 6
@@ -31,7 +30,10 @@ name: cut
       length: 124
       width: 6
 }
-weapon: 
+}
+]
+weapons: [
+{
   name: cut-weapon1
     mirror: true
     y: -4
