@@ -13,6 +13,7 @@ unit: T1-sever
     beryllium/80
   ]
 time: 2700
+]
 category: units
 requirements: [
     beryllium/200
