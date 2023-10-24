@@ -38,7 +38,7 @@ engineColor: d4816b
     reload: 30
     shootCone: 15
     range: 160
-    shootSound: Missile
+    shootSound: missile
     bullet: {
         type: MissileBulletType
         color: 8ca9e8
