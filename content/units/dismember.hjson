@@ -42,7 +42,7 @@ damage: 50
 range: 176
 color: d1efff
 reload: 45
-healPercent: 0
+healPercent: 0.5
 sectors: 6
 }
 ]
