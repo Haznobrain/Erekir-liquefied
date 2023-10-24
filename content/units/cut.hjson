@@ -49,6 +49,7 @@ weapon: {
         speed: 5
           }
 }
+}
   ]
 lightRadius: 200
 research: avert
