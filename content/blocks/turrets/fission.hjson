@@ -24,9 +24,9 @@ ammoTypes: {
     hitEffect: instHit
     width: 24
     lifetime: 300
+    bulletInterval: 5
     largeHit: true
     intervalBullet: {
-      bulletInterval: 5
       type: LightningBulletType
       lightningLength: 45
       lightningColor: ff8632
