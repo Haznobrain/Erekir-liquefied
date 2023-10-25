@@ -38,7 +38,7 @@ engineColor: d4816b
   name: amputate-point-defense
     type: PointDefenseWeapon
     mirror: true
-    y: -8
+    y: -5
     rotate: true
     x: -12
     reload: 2
