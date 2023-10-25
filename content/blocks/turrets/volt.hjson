@@ -6,12 +6,13 @@ type: LiquidTurret
 ammoPerShot: 30
 targetAir: false
 targetGround: true
+loopSound: none
 consumes: {
 power: 34
   }
 ammoTypes: {
   hydrogen: {
-      spawn: missile-volt
+      spawn: erekirliquefied-volt-missile
         }
 }
 range: 576
