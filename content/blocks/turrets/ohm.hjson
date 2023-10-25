@@ -35,3 +35,12 @@ ammoTypes: {
 }
 }
 }
+requirements: [
+    beryllium/2000
+    graphite/1500
+    tungsten/1100
+    surge-alloy/450
+    carbide/750
+    phase-fabric/600
+    azpacite/600
+]
