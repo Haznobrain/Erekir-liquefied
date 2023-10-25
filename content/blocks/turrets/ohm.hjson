@@ -55,4 +55,7 @@ drawer: [
   type: DrawHeatRegion
   color: d1efff
 }
+{
+type: DrawDefault
+}
 ]
