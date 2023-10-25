@@ -51,7 +51,7 @@ engineColor: d4816b
 {
 name: amputate-weapon2
     mirror: true
-    y: -8
+    y: -2
     x: -8
     rotate: true
     reload: 10
