@@ -1,4 +1,5 @@
 name: Sever
+template: ErekirUnitType
 type: flying
 flying: true
 description: a simple and fast air specialist that shoots a piercing laser at ennemy targets.
