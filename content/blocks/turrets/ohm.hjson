@@ -29,10 +29,12 @@ ammoTypes: {
               splashDamage: 150
               splashDamageRadius: 40
                   fragBullets: 6
+                  fragRandomSpread: 45
                     fragBullet: {
                       type: LightningBulletType
                       lightningLength: 15
                       damage: 40
+                      lightiningColor: f6ff69
                       }
 }
 }
