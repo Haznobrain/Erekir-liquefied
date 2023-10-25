@@ -1,8 +1,8 @@
 name: Laser frag test
 size: 4
 type: ContinuousTurret
-ammoTypes:
-nitrogen:
+ammoTypes: {
+nitrogen:{
 type: PointLaserBulletType
 damage: 0
    bulletInterval: 5
@@ -21,6 +21,8 @@ damage: 0
               length: 96
               width: 8
               }
+}
+}
 }
 }
 requirements: [
