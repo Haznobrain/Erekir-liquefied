@@ -46,6 +46,24 @@ engineColor: d4816b
     rotateSpeed: 360
     bulletDamage: 100
 }
+{
+name: amputate-weapon2
+    mirror: true
+    y: 14
+    x: -8
+    reload: 10
+    shootCone: 15
+    range: 200
+    shootSound: laser
+    bullet: {
+        type: LaserBulletType
+        length: 200
+        color: 8ca9e8
+        pierce: true
+        pierceCap: 10
+        damage: 40
+     }     
+}
 ]
 lightRadius: 360
 research: disrupt
