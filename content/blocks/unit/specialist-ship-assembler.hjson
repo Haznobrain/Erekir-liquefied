@@ -14,8 +14,8 @@ plans: [ {
   unit: dismember
   time: 3600
   requirements: [
-    sever/4
-    large-tungsten-wall/12
+    T1-sever/4
+    tungstenWallLarge/12
     ]
  } ]
 requirements: [
