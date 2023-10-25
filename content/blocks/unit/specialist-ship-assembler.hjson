@@ -1,5 +1,7 @@
 type: UnitAssembler
   size: 5
+name: Specialist ship assembler
+description: assembles large specialist ships using payload as inputs. Requires cyanogen.
 areaSize: 11
   consumes: {
     power: 10
@@ -18,3 +20,9 @@ plans: [ {
     ]
     }
  } ]
+requirements: [
+  graphite/500
+  silicon/400
+  tungsten/250
+  carbide/80
+]
