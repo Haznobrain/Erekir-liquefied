@@ -4,4 +4,8 @@ type: LiquidTurret
 consumes: {
   nitrogen: 0.25
     }
-shootType:
+shootType: {
+type: PointLaserBulletType
+damage: 0
+  
+}
