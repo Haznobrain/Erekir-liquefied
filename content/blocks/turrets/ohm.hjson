@@ -4,7 +4,8 @@ description: Fires a powerful electrically charged bullet that constantly sheds 
 size: 6
 reload: 180
 range: 480
-shootSound: 
+shootSound: shootBig
+shootEffect: shootBig
 consumes: {
   power: 44
   }
