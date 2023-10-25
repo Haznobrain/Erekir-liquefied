@@ -14,12 +14,14 @@ ammoTypes: {
         splashDamage: 450
         splashDamageRadius: 104
         bulletInterval: 5
-        speed: 6
-        lifetime: 80
+        speed: 4
+        width: 24
+        height: 30
+        lifetime: 120
         bulletInterval: 4
           intervalBullet: {
               type: ArtilleryBulletType
-              width: 12
+              width: 20
               height: 6
               damage: 85
               speed: 2
