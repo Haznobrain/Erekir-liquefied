@@ -53,7 +53,7 @@ maxTargets: 20
 damage: 50
 range: 150
 color: d1efff
-reload: 30
+reload: 10
 healPercent: 0.5
 sectors: 4
 }]
