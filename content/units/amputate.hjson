@@ -1,0 +1,49 @@
+name: Amputate
+type: flying
+flying: true
+description: A powerful unit that has an electric field and shoots a long-range continuous laser wich pierces dealing very high damage.
+health: 14000
+template: ErekirUnitType
+hitSize: 144
+armor: 10
+speed: 0.8
+targetAir: true
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 40
+engineOffset: 16
+engineSize: 16
+engineColor: d4816b
+  weapons: [{
+    shootSound: beam
+    y: 16
+    mirror: false
+    x: 0
+    reload: 360
+    continuous: true
+    range: 304
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 62.5
+      lifetime: 360
+      colors: [72e0ff, 72a8ff, 3b38ff, 725aff]
+      length: 304
+      width: 16
+        }
+}]
+lightRadius: 256
+research: quell
+abilities: [
+{
+type: EnergyFieldAbility
+statusDuration: 300
+maxTargets: 25
+damage: 50
+range: 200
+color: d1efff
+reload: 45
+healPercent: 0.5
+sectors: 6
+}
+]
