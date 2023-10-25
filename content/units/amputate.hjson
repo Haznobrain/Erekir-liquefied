@@ -5,6 +5,7 @@ description: A powerful unit that has an electric field and shoots a long-range 
 health: 14000
 template: ErekirUnitType
 hitSize: 36
+rotateSpeed: 1.5
 armor: 10
 speed: 0.8
 targetAir: true
