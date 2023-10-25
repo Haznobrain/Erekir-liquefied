@@ -3,11 +3,35 @@ type: ItemTurret
 description: Fires a powerful electrically charged bullet that constantly sheds off layers of explosive charged plasma and fragments upon impact. Requires large amounts of power.
 size: 6
 reload: 180
+range: 480
 consumes: {
   power: 44
   }
 ammoTypes: {
     surge-alloy: {
         damage: 250
+        type: ArtilleryBulletType
         splashDamage: 450
-        
+        splashDamageRadius: 104
+        bulletInterval: 5
+        speed: 6
+        lifetime: 80
+        bulletInterval: 4
+          intervalBullet: {
+              type: ArtilleryBulletType
+              width: 12
+              height: 6
+              damage: 85
+              speed: 2
+              lifetime: 60
+              splashDamage: 150
+              splashDamageRadius: 40
+                  fragBullets: 6
+                    fragBullet: {
+                      type: LightningBulletType
+                      lightningLength: 15
+                      damage: 40
+                      }
+}
+}
+}
