@@ -19,6 +19,7 @@ ammoTypes: {
         splashDamageRadius: 104
         bulletInterval: 5
         speed: 4
+        hittable: false
         width: 24
         height: 30
         lifetime: 120
@@ -29,6 +30,7 @@ ammoTypes: {
               width: 20
               height: 6
               damage: 85
+              hittable: false
               speed: 2
               lifetime: 60
               splashDamage: 150
@@ -49,6 +51,7 @@ ammoTypes: {
               splashDamage: 80
               splashDamageRadius: 40
               homingPower: 1
+              hittable: false
               fragRandomSpread: 0
                 fragBullets: 1
                     fragBullet: {
