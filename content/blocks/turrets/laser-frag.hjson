@@ -1,0 +1,7 @@
+name: Laser frag test
+size: 4
+type: LiquidTurret
+consumes: {
+  nitrogen: 0.25
+    }
+shootType:
