@@ -4,6 +4,7 @@ description: Fires a powerful electrically charged bullet that constantly sheds 
 size: 6
 reload: 180
 range: 480
+heatColor: d1efff
 recoil: 3
 shootSound: shootBig
 shootEffect: shootBig
@@ -50,14 +51,4 @@ requirements: [
     carbide/750
     phase-fabric/600
     azpacite/600
-]
-drawer: [
-{
-  type: DrawHeatRegion
-  color: d1efff
-  suffix: -heat
-}
-{
-type: DrawDefault
-}
 ]
