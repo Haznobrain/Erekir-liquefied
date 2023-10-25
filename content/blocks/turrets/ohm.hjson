@@ -59,7 +59,6 @@ ammoTypes: {
 }
 }
 }
-}
 requirements: [
     beryllium/2000
     graphite/1500
