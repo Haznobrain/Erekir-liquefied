@@ -1,0 +1,16 @@
+name: Volt
+description: fires an electrically charged long-range missile that carries a strong ectric field.
+size: 5
+reload: 120
+type: LiquidTurret
+ammoPerShot: 30
+targetAir: false
+targetGround: true
+consumes: {
+power: 34
+  }
+ammoTypes:
+  hydrogen: {
+      spawn: missile-volt
+        }
+range: 576
