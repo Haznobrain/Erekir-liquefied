@@ -20,7 +20,7 @@ engineColor: d4816b
     y: 16
     mirror: false
     x: 0
-    reload: 360
+    reload: 330
     continuous: true
     range: 256
     bullet: {
