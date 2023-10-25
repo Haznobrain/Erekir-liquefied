@@ -15,7 +15,7 @@ fogRadius: 40
 engineOffset: 16
 engineSize: 16
 engineColor: d4816b
-  weapons: [{
+  weapons: [
 {
     shootSound: beam
     y: 16
@@ -46,7 +46,7 @@ engineColor: d4816b
     rotateSpeed: 16
     bulletDamage: 70
 }
-}]
+]
 lightRadius: 360
 research: disrupt
 abilities: [
