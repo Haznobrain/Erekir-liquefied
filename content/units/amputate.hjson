@@ -39,6 +39,7 @@ engineColor: d4816b
     type: PointDefenseWeapon
     mirror: true
     y: -8
+    rotate: true
     x: -12
     reload: 2
     shootCone: 20
@@ -52,6 +53,7 @@ name: amputate-weapon2
     mirror: true
     y: -8
     x: -8
+    rotate: true
     reload: 10
     shootCone: 360
     range: 200
