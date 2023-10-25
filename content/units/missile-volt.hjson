@@ -1,5 +1,5 @@
-type: MissileUnitType
-type: flying
+type: missile
+template: MissileUnitType
 speed: 0.8
 flying: true
 health: 300
