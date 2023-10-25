@@ -39,8 +39,8 @@ engineColor: d4816b
     mirror: true
     y: -8
     x: -12
-    reload: 6
-    shootCone: 360
+    reload: 3
+    shootCone: 20
     range: 256
     shootLength: 256
     rotateSpeed: 16
