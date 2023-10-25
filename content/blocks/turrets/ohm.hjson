@@ -3,6 +3,11 @@ type: ItemTurret
 description: Fires a powerful electrically charged bullet that constantly sheds off layers of explosive charged plasma and fragments upon impact. Requires large amounts of power.
 size: 6
 reload: 180
-consumes: [
+consumes: {
   power: 44
-  ]
+  }
+ammoTypes: {
+    surge-alloy: {
+        damage: 250
+        splashDamage: 450
+        
