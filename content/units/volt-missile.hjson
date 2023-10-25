@@ -45,3 +45,16 @@ splashDamage: 340
 splashDamageRadius: 120
   }
 }]
+abilities: [
+{
+type: EnergyFieldAbility
+statusDuration: 300
+maxTargets: 20
+damage: 50
+range: 150
+color: d1efff
+reload: 30
+healPercent: 0.5
+sectors: 4
+}
+]
