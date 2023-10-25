@@ -29,11 +29,11 @@ weapons: [{
           killShooter: true
             hitEffect: {
                 type: MultiEffect
-                effects: {
+                effects: [
 massiveExplosion
 scatheExplosion
 scatheLight
-}
+]
           }
 shootSound: none
 type: ExplosionBulletType
