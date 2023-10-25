@@ -20,6 +20,8 @@ ammoTypes: {
         bulletInterval: 5
         speed: 4
         hittable: false
+        backColor: ffec00
+        frontColor: fff78d
         width: 24
         height: 30
         lifetime: 120
