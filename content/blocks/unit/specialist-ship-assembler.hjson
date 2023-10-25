@@ -1,0 +1,20 @@
+type: UnitAssembler
+  size: 5
+areaSize: 11
+  consumes: {
+    power: 10
+      liquids: [
+      cyanogen/0.15
+    ]
+      }
+plans: [
+{
+  type: UnitAssemblerPlan
+  unit: dismember
+  time: 3600
+  requirements: [
+    sever/4
+    large-tungsten-wall/12
+    ]
+    }
+  ]
