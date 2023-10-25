@@ -14,7 +14,7 @@ plans: [ {
   unit: dismember
   time: 3600
   requirements: [
-    erekir-liquefied-T1-sever/4
+    erekirliquefied-T1-sever/4
     tungsten-wall-large/12
     ]
  } ]
