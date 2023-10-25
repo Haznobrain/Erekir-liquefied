@@ -71,3 +71,6 @@ requirements: [
     azpacite/600
 ]
 category: turret
+research: malign
+research: origin
+research: phase-fabric
