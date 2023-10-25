@@ -2,8 +2,11 @@ name: Laser frag test
 size: 4
 type: LiquidTurret
 consumes: {
-  nitrogen: 0.25
+liquids: {
+ liquid: nitrogen
+  amount: 0.25
     }
+}
 shootType: {
 type: PointLaserBulletType
 damage: 0
