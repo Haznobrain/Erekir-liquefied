@@ -15,7 +15,7 @@ plans: [ {
   time: 3600
   requirements: [
     erekir-liquefied-T1-sever/4
-    tungsten-Wall-Large/12
+    tungsten-wall-large/12
     ]
  } ]
 requirements: [
