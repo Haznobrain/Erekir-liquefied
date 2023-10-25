@@ -1,4 +1,5 @@
 type: MissileUnitType
+type: flying
 speed: 0.4
 flying: true
 health: 300
