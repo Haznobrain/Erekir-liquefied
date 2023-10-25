@@ -22,7 +22,7 @@ ammoTypes: {
         width: 24
         height: 30
         lifetime: 120
-        bulletInterval: 4
+        bulletInterval: 3
         intervalRandomSpread: 45
           intervalBullet: {
               type: ArtilleryBulletType
@@ -33,6 +33,7 @@ ammoTypes: {
               lifetime: 60
               splashDamage: 150
               splashDamageRadius: 40
+              homingPower: 0.3
                   fragBullets: 6
                     fragBullet: {
                       type: LightningBulletType
@@ -40,6 +41,22 @@ ammoTypes: {
                       damage: 40
                       lightningColor: f6ff69
                       }
+}
+      fragBullets: 15
+          fragBullet: {
+              type: ArtilleryBulletType
+              splashDamage: 80
+              splashDamageRadius: 40
+              homingPower: 1
+                fragBullets: 1
+                    fragBullet: {
+                      type: LaserBulletType
+                      damage: 40
+                      length: 80
+                      width: 4
+                      colors: [f6ff69, fcff47, fdff76]
+}
+}
 }
 }
 }
