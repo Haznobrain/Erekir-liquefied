@@ -1,6 +1,6 @@
 type: missile
 template: MissileUnitType
-speed: 0.8
+speed: 2.13
 flying: true
 health: 300
 hitSize: 10
