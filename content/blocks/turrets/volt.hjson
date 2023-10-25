@@ -9,8 +9,9 @@ targetGround: true
 consumes: {
 power: 34
   }
-ammoTypes:
+ammoTypes: {
   hydrogen: {
       spawn: missile-volt
         }
+}
 range: 576
