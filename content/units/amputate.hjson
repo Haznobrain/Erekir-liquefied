@@ -16,6 +16,7 @@ engineOffset: 16
 engineSize: 16
 engineColor: d4816b
   weapons: [{
+{
     shootSound: beam
     y: 16
     mirror: false
@@ -31,6 +32,7 @@ engineColor: d4816b
       length: 304
       width: 16
         }
+}
 {
   name: amputate-point-defense
     type: PointDefenseWeapon
