@@ -24,7 +24,6 @@ damage: 0
 }
 }
 }
-}
 requirements: [
   beryllium/1
 ]
