@@ -3,6 +3,7 @@ type: flying
 flying: true
 description: A strong specialist air unit that shoots a powerful long-range piercing lasers at ennemy targets while having an electric field.
 health: 7100
+template: ErekirUnitType
 hitSize: 24
 armor: 9
 speed: 1.06
@@ -39,7 +40,7 @@ type: EnergyFieldAbility
 statusDuration: 300
 maxTargets: 25
 damage: 50
-range: 176
+range: 200
 color: d1efff
 reload: 45
 healPercent: 0.5
