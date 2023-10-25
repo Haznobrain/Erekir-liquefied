@@ -10,13 +10,24 @@ areaSize: 11
     ]
       }
 plans: [ {
-  type: UnitAssemblerPlan
+{
+type: UnitAssemblerPlan
   unit: dismember
   time: 3600
   requirements: [
     erekirliquefied-T1-sever/4
     tungsten-wall-large/12
     ]
+}
+{
+type: UnitAssemblerPlan
+  unit: amputate
+      time: 10800
+        requirements: [
+          erekirLiquefied-cut/4
+          carbide-wall-large/20
+]
+}
  } ]
 requirements: [
   graphite/500
@@ -24,3 +35,4 @@ requirements: [
   tungsten/250
   carbide/80
 ]
+category: unit
