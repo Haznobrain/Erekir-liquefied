@@ -49,10 +49,10 @@ engineColor: d4816b
 {
 name: amputate-weapon2
     mirror: true
-    y: 14
+    y: -8
     x: -8
     reload: 10
-    shootCone: 15
+    shootCone: 360
     range: 200
     shootSound: laser
     bullet: {
