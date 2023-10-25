@@ -12,7 +12,7 @@ power: 34
   }
 ammoTypes: {
   hydrogen: {
-      spawnUnit: missile-volt
+      spawnUnit: erekirliquefied-missile-volt
 }
 }
 range: 576
