@@ -5,6 +5,7 @@ description: Shoots a continuous laser and 2 smaller lasers at ennemy targets.
 health: 3400
 hitSize: 24
 armor: 6
+template: ErekirUnitType
 speed: 1.5
 targetAir: true
 faceTargets: true
