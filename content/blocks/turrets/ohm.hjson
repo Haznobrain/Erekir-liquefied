@@ -51,7 +51,9 @@ requirements: [
     azpacite/600
 ]
 drawer: [
+{
   type: DrawHeatRegion
   color: d1efff
   suffix: -heat
+}
 ]
