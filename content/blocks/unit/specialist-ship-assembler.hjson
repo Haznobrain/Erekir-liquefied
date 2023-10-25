@@ -7,7 +7,7 @@ areaSize: 11
       cyanogen/0.15
     ]
       }
-plans: [
+plans: [ {
 {
   type: UnitAssemblerPlan
   unit: dismember
@@ -17,4 +17,4 @@ plans: [
     large-tungsten-wall/12
     ]
     }
-  ]
+ } ]
