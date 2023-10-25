@@ -1,6 +1,7 @@
 name: Incise
 type: flying
 flying: true
+template: ErekirUnitType
 description: A more bulky air specialist that shoots a piercing short-range laser and piercing medium-range homing missiles.
 health: 1200
 hitSize: 16
