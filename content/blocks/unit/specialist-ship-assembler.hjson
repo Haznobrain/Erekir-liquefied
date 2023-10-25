@@ -9,7 +9,7 @@ areaSize: 11
       cyanogen/0.15
     ]
       }
-plans: [ {
+plans: [ 
 {
 type: UnitAssemblerPlan
   unit: dismember
@@ -28,7 +28,7 @@ type: UnitAssemblerPlan
           carbide-wall-large/20
 ]
 }
- } ]
+  ]
 requirements: [
   graphite/500
   silicon/400
