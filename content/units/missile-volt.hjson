@@ -1,6 +1,6 @@
 type: MissileUnitType
 type: flying
-speed: 0.4
+speed: 0.8
 flying: true
 health: 300
 hitSize: 10
