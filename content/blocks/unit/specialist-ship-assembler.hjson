@@ -10,7 +10,6 @@ areaSize: 11
     ]
       }
 plans: [ {
-{
   type: UnitAssemblerPlan
   unit: dismember
   time: 3600
@@ -18,7 +17,6 @@ plans: [ {
     sever/4
     large-tungsten-wall/12
     ]
-    }
  } ]
 requirements: [
   graphite/500
