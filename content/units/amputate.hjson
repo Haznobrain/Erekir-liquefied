@@ -4,7 +4,7 @@ flying: true
 description: A powerful unit that has an electric field and shoots a long-range continuous laser wich pierces dealing very high damage.
 health: 14000
 template: ErekirUnitType
-hitSize: 144
+hitSize: 36
 armor: 10
 speed: 0.8
 targetAir: true
