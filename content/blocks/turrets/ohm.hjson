@@ -34,6 +34,7 @@ ammoTypes: {
               splashDamage: 150
               splashDamageRadius: 40
               homingPower: 0.3
+              fragRandomSpread: 0
                   fragBullets: 6
                     fragBullet: {
                       type: LightningBulletType
@@ -48,6 +49,7 @@ ammoTypes: {
               splashDamage: 80
               splashDamageRadius: 40
               homingPower: 1
+              fragRandomSpread: 0
                 fragBullets: 1
                     fragBullet: {
                       type: LaserBulletType
@@ -68,3 +70,4 @@ requirements: [
     phase-fabric/600
     azpacite/600
 ]
+category: turret
