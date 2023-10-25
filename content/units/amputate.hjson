@@ -31,19 +31,32 @@ engineColor: d4816b
       length: 304
       width: 16
         }
+{
+  name: amputate-point-defense
+    type: PointDefenseWeapon
+    mirror: true
+    y: -8
+    x: -12
+    reload: 6
+    shootCone: 360
+    range: 256
+    shootLength: 256
+    rotateSpeed: 16
+    bulletDamage: 70
+}
 }]
-lightRadius: 256
-research: quell
+lightRadius: 360
+research: disrupt
 abilities: [
 {
 type: EnergyFieldAbility
 statusDuration: 300
-maxTargets: 25
-damage: 50
-range: 200
+maxTargets: 40
+damage: 65
+range: 256
 color: d1efff
-reload: 45
-healPercent: 0.5
-sectors: 6
+reload: 30
+healPercent: 1
+sectors: 4
 }
 ]
