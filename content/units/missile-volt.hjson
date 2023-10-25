@@ -1,13 +1,13 @@
 type: missile
 template: MissileUnitType
-speed: 2.13
+speed: 4
 flying: true
 health: 300
 hitSize: 10
 rotateSpeed: 3
 controller: MissileAi
 lowAltitude: true
-lifetime: 192
+lifetime: 144
 isEnemy: false
 allowedInPayloads: false
 playerControllable: false
