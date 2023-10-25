@@ -1,13 +1,8 @@
 name: Laser frag test
 size: 4
-type: LiquidTurret
-consumes: {
-liquids: {
- liquid: nitrogen
-  amount: 0.25
-    }
-}
-shootType: {
+type: ContinuousTurret
+ammoTypes:
+nitrogen:
 type: PointLaserBulletType
 damage: 0
    bulletInterval: 5
