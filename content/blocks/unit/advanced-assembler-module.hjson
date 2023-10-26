@@ -1,0 +1,8 @@
+name: Advanced assembler module
+type: UnitAssemblerModule
+size: 5
+  tier: 2
+consumes: {
+  power: 10
+    }
+category: units
