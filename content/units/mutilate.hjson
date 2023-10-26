@@ -33,7 +33,7 @@ rotation: 45
   weapons: [
 {
     name: mutilate-weapon1
-    shootSound: laser
+    shootSound: beam
     y: 16
     mirror: false
     x: 0
@@ -43,7 +43,7 @@ rotation: 45
     heatColor: 65c5c9
     bullet: {
       type: ContinuousLaserBulletType
-      damage: 196
+      damage: 96
       lifetime: 420
       colors: [72e0ff, 72a8ff, 3b38ff, 725aff]
       length: 304
