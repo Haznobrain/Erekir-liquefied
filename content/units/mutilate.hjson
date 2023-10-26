@@ -32,6 +32,7 @@ rotation: 45
 ]
   weapons: [
 {
+{
     name: mutilate-weapon1
     shootSound: beam
     y: 16
@@ -74,7 +75,8 @@ shotDelay: 3
     pierceBuilding: true
     pierce: true
     }
-    }
+    
+}
 ]
 lightRadius: 360
 research: disrupt
