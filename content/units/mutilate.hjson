@@ -57,7 +57,7 @@ y: -10
 x: -8
 mirror: true
 rotate: true
-reload: 6
+reload: 18
 range: 384
 shoot: {
 shootAlternate: true
