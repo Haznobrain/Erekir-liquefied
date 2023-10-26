@@ -35,7 +35,27 @@ engineColor: d4816b
 }
 {
   name: dismember-weapon1
-    type: 
+    mirror: true
+    shoots: {
+      shots: 3
+  }
+    y: -6
+    x: -12
+    reload: 60
+    shootCone: 15
+    range: 240
+    shootSound: missile
+    bullet: {
+        type: MissileBulletType
+        color: 8ca9e8
+        pierceBuilding: true
+        pierce: true
+        pierceCap: 10
+        damage: 45
+        lifetime: 48
+        speed: 5
+     }     
+}
 ]
 lightRadius: 256
 research: quell
