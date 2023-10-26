@@ -12,21 +12,21 @@ targetAir: true
 faceTargets: true
 lightRadius: 5
 singleTarget: true
+engineColor: d4816b
 fogRadius: 40
+engineSize: 16
 engines: [
 {
 x: -16
 y: -16
-engineSize: 16
-engineColor: d4816b
-rottion: -45
+radius: 12
+rotation: -45
 }
 {
 x: 16
 y: -16
-engineSize: 16
-engineColor: d4816b
-rotation: -45
+radius: 12
+rotation: 45
 }
 ]
   weapons: [
