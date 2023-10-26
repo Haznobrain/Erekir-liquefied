@@ -139,4 +139,13 @@ reload: 15
 healPercent: 2.5
 sectors: 4
 }
+{
+type: ForceFieldAbility
+radius: 120
+color: d1efff
+max: 3500
+regen: 0.2
+cooldown: 360
+sides: 5
+}
 ]
