@@ -59,13 +59,13 @@ mirror: true
 rotate: true
 reload: 6
 range: 384
-shoot: [
+shoot: {
 shootAlternate: true
 shots: 3
 spread: 2
 barrels: 3
 shotDelay: 3
-]
+}
   bullet: {
     type: MissileBulletType
     damage: 80
