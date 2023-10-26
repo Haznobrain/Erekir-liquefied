@@ -85,6 +85,7 @@ name: mutilate-weapon3
   y: -4
   bullet: {
     type: ArtilleryBulletType
+    hitEffect: massiveExplosion
     splashDamage: 165
     splashDamageRadius: 120
     speed: 3
