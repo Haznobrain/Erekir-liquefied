@@ -34,12 +34,13 @@ rotation: 45
 {
     name: mutilate-weapon1
     shootSound: laser
-    y: 8
+    y: 16
     mirror: false
     x: 0
     reload: 3
     continuous: true
     range: 304
+    heatColor: 65c5c9
     bullet: {
       type: LaserBulletType
       damage: 62.5
