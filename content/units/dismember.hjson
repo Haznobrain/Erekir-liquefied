@@ -39,8 +39,8 @@ engineColor: d4816b
     shoots: {
       shots: 3
   }
-    y: -6
-    x: -12
+    y: -8
+    x: -13
     reload: 60
     shootCone: 15
     range: 240
