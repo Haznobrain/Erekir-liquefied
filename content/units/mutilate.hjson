@@ -75,6 +75,46 @@ shotDelay: 3
     pierce: true
     }
 }
+{
+name: mutilate-weapon3
+  range: 384
+  reload: 180
+  mirror: false
+  rotate: true
+  shootSound:
+  y: -4
+  bullet: {
+    type: ArtilleryBulletType
+    splashDamage: 165
+    splashDamageRadius: 120
+    speed: 3
+    lifetime: 128
+    bulletInterval: 3
+        intervalBullet: {
+            type: BasicBulletType
+              damage: 60
+              splashDamage: 45
+              splashDamageRadius: 24
+              lifetime: 60
+              speed: 6
+              }
+fragBullets:  12
+    fragBullet: {
+        type: basicBulletType
+        damage: 15
+        lifetime: 10
+        speed: 6
+        homingPower: 1
+            fragBullets: 1
+            fragBullet: {
+                type: LaserBulletType
+                damage: 40
+                length: 80
+                width: 24
+}
+}
+}
+}
 ]
 lightRadius: 360
 research: disrupt
