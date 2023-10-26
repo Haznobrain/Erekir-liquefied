@@ -15,7 +15,8 @@ fogRadius: 32
 engineOffset: 12
 engineSize: 10
 engineColor: d4816b
-  weapons: [{
+  weapons: [
+{
     shootSound: beam
     y: 16
     mirror: false
@@ -31,7 +32,8 @@ engineColor: d4816b
       length: 256
       width: 6
         }
-}]
+}
+]
 lightRadius: 256
 research: quell
 abilities: [
