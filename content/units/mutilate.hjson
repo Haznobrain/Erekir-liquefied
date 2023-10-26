@@ -1,7 +1,7 @@
 name: mutilate
 type: flying
 flying: true
-description: A very large flying unit that posses serious firepower as well as a powerful electric field and force field.
+description: A very large flying unit that posseses serious firepower as well as a powerful electric field and force field.
 health: 32000
 template: ErekirUnitType
 hitSize: 42
@@ -33,7 +33,7 @@ rotation: -45
 {
     name: mutilate-weapon1
     shootSound: beam
-    y: 16
+    y: 8
     mirror: false
     x: 0
     reload: 360
