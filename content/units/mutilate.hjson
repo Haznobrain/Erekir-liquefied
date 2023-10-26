@@ -83,17 +83,22 @@ name: mutilate-weapon3
   rotate: true
   shootSound: artillery
   y: -4
+  x: 0
   bullet: {
     type: ArtilleryBulletType
     hitEffect: massiveExplosion
     splashDamage: 165
     splashDamageRadius: 120
     speed: 3
+    height: 16
+    width: 14
     lifetime: 128
     bulletInterval: 3
         intervalBullet: {
             type: BasicBulletType
               damage: 60
+              height: 8
+              width: 12
               splashDamage: 45
               splashDamageRadius: 24
               lifetime: 60
@@ -103,6 +108,8 @@ fragBullets:  12
     fragBullet: {
         type: basicBulletType
         damage: 15
+        height: 8
+        width: 12
         lifetime: 10
         speed: 6
         homingPower: 1
