@@ -37,13 +37,13 @@ rotation: 45
     y: 16
     mirror: false
     x: 0
-    reload: 3
+    reload: 6
     continuous: true
     range: 304
     heatColor: 65c5c9
     bullet: {
       type: LaserBulletType
-      damage: 62.5
+      damage: 115
       colors: [72e0ff, 72a8ff, 3b38ff, 725aff]
       length: 304
       width: 16
