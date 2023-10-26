@@ -101,7 +101,7 @@ name: mutilate-weapon3
               width: 12
               splashDamage: 45
               splashDamageRadius: 24
-              lifetime: 60
+              lifetime: 8
               speed: 6
               }
 fragBullets:  12
