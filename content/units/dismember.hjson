@@ -36,12 +36,9 @@ engineColor: d4816b
 {
   name: dismember-weapon1
     mirror: true
-    shoots: {
-      shots: 3
-  }
     y: -8
     x: -13
-    reload: 60
+    reload: 15
     shootCone: 15
     range: 240
     shootSound: missile
