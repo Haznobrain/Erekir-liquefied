@@ -33,6 +33,9 @@ engineColor: d4816b
       width: 6
         }
 }
+{
+  name: dismember-weapon1
+    type: 
 ]
 lightRadius: 256
 research: quell
