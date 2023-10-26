@@ -50,6 +50,31 @@ rotation: 45
       width: 6
         }
 }
+{
+name: mutilate-weapon2
+shootSound: missile
+y: -10
+x: -8
+mirror: true
+rotate: true
+reload: 6
+range: 384
+shoot: [
+shootAlternate: true
+shots: 3
+spread: 2
+barrels: 3
+shotDelay: 3
+]
+  bullet: {
+    type: MissileBulletType
+    damage: 80
+    speed: 6
+    lifetime: 64
+    pierceBuilding: true
+    pierce: true
+    }
+    }
 ]
 lightRadius: 360
 research: disrupt
