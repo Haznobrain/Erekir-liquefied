@@ -81,7 +81,7 @@ name: mutilate-weapon3
   reload: 180
   mirror: false
   rotate: true
-  shootSound:
+  shootSound: artillery
   y: -4
   bullet: {
     type: ArtilleryBulletType
