@@ -1,2 +1,66 @@
 name: mutilate
 type: flying
+flying: true
+description: A very large flying unit that posses serious firepower as well as a powerful electric field and force field.
+health: 32000
+template: ErekirUnitType
+hitSize: 42
+rotateSpeed: 1.5
+armor: 10
+speed: 0.8
+targetAir: true
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 40
+engines: [
+{
+x: -16
+y: -16
+engineSize: 16
+engineColor: d4816b
+rottion: -45
+}
+{
+x: 16
+y: -16
+engineSize: 16
+engineColor: d4816b
+rotation: -45
+}
+]
+  weapons: [
+{
+    name: mutilate-weapon1
+    shootSound: beam
+    y: 16
+    mirror: false
+    x: 0
+    reload: 360
+    continuous: true
+    range: 304
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 62.5
+      lifetime: 360
+      colors: [72e0ff, 72a8ff, 3b38ff, 725aff]
+      length: 304
+      width: 16
+        }
+}
+]
+lightRadius: 360
+research: disrupt
+abilities: [
+{
+type: EnergyFieldAbility
+statusDuration: 300
+maxTargets: 40
+damage: 65
+range: 256
+color: d1efff
+reload: 30
+healPercent: 1
+sectors: 4
+}
+]
