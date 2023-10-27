@@ -3,8 +3,10 @@ name: shelling
 description: test
 size: 4
 range: 360
+reload: 180
 ammoTypes: {
     carbide: {
+        trailEffect: none
         damage: 0
         type: PointBulletType
         length: 360
