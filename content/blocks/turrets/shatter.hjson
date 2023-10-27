@@ -22,13 +22,22 @@ targetAir: true
       collidesGround: false
       lifetime: 64
       fragBullets: 2
-      homingPower: 1
+      homingPower: 0.09
           fragBullet: {
             collidesGround: false
             damage: 50
             homingPower: 1
             speed: 6
             lifetime: 60
+            fragRandomSPread: 0
+            fragBullets: 1
+                fragBullet: { 
+                    collidesGround: false
+                    type: LaserBulletType
+                    damage: 45
+                    length: 80
+                    width: 16
+                  }
             }
 }
 }
