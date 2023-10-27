@@ -48,17 +48,17 @@ type: RegionPart
 type: RegionPart
     suffix: -partright
     progress: warmup
-    x: 12
+    x: -12
     moveY: -8
-    moveX: 7
+    moveX: 5
     }
 {
 type: RegionPart
     suffix: -partleft
     progress: warmup
-    x: -12
+    x: 12
     moveY: -8
-    moveX: -7
+    moveX: -5
  }   
 ]
 }
