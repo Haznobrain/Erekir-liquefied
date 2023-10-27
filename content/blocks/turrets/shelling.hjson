@@ -4,8 +4,8 @@ description: test
 size: 4
 range: 360
 reload: 180
-minWarmup: 1
-shootWarmupSpeed: 0.1
+minWarmup: 0.94
+shootWarmupSpeed: 0.03
 warmupMaintainTime: 240
 ammoTypes: {
     carbide: {
@@ -50,7 +50,7 @@ type: RegionPart
     progress: warmup
     x: 12
     moveY: -8
-    moveX: 8
+    moveX: 7
     }
 {
 type: RegionPart
@@ -58,7 +58,7 @@ type: RegionPart
     progress: warmup
     x: -12
     moveY: -8
-    moveX: -8
+    moveX: -7
  }   
 ]
 }
