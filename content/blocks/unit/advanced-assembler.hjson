@@ -20,6 +20,6 @@ requirements: [
   tungsten/500
   thorium/500
   phase-fabric/300
-  azpactie/300
+  azpacite/300
 ]
 research: basic-assembler-module
