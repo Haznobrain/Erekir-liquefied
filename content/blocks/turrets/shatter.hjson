@@ -4,7 +4,7 @@ recoil: 0
 dexcription: shoots powerful fragmentary anti-air bullets.
   size: 5
   reload: 3
-  inaccuracy: 25
+  inaccuracy: 35
   range: 384
       shootEffect: shootBig
   shootSound: shootBig
@@ -22,7 +22,6 @@ targetAir: true
       collidesGround: false
       lifetime: 64
       fragBullets: 2
-      homingPower: 0.09
           fragBullet: {
             collidesGround: false
             damage: 50
@@ -61,7 +60,9 @@ requirements: [
   carbide/450
   silicon/800
 ]
-
-  
-
-
+coolantMultiplier: 3
+coolant: {
+  type: ConsumeLiquid
+  liquid: water
+  amount: 0.5
+}
