@@ -67,6 +67,7 @@ drawer: [
 {
 type: DrawHeatRegion
 color: ff9200
-suffix:-heat
+suffix:-glow
 }
 ]
+category: turrets
