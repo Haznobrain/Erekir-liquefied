@@ -2,7 +2,6 @@ name: shatter
   type: ItemTurret
   size: 5
   reload: 15
-  recoil: 2
   range: 384
   targetGround: false
 targetAir: true
