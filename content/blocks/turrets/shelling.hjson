@@ -4,12 +4,14 @@ description: test
 size: 4
 range: 360
 reload: 180
+firstShotDelay: 180
 ammoTypes: {
     carbide: {
         trailEffect: none
         damage: 0
         type: PointBulletType
         length: 360
+        hitEffect: scatheExplosion
           fragBullets: 6
             fragBullet: {
               damage: 60
@@ -24,5 +26,8 @@ ammoTypes: {
     }
 }
 requirements: [
-  beryllium/1
+  beryllium/700
+  silicon/500
+  tungsten/500
+  carbide/150
   ]
