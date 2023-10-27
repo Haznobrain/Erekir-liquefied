@@ -4,7 +4,9 @@ description: test
 size: 4
 range: 360
 reload: 180
-firstShotDelay: 180
+minWarmup: 1
+warmupSpeed: 0.005
+warmupMaintainTime: 240
 ammoTypes: {
     carbide: {
         trailEffect: none
@@ -46,7 +48,7 @@ type: RegionPart
 type: RegionPart
     suffix: -partright
     porgress: warmup
-    x: 8
+    x: 16
     moveY: -8
     moveX: 8
     }
@@ -54,7 +56,7 @@ type: RegionPart
 type: RegionPart
     suffix: -partleft
     porgress: warmup
-    x: -8
+    x: -16
     moveY: -8
     moveX: -8
  }   
