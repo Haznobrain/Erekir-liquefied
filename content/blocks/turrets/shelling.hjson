@@ -8,6 +8,7 @@ minWarmup: 0.94
 shootWarmupSpeed: 0.03
 warmupMaintainTime: 240
 fogRadiusMultiplier: 0.4
+predictTarget: false
 ammoTypes: {
     carbide: {
         trailEffect: none
