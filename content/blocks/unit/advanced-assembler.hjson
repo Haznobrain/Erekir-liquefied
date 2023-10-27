@@ -7,8 +7,7 @@ areaSize: 16
 consumes: {
     power: 27
 liquids: [
-  liquid: azpanogen
-  amount: 0.1
+    azpanogen/0.1
 ]
 }
 plans: [ 
