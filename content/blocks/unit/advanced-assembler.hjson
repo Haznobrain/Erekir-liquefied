@@ -13,3 +13,12 @@ type: UnitAssemblerPlan
 ]
 }
   ]
+requirements: [
+  beryllium/800
+  silicon/800
+  tungsten/500
+  thorium/500
+  phase-fabric/300
+  azpactie/300
+]
+research: basic-assembler-module
