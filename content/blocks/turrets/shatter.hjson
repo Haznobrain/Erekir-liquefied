@@ -24,5 +24,23 @@ targetAir: true
 drawer: [ 
 {
 type: DrawTurret
-basePrefix: block-
+parts: [
+{
+type: RegionPart
+  suffix: -mid
+  progress: reload
+  under: false
+}
+]
+}
+]
+requirements: [
+  tungsten/800
+  phase-fabric/300
+  carbide/450
+  silicon/800
+]
+
+  
+
 
