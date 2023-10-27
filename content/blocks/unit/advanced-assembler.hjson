@@ -3,6 +3,7 @@ description: assembles tier 6 units.
 size: 5
 type: UnitAssembler
 configurable: true
+areaSize: 16
 plans: [ 
 {
 type: UnitAssemblerPlan
