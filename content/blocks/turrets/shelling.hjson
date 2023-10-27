@@ -2,7 +2,7 @@ type: ItemTurret
 name: shelling
 description: test
 size: 4
-range: 360
+range: 1456
 reload: 180
 minWarmup: 0.94
 shootWarmupSpeed: 0.03
@@ -50,7 +50,7 @@ type: RegionPart
     progress: warmup
     x: -2
     moveY: -8
-    moveX: -5
+    moveX: -4
     }
 {
 type: RegionPart
@@ -58,9 +58,14 @@ type: RegionPart
     progress: warmup
     x: 2
     moveY: -8
-    moveX: 5
+    moveX: 4
  }   
 ]
+{
+type: drawWarmupRegion
+suffix: -warmth
+progress: warmup
+}
 }
 ]
 
