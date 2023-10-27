@@ -42,8 +42,6 @@ type: RegionPart
   under: false
   moveY: -12
 }
-]
-}
 {
 type: RegionPart
     suffix: -partright
@@ -61,3 +59,6 @@ type: RegionPart
     moveX: -8
  }   
 ]
+}
+]
+
