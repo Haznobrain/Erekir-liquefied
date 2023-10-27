@@ -3,7 +3,7 @@ name: shelling
 description: test
 size: 4
 range: 1456
-reload: 180
+reload: 10
 minWarmup: 0.94
 shootWarmupSpeed: 0.03
 warmupMaintainTime: 240
@@ -18,7 +18,7 @@ ammoTypes: {
             fragBullet: {
               damage: 60
               type: ArtilleryBulletType
-              splashDamage: 120
+              splashDamage: 80
               splashDamageRadius: 24
               lifetime: 60
               speed: 2
@@ -51,6 +51,14 @@ type: RegionPart
     x: -2
     moveY: -8
     moveX: -4
+    }
+{
+type: RegionPart
+    suffix: -partleft
+    progress: warmup
+    x: 2
+    moveY: -8
+    moveX: 4
     }
 ]
 }
