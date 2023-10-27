@@ -3,7 +3,7 @@ recoil: 0
   type: ItemTurret
 dexcription: shoots powerful fragmentary anti-air bullets.
   size: 5
-  reload: 6
+  reload: 3
   inaccuracy: 25
   range: 384
       shootEffect: shootBig
