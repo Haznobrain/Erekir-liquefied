@@ -123,6 +123,39 @@ fragBullets:  12
 }
 }
 }
+{
+  name: mutilate-weapon4
+    range: 384
+    reload: 30
+    mirror: true
+    x: 16
+    y: -2
+    shootSound: shootBig
+    shoot: {
+      shots: 4
+      shootAlternate: true
+      spread: 2
+      shotsDelay: 3
+}
+      bullet: {
+          frontColor: d1efff
+          backColor: 6569c9
+          type: BasicBulletType
+          lifetime: 64
+          speed: 6
+          height: 20
+          width: 15
+          damage: 124
+          hitEffect: hitBulletBig
+          bulletInterval: 2
+              intervalBullet: {
+                  type: LightningBulletType
+                  lightningLength: 5
+                  damage: 20
+                  lightningColor: d1efff
+                  }
+}
+}
 ]
 lightRadius: 360
 research: disrupt
