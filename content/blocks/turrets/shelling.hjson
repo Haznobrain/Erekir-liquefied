@@ -14,7 +14,8 @@ ammoTypes: {
         damage: 0
         type: PointBulletType
         length: 360
-        hitEffect: scatheLight
+        hitEffect: scatheExplosion
+        effectColor: ff9200
           fragBullets: 6
 fragLifeMin: 0.25
             fragBullet: {
