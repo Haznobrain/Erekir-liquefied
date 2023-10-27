@@ -1,19 +1,29 @@
 name: shatter
 recoil: 0
   type: ItemTurret
+dexcription: shoots powerful fragmentary anti-air bullets.
   size: 5
   reload: 15
+  inaccuracy: 25
   range: 384
+      shootEffect: shootBig
+  smokeEffect: smokeBig
+  shootSound: shootBig
   targetGround: false
 targetAir: true
   ammoTypes: {
     tungsten: {
       damage: 40
+      hitEffect: hitBulletBig
+      length: 40
+      width: 30
       speed: 6
+      collidesGround: false
       lifetime: 64
       fragBullets: 2
       homingPower: 1
           fragBullet: {
+            collidesGround: false
             damage: 50
             homingPower: 1
             speed: 6
