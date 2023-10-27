@@ -6,10 +6,10 @@ configurable: true
 areaSize: 16
 consumes: {
     power: 27
-liquids: {
-  liquid: cyanogen
-  amount: 0.25
-}
+liquids: [
+  liquid: azpanogen
+  amount: 0.1
+]
 }
 plans: [ 
 {
