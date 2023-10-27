@@ -16,7 +16,7 @@ targetAir: true
       ammoMultiplier: 4
       damage: 40
       hitEffect: hitBulletBig
-      length: 40
+      height: 40
       width: 30
       speed: 6
       collidesGround: false
@@ -32,6 +32,7 @@ targetAir: true
             fragRandomSPread: 0
             fragBullets: 1
                 fragBullet: { 
+                    colors: [ffffff, a6a9b2, 818181]
                     collidesGround: false
                     type: LaserBulletType
                     damage: 45
