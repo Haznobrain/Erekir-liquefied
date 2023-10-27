@@ -5,7 +5,7 @@ size: 4
 range: 360
 reload: 180
 minWarmup: 1
-warmupSpeed: 0.005
+warmupSpeed: 0.05
 warmupMaintainTime: 240
 ammoTypes: {
     carbide: {
