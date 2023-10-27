@@ -27,7 +27,7 @@ parts: [
 {
 type: RegionPart
   suffix: -mid
-  progress: reload
+  progress: recoil
   under: false
 }
 ]
