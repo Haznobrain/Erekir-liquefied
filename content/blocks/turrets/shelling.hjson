@@ -52,11 +52,12 @@ type: RegionPart
     moveY: -8
     moveX: 8
     }
+{
 type: RegionPart
     suffix: -partleft
     porgress: warmup
     x: -8
     moveY: -8
     moveX: -8
-    
+ }   
 ]
