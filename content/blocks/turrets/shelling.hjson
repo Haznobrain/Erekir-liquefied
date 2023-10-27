@@ -5,7 +5,6 @@ size: 4
 range: 1456
 reload: 10
 minWarmup: 0.94
-heatColor: ff9200
 shootWarmupSpeed: 0.03
 warmupMaintainTime: 240
 ammoTypes: {
@@ -64,4 +63,10 @@ type: RegionPart
 ]
 }
 ]
-
+drawer: [
+{
+type: DrawHeatRegion
+color: ff9200
+suffix:-heat
+}
+]
