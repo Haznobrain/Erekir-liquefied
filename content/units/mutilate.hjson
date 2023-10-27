@@ -166,7 +166,6 @@ abilities: [
 type: EnergyFieldAbility
 statusDuration: 300
 maxTargets: 40
-
 damage: 115
 range: 104
 color: d1efff
