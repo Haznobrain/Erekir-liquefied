@@ -31,3 +31,32 @@ requirements: [
   tungsten/500
   carbide/150
   ]
+drawer: [ 
+{
+type: DrawTurret
+parts: [
+{
+type: RegionPart
+  suffix: -mid
+  progress: recoil
+  under: false
+  moveY: -12
+}
+]
+}
+{
+type: RegionPart
+    suffix: -partright
+    porgress: warmup
+    x: 8
+    moveY: -8
+    moveX: 8
+    }
+type: RegionPart
+    suffix: -partleft
+    porgress: warmup
+    x: -8
+    moveY: -8
+    moveX: -8
+    
+]
