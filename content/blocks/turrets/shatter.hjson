@@ -1,4 +1,5 @@
 name: shatter
+recoil: 0
   type: ItemTurret
   size: 5
   reload: 15
@@ -29,6 +30,7 @@ type: RegionPart
   suffix: -mid
   progress: recoil
   under: false
+  moveY: 12
 }
 ]
 }
