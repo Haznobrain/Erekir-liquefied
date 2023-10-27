@@ -52,19 +52,6 @@ type: RegionPart
     moveY: -8
     moveX: -4
     }
-{
-type: RegionPart
-    suffix: -partleft
-    progress: warmup
-    x: 2
-    moveY: -8
-    moveX: 4
- }   
-{
-type: drawWarmupRegion
-suffix: -warmth
-progress: warmup
-}
 ]
 }
 ]
