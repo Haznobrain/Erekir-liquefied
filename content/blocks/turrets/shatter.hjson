@@ -7,9 +7,9 @@ dexcription: shoots powerful fragmentary anti-air bullets.
   inaccuracy: 25
   range: 384
       shootEffect: shootBig
-  smokeEffect: smokeBig
   shootSound: shootBig
   targetGround: false
+velocityRnd: 25
 targetAir: true
   ammoTypes: {
     tungsten: {
