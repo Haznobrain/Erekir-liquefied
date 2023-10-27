@@ -15,6 +15,7 @@ ammoTypes: {
         length: 360
         hitEffect: coreBuildShockwave
           fragBullets: 6
+fragLifeMin: 0.25
             fragBullet: {
               damage: 60
               type: ArtilleryBulletType
