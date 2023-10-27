@@ -2,10 +2,12 @@ type: ItemTurret
 name: shelling
 description: test
 size: 4
+range: 360
 ammoTypes: {
     carbide: {
         damage: 0
         type: RailBulletType
+        length: 360
           fragBullets: 6
             fragBullet: {
               damage: 60
