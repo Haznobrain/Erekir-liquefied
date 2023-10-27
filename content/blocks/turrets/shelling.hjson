@@ -60,12 +60,12 @@ type: RegionPart
     moveY: -8
     moveX: 4
  }   
-]
 {
 type: drawWarmupRegion
 suffix: -warmth
 progress: warmup
 }
+]
 }
 ]
 
