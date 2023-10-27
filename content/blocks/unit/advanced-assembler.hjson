@@ -2,3 +2,14 @@ name: Advanced assembler
 description: assembles tier 6 units.
 size: 5
 configurable: true
+plans: [ 
+{
+type: UnitAssemblerPlan
+  unit: mutilate
+      time: 13800
+        requirements: [
+          erekirliquefied-slash/4
+          erekirliquefied-large-azpacite-wall/12
+]
+}
+  ]
