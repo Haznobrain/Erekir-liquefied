@@ -130,7 +130,7 @@ fragBullets:  12
     range: 384
     reload: 30
     mirror: true
-    x: 16
+    x: 20
     y: -2
     shootSound: shootBig
     shoot: {
