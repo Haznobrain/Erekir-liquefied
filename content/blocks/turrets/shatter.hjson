@@ -3,4 +3,23 @@ name: shatter
   size: 5
   reload: 15
   recoil: 2
+  range: 384
+  targetGround: false
+targetAir: true
+  ammoTypes: {
+    tungsten: {
+      damage: 40
+      speed: 6
+      lifetime: 64
+      fragBullets: 2
+      homingPower: 1
+          fragBullet: {
+            damage: 50
+            homingPower: 1
+            speed: 6
+            lifetime: 60
+            }
+}
+}
+drawer: {
   
