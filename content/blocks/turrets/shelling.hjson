@@ -1,0 +1,24 @@
+type: ItemTurret
+name: shelling
+description: test
+size: 4
+ammoTypes: {
+    carbide: {
+        damage: 0
+        type: RailBulletType
+          fragBullets: 6
+            fragBullet: {
+              damage: 60
+              type: ArtilleryBulletType
+              splashDamage: 120
+              splashDamageRadius: 24
+              lifetime: 60
+              speed: 2
+              height: 8
+              width: 12
+                }
+    }
+}
+requirements: [
+  beryllium/1
+  ]
