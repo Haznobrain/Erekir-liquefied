@@ -30,7 +30,7 @@ type: RegionPart
   suffix: -mid
   progress: recoil
   under: false
-  moveY: 12
+  moveY: -12
 }
 ]
 }
