@@ -125,6 +125,8 @@ fragBullets:  12
 }
 {
   name: mutilate-weapon4
+    rotate: true
+    rotateSpeed: 2
     range: 384
     reload: 30
     mirror: true
@@ -134,7 +136,7 @@ fragBullets:  12
     shoot: {
       shots: 4
       shootAlternate: true
-      spread: 2
+      spread: 10
       shotsDelay: 3
 }
       bullet: {
@@ -150,7 +152,7 @@ fragBullets:  12
           bulletInterval: 2
               intervalBullet: {
                   type: LightningBulletType
-                  lightningLength: 5
+                  lightningLength: 10
                   damage: 20
                   lightningColor: d1efff
                   }
