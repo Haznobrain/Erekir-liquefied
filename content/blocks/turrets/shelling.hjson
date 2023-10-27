@@ -6,7 +6,7 @@ range: 360
 ammoTypes: {
     carbide: {
         damage: 0
-        type: RailBulletType
+        type: PointBulletType
         length: 360
           fragBullets: 6
             fragBullet: {
