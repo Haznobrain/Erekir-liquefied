@@ -63,11 +63,4 @@ type: RegionPart
 ]
 }
 ]
-drawer: [
-{
-type: DrawHeatRegion
-color: ff9200
-suffix:-glow
-}
-]
 category: turret
