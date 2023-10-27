@@ -13,7 +13,7 @@ ammoTypes: {
         damage: 0
         type: PointBulletType
         length: 360
-        hitEffect: scatheExplosion
+        hitEffect: coreBuildShockwave
           fragBullets: 6
             fragBullet: {
               damage: 60
