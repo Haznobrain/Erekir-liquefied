@@ -68,3 +68,4 @@ coolant: {
   liquid: water
   amount: 0.5
 }
+category: turrets
