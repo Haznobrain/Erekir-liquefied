@@ -4,7 +4,7 @@ flying: true
 description: A very large flying unit that posseses serious firepower as well as a powerful electric field and force field.
 health: 32000
 template: ErekirUnitType
-hitSize: 42
+hitSize: 62
 rotateSpeed: 1.5
 armor: 10
 speed: 0.8
@@ -19,13 +19,13 @@ engineSize: 16
 engines: [
 {
 x: -16
-y: -16
+y: -28
 radius: 12
 rotation: -45
 }
 {
 x: 16
-y: -16
+y: -28
 radius: 12
 rotation: 45
 }
@@ -34,7 +34,7 @@ rotation: 45
 {
     name: mutilate-weapon1
     shootSound: beam
-    y: 16
+    y: 28
     mirror: false
     x: 0
     reload: 300
@@ -53,8 +53,8 @@ rotation: 45
 {
 name: mutilate-weapon2
 shootSound: missile
-y: -10
-x: -8
+y: -14
+x: -12
 mirror: true
 rotate: true
 reload: 18
@@ -82,7 +82,7 @@ name: mutilate-weapon3
   mirror: false
   rotate: true
   shootSound: artillery
-  y: 1
+  y: 6
   x: 0
   bullet: {
     type: ArtilleryBulletType
