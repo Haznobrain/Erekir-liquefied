@@ -145,11 +145,25 @@ type: HaloPart
   color: ffe97a
   shapes: 4
   triLength: 0
-  triLengthTo: 12
+  triLengthTo: 8
   haloRadius: 10
   tri: true
   radius: 4
   haloRotateSpeed: 0.8
+}
+{
+type: HaloPart
+  y: -24
+  layer: 110
+  color: ffe97a
+  shapes: 4
+  triLength: 0
+  triLengthTo: 12
+  haloRadius: 16
+  tri: true
+  radius: 4
+  haloRotateSpeed: 0.8
+  shapeRotation: 180
 }
 ]
 }
