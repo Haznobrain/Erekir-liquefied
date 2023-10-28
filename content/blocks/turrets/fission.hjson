@@ -8,6 +8,8 @@ reload: 600
 heatRequirement: 75
 maxHeatEfficiency: 2
 ammoPerShot: 10
+minWarmup: 0.96
+shootWarmupSpeed: 0.03
 recoil: 4
 targetGround: true
 targetAir: true
