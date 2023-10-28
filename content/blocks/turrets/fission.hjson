@@ -113,7 +113,7 @@ type: ShapePart
   rotateSpeed: 0.8
   radius: 8
   color: ffd600
-  drawWarmupRadius: true
+  delay: 2
 }
 ]
 }
