@@ -14,15 +14,19 @@ size: 3
 
 drawer: [
 {
-type: DrawLiquidTile
-drawLiquid: slag
-suffix: -liquid
-padding: 1
+drawMulti: [
+  {
+  Type: DrawRegion
+  suffix: -bottom
 }
 {
-type: DrawRegion
-suffix: -top
-  }
+Type: DrawLiquidRegion
+drawLiquid: slag
+suffix: -liquid
+}
+{
+type: drawDefault
+}
 ]
 requirements: [
   beryllium/100
