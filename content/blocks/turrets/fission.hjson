@@ -105,4 +105,11 @@ type: RegionPart
     }
 ]
 }
+{
+type: DrawSpikes
+  amount: 2
+  mirror: true
+  y: 8
+  x: 2
+}
 ]
