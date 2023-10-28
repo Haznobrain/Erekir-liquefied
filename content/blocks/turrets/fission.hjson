@@ -26,6 +26,7 @@ ammoTypes: {
     lifetime: 300
     bulletInterval: 5
     largeHit: true
+    intervalRandomSpread: 170
     intervalBullet: {
       type: LightningBulletType
       lightningLength: 45
