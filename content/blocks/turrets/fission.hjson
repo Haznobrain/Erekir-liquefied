@@ -104,12 +104,14 @@ type: RegionPart
     moveRot: 60
     }
 {
-type: HaloPart
+type: ShapePart
   x: 0
   y: -24
+  circle: true
+  hollow: true
   progress: warmup
-  haloRotation: 0.8
-  haloRadius: 16
+  rotateSpeed: 0.8
+  radius: 16
   color: ffd600
 }
 ]
