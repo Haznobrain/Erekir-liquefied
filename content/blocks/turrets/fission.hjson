@@ -109,8 +109,7 @@ type: ShapePart
   y: -24
   circle: true
   hollow: true
-  progress: PartProgress
-  partProgress: warmup
+  progress: p.warmup
   rotateSpeed: 0.8
   radius: 8
   color: ffd600
