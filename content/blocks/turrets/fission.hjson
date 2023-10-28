@@ -103,15 +103,15 @@ type: RegionPart
     moveX: -16
     moveRot: 60
     }
-]
-}
 {
-type: DrawSpikes
-  amount: 10
-  mirror: true
-  y: 8
+type: HaloPart
   x: 0
-  rotateSpeed: 0
+  y: -24
+  progress: warmup
+  haloRotation: 0.8
+  haloRadius: 16
   color: ffd600
+}
+]
 }
 ]
