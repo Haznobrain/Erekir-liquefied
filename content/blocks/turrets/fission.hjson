@@ -74,6 +74,7 @@ type: RegionPart
     x: 0
     moveY: -16
     moveX: 4
+    rotate: 30
     }
 {
 type: RegionPart
@@ -82,6 +83,7 @@ type: RegionPart
     x: 0
     moveY: -16
     moveX: -4
+    rotate: -30
     }
 {
 type: RegionPart
