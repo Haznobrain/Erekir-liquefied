@@ -134,6 +134,7 @@ type: HaloPart
   triLength: 0
   triLengthTo: 20
   haloRadius: 10
+  progress: haloProgress
 }
 ]
 }
