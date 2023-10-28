@@ -114,6 +114,27 @@ type: ShapePart
   strokeTo: 2.5
   radius: 8
 }
+{
+type: ShapePart
+  y: -20
+  hollow: true
+  circle: true
+  layer: 110
+  color: ffe97a
+  stroke: 0
+  strokeTo: 2.5
+  radius: 4
+}
+{
+type: HaloPart
+  y: -20
+  layer: 110
+  color: ffe97a
+  shapes: 2
+  triLength: 0
+  triLengthTo: 20
+  haloRadius: 10
+}
 ]
 }
 ]
