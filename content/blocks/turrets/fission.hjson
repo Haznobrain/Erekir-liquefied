@@ -71,7 +71,7 @@ type: RegionPart
     progress: warmup
     x: 0
     moveY: -8
-    moveX: -4
+    moveX: 4
     }
 {
 type: RegionPart
@@ -79,7 +79,7 @@ type: RegionPart
     progress: warmup
     x: 0
     moveY: -8
-    moveX: 4
+    moveX: -4
     }
 {
 type: RegionPart
@@ -87,7 +87,7 @@ type: RegionPart
     progress: warmup
     x: 0
     moveY: 8
-    moveX: -8
+    moveX: 8
     }
 {
 type: RegionPart
@@ -95,7 +95,7 @@ type: RegionPart
     progress: warmup
     x: 0
     moveY: 8
-    moveX: 8
+    moveX: -8
     }
 ]
 }
