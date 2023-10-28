@@ -6,6 +6,7 @@ type: itemTurret
 range: 336
 reload: 600
 heatRequirement: 75
+continuous: true
 maxHeatEfficiency: 2
 ammoPerShot: 10
 recoil: 4
