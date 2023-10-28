@@ -14,7 +14,6 @@ size: 3
 
 drawer: [
 {
-drawMulti: [
   {
   Type: DrawRegion
   suffix: -bottom
@@ -28,7 +27,6 @@ padding: 1
 {
 type: drawDefault
 }
-]
 }
 ]
 requirements: [
