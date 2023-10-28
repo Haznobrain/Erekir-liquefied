@@ -10,8 +10,9 @@ maxHeatEfficiency: 2
 ammoPerShot: 10
 minWarmup: 0.96
 shootWarmupSpeed: 0.03
-recoil: 4
+recoil: 0
 targetGround: true
+warmupMaintainTime: 600
 targetAir: true
 shootSound: laserbig
 loopSound: beam
@@ -63,7 +64,7 @@ type: RegionPart
   suffix: -mid
   progress: recoil
   under: false
-  moveY: -12
+  moveY: -2
 }
 {
 type: RegionPart
@@ -86,7 +87,7 @@ type: RegionPart
     suffix: -bottomright
     progress: warmup
     x: 0
-    moveY: 8
+    moveY: 12
     moveX: 8
     }
 {
@@ -94,7 +95,7 @@ type: RegionPart
     suffix: -bottomleft
     progress: warmup
     x: 0
-    moveY: 8
+    moveY: 12
     moveX: -8
     }
 ]
