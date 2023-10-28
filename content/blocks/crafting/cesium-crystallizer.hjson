@@ -20,9 +20,10 @@ drawMulti: [
   suffix: -bottom
 }
 {
-Type: DrawLiquidRegion
+Type: DrawLiquidTile
 drawLiquid: slag
 suffix: -liquid
+padding: 1
 }
 {
 type: drawDefault
