@@ -128,7 +128,6 @@ type: ShapePart
 {
 type: HaloPart
   y: -24
-  haloRotation: 90
   layer: 110
   color: ffe97a
   shapes: 2
@@ -137,7 +136,6 @@ type: HaloPart
   haloRadius: 12
   tri: true
   radius: 4
-  rotateSpeed: 0.8
 }
 {
 type: HaloPart
