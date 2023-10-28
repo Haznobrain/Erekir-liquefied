@@ -12,7 +12,7 @@ minWarmup: 0.96
 shootWarmupSpeed: 0.03
 recoil: 0
 targetGround: true
-warmupMaintainTime: 600
+warmupMaintainTime: 300
 targetAir: true
 shootSound: laserbig
 loopSound: beam
