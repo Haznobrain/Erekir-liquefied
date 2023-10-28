@@ -4,6 +4,8 @@ description: crystallizes cesium out of slag.
 heatOutput: 12
 size: 3
   outputItem: cesium/1
+rotateDraw: false
+regionRotated1: 2
   consumes: {
     liquid: {
         liquid: slag
@@ -21,7 +23,7 @@ drawer: [
 Type: DrawLiquidTile
 drawLiquid: slag
 suffix: -liquid
-padding: 1
+padding: 2
 }
 {
 type: drawDefault
