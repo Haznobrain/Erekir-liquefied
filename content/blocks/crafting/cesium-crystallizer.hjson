@@ -6,7 +6,7 @@ size: 3
   outputItem: cesium/1
   consumes: {
     liquid: {
-        liquid: water
+        liquid: slag
         amount: 0.8
           }
   power: 4.1
