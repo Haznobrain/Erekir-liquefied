@@ -23,4 +23,9 @@ type: DrawRegion
 suffix: -top
   }
 ]
-
+requirements: [
+  beryllium/100
+  silicon/50
+  tungsten/50
+  oxide/25
+]
