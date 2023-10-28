@@ -159,7 +159,7 @@ type: HaloPart
   shapes: 4
   triLength: 0
   triLengthTo: 12
-  haloRadius: 16
+  haloRadius: 24
   tri: true
   radius: 4
   haloRotateSpeed: -0.8
