@@ -107,9 +107,11 @@ type: RegionPart
 }
 {
 type: DrawSpikes
-  amount: 2
+  amount: 10
   mirror: true
   y: 8
-  x: 2
+  x: 0
+  rotateSpeed: 0
+  color: ffd600
 }
 ]
