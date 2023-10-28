@@ -1,7 +1,7 @@
 name: Cesium Crystallizer
 description: crystallizes cesium out of slag.
   type: HeatProducer
-  outputItem: cesium
+  outputItem: cesium/1
   consumes: {
     liquid: {
         liquid: water
