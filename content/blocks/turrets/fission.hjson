@@ -90,7 +90,7 @@ type: RegionPart
     suffix: -bottomright
     progress: warmup
     x: 0
-    moveY: 8
+    moveY: 0
     moveX: 16
     moveRot: -60
     }
@@ -99,7 +99,7 @@ type: RegionPart
     suffix: -bottomleft
     progress: warmup
     x: 0
-    moveY: 8
+    moveY: 0
     moveX: -16
     moveRot: 60
     }
