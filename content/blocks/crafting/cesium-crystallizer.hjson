@@ -14,7 +14,7 @@ heatOutput: 12
 drawer: [
 {
 type: DrawLiquidTile
-liquid: slag
+drawLiquid: slag
 suffix: -liquid
 padding: 1
 }
