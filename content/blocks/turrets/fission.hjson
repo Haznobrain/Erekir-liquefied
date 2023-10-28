@@ -54,3 +54,49 @@ requirements: [
 ]
 category: turret
 research: smite
+drawer: [ 
+{
+type: DrawTurret
+parts: [
+{
+type: RegionPart
+  suffix: -mid
+  progress: recoil
+  under: false
+  moveY: -12
+}
+{
+type: RegionPart
+    suffix: -topright
+    progress: warmup
+    x: 0
+    moveY: -8
+    moveX: -4
+    }
+{
+type: RegionPart
+    suffix: -topleft
+    progress: warmup
+    x: 0
+    moveY: -8
+    moveX: 4
+    }
+{
+type: RegionPart
+    suffix: -bottomright
+    progress: warmup
+    x: 0
+    moveY: 8
+    moveX: -8
+    }
+{
+type: RegionPart
+    suffix: -bottomleft
+    progress: warmup
+    x: 0
+    moveY: 8
+    moveX: 8
+    }
+]
+}
+]
