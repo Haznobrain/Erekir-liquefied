@@ -105,15 +105,14 @@ type: RegionPart
     }
 {
 type: ShapePart
-  x: 0
-  y: -24
-  circle: true
+  y: -20
   hollow: true
-  progress: p.warmup
-  rotateSpeed: 0.8
+  circle: true
+  layer: 110
+  color: ffe97a
+  stroke: 0
+  strokeTo: 2.5
   radius: 8
-  color: ffd600
-  delay: 2
 }
 ]
 }
