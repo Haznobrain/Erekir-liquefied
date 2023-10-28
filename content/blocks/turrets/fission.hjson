@@ -3,6 +3,7 @@ description: shoots a large incendiary laser beam by causing fission within the 
 size: 5
 reload: 300
 type: itemTurret
+shootY: 24
 range: 336
 reload: 600
 heatRequirement: 75
