@@ -1,0 +1,25 @@
+name: Cesium Crystallizer
+description: crystallizes cesium out of slag.
+  type: HeatProducer
+  outputItem: cesium
+  consumes: {
+    liquid: {
+        liquid: water
+        amount: 0.8
+          }
+  power: 4.1
+      }
+
+drawer: {
+{
+type: DrawLiquidTile
+liquid: slag
+suffix: -liquid
+padding: 1
+}
+{
+type: DrawRegion
+suffix: -top
+  }
+}
+
