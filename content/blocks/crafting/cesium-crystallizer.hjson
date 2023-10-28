@@ -28,6 +28,8 @@ suffix: -liquid
 type: drawDefault
 }
 ]
+}
+]
 requirements: [
   beryllium/100
   silicon/50
