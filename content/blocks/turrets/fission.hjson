@@ -15,8 +15,7 @@ recoil: 0
 targetGround: true
 warmupMaintainTime: 300
 targetAir: true
-shootSound: laserbig
-loopSound: beam
+shootSound: beam
 moveWhileCharging: false
 continuous: true
 ammoTypes: {
