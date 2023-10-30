@@ -1,0 +1,12 @@
+type: PowerGenerator
+powerProduction: 14
+name: Cesium Blast Reactor
+description: uses an explosive reaction beetween cesium and water to generate power.
+consumes: {
+  items: [
+      cesium/1
+    ]
+    liquids: {
+        water/0.3
+          }
+}
