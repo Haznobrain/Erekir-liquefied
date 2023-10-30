@@ -123,6 +123,38 @@ shootSound: mediumCannon
                         }
               }
     }
+ cesium: {
+      type: ArtilleryBulletType
+      damage: 0
+      splashDamage: 85
+      splashDamageRadius: 80
+      speed: 4
+      lifetime: 108
+      buildingDamageMultiplier: 0.2
+      width: 16
+      height: 20
+      color: ffcbdd
+      scaleLife: true
+      hittable: false
+      despawnHit: true
+      hitColor: efff74
+      hitShake: 1
+      hitEffect: scatheExplosion
+      fragBullets: 4
+      fragBullet: {
+            width: 12
+            hitColor: efff74
+            height: 16
+            hitEffect: scatheExplosion
+            lifetime: 45
+            speed: 3
+            type: ArtilleryBulletType
+            splashDamage: 275
+            splashDamageRadius: 80
+            buildingDamageMultiplier: 0.2
+            fragBullets: 2
+    }
+}
 }
 requirements: [
   beryllium/1500
