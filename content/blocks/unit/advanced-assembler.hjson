@@ -30,3 +30,4 @@ requirements: [
   azpacite/300
 ]
 research: basic-assembler-module
+category: units
