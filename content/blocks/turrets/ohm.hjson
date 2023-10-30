@@ -70,6 +70,63 @@ ammoTypes: {
 }
 }
 }
+    cesium: {
+        damage: 245
+        type: ArtilleryBulletType
+        splashDamage: 480
+        splashDamageRadius: 120
+        bulletInterval: 6
+        speed: 4
+        hittable: false
+        backColor: efff74
+        frontColor: ffde74
+        width: 24
+        height: 30
+        lifetime: 120
+        bulletInterval: 3
+        intervalRandomSpread: 45
+          intervalBullet: {
+              type: ArtilleryBulletType
+              width: 20
+              height: 6
+              damage: 85
+              hittable: false
+        backColor: efff74
+        frontColor: ffde74
+              speed: 2
+              lifetime: 60
+              splashDamage: 150
+              splashDamageRadius: 40
+              homingPower: 0.3
+              fragRandomSpread: 0
+                  fragBullets: 6
+                    fragBullet: {
+                      type: LightningBulletType
+                      lightningLength: 12
+                      damage: 45
+                      lightningColor: f6ff69
+                      }
+}
+      fragBullets: 18
+          fragBullet: {
+              type: ArtilleryBulletType
+              splashDamage: 85
+              splashDamageRadius: 40
+        backColor: ffec00
+        frontColor: fff78d
+              homingPower: 1
+              hittable: false
+              fragRandomSpread: 0
+                fragBullets: 1
+                    fragBullet: {
+                      type: LaserBulletType
+                      damage: 25
+                      length: 80
+                      width: 4
+                      colors: [efff74, ffde74, ffc574]
+}
+}
+}
 }
 requirements: [
     beryllium/2000
