@@ -16,3 +16,4 @@ requirements: [
   oxide/20
   silicon/200
 ]
+category: power
