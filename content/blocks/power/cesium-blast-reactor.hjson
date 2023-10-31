@@ -2,7 +2,6 @@ type: PowerGenerator
 powerProduction: 14
 hasLiquids: true
 hasItems: true
-
 name: Cesium Blast Reactor
 size: 3
 description: uses an explosive reaction beetween cesium and water to generate power.
