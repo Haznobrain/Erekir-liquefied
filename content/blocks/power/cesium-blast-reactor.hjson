@@ -10,3 +10,9 @@ consumes: {
         water/0.3
           }
 }
+requirements: [
+  beryllium/250
+  tungsten/100
+  oxide/20
+  silicon/200
+]
