@@ -6,9 +6,9 @@ consumes: {
   items: [
       cesium/1
     ]
-    liquids: {
+    liquids: [
         water/0.3
-          }
+          ]
 }
 requirements: [
   beryllium/250
