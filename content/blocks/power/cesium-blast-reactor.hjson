@@ -1,6 +1,6 @@
 type: ConsumeGenerator
 itemDuration: 180
-generateEfect: smoke
+generateEffect: smoke
 powerProduction: 14
 hasLiquids: true
 hasItems: true
