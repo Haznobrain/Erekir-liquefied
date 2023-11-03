@@ -135,6 +135,7 @@ ammoTypes: {
                     lifetime: 24
                     fragSpread: 15
                         fragBullet: {
+                            type: LaserBulletType
                             damage: 260
                             length: 120
                             width: 16
