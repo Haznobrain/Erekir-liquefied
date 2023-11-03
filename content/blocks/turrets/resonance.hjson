@@ -5,7 +5,7 @@ size: 6
 reload: 300
 range: 960
 ammoTypes: {
-  cesium: 
+  cesium: {
       damage: 340
       splashDamage: 250
       splashDamageRadius: 160
@@ -14,3 +14,7 @@ ammoTypes: {
       fragBullets: 1
       speed: 5
       lifetime: 24
+      fragBullet: {
+          damage: 340
+          splashDamage: 250
+          splashDamageRadius: 160
