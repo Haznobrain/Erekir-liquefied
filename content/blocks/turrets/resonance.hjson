@@ -14,7 +14,7 @@ ammoTypes: {
       type: BasicBulletType
       splashDamage: 250
       splashDamageRadius: 160
-      hitEffect: massiveExplosion
+      hitEffect: reactorExplosion
       hitColor: 0041ff
       frontColor: 0036ff
       backColor: 0531d7
@@ -30,7 +30,7 @@ ammoTypes: {
           damage: 340
           splashDamage: 250
           splashDamageRadius: 160
-          hitEffect: massiveExplosion
+          hitEffect: reactorExplosion
           hitColor: 0041ff
           fragRandomSpread: 0
           fragBullets: 1
@@ -47,7 +47,7 @@ ammoTypes: {
           splashDamage: 250
           splashDamageRadius: 160
           fragRandomSpread: 0
-          hitEffect: massiveExplosion
+          hitEffect: reactorExplosion
           hitColor: 0041ff
           fragBullets: 1
           speed: 5
@@ -63,7 +63,7 @@ ammoTypes: {
             splashDamageRadius: 160
             frontColor: 2305d7
             backColor: 4805d7
-            hitEffect: massiveExplosion
+            hitEffect: reactorExplosion
             hitColor: 0041ff
             fragBullets: 1
             collidesAir: false
@@ -79,7 +79,7 @@ ammoTypes: {
               splashDamageRadius: 160
               frontColor: 4805d7
               backColor: 4805d7
-              hitEffect: massiveExplosion
+              hitEffect: reactorExplosion
               hitColor: 0041ff
               fragBullets: 1
               speed: 5
@@ -95,7 +95,7 @@ ammoTypes: {
                 splashDamageRadius: 160
                 frontColor: 4805d7
                 backColor: 6d05d7
-                hitEffect: massiveExplosion
+                hitEffect: reactorExplosion
                 hitColor: 0041ff
                 fragBullets: 1
                 collidesAir: false
@@ -111,7 +111,7 @@ ammoTypes: {
                   splashDamageRadius: 160
                   frontColor: 4805d7
                   backColor: 6d05d7
-                  hitEffect: massiveExplosion
+                  hitEffect: reactorExplosion
                   hitColor: 0041ff
                   fragBullets: 1
                   speed: 5
@@ -128,7 +128,7 @@ ammoTypes: {
                     splashDamageRadius: 160
                     frontColor: 6d05d7
                     backColor: 9b05d7
-                    hitEffect: massiveExplosion
+                    hitEffect: reactorExplosion
                     hitColor: 0041ff
                     fragBullets: 3
                     speed: 5
@@ -142,7 +142,6 @@ ammoTypes: {
                             collidesAir: false
                             fragRandomSpread: 0
                             colors: [9b05d7, fa2fff, fa2fff]
-                            hitEffect: massiveExplosion
                             hitColor: 0041ff
 }
 }
