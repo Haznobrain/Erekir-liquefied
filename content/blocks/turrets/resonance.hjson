@@ -10,4 +10,7 @@ ammoTypes: {
       splashDamage: 250
       splashDamageRadius: 160
       hitEffect: ReactorExplosion
-      
+      hitColor: 0041ff
+      fragBullets: 1
+      speed: 5
+      lifetime: 24
