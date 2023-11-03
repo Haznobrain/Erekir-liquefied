@@ -134,6 +134,23 @@ ammoTypes: {
                     speed: 5
                     lifetime: 24
                     fragSpread: 15
+fragBullet: {
+      length: 16
+      width: 16
+                    type: BasicBulletType
+                    damage: 340
+                    collidesAir: false
+                    splashDamage: 250
+                    fragRandomSpread: 0
+                    splashDamageRadius: 160
+                    frontColor: 6d05d7
+                    backColor: 9b05d7
+                    hitEffect: reactorExplosion
+                    hitColor: 0041ff
+                    fragBullets: 3
+                    speed: 5
+                    lifetime: 24
+                    fragSpread: 15
                         fragBullet: {
                             type: LaserBulletType
                             damage: 260
@@ -143,6 +160,7 @@ ammoTypes: {
                             fragRandomSpread: 0
                             colors: [9b05d7, fa2fff, fa2fff]
                             hitColor: 0041ff
+}
 }
 }
 }
