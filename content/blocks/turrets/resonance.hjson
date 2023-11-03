@@ -1,0 +1,13 @@
+name: Resonance
+type: ItemTurret
+description: shoots a bullet wich bounces and makes a massive explosion upon impact. Requires massive amounts of coolant
+size: 6
+reload: 300
+range: 960
+ammoTypes: {
+  cesium: 
+      damage: 340
+      splashDamage: 250
+      splashDamageRadius: 160
+      hitEffect: ReactorExplosion
+      
