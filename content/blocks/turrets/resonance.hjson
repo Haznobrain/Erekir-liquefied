@@ -12,11 +12,9 @@ shootSound: shootSmite
 targetAir: false
 reload: 60
 range: 960
-consumes: [
-liquids: {
-        water/1
+consumes: {
+        water: 1
 }
-]
 ammoTypes: {
   cesium: {
       length: 16
