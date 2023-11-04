@@ -179,7 +179,46 @@ drawer: [
 {
 type: DrawTurret
 parts: [
-    
+    {
+type: RegionPart
+  suffix: -midright
+  progress: warmup
+  under: false
+  moveX: 2
+}
+    {
+type: RegionPart
+  suffix: -midright
+  progress: warmup
+  under: false
+  moveX: -2
+}
+    {
+type: RegionPart
+  suffix: -bottom
+  progress: warmup
+  under: false
+  moveY: -2
+}
+    {
+type: RegionPart
+  suffix: -sideright
+  progress: warmup
+  under: false
+  moveX: 2
+  moveY: -2
+}
+    {
+type: RegionPart
+  suffix: -sideleft
+  progress: warmup
+  under: false
+  moveX: 2
+  moveY: -2
+}
+]
+}
+]
 requirements: [
   beryllium/2000
   tungsten/1200
