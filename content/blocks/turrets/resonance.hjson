@@ -247,7 +247,8 @@ type: ShapePart
   sides: 3
   stroke: 0
   strokeTo: 2.5
-  radius: 12
+  radius: 11
+  rotateSpeed: -0.8
 }
 {
 type: ShapePart
