@@ -229,6 +229,28 @@ type: ShapePart
 }
 {
 type: ShapePart
+  y: -36
+  hollow: true
+  circle: true
+  layer: 110
+  color: 004bb0
+  stroke: 0
+  strokeTo: 2.5
+  radius: 12
+}
+{
+type: ShapePart
+  y: -36
+  hollow: true
+  layer: 110
+  color: 004bb0
+  sides: 3
+  stroke: 0
+  strokeTo: 2.5
+  radius: 12
+}
+{
+type: ShapePart
   y: 4
   hollow: true
   circle: true
