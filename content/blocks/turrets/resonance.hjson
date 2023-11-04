@@ -258,7 +258,7 @@ type: HaloPart
   color: 004bb0
   shapes: 3
   triLength: 0
-  triLengthTo: 8
+  triLengthTo: 4
   haloRadius: 10
   tri: true
   radius: 7
