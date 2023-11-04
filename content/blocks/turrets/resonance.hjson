@@ -13,7 +13,9 @@ targetAir: false
 reload: 60
 range: 960
 consumes: {
-        water: 1
+        liquids: [
+                water/1
+]
 }
 ammoTypes: {
   cesium: {
