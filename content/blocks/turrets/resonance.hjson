@@ -310,7 +310,7 @@ type: HaloPart
   triLengthTo: 16
   haloRadius: 17
   tri: true
-  haloRotateSpeed: 0.8
+  haloRotateSpeed: -0.8
 }
 {
 type: HaloPart
