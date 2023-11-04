@@ -8,7 +8,7 @@ targetGround: true
 loopSound: spellLoop
 shootSound: shootSmite
 targetAir: false
-reload: 300
+reload: 60
 range: 960
 ammoTypes: {
   cesium: {
@@ -237,6 +237,32 @@ type: ShapePart
   stroke: 0
   strokeTo: 2.5
   radius: 6
+}
+{
+type: HaloPart
+  y: -36
+  layer: 110
+  color: 004bb0
+  shapes: 4
+  triLength: 0
+  triLengthTo: 8
+  haloRadius: 10
+  tri: true
+  radius: 17
+  haloRotateSpeed: 0.8
+}
+{
+type: HaloPart
+  y: 4
+  layer: 110
+  color: 004bb0
+  shapes: 3
+  triLength: 0
+  triLengthTo: 8
+  haloRadius: 10
+  tri: true
+  radius: 7
+  haloRotateSpeed: 1.8
 }
 ]
 }
