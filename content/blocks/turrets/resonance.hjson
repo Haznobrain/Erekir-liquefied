@@ -175,6 +175,11 @@ fragBullet: {
 }
 }
 }
+drawer: [ 
+{
+type: DrawTurret
+parts: [
+    
 requirements: [
   beryllium/2000
   tungsten/1200
