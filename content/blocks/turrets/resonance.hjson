@@ -216,6 +216,28 @@ type: RegionPart
   moveX: -4
   moveY: -4
 }
+{
+type: ShapePart
+  y: -36
+  hollow: true
+  circle: true
+  layer: 110
+  color: 004bb0
+  stroke: 0
+  strokeTo: 2.5
+  radius: 16
+}
+{
+type: ShapePart
+  y: 4
+  hollow: true
+  circle: true
+  layer: 110
+  color: 004bb0
+  stroke: 0
+  strokeTo: 2.5
+  radius: 6
+}
 ]
 }
 ]
