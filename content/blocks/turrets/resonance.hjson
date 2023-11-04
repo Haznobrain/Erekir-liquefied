@@ -184,37 +184,37 @@ type: RegionPart
   suffix: -barrelright
   progress: warmup
   under: false
-  moveX: 2
+  moveX: 4
 }
     {
 type: RegionPart
   suffix: -barrelleft
   progress: warmup
   under: false
-  moveX: -2
+  moveX: -4
 }
     {
 type: RegionPart
   suffix: -bottom
   progress: warmup
   under: false
-  moveY: -2
+  moveY: -4
 }
     {
 type: RegionPart
   suffix: -sideright
   progress: warmup
   under: false
-  moveX: 2
-  moveY: -2
+  moveX: 4
+  moveY: -4
 }
     {
 type: RegionPart
   suffix: -sideleft
   progress: warmup
   under: false
-  moveX: -2
-  moveY: -2
+  moveX: -4
+  moveY: -4
 }
 ]
 }
