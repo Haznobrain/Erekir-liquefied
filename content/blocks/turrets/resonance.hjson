@@ -3,6 +3,8 @@ type: ItemTurret
 description: shoots a bullet wich bounces and makes a massive explosion upon impact. Requires massive amounts of coolant
 size: 6
 minWarmup: 0.96
+recoil: 6
+unitSort: strongest
 shootWarmupSpeed: 0.03
 targetGround: true
 loopSound: spellLoop
