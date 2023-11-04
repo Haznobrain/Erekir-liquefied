@@ -235,7 +235,7 @@ type: ShapePart
   layer: 110
   color: 004bb0
   stroke: 0
-  strokeTo: 2.5
+  strokeTo: 1.5
   radius: 12
 }
 {
@@ -246,7 +246,7 @@ type: ShapePart
   color: 004bb0
   sides: 3
   stroke: 0
-  strokeTo: 2.5
+  strokeTo: 1.5
   radius: 11
   rotateSpeed: -0.8
 }
@@ -258,7 +258,7 @@ type: ShapePart
   color: 004bb0
   sides: 3
   stroke: 0
-  strokeTo: 2.5
+  strokeTo: 1.5
   radius: 15
   rotateSpeed: 0.8
 }
@@ -270,7 +270,7 @@ type: ShapePart
   layer: 110
   color: 004bb0
   stroke: 0
-  strokeTo: 2.5
+  strokeTo: 1.5
   radius: 6
 }
 {
