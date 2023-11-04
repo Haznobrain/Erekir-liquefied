@@ -258,9 +258,8 @@ type: HaloPart
   shapes: 3
   triLength: 0
   triLengthTo: 4
-  haloRadius: 10
+  haloRadius: 7
   tri: true
-  radius: 7
   haloRotateSpeed: 1.8
 }
 ]
