@@ -188,7 +188,7 @@ type: RegionPart
 }
     {
 type: RegionPart
-  suffix: -barrelright
+  suffix: -barrelleft
   progress: warmup
   under: false
   moveX: -2
