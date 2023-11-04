@@ -274,6 +274,18 @@ type: ShapePart
   radius: 6
 }
 {
+type: ShapePart
+  y: 4
+  hollow: true
+  layer: 110
+  color: 004bb0
+  sides: 3
+  stroke: 0
+  strokeTo: 1
+  radius: 5
+  rotateSpeed: 0.8
+}
+{
 type: HaloPart
   y: -36
   layer: 110
