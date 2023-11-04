@@ -303,7 +303,7 @@ type: HaloPart
 type: HaloPart
   y: -36
   layer: 110
-  rotation: 90
+  haloRotation: 90
   color: 004bb0
   shapes: 4
   triLength: 0
