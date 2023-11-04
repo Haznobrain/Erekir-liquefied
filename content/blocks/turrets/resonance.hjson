@@ -2,7 +2,11 @@ name: Resonance
 type: ItemTurret
 description: shoots a bullet wich bounces and makes a massive explosion upon impact. Requires massive amounts of coolant
 size: 6
+minWarmup: 0.96
+shootWarmupSpeed: 0.03
 targetGround: true
+loopSound: spellLoop
+shootSound: shootSmite
 targetAir: false
 reload: 300
 range: 960
