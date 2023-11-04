@@ -181,14 +181,14 @@ type: DrawTurret
 parts: [
     {
 type: RegionPart
-  suffix: -midright
+  suffix: -barrelright
   progress: warmup
   under: false
   moveX: 2
 }
     {
 type: RegionPart
-  suffix: -midright
+  suffix: -barrelright
   progress: warmup
   under: false
   moveX: -2
@@ -213,7 +213,7 @@ type: RegionPart
   suffix: -sideleft
   progress: warmup
   under: false
-  moveX: 2
+  moveX: -2
   moveY: -2
 }
 ]
