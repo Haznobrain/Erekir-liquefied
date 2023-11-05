@@ -229,7 +229,7 @@ type: ShapePart
   hollow: true
   circle: true
   layer: 110
-  color: 004bb0
+  color: 00a5ff
   stroke: 0
   strokeTo: 2.5
   radius: 16
@@ -240,7 +240,7 @@ type: ShapePart
   hollow: true
   circle: true
   layer: 110
-  color: 004bb0
+  color: 00a5ff
   stroke: 0
   strokeTo: 1.5
   radius: 12
@@ -250,7 +250,7 @@ type: ShapePart
   y: -36
   hollow: true
   layer: 110
-  color: 004bb0
+  color: 00a5ff
   sides: 3
   stroke: 0
   strokeTo: 1.5
@@ -262,7 +262,7 @@ type: ShapePart
   y: -36
   hollow: true
   layer: 110
-  color: 004bb0
+  color: 00a5ff
   sides: 3
   stroke: 0
   strokeTo: 1.5
@@ -275,7 +275,7 @@ type: ShapePart
   hollow: true
   circle: true
   layer: 110
-  color: 004bb0
+  color: 00a5ff
   stroke: 0
   strokeTo: 1.5
   radius: 6
@@ -285,7 +285,7 @@ type: ShapePart
   y: 4
   hollow: true
   layer: 110
-  color: 004bb0
+  color: 00a5ff
   sides: 3
   stroke: 0
   strokeTo: 1
@@ -296,7 +296,7 @@ type: ShapePart
 type: HaloPart
   y: -36
   layer: 110
-  color: 004bb0
+  color: 00a5ff
   shapes: 4
   triLength: 0
   triLengthTo: 8
@@ -309,7 +309,7 @@ type: HaloPart
   y: -36
   layer: 110
   haloRotation: 45
-  color: 004bb0
+  color: 00a5ff
   shapes: 4
   triLength: 0
   triLengthTo: 16
@@ -321,7 +321,7 @@ type: HaloPart
 type: HaloPart
   y: 4
   layer: 110
-  color: 004bb0
+  color: 00a5ff
   shapes: 3
   triLength: 0
   triLengthTo: 4
