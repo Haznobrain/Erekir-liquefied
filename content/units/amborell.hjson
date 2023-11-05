@@ -28,3 +28,14 @@ rotation: 0
 ]
 lightRadius: 200
 research: elude
+abilities: [
+{
+type: ForceFieldAbility
+radius: 40
+color: d1efff
+max: 150
+regen: 1
+cooldown: 360
+sides: 6
+}
+)
