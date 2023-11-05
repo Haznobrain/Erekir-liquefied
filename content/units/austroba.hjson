@@ -21,7 +21,7 @@ fogRadius: 20
 engineOffset: 7
 engineSize: 5
 lightRadius: 200
-research: elude
+research: avert
 weapons: [{
     x: 0
     name: austroba-weapon
