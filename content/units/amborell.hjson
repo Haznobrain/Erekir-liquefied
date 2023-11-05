@@ -18,6 +18,7 @@ fogRadius: 20
     range: 120
     mirror: true
     reload: 10
+    shootX: 3
     bullet: {
         damage: 8
         healPercent: 0.5
