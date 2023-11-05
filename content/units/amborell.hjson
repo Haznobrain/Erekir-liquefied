@@ -12,7 +12,7 @@ faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 20
-  weapons: [
+  weapons: [{
     name: amborell-weapon
     range: 120
     mirror: true
@@ -25,7 +25,7 @@ fogRadius: 20
         frontColor: 96f58c
         backColor: 28785c
 }
-]
+}]
 engines: [
 {
 x: -4
