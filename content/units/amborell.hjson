@@ -20,6 +20,7 @@ fogRadius: 20
     reload: 10
     shootX: 3
     bullet: {
+        collidesTeam: true
         damage: 8
         healPercent: 0.5
         speed: 5
@@ -50,7 +51,7 @@ type: ForceFieldAbility
 radius: 40
 color: d1efff
 max: 150
-regen: 1
+regen: 0.25
 cooldown: 360
 sides: 6
 }
