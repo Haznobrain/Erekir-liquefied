@@ -12,6 +12,20 @@ faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 20
+  weapons: [
+    name: amborell-weapon
+    range: 120
+    mirror: true
+    reload: 10
+    bullet: {
+        damage: 8
+        healPercent: 0.5
+        speed: 5
+        lifetime: 24
+        frontColor: 96f58c
+        backColor: 28785c
+}
+]
 engines: [
 {
 x: -4
