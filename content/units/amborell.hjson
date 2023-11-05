@@ -6,6 +6,10 @@ description: A small support unit that heals blocks while protecting them with a
 health: 480
 hitSize: 10
 armor: 0
+mineFloor: false
+mineHardnessScaling: false
+mineSpeed: 6
+mineTier: 3
 speed: 2.13
 targetAir: true
 faceTargets: true
