@@ -2,8 +2,8 @@ name: Areca
 template: ErekirUnitType
 type: flying
 flying: true
-description: A small support unit that heals blocks and units while protecting them with a small forcefield. Can build.
-health: 750
+description: A support unit that drops bombs with a large hit radius, healing allied targets. Can carry payload.
+health: 1500
 hitSize: 20
 armor: 4
 mineFloor: false
@@ -22,7 +22,7 @@ fogRadius: 20
 engineOffset: 7
 engineSize: 5
 lightRadius: 200
-research: elude
+research: obviate
 weapons: [{
     minShootVelocity: 0.5
     range: 56
@@ -51,16 +51,16 @@ weapons: [{
 abilities: [
 {
 type: ForceFieldAbility
-radius: 56
+radius: 80
 color: d1efff
-max: 300
-regen: 0.25
+max: 600
+regen: 0.3
 cooldown: 360
 sides: 6
 }
 {
 type: RepairFieldAbility
-amount: 2
-range: 60
+amount: 3
+range: 80
 }
 ]
