@@ -1,2 +1,18 @@
+name: Amborella
+template: ErekirUnitType
 type: flying
 flying: true
+description: A small support unit that heals blocks and units while protecting them with a small forcefield.
+health: 480
+hitSize: 10
+armor: 0
+speed: 2.13
+targetAir: true
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 20
+engines: 
+
+lightRadius: 200
+research: elude
