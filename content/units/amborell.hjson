@@ -12,7 +12,19 @@ faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 20
-engines: 
-
+engines: [
+{
+x: -4
+y: -4
+radius: 1
+rotation: 0
+}
+{
+x: 4
+y: -4
+radius: 1
+rotation: 0
+}
+]
 lightRadius: 200
 research: elude
