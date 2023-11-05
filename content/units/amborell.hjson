@@ -33,13 +33,13 @@ engines: [
 x: -4
 y: -6
 radius: 1
-rotation: 0
+rotation: 90
 }
 {
 x: 4
 y: -6
 radius: 1
-rotation: 0
+rotation: 90
 }
 ]
 lightRadius: 200
