@@ -30,12 +30,13 @@ weapons: [{
     reload: 60
     shootSound: laser
     bullet: {
+        damage: 25
         type: LaserBulletType
         length: 168 
         colors: [96f58c, 54d67d, 28785c]
         width: 4
         collidesTeam: true
-        healingPercent: 1
+        healPercent: 3.5
 }
 }]
 abilities: [
