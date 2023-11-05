@@ -51,7 +51,7 @@ sides: 6
 }
 {
 type: RepairFieldAbility
-amount: 0.25
+amount: 2
 range: 60
 }
 ]
