@@ -28,9 +28,9 @@ weapons: [{
     range: 168
     mirror: false
     reload: 60
-    shootX: 3
+    shootSound: laser
     bullet: {
-        type: LaserBulletTye
+        type: LaserBulletType
         length: 168 
         colors: [96f58c, 54d67d, 28785c]
         width: 4
