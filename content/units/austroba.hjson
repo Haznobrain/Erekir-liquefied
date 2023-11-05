@@ -22,6 +22,22 @@ engineOffset: 7
 engineSize: 5
 lightRadius: 200
 research: elude
+weapons: [{
+    x: 0
+    name: austroba-weapon
+    range: 168
+    mirror: false
+    reload: 60
+    shootX: 3
+    bullet: {
+        type: LaserBulletTye
+        length: 168 
+        colors: [96f58c, 54d67d, 28785c]
+        width: 4
+        collidesTeam: true
+        healingPercent: 1
+}
+}]
 abilities: [
 {
 type: ForceFieldAbility
