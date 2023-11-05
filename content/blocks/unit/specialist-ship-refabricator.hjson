@@ -23,6 +23,10 @@ upgrades: [
   T1-sever,
   cut
 ]
+[
+  amborell,
+  austrea
+]
 ]
 requirements: [
   tungsten/150
