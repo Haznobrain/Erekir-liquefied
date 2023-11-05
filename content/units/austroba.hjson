@@ -1,1 +1,40 @@
-
+name: Austroba
+template: ErekirUnitType
+type: flying
+flying: true
+description: A small support unit that heals blocks and units while protecting them with a small forcefield. Can build.
+health: 750
+hitSize: 14
+armor: 2
+mineFloor: false
+mineWalls: true
+mineHardnessScaling: false
+mineSpeed: 3
+buildSpeed: 0.75
+mineTier: 3
+speed: 2.13
+targetAir: true
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 20
+engineOffset: 7
+engineSize: 5
+lightRadius: 200
+research: elude
+abilities: [
+{
+type: ForceFieldAbility
+radius: 56
+color: d1efff
+max: 300
+regen: 0.25
+cooldown: 360
+sides: 6
+}
+{
+type: RepairFieldAbility
+amount: 0.25
+range: 60
+}
+]
