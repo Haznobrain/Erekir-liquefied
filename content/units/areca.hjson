@@ -12,7 +12,7 @@ faceTarget: false
 mineHardnessScaling: false
 circleTarget: true
 mineSpeed: 5
-payloadCapacity: 72
+payloadCapacity: 9
 buildSpeed: 2.75
 mineTier: 4
 speed: 2
