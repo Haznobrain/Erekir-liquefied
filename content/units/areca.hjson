@@ -8,9 +8,11 @@ hitSize: 20
 armor: 4
 mineFloor: false
 mineWalls: true
+faceTarget: false
 mineHardnessScaling: false
+circleTarget: true
 mineSpeed: 5
-payloadCapacity: 9
+payloadCapacity: 3*3
 buildSpeed: 2.75
 mineTier: 4
 speed: 2
