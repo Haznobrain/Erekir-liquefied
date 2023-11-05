@@ -1,6 +1,6 @@
 name: Specialist ship fabricator
 size: 3
-description: Produces Sever units using beryllium and silicon.
+description: Produces specialized flying units units.
 type: unitFactory
 configurable: true
   consumes: {
