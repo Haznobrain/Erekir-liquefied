@@ -13,6 +13,7 @@ lightRadius: 5
 singleTarget: true
 fogRadius: 20
   weapons: [{
+    x: 3
     name: amborell-weapon
     range: 120
     mirror: true
