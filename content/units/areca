@@ -10,6 +10,7 @@ mineFloor: false
 mineWalls: true
 mineHardnessScaling: false
 mineSpeed: 5
+payloadCapacity: 9
 buildSpeed: 2.75
 mineTier: 4
 speed: 2
