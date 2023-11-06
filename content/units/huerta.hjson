@@ -1,1 +1,59 @@
-
+name: Huerta
+template: ErekirUnitType
+type: payload
+flying: true
+description: A large support unit that protects and heals allied blocks and units. Can carry large payload.
+health: 6500
+hitSize: 36
+armor: 10
+mineFloor: false
+mineWalls: true
+faceTarget: false
+mineHardnessScaling: false
+circleTarget: true
+mineSpeed: 7.5
+payloadCapacity: 1600
+buildSpeed: 5
+mineTier: 4
+speed: 1.5
+targetAir: false
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 45
+engineOffset: 16
+engineSize: 8
+lightRadius: 200
+research: quell
+weapons: [
+{
+name: huerta-weapon1
+reload: 120
+recoil: 3
+shootSound: laser
+x: 0
+y: 0
+  shoot: [
+    shots: 1
+    rotateSpeed: 3
+]
+bullet: {
+    sprite: 
+}
+]
+abilities: [
+{
+type: ForceFieldAbility
+radius: 80
+color: d1efff
+max: 600
+regen: 0.3
+cooldown: 360
+sides: 6
+}
+{
+type: RepairFieldAbility
+amount: 3
+range: 80
+}
+]
