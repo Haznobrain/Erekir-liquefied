@@ -52,16 +52,23 @@ bullet: {
 }
 }
 {
-type: RepairBeamWeapon
-targetBuilding: true
-targetUnits: false
-repairSpeed: 0.5
-color: 19ff00
-rotate: true
+name: huerta-weapon2
+x: 0
+y: 0
+mirror: true
+range: 160
+shootX: 18
+shootY: -1
+continuous: true
+shoot: {
+    shots: 2
+    spread: 30
+}
 bullet: {
-maxLength: 80
-laser: point-laser
-laserEnd: point-laser-end
+    type: ContinuousFlameBulletType
+    damage: 26
+    colors: [96f58c, 54d67d, 81d79c, 9cdbb0, ffffff]
+    lightStroke: 160
 }
 }
 ]
