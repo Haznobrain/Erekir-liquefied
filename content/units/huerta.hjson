@@ -63,9 +63,11 @@ continuous: true
 alternate: false
 alwaysContinuous: true
 shoot: {
-    shots: 2
-    spread: 30
+    type: shootSpread
+    shots: 3
+    spread: 15
 }
+shootSound: torch
 bullet: {
     type: ContinuousFlameBulletType
     damage: 26
