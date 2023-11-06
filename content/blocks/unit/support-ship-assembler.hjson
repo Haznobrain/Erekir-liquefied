@@ -1,0 +1,39 @@
+type: UnitAssembler
+  size: 5
+name: Support ship assembler
+description: assembles large support ships using payload as inputs. Requires cyanogen.
+areaSize: 14
+  consumes: {
+    power: 10
+      liquids: [
+      cyanogen/0.15
+    ]
+      }
+plans: [
+{
+type: UnitAssemblerPlan
+  unit: huerta
+  time: 3600
+  requirements: [
+    erekirliquefied-Tamborell/4
+    tungsten-wall-large/12
+    ]
+}
+{
+type: UnitAssemblerPlan
+  unit: cupressa
+      time: 10800
+        requirements: [
+          erekirliquefied-austroba/4
+          carbide-wall-large/20
+          shielded-wall/4
+]
+}
+]
+requirements: [
+  graphite/500
+  silicon/400
+  tungsten/250
+  carbide/80
+]
+category: units
