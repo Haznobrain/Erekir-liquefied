@@ -52,7 +52,7 @@ bullet: {
 }
 }
 {
-type: RepairBeam
+type: RepairBeamWeapon
 targetBuilding: true
 targetUNits: false
 repairSpeed: 0.5
