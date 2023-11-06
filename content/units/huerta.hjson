@@ -51,6 +51,13 @@ bullet: {
     frontColor: 19ff00
 }
 }
+{
+type: RepairBeam
+targetBuilding: true
+targetUNits: false
+repairSpeed: 0.5
+maxLength: 80
+}
 ]
 abilities: [
 {
