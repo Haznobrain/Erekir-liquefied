@@ -60,6 +60,7 @@ color: 19ff00
 bullet: {
 maxLength: 80
 }
+}
 ]
 abilities: [
 {
