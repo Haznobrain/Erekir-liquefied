@@ -57,7 +57,6 @@ targetBuilding: true
 targetUnits: false
 repairSpeed: 0.5
 color: 19ff00
-laser: point-laser
 laserEnd: point-laser-end
 laserTop: point-laser
 laserTopEnd: point-laser-end
