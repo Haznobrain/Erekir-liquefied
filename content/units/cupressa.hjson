@@ -36,6 +36,7 @@ recoil: 3
 shootSound: laserblast
 chargeSound: lasercharge
 x: 0
+shootOnDeath
 cooldownTime: 800
 y: 0
 mirror: false
