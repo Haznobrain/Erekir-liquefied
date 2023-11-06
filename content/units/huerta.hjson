@@ -54,8 +54,10 @@ bullet: {
 {
 type: RepairBeamWeapon
 targetBuilding: true
-targetUNits: false
+targetUnits: false
 repairSpeed: 0.5
+color: 19ff00
+bullet: {
 maxLength: 80
 }
 ]
