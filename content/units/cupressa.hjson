@@ -56,7 +56,7 @@ bullet: {
     lightningAngleRand: 30
     largeHit: true
     chargeEffect: greenLaserCharge
-    healPercent: 100%
+    healPercent: 100
     collidesTeam: true
     sideAngle: 15
     sideWidth: 0
