@@ -57,9 +57,7 @@ targetBuilding: true
 targetUnits: false
 repairSpeed: 0.5
 color: 19ff00
-laserEnd: point-laser-end
-laserTop: point-laser
-laserTopEnd: point-laser-end
+rotate: true
 bullet: {
 maxLength: 80
 }
