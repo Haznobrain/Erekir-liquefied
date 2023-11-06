@@ -136,16 +136,16 @@ bullet: {
 abilities: [
 {
 type: ForceFieldAbility
-radius: 80
+radius: 160
 color: d1efff
-max: 2500
-regen: 1
+max: 7000
+regen: 2
 cooldown: 360
-sides: 5
+sides: 20
 }
 {
 type: RepairFieldAbility
-amount: 4
-range: 80
+amount: 125
+range: 120
 }
 ]
