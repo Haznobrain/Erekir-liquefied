@@ -4,6 +4,7 @@ type: payload
 flying: true
 description: A large flying unit with high health and armor that posses a strong shield and powerful healing and building capabilities. Can carry large payloads.
 health: 24000
+rotateSpeed: 0.8
 hitSize: 52
 armor: 26
 payloadCapacity: 5184
@@ -69,6 +70,8 @@ name: cupressa-weapon2
 x: 0
 y: 0
 mirror: false
+rotate: true
+rotateSpeed: 1.5
 range: 160
 shootX: 0
 shootY: 2
@@ -91,6 +94,7 @@ bullet: {
 {
     name: cupressa-weapon3
     reload: 15
+    rotate: 360
         x: -15
         y: -15
     range: 200
@@ -111,6 +115,8 @@ bullet: {
     reload: 15
         x: -15
         y: 15
+    rotate: true
+    rotateSpeed: 360
     range: 200
     mirror: true
         bullet: {
