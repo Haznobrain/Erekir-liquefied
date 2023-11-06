@@ -58,7 +58,8 @@ targetUnits: false
 repairSpeed: 0.5
 color: 19ff00
 rotate: true
-laser: mindustry-point-laser
+laser: "point-laser"
+laserEnd: "point-laser-end"
 bullet: {
 maxLength: 80
 }
