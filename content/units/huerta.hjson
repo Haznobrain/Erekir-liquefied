@@ -61,6 +61,7 @@ shootX: 18
 shootY: -1
 continuous: true
 alternate: false
+alwaysContinuous: true
 shoot: {
     shots: 2
     spread: 30
