@@ -62,11 +62,6 @@ shootY: -1
 continuous: true
 alternate: false
 alwaysContinuous: true
-shoot: {
-    type: shootSpread
-    shots: 3
-    spread: 15
-}
 shootSound: torch
 bullet: {
     type: ContinuousFlameBulletType
@@ -74,6 +69,8 @@ bullet: {
     colors: [96f58c, 54d67d, 81d79c, 9cdbb0, ffffff]
     flareColor: 96f58c
     lightStroke: 160
+    collidesTeam: true
+    healPercent: 0.2
 }
 }
 ]
