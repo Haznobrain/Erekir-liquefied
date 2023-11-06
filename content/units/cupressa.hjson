@@ -1,0 +1,93 @@
+name: Cupressa
+template: ErekirUnitType
+type: payload
+flying: true
+description: A large flying unit with high health and armor that posses a strong shield and powerful healing and building capabilities. Can carry large payloads.
+health: 24000
+hitSize: 52
+armor: 26
+payloadCapacity: 5184
+buildSpeed: 7.5
+speed: 0.5
+targetAir: true
+faceTargets: true
+lightRadius: 52
+singleTarget: false
+fogRadius: 45
+engineOffset: 24
+engineSize: 12
+engines: {
+    y: -25
+    x: -20
+    size: 8
+    mirror: true
+    rotation: 45
+      ]
+lightRadius: 200
+research: quell
+weapons: [
+{
+name: huerta-weapon1
+reload: 120
+recoil: 3
+shootSound: laser
+x: 0
+y: 0
+mirror: false
+range: 360
+  shoot: {
+    shots: 1
+    rotateSpeed: 3
+}
+bullet: {
+    type: LaserBoltBulletType
+    length: 20
+    width: 4
+    damage: 120
+    healPercent: 15
+    collidesTeam: true
+    lifetime: 72
+    speed: 5
+    backColor: 19ff00
+    frontColor: 19ff00
+}
+}
+{
+name: huerta-weapon2
+x: 0
+y: 0
+mirror: true
+range: 160
+shootX: 18
+shootY: -1
+continuous: true
+alternate: false
+alwaysContinuous: true
+shootSound: torch
+bullet: {
+    type: ContinuousFlameBulletType
+    damage: 26
+    colors: [96f58c, 54d67d, 81d79c, 9cdbb0, ffffff]
+    flareColor: 96f58c
+    lightStroke: 160
+    collidesTeam: true
+    healPercent: 0.2
+}
+}
+]
+abilities: [
+{
+type: ForceFieldAbility
+radius: 80
+color: d1efff
+max: 2500
+regen: 1
+cooldown: 360
+sides: 5
+}
+{
+type: RepairFieldAbility
+amount: 4
+range: 80
+}
+]
