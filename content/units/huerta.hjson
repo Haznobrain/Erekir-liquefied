@@ -60,6 +60,7 @@ range: 160
 shootX: 18
 shootY: -1
 continuous: true
+Alternate: false
 shoot: {
     shots: 2
     spread: 30
