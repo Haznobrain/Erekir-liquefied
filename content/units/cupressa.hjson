@@ -19,8 +19,8 @@ engineOffset: 24
 engineSize: 12
 engines: [
 {
-    y: -25
-    x: -20
+    y: -26
+    x: -24
     size: 8
     mirror: true
     rotation: 45
