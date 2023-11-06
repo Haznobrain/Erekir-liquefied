@@ -48,6 +48,8 @@ bullet: {
     collidesTeam: true
     lifetime: 72
     speed: 5
+    backColor: 19ff00
+    frontColor: 19ff00
 }
 }
 ]
