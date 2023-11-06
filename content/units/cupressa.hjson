@@ -37,14 +37,14 @@ chargeSound: lasercharge
 x: 0
 y: 0
 mirror: false
-range: 288
+range: 360
   shoot: {
     firstShotDelay: 65
 }
 parentizeEffects: true
 bullet: {
     type: LaserBulletType
-    length: 288
+    length: 360
     damage: 720
     lifetime: 65
     width: 80
@@ -68,10 +68,10 @@ colors: [96f58c, 54d67d, 28785c]
 name: cupressa-weapon2
 x: 0
 y: 0
-mirror: true
+mirror: false
 range: 160
-shootX: 18
-shootY: -1
+shootX: 0
+shootY: 2
 continuous: true
 alternate: false
 alwaysContinuous: true
@@ -85,6 +85,7 @@ bullet: {
     width: 16
     collidesTeam: true
     healPercent: 2
+    length: 240
 }
 }
 {
