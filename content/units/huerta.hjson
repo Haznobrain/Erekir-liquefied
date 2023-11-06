@@ -33,12 +33,14 @@ recoil: 3
 shootSound: laser
 x: 0
 y: 0
+mirror: false
 range: 360
   shoot: {
     shots: 1
     rotateSpeed: 3
 }
 bullet: {
+    type: LaserBoltBulletType
     length: 20
     width: 20
     damage: 120
@@ -54,14 +56,14 @@ abilities: [
 type: ForceFieldAbility
 radius: 80
 color: d1efff
-max: 600
-regen: 0.3
+max: 2500
+regen: 1
 cooldown: 360
-sides: 6
+sides: 5
 }
 {
 type: RepairFieldAbility
-amount: 3
+amount: 4
 range: 80
 }
 ]
