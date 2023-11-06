@@ -70,6 +70,7 @@ bullet: {
     type: ContinuousFlameBulletType
     damage: 26
     colors: [96f58c, 54d67d, 81d79c, 9cdbb0, ffffff]
+    falreColor: 96f58c
     lightStroke: 160
 }
 }
