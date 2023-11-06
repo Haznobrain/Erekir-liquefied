@@ -58,8 +58,7 @@ targetUnits: false
 repairSpeed: 0.5
 color: 19ff00
 rotate: true
-laser: "point-laser"
-laserEnd: "point-laser-end"
+sprite: point-laser
 bullet: {
 maxLength: 80
 }
