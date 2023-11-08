@@ -15,8 +15,6 @@ faceTargets: true
 lightRadius: 58
 singleTarget: false
 fogRadius: 60
-engineOffset: 24
-engineSize: 8
 engines: [
 {
 y: -36
