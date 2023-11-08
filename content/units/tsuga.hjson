@@ -57,6 +57,7 @@ bullet: {
   lifetime: 107
   shootEffect: {
     type: MultiEffect
+effects: [
 {
         effect: shootTitan
 }
@@ -67,6 +68,7 @@ sizeTo: 30
 lifetime: 20
 strokeFrom: 4
 }
+]
 }
 backColor: 28785c
 frontColor: 54d67d
