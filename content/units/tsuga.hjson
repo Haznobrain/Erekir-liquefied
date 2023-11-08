@@ -19,17 +19,17 @@ engineOffset: 24
 engineSize: 8
 engines: [
 {
-    y: -36
-    x: -34
-    size: 10
-    rotation: -45
-      }
+y: -36
+x: -34
+size: 10
+rotation: -45
+}
 {
-    y: -36
-    x: 34
-    size: 10
-    rotation: 45
-      }
+y: -36
+x: 34
+size: 10
+rotation: 45
+}
 ]
 lightRadius: 200
 research: cupressa
