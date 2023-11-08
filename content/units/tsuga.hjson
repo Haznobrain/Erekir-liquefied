@@ -1,1 +1,111 @@
-
+name: Tsuga
+template: ErekirUnitType
+type: payload
+flying: true
+description: A huge flying support unit that shoots long range twisting bullets and a large laser at ennemy targets while protecting allies under its powerful healing field and forcefield.
+health: 56000
+rotateSpeed: 0.8
+hitSize: 70
+armor: 26
+payloadCapacity: 5184
+buildSpeed: 10
+speed: 0.475
+targetAir: true
+faceTargets: true
+lightRadius: 58
+singleTarget: false
+fogRadius: 60
+engineOffset: 24
+engineSize: 8
+engines: [
+{
+    y: -36
+    x: -29
+    size: 10
+    rotation: -45
+      }
+{
+    y: -36
+    x: 29
+    size: 10
+    rotation: 45
+      }
+]
+lightRadius: 200
+research: cupressa
+weapons: [
+{
+name: tsuga-weapon1
+reload: 45
+recoil: 1
+shootSound: shockBlast
+x: 0
+y: 0
+shootX: 36
+top: false
+rotate: false
+range: 320
+mirror: false
+shoot: {
+  type: ShootHelix
+}
+bullet: {
+  type: BasicBulletType
+  width: 18
+  height: 18
+  speed: 3
+  lifetime: 107
+  shootEffect: {
+    type: MultiEffect
+{
+        effect: shootTitan
+}
+{
+type: WaveEffect
+colorTo: 47ff00
+sizeTo: 30
+lifetime: 20
+strokeFrom: 4
+}
+}
+backColor: 28785c
+frontColor: 54d67d
+trailEffect: missileTrail
+trailInterval: 3
+trailParam: 4
+damage: 245
+splashDamage: 125
+splashDamageRadius: 60
+sprite: large-orb
+trailColor: 54d67d
+trailLength: 40
+trailWidth: 2
+collidesTeam: true
+healPercent: 25
+despawnEffect: {
+  type: ExplosionEffect
+  waveColor: 54d67d
+  smokeColor: 28785c
+  sparkColor: 28785c
+  waveStroke: 6
+  waveRad: 60
+}
+}
+}
+]
+abilities: [
+{
+type: ForceFieldAbility
+radius: 160
+color: d1efff
+max: 7000
+regen: 2
+cooldown: 360
+sides: 20
+}
+{
+type: RepairFieldAbility
+amount: 125
+range: 120
+}
+]
