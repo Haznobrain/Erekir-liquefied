@@ -98,16 +98,16 @@ despawnEffect: {
 abilities: [
 {
 type: ForceFieldAbility
-radius: 160
+radius: 240
 color: d1efff
-max: 7000
-regen: 2
+max: 15000
+regen: 5
 cooldown: 360
-sides: 20
+sides: 4
 }
 {
 type: RepairFieldAbility
-amount: 125
-range: 120
+amount: 340
+range: 240
 }
 ]
