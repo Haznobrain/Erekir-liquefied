@@ -41,7 +41,7 @@ recoil: 1
 shootSound: shockBlast
 x: 0
 y: 0
-shootX: 36
+shootY: 36
 top: false
 rotate: false
 range: 320
