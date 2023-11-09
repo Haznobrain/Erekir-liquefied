@@ -105,7 +105,7 @@ despawnEffect: {
       shapes: 2
       triLength: 6
       triLengthTo: 16
-      partProgress: recoil
+      progress: reload
       color: 69ff00
       haloRotateSpeed: 0
       haloRotation: 90
@@ -120,7 +120,7 @@ despawnEffect: {
   circle: true
   stroke: 1.2
   stokeTo: 0
-  partProgress: recoil
+  progress: reload
   color: 69ff00
   followRotation: true
   }
