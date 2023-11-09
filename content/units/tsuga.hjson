@@ -103,8 +103,8 @@ despawnEffect: {
     {
       type: HaloPart
       shapes: 2
-      triLength: 6
-      triLengthTo: 16
+      triLength: 16
+      triLengthTo: 6
       progress: reload
       color: 69ff00
       haloRotateSpeed: 0
@@ -124,27 +124,36 @@ despawnEffect: {
   color: 69ff00
   followRotation: true
   }
+{
+  type: ShapePart
+  hollow: true
+  radius: 8
+  circle: false
+  sides: 3
+  stroke: 
+  strokeTo: 
+  progress: reload
+  color: 69ff00
+  followRotation: true
+  }
 ]
 shootSound: laserblast
 chargeSound: lasercharge
 shootOnDeath: true
 cooldownTime: 900
 range: 480
-  shoot: {
-    firstShotDelay: 65
-}
 parentizeEffects: true
 bullet: {
     type: LaserBulletType
     length: 480
-    damage: 720
+    damage: 2450
     lifetime: 65
     width: 80
     lightningSpacing: 32
     lightningLength: 7
     lightningDelay: 5
     lightningLengthRand: 15
-    lightningDamage: 45
+    lightningDamage: 75
     lightningAngleRand: 30
     largeHit: true
     chargeEffect: greenLaserCharge
