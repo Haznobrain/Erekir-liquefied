@@ -120,9 +120,9 @@ despawnEffect: {
       triLengthTo: 8
       progress: reload
       color: 69ff00
-      haloRotateSpeed: 6
-      haloRotateSpeedTo: 0.8
+      haloRotateSpeed: -6
       haloRadius: 10
+      haloRadiusTo: 4
       tri: true
       followRotation: true
     }
