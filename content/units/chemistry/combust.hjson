@@ -5,7 +5,7 @@ health: 650
 description: explodes on ennemy targets spreading fire. very fast but takes a long time to reach max speed.
 speed: 2.1
 hitSize: 5
-accel: 0.01
+accel: 0.1
 rotateSpeed: 12
 legStraightness: 0.3
 legCount: 4
