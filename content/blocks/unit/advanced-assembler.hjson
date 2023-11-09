@@ -26,8 +26,8 @@ type: UnitAssemblerPlan
       time: 13800
         requirements: [
           erekirliquefied-areca/4
+          shielded-wall/8
           erekirliquefied-large-azpacite-wall/12
-          phase-wall/8
 ]
 }
   ]
