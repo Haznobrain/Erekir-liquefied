@@ -17,5 +17,5 @@ legBaseOffset: 4
 legMaxLength: 1.8
 legMinLength: 0.2
 legForwardScale: 1.1
-legGroupSize: 5
+legGroupSize: 2
 rippleScale: 0.2
