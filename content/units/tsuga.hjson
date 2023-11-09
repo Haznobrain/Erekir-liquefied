@@ -119,6 +119,7 @@ despawnEffect: {
   color: 69ff00
   }
 ]
+}
 abilities: [
 {
 type: ForceFieldAbility
