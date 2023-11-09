@@ -12,10 +12,11 @@ legCount: 4
 legLength: 4
 lockLegBase: true
 legContinuousMove: true
-legExtension: 4
+legExtension: -2
 legBaseOffset: 4
-legMaxLength: 1.8
+legMaxLength: 1.1
+legLengthScl: 0.96
 legMinLength: 0.2
 legForwardScale: 1.1
-legGroupSize: 2
+legGroupSize: 3
 rippleScale: 0.2
