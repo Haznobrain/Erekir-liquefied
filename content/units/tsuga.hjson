@@ -113,6 +113,19 @@ despawnEffect: {
       tri: true
       followRotation: true
     }
+    {
+      type: HaloPart
+      shapes: 6
+      triLength: 4
+      triLengthTo: 8
+      progress: reload
+      color: 69ff00
+      haloRotateSpeed: 6
+      haloRotateSpeedTo: 0.8
+      haloRadius: 10
+      tri: true
+      followRotation: true
+    }
 {
   type: ShapePart
   hollow: true
@@ -127,8 +140,23 @@ despawnEffect: {
 {
   type: ShapePart
   hollow: true
-  radius: 8
+  radius: 7
   radiusTo: 16
+  circle: false
+  sides: 3
+  stroke: 1.2
+  strokeTo: 0.8
+  progress: reload
+  color: 69ff00
+  rotateSpeed: 1.8
+  rotateSpeedTo: 3.6
+  followRotation: true
+  }
+{
+  type: ShapePart
+  hollow: true
+  radius: 7
+  radiusTo: 0
   circle: false
   sides: 3
   stroke: 1.2
