@@ -92,6 +92,12 @@ despawnEffect: {
 }
 }
 }
+{
+  name: tsuga-weapon2
+  mirror: false
+  reload: 900
+  x: 0
+  y: 16
 ]
 abilities: [
 {
