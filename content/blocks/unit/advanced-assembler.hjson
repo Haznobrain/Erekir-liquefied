@@ -20,6 +20,16 @@ type: UnitAssemblerPlan
           erekirliquefied-large-azpacite-wall/12
 ]
 }
+{
+type: UnitAssemblerPlan
+  unit: tsuga
+      time: 13800
+        requirements: [
+          erekirliquefied-areca/4
+          erekirliquefied-large-azpacite-wall/12
+          phase-wall/8
+]
+}
   ]
 requirements: [
   beryllium/800
