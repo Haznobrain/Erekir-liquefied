@@ -135,6 +135,8 @@ despawnEffect: {
   strokeTo: 0.8
   progress: reload
   color: 69ff00
+  rotateSpeed: 1.8
+  rotateSpeedTo: 3.6
   followRotation: true
   }
 ]
