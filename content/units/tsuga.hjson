@@ -109,9 +109,12 @@ despawnEffect: {
       color: 69ff00
       haloRotateSpeed: 0
       rotation: 90
+      haloRadius: 8
     }
 {
   type: ShapePart
+  hollow: true
+  radius: 10
   circle: true
   stroke: 1.2
   stokeTo: 0
