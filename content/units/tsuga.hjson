@@ -119,7 +119,7 @@ despawnEffect: {
   radius: 8
   circle: true
   stroke: 1.2
-  stokeTo: 0
+  strokeTo: 0
   progress: reload
   color: 69ff00
   followRotation: true
