@@ -99,7 +99,7 @@ despawnEffect: {
   x: 0
   y: 16
   recoil: 0
-  drawer: [
+  parts: [
     {
       type: HaloPart
       shapes: 2
