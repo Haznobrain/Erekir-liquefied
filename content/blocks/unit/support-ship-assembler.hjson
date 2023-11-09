@@ -15,7 +15,7 @@ type: UnitAssemblerPlan
   unit: huerta
   time: 3600
   requirements: [
-    erekirliquefied-Tamborell/4
+    erekirliquefied-amborell/4
     tungsten-wall-large/12
     ]
 }
