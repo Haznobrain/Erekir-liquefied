@@ -128,10 +128,11 @@ despawnEffect: {
   type: ShapePart
   hollow: true
   radius: 8
+  radiusTo: 16
   circle: false
   sides: 3
-  stroke: 
-  strokeTo: 
+  stroke: 1.2
+  strokeTo: 0.8
   progress: reload
   color: 69ff00
   followRotation: true
