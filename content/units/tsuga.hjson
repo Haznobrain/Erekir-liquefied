@@ -108,7 +108,7 @@ despawnEffect: {
       partProgress: recoil
       color: 69ff00
       haloRotateSpeed: 0
-      rotation: 0
+      haloRotation: 90
       haloRadius: 10
       tri: true
       followRotation: true
