@@ -98,6 +98,26 @@ despawnEffect: {
   reload: 900
   x: 0
   y: 16
+  recoil: 0
+  drawer: [
+    {
+      type: DrawHalo
+      shapes: 2
+      triLength: 6
+      triLengthTo: 16
+      progress: recoil
+      color: 69ff00
+      haloRotateSpeed: 0
+      rotation: 90
+    }
+{
+  type: drawShape
+  circle: true
+  stroke: 1.2
+  stokeTo: 0
+  progress: recoil
+  color: 69ff00
+  }
 ]
 abilities: [
 {
