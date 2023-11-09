@@ -108,4 +108,10 @@ type: RepairFieldAbility
 amount: 340
 range: 240
 }
+{
+type: UnitSpawnAbility
+spawnTime: 2400
+spawnY: -32
+unit: erekirliquefied-amborell
+}
 ]
