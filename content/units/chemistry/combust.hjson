@@ -9,14 +9,15 @@ accel: 0.1
 rotateSpeed: 12
 legStraightness: 0.3
 legCount: 4
-legLength: 4
+legLength: 6
 lockLegBase: true
 legContinuousMove: true
 legExtension: -2
-legBaseOffset: 4
+legBaseOffset: 5
 legMaxLength: 1.1
 legLengthScl: 0.96
 legMinLength: 0.2
 legForwardScale: 1.1
 legGroupSize: 3
 rippleScale: 0.2
+legMoveSpace: 1
