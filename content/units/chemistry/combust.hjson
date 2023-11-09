@@ -7,7 +7,7 @@ speed: 2.1
 hitSize: 5
 accel: 0.1
 rotateSpeed: 12
-legStraightness: 0.3
+legStraightness: 0.6
 legCount: 4
 legLength: 4
 lockLegBase: true
@@ -16,7 +16,7 @@ legExtension: -2
 legBaseOffset: 2
 legMaxLength: 1.5
 legLengthScl: 0.96
-legMinLength: 0.2
+legMinLength: 0.8
 legForwardScale: 1.1
 legGroupSize: 3
 rippleScale: 0.2
