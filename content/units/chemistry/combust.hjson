@@ -12,9 +12,9 @@ legCount: 4
 legLength: 4
 lockLegBase: true
 legContinuousMove: true
-legExtension: 2
+legExtension: 4
 legBaseOffset: 4
-legMaxLength: 1.1
+legMaxLength: 1.8
 legMinLength: 0.2
 legForwardScale: 1.1
 legGroupSize: 3
