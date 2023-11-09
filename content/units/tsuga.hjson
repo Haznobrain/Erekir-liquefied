@@ -101,7 +101,7 @@ despawnEffect: {
   recoil: 0
   drawer: [
     {
-      type: DrawHalo
+      type: HaloPart
       shapes: 2
       triLength: 6
       triLengthTo: 16
@@ -111,7 +111,7 @@ despawnEffect: {
       rotation: 90
     }
 {
-  type: drawShape
+  type: ShapePart
   circle: true
   stroke: 1.2
   stokeTo: 0
