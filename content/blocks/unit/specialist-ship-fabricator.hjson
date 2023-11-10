@@ -26,6 +26,7 @@ time: 3000
 }
 ]
 category: units
+research: ship-fabricator
 requirements: [
     beryllium/200
     silicon/200
