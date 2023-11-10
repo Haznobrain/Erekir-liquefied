@@ -9,7 +9,7 @@ rotateSpeed: 12
 legStraightness: 0.3
 legSpeed: 0.5
 legCount: 4
-legLength: 4
+legLength: 8
 lockLegBase: true
 legContinuousMove: true
 legExtension: -2
@@ -27,7 +27,9 @@ weapons: [
 {
   reload: 60
   range: 56
+  shootSound: blaster
   bullet: {
+    trailEffect: missileTrail
     type: ExplosionBulletType
       splashDamage: 95
       splashDamageRadius: 64
