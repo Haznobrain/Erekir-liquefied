@@ -27,6 +27,9 @@ weapons: [
 {
   reload: 45
   range: 112
+  mirror: false
+  x: 0
+  y: 6
   bullet: {
     type: BasicBulletType
       damage: 28
