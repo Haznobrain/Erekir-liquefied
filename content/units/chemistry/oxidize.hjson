@@ -1,1 +1,41 @@
-
+template: ErekirUnitType
+type: legs
+name: combust
+health: 740
+description: Shoots a small oxidizing bullet at ennemy targets.
+speed: 0.9
+hitSize: 12
+rotateSpeed: 3
+legStraightness: 0.6
+legSpeed: 0.9
+legCount: 6
+legLength: 8
+lockLegBase: true
+legContinuousMove: true
+legExtension: -3
+legBaseOffset: 6
+legMaxLength: 1.5
+legLengthScl: 0.96
+legMinLength: 0.2
+legForwardScale: 1.1
+legGroupSize: 3
+rippleScale: 0.2
+legMoveSpace: 1
+allowLegStep: true
+legPhysicsLayer: false
+weapons: [
+{
+  reload: 45
+  range: 112
+  bullet: {
+    type: BasicBulletType
+      damage: 28
+      splashDamageRadius: 64
+      lifetime: 23
+      speed: 5
+      sprite: ekerirliquefied-bullet-resonance
+      backColor: 323d39
+      frontColor: 3f523d
+}
+}
+]
