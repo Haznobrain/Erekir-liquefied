@@ -1,4 +1,4 @@
-Name: oxidized
+
 type: StatusEffect
   damageMultiplier: 0.95
   healthMultiplier: 90
