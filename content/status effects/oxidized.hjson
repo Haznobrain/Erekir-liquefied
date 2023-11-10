@@ -1,5 +1,5 @@
 Name: oxidized
 type: StatusEffect
-  statusDamageMultiplier: 0.95
-  statusHealthMultiplier: 90
-  statusSpeedMultiplier: 0.6
+  damageMultiplier: 0.95
+  healthMultiplier: 90
+  speedMultiplier: 0.6
