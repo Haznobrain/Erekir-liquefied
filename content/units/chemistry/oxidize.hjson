@@ -1,6 +1,6 @@
 template: ErekirUnitType
 type: legs
-name: combust
+name: Oxidize
 health: 740
 description: Shoots a small oxidizing bullet at ennemy targets.
 speed: 0.9
