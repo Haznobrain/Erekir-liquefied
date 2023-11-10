@@ -23,7 +23,61 @@ rippleScale: 0.2
 legMoveSpace: 2
 allowLegStep: true
 legPhysicsLayer: false
+ammoType: powerAmmoType
+parts: [
+{
+type: regionPart
+suffix: -blade
+layerOffset: -0.01
+x: 6
+y: 6
+moveX: 2
+moveY: 0
+moveRot: 40
+mirror: true
+progress: warmup
+}
+]
 weapons: [
 {
 reload: 30
+shootSound: pulseBlast
 range: 200
+name: action-weapon
+mirror: true
+x: 0
+y: 0
+shootX: 10
+shootY: 6
+  bullet: {
+        type: MissileBulletType
+        weaveMag: 8
+        weaveScale: 8
+        lifetime: 67
+        speed: 3
+        shootEffect: shootBig2
+        smokeEffect: shootSmokeTitan
+        damage: 125
+        makeFire: true
+        frontColor: ffffff
+        backColor: ffdf62
+        lightColor: ffdf62
+        trailWidth: 2.8
+        trailLength: 20
+        trailChance: 1
+        hitEffect: {
+          type: ExplosionEffect
+          lifetime: 20
+          waveStroke: 1
+          waveColor: ffdf62
+          waveRad: 12
+          smokeSize: 0
+          smokeSizeBase: 0
+          sparks: 8
+          sparkRad: 24
+          sparkLen: 4
+          sparkStroke: 1.5
+}
+}
+}
+]
