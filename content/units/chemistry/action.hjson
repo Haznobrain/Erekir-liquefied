@@ -23,3 +23,7 @@ rippleScale: 0.2
 legMoveSpace: 2
 allowLegStep: true
 legPhysicsLayer: false
+weapons: [
+{
+reload: 30
+range: 200
