@@ -43,7 +43,7 @@ weapons: [
       sprite: erekirliquefied-bullet-resonance
       backColor: 323d39
       frontColor: 3f523d
-      status: oxidized
+      status: erekirliquefied-oxidized
       statusDuration: 300
 }
 }
