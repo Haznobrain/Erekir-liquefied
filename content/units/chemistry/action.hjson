@@ -32,6 +32,9 @@ parts: [
 type: regionPart
 suffix: -blade
 layerOffset: -0.01
+heatColor: ffdf62
+heatLayerOffset: 0.005
+heatProgress: warmup
 x: 7
 y: 4
 moveX: 4
