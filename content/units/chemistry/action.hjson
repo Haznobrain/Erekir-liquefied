@@ -20,6 +20,7 @@ legMinLength: 0.8
 legForwardScale: 1.1
 legGroupSize: 3
 rippleScale: 0.2
+heatColor: fde588
 immunities: [
 burning,
 melting
