@@ -13,13 +13,13 @@ legLength: 16
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
-legBaseOffset: 12
+legBaseOffset: 8
 legMaxLength: 1.5
 legLengthScl: 0.96
 legMinLength: 0.8
 legForwardScale: 1.1
 legGroupSize: 3
 rippleScale: 0.2
-legMoveSpace: 1
+legMoveSpace: 2
 allowLegStep: true
 legPhysicsLayer: false
