@@ -1,0 +1,6 @@
+name: oxidized
+type: StatusEffect
+  damageMultiplier: 0.95
+  healthMultiplier: 90
+  speedMultiplier: 0.6
+color: 3f523d
