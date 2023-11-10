@@ -1,7 +1,7 @@
 template: ErekirUnitType
 type: legs
-name: combust
-health: 180
+name: Action
+health: 2500
 description: Shoots firey projectiles at ennemy targets.
 speed: 0.8
 hitSize: 20
