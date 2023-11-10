@@ -17,6 +17,7 @@ unit: combust
 time: 2700
 }
 ]
+research: mech-fabricator
 category: units
 requirements: [
     beryllium/200
