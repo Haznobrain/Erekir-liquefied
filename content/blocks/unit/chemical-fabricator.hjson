@@ -1,0 +1,25 @@
+name: Chemical fabricator
+size: 3
+description: Produces chemical insectoid units
+type: unitFactory
+configurable: false
+  consumes: {
+    power: 2
+  }
+plans: [
+{
+unit: combust
+  requirements: [
+    silicon/40
+    graphite/60
+    beryllium/40
+  ]
+time: 2700
+}
+]
+category: units
+requirements: [
+    beryllium/200
+    silicon/200
+    graphite/100
+  ]
