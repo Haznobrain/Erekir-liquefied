@@ -11,10 +11,9 @@ items: {
       silicon/60
       tungsten/30
     ]
-
-liquid: {
+liquids: [
   hydrogen/0.05
-}
+]
 }
   }
 upgrades: [
