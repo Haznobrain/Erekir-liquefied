@@ -1,0 +1,30 @@
+name: chemical refabricator
+size: 3
+type: Reconstructor
+configurable: false
+constructTime: 2400
+category: units
+  consumes: {
+    power: 2
+items: {
+    items: [
+      silicon/60
+      tungsten/30
+    ]
+
+liquid: {
+  hydrogen/0.05
+}
+}
+  }
+upgrades: [
+[
+combust,
+  oxidize
+]
+]
+requirements: [
+  tungsten/150
+  oxide/60
+  silicon/250
+]
