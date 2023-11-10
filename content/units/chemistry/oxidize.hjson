@@ -9,7 +9,7 @@ rotateSpeed: 3
 legStraightness: 0.6
 legSpeed: 0.9
 legCount: 6
-legLength: 8
+legLength: 12
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
@@ -31,6 +31,10 @@ weapons: [
   x: 0
   y: 6
   bullet: {
+    trailEffect: missileTrail
+    trailParam: 1.8
+    trailInterval: 6
+    trailColor: 3f523d
     type: BasicBulletType
       damage: 28
       splashDamageRadius: 64
