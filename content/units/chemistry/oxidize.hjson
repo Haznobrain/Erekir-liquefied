@@ -36,7 +36,7 @@ weapons: [
       splashDamageRadius: 64
       lifetime: 23
       speed: 5
-      sprite: ekerirliquefied-bullet-resonance
+      sprite: erekirliquefied-bullet-resonance
       backColor: 323d39
       frontColor: 3f523d
 }
