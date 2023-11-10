@@ -32,8 +32,8 @@ parts: [
 type: regionPart
 suffix: -blade
 layerOffset: -0.01
-x: 7
-y: 5
+x: 8
+y: 4
 moveX: 2
 moveY: 0
 moveRot: 40
