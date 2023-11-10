@@ -27,8 +27,8 @@ weapons: [
 {
   reload: 60
   range: 56
-  shootSound: blaster
   bullet: {
+    shootSound: blaster
     trailEffect: missileTrail
     type: ExplosionBulletType
       splashDamage: 95
