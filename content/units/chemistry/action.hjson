@@ -20,6 +20,10 @@ legMinLength: 0.8
 legForwardScale: 1.1
 legGroupSize: 3
 rippleScale: 0.2
+immunities: [
+burning,
+melting
+]
 legMoveSpace: 2
 allowLegStep: true
 legPhysicsLayer: false
