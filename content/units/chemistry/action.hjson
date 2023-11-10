@@ -1,1 +1,25 @@
-
+template: ErekirUnitType
+type: legs
+name: combust
+health: 180
+description: Shoots firey projectiles at ennemy targets.
+speed: 0.8
+hitSize: 20
+rotateSpeed: 2.5
+legStraightness: 0.7
+legSpeed: 0.6
+legCount: 8
+legLength: 16
+lockLegBase: true
+legContinuousMove: true
+legExtension: -3
+legBaseOffset: 16
+legMaxLength: 1.5
+legLengthScl: 0.96
+legMinLength: 0.8
+legForwardScale: 1.1
+legGroupSize: 3
+rippleScale: 0.2
+legMoveSpace: 1
+allowLegStep: true
+legPhysicsLayer: false
