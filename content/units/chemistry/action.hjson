@@ -23,7 +23,6 @@ rippleScale: 0.2
 legMoveSpace: 2
 allowLegStep: true
 legPhysicsLayer: false
-ammoType: PowerAmmoType
 parts: [
 {
 type: regionPart
