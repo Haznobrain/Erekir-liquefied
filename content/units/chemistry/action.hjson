@@ -28,8 +28,8 @@ parts: [
 type: regionPart
 suffix: -blade
 layerOffset: -0.01
-x: 6
-y: 6
+x: 7
+y: 5
 moveX: 2
 moveY: 0
 moveRot: 40
@@ -49,10 +49,11 @@ y: 0
 shootX: 10
 shootY: 6
   bullet: {
+        homingPower: 0.2
         type: MissileBulletType
-        weaveMag: 8
-        weaveScale: 8
-        lifetime: 67
+        weaveMag: 4
+        weaveScale: 4
+        lifetime: 85
         speed: 3
         shootEffect: shootBig2
         smokeEffect: shootSmokeTitan
