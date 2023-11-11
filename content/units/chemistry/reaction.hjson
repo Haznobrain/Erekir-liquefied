@@ -9,7 +9,7 @@ rotateSpeed: 2.5
 legStraightness: 0.5
 legSpeed: 0.5
 legCount: 10
-legLength: 64
+legLength: 80
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
