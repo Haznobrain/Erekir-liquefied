@@ -39,6 +39,8 @@ range: 200
 name: reaction-weapon1
 mirror: true
 x: 10
+rotationLimit: 30
+rotateSpeed: 1.5
 y: 0
 shootY: 8
 inaccuracy: 20
