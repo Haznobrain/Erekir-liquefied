@@ -41,8 +41,8 @@ mirror: true
 x: 10
 y: 0
 shootY: 6
+inaccuracy: 30
   bullet: {
-        homingPower: 0.2
         type: BasicBulletType
         sprite: large-orb
         weaveMag: 2
