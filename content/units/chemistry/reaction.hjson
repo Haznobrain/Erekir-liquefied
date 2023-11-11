@@ -85,8 +85,8 @@ inaccuracy: 20
         speed: 5
         damage: 75
         makeFire: true
-        color: 7000ce
-        hitColor: 7000ce
+        color: ffdf62
+        hitColor: ffdf62
         lifetime: 60
         despawnEffect: none
         knockback: -1.2
