@@ -25,7 +25,7 @@ immunities: [
 burning,
 melting
 ]
-legMoveSpace: 2
+legMoveSpace: 1
 allowLegStep: true
 legPhysicsLayer: false
 parts: [
