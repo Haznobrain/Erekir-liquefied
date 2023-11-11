@@ -4,6 +4,8 @@ name: Reaction
 health: 8000
 description: A large unit with a lot of large legs that give it a very fast speed for its size. Shoots 2 strong flamethrowers and 2 sapping lasers.
 speed: 0.75
+multiTarget: true
+singleTarget: false
 hitSize: 32
 rotateSpeed: 2.5
 legStraightness: 0.2
