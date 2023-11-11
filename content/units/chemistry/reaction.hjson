@@ -30,7 +30,7 @@ melting
 ]
 weapons: [
 {
-reload: 30
+reload: 2
 heatColor: fde588
 shootSound: flame
 soundPitchMin: -1
@@ -43,7 +43,8 @@ y: 0
 shootY: 6
   bullet: {
         homingPower: 0.2
-        type: MissileBulletType
+        type: BasicBulletType
+        sprite: large-orb
         weaveMag: 2
         weaveScale: 2
         lifetime: 85
