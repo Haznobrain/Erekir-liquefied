@@ -19,5 +19,43 @@ legLengthScl: 0.96
 legMinLength: 0.8
 legForwardScale: 1.1
 fogRadius: 35
+legSplashDamage: 45
+legSplashRange: 24
+drownTimeMultiplier: 3
 legGroupSize: 4
 rippleScale: 0.2
+immunities: [
+burning,
+melting
+]
+weapons: [
+{
+reload: 30
+heatColor: fde588
+shootSound: flame
+soundPitchMin: -1
+soundPitchMax: 0.5
+range: 200
+name: reaction-weapon1
+mirror: true
+x: 8
+y: 0
+shootY: 6
+  bullet: {
+        homingPower: 0.2
+        type: MissileBulletType
+        weaveMag: 2
+        weaveScale: 2
+        lifetime: 85
+        speed: 3
+        shootEffect: shootPyraFlame
+        damage: 35
+        makeFire: true
+        frontColor: ffffff
+        backColor: ffdf62
+        lightColor: ffdf62
+        hitEffect: hitFlameSmall
+        mixColorTo: 6e7080
+}
+}
+]
