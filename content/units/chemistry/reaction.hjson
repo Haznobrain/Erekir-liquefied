@@ -57,6 +57,8 @@ inaccuracy: 30
         lightColor: ffdf62
         hitEffect: hitFlameSmall
         mixColorTo: 6e7080
+        trailEffect: shootPyraFlame
+        trailInterval: 6
 }
 }
 ]
