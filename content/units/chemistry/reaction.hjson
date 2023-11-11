@@ -38,7 +38,7 @@ soundPitchMax: 0.5
 range: 200
 name: reaction-weapon1
 mirror: true
-x: 8
+x: 10
 y: 0
 shootY: 6
   bullet: {
