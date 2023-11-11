@@ -87,7 +87,7 @@ inaccuracy: 20
         makeFire: true
         color: ffdf62
         hitColor: ffdf62
-        lifetime: 60
+        lifetime: 19.2
         despawnEffect: none
         knockback: -1.2
 }
