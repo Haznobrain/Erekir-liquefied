@@ -1,7 +1,7 @@
 template: ErekirUnitType
 type: legs
 name: Reaction
-health: 2500
+health: 8000
 description: A large unit with a lot of large legs that give it a very fast speed for its size.
 speed: 0.75
 hitSize: 22
@@ -40,8 +40,8 @@ name: reaction-weapon1
 mirror: true
 x: 10
 y: 0
-shootY: 6
-inaccuracy: 30
+shootY: 8
+inaccuracy: 20
   bullet: {
         type: BasicBulletType
         sprite: large-orb
