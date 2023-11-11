@@ -35,12 +35,13 @@ heatColor: fde588
 shootSound: flame
 soundPitchMin: -1
 soundPitchMax: 0.5
-range: 200
+range: 280
 name: reaction-weapon1
 mirror: true
 x: 20
 rotationLimit: 30
 rotateSpeed: 1.5
+rotate: true
 y: 0
 shootY: 8
 inaccuracy: 20
@@ -61,6 +62,34 @@ inaccuracy: 20
         mixColorTo: 6e7080
         trailEffect: shootPyraFlame
         trailInterval: 6
+}
+}
+{
+reload: 30
+shootSound: sap
+range: 96
+name: reaction-weapon2
+mirror: true
+x: 10
+rotate: true
+rotateSpeed: 1.5
+y: 10
+shootY: 1
+inaccuracy: 20
+  bullet: {
+        shootEffect: shootBig
+        sapStrength: 0.5
+        type: SapBulletType
+        length: 96
+        width: 1.5
+        speed: 5
+        damage: 75
+        makeFire: true
+        color: 7000ce
+        hitColor: 7000ce
+        lifetime: 60
+        despawnEffect: none
+        knockback: -1.2
 }
 }
 ]
