@@ -38,7 +38,7 @@ soundPitchMax: 0.5
 range: 200
 name: reaction-weapon1
 mirror: true
-x: 26
+x: 20
 rotationLimit: 30
 rotateSpeed: 1.5
 y: 0
