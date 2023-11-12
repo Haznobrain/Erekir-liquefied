@@ -31,3 +31,9 @@ immunities: [
 burning,
 melting
 ]
+weapons: [
+{
+name: ionize-weapon1
+reload: 10
+range: 304
+rotate: false
