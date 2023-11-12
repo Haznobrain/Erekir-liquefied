@@ -61,7 +61,7 @@ shootSound: pulseBlast
     trailWidth: 2.4
     trailLength: 96
     pierce: true
-    pierceBuildings: true
+    pierceBuilding: true
     pierceCap: 5
 }
 }
