@@ -1,0 +1,8 @@
+name: phase duct
+type: DuctBridge
+description: Moves items over large distances using small amounts of power.
+  consumes: [
+      power: 0.05
+  ]
+  speed: 40
+  itemCapacity: 10
