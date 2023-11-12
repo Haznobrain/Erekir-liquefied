@@ -43,7 +43,6 @@ y: 0
 shootX: 24
 drawOutline: false
 shootY: 32
-ejectEffect: casing3
 shootSound: pulseBlast
   bullet: {
     type: MissileBulletType
@@ -61,6 +60,9 @@ shootSound: pulseBlast
     trailColor: ffdf62
     trailWidth: 2.4
     trailLength: 96
+    pierce: true
+    pierceBuildings: true
+    pierceCap: 5
 }
 }
 ]
