@@ -6,3 +6,9 @@ description: Moves items over large distances using small amounts of power.
   ]
   speed: 40
   itemCapacity: 10
+  category: distribution
+  requirements: [
+    beryllium/15
+    silicon/15
+    phase-fabric/5
+]
