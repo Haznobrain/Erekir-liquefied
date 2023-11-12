@@ -43,7 +43,7 @@ y: 0
 shootX: 24
 drawOutline: false
 shootY: 32
-ejectEffect: casing
+ejectEffect: casing3
 shootSound: pulseBlast
   bullet: {
     type: MissileBulletType
