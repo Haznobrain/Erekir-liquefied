@@ -8,7 +8,7 @@ pulse: true
   consumes: [
       power: 0.05
   ]
-  speed: 20
+  speed: 4
   range: 15
   category: distribution
   requirements: [
