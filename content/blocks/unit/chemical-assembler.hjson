@@ -16,7 +16,7 @@ type: UnitAssemblerPlan
   time: 3600
   requirements: [
     erekirliquefied-combust/4
-    tungsten-wall-large/12
+    tungsten-wall-large/20
     ]
 }
 {
