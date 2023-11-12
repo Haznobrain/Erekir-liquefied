@@ -5,9 +5,9 @@ arrowPeriod: 0.9
 arrowTimeScl: 2.75
 hasPower: true
 pulse: true
-  consumes: [
+  consumes: {
       power: 0.1
-  ]
+  }
   speed: 4
   range: 15
 hasItems: true
