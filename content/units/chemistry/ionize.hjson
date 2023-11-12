@@ -37,3 +37,23 @@ name: ionize-weapon1
 reload: 10
 range: 304
 rotate: false
+mirror: true
+x: 0
+y: 0
+shootX: 24
+shootY: 32
+ammoUseEffect: casing
+shootSound: pulseBlast
+  bullet: {
+    type: MissileBulletType
+    damage: 245
+    splashDamage: 140
+    splashDamageRadius: 24
+    sprite: erekirliquefied-resonance-bullet
+    length: 24
+    width: 24
+    backColor: ffdf62
+    frontColor: ffffff
+}
+}
+]
