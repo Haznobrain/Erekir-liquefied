@@ -25,8 +25,8 @@ fogRadius: 35
 legSplashDamage: 90
 legSplashRange: 15
 drownTimeMultiplier: 9
-legGroupSize: 4
-rippleScale: 02
+legGroupSize: 3
+rippleScale: 2
 immunities: [
 burning,
 melting
