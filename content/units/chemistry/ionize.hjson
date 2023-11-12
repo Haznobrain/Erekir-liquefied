@@ -59,7 +59,7 @@ shootSound: pulseBlast
     frontColor: ffffff
     trail: true
     trailColor: ffdf62
-    trailWidth: 24
+    trailWidth: 2.4
     trailLength: 96
 }
 }
