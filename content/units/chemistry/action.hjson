@@ -2,6 +2,7 @@ template: ErekirUnitType
 type: legs
 name: Action
 health: 2500
+armor: 8
 description: Shoots firey projectiles at ennemy targets.
 speed: 0.8
 hitSize: 20
