@@ -54,7 +54,7 @@ heatColor: fde588
 heatLayerOffset: 0.05
 heatProgress: warmup
 x: 6
-y: 5
+y: 3
 moveX: 10
 moveY: 0
 moveRot: 30
@@ -69,7 +69,7 @@ heatColor: fde588
 heatLayerOffset: 0.05
 heatProgress: warmup
 x: 8
-y: -5
+y: -3
 moveX: 12
 moveY: 0
 moveRot: 30
