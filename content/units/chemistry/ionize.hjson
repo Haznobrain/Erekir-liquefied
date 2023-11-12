@@ -50,11 +50,17 @@ shootSound: pulseBlast
     damage: 245
     splashDamage: 140
     splashDamageRadius: 24
-    sprite: erekirliquefied-resonance-bullet
+    sprite: erekirliquefied-bullet-resonance
     length: 24
+    speed: 4
+    lifetime: 76
     width: 24
     backColor: ffdf62
     frontColor: ffffff
+    trail: true
+    trailColor: ffdf62
+    trailWidth: 24
+    trailLength: 96
 }
 }
 ]
