@@ -94,7 +94,7 @@ rotate: true
 y: 0
 shootY: 8
 shootStatus: slow
-inaccuracy: 20
+inaccuracy: 15
   bullet: {
         type: BasicBulletType
         sprite: large-orb
@@ -103,7 +103,7 @@ inaccuracy: 20
         lifetime: 85
         speed: 3
         shootEffect: shootPyraFlame
-        damage: 35
+        damage: 55
         makeFire: true
         frontColor: ffffff
         backColor: ffdf62
