@@ -10,6 +10,8 @@ pulse: true
   ]
   speed: 4
   range: 15
+hasItems: true
+itemCapacity: 10
   category: distribution
   requirements: [
     beryllium/15
