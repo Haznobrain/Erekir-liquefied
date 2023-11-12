@@ -1,0 +1,33 @@
+template: ErekirUnitType
+type: legs
+name: Ionize
+health: 18500
+armor: 15
+description: Rapidly shoots piercing ionizing bullets. Becomes faster when shooting.
+speed: 0.5
+multiTarget: false
+singleTarget: true
+hitSize: 48
+rotateSpeed: 2.5
+legStraightness: 0.2
+legSpeed: 0.5
+legCount: 10
+legLength: 384
+lockLegBase: true
+legContinuousMove: true
+legExtension: -3
+legBaseOffset: 8
+legMaxLength: 1.2
+legLengthScl: 0.96
+legMinLength: 0.8
+legForwardScale: 1.1
+fogRadius: 35
+legSplashDamage: 90
+legSplashRange: 15
+drownTimeMultiplier: 9
+legGroupSize: 4
+rippleScale: 02
+immunities: [
+burning,
+melting
+]
