@@ -41,6 +41,7 @@ mirror: true
 x: 0
 y: 0
 shootX: 24
+drawOutline: false
 shootY: 32
 ammoUseEffect: casing
 shootSound: pulseBlast
