@@ -4,8 +4,8 @@ description: Moves items over large distances using small amounts of power.
   consumes: [
       power: 0.05
   ]
-  speed: 40
-  itemCapacity: 10
+  speed: 20
+  range: 15
   category: distribution
   requirements: [
     beryllium/15
