@@ -44,7 +44,7 @@ shootX: 24
 drawOutline: false
 shootY: 32
 shootSound: pulseBlast
-shootStatus: erekir-liquefied-ion-boosted
+shootStatus: erekirliquefied-ionboosted
 statusDuration: 300
   bullet: {
     type: MissileBulletType
