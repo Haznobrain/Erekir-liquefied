@@ -44,6 +44,8 @@ shootX: 24
 drawOutline: false
 shootY: 32
 shootSound: pulseBlast
+shootStatus: erekir-liquefied-ion-boosted
+statusDuration: 300
   bullet: {
     type: MissileBulletType
     damage: 245
@@ -63,6 +65,8 @@ shootSound: pulseBlast
     pierce: true
     pierceBuilding: true
     pierceCap: 5
+    status: erekirliquefied-ionized
+    statusDuration: 360
 }
 }
 ]
