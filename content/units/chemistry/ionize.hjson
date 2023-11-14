@@ -11,12 +11,12 @@ hitSize: 48
 rotateSpeed: 2.5
 legStraightness: 0.2
 legSpeed: 0.5
-legCount: 10
+legCount: 8
 legLength: 96
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
-legBaseOffset: 24
+legBaseOffset: 20
 legMaxLength: 1.2
 legLengthScl: 0.96
 legMinLength: 0.8
