@@ -72,13 +72,14 @@ statusDuration: 300
 {
 name: ionize-weapon2
 reload: 15
+shootCone: 360
 range: 280
 rotate: false
 mirror: true
 x: 12
 y: -18
 shootSound: malignShoot
-baseRotation: 45
+baseRotation: -45
 bullet: {
   damage: 70
   type: flakBulletType
