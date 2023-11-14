@@ -84,7 +84,7 @@ bullet: {
   damage: 70
   type: flakBulletType
   sprite: missile-large
-  speed: 5
+  speed: 8
   lifetime: 45
   width: 12
   height: 22
