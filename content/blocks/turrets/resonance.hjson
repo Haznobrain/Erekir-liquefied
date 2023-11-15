@@ -188,6 +188,7 @@ type: DrawTurret
 parts: [
     {
 type: RegionPart
+  layerOffset: -0.05
   suffix: -barrelright
   progress: warmup
   under: false
@@ -198,6 +199,7 @@ type: RegionPart
 }
     {
 type: RegionPart
+  layerOffset: -0.05
   suffix: -barrelleft
   progress: warmup
   under: false
@@ -208,6 +210,7 @@ type: RegionPart
 }
     {
 type: RegionPart
+  layerOffset: 0.1
   suffix: -bottom
   progress: warmup
   under: false
@@ -218,6 +221,7 @@ type: RegionPart
 }
     {
 type: RegionPart
+  layerOffset: 0.15
   suffix: -sideright
   progress: warmup
   under: false
@@ -229,6 +233,7 @@ type: RegionPart
 }
     {
 type: RegionPart
+  layerOffset: 0.15
   suffix: -sideleft
   progress: warmup
   under: false
