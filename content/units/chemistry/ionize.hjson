@@ -31,9 +31,9 @@ parts: [
 {
 type: regionPart
 suffix: -blade
-layerOffset: -0.05
+layerOffset: -0.01
 heatColor: ffe993
-heatLayerOffset: 0.01
+heatLayerOffset: 0.005
 heatProgress: warmup
 x: 12
 y: 20
@@ -46,9 +46,9 @@ progress: warmup
 {
 type: regionPart
 suffix: -blade
-layerOffset: -0.05
+layerOffset: -0.01
 heatColor: ffe993
-heatLayerOffset: 0.01
+heatLayerOffset: 0.005
 heatProgress: warmup
 x: 10
 y: 10
@@ -61,9 +61,9 @@ progress: warmup
 {
 type: regionPart
 suffix: -blade
-layerOffset: -0.05
+layerOffset: -0.01
 heatColor: ffe993
-heatLayerOffset: 0.01
+heatLayerOffset: 0.005
 heatProgress: warmup
 x: 10
 y: -10
@@ -76,9 +76,9 @@ progress: warmup
 {
 type: regionPart
 suffix: -blade
-layerOffset: -0.05
+layerOffset: -0.01
 heatColor: ffe993
-heatLayerOffset: 0.01
+heatLayerOffset: 0.005
 heatProgress: warmup
 x: 4
 y: -20
