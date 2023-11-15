@@ -69,9 +69,9 @@ layerOffset: -0.01
 heatColor: fde588
 heatLayerOffset: 0.05
 heatProgress: warmup
-x: 8
+x: 4
 y: -2
-moveX: 12
+moveX: 8
 moveY: 0
 moveRot: 30
 mirror: true
@@ -84,9 +84,9 @@ layerOffset: -0.01
 heatColor: fde588
 heatLayerOffset: 0.05
 heatProgress: warmup
-x: 6
+x: 4
 y: -10
-moveX: 12
+moveX: 8
 moveY: 0
 moveRot: 30
 mirror: true
