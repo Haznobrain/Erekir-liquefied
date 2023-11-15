@@ -27,6 +27,68 @@ legSplashRange: 15
 drownTimeMultiplier: 9
 legGroupSize: 3
 rippleScale: 2
+parts: [
+{
+type: regionPart
+suffix: -blade
+layerOffset: -0.01
+heatColor: fde588
+heatLayerOffset: 0.05
+heatProgress: warmup
+x: 20
+y: 20
+moveX: 10
+moveY: 0
+moveRot: 30
+mirror: true
+progress: warmup
+}
+{
+type: regionPart
+suffix: -blade
+layerOffset: -0.01
+heatColor: fde588
+heatLayerOffset: 0.05
+heatProgress: warmup
+x: 18
+y: 10
+moveX: 10
+moveY: 0
+moveRot: 30
+mirror: true
+progress: warmup
+}
+{
+type: regionPart
+suffix: -blade
+layerOffset: -0.01
+heatColor: fde588
+heatLayerOffset: 0.05
+heatProgress: warmup
+x: 16
+y: -10
+moveX: 12
+moveY: 0
+moveRot: 30
+mirror: true
+progress: warmup
+}
+{
+type: regionPart
+suffix: -blade
+layerOffset: -0.01
+heatColor: fde588
+heatLayerOffset: 0.05
+heatProgress: warmup
+x: 14
+y: -20
+moveX: 12
+moveY: 0
+moveRot: 30
+mirror: true
+progress: warmup
+}
+]
 immunities: [
 burning,
 melting
