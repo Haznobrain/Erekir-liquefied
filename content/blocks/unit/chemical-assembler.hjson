@@ -25,7 +25,7 @@ type: UnitAssemblerPlan
       time: 13000
         requirements: [
           erekirliquefied-oxidize/8
-          carbideWallLarge/40
+          carbide-wall-large/40
 ]
 }
 ]
