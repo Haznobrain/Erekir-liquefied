@@ -65,7 +65,7 @@ layerOffset: -0.01
 heatColor: fde588
 heatLayerOffset: 0.05
 heatProgress: warmup
-x: 18
+x: 10
 y: -10
 moveX: 18
 moveY: 0
@@ -80,7 +80,7 @@ layerOffset: -0.01
 heatColor: fde588
 heatLayerOffset: 0.05
 heatProgress: warmup
-x: 6
+x: 4
 y: -20
 moveX: 18
 moveY: 0
