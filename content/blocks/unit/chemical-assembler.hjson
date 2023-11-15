@@ -21,11 +21,11 @@ type: UnitAssemblerPlan
 }
 {
 type: UnitAssemblerPlan
-  unit: mutilate
-      time: 13800
+  unit: ionize
+      time: 13000
         requirements: [
-          erekirliquefied-slash/4
-          erekirliquefied-large-azpacite-wall/12
+          erekirliquefied-oxidize/8
+          carbideWallLarge/40
 ]
 }
 ]
