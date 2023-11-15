@@ -3,7 +3,7 @@ type: legs
 name: Ionize
 health: 18500
 armor: 15
-description: Rapidly shoots piercing ionizing bullets. Becomes faster when shooting.
+description: Rapidly shoots piercing ionizing bullets. Becomes faster when shooting. Posses great firepower. 
 speed: 0.5
 multiTarget: false
 singleTarget: true
