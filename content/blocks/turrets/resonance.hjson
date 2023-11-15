@@ -192,6 +192,9 @@ type: RegionPart
   progress: warmup
   under: false
   moveX: 4
+  heatColor: 537bca
+  heatLayerOffset: 0.005
+  heatProgress: warmup
 }
     {
 type: RegionPart
@@ -199,6 +202,9 @@ type: RegionPart
   progress: warmup
   under: false
   moveX: -4
+  heatColor: 4e61f9
+  heatLayerOffset: 0.005
+  heatProgress: warmup
 }
     {
 type: RegionPart
