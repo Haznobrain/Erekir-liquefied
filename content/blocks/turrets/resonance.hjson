@@ -192,7 +192,7 @@ type: RegionPart
   progress: warmup
   under: false
   moveX: 4
-  heatColor: 537bca
+  heatColor: 00a5ff
   heatLayerOffset: 0.005
   heatProgress: warmup
 }
@@ -202,7 +202,7 @@ type: RegionPart
   progress: warmup
   under: false
   moveX: -4
-  heatColor: 537bca
+  heatColor: 00a5ff
   heatLayerOffset: 0.005
   heatProgress: warmup
 }
@@ -212,7 +212,7 @@ type: RegionPart
   progress: warmup
   under: false
   moveY: -4
-  heatColor: 537bca
+  heatColor: 00a5ff
   heatLayerOffset: 0.005
   heatProgress: warmup
 }
@@ -223,6 +223,9 @@ type: RegionPart
   under: false
   moveX: 4
   moveY: -4
+  heatColor: 00a5ff
+  heatLayerOffset: 0.005
+  heatProgress: warmup
 }
     {
 type: RegionPart
@@ -231,6 +234,9 @@ type: RegionPart
   under: false
   moveX: -4
   moveY: -4
+  heatColor: 00a5ff
+  heatLayerOffset: 0.005
+  heatProgress: warmup
 }
 {
 type: ShapePart
