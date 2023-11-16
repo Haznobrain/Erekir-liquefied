@@ -11,7 +11,7 @@ loopSound: spellLoop
 shootSound: shootSmite
 targetAir: false
 reload: 60
-range: 960
+range: 480
 consumes: {
         liquids: [
                 water/1
@@ -32,7 +32,7 @@ ammoTypes: {
       fragRandomSpread: 0
       fragBullets: 1
       speed: 5
-      lifetime: 24
+      lifetime: 12
       collidesAir: false
       fragBullet: {
       length: 16
@@ -49,7 +49,7 @@ ammoTypes: {
           frontColor: 0036ff
           backColor: 2305d7
           collidesAir: false
-          lifetime: 24
+          lifetime: 12
           fragBullet: {
       length: 16
       width: 16
@@ -63,7 +63,7 @@ ammoTypes: {
           fragBullets: 1
           speed: 5
           collidesAir: false
-          lifetime: 24
+          lifetime: 12
           fragBullet: {
             damage: 340
       length: 16
@@ -79,7 +79,7 @@ ammoTypes: {
             fragBullets: 1
             collidesAir: false
             speed: 5
-            lifetime: 24
+            lifetime: 12
             fragBullet: {
       length: 16
       width: 16
@@ -95,7 +95,7 @@ ammoTypes: {
               fragBullets: 1
               speed: 5
               collidesAir: false
-              lifetime: 24
+              lifetime: 12
               fragBullet: {
                 damage: 340
       length: 16
@@ -111,7 +111,7 @@ ammoTypes: {
                 fragBullets: 1
                 collidesAir: false
                 speed: 5
-                lifetime: 24
+                lifetime: 12
                 fragBullet: {
       length: 16
       width: 16
@@ -126,7 +126,7 @@ ammoTypes: {
                   hitColor: 0041ff
                   fragBullets: 1
                   speed: 5
-                  lifetime: 24
+                  lifetime: 12
                   collidesAir: false
                   fragBullet: {
       length: 16
@@ -143,7 +143,7 @@ ammoTypes: {
                     hitColor: 0041ff
                     fragBullets: 3
                     speed: 5
-                    lifetime: 24
+                    lifetime: 12
                     fragSpread: 15
 fragBullet: {
       length: 16
@@ -160,7 +160,7 @@ fragBullet: {
                     hitColor: 0041ff
                     fragBullets: 3
                     speed: 5
-                    lifetime: 24
+                    lifetime: 12
                     fragSpread: 15
                         fragBullet: {
                             type: LaserBulletType
