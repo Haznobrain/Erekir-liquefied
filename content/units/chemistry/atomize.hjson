@@ -244,7 +244,7 @@ name: atomize-laser
 x: 0
 y: 8
 mirror: false
-range: 168
+range: 232
 shoot: {
 type: shootAlternate
 barrels: 2
@@ -256,11 +256,29 @@ shootSound: laser
 bullet: {
   type: LaserBulletType
   colors: [ffdf62, ffa947, ffffff]
-  length: 168
+  length: 232
   width: 6
   damage: 112
   status: erekirliquefied-ionized
   statusDuration: 300
   }
 }
+{
+name: atomize-weapon2
+shootSound: shotGun
+reload: 20
+x: 24
+y: -2
+mirror: true
+range: 152
+bullet: {
+type: ShrapnelBulletType
+length: 152
+damage: 140
+toColor: fcff8d
+width: 24
+lightningInterval: 1
+lightningSpacing: 4
+lightningLength: 2
+lightningLengthRnd: 4
 ]
