@@ -60,7 +60,7 @@ rotate: true
 reload: 18
 range: 384
 shoot: {
-shootAlternate: true
+type: shootAlternate
 shots: 3
 spread: 2
 barrels: 3
