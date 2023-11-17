@@ -88,6 +88,18 @@ parts: [
   color: fbff47
   rotateSpeed: 2.1
 }
+{
+  x: 0
+  y: 6
+  type: ShapePart
+  sides: 4
+  hollow: true
+  stroke: 0
+  strokeTo: 1
+  radius: 4
+  color: fbff47
+  rotateSpeed: -2.1
+}
   {
   type: HaloPart
   x: 0
@@ -131,6 +143,42 @@ parts: [
   stroke: 0
   strokeTo: 1.5
   radius: 20
+  color: fbff47
+  rotateSpeed: 2.1
+}
+{
+  x: 0
+  y: -40
+  type: ShapePart
+  sides: 4
+  hollow: true
+  stroke: 0
+  strokeTo: 1.5
+  radius: 16
+  color: fbff47
+  rotateSpeed: -2.1
+}
+{
+  x: 0
+  y: -40
+  type: ShapePart
+  sides: 4
+  hollow: true
+  stroke: 0
+  strokeTo: 1.5
+  radius: 8
+  color: fbff47
+  rotateSpeed: -2.1
+}
+{
+  x: 0
+  y: -40
+  type: ShapePart
+  sides: 4
+  hollow: true
+  stroke: 0
+  strokeTo: 1.5
+  radius: 8
   color: fbff47
   rotateSpeed: 2.1
 }
