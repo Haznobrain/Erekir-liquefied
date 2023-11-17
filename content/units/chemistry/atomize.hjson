@@ -277,8 +277,12 @@ length: 152
 damage: 140
 toColor: fcff8d
 width: 24
-lightningInterval: 1
-lightningSpacing: 4
-lightningLength: 2
-lightningLengthRnd: 4
+   lightningSpacing: 4
+    lightningLength: 2
+    lightningDelay: 1
+    lightningLengthRand: 4
+    lightningDamage: 60
+    lightningAngleRand: 15
+}
+}
 ]
