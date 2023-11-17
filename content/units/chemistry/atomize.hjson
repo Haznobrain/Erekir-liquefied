@@ -49,6 +49,7 @@ parts: [
   heatColor: ffdf62
   heatLayerOffset: 0.005
   layerOffset: -0.01
+}
   {
   type: HaloPart
   x: 0
