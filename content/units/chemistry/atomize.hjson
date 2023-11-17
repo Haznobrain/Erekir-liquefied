@@ -118,10 +118,10 @@ parts: [
   color2: fbff47
   y: -40
   followRotation: true
-  stroke: 0
-  strokeTo: 6
+  stroke: 6
   radius: 20
   rotateSpeed: 1.2
+  partProgress: warmup
 }
 {
   x: 0
