@@ -62,7 +62,7 @@ parts: [
   triLength: 0
   triLengthTo: 8
   tri: true
-  haloRotateSpeed: 0.9
+  haloRotateSpeed: -0.9
   color: fbff47
   }
 {
@@ -85,6 +85,29 @@ parts: [
   stroke: 0
   strokeTo: 1
   radius: 6
+  color: fbff47
+  rotateSpeed: 2.1
+}
+{
+  x: 0
+  y: -40
+  type: ShapePart
+  radius: 22
+  circle: true
+  hollow: true
+  stroke: 0
+  strokeTo: 1.5
+  color: fbff47
+  }
+{
+  x: 0
+  y: -40
+  type: ShapePart
+  sides: 4
+  hollow: true
+  stroke: 0
+  strokeTo: 1.5
+  radius: 20
   color: fbff47
   rotateSpeed: 2.1
 }
