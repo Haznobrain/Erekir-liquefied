@@ -239,4 +239,28 @@ bullet: {
 }
 }
 }
+{
+name: atomize-laser
+x: 0
+y: -8
+mirror: false
+range: 168
+shoot: {
+type: shootAlternate
+barrels: 2
+spread: 6
+}
+reload: 10
+inaccuracy: 0
+shootSound: laser
+bullet: {
+  type: LaserBulletType
+  colors: [ffdf62, ffa947, ffffff]
+  length: 168
+  width: 6
+  damage: 112
+  status: erekirliquefied-ionized
+  statusDuration: 300
+  }
+}
 ]
