@@ -39,16 +39,17 @@ inaccuracy: 30
 recoil: 0
 range: 288
 x: 0
-y: 24
+y: 28
+mirror: false
 parts: [
   {
   type: RegionPart
   x: 0
   y: 0
-  suffix:-base
+  suffix: -base
   moveX: 0
   moveY: 0
-  heatColor: faff43
+  heatColor: fbff47
   heatLayerOffset: 0.005
   layerOffset: -0.01
 }
@@ -62,7 +63,7 @@ parts: [
   triLengthTo: 8
   tri: true
   haloRotateSpeed: 0.9
-  color: faff43
+  color: fbff47
   }
 {
   x: 0
@@ -73,7 +74,7 @@ parts: [
   hollow: true
   stroke: 0
   strokeTo: 1
-  color: faff43
+  color: fbff47
   }
 {
   x: 0
@@ -84,7 +85,7 @@ parts: [
   stroke: 0
   strokeTo: 1
   radius: 6
-  color: faff43
+  color: fbff47
   rotateSpeed: 2.1
 }
 ]
