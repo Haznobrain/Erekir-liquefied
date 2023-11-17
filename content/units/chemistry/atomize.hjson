@@ -88,6 +88,28 @@ parts: [
   color: fbff47
   rotateSpeed: 2.1
 }
+  {
+  type: HaloPart
+  x: 0
+  y: -40
+  haloRadius: 22
+  shapes: 4
+  triLength: 0
+  triLengthTo: 20
+  tri: true
+  haloRotateSpeed: -0.9
+  color: fbff47
+  }
+{
+  type: FlarePart
+  color1: ffffff
+  color2: fbff47
+  y: -40
+  followRotation: true
+  stroke: 6
+  radius: 20
+  partProgress: warmup
+}
 {
   x: 0
   y: -40
