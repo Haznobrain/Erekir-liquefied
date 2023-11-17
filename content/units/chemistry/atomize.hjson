@@ -40,7 +40,7 @@ x: 0
 y: 20
 parts: [
   {
-  type: drawRegionPart
+  type: RegionPart
   x: 0
   y: 0
   suffix:-base
@@ -50,7 +50,7 @@ parts: [
   heatLayerOffset: 0.005
   layerOffset: -0.01
   {
-  type: drawHaloPart
+  type: HaloPart
   x: 0
   y: 6
   radius: 8
@@ -62,7 +62,7 @@ parts: [
 {
   x: 0
   y: 6
-  type: drawShapePart
+  type: ShapePart
   radius: 8
   circle: true
   hollow: true
@@ -72,7 +72,7 @@ parts: [
 {
   x: 0
   y: 6
-  type: drawShapePart
+  type: ShapePart
   sides: 4
   hollow: true
   stroke: 0
