@@ -31,3 +31,43 @@ immunities: [
 burning,
 melting
 ]
+weapons: [
+{
+name: atomize-malign
+reload: 7
+inaccuracy: 30
+x: 0
+y: 20
+parts: [
+  {
+  type: drawHalo
+  x: 0
+  y: 6
+  radius: 8
+  shapes: 4
+  triLength: 0
+  triLengthTo: 8
+  color: ffdf62
+  }
+{
+  x: 0
+  y: 6
+  type: drawShape
+  radius: 8
+  circle: true
+  hollow: true
+  stroke: 0
+  strokeTo: 1
+  }
+{
+  x: 0
+  y: 6
+  type: drawShape
+  sides: 4
+  hollow: true
+  stroke: 0
+  strokeTo: 1
+  radius: 6
+}
+]
+bullet: {
