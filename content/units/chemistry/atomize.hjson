@@ -49,7 +49,7 @@ parts: [
   suffix: -base
   moveX: 0
   moveY: 0
-  heatColor: fbff47
+  heatColor: fcff8d
   heatLayerOffset: 0.005
   layerOffset: -0.01
 }
@@ -63,7 +63,7 @@ parts: [
   triLengthTo: 8
   tri: true
   haloRotateSpeed: -0.9
-  color: fbff47
+  color: fcff8d
   }
 {
   x: 0
@@ -74,7 +74,7 @@ parts: [
   hollow: true
   stroke: 0
   strokeTo: 1
-  color: fbff47
+  color: fcff8d
   }
 {
   x: 0
@@ -85,7 +85,7 @@ parts: [
   stroke: 0
   strokeTo: 1
   radius: 6
-  color: fbff47
+  color: fcff8d
   rotateSpeed: 2.1
 }
 {
@@ -97,7 +97,7 @@ parts: [
   stroke: 0
   strokeTo: 1
   radius: 4
-  color: fbff47
+  color: fcff8d
   rotateSpeed: -2.1
 }
   {
@@ -110,12 +110,12 @@ parts: [
   triLengthTo: 20
   tri: true
   haloRotateSpeed: -0.9
-  color: fbff47
+  color: fcff8d
   }
 {
   type: FlarePart
   color1: ffffff
-  color2: fbff47
+  color2: fcff8d
   y: -40
   followRotation: true
   stroke: 6
@@ -132,7 +132,7 @@ parts: [
   hollow: true
   stroke: 0
   strokeTo: 1.5
-  color: fbff47
+  color: fcff8d
   }
 {
   x: 0
@@ -143,7 +143,7 @@ parts: [
   stroke: 0
   strokeTo: 1.5
   radius: 20
-  color: fbff47
+  color: fcff8d
   rotateSpeed: 2.1
 }
 {
@@ -155,7 +155,7 @@ parts: [
   stroke: 0
   strokeTo: 1.5
   radius: 16
-  color: fbff47
+  color: fcff8d
   rotateSpeed: -2.1
 }
 {
@@ -167,7 +167,7 @@ parts: [
   stroke: 0
   strokeTo: 1.5
   radius: 8
-  color: fbff47
+  color: fcff8d
   rotateSpeed: -2.1
 }
 {
@@ -179,7 +179,7 @@ parts: [
   stroke: 0
   strokeTo: 1.5
   radius: 8
-  color: fbff47
+  color: fcff8d
   rotateSpeed: 2.1
 }
 ]
