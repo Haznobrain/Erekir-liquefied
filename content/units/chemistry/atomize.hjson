@@ -272,6 +272,7 @@ y: -2
 mirror: true
 range: 152
 bullet: {
+sapStrength: 0.5
 type: ShrapnelBulletType
 length: 152
 damage: 140
