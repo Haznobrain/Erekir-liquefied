@@ -65,7 +65,14 @@ ammoTypes: {
           splashDamage: 250
           splashDamageRadius: 160
           fragRandomSpread: 0
-          hitEffect: reactorExplosion
+          hitEffect: [
+                {
+                        type: WaveEffect
+                        colorFrom: ffffff
+                        colorTo: 0041ff
+                        sizeTo: 160
+        }
+]
           hitColor: 0041ff
           fragBullets: 1
           speed: 5
@@ -81,7 +88,14 @@ ammoTypes: {
             splashDamageRadius: 160
             frontColor: 2305d7
             backColor: 4805d7
-            hitEffect: reactorExplosion
+            hitEffect: [
+                {
+                        type: WaveEffect
+                        colorFrom: ffffff
+                        colorTo: 0041ff
+                        sizeTo: 160
+            }
+            ]
             hitColor: 0041ff
             fragBullets: 1
             collidesAir: false
@@ -97,7 +111,14 @@ ammoTypes: {
               splashDamageRadius: 160
               frontColor: 4805d7
               backColor: 4805d7
-              hitEffect: reactorExplosion
+          hitEffect: [
+                {
+                        type: WaveEffect
+                        colorFrom: ffffff
+                        colorTo: 0041ff
+                        sizeTo: 160
+        }
+]
               hitColor: 0041ff
               fragBullets: 1
               speed: 5
@@ -113,8 +134,14 @@ ammoTypes: {
                 splashDamageRadius: 160
                 frontColor: 4805d7
                 backColor: 6d05d7
-                hitEffect: reactorExplosion
-                hitColor: 0041ff
+          hitEffect: [
+                {
+                        type: WaveEffect
+                        colorFrom: ffffff
+                        colorTo: 0041ff
+                        sizeTo: 160
+        }
+]                hitColor: 0041ff
                 fragBullets: 1
                 collidesAir: false
                 speed: 5
@@ -129,8 +156,14 @@ ammoTypes: {
                   splashDamageRadius: 160
                   frontColor: 4805d7
                   backColor: 6d05d7
-                  hitEffect: reactorExplosion
-                  hitColor: 0041ff
+          hitEffect: [
+                {
+                        type: WaveEffect
+                        colorFrom: ffffff
+                        colorTo: 0041ff
+                        sizeTo: 160
+        }
+]                  hitColor: 0041ff
                   fragBullets: 1
                   speed: 5
                   lifetime: 12
@@ -146,8 +179,14 @@ ammoTypes: {
                     splashDamageRadius: 160
                     frontColor: 6d05d7
                     backColor: 9b05d7
-                    hitEffect: reactorExplosion
-                    hitColor: 0041ff
+          hitEffect: [
+                {
+                        type: WaveEffect
+                        colorFrom: ffffff
+                        colorTo: 0041ff
+                        sizeTo: 160
+        }
+]                    hitColor: 0041ff
                     fragBullets: 3
                     speed: 5
                     lifetime: 12
@@ -163,8 +202,14 @@ fragBullet: {
                     splashDamageRadius: 160
                     frontColor: 6d05d7
                     backColor: 9b05d7
-                    hitEffect: reactorExplosion
-                    hitColor: 0041ff
+          hitEffect: [
+                {
+                        type: WaveEffect
+                        colorFrom: ffffff
+                        colorTo: 0041ff
+                        sizeTo: 160
+        }
+]                    hitColor: 0041ff
                     fragBullets: 3
                     speed: 5
                     lifetime: 12
