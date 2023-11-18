@@ -69,3 +69,6 @@ coolant: {
   amount: 0.5
 }
 category: turret
+research: smite
+research: origin
+parent: smite
