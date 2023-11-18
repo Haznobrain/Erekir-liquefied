@@ -23,3 +23,6 @@ requirements: [
   phase-fabric/300
 ]
 category: turret
+research: fission
+research: origin
+parent: fission
