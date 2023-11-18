@@ -25,4 +25,3 @@ requirements: [
 category: turret
 research: fission
 research: origin
-parent: fission
