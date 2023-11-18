@@ -165,3 +165,6 @@ requirements: [
   silicon/900
 ]
 category: turret
+research: smite
+research: karst
+parent: smite
