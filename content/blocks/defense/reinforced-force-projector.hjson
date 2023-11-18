@@ -24,7 +24,6 @@ consumes: {
       optional: true
       }
       }
-    }
 requirements: [
   beryllium/800
   silicon/800
