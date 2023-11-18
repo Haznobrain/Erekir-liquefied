@@ -153,3 +153,5 @@ requirements: [
 ]
 category: turret
 research: jet
+research: crevice
+parent: jet
