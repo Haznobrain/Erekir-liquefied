@@ -71,4 +71,3 @@ type: RegionPart
 category: turret
 research: scathe
 research: karst
-parent: scathe
