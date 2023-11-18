@@ -32,3 +32,4 @@ requirements: [
   phase-fabric/150
   ]
   research: regen-projector
+category: effect
