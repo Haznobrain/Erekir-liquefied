@@ -25,8 +25,14 @@ ammoTypes: {
       type: BasicBulletType
       splashDamage: 250
       splashDamageRadius: 160
-      hitEffect: reactorExplosion
-      hitColor: 0041ff
+          hitEffect: [
+                {
+                        type: WaveEffect
+                        colorFrom: ffffff
+                        colorTo: 0041ff
+                        sizeTo: 160
+        }
+]      hitColor: 0041ff
       frontColor: 0036ff
       backColor: 0531d7
       fragRandomSpread: 0
