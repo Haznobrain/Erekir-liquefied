@@ -1,0 +1,34 @@
+name: Reinforced force projector
+type: ForceProjector
+hasPower: true
+shieldHealth: 9450
+liquidCapacity: 30
+size: 5
+canOverdrive: true
+phaseUseTime: 840
+phaseRadiusBoost: 96
+phaseShieldBoost: 1650
+sides: 6
+solid: true
+radius: 160
+cooldownNormal: 1.85
+cooldownLiquid: 0.8
+cooldownBrokenBase: 1.75
+consumes: {
+  power: 27
+  items: {
+    items: [
+      phase-fabric/1
+      ]
+      booster: true
+      optional: true
+      }
+      }
+    }
+requirements: [
+  beryllium/800
+  silicon/800
+  tungsten/400
+  phase-fabric/150
+  ]
+  research: regen-projector
