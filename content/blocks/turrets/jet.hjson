@@ -201,3 +201,5 @@ requirements: [
 ]
 category: turret
 research: stream
+research: afflict
+parent: stream
