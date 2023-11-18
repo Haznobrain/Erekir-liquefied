@@ -8,7 +8,7 @@ canOverdrive: true
 phaseUseTime: 840
 phaseRadiusBoost: 96
 phaseShieldBoost: 1650
-sides: 6
+sides: 4
 solid: true
 radius: 160
 cooldownNormal: 1.85
