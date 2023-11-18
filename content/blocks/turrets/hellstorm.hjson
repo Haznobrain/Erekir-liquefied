@@ -116,3 +116,5 @@ requirements: [
     azpacite/25
   ]
 category: turret
+research: diffuse
+parent: diffuse
