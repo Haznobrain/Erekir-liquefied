@@ -6,6 +6,7 @@ liquidCapacity: 30
 size: 5
 canOverdrive: true
 phaseUseTime: 840
+shieldRotation: 45
 phaseRadiusBoost: 96
 phaseShieldBoost: 1650
 sides: 4
@@ -16,13 +17,6 @@ cooldownLiquid: 0.8
 cooldownBrokenBase: 1.75
 consumes: {
   power: 27
-  items: {
-    items: [
-      phase-fabric/1
-      ]
-      booster: true
-      optional: true
-      }
       }
 requirements: [
   beryllium/800
