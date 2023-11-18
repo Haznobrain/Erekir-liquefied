@@ -414,3 +414,5 @@ requirements: [
   phase-fabric/800
   ]
 category: turret
+research: ohm
+parent: ohm
