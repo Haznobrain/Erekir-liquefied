@@ -154,4 +154,20 @@ oxide: {
     damage: 85
 }
 }
+surge-alloy: {
+  type: LaserBulletType
+  shootEffect: lancerLaserShoot
+  length: 240
+  rangeChange: -40
+  damage: 145
+  width: 8
+  colors: [ffffa3, ffffff, ffcd66]
+  sideAngle: 15
+  lightningSpacing: 4
+  lightningDelay: 0.05
+  lightningDamage: 35
+  lightningLength: 4
+  lightningLengthRnd: 8
+  lightningColor: ffcd66
+}
 }
