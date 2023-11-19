@@ -21,6 +21,7 @@ engineSize: 3
 engineColor: ff9cf4
 trailLength: 12
 trailWidth: 4
+trailColor: ff9cf4
 loopSound: missileTrail
 MissileAccelTime: 72
 parts: [
