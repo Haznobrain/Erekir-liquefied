@@ -169,5 +169,6 @@ surge-alloy: {
   lightningLength: 4
   lightningLengthRand: 8
   lightningColor: ffcd66
+  lightningAngleRand: 15
 }
 }
