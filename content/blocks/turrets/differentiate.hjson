@@ -29,6 +29,7 @@ ammoTypes: {
     pierceCap: 2
     pierceCap: 3
     sprite: missile-large
+    shootEffect: shootBig
     frontColor: ffffff
     backColor: 82a467
     trailWidth: 2
@@ -82,6 +83,7 @@ graphite: {
     rangeChange: -70
     reloadMultiplier: 1.2
     type: MissileBulletType
+    shootEffect: shootBig
     weaveMag: 2
     weaveScale: 4
     damage: 40
@@ -99,6 +101,7 @@ graphite: {
     trailColor: 818181
 }
 silicon: {
+    shootEffect: shootBig
     type: FlakBulletType
     collidesGround: true
     sprite: missile-large
@@ -130,6 +133,25 @@ silicon: {
       frontColor: ffffff
       backColor: 7b7b7b
       hitEffect: flakExplosion
+}
+}
+oxide: {
+  type: BasicBulletType
+  lifetime: 0
+  damage: 0
+  shootEffect: thoriumShoot
+  shootColor: 82a467
+  rangeChange: -180
+  fragBullets: 3
+  fragRandomSpread: 0
+  fragSpread: 5
+  fragBullet: {
+    type: ShrapnelBulletType
+    length: 100
+    width: 8
+    fromColor: ffffff
+    toColor: 82a467
+    damage: 85
 }
 }
 }
