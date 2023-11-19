@@ -20,6 +20,10 @@ engineOffset: 2
 engineSize: 8
 engineColor: 8ca9e8
 MissileAccelTime: 72
+parts: [
+    {
+    type: FlarePart
+    
 weapons: [{
     name: missile-explode
       shootCone: 360
