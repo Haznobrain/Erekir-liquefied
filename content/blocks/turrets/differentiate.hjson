@@ -215,7 +215,7 @@ phase-fabric: {
     particles: 1
     length: 0
     lifetime: 25
-    sizeFrom: 8
+    sizeFrom: 20
     region: erekirliquefied-pierce-rail
     colorFrom: ffffff
     colorTo: feb380
@@ -225,7 +225,7 @@ pointEffect: {
   particles: 1
   length: 0
   lifetime: 25
-  sizeFrom: 8
+  sizeFrom: 20
   region: erekirliquefied-point-phase
   colorFrom: ffffff
   colorTo: feb380
@@ -235,7 +235,7 @@ lineEffect: {
   particles: 1
   length: 0
   lifetime: 25
-  sizeFrom: 8
+  sizeFrom: 20
   region: erekirliquefied-rail-phase
   colorFrom: ffffff
   colorTo: feb380
@@ -284,7 +284,7 @@ trailEffect: {
   particles: 1
   length: 0
   lifetime: 25
-  sizeFrom: 8
+  sizeFrom: 20
   region: erekirliquefied-rail-phase
   colorFrom: ffffff
   colorTo: feb380
