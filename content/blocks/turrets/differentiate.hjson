@@ -157,7 +157,7 @@ oxide: {
 }
 surge-alloy: {
   type: LaserBulletType
-  shootEffect: LancerLaserShoot
+  shootEffect: lancerLaserShoot
   length: 240
   rangeChange: -40
   damage: 145
