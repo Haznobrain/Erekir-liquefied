@@ -107,6 +107,7 @@ silicon: {
     damage: 12
     splashDamage: 75
     rangeChange: 40
+    splashDamageRadius: 24
     lifetime: 64
     speed: 5
     backColor: 7b7b7b
@@ -116,6 +117,19 @@ silicon: {
     trailColor: 7b7b7b
     reloadMultiplier: 1.25
     height: 12
-    width: 12
+    width: 12  
+    fragBullets: 5
+    hitEffect: flakExplosion
+    fragBullet: {
+      type: BasicBulletType
+      lifetime: 10
+      speed: 3
+      damage: 20
+      pierce: true
+      pierceCap: 2
+      frontColor: ffffff
+      backColor: 7b7b7b
+      hitEffect: flakExplosion
+}
 }
 }
