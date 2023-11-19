@@ -1,0 +1,52 @@
+type: missile
+template: MissileUnitType
+speed: 5
+flying: true
+health: 300
+hitSize: 10
+rotateSpeed: 3
+controller: MissileAi
+lowAltitude: true
+lifetime: 56
+isEnemy: false
+allowedInPayloads: false
+playerControllable: false
+physics: false
+useUnitCap: false
+createWreck: false
+createScorch: false
+hidden: true
+engineOffset: 2
+engineSize: 8
+engineColor: 8ca9e8
+MissileAccelTime: 72
+weapons: [{
+    name: missile-explode
+      shootCone: 360
+      shootOnDeath: true
+      controllable: true
+      shootSound: none
+        bullet: {
+          killShooter: true
+            hitEffect: {
+                type: ExplosionEffect
+                waveColor: 74588d
+                smokeColor: 473f4d
+                sparkColor: a99ab6
+                waveRad: 40
+                sparkRad: 60
+                smokeSize: 4
+                smokeRad: 45
+          }
+shootSound: none
+type: ExplosionBulletType
+instantDissapear: true
+width: 0
+height: 0
+keepVelocity: false
+splashDamage: 120
+splashDamageRadius: 40
+status: erekirliquefied-ionized
+statusDuration: 300
+  }
+}]
