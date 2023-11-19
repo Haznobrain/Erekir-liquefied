@@ -188,12 +188,16 @@ thorium: {
     waveLife: 30
     waveRad: 40
     waveRadBase: 40
-    smokes: 0
-    sparks: 0
+    smokes: 4
+    sparks: 6
+    smokeColor: f9a3c7
+    sparkColor: f9a3c7
 }
-trailEffect: instTrail
 trailSpacing: 20
-shootEffect: instShoot
+trailLength: 16
+trailWidth: 4
+trailColor: f9a3c7
+shootEffect: shootTitan
 smokeEffect: smokeCloud
 }
 }
