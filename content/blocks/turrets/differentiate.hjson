@@ -174,5 +174,6 @@ surge-alloy: {
 }
 carbide: {
 spawnUnit: erekirliquefied-small-missile
+shootEffect: shootTitan
 }
 }
