@@ -199,5 +199,6 @@ trailWidth: 4
 trailColor: f9a3c7
 shootEffect: shootTitan
 smokeEffect: smokeCloud
+trailEffect: instTrail
 }
 }
