@@ -202,4 +202,92 @@ shootEffect: shootTitan
 smokeEffect: smokeCloud
 trailEffect: instTrail
 }
+phase-fabric: {
+  rangeChange: 280
+  type: RailBulletType
+  damage: 350
+  status: erekirliquefied-ionized
+  length: 560
+  pointEffectSpace: 20
+  ammoMultiplier: 5
+  pierce: true
+  pierceEffect: {
+    particles: 1
+    length: 0
+    lifetime: 25
+    sizeFrom: 8
+    region: erekirliquefied-pierce-rail
+    colorFrom: ffffff
+    colorTo: feb380
+}
+pointEffect: {
+  type: ParticleEffect
+  particles: 1
+  length: 0
+  lifetime: 25
+  sizeFrom: 8
+  region: erekirliquefied-point-phase
+  colorFrom: ffffff
+  colorTo: feb380
+}
+lineEffect: {
+  type: ParticleEffect
+  particles: 1
+  length: 0
+  lifetime: 25
+  sizeFrom: 8
+  region: erekirliquefied-rail-phase
+  colorFrom: ffffff
+  colorTo: feb380
+}
+hitEffect: {
+  type: MultiEffect
+  effects: [
+    {
+    type: WaveEffect
+    lifetime: 25
+    sides: 4
+    rotation: 0
+    sizeFrom: 0
+    sizeTo: 40
+    strokeFrom: 4
+    strokeTo: 0
+    colorFrom: ffffff
+    colorTo: feb380
+}
+    {
+    type: WaveEffect
+    lifetime: 25
+    sides: 4
+    rotation: 45
+    sizeFrom: 0
+    sizeTo: 40
+    strokeFrom: 4
+    strokeTo: 0
+    colorFrom: ffffff
+    colorTo: feb380
+}
+    {
+    type: WaveEffect
+    lifetime: 25
+    sizeFrom: 0
+    sizeTo: 64
+    strokeFrom: 4
+    strokeTo: 0
+    colorFrom: ffffff
+    colorTo: feb380
+}
+]
+}
+trailEffect: {
+  type: ParticleEffect
+  particles: 1
+  length: 0
+  lifetime: 25
+  sizeFrom: 8
+  region: erekirliquefied-rail-phase
+  colorFrom: ffffff
+  colorTo: feb380
+}
+}
 }
