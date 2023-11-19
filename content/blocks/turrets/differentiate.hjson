@@ -176,4 +176,24 @@ carbide: {
 spawnUnit: erekirliquefied-small-missile
 shootEffect: shootTitan
 }
+thorium: {
+  type: PointBulletType
+  reloadMultiplier: 0.25
+  splashDamage: 450
+  splashDamageRadius: 40
+  trailColor: f9a3c7
+  hitEffect: {
+    type: ExplosionEffect
+    waveColor: f9a3c7
+    waveLife: 30
+    waveRad: 40
+    waveRadBase: 40
+    smokes: 0
+    sparks: 0
+}
+trailEffect: instTrail
+trailSpacing: 20
+shootEffect: instShoot
+smokeEffect: smokeCloud
+}
 }
