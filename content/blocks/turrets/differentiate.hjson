@@ -9,6 +9,7 @@ shootY: 16
 size: 4
 category: turret
 range: 280
+predictTarget: false
 requirements: [
   beryllium/400
   tungsten/200
