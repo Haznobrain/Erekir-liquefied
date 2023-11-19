@@ -1,0 +1,43 @@
+name: Advanced mech assembler
+description: assembles tier 6 mech units.
+size: 5
+type: UnitAssembler
+configurable: true
+areaSize: 16
+consumes: {
+    power: 27
+liquids: [
+    azpanogen/0.1
+]
+}
+plans: [ 
+{
+type: UnitAssemblerPlan
+  unit: atomize
+      time: 13800
+        requirements: [
+          erekirliquefied-action/4
+          erekirliquefied-large-azpacite-wall/24
+]
+}
+{
+type: UnitAssemblerPlan
+  unit: tsuga
+      time: 13800
+        requirements: [
+          erekirliquefied-areca/4
+          shielded-wall/8
+          erekirliquefied-large-azpacite-wall/12
+]
+}
+  ]
+requirements: [
+  beryllium/1200
+  silicon/900
+  tungsten/500
+  thorium/750
+  phase-fabric/350
+  azpacite/400
+]
+research: basic-assembler-module
+category: units
