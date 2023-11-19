@@ -160,10 +160,10 @@ surge-alloy: {
   length: 240
   rangeChange: -40
   damage: 145
-  width: 8
+  width: 16
   colors: [ffffa3, ffffff, ffcd66]
   sideAngle: 15
-  lightningSpacing: 4
+  lightningSpacing: 8
   lightningDelay: 0.05
   lightningDamage: 35
   lightningLength: 4
