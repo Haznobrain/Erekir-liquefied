@@ -167,7 +167,7 @@ surge-alloy: {
   lightningDelay: 0.05
   lightningDamage: 35
   lightningLength: 4
-  lightningLengthRnd: 8
+  lightningLengthRand: 8
   lightningColor: ffcd66
 }
 }
