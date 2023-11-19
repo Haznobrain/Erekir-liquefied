@@ -17,13 +17,23 @@ createWreck: false
 createScorch: false
 hidden: true
 engineOffset: 2
-engineSize: 8
-engineColor: 8ca9e8
+engineSize: 3
+engineColor: ff9cf4
+trailLength: 12
+trailWidth: 4
+loopSound: missileTrail
 MissileAccelTime: 72
 parts: [
-    {
-    type: FlarePart
-    
+{
+  type: FlarePart
+  color1: ffffff
+  color2: ff9cf4
+  y: -2
+  followRotation: true
+  stroke: 1
+  radius: 6
+}
+]
 weapons: [{
     name: missile-explode
       shootCone: 360
