@@ -183,6 +183,7 @@ parts: [
   rotateSpeed: 2.1
 }
 ]
+shootSound: shootMalign
 bullet: {
   damage: 70
   type: flakBulletType
