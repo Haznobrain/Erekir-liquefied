@@ -26,6 +26,7 @@ ammoTypes: {
     damage: 60
     pierce: true
     pierceBuilding: true
+    pierceCap: 2
     pierceCap: 3
     sprite: missile-large
     frontColor: ffffff
@@ -33,8 +34,8 @@ ammoTypes: {
     trailWidth: 2
     trailLength: 4
     trailColor: 82a467
-    height: 6
-    width: 6
+    height: 12
+    width: 12
     speed: 5
     lifetime: 56
       }
