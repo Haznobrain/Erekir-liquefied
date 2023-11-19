@@ -1,0 +1,29 @@
+type: ItemTurret
+reload: 10
+description: Shoots differently depending on the ammunition provided to it.
+shootSound: pulseBlast
+inaccuracy: 0
+shootCone: 10
+shootY: 16
+size: 4
+range: 280
+shoot: {
+  type: shootAlternate
+  barrels: 3
+  spread: 8
+    }
+recoil: 0.5
+ammoTypes: {
+  beryllium: {
+    type: MissileBulletType
+    damage: 60
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 3
+    sprite: missile-large
+    trailWidth: 2
+    trailLength: 4
+    height: 6
+    width: 6
+      }
+}
