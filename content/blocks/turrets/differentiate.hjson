@@ -2,6 +2,7 @@ type: ItemTurret
 reload: 10
 description: Shoots differently depending on the ammunition provided to it.
 shootSound: pulseBlast
+name: Differentiate
 inaccuracy: 0
 shootCone: 10
 shootY: 16
