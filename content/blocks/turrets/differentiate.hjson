@@ -165,7 +165,7 @@ surge-alloy: {
   sideAngle: 15
   lightningSpacing: 8
   lightningDelay: 0.05
-  lightningDamage: 35
+  lightningDamage: 15
   lightningLength: 4
   lightningLengthRand: 8
   lightningColor: ffcd66
