@@ -83,7 +83,7 @@ graphite: {
     reloadMultiplier: 1.2
     type: MissileBulletType
     weaveMag: 2
-    weaveScale: 2
+    weaveScale: 4
     damage: 40
     knockback: 3
     speed: 5
@@ -97,5 +97,25 @@ graphite: {
     frontColor: ffffff
     backColor: 818181
     trailColor: 818181
+}
+silicon: {
+    type: FlakBulletType
+    collidesGround: true
+    sprite: missile-large
+    weaveMag: 4
+    weaveScale: 4
+    damage: 12
+    splashDamage: 75
+    rangeChange: 40
+    lifetime: 64
+    speed: 5
+    backColor: 7b7b7b
+    frontColor: ffffff
+    trailWidth: 3
+    trailLength: 14
+    trailColor: 7b7b7b
+    reloadMultiplier: 1.25
+    height: 12
+    width: 12
 }
 }
