@@ -3,7 +3,7 @@ description: assembles tier 6 mech units.
 size: 5
 type: UnitAssembler
 configurable: true
-areaSize: 16
+areaSize: 20
 consumes: {
     power: 27
 liquids: [
