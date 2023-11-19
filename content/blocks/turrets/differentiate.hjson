@@ -172,4 +172,7 @@ surge-alloy: {
   lightningColor: ffcd66
   lightningAngleRand: 15
 }
+carbide: {
+spawnUnit: erekirliquefied-small-missile
+}
 }
