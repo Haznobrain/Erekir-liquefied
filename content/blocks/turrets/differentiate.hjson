@@ -334,4 +334,88 @@ azpacite: {
   lightningColor: 82a467
   homingPower: 0.1
 }
+cesium: {
+    type: MissileBulletType
+    damage: 75
+    splashDamage: 125
+    splashDamageRadius: 48
+    pierce: true
+    rangeChange: 280
+    pierceBuilding: true
+    pierceCap: 8
+    sprite: missile-large
+    shootEffect: titanShoot
+    frontColor: ffffff
+    backColor: ffbc4a
+    trailWidth: 2
+    trailLength: 8
+    trailColor: ffbc4a
+    height: 12
+    width: 12
+    speed: 5
+    lifetime: 56
+    fragBullets: 1
+    hitEffect: {
+      type: WaveEffect
+      colorFrom: ffffff
+      colorTo: ffbc4a
+      sizeTo: 48
+      }
+    fragRandomSpread: 0
+    fragBullet: {
+      type: MissileBulletType
+      damage: 75
+      splashDamage: 125
+      splashDamageRadius: 48
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 8
+      sprite: missile-large
+      shootEffect: titanShoot
+      frontColor: ffffff
+      backColor: ffbc4a
+      trailWidth: 2
+      trailLength: 8
+      trailColor: ffbc4a
+      height: 12
+      width: 12
+      speed: 5
+      lifetime: 28
+      fragBullets: 1
+      fragRandomSpread: 0
+          hitEffect: {
+      type: WaveEffect
+      colorFrom: ffffff
+      colorTo: ffbc4a
+      sizeTo: 48
+      }
+            fragBullet: {
+            type: MissileBulletType
+            damage: 75
+            pierce: true
+            splashDamage: 125
+            splashDamageRadius: 48
+            pierceBuilding: true
+            pierceCap: 8
+            sprite: missile-large
+            shootEffect: titanShoot
+            frontColor: ffffff
+            backColor: ffbc4a
+            trailWidth: 2
+            trailLength: 8
+            trailColor: ffbc4a
+            height: 12
+            width: 12
+            speed: 5
+            lifetime: 28
+            fragBullets: 1
+            fragRandomSpread: 0
+            hitEffect: {
+            type: WaveEffect
+            colorFrom: ffffff
+            colorTo: ffbc4a
+            sizeTo: 48
+      }
+      }
+      }
 }
