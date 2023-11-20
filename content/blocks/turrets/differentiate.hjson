@@ -207,6 +207,14 @@ phase-fabric: {
   rangeChange: 280
   type: RailBulletType
   damage: 350
+  shootEffect: {
+    type: MultiEffect
+    effects: [
+    shootTitan,
+    shootBig,
+    smokeBig
+    ]
+}
   status: erekirliquefied-ionized
   length: 560
   pointEffectSpace: 20
@@ -293,6 +301,7 @@ trailEffect: {
 }
 azpacite: {
   type: LightningBulletType
+  shootEffect: shootBig
   lightningLength: 25
   damage: 115
   lightningLengthRand: 10
