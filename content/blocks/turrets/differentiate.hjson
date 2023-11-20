@@ -186,6 +186,7 @@ surge-alloy: {
 carbide: {
 spawnUnit: erekirliquefied-small-missile
 shootEffect: shootTitan
+reloadMultiplier: 1.75
 }
 thorium: {
   type: PointBulletType
