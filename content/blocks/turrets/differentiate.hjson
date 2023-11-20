@@ -411,10 +411,17 @@ cesium: {
             fragBullets: 1
             fragRandomSpread: 0
             hitEffect: {
-            type: WaveEffect
-            colorFrom: ffffff
-            colorTo: ffbc4a
-            sizeTo: 48
+            type: ExplosionEffect
+            waveColor: ffbc4a
+            smokeColor: 9f865a
+            sparkColor: ffe553
+            waveRad: 48
+            sparkRad: 60
+            smokeSize: 8
+            smokeRad: 56
+            smokes: 8
+            sparks: 12
+            }
       }
       }
       }
