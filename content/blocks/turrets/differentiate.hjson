@@ -160,7 +160,7 @@ surge-alloy: {
   type: LaserBulletType
   shootEffect: {
     type: particleEffect
-    sizeFrom: 20
+    sizeFrom: 40
     sizeTo: 0
     colorFrom: ffffff
     colorTo: ffffa3
