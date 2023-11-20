@@ -189,9 +189,9 @@ shootEffect: shootTitan
 }
 thorium: {
   type: PointBulletType
-  reloadMultiplier: 0.25
+  reloadMultiplier: 0.5
   rangeChange: 160
-  splashDamage: 450
+  splashDamage: 350
   splashDamageRadius: 40
   hitEffect: {
     type: ExplosionEffect
@@ -199,6 +199,8 @@ thorium: {
     waveLife: 30
     waveRad: 40
     waveRadBase: 40
+    sparkRad: 50
+    smokeRad: 60
     smokes: 4
     sparks: 6
     smokeColor: f9a3c7
