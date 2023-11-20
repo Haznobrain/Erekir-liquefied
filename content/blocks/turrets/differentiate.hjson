@@ -424,3 +424,9 @@ cesium: {
       }
       }
 }
+coolantMultiplier: 2.7
+coolant: {
+  type: ConsumeLiquid
+  liquid: water
+  amount: 0.5
+}
