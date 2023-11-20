@@ -337,7 +337,7 @@ azpacite: {
 cesium: {
     type: MissileBulletType
     damage: 75
-    splashDamage: 125
+    splashDamage: 60
     splashDamageRadius: 48
     pierce: true
     rangeChange: 280
@@ -365,7 +365,7 @@ cesium: {
     fragBullet: {
       type: MissileBulletType
       damage: 75
-      splashDamage: 125
+      splashDamage: 60
       splashDamageRadius: 48
       pierce: true
       pierceBuilding: true
@@ -392,7 +392,7 @@ cesium: {
             type: MissileBulletType
             damage: 75
             pierce: true
-            splashDamage: 125
+            splashDamage: 60
             splashDamageRadius: 48
             pierceBuilding: true
             pierceCap: 8
