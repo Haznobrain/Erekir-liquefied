@@ -1,6 +1,6 @@
 type: ItemTurret
 reload: 10
-description: Shoots differently depending on the ammunition provided to it.
+description: Shoots differently depending on the ammunition provided to it. Gets a very large firerate bosst when supplied with water
 shootSound: pulseBlast
 name: Differentiate
 inaccuracy: 0
@@ -424,7 +424,7 @@ cesium: {
       }
       }
 }
-coolantMultiplier: 2.7
+coolantMultiplier: 4
 coolant: {
   type: ConsumeLiquid
   liquid: water
