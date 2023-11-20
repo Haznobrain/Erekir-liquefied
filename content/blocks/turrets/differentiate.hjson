@@ -167,6 +167,7 @@ surge-alloy: {
     region: erekirliquefied-electric-shoot
     particles: 1
     lifetime: 25
+    length: 0
     }
   length: 240
   rangeChange: -40
@@ -210,7 +211,16 @@ trailWidth: 4
 trailColor: f9a3c7
 shootEffect: shootTitan
 smokeEffect: smokeCloud
-trailEffect: instTrail
+trailEffect: {
+  type: particleEffect
+  region: erekirliquefied-thorium-instTrail
+  colorFrom: fffff
+  colorTo: f9a3c7
+  sizeFrom: 20
+  sizeTo: 0
+  particles: 1
+  length: 0
+  }
 }
 phase-fabric: {
   rangeChange: 280
