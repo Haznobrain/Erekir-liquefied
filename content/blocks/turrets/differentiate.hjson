@@ -160,11 +160,13 @@ surge-alloy: {
   type: LaserBulletType
   shootEffect: {
     type: particleEffect
-    size: 20
+    sizeFrom: 20
+    sizeTo: 0
     colorFrom: ffffff
     colorTo: ffffa3
     region: erekirliquefied-electric-shoot
     particles: 1
+    lifetime: 25
     }
   length: 240
   rangeChange: -40
