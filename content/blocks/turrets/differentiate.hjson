@@ -158,7 +158,14 @@ oxide: {
 }
 surge-alloy: {
   type: LaserBulletType
-  shootEffect: lancerLaserShoot
+  shootEffect: {
+    type: particleEffect
+    size: 20
+    colorFrom: ffffff
+    colorTo: ffffa3
+    region: erekirliquefied-electric-shoot
+    particles: 1
+    }
   length: 240
   rangeChange: -40
   damage: 145
