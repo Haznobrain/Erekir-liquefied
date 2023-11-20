@@ -15,6 +15,38 @@ fogRadius: 20
 treadPullOffset: 1
 crushDamage: 50
 rotateSpeed: 0.76
+treadRects: [
+{
+x: 57
+y: 104
+height: 30
+width: 15
+}
+{
+y: 19
+x: 108
+width: 40
+height: 15
+}
+{
+x: 62
+y: 179
+height: 60
+width: 17
+}
+{
+x: 63
+y: 234
+height: 40
+width: 16
+}
+{
+x: 124
+y: 271
+height: 40
+width: 24
+}
+]
 parts: [
 {
 type: RegionPart
