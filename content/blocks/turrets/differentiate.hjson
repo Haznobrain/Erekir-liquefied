@@ -219,7 +219,7 @@ phase-fabric: {
     effects: [
     shootTitan,
     shootBig,
-    smokeBig
+    smokeCloud
     ]
 }
   status: erekirliquefied-ionized
