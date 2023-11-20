@@ -1,7 +1,7 @@
 name: Sever
 template: ErekirUnitType
 type: tank
-flying: true
+flying: false
 description: A very large and powerful tank with a mounted miniaturized smite that can crush ennemy defenses.
 health: 56000
 armor: 32
