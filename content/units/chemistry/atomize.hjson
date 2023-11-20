@@ -236,7 +236,7 @@ bullet: {
     lifetime: 22
     drawSize: 400
     length: 180
-    pierceCap: 2
+    pierceCap: 5
 }
 }
 }
@@ -245,7 +245,7 @@ name: atomize-laser
 x: 0
 y: 8
 mirror: false
-range: 232
+range: 288
 shoot: {
 type: shootAlternate
 barrels: 2
@@ -257,8 +257,8 @@ shootSound: laser
 bullet: {
   type: LaserBulletType
   colors: [ffdf62, ffa947, ffffff]
-  length: 232
-  width: 6
+  length: 288
+  width: 8
   damage: 112
   status: erekirliquefied-ionized
   statusDuration: 300
