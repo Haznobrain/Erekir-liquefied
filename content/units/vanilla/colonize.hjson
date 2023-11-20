@@ -15,4 +15,13 @@ fogRadius: 20
 treadPullOffset: 1
 crushDamage: 50
 rotateSpeed: 0.76
-parts: 
+parts: [
+{
+type: RegionPart
+suffix: -glow
+color: ff3800
+blending: additive
+layer: -1
+outline: false
+}
+]
