@@ -17,14 +17,14 @@ crushDamage: 50
 rotateSpeed: 0.76
 treadRects: [
 {
-x: 45
+x: 50
 y: 132
 height: 30
 width: 15
 }
 {
 y: 49
-x: 82
+x: 90
 width: 40
 height: 15
 }
@@ -41,8 +41,8 @@ height: 40
 width: 16
 }
 {
-x: 23
-y: -120
+x: 30
+y: -110
 height: 40
 width: 24
 }
