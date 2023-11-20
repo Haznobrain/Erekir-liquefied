@@ -291,4 +291,13 @@ trailEffect: {
   colorTo: feb380
 }
 }
+azpacite: {
+  type: LightningBulletType
+  lightningLength: 25
+  damage: 75
+  homingPower: 0.1
+  lightningLengthRand: 10
+  rangeChange: -80
+  lightningColor: 82a467
+}
 }
