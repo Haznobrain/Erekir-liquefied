@@ -344,7 +344,7 @@ cesium: {
     pierceBuilding: true
     pierceCap: 8
     sprite: missile-large
-    shootEffect: titanShoot
+    shootEffect: shootTitan
     frontColor: ffffff
     backColor: ffbc4a
     trailWidth: 2
