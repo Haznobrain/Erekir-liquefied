@@ -1,1 +1,18 @@
-
+name: Sever
+template: ErekirUnitType
+type: tank
+flying: true
+description: a simple and fast air specialist that shoots a piercing laser at ennemy targets.
+health: 56000
+armor: 32
+hitSize: 66
+speed: 0.4
+targetAir: true
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 20
+treadPullOffset: 1
+crushDamage: 50
+rotateSpeed: 0.76
+parts: 
