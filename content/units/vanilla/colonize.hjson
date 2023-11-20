@@ -1,5 +1,5 @@
-name: Sever
-template: ErekirUnitType
+name: Colonize
+template: TankUnitType
 type: tank
 flying: false
 description: A very large and powerful tank with a mounted miniaturized smite that can crush ennemy defenses.
