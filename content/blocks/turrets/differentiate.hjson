@@ -193,7 +193,6 @@ thorium: {
   rangeChange: 160
   splashDamage: 450
   splashDamageRadius: 40
-  trailColor: f9a3c7
   hitEffect: {
     type: ExplosionEffect
     waveColor: f9a3c7
@@ -214,7 +213,7 @@ smokeEffect: smokeCloud
 trailEffect: {
   type: particleEffect
   region: erekirliquefied-thorium-instTrail
-  colorFrom: fffff
+  colorFrom: ffffff
   colorTo: f9a3c7
   sizeFrom: 20
   sizeTo: 0
