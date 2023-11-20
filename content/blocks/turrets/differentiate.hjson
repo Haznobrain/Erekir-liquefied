@@ -215,8 +215,8 @@ trailEffect: {
   region: erekirliquefied-thorium-instTrail
   colorFrom: ffffff
   colorTo: f9a3c7
-  sizeFrom: 20
-  sizeTo: 0
+  sizeFrom: 16
+  sizeTo: 8
   particles: 1
   length: 0
   }
@@ -243,6 +243,7 @@ phase-fabric: {
     length: 0
     lifetime: 25
     sizeFrom: 20
+    sizeTo: 8
     region: erekirliquefied-pierce-rail
     colorFrom: ffffff
     colorTo: feb380
@@ -253,6 +254,7 @@ pointEffect: {
   length: 0
   lifetime: 25
   sizeFrom: 20
+  sizeTo: 8
   region: erekirliquefied-point-phase
   colorFrom: ffffff
   colorTo: feb380
@@ -263,6 +265,7 @@ lineEffect: {
   length: 0
   lifetime: 25
   sizeFrom: 20
+  sizeTo: 8
   region: erekirliquefied-rail-phase
   colorFrom: ffffff
   colorTo: feb380
@@ -312,6 +315,7 @@ trailEffect: {
   length: 0
   lifetime: 25
   sizeFrom: 20
+  sizeTo: 8
   region: erekirliquefied-rail-phase
   colorFrom: ffffff
   colorTo: feb380
