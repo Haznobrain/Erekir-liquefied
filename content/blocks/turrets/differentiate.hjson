@@ -207,7 +207,7 @@ thorium: {
     smokeColor: f9a3c7
     sparkColor: f9a3c7
 }
-trailSpacing: 20
+trailSpacing: 16
 trailLength: 16
 trailWidth: 4
 trailColor: f9a3c7
