@@ -61,6 +61,8 @@ weapons: [
 {
 name: colonize-weapon
 reload: 30
+x: 0
+y: 0
 mirror: false
 range: 300
 shootSound: shootSmite
