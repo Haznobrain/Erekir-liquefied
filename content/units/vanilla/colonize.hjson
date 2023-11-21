@@ -62,7 +62,7 @@ weapons: [
 name: colonize-weapon
 reload: 30
 mirror: false
-range: 298
+range: 300
 shootSound: shootSmite
 shootWarmupSpeed: 0.04
 loopSound: glow
@@ -91,6 +91,8 @@ dest: [
 bullet: {
 type: BasicBulletType
 sprite: large-orb
+lifetime: 60
+speed: 5
 width: 17
 height: 21
 hitSize: 8
