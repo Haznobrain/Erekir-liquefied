@@ -166,13 +166,13 @@ parts: [
   mirror: true
   moveX: 8
   moveY: -6
-  moveRot: 25
+  moveRot: 45
   }
   {
   type: RegionPart
   suffix: -blade
   x: 0
-  y: -24
+  y: -20
   heatColor: ffec5c
   layerOffset: -0.01
   heatLayerOffset: 0.005
