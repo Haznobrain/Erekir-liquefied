@@ -61,6 +61,7 @@ weapons: [
 {
 name: colonize-weapon
 reload: 30
+mirror: false
 range: 298
 shootSound: shootSmite
 shootWarmupSpeed: 0.04
