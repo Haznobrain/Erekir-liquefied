@@ -57,3 +57,93 @@ layer: -1
 outline: false
 }
 ]
+weapons: [
+{
+name: colonize-weapon
+reload: 30
+range: 298
+shootSound: shootSmite
+shootWarmupSpeed: 0.04
+loopSound: glow
+shootY: 40
+minWarmup: 0.94
+warmupMaintainTime: 90
+recoil: 2
+rotateSpeed: 1.4
+shoot: {
+type: ShootMulti
+dest: [
+{
+  type: ShootAlternate
+  barrels: 3
+  shots: 3
+  spread: 4
+}
+{
+  type: ShootHelix
+  scl: 4
+  mag: 3
+}
+]
+}
+bullet: {
+type: BasicBulletType
+sprite: large-orb
+width: 17
+height: 21
+hitSize: 8
+damage: 187.5
+shootEffect: {
+type: MultiEffect
+effects: [
+shootTitan,
+colorSparkBig,
+{
+type: WaveEffect
+colorFrom: ffec5c
+colorTo: ffec5c
+lifetime: 12
+sizeTo: 20
+strokeFrom: 3
+strokeTo: 0.3
+}
+]
+}
+smokeEffect: shootSmokeSmite
+pierceCap: 4
+pierce: true
+piercBuildings: true
+hitColor: ffec5c
+frontColor: ffffff
+backColor: ffec5c
+trailWidth: 2.8
+trailLength: 9
+hitEffect: hitBulletColor
+despawnEffect: {
+  type: MultiEffect
+effects: [
+  hitBulletColor,
+  {
+  type: WaveEffect
+  sizeTo: 30
+  colorFrom: ffec5c
+  lifetime: 12
+}
+]
+}
+trailRotation: true
+trailEffect: disperseTraik
+trailInterval: 3
+
+intervalBullet: {
+  type: LightningBulletType
+    damage: 30
+    collidesAir: false
+    lightningColor: ffec5c
+    lightningLength: 5
+    lightningLengthRand: 10
+}
+bulletInterval: 3
+}
+}
+]
