@@ -121,7 +121,7 @@ strokeTo: 0.3
 smokeEffect: shootSmokeSmite
 pierceCap: 4
 pierce: true
-pierceBuildings: true
+pierceBuilding: true
 hitColor: ffec5c
 frontColor: ffffff
 backColor: ffec5c
