@@ -133,7 +133,7 @@ effects: [
 ]
 }
 trailRotation: true
-trailEffect: disperseTraik
+trailEffect: disperseTrail
 trailInterval: 3
 
 intervalBullet: {
