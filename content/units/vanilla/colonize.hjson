@@ -121,7 +121,7 @@ strokeTo: 0.3
 smokeEffect: shootSmokeSmite
 pierceCap: 4
 pierce: true
-piercBuildings: true
+pierceBuildings: true
 hitColor: ffec5c
 frontColor: ffffff
 backColor: ffec5c
@@ -166,7 +166,19 @@ parts: [
   mirror: true
   moveX: 8
   moveY: -6
-  moveRot: 90
+  moveRot: 120
+  }
+  {
+  type: RegionPart
+  suffix: -blade
+  x: 0
+  y: -24
+  heatColor: ffec5c
+  layerOffset: -0.01
+  heatLayerOffset: 0.005
+  mirror: true
+  moveX: 8
+  moveY: -6
   }
   ]
 }
