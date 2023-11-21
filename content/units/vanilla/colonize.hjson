@@ -19,14 +19,14 @@ treadRects: [
 {
 x: 31
 y: -148
-height: 30
-width: 15
+height: 15
+width: 40
 }
 {
-y: -120
-x: 90
-width: 40
-height: 15
+x: 95
+y: -41
+height: 30
+width: 15
 }
 {
 x: 89
