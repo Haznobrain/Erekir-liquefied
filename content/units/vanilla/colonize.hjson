@@ -11,7 +11,7 @@ targetAir: true
 faceTargets: true
 lightRadius: 5
 singleTarget: true
-fogRadius: 20
+fogRadius: 40
 treadPullOffset: 1
 crushDamage: 50
 rotateSpeed: 0.76
