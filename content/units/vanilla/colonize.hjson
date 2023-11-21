@@ -158,13 +158,14 @@ parts: [
   type: RegionPart
   suffix: -blade
   x: 0
-  y: -32
+  y: -30
   heatColor: ffec5c
   layerOffset: -0.01
   heatLayerOffset: 0.005
   mirror: true
   moveX: 8
-  moveY: -10
+  moveY: -6
+  moveRot: 45
   }
   ]
 }
