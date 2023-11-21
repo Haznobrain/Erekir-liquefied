@@ -177,7 +177,7 @@ parts: [
   layerOffset: -0.01
   heatLayerOffset: 0.005
   mirror: true
-  moveX: 12
+  moveX: 16
   moveY: -12
   }
   ]
