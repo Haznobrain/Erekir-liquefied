@@ -60,6 +60,7 @@ outline: false
 weapons: [
 {
 name: colonize-weapon
+layerOffset: 1
 reload: 30
 rotate: true
 rotateSpeed: 1.8
@@ -165,7 +166,7 @@ parts: [
   mirror: true
   moveX: 8
   moveY: -6
-  moveRot: 45
+  moveRot: 90
   }
   ]
 }
