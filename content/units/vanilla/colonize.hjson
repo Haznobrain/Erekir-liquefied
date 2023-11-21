@@ -72,6 +72,7 @@ recoil: 2
 rotateSpeed: 1.4
 shoot: {
 type: ShootMulti
+source: ShootAlternate
 dest: [
 {
   type: ShootAlternate
