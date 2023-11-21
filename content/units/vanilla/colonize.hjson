@@ -202,12 +202,12 @@ parts: [
   haloRadius: 16
   tri: true
   radius: 4
-  color: ffec5c
+  color: ffee71
   y: -32
   }
     {
   type: HaloPart
-  shapes: 3
+  shapes: 2
   haloRotateSpeed: 0
   haloRotation: 90
   triLength: 0
@@ -216,7 +216,7 @@ parts: [
   haloRadius: 16
   tri: true
   radius: 4
-  color: ffec5c
+  color: ffee71
   y: -32
   }
   {
@@ -224,7 +224,7 @@ parts: [
   circle: true
   radius: 10
   hollow: true
-  color: ffec5c
+  color: ffee71
   stroke: 0
   strokeTo: 2
   rotateSpeed: 1.8
@@ -239,7 +239,7 @@ parts: [
   haloRadius: 16
   tri: true
   radius: 4
-  color: ffec5c
+  color: ffee71
   shapeRotation: 180
   y: -32
   }
@@ -253,7 +253,7 @@ parts: [
   haloRadius: 16
   tri: true
   radius: 8
-  color: ffec5c
+  color: ffee71
   shapeRotation: 180
   y: -32
   }
@@ -267,7 +267,7 @@ parts: [
   haloRadius: 16
   tri: true
   radius: 8
-  color: ffec5c
+  color: ffee71
   shapeRotation: 180
   y: -32
   }
@@ -281,7 +281,7 @@ parts: [
   haloRadius: 10
   tri: true
   radius: 6
-  color: ffec5c
+  color: ffee71
   y: -32
   }
     {
@@ -289,7 +289,7 @@ parts: [
   circle: true
   radius: 4
   hollow: true
-  color: ffec5c
+  color: ffee71
   stroke: 0
   strokeTo: 1.6
   rotateSpeed: 1.8
