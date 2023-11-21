@@ -298,3 +298,11 @@ parts: [
 ]
 }
 ]
+abilities: [
+{
+type: UnitSpawnAbility
+spawnTime: 4800
+spawnY: -32
+unit: locus
+}
+]
