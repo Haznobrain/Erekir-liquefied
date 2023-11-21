@@ -154,6 +154,18 @@ intervalBullet: {
 bulletInterval: 3
 }
 parts: [
-  
+  {
+  type: RegionPart
+  suffix: -blade
+  x: 0
+  y: -32
+  heatColor: ffec5c
+  layerOffset: -0.01
+  heatLayerOffset: 0.005
+  mirror: true
+  moveX: 16
+  moveY: -32
+  }
+  ]
 }
 ]
