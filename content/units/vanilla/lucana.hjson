@@ -3,7 +3,7 @@ type: legs
 name: Lucana
 health: 39500
 armor: 22
-description: Fires a large fraglenting energy ball at ennemy targets periodically.
+description: Fires a large fragmenting energy bolt at ennemy targets periodically.
 speed: 1
 hovering: true
 hitSize: 20
@@ -50,11 +50,12 @@ parentizeEffects: true
 bullet: {
     type: BasicBulletType
     lifetime: 96
+    recoil: 4
     speed: 5
     width: 24
     height: 24
     sprite: erekirliquefied-bullet-resonance
-    scaleLifetime: true
+    scaleLife: true
     chargeEffect: {
     type: MultiEffect
     effects: [
@@ -67,7 +68,7 @@ bullet: {
     strokeFrom: 0
     lenFrom: 2
     lenTo: 4
-    sizeTo: 24
+    sizeTo: 8
     color: d1efff
     particles: 1
     lifetime: 65
