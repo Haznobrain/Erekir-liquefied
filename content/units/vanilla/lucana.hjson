@@ -53,7 +53,8 @@ bullet: {
     speed: 5
     width: 24
     height: 24
-    sprite: erekirliquefied-resonance-bullet
+    sprite: erekirliquefied-bullet-resonance
+    scaleLifetime: true
     chargeEffect: {
     type: MultiEffect
     effects: [
@@ -106,7 +107,7 @@ fragLifeMax: 1
     damage: 105
     splashDamage: 75
     splashDamageRadius: 45
-    sprite: erekirliquefied-resonance-bullet
+    sprite: erekirliquefied-bullet-resonance
     lifetime: 60
     speed: 2
     backColor: d1efff
