@@ -61,15 +61,15 @@ bullet: {
     type: ParticleEffect
     sizeFrom: 0
     sizeTo: 40
-    color: d1eff
+    color: d1efff
     particles: 1
     lifetime: 65
     }
     {
     type: ExplosionEffect
-    waveColor: d1eff
-    smokeColor: d1eff
-    sparkColor: d1eff
+    waveColor: d1efff
+    smokeColor: d1efff
+    sparkColor: d1efff
     waveLife: 65
     waveRad: 0
     waveRadBase: 80
@@ -83,13 +83,13 @@ damage: 565
 splashDamage: 450
 splashDamageRadius: 160
 frontColor: ffffff
-backColor: d1eff
+backColor: d1efff
 hitSound: plasmaboom
 hitEffect: {
   type: ExplosionEffect
-      waveColor: d1eff
-    smokeColor: d1eff
-    sparkColor: d1eff
+      waveColor: d1efff
+    smokeColor: d1efff
+    sparkColor: d1efff
     waveLife: 65
     waveRad: 180
     waveRadBase: 0
@@ -110,7 +110,7 @@ fragLifeMax: 1
     speed: 2
     hitEffect: {
       type: WaveEffect
-      ColorTo: d1eff
+      ColorTo: d1efff
       ColorFrom: ffffff
       sizeTo: 45
       }
