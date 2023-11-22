@@ -22,7 +22,7 @@ legLengthScl: 0.96
 legMinLength: 0.8
 legForwardScale: 2.1
 fogRadius: 20
-legGroupSize: 3
+legGroupSize: 2
 rippleScale: 1.2
 legMoveSpace: 1.05
 allowLegStep: true
