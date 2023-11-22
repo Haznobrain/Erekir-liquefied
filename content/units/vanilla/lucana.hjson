@@ -51,19 +51,20 @@ bullet: {
     type: BasicBulletType
     lifetime: 96
     speed: 5
-    width: 40
-    height: 40
-    sprite: erekirliquefied-large-circle
+    width: 24
+    height: 24
+    sprite: erekirliquefied-resonance-bullet
     chargeEffect: {
     type: MultiEffect
     effects: [
     {
     type: ParticleEffect
     sizeFrom: 0
-    sizeTo: 40
+    sizeTo: 24
     color: d1efff
     particles: 1
     lifetime: 65
+    region: erekirliquefied-large-circle
     }
     {
     type: ExplosionEffect
@@ -72,7 +73,7 @@ bullet: {
     sparkColor: d1efff
     waveLife: 65
     waveRad: 0
-    waveRadBase: 80
+    waveRadBase: 24
     smokeRad: 0
     smokeSizeBase: 0
     smokeSize: 8
@@ -108,11 +109,15 @@ fragLifeMax: 1
     sprite: erekirliquefied-resonance-bullet
     lifetime: 60
     speed: 2
+    backColor: d1efff
+    frontColor: ffffff
+    hitSound: plasmaBoom
     hitEffect: {
       type: WaveEffect
       ColorTo: d1efff
       ColorFrom: ffffff
       sizeTo: 45
+      lifetime: 60
       }
 }
 }
