@@ -21,7 +21,7 @@ legMaxLength: 1.05
 legLengthScl: 0.96
 legMinLength: 0.8
 legForwardScale: 2.1
-fogRadius: 20
+fogRadius: 60
 legGroupSize: 2
 rippleScale: 1.2
 legMoveSpace: 1.05
