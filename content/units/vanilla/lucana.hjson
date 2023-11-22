@@ -61,6 +61,12 @@ bullet: {
     {
     type: ParticleEffect
     sizeFrom: 0
+    ranLength: false
+    cone: 180
+    strokeTo: 2
+    strokeFrom: 0
+    lenFrom: 2
+    lenTo: 4
     sizeTo: 24
     color: d1efff
     particles: 1
@@ -73,11 +79,14 @@ bullet: {
     smokeColor: d1efff
     sparkColor: d1efff
     waveLife: 65
+    waveStrokeTo: 3
+    waveStroke: 0
     waveRad: 0
     waveRadBase: 24
     smokeRad: 0
     smokeSizeBase: 0
     smokeSize: 8
+    lifetime: 65
     }
 ]
 }
