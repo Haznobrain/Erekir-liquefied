@@ -76,6 +76,7 @@ minWarmup: 0.94
 warmupMaintainTime: 90
 recoil: 2
 rotateSpeed: 1.4
+heatColor: ffee71
 shoot: {
 type: ShootMulti
 source: ShootAlternate
