@@ -33,7 +33,7 @@ legSplashRange: 40
 weapons: [
 {
 name: lucana-weapon
-reload: 300
+reload: 100
 recoil: 4
 shootSound: plasmaboom
 chargeSound: lasercharge
@@ -92,7 +92,7 @@ bullet: {
 ]
 }
 damage: 565
-splashDamage: 450
+splashDamage: 670
 splashDamageRadius: 160
 frontColor: ffffff
 backColor: d1efff
@@ -115,14 +115,14 @@ fragLifeMax: 1
   fragBullet: {
     type: ArtilleryBulletType
     damage: 105
-    splashDamage: 75
+    splashDamage: 125
     splashDamageRadius: 45
     sprite: erekirliquefied-bullet-resonance
     lifetime: 60
     speed: 2
     backColor: d1efff
     frontColor: ffffff
-    hitSound: plasmaBoom
+    hitSound: plasmaboom
     hitEffect: {
       type: WaveEffect
       ColorTo: d1efff
