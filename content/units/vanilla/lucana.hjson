@@ -5,7 +5,7 @@ health: 39500
 armor: 22
 description: Fires a large fraglenting energy ball at ennemy targets periodically.
 speed: 1.1
-hitSize: 45
+hitSize: 20
 rotateSpeed: 2.5
 legStraightness: 0.1
 legSpeed: 0.6
@@ -14,7 +14,7 @@ legLength: 36
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
-legBaseOffset: 40
+legBaseOffset: 20
 legMaxLength: 1.2
 legLengthScl: 0.96
 legMinLength: 0.8
