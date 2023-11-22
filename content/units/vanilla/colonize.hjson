@@ -77,6 +77,7 @@ warmupMaintainTime: 90
 recoil: 2
 rotateSpeed: 1.4
 heatColor: ffee71
+heatLayerOffset: 1
 shoot: {
 type: ShootMulti
 source: ShootAlternate
