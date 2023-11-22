@@ -33,13 +33,13 @@ legSplashRange: 40
 weapons: [
 {
 name: lucana-weapon
-reload: 600
+reload: 300
 recoil: 4
 shootSound: plasmaboom
 chargeSound: lasercharge
 x: 0
 shootOnDeath: true
-cooldownTime: 800
+cooldownTime: 300
 y: 16
 mirror: false
 range: 480
