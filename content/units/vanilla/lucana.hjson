@@ -30,3 +30,91 @@ stepShake: 0.6
 legPhysicsLayer: false
 legSplashDamage: 85
 legSplashRange: 40
+weapons: [
+{
+name: lucana-weapon
+reload: 600
+recoil: 4
+shootSound: plasmaboom
+chargeSound: lasercharge
+x: 0
+shootOnDeath: true
+cooldownTime: 800
+y: 16
+mirror: false
+range: 480
+  shoot: {
+    firstShotDelay: 65
+}
+parentizeEffects: true
+bullet: {
+    type: BasicBulletType
+    lifetime: 96
+    speed: 5
+    width: 40
+    height: 40
+    sprite: erekirliquefied-large-circle
+    chargeEffect: {
+    type: MultiEffect
+    effects: {
+    {
+    type: ParticleEffect
+    sizeFrom: 0
+    sizeTo: 40
+    color: d1eff
+    particles: 1
+    lifetime: 65
+    }
+    {
+    type: ExplosionEffect
+    waveColor: d1eff
+    smokeColor: d1eff
+    sparkColor: d1eff
+    waveLife: 65
+    waveRad: 0
+    waveRadBase: 80
+    smokeRad: 0
+    smokeSizeBase: 0
+    smokeSize: 8
+    }
+}
+}
+damage: 565
+splashDamage: 450
+splashDamageRadius: 160
+frontColor: ffffff
+backColor: d1eff
+hitSound: plasmaboom
+hitEffect: {
+  type: ExplosionEffect
+      waveColor: d1eff
+    smokeColor: d1eff
+    sparkColor: d1eff
+    waveLife: 65
+    waveRad: 180
+    waveRadBase: 0
+    smokeRad: 160
+    smokeSizeBase: 0.5
+    smokeSize: 24
+    }
+fragBullets: 15
+fragLifeMin: 0.2
+fragLifeMax: 1
+  fragBullet: {
+    type: ArtilleryBulletType
+    damage: 105
+    splashDamage: 75
+    splashDamageRadius: 45
+    sprite: erekirliquefied-resonance-bullet
+    lifetime: 60
+    speed: 2
+    hitEffect: {
+      type: WaveEffect
+      ColorTo: d1eff
+      ColorFrom: ffffff
+      sizeTo: 45
+      }
+}
+}
+}
+}
