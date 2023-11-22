@@ -1,0 +1,27 @@
+template: ErekirUnitType
+type: legs
+name: Lucana
+health: 39500
+armor: 22
+description: Fires a large fraglenting energy ball at ennemy targets periodically.
+speed: 1.1
+hitSize: 45
+rotateSpeed: 2.5
+legStraightness: 0.1
+legSpeed: 0.6
+legCount: 6
+legLength: 36
+lockLegBase: true
+legContinuousMove: true
+legExtension: -3
+legBaseOffset: 40
+legMaxLength: 1.2
+legLengthScl: 0.96
+legMinLength: 0.8
+legForwardScale: 1.1
+fogRadius: 20
+legGroupSize: 2
+rippleScale: 0.2
+legMoveSpace: 1
+allowLegStep: true
+legPhysicsLayer: false
