@@ -56,7 +56,7 @@ bullet: {
     sprite: erekirliquefied-large-circle
     chargeEffect: {
     type: MultiEffect
-    effects: {
+    effects: [
     {
     type: ParticleEffect
     sizeFrom: 0
@@ -77,7 +77,7 @@ bullet: {
     smokeSizeBase: 0
     smokeSize: 8
     }
-}
+]
 }
 damage: 565
 splashDamage: 450
