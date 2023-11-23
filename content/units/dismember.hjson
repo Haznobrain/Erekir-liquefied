@@ -67,5 +67,6 @@ color: d1efff
 reload: 45
 healPercent: 0.5
 sectors: 6
+layer: 111
 }
 ]
