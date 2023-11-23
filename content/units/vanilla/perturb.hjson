@@ -53,6 +53,7 @@ baseRotation: 90
 alternate: false
 mirror: true
 shootCone: 360
+y: 20
 shoot: {
   type: shootAlternate
   barrels: 6
