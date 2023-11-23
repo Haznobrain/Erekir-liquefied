@@ -51,6 +51,7 @@ shootSound: missileLarge
 reload: 100
 baseRotation: 90
 alternate: false
+mirror: true
 shoot: {
   type: shootAlternate
   barrels: 6
