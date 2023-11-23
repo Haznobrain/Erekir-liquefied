@@ -48,7 +48,7 @@ weapons: [
 {
 name: perturb-missiles1
 shootSound: missileLarge
-reload: 100
+reload: 60
 baseRotation: 90
 alternate: false
 mirror: true
@@ -66,3 +66,8 @@ range: 600
 }
 }
 ]
+abilities: [{
+type: SuppressionFieldAbility
+reload: 60
+range: 200
+}]
