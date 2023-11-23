@@ -53,8 +53,9 @@ baseRotation: 90
 alternate: false
 shoot: {
   type: shootAlternate
-  barrels: 3
-  spread: 8
+  barrels: 6
+  spread: 4
+  shots: 6
 }
 range: 600
   bullet: {
