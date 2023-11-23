@@ -35,6 +35,12 @@ weapons: [
   {
   name: perturb-nukeWeapon
   shootSound: missileLarge
+  reload: 600
+  range: 600
+  mirror: false
+  x: 0
+  y: 0
+  shootY: 40
   bullet: {
       spawnUnit: erekirliquefied-missile-nuke
 }
