@@ -16,7 +16,7 @@ useUnitCap: false
 createWreck: false
 createScorch: false
 hidden: true
-engineOffset: 4
+engineOffset: 12
 engineSize: 8
 engineColor: 8ca9e8
 MissileAccelTime: 72
