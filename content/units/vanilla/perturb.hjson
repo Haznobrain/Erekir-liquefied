@@ -4,7 +4,7 @@ flying: true
 description: A very large flying unit that shoots large volleys of missiles and constant missile fire at ennemy targets. Posseses destructive main missile that deals massive damage and disables regeneration for a long time.
 health: 30000
 template: ErekirUnitType
-hitSize: 40
+hitSize: 48
 rotateSpeed: 1.5
 armor: 20
 speed: 0.8
@@ -16,11 +16,11 @@ fogRadius: 40
 engines: [
 {
 x: -12
-y: -24
+y: -40
 radius: 8
 rotation: -45
 mirror: true
 }
 ]
 engineSize: 8
-engineOffset: 24
+engineOffset: 40
