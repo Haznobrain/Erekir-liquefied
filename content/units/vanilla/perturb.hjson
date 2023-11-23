@@ -1,0 +1,15 @@
+name: Perturb
+type: flying
+flying: true
+description: A very large flying unit that shoots large volleys of missiles and constant missile fire at ennemy targets. Posseses destructive main missile that deals massive damage and disables regeneration for a long time.
+health: 30000
+template: ErekirUnitType
+hitSize: 40
+rotateSpeed: 1.5
+armor: 20
+speed: 0.8
+targetAir: true
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 40
