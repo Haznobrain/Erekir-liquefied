@@ -52,6 +52,7 @@ reload: 100
 baseRotation: 90
 alternate: false
 mirror: true
+shootCone: 360
 shoot: {
   type: shootAlternate
   barrels: 6
