@@ -31,3 +31,11 @@ mirror: true
 ]
 engineSize: 8
 engineOffset: 40
+weapons: [
+  {
+  name: perturb-nukeWeapon
+  bullet: {
+      spawnUnit: erekirliquefied-missile-nuke
+}
+}
+]
