@@ -69,5 +69,5 @@ range: 600
 abilities: [{
 type: SuppressionFieldAbility
 reload: 60
-range: 200
+range: 400
 }]
