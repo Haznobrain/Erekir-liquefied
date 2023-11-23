@@ -58,7 +58,7 @@ shoot: {
 }
 range: 600
   bullet: {
-      spawnUnit: erekirliquefied-small-missile
+      spawnUnit: erekirliquefied-perturb-small-missile
 }
 }
 ]
