@@ -172,6 +172,7 @@ color: d1efff
 reload: 15
 healPercent: 2.5
 sectors: 4
+layer: 111
 }
 {
 type: ForceFieldAbility
