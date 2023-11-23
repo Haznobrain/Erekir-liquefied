@@ -34,6 +34,7 @@ engineOffset: 40
 weapons: [
   {
   name: perturb-nukeWeapon
+  shootSound: missileLarge
   bullet: {
       spawnUnit: erekirliquefied-missile-nuke
 }
