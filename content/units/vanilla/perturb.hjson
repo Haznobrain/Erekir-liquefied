@@ -45,4 +45,20 @@ weapons: [
       spawnUnit: erekirliquefied-missile-nuke
 }
 }
+{
+name: perturb-missiles1
+shootSound: missileLarge
+reload: 100
+baseRotation: 90
+alternate: false
+shoot: {
+  type: shootAlternate
+  barrels: 3
+  spread: 8
+}
+range: 600
+  bullet: {
+      spawnUnit: erekirliquefied-small-missile
+}
+}
 ]
