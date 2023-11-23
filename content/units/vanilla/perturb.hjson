@@ -15,10 +15,17 @@ singleTarget: true
 fogRadius: 40
 engines: [
 {
-x: -12
-y: -40
+x: -16
+y: -36
 radius: 8
 rotation: -45
+mirror: true
+}
+{
+x: 16
+y: -36
+radius: 8
+rotation: 45
 mirror: true
 }
 ]
