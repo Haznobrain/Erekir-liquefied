@@ -1,0 +1,60 @@
+type: missile
+template: MissileUnitType
+speed: 6
+flying: true
+health: 300
+hitSize: 10
+rotateSpeed: 3
+controller: MissileAi
+lowAltitude: true
+lifetime: 100
+isEnemy: false
+allowedInPayloads: false
+playerControllable: false
+physics: false
+useUnitCap: false
+createWreck: false
+createScorch: false
+hidden: true
+engineOffset: 4
+engineSize: 8
+engineColor: 8ca9e8
+MissileAccelTime: 72
+weapons: [{
+    name: missile-explode
+      shootCone: 360
+      shootOnDeath: true
+      controllable: true
+      shootSound: none
+        bullet: {
+          killShooter: true
+            hitEffect: {
+                type: ExplosionEffect
+                waveColor: bf92f9
+                smokeColor: 665c9f
+                sparkColor: bf92f9
+                waveLife: 30
+                waveStroke: 4
+                waveRad: 240
+                waveRadBase: 2
+                sparkRad: 260
+                SmokeSize: 8
+                smokeRad: 260
+                smokes: 8
+                sparks: 6
+          }
+shootSound: none
+type: ExplosionBulletType
+instantDissapear: true
+width: 0
+height: 0
+keepVelocity: false
+splashDamage: 800
+splashDamageRadius: 240
+  }
+}]
+abilities: [{
+type: SuppressionFieldAbility
+reload: 60
+range: 200
+}]
