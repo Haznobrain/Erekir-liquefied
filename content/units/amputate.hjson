@@ -15,7 +15,6 @@ singleTarget: true
 fogRadius: 40
 engineOffset: 24
 engineSize: 12
-engineColor: d4816b
   weapons: [
 {
     shootSound: beam
@@ -38,9 +37,9 @@ engineColor: d4816b
   name: amputate-point-defense
     type: PointDefenseWeapon
     mirror: true
-    y: -5
+    y: -16
     rotate: true
-    x: -12
+    x: -16
     reload: 2
     shootCone: 20
     range: 256
@@ -66,6 +65,24 @@ name: amputate-weapon2
         pierceCap: 10
         damage: 40
      }     
+}
+{
+name: amputate-emp
+mirror: false
+reload: 120
+x: 0
+y: -20
+range: 304
+bullet: {
+  type: EmpBulletType
+  radius: 120
+  powerDamageScl: 3.5
+  splashDamage: 300
+  backColor: d1efff
+  frontColor: ffffff
+  height: 12
+  width: 12
+  
 }
 ]
 lightRadius: 360
