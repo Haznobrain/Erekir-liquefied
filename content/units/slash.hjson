@@ -50,7 +50,7 @@ engineOffset: 10
 }
 {
     mirror: true
-    y: 12
+    y: 10
     x: -6
     reload: 15
     shootCone: 15
