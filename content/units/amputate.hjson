@@ -100,6 +100,7 @@ reload: 120
 x: 0
 y: -20
 range: 304
+shootSound: blaster
 rotate: true
 bullet: {
   type: EmpBulletType
