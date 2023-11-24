@@ -6,7 +6,7 @@ health: 7100
 template: ErekirUnitType
 hitSize: 30
 armor: 9
-speed: 1.06
+speed: 1.2
 targetAir: false
 faceTargets: true
 lightRadius: 5
