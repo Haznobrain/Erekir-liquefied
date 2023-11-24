@@ -69,6 +69,7 @@ lowAltitude: true
     range: 240
     shootSound: missile
     layerOffset: 1
+    ejectEffect: casing1
     shoot: {
       type: ShootAlternate
       barrels: 2
