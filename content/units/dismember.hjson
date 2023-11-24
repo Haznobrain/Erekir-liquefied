@@ -75,7 +75,7 @@ lowAltitude: true
       barrels: 2
       spread: 6
       shots: 2
-      shotDelay: 15
+      shotDelay: 3
     }
     bullet: {
         type: MissileBulletType
