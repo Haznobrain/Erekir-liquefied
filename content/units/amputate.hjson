@@ -103,6 +103,7 @@ bullet: {
   type: EmpBulletType
   speed: 5
   lifetime: 60.8
+  splashDamageRadius: 48
   radius: 120
   powerDamageScl: 3.5
   splashDamage: 300
