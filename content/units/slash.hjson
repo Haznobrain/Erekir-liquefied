@@ -21,13 +21,13 @@ rotation: -45
 }
 {
 x: 8
-y: -6
+y: -10
 radius: 3
 rotation: 45
 }
 ]
 engineSize: 4
-engineOffset: -10
+engineOffset: 10
   weapons: [
 {
     y: 12
