@@ -12,9 +12,10 @@ faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 32
-engineOffset: 12
+engineOffset: 15
 engineSize: 10
 engineColor: d4816b
+lowAltitude: true
   weapons: [
 {
     shootSound: beam
