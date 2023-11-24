@@ -64,7 +64,7 @@ name: amputate-weapon2
         pierce: true
         pierceCap: 10
         damage: 40
-     }     
+     }
 }
 {
 name: amputate-emp
@@ -82,7 +82,7 @@ bullet: {
   frontColor: ffffff
   height: 12
   width: 12
-  
+  }
 }
 ]
 lightRadius: 360
