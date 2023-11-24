@@ -16,6 +16,18 @@ engineOffset: 10
 engineSize: 4
 engines: [
 {
+x: -8
+y: -10
+radius: 3
+rotation: -45
+}
+{
+x: 8
+y: -6
+radius: 3
+rotation: 45
+}
+]
 engineSize
 engineColor: d4816b
   weapons: [
