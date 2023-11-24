@@ -75,6 +75,8 @@ y: -20
 range: 304
 bullet: {
   type: EmpBulletType
+  speed: 5
+  lifetime: 60.8
   radius: 120
   powerDamageScl: 3.5
   splashDamage: 300
