@@ -46,9 +46,9 @@ engineColor: d4816b
     shoot: {
       type: ShootAlternate
       barrels: 2
-      spread: 4
+      spread: 6
       shots: 2
-      shotsDelay: 15
+      shotDelay: 15
     }
     bullet: {
         type: MissileBulletType
