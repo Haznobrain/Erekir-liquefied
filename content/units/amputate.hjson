@@ -13,8 +13,34 @@ faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 40
-engineOffset: 24
+engineOffset: 25
 engineSize: 12
+engines: [
+{
+x: -16
+y: -25
+radius: 6
+rotation: -90
+}
+{
+x: 16
+y: -25
+radius: 6
+rotation: -90
+}
+{
+x: -20
+y: -20
+radius: 5
+rotation: -135
+}
+{
+x: 20
+y: -20
+radius: 5
+rotation: -45
+}
+]
   weapons: [
 {
     shootSound: beam
@@ -30,7 +56,7 @@ engineSize: 12
       lifetime: 360
       colors: [72e0ff, 72a8ff, 3b38ff, 725aff]
       length: 304
-      width: 16
+      width: 8
         }
 }
 {
