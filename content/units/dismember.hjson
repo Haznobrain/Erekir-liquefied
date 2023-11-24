@@ -35,7 +35,7 @@ lowAltitude: true
         }
 }
 {
-  name: dismember-missiles
+  name: dismember-missile
     mirror: true
     y: -8
     x: -13
