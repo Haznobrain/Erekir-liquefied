@@ -15,6 +15,7 @@ singleTarget: true
 fogRadius: 40
 engineOffset: 28
 engineSize: 12
+lowAltitude: true
 engines: [
 {
 x: -16
