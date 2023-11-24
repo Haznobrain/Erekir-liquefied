@@ -99,6 +99,7 @@ reload: 120
 x: 0
 y: -20
 range: 304
+rotate: true
 bullet: {
   type: EmpBulletType
   speed: 5
