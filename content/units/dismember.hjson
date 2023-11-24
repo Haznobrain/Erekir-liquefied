@@ -12,11 +12,11 @@ faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 32
-engineOffset: 17
+engineOffset: 19
 engineSize: 6
 engines: [
 {
-x: -11
+x: -12
 y: -15
 radius: 4
 rotation: -135
@@ -28,14 +28,14 @@ radius: 4
 rotation: -45
 }
 {
-x: -13
-y: -13
+x: -15
+y: -11
 radius: 3
 rotation: -135
 }
 {
-x: 13
-y: -13
+x: 15
+y: -11
 radius: 3
 rotation: -45
 }
