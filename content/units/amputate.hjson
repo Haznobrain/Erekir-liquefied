@@ -84,6 +84,59 @@ bullet: {
   frontColor: ffffff
   height: 12
   width: 12
+  trailLength: 24
+  trailWidth: 4
+  trailColor: d1efff
+  trailEffect: {
+  type: ExplosionEffect
+  waveLife: 0
+  smokeColor: d1efff
+  sparks: 0
+  smokeRad: 8
+  smokeSize: 4
+  smokeColor: d1efff
+  smokes: 13
+  }
+trailChance: 0.3
+  hitPowerEffect: {
+          type: ParticleEffect
+          line: true
+          particles: 6
+          lifetime: 22
+          length: 80
+          cone: -360
+          lenFrom: 6
+          lenTo: 6
+          colorFrom: FFFFFFF,
+          colorTo: A9D8FFFF
+        }
+  hitColor: d1efff
+  despawnEffect: {
+          type: ParticleEffect
+          line: true
+          particles: 7
+          lifetime: 20
+          offset: 50
+          length: 55
+          cone: -360
+          lenFrom: 6
+          lenTo: 0
+          colorFrom: A9D8FFFF
+          "colorTo": d1efff
+        }
+hitEffect: {
+          type: ParticleEffect
+          line: true
+          particles: 7
+          lifetime: 20
+          offset: 50
+          length: 55
+          cone: -360
+          lenFrom: 6
+          lenTo: 0
+          colorFrom: A9D8FFFF
+          "colorTo": d1efff
+        }
   }
 }
 ]
