@@ -42,11 +42,13 @@ engineColor: d4816b
     shootCone: 15
     range: 240
     shootSound: missile
+    layerOffset: 1
     shoot: {
       type: ShootAlternate
       barrels: 2
       spread: 4
       shots: 2
+      shotsDelay: 15
     }
     bullet: {
         type: MissileBulletType
