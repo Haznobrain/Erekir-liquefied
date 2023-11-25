@@ -1,1 +1,9 @@
-
+type: Item
+color: 82a467
+name: Impervium alloy
+description: A super strong alloy, some say dropping a piece of it causes an earthquake.
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 4
+cost: 4
