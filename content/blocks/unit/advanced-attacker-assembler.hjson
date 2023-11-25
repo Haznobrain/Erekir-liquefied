@@ -1,0 +1,42 @@
+name: Advanced combat assembler
+description: assembles tier 6 air and tank units.
+size: 5
+type: UnitAssembler
+configurable: true
+areaSize: 16
+consumes: {
+    power: 27
+liquids: [
+    azpanogen/0.1
+]
+}
+plans: [ 
+{
+type: UnitAssemblerPlan
+  unit: colonize
+      time: 13800
+        requirements: [
+          precept/4
+          erekirliquefied-large-azpacite-wall/20
+]
+}
+{
+type: UnitAssemblerPlan
+  unit: perturb
+      time: 13800
+        requirements: [
+          obviate/4
+          erekirliquefied-large-azpacite-wall/12
+]
+}
+  ]
+requirements: [
+  beryllium/800
+  silicon/1200
+  tungsten/500
+  thorium/600
+  phase-fabric/300
+  azpacite/300
+]
+research: basic-assembler-module
+category: units
