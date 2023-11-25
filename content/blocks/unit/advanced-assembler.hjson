@@ -1,4 +1,4 @@
-name: Advanced assembler
+name: Advanced special assembler
 description: assembles tier 6 units.
 size: 5
 type: UnitAssembler
