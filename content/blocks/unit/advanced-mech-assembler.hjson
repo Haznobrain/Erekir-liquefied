@@ -13,21 +13,20 @@ liquids: [
 plans: [ 
 {
 type: UnitAssemblerPlan
+  unit: lucana
+      time: 13800
+        requirements: [
+          anthicus/4
+          erekirliquefied-large-azpacite-wall/20
+]
+}
+{
+type: UnitAssemblerPlan
   unit: atomize
       time: 13800
         requirements: [
           erekirliquefied-action/4
           erekirliquefied-large-azpacite-wall/24
-]
-}
-{
-type: UnitAssemblerPlan
-  unit: tsuga
-      time: 13800
-        requirements: [
-          erekirliquefied-areca/4
-          shielded-wall/8
-          erekirliquefied-large-azpacite-wall/12
 ]
 }
   ]
