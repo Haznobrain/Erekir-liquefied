@@ -1,5 +1,5 @@
 name: Impervium mixer
-descrption: Creates impervium alloyr from cyanogen and a bunch of other materials.
+descrption: Creates impervium alloy from cyanogen and a bunch of other materials.
 type: GenericCrafter
 outputItem: impervium-alloy/1
 craftTime: 300
