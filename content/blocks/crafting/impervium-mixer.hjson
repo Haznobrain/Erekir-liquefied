@@ -1,0 +1,47 @@
+name: Impervium mixer
+descrption: Creates impervium alloyr from cyanogen and a bunch of other materials.
+type: GenericCrafter
+outputItem: impervium-alloy
+craftTime: 300
+liquidCapacity: 60
+category: crafting
+hasLiquids: true
+size: 5
+consumes: {
+  power: 6
+  items: [
+    silicon/8
+    beryllium/12
+    tungsten/6
+    surge-alloy/2
+    ]
+  liquid: {
+    liquid: cyanogen
+    amount: 1
+  }
+}
+  research: cyanogen-synthetizer
+requirements: [
+  beryllium/1300  
+  silicon/1300
+  graphite/1000
+  oxide/250
+  carbide/350
+]
+craftEffect: {
+type: explosionEffect
+smokeColor: 03b08c
+  sparkColor: 03b08c
+  waveColor: 03b08c
+  }
+drawer: [
+   {
+    suffix: -top
+    type: DrawLiquidTile
+    drawLiquid: cyanogen
+    padding: 2
+  }
+  {
+    type: DrawDefault
+  }
+]
