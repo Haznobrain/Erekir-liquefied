@@ -49,7 +49,7 @@ drawer: [
   }
   {
   type: DrawRegion
-  suffix: -base
+  suffix: -bottom
   layerOffset: -O.02
 }
 ]
