@@ -47,4 +47,8 @@ drawer: [
     type: DrawDefault
     layerOffset: -0.01
   }
+  {
+  type: DrwaRegion
+  suffix: -base
+  layerOffset: -O.02
 ]
