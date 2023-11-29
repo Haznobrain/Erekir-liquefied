@@ -4,7 +4,7 @@ type: naval
 flying: false
 description: a small ship immune to burning and melting damage that rapidly shoots small bullets at ennemy targets
 health: 650
-hitSize: 10
+hitSize: 14
 armor: 2
 speed: 0.9
 targetAir: true
@@ -17,9 +17,9 @@ burning,
 melting
 ]
   weapons: [{
-    y: -2
+    y: -4
     mirror: true
-    x: -2
+    x: -5
     reload: 10
     shootCone: 5
     range: 176
