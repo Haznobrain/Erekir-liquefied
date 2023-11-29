@@ -17,9 +17,9 @@ burning,
 melting
 ]
   weapons: [{
-    y: -4
+    y: 2
     mirror: true
-    x: -5
+    x: -6
     reload: 10
     shootCone: 5
     range: 176
