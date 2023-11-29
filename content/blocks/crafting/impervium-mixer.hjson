@@ -47,9 +47,4 @@ drawer: [
     type: DrawDefault
     layerOffset: -0.01
   }
-  {
-  type: DrawRegion
-  suffix: -bottom
-  layerOffset: -O.02
-}
 ]
