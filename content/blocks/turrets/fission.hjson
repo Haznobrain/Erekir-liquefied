@@ -19,7 +19,10 @@ shootSound: beam
 moveWhileCharging: false
 continuous: true
 consumes: {
-  
+    items: [
+    phase-fabric/15
+]
+}
 shootType: {
     type: ContinuousLaserBulletType
     colors: [ff8632,ff5032,ffaa32,ff4732]
