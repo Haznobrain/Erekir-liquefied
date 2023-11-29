@@ -12,11 +12,15 @@ faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 20
+immunities: [
+burning,
+melting
+]
   weapons: [{
     y: 0
     mirror: true
-    x: 5
-    reload: 5
+    x: 2
+    reload: 10
     shootCone: 5
     range: 176
     rotate: true
