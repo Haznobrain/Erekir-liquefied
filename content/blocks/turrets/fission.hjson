@@ -2,7 +2,7 @@ name: Fission
 description: shoots a large incendiary laser beam by causing fission within the atoms composing the air, dealing massive damage to ennemy targets.
 size: 5
 reload: 300
-type: itemTurret
+type: ContinuousTurret
 shootY: 24
 range: 336
 reload: 600
@@ -18,8 +18,9 @@ targetAir: true
 shootSound: beam
 moveWhileCharging: false
 continuous: true
-ammoTypes: {
-  phase-fabric: {
+consumes: {
+  
+shootType: {
     type: ContinuousLaserBulletType
     colors: [ff8632,ff5032,ffaa32,ff4732]
     damage: 175
@@ -43,7 +44,6 @@ ammoTypes: {
           }
       }
       }
-}
 requirements: [
   beryllium/1600
   silicon/900
