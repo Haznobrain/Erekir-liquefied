@@ -9,6 +9,7 @@ reload: 600
 heatRequirement: 75
 maxHeatEfficiency: 2
 ammoPerShot: 10
+itemCapacity: 30
 minWarmup: 0.96
 shootWarmupSpeed: 0.03
 recoil: 0
