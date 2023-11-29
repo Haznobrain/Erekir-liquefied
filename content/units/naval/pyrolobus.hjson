@@ -17,7 +17,7 @@ burning,
 melting
 ]
   weapons: [{
-    y: 0
+    y: -4
     mirror: true
     x: 2
     reload: 10
@@ -28,8 +28,8 @@ melting
     bullet: {
       type: BasicBulletType
       damage: 25
-      height: 3
-      width: 3
+      height: 8
+      width: 8
       speed: 4
       lifetime: 44
         }
