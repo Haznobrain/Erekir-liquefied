@@ -41,7 +41,7 @@ drawer: [
     type: DrawLiquidTile
     drawLiquid: cyanogen
     padding: 2
-    layerOffset: 0.01
+    layerOffset: 0.1
   }
   {
     type: DrawDefault
