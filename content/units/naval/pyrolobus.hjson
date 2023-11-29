@@ -1,0 +1,33 @@
+name: Pyrolobus
+template: ErekirUnitType
+type: naval
+flying: false
+description: a small ship immune to burning and melting damage that rapidly shoots small bullets at ennemy targets
+health: 650
+hitSize: 10
+armor: 2
+speed: 1.5
+targetAir: true
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 20
+  weapons: [{
+    y: 0
+    mirror: true
+    x: 5
+    reload: 5
+    shootCone: 5
+    range: 176
+    rotate: true
+    name: small-gun
+    bullet: {
+      type: BasicBulletType
+      damage: 25
+      height: 3
+      width: 3
+      speed: 4
+      lifetime: 44
+        }
+}]
+lightRadius: 200
