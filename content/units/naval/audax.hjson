@@ -6,7 +6,7 @@ description: A medium sized ship that shoots a barrage of bullets and missile at
 health: 5600
 hitSize: 14
 armor: 2
-speed: 0.9
+speed: 0.7
 targetAir: true
 faceTargets: true
 lightRadius: 5
