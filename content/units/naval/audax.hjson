@@ -55,13 +55,13 @@ melting
         }
     rotate: true
     name: double-cannon
-    shootSound: shootBig
+    shootSound: shootSnap
     bullet: {
       type: BasicBulletType
       damage: 75
       height: 10
       width: 10
-      shootEffect: shootSnap
+      shootEffect: shootBig
       backColor: ff704a
       speed: 7
       trailLength: 8
