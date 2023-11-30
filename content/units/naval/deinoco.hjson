@@ -22,7 +22,7 @@ melting
     x: -6
     reload: 15
     shootCone: 5
-    range: 176
+    range: 248
     rotate: true
     shootSound: missile
     name: small-gun
@@ -32,7 +32,7 @@ melting
       height: 8
       width: 8
       speed: 4
-      lifetime: 44
+      lifetime: 62
         }
 }
 {
