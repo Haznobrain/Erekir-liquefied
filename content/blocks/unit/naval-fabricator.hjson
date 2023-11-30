@@ -1,0 +1,25 @@
+name: Naval fabricator
+size: 3
+description: Produces pyrolobus units.
+type: unitFactory
+configurable: false
+  consumes: {
+    power: 2
+  }
+plans: [
+{
+unit: pyrolobus
+  requirements: [
+    silicon/100
+    beryllium/120
+  ]
+time: 2700
+}
+]
+research: chemical-fabricator
+category: units
+requirements: [
+    beryllium/200
+    silicon/200
+    graphite/100
+  ]
