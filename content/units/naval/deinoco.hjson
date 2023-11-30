@@ -6,7 +6,7 @@ description: a small ship immune to burning and melting damage that shoots a bar
 health: 2250
 hitSize: 14
 armor: 2
-speed: 0.9
+speed: 0.8
 targetAir: true
 faceTargets: true
 lightRadius: 5
