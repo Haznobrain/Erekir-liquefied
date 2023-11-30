@@ -3,7 +3,7 @@ template: ErekirUnitType
 type: naval
 flying: false
 description: a small ship immune to burning and melting damage that shoots a barrage of small missiles and bullet spreads.
-health: 650
+health: 2250
 hitSize: 14
 armor: 2
 speed: 0.9
