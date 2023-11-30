@@ -40,7 +40,7 @@ weapons: [
     trailInterval: 6
     trailColor: 3f523d
     type: BasicBulletType
-      damage: 28
+      damage: 50
       splashDamageRadius: 64
       lifetime: 23
       speed: 5
