@@ -54,7 +54,7 @@ melting
       spread: 8
         }
     rotate: true
-    name: double-canon
+    name: double-cannon
     shootSound: shootBig
     bullet: {
       type: BasicBulletType
@@ -64,7 +64,7 @@ melting
       speed: 7
       trailLength: 8
       trailWidth: 6
-      lifetime: 37
+      lifetime: 32
         }
 }
   ]
