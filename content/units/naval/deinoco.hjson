@@ -54,14 +54,15 @@ mirror: true
   progress: recoil
   }
 ]
- y: -2
+ y: 2
     mirror: true
-    x: -6
+    x: 0
     reload: 60
     shootCone: 5
     range: 120
     rotate: true
     shootSound: shootAlt
+    mirror: false
    shoot: {
    shots: 15
     spread: 2
