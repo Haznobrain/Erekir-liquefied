@@ -59,11 +59,12 @@ melting
     bullet: {
       type: BasicBulletType
       damage: 75
-      height: 8
-      width: 8
+      height: 10
+      width: 10
+      backColor: ff704a
       speed: 7
       trailLength: 8
-      trailWidth: 6
+      trailWidth: 2
       lifetime: 32
         }
 }
