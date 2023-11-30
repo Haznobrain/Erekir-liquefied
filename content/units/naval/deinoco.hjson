@@ -1,0 +1,89 @@
+name: Deinoco
+template: ErekirUnitType
+type: naval
+flying: false
+description: a small ship immune to burning and melting damage that shoots a barrage of small missiles and bullet spreads.
+health: 650
+hitSize: 14
+armor: 2
+speed: 0.9
+targetAir: true
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 20
+immunities: [
+burning,
+melting
+]
+  weapons: [{
+    y: -2
+    mirror: true
+    x: -6
+    reload: 15
+    shootCone: 5
+    range: 176
+    rotate: true
+    shootSound: missile
+    name: small-gun
+    bullet: {
+      type: MissileBulletType
+      damage: 45
+      height: 8
+      width: 8
+      speed: 4
+      lifetime: 44
+        }
+}
+{
+name: splasher
+parts: [
+{
+type: RegionPart
+x: 0
+y: 0
+moveY: -1
+progress: recoil
+  }
+{
+type: RegionPart
+x: 0
+y: 0
+moveRot: 15
+mirror: true
+  progress: recoil
+  }
+]
+ y: -2
+    mirror: true
+    x: -6
+    reload: 60
+    shootCone: 5
+    range: 120
+    rotate: true
+    shootSound: shootAlt
+   shoot: {
+   shots: 15
+    spread: 2
+    type: ShootSpread
+     }
+    bullet: {
+      type: BasicBulletType
+      shootEffect: shootBigColor
+      smokeEffect: shootSmokeSquareSparse
+      frontColor: ff967b
+      trailWidth: 6
+      trailLength: 3
+      hitEffect: hitSquaresColor
+      hitColor: db3d13
+      trailColor: db3d13
+      damage: 45
+      height: 20
+      width: 25
+      speed: 6
+      lifetime: 20
+      knockback: 4
+        }
+}
+  ]
+lightRadius: 200
