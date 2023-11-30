@@ -20,7 +20,7 @@ melting
     y: -2
     mirror: true
     x: -6
-    reload: 15
+    reload: 10
     shootCone: 5
     range: 248
     rotate: true
