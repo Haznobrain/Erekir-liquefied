@@ -4,8 +4,8 @@ type: naval
 flying: false
 description: A medium sized ship that shoots a barrage of bullets and missile at ennemy targets
 health: 5600
-hitSize: 14
-armor: 2
+hitSize: 20
+armor: 8
 speed: 0.7
 targetAir: true
 faceTargets: true
@@ -61,6 +61,7 @@ melting
       damage: 75
       height: 10
       width: 10
+      shootEffect: shootSnap
       backColor: ff704a
       speed: 7
       trailLength: 8
