@@ -1,0 +1,70 @@
+name: Audax
+template: ErekirUnitType
+type: naval
+flying: false
+description: A medium sized ship that shoots a barrage of bullets and missile at ennemy targets
+health: 5600
+hitSize: 14
+armor: 2
+speed: 0.9
+targetAir: true
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 40
+immunities: [
+burning,
+melting
+]
+  weapons: [{
+    y: -12
+    mirror: true
+    x: -8
+    reload: 10
+    shootCone: 5
+    range: 256
+    shoot: {
+      type: ShootAlternate
+      barrels: 2
+      spread: 4
+      shots: 2
+        }
+    rotate: true
+    name: double-missile
+    shootSound: missile
+    bullet: {
+      type: MissileBulletType
+      damage: 65
+      height: 8
+      width: 8
+      speed: 7
+      lifetime: 37
+        }
+}
+  {
+ y: -2
+    mirror: false
+    x: 0
+    reload: 10
+    shootCone: 5
+    range: 224
+    shoot: {
+      type: ShootAlternate
+      barrels: 2
+      spread: 8
+        }
+    rotate: true
+    name: double-canon
+    shootSound: shootBig
+    bullet: {
+      type: BasicBulletType
+      damage: 75
+      height: 8
+      width: 8
+      speed: 7
+      trailLength: 8
+      trailWidth: 6
+      lifetime: 37
+        }
+  ]
+lightRadius: 200
