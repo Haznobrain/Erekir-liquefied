@@ -36,7 +36,6 @@ melting
         }
 }
 {
-name: splasher
 parts: [
 {
 type: RegionPart
@@ -44,12 +43,14 @@ x: 0
 y: 0
 moveY: -1
 progress: recoil
+suffix: -mid
   }
 {
 type: RegionPart
 x: 0
 y: 0
 moveRot: 15
+suffix: -side
 mirror: true
   progress: recoil
   }
@@ -63,6 +64,7 @@ mirror: true
     rotate: true
     shootSound: shootAlt
     mirror: false
+    name: splasher
    shoot: {
    shots: 15
     spread: 2
