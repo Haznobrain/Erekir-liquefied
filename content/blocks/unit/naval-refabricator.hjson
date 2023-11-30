@@ -1,0 +1,29 @@
+name: naval refabricator
+size: 3
+type: Reconstructor
+configurable: false
+constructTime: 2400
+category: units
+  consumes: {
+    power: 2
+items: {
+    items: [
+      silicon/100
+      tungsten/50
+    ]
+liquids: [
+  hydrogen/0.05
+]
+}
+  }
+upgrades: [
+[
+pyrolobus,
+  deinoco
+]
+]
+requirements: [
+  tungsten/200
+  oxide/80
+  silicon/250
+]
