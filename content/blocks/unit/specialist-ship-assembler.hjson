@@ -28,15 +28,6 @@ type: UnitAssemblerPlan
           carbide-wall-large/20
 ]
 }
-{
-type: UnitAssemblerPlan
-  unit: mutilate
-      time: 13800
-        requirements: [
-          erekirliquefied-slash/4
-          erekirliquefied-large-azpacite-wall/12
-]
-}
   ]
 requirements: [
   graphite/500
