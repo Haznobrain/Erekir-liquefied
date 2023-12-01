@@ -99,9 +99,9 @@ x: 12
 y: 0
 shootSound: shotgun
   controllable: false
-  aiControllable: false
 smokeEffect: shootSmokeSquareSparse
 shootEffect: shootBigColor
+autoTarget: true
 bullet: {
 type: ShrapnelBulletType
 frontColor: ffffff
