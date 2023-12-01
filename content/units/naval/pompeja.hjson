@@ -4,9 +4,9 @@ type: naval
 flying: false
 description: A large ship that shoots a barrage of slag and electric bullets at ennemy targets.
 health: 12000
-hitSize: 14
-armor: 2
-speed: 0.8
+hitSize: 40
+armor: 18
+speed: 0.6
 targetAir: true
 faceTargets: true
 lightRadius: 5
