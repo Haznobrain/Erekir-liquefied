@@ -11,7 +11,7 @@ targetAir: true
 faceTargets: true
 lightRadius: 5
 singleTarget: true
-fogRadius: 20
+fogRadius: 40
 immunities: [
 burning,
 melting
