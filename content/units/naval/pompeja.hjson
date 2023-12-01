@@ -97,6 +97,7 @@ reload: 12
 range: 120
 x: 12
 y: 0
+rotate: true
 shootSound: shotgun
   controllable: false
 smokeEffect: shootSmokeSquareSparse
