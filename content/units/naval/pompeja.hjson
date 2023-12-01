@@ -93,7 +93,7 @@ mirror: true
 }
 {
 name: spiker
-reload: 12
+reload: 6
 range: 120
 x: 12
 y: 0
@@ -104,11 +104,14 @@ smokeEffect: shootSmokeSquareSparse
 shootEffect: shootBigColor
 autoTarget: true
 bullet: {
+shootEffect: shootBigColor
+smokeEffect: shootSmokeSquareSparse
 type: ShrapnelBulletType
-frontColor: ffffff
-backColor: d70000
+colorFrom: ffffff
+colorTo: d70000
 length: 120
 width: 10
+damage: 45
   }
 }
   ]
