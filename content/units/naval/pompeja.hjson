@@ -61,7 +61,7 @@ mirror: true
     x: 0
     reload: 120
     shootCone: 5
-    range: 120
+    range: 280
     rotate: true
     shootSound: shootAlt
     mirror: false
@@ -77,16 +77,17 @@ mirror: true
       hitColor: db3d13
       trailColor: db3d13
       damage: 120
-      height: 20
-      width: 25
-      speed: 6
-      lifetime: 20
-      knockback: 4
+      height:  8
+      width: 8
+      speed: 3
+      lifetime: 94
+      knockback: 2
+      bulletInterval: 2
       intervalBullet: {
-        bulletInterval: 2
         type: laserBulletType
         length: 64
-        damage: 35
+        damage: 15
+        pierceCap: 3
         }
 }
 }
