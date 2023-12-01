@@ -45,6 +45,8 @@ y: 0
 moveY: -1
 progress: recoil
 suffix: -mid
+heatLayerOffset: 0.05
+heatColor: ff9135
   }
 {
 type: RegionPart
@@ -54,10 +56,13 @@ moveRot: 15
 suffix: -side
 mirror: true
   progress: recoil
+heatLayerOffset: 0.05
+heatColor: ff9135
   }
 ]
  y: -12
     mirror: true
+    cooldownTime: 160
     x: 0
     reload: 120
     shootCone: 5
