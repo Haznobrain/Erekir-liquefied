@@ -3,7 +3,7 @@ template: ErekirUnitType
 type: naval
 flying: false
 description: A large ship that shoots a barrage of slag and electric bullets at ennemy targets.
-health: 2250
+health: 12000
 hitSize: 14
 armor: 2
 speed: 0.8
@@ -31,6 +31,7 @@ melting
       type: LiquidBulletType
       damage: 45
       orbSize: 3
+      liquid: slag
       speed: 6
       lifetime: 32
         }
