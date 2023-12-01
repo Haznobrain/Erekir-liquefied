@@ -47,6 +47,7 @@ progress: recoil
 suffix: -mid
 heatLayerOffset: 0.05
 heatColor: ff9135
+heatProgress: recoil
   }
 {
 type: RegionPart
@@ -58,6 +59,7 @@ mirror: true
   progress: recoil
 heatLayerOffset: 0.05
 heatColor: ff9135
+heatProgress: recoil
   }
 ]
  y: -12
