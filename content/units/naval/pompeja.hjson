@@ -83,6 +83,7 @@ mirror: true
       lifetime: 20
       knockback: 4
       intervalBullet: {
+        bulletInterval: 2
         type: laserBulletType
         length: 64
         damage: 35
