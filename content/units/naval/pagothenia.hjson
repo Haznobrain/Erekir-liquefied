@@ -53,15 +53,17 @@ parts: [
   circle: true
   color: ffd37f
   layerOffset: 0
-  moveRad: 0
+  radiusTo: 0
+  progress: recoil
     }
   {
   type: ShapePart
-  radius: 7
+  radius: 6
   hollow: false
   circle: true
   color: 000000
-  radTo: 0
+  radiusTo: 0
+  progress: recoil
     }
 {
   type: HaloPart
@@ -69,6 +71,8 @@ parts: [
   triLength: 8
   triLengthTo: 0
   haloRotateSpeed: 8
+  haloRadTo: 0
+  progress: recoil
     }
 ]
  y: -12
@@ -91,9 +95,9 @@ parts: [
       fragSpread: 90
       fragRandomSpread: 0
       hitEffect: {
-        waveColor: 000000
+        waveColor: ffd37f
         smokeColor: ffd37f
-        sparkColor: 000000
+        sparkColor: ffd37f
         waveRad: 200
         waveRadBase: 200
         waveLife: 60
@@ -106,7 +110,7 @@ parts: [
         type: LaserBulletType
         damage: 400
         length: 200
-        colors: [ffffff,000000,ffd37f]
+        colors: [ffd37f,000000,ffd37f]
         width: 16
           }
         }
