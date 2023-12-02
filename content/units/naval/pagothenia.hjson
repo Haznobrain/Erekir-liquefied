@@ -61,7 +61,7 @@ parts: [
   hollow: false
   circle: true
   color: 000000
-  moveRad: 0
+  radTo: 0
     }
 {
   type: HaloPart
