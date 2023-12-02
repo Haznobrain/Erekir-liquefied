@@ -96,7 +96,7 @@ parts: [
       fragBullets: 8
       fragSpread: 45
       fragRandomSpread: 0
-      shootEffect: plasmaBoom
+      shootEffect: none
       hitEffect: massiveExplosion
       despawnEffect: {
         type: ExplosionEffect
