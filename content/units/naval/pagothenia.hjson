@@ -32,7 +32,7 @@ melting
       barrels: 4
       shots: 4
       spread: 2
-      shotsDelay: 2
+      shotDelay: 2.5
         }
     bullet: {
       type: MissileBulletType
@@ -73,6 +73,8 @@ parts: [
   haloRotateSpeed: 8
   haloRadTo: 0
   progress: recoil
+  triColor: ffd37f
+  tri: true
     }
 ]
  y: -12
@@ -101,6 +103,7 @@ parts: [
         waveRad: 200
         waveRadBase: 200
         waveLife: 60
+        waveStroke: 10
         sparkRad: 200
         smokeRad: 200
         smokes: 0
