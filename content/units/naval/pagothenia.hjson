@@ -94,7 +94,7 @@ parts: [
       fragBullets: 4
       fragSpread: 90
       fragRandomSpread: 0
-      hitEffect: {
+      despawnEffect: {
         waveColor: ffd37f
         smokeColor: ffd37f
         sparkColor: ffd37f
