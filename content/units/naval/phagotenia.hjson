@@ -82,11 +82,6 @@ parts: [
     cooldownTime: 1800
     shootSound: plasmaBoom
     mirror: false
-   shoot: {
-   shots: 15
-    spread: 2
-    type: ShootSpread
-     }
     bullet: {
       type: BasicBulletType
       instantDisappear: true
@@ -95,6 +90,18 @@ parts: [
       fragBullets: 4
       fragSpread: 90
       fragRandomSpread: 0
+      hitEffect: {
+        waveColor: 000000
+        smokeColor: ffd37f
+        sparkColor: 000000
+        waveRad: 200
+        waveRadBase: 200
+        waveLife: 60
+        sparkRad: 200
+        smokeRad: 200
+        smokes: 0
+        sparks: 10
+}
       fragBullet: {
         type: LaserBulletType
         damage: 400
