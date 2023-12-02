@@ -1,0 +1,15 @@
+{
+localizedName: Cornered
+description: A small ennemy research facility has been detected here. Destroy the base and survive the large waves coming afterwards.
+sector: 32
+captureWave: 56
+difficulty: 8
+planet: erekir
+allowLaunchLoadout: false
+allowLaunchSchematics: false
+addStartingItems: false
+overrideLaunchDefaults: true
+research: {
+parent: stronghold
+}
+}
