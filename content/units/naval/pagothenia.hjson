@@ -86,18 +86,21 @@ parts: [
     rotate: false
     shootOnDeath: true
     cooldownTime: 1800
-    shootSound: plasmaBoom
+    shootSound: plasmaboom
     mirror: false
     bullet: {
       type: BasicBulletType
       instantDisappear: true
-      splashDamage: 3000
+      splashDamage: 4500
       splashDamageRadius: 200
-      fragBullets: 4
-      fragSpread: 90
+      fragBullets: 8
+      fragSpread: 45
       fragRandomSpread: 0
+      shootEffect: plasmaBoom
+      hitEffect: massiveExplosion
       despawnEffect: {
-        waveColor: ffd37f
+        type: ExplosionEffect
+        waveColor: 000000
         smokeColor: ffd37f
         sparkColor: ffd37f
         waveRad: 200
@@ -115,6 +118,7 @@ parts: [
         length: 200
         colors: [ffd37f,000000,ffd37f]
         width: 16
+        lifetime: 60
           }
         }
 }
