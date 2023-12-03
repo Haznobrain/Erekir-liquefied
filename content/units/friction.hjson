@@ -54,7 +54,7 @@ lightRadius: 200
 abilities: [
 {
 type: StatusFieldAbility
-effect: overclocked
+effect: overclock
 duration: 180
 reload: 180
 range: 60
