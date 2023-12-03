@@ -21,13 +21,13 @@ engines: [
 {
 y: -36
 x: -34
-size: 10
-rotation: -45
+radius: 10
+rotation: 135
 }
 {
 y: -36
 x: 34
-size: 10
+radius: 10
 rotation: 45
 }
 ]
