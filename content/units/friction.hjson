@@ -1,0 +1,50 @@
+name: Friction
+template: ErekirUnitType
+type: flying
+flying: true
+description: A nimble and fast air unit produced by the Dissosti unit wich shoots a barrage of lasers when moving.
+health: 1100
+hitSize: 10
+armor: 4
+speed: 2
+targetAir: false
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 20
+engineOffset: 12
+engines: [
+{
+x: 2
+y: -12
+size: 6
+rotation: 45
+}
+  {
+x: -2
+y: -12
+size: 6
+rotation: 135
+}
+]
+  weapons: [{
+    name: friction
+    alwaysShooting: true
+    shootSound: laser
+    recoil: 0
+    y: 0
+    mirror: false
+    x: 0
+    reload: 45
+    shootCone: 5
+    minShootVelocity: 0.75
+    range: 160
+    bullet: {
+      type: LaserBulletType
+      damage: 75
+      pierceCap: 10
+      length: 160
+      width: 6
+        }
+}]
+lightRadius: 200
