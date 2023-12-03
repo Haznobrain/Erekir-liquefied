@@ -48,6 +48,29 @@ rotation: 135
       {
       type: ParticleEffect
       region: erekirliquefied-electricshoot
+      colorTo: 7bd6ff
+      colorFrom: ffffff
+      lifetime: 6
+      particles: 1
+      randLength: false
+      sizeFrom: 8
+      sizeTo: 4
+      strokeFrom: 2
+      strokeTo: 2
+      lenTo: 4
+      LenFrom: 4
+      }
+      {
+      type: explosionEffect
+      cone: 45
+      waveRad: 0
+      waveRadBase: 0
+      smokes: 0
+      sparks: 10
+      sparkColor: 7bd6ff
+}
+]
+}
     shoot: {
     type: ShootSpread
     shots: 3
