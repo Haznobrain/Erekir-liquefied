@@ -27,7 +27,7 @@ rotation: -45
 x: -4
 y: -8
 radius: 2
-rotation: -45
+rotation: 135
 }
 ]
   weapons: [{
@@ -42,6 +42,12 @@ rotation: -45
     shootCone: 5
     minShootVelocity: 0.75
     range: 160
+    shootEffect: {
+      type: MultiEffect
+      effects: [
+      {
+      type: ParticleEffect
+      region: erekirliquefied-electricshoot
     shoot: {
     type: ShootSpread
     shots: 3
