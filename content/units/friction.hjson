@@ -15,6 +15,7 @@ fogRadius: 20
 engineOffset: 12
 engineSize: 6
 drag: 0.15
+circleTarget: true
 engines: [
 {
 x: 4
