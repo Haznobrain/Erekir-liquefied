@@ -13,7 +13,7 @@ lightRadius: 5
 singleTarget: true
 fogRadius: 20
 engineOffset: 12
-rotateSpeed: 1.5
+rotateSpeed: 0.7
 engineSize: 4
 drag: 0.15
 circleTarget: true
