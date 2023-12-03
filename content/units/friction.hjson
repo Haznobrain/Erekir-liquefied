@@ -51,3 +51,12 @@ rotation: 135
         }
 }]
 lightRadius: 200
+abilities: [
+{
+type: StatusFieldAbility
+effect: overclocked
+duration: 180
+reload: 180
+range: 60
+}
+]
