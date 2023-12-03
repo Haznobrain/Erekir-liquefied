@@ -59,6 +59,7 @@ rotation: 45
       lightningLengthRand: 4
       lightningDamage: 12
       lightningAngleRand: 30
+      lightningColor: ffffff
         }
 }]
 lightRadius: 200
