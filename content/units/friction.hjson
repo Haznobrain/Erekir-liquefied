@@ -13,22 +13,21 @@ lightRadius: 5
 singleTarget: true
 fogRadius: 20
 engineOffset: 12
-rotateSpeed: 1.8
 engineSize: 4
 drag: 0.15
 circleTarget: true
 engines: [
 {
 x: 4
-y: -10
+y: -8
 radius: 2
-rotation: 45
+rotation: 135
 }
   {
 x: -4
-y: -10
+y: -8
 radius: 2
-rotation: 135
+rotation: 45
 }
 ]
   weapons: [{
