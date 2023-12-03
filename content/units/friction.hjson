@@ -42,9 +42,14 @@ rotation: 45
     shootCone: 5
     minShootVelocity: 0.75
     range: 160
+    shoots: {
+    type: ShootSpread
+    shots: 3
+    spread: 15
+    }
     bullet: {
       type: LaserBulletType
-      damage: 75
+      damage: 50
       pierceCap: 10
       length: 160
       width: 6
