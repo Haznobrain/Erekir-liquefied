@@ -27,7 +27,7 @@ rotation: -45
 x: -4
 y: -8
 radius: 2
-rotation: 45
+rotation: -45
 }
 ]
   weapons: [{
