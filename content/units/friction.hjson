@@ -42,7 +42,7 @@ rotation: 45
     shootCone: 5
     minShootVelocity: 0.75
     range: 160
-    shoots: {
+    shoot: {
     type: ShootSpread
     shots: 3
     spread: 15
@@ -53,10 +53,10 @@ rotation: 45
       pierceCap: 10
       length: 160
       width: 6
-      lightningSpacing: 6
-      lightningLength: 7
+      lightningSpacing: 12
+      lightningLength: 2
       lightningDelay: 0.2
-      lightningLengthRand: 15
+      lightningLengthRand: 4
       lightningDamage: 12
       lightningAngleRand: 30
         }
