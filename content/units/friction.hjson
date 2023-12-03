@@ -21,13 +21,13 @@ engines: [
 x: 4
 y: -8
 radius: 2
-rotation: 135
+rotation: -135
 }
   {
 x: -4
 y: -8
 radius: 2
-rotation: 45
+rotation: -45
 }
 ]
   weapons: [{
