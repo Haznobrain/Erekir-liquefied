@@ -81,7 +81,7 @@ parts: [
     mirror: true
     x: 0
     reload: 1800
-    shootCone: 5
+    shootCone: 360
     range: 120
     rotate: false
     shootOnDeath: true
