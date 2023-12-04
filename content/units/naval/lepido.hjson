@@ -1,0 +1,127 @@
+name: Lepido
+template: ErekirUnitType
+type: naval
+flying: false
+description: A huge and well armored ship that has an explosive core and produces Friction units to attack at a longer range.
+health: 52000
+hitSize: 70
+armor: 34
+speed: 0.45
+targetAir: true
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 45
+immunities: [
+burning,
+melting
+]
+  weapons: [
+{
+parts: [
+{
+  type: ShapePart
+  radius: 10
+  hollow: false
+  circle: true
+  color: ffd37f
+  layerOffset: 0
+  radiusTo: 0
+  progress: recoil
+    }
+  {
+  type: ShapePart
+  radius: 7
+  hollow: false
+  circle: true
+  color: 000000
+  radiusTo: 0
+  progress: recoil
+    }
+{
+  type: HaloPart
+  haloRad: 10
+  triLength: 8
+  triLengthTo: 0
+  haloRotateSpeed: 8
+  haloRadTo: 0
+  progress: recoil
+  triColor: ffd37f
+  tri: true
+    }
+  {
+  type: HaloPart
+  haloRad: 10
+  triLength: 12
+  shapes: 2
+  triLengthTo: 0
+  haloRotateSpeed: -8
+  haloRadTo: 0
+  progress: recoil
+  triColor: ffd37f
+  tri: true
+    }
+]
+ y: -12
+    mirror: true
+    x: 0
+    reload: 900
+    shootCone: 5
+    range: 240
+    rotate: false
+    shootOnDeath: true
+    cooldownTime: 1800
+    shootSound: plasmaboom
+    mirror: false
+    bullet: {
+      type: BasicBulletType
+      instantDisappear: true
+      splashDamage: 4000
+      splashDamageRadius: 240
+      fragBullets: 8
+      fragSpread: 45
+      fragRandomSpread: 0
+      shootEffect: none
+      hitEffect: massiveExplosion
+      despawnEffect: {
+        type: ExplosionEffect
+        waveColor: 000000
+        smokeColor: ffd37f
+        sparkColor: ffd37f
+        waveRad: 200
+        waveRadBase: 200
+        waveLife: 60
+        waveStroke: 10
+        sparkRad: 200
+        smokeRad: 200
+        smokes: 0
+        sparks: 10
+}
+      fragBullet: {
+        type: ContinuousLaserBulletType
+        damage: 108
+        length: 240
+        colors: [ffd37f,000000,ffd37f]
+        width: 16
+        lifetime: 120
+          }
+        }
+}
+  ]
+lightRadius: 200
+  abilities: [
+  {
+  type: UnitSpawnAbility
+  unit: erekirliquefied-friction
+  spawnX: 24
+  spawnY: 24
+  spawnTime: 3600
+    }
+  {
+  type: UnitSpawnAbility
+  unit: erekirliquefied-friction
+  spawnX: -24
+  spawnY: 24
+  spawnTime: 3600
+    }
+]
