@@ -16,7 +16,7 @@ type: UnitAssemblerPlan
   unit: lepido
       time: 13800
         requirements: [
-          audax/4
+          erekirliquefied-audax/4
           erekirliquefied-large-azpacite-wall/20
 ]
 }
