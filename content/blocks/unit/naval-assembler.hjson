@@ -21,10 +21,10 @@ type: UnitAssemblerPlan
 }
 {
 type: UnitAssemblerPlan
-  unit: amputate
+  unit: phagotenia
       time: 10800
         requirements: [
-          erekirliquefied-cut/4
+          erekirliquefied-audax/4
           carbide-wall-large/20
 ]
 }
