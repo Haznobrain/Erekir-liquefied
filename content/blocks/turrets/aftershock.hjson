@@ -3,10 +3,12 @@ type: itemTurret
 ammoPerShot: 6
 inaccuracy: 1
 size: 5
-reload: 80
+reload: 60
 targetAir: false
 shootSound: mediumCannon
-  recoil: 4
+minWarmup: 0.94
+shootWarmupSpeed: 0.6
+  recoil: 0
   range: 432
   ammoTypes: {
     thorium: {
@@ -167,3 +169,58 @@ requirements: [
 category: turret
 research: smite
 research: karst
+drawer: [
+type: DrawTurret
+parts: [
+{
+suffix: -barrel
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: -8
+heatProgress: warmup
+heatColor: ffda6b
+}
+{
+suffix: -left-top
+progress: warmup
+x: 0
+y: 0
+moveX: -5
+moveY: -8
+heatProgress: warmup
+heatColor: ffda6b
+}
+{
+suffix: -right-top
+progress: warmup
+x: 0
+y: 0
+moveX: 5
+moveY: -8
+heatProgress: warmup
+heatColor: ffda6b
+}
+{
+suffix: -right-bottom
+progress: warmup
+x: 0
+y: 0
+moveX: 5
+moveY: -10
+heatProgress: warmup
+heatColor: ffda6b
+}
+{
+suffix: -left-bottom
+progress: warmup
+x: 0
+y: 0
+moveX: -5
+moveY: -8
+heatProgress: warmup
+heatColor: ffda6b
+}
+]
+]
