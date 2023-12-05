@@ -170,6 +170,7 @@ category: turret
 research: smite
 research: karst
 drawer: [
+{
 type: DrawTurret
 parts: [
 {
@@ -221,5 +222,7 @@ moveX: -5
 moveY: -8
 heatProgress: warmup
 heatColor: ffda6b
+}
+]
 }
 ]
