@@ -1,0 +1,33 @@
+name: Advanced naval assembler
+description: assembles tier 6 naval units.
+size: 5
+type: UnitAssembler
+configurable: true
+areaSize: 16
+consumes: {
+    power: 27
+liquids: [
+    azpanogen/0.1
+]
+}
+plans: [ 
+{
+type: UnitAssemblerPlan
+  unit: lepido
+      time: 13800
+        requirements: [
+          audax/4
+          erekirliquefied-large-azpacite-wall/20
+]
+}
+  ]
+requirements: [
+  beryllium/800
+  silicon/1200
+  tungsten/1500
+  thorium/600
+  phase-fabric/300
+  azpacite/300
+]
+research: basic-assembler-module
+category: units
