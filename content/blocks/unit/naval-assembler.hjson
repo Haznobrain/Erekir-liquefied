@@ -24,7 +24,7 @@ type: UnitAssemblerPlan
   unit: phagotenia
       time: 10800
         requirements: [
-          erekirliquefied-audax/4
+          erekirliquefied-deinoco/4
           carbide-wall-large/20
 ]
 }
