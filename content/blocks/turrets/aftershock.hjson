@@ -7,7 +7,7 @@ reload: 60
 targetAir: false
 shootSound: mediumCannon
 minWarmup: 0.96
-shootWarmupSpeed: 0.3
+shootWarmupSpeed: 0.06
   recoil: 0
   range: 432
   ammoTypes: {
@@ -211,7 +211,7 @@ progress: warmup
 x: 0
 y: 0
 moveX: 0
-moveY: -10
+moveY: -8
 heatProgress: warmup
 heatColor: ffda6b
 }
