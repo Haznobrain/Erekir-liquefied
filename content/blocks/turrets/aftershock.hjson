@@ -188,27 +188,29 @@ suffix: -left-top
 progress: warmup
 x: 0
 y: 0
-moveX: -5
-moveY: -8
+moveX: 0
+moveY: -12
 heatProgress: warmup
 heatColor: ffda6b
+moveRot: 10
 }
 {
 suffix: -right-top
 progress: warmup
 x: 0
 y: 0
-moveX: 5
-moveY: -8
+moveX: 0
+moveY: -12
 heatProgress: warmup
 heatColor: ffda6b
+moveRot: -10
 }
 {
 suffix: -right-bottom
 progress: warmup
 x: 0
 y: 0
-moveX: 5
+moveX: 0
 moveY: -10
 heatProgress: warmup
 heatColor: ffda6b
@@ -218,7 +220,7 @@ suffix: -left-bottom
 progress: warmup
 x: 0
 y: 0
-moveX: -5
+moveX: 0
 moveY: -8
 heatProgress: warmup
 heatColor: ffda6b
