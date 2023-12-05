@@ -21,7 +21,7 @@ type: UnitAssemblerPlan
 }
 {
 type: UnitAssemblerPlan
-  unit: phagotenia
+  unit: pagothenia
       time: 10800
         requirements: [
           erekirliquefied-deinoco/4
