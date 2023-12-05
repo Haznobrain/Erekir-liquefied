@@ -249,7 +249,7 @@ type: ShapePart
 }
 {
 type: ShapePart
-  y: -36
+  y: -24
   hollow: true
   layer: 110
   color: ffda6b
@@ -285,7 +285,7 @@ type: HaloPart
 }
 {
 type: HaloPart
-  y: -36
+  y: -24
   layer: 110
   haloRotation: 45
   color: ffda6b
@@ -295,18 +295,6 @@ type: HaloPart
   haloRadius: 17
   tri: true
   haloRotateSpeed: -0.8
-}
-{
-type: HaloPart
-  y: 4
-  layer: 110
-  color: ffda6b
-  shapes: 3
-  triLength: 0
-  triLengthTo: 4
-  haloRadius: 7
-  tri: true
-  haloRotateSpeed: 1.8
 }
 ]
 }
