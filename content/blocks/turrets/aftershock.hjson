@@ -227,7 +227,7 @@ heatColor: ffda6b
 }
 {
 type: ShapePart
-  y: -36
+  y: -24
   hollow: true
   circle: true
   layer: 110
@@ -238,7 +238,7 @@ type: ShapePart
 }
 {
 type: ShapePart
-  y: -36
+  y: -24
   hollow: true
   circle: true
   layer: 110
