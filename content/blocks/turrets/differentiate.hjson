@@ -482,7 +482,8 @@ type: MissileBulletType
         type: MissileBulletType
         reloadMultiplier: 0.2
         damage: 65
-        homingPower: 0.1
+        homingPower: 0.5
+        homingRange: 200
         splashDamage: 40
         splashDamageRadius: 72
         pierce: true
@@ -507,6 +508,7 @@ type: MissileBulletType
         type: MissileBulletType
         reloadMultiplier: 0.2
         damage: 65
+        homingRange: 200
         homingPower: 0.5
         splashDamage: 40
         splashDamageRadius: 72
@@ -533,7 +535,8 @@ type: MissileBulletType
         type: MissileBulletType
         reloadMultiplier: 0.2
         damage: 65
-        homingPower: 0.1
+        homingPower: 0.2
+          homingRange: 200
         splashDamage: 40
         splashDamageRadius: 72
         pierce: true
@@ -561,6 +564,7 @@ type: MissileBulletType
         reloadMultiplier: 0.2
         damage: 65
         homingPower: 0.5
+        homingRange: 200
         splashDamage: 40
         splashDamageRadius: 72
         pierce: true
