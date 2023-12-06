@@ -16,15 +16,19 @@ shoot: {
   spread: 16
     }
 shootSound: plasmaBoom
+shootY: 24
 ammoTypes: {
   impervium-alloy: {
-    type: BasicBulletType
-    shootEffect: {
-    type: ParticleEffect
-    particles: 20
-    lengthFrom: 0
-    lengthTo: 24
-    color: 69ffe0
+      type: BasicBulletType
+      shootEffect: {
+      type: ParticleEffect
+      particles: 20
+      lengthFrom: 0
+      lengthTo: 24
+      colorFrom: 69ffe0
+      colorTo: 1dedc2
+      sizeFrom: 6
+      cone: 30
     }
     sprite: circle
     backColor: 1dedc2
