@@ -35,6 +35,28 @@ ammoTypes: {
     hitShake: 10
     sprite: circle
     backColor: 1dedc2
+    despawnSound: dullExplosion
+    hitSound: coreexplode
+    hitEffect: {
+      type: ExplosionEffect
+      smokeColor: 69ffe0
+      sparkColor: 69ffe0
+      waveColor: 69ffe0
+      waveRad: 120
+      sparkRad: 120
+      smokeRad: 120
+      smokeSize: 8
+}
+    despawnEffect: {
+      type: ExplosionEffect
+      smokeColor: 69ffe0
+      sparkColor: 69ffe0
+      waveColor: 69ffe0
+      waveRad: 120
+      sparkRad: 120
+      smokeRad: 120
+      smokeSize: 8
+}
     height: 12
     width: 12
     frontColor: 16d3ac
