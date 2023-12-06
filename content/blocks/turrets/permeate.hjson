@@ -47,7 +47,8 @@ ammoTypes: {
           }
   }
 }
-drawer: {
+drawer: [
+{
 type: DrawTurret
   parts: [
 {
@@ -129,3 +130,4 @@ heatColor: 69ffe0
 }
   ]
 }
+]
