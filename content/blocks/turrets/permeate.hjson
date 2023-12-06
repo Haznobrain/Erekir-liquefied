@@ -25,7 +25,7 @@ ammoTypes: {
       type: ParticleEffect
       particles: 20
       lengthFrom: 0
-      lengthTo: 24
+      lengthTo: 32
       colorFrom: 69ffe0
       colorTo: 1dedc2
       sizeFrom: 6
