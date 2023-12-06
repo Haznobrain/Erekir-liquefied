@@ -448,10 +448,12 @@ type: MissileBulletType
     }
        {
     type: ParticleEffect
-    cone: 30
+    cone: 0
     particles: 1
-    sizeFrom: 40
-    sizeTo: 40
+    sizeFrom: 16
+    sizeTo: 16
+    lenFrom: 2
+    lenTo: 2
     randLength: false
     colorFrom: 1dedc2
     colorTo: 16d3ac
@@ -545,6 +547,7 @@ type: MissileBulletType
         lightningLength: 6
         lightningLengthRand: 2
         fragRandomSpread: 40
+        hitShake: 2
                             fragBullet: {
         type: MissileBulletType
         reloadMultiplier: 0.2
@@ -561,6 +564,7 @@ type: MissileBulletType
         trailLength: 8
         trailColor: 1dedc2
         height: 12
+        hitShake: 1
         width: 12
         speed: 5
         lifetime: 20
