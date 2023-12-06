@@ -10,6 +10,7 @@ minWarmup: 0.96
 loopSound: spellLoop
 size: 7
 recoil: 5
+rotateSpeed: 0.8
 shoot: {
   type: shootAlternate
   barrels: 3
