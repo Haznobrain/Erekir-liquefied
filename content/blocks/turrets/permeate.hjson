@@ -8,6 +8,7 @@ name: Permeate
 warmupSpeed: 0.02
 minWarmup: 0.96
 size: 7
+recoil: 0
 shoot: {
   type: shootAlternate
   barrels: 3
@@ -32,6 +33,8 @@ ammoTypes: {
     }
     sprite: circle
     backColor: 1dedc2
+    height: 12
+    width: 12
     frontColor: 16d3ac
     lifetime: 140
     speed: 4
@@ -55,6 +58,8 @@ ammoTypes: {
         splashDamage: 40
         splashDamageRadius: 24
         lightning: 3
+        lightningLength: 10
+        lightningLengthRand: 3
         lightningColor: 69ffe0
         lightningDamage: 16
           }
