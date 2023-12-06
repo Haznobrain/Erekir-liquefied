@@ -423,6 +423,173 @@ cesium: {
       }
       }
       }
+impervium-alloy: {
+type: MissileBulletType
+    reloadMultiplier: 0.2
+    damage: 75
+    splashDamage: 75
+    splashDamageRadius: 72
+    pierce: true
+    rangeChange: 200
+    pierceBuilding: true
+    sprite: missile-large
+    shootEffect: {
+    type: MultiEffect
+    effects: [
+    {
+    type: ParticleEffect
+    cone: 30
+    particles: 10
+    lenFrom: 0
+    lenTo: 12
+    colorFrom: 1dedc2
+    colorTo: 2b3331
+    }
+       {
+    type: ParticleEffect
+    cone: 30
+    particles: 1
+    sizeFrom: 40
+    sizeTo: 40
+    randLength: false
+    colorFrom: 1dedc2
+    colorTo: 16d3ac
+    region: erekirliquefied-electricshoot
+    }
+]
+    }
+    frontColor: ffffff
+    backColor: 1dedc2
+    trailWidth: 2
+    trailLength: 8
+    trailColor: ffbc4a
+    height: 12
+    width: 12
+    speed: 5
+    lifetime: 20
+    fragBullets: 1
+    lightning: 5
+    lightningLength: 6
+    lightningLengthRand: 2
+    fragRandomSpread: 25
+    fragBullet: {
+        type: MissileBulletType
+        reloadMultiplier: 0.2
+        damage: 75
+        homingPower: 0.1
+        splashDamage: 75
+        splashDamageRadius: 72
+        pierce: true
+        pierceBuilding: true
+        sprite: missile-large
+        frontColor: ffffff
+        backColor: 1dedc2
+        trailWidth: 2
+        trailLength: 8
+        trailColor: 1dedc2
+        height: 12
+        width: 12
+        speed: 5
+        lifetime: 20
+        fragBullets: 1
+        lightning: 5
+        lightningLength: 6
+        lightningLengthRand: 2
+            fragBullet: {
+        type: MissileBulletType
+        reloadMultiplier: 0.2
+        damage: 75
+        homingPower: 0.1
+        splashDamage: 75
+        splashDamageRadius: 72
+        pierce: true
+        pierceBuilding: true
+        sprite: missile-large
+        frontColor: ffffff
+        backColor: 1dedc2
+        trailWidth: 2
+        trailLength: 8
+        trailColor: 1dedc2
+        height: 12
+        width: 12
+        speed: 5
+        lifetime: 20
+        fragBullets: 1
+        lightning: 5
+        lightningLength: 6
+        lightningLengthRand: 2
+        fragRandomSpread: 20
+                    fragBullet: {
+        type: MissileBulletType
+        reloadMultiplier: 0.2
+        damage: 75
+        homingPower: 0.1
+        splashDamage: 75
+        splashDamageRadius: 72
+        pierce: true
+        pierceBuilding: true
+        sprite: missile-large
+        frontColor: ffffff
+        backColor: 1dedc2
+        trailWidth: 2
+        trailLength: 8
+        trailColor: 1dedc2
+        height: 12
+        width: 12
+        speed: 5
+        lifetime: 20
+        fragBullets: 1
+        lightning: 5
+        lightningLength: 6
+        lightningLengthRand: 2
+        fragRandomSpread: 40
+                            fragBullet: {
+        type: MissileBulletType
+        reloadMultiplier: 0.2
+        damage: 75
+        homingPower: 0.1
+        splashDamage: 75
+        splashDamageRadius: 72
+        pierce: true
+        pierceBuilding: true
+        sprite: missile-large
+        frontColor: ffffff
+        backColor: 1dedc2
+        trailWidth: 2
+        trailLength: 8
+        trailColor: 1dedc2
+        height: 12
+        width: 12
+        speed: 5
+        lifetime: 20
+        fragBullets: 24
+        lightning: 5
+        lightningLength: 6
+        lightningLengthRand: 2
+                            fragBullet: {
+        type: BasicBulletType
+        reloadMultiplier: 0.2
+        damage: 40
+        splashDamage: 30
+        splashDamageRadius: 40
+        pierce: true
+        pierceBuilding: true
+        frontColor: ffffff
+        backColor: 1dedc2
+        trailColor: 1dedc2
+        height: 12
+        width: 12
+        speed: 5
+        lifetime: 16
+        lightning: 5
+        lightningLength: 10
+        lightningLengthRand: 4
+}
+}
+}
+}
+}
+}
 }
 coolantMultiplier: 4
 coolant: {
