@@ -131,3 +131,11 @@ heatColor: 69ffe0
   ]
 }
 ]
+requirements: [
+beryllium/3000
+silicon/2000
+tungsten/2000
+carbide/1500
+phase-fabric/1000
+impervium-alloy/700
+]
