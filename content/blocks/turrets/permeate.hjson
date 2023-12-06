@@ -7,6 +7,7 @@ heatColor: 69ffe0
 name: Permeate
 shootWarmupSpeed: 0.02
 minWarmup: 0.96
+loopSound: spellLoop
 size: 7
 recoil: 0
 shoot: {
