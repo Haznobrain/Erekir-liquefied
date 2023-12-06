@@ -5,7 +5,7 @@ reload: 300
 range: 560
 heatColor: 69ffe0
 name: Permeate
-warmupSpeed: 0.02
+shootWarmupSpeed: 0.02
 minWarmup: 0.96
 size: 7
 recoil: 0
@@ -31,6 +31,7 @@ ammoTypes: {
       sizeFrom: 6
       cone: 30
     }
+    hitShake: 6
     sprite: circle
     backColor: 1dedc2
     height: 12
