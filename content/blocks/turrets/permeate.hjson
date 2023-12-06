@@ -16,7 +16,7 @@ shoot: {
   shotDelay: 10
   spread: 16
     }
-shootSound: plasmaBoom
+shootSound: plasmaboom
 shootY: 24
 ammoTypes: {
   impervium-alloy: {
@@ -25,7 +25,7 @@ ammoTypes: {
       type: ParticleEffect
       particles: 20
       lengthFrom: 0
-      lengthTo: 32
+      lengthTo: 40
       colorFrom: 69ffe0
       colorTo: 1dedc2
       sizeFrom: 6
