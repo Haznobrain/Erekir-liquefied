@@ -444,6 +444,7 @@ type: MissileBulletType
     lenTo: 12
     colorFrom: 1dedc2
     colorTo: 2b3331
+    lifetime: 30
     }
        {
     type: ParticleEffect
@@ -455,6 +456,7 @@ type: MissileBulletType
     colorFrom: 1dedc2
     colorTo: 16d3ac
     region: erekirliquefied-electric-shoot
+    lifetime: 6
     }
 ]
     }
