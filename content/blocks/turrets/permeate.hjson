@@ -13,11 +13,19 @@ shoot: {
   barrels: 3
   shots: 3
   shotDelay: 10
-  spread: 12
+  spread: 16
     }
+shootSound: plasmaBoom
 ammoTypes: {
   impervium-alloy: {
     type: BasicBulletType
+    shootEffect: {
+    type: ParticleEffect
+    particles: 20
+    lengthFrom: 0
+    lengthTo: 24
+    color: 69ffe0
+    }
     sprite: circle
     backColor: 1dedc2
     frontColor: 16d3ac
@@ -114,7 +122,7 @@ suffix: -rightBottom
 x: 0
 y: 0
 moveX: 0
-moveY: 0
+moveY: -2
 heatProgress: warmup
 heatColor: 69ffe0
 }
@@ -125,7 +133,7 @@ suffix: -leftBottom
 x: 0
 y: 0
 moveX: 0
-moveY: 0
+moveY: -2
 heatProgress: warmup
 heatColor: 69ffe0
 }
