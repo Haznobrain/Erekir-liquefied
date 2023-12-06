@@ -7,6 +7,7 @@ heatColor: 69ffe0
 name: Permeate
 warmupSpeed: 0.02
 minWarmup: 0.96
+size: 7
 shoot: {
   type: shootAlternate
   barrels: 3
