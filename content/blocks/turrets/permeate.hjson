@@ -36,7 +36,7 @@ ammoTypes: {
     sprite: circle
     backColor: 1dedc2
     despawnSound: dullExplosion
-    hitSound: coreexplode
+    hitSound: corexplode
     hitEffect: {
       type: ExplosionEffect
       smokeColor: 69ffe0
@@ -62,8 +62,8 @@ ammoTypes: {
     frontColor: 16d3ac
     lifetime: 140
     speed: 4
-    damage: 365
-    splashDamage: 420
+    damage: 420
+    splashDamage: 890
     splashDamageRadius: 120
     lightning: 12
     lightningLength: 10
