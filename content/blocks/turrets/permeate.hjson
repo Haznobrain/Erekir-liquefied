@@ -9,7 +9,7 @@ shootWarmupSpeed: 0.02
 minWarmup: 0.96
 loopSound: spellLoop
 size: 7
-recoil: 0
+recoil: 5
 shoot: {
   type: shootAlternate
   barrels: 3
@@ -32,7 +32,7 @@ ammoTypes: {
       sizeFrom: 6
       cone: 30
     }
-    hitShake: 6
+    hitShake: 10
     sprite: circle
     backColor: 1dedc2
     height: 12
