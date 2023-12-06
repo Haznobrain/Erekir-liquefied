@@ -1,0 +1,131 @@
+type: ItemTurret
+description: A superweapon that hurls powerful balls of fragmenting impervium alloy at ennemy targets, dealing massive damage upon impact.
+health: 44000
+reload: 300
+range: 560
+heatColor: 69ffe0
+name: Permeate
+warmupSpeed: 0.02
+minWarmup: 0.96
+shoot: {
+  type: shootAlternate
+  barrels: 3
+  shots: 3
+  shotDelay: 10
+  spread: 12
+    }
+ammoTypes: {
+  impervium-alloy: {
+    type: BasicBulletType
+    sprite: circle
+    backColor: 1dedc2
+    frontColor: 16d3ac
+    lifetime: 140
+    speed: 4
+    damage: 365
+    splashDamage: 420
+    splashDamageRadius: 120
+    lightning: 12
+    lightningLength: 10
+    lightningLengthRand: 3
+    lightningColor: 69ffe0
+    lightningDamage: 26
+    fragBullets: 10
+      fragBullet: {
+        type:BasicBulletType
+        sprite: circle
+        backColor: 1dedc2
+        frontColor: 16d3ac
+        lifetime: 15
+        speed: 3
+        damage: 65
+        splashDamage: 40
+        splashDamageRadius: 24
+        lightning: 3
+        lightningColor: 69ffe0
+        lightningDamage: 16
+          }
+  }
+}
+drawer: {
+type: DrawTurret
+  parts: [
+{
+progress: warmup
+type: RegionPart
+suffix: -bottom
+x: 0
+y: 0
+moveX: 0
+moveY: 0
+heatProgress: warmup
+heatColor: 69ffe0
+}
+  {
+progress: warmup
+type: RegionPart
+suffix: -barrelLeft
+x: 0
+y: 0
+moveX: 6
+moveY: 0
+heatProgress: warmup
+heatColor: 69ffe0
+}
+  {
+progress: warmup
+type: RegionPart
+suffix: -barrelRight
+x: 0
+y: 0
+moveX: -6
+moveY: 0
+heatProgress: warmup
+heatColor: 69ffe0
+}
+  {
+progress: warmup
+type: RegionPart
+suffix: -rightTop
+x: 0
+y: 0
+moveX: 8
+moveY: -6
+heatProgress: warmup
+heatColor: 69ffe0
+}
+  {
+progress: warmup
+type: RegionPart
+suffix: -leftTop
+x: 0
+y: 0
+moveX: -8
+moveY: -6
+heatProgress: warmup
+heatColor: 69ffe0
+}
+  {
+progress: warmup
+type: RegionPart
+suffix: -rightBottom
+x: 0
+y: 0
+moveX: 7
+moveY: 0
+heatProgress: warmup
+heatColor: 69ffe0
+}
+  {
+progress: warmup
+type: RegionPart
+suffix: -leftBottom
+x: 0
+y: 0
+moveX: -7
+moveY: 0
+heatProgress: warmup
+heatColor: 69ffe0
+}
+  ]
+}
