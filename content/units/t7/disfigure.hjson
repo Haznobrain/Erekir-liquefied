@@ -1,0 +1,78 @@
+name: Disfigure
+type: flying
+flying: true
+description: A massive airship, made to demolish an ennemy base to rubble with its massive continuous laser beam.
+health: 480000
+template: ErekirUnitType
+hitSize: 100
+armor: 26
+speed: 0.9
+targetAir: false
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 32
+engineOffset: 58
+engineSize: 9
+engines: [
+{
+x: -52
+y: -40
+radius: 6
+rotation: -135
+}
+{
+x: 52
+y: -40
+radius: 6
+rotation: -45
+}
+{
+x: -40
+y: -52
+radius: 8
+rotation: -135
+}
+{
+x: 40
+y: -52
+radius: 8
+rotation: -45
+}
+]
+lowAltitude: true
+  weapons: [
+{
+    name: disfigure
+    shootSound: beam
+    y: 0
+    mirror: false
+    x: 0
+    reload: 300
+    continuous: true
+    range: 304
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 162.5
+      lifetime: 330
+      colors: [72e0ff, 72a8ff, 3b38ff, 725aff]
+      length: 304
+      width: 6
+        }
+}
+lightRadius: 256
+research: quell
+abilities: [
+{
+type: EnergyFieldAbility
+statusDuration: 300
+maxTargets: 25
+damage: 50
+range: 200
+color: d1efff
+reload: 45
+healPercent: 0.5
+sectors: 6
+layer: 111
+}
+]
