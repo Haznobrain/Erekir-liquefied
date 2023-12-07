@@ -60,6 +60,14 @@ ammoTypes: {
 }
     height: 12
     width: 12
+    bulletInterval: 3
+    intervalBullet: {
+      type: LightningBulletType
+      damage: 45
+      lightningLength: 1
+      lightningLengthRand: 1
+      color: 16d3ac
+      }
     frontColor: 16d3ac
     lifetime: 140
     speed: 4
