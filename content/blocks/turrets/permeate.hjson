@@ -9,6 +9,7 @@ shootWarmupSpeed: 0.02
 minWarmup: 0.96
 loopSound: spellLoop
 size: 7
+category: turret
 recoil: 5
 rotateSpeed: 0.8
 shoot: {
@@ -91,37 +92,39 @@ ammoTypes: {
     intervalBullet: {
       type: LightningBulletType
       damage: 45
-      lightningLength: 1
+      lightningLength: 3
       lightningLengthRand: 1
       color: 16d3ac
       }
     frontColor: 16d3ac
     lifetime: 140
     speed: 4
-    damage: 420
-    splashDamage: 890
+    damage: 860
+    splashDamage: 1250
     splashDamageRadius: 120
     lightning: 12
     lightningLength: 10
     lightningLengthRand: 3
     lightningColor: 69ffe0
-    lightningDamage: 26
-    fragBullets: 10
+    lightningDamage: 30
+    fragBullets: 20
       fragBullet: {
+        height: 6
+        width: 6
         type:BasicBulletType
         sprite: circle
         backColor: 1dedc2
         frontColor: 16d3ac
-        lifetime: 15
+        lifetime: 30
         speed: 3
         damage: 65
         splashDamage: 40
         splashDamageRadius: 24
-        lightning: 3
+        lightning: 5
         lightningLength: 10
         lightningLengthRand: 3
         lightningColor: 69ffe0
-        lightningDamage: 16
+        lightningDamage: 45
           }
   }
 }
