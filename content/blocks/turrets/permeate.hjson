@@ -38,6 +38,33 @@ ammoTypes: {
     backColor: 1dedc2
     despawnSound: dullExplosion
     hitSound: corexplode
+    trailLength: 8
+    trailWidth: 3
+    trailColor: 69ffe0
+    trailInterval: 12
+    trailEffect: {
+      type: MultiEffect
+    effects: [
+    {
+    type: ParticleEffect
+    region: erekirliquefied-electric-shoot
+    colorFrom: 69ffe0
+    colorTo: 69ffe0
+    sizeFrom: 6
+    sizeTo: 0
+    lifetime: 60
+    length: 0
+    randLength: false
+    }
+    {
+    type: ExplosionEffect
+    smokes: 8
+    sparks: 0
+    waveRad: 0
+    smokeColor: 69ffe0
+    }
+]
+}
     hitEffect: {
       type: ExplosionEffect
       smokeColor: 69ffe0
