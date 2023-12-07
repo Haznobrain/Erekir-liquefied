@@ -13,30 +13,30 @@ lightRadius: 5
 singleTarget: true
 fogRadius: 32
 engineOffset: 58
-engineSize: 9
+engineSize: 18
 engines: [
 {
 x: -52
 y: -40
-radius: 6
+radius: 12
 rotation: -135
 }
 {
 x: 52
 y: -40
-radius: 6
+radius: 12
 rotation: -45
 }
 {
 x: -40
 y: -52
-radius: 8
+radius: 16
 rotation: -135
 }
 {
 x: 40
 y: -52
-radius: 8
+radius: 16
 rotation: -45
 }
 ]
