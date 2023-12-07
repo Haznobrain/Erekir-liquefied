@@ -28,13 +28,13 @@ radius: 12
 rotation: -45
 }
 {
-x: -40
+x: -32
 y: -52
 radius: 16
 rotation: -135
 }
 {
-x: 40
+x: 32
 y: -52
 radius: 16
 rotation: -45
@@ -48,7 +48,7 @@ lowAltitude: true
     y: 0
     mirror: false
     x: 0
-    reload: 300
+    reload: 240
     continuous: true
     range: 304
     recoil: 0
@@ -69,13 +69,13 @@ abilities: [
 {
 type: EnergyFieldAbility
 statusDuration: 300
-maxTargets: 25
-damage: 50
-range: 200
+maxTargets: 70
+damage: 125
+range: 250
 color: d1efff
-reload: 45
-healPercent: 0.5
-sectors: 6
-layer: 111
+reload: 5
+healPercent: 0.1
+sameTypeHealMult: 0.1
+sectors: 4
 }
 ]
