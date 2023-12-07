@@ -60,6 +60,7 @@ lowAltitude: true
       width: 6
         }
 }
+]
 lightRadius: 256
 research: quell
 abilities: [
