@@ -51,6 +51,7 @@ lowAltitude: true
     reload: 300
     continuous: true
     range: 304
+    recoil: 0
     bullet: {
       type: ContinuousLaserBulletType
       damage: 162.5
