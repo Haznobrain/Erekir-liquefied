@@ -52,6 +52,7 @@ lowAltitude: true
     continuous: true
     range: 304
     recoil: 0
+    heatColor: 74ffff
     bullet: {
       type: ContinuousLaserBulletType
       damage: 162.5
