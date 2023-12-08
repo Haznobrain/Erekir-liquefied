@@ -1,4 +1,5 @@
 name: Large shielded wall
+description: A large wall that projects an absorption shield around itself and reflects most bullets. Unlike its smaller variant, does not require power.Blocks lasers.
 type: ShieldWall
 health: 9360
 shieldHealth: 2025
@@ -6,9 +7,8 @@ chanceDeflect: 8
 armor: 15
 size: 3
 outputsPower: false
-hasPower: true
-consumesPower: true
-conductivePower: true
+insulated: true
+absorbLasers: true
 consume: {
   power: 0.25
     }
