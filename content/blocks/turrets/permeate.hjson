@@ -100,7 +100,7 @@ ammoTypes: {
     lifetime: 140
     speed: 4
     damage: 860
-    splashDamage: 1250
+    splashDamage: 2450
     splashDamageRadius: 120
     lightning: 12
     lightningLength: 10
