@@ -1,0 +1,121 @@
+name: Tomaxella
+type: flying
+flying: true
+description: A massive airship with a lot of health and armor that shoots a barrage of bullets and a large laser at ennemy targets
+health: 620000
+template: ErekirUnitType
+hitSize: 100
+armor: 34
+speed: 0.75
+targetAir: false
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 30
+engineOffset: 58
+engineSize: 18
+engines: [
+{
+x: -40
+y: -12
+radius: 12
+rotation: -135
+}
+{
+x: 40
+y: -12
+radius: 12
+rotation: -45
+}
+{
+x: -24
+y: -52
+radius: 16
+rotation: -135
+}
+{
+x: 24
+y: -52
+radius: 16
+rotation: -45
+}
+]
+lowAltitude: true
+  parts: [
+{
+suffix: -body
+x: 0
+  y: 0
+  moveX: 0
+  moveY: 0
+  progress: recoil
+  }
+  {
+suffix: -side
+  mirror: true
+x: 0
+  y: 0
+  moveX: -8
+  moveY: -12
+  progress: recoil
+  }
+]
+  weapons: [
+{
+    name: tomaxella-weapon
+    shootSound: beam
+    y: 0
+    mirror: false
+    x: 0
+    reload: 240
+    continuous: true
+    range: 304
+    recoil: 3
+    heatColor: 74ffff
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 105
+      lifetime: 330
+      colors: [96f58c,54d67d ,28785c ,286550 ]
+      length: 304
+      width: 6
+      bulletInterval: 3
+      intervalRandomSpread: 100
+      intervalBullet: {
+          type: BasicBulletType
+          speed: 6
+          lifetime: 51
+          backColor: 54d67d
+          frontColor: 96f58c
+          damage: 36
+          splashDamage: 45
+          splashDamageRadius: 12
+          hitEffect: {
+              type: ExplosionEffect
+              smokeColor: 96f58c
+              waveColor: 96f58c
+              sparkColor: 96f58c
+              waveRad: 12
+              smokeRad: 12
+              sparkRad: 12
+                }
+        }
+}
+}
+]
+lightRadius: 256
+research: quell
+abilities: [
+{
+  type: RepairFieldAbility
+  amount: 840
+  range: 240
+    }
+  {
+type: ForceFieldAbility
+  range: 240
+  regen: 12
+  max: 12000
+  sides: 24
+  }
+]
