@@ -9,9 +9,6 @@ size: 3
 outputsPower: false
 insulated: true
 absorbLasers: true
-consume: {
-  power: 0.25
-    }
 category: defense
 requirements: [
     phase-fabric/45
