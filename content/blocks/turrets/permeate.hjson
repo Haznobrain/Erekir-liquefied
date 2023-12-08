@@ -1,7 +1,7 @@
 type: ItemTurret
 description: A superweapon that hurls powerful balls of fragmenting impervium alloy at ennemy targets, dealing massive damage upon impact.
 health: 44000
-reload: 12O
+reload: 120
 range: 560
 heatColor: 69ffe0
 name: Permeate
