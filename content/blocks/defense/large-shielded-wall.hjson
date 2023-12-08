@@ -1,0 +1,19 @@
+type: ShieldWall
+health: 9360
+shieldHealth: 2025
+chanceDeflect: 8
+armor: 15
+size: 3
+outputsPower: false
+hasPower: true
+consumesPower: true
+conductivePower: true
+consume: {
+  power: 0.25
+    }
+category: defense
+requirements: [
+    phase-fabric/45
+    surge-alloy/27
+    beryllium/27
+  ]
