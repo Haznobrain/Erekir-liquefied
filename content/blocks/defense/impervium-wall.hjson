@@ -1,0 +1,17 @@
+name: Impervium wall
+type: Wall
+description: A large and strong wall that blocks ennemy projectiles and lasers.
+health: 45000
+armor: 30
+insulating: true
+size: 2
+absorbLasers: true
+lightningChance: 0.5
+lightningColor: 1dedc2
+lightningDamage: 65
+requirements: [
+  impervium-alloy/96
+  tungsten/120
+]
+research:large-azpacite-wall
+category: defense
