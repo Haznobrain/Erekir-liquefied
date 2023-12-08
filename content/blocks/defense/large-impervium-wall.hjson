@@ -1,6 +1,6 @@
-name: Impervium wall
-type: WhieldWall
-description: A large and strong wall that blocks ennemy projectiles and lasers.
+name: large Impervium wall
+type: ShieldWall
+description: A huge wall that blocks lasers and has a chance to deflect bullets.
 health: 101250
 armor: 30
 insulating: true
