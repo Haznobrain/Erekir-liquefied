@@ -16,26 +16,26 @@ engineOffset: 50
 engineSize: 18
 engines: [
 {
-x: -30
+x: -20
 y: -12
 radius: 12
-rotation: -135
+rotation: -90
 }
 {
-x: 30
+x: 20
 y: -12
 radius: 12
-rotation: -45
+rotation: 90
 }
 {
-x: -24
-y: -48
+x: -20
+y: -40
 radius: 16
 rotation: -135
 }
 {
-x: 24
-y: -48
+x: 20
+y: -40
 radius: 16
 rotation: -45
 }
