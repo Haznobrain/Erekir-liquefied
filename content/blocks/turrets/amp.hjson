@@ -7,7 +7,7 @@ heatRequirement: 20
 maxHeatEfficiency: 2
 type: PowerTurret
 rotateSpeed: 2.4
-recoil: 4
+recoil: 0
 shootSound: laser
 consumes: {
   power: 15
@@ -34,7 +34,7 @@ parts: [
 suffix: -mid
 x: 0
 y: 0
-moveX: -2
+moveY: -2
 progress: recoil
 }
 {
