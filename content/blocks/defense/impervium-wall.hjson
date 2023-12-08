@@ -8,7 +8,7 @@ size: 2
 absorbLasers: true
 lightningChance: 0.5
 lightningColor: 1dedc2
-lightningDamage: 65
+lightningDamage: 30
 requirements: [
   impervium-alloy/96
   tungsten/120
