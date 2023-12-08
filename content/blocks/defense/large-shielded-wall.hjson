@@ -1,3 +1,4 @@
+name: Large shielded wall
 type: ShieldWall
 health: 9360
 shieldHealth: 2025
