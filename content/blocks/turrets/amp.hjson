@@ -42,7 +42,7 @@ suffix: -blade
 mirror: true
 x: 0
 y: 0
-moveRot: 15
+moveRot: -15
 moveX: 3
 }
 ]
