@@ -26,6 +26,28 @@ silicon/600
 tungsten/400
 carbide/200
 ]
+drawer: [
+{
+type: DrawTurret
+parts: [
+{
+suffix: -mid
+x: 0
+y: 0
+moveX: -2
+progress: recoil
+}
+{
+suffix: -blade
+mirror: true
+x: 0
+y: 0
+moveRot: 15
+moveX: 3
+}
+]
+}
+]
 category: turret
 research: afflict
 research: stronghold
