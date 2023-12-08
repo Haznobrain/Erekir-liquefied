@@ -17,7 +17,6 @@ type: LaserBulletType
   length: 432
   width: 16
   damage: 95
-  colors: [a847af,af4796,df005b]
 }
 requirements: [
 beryllium/350
