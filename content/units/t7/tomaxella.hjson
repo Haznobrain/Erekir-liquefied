@@ -12,30 +12,30 @@ faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 30
-engineOffset: 58
+engineOffset: 50
 engineSize: 18
 engines: [
 {
-x: -40
+x: -30
 y: -12
 radius: 12
 rotation: -135
 }
 {
-x: 40
+x: 30
 y: -12
 radius: 12
 rotation: -45
 }
 {
 x: -24
-y: -52
+y: -48
 radius: 16
 rotation: -135
 }
 {
 x: 24
-y: -52
+y: -48
 radius: 16
 rotation: -45
 }
@@ -72,6 +72,7 @@ x: 0
     range: 304
     recoil: 3
     heatColor: 74ffff
+    shootY: 32
     bullet: {
       type: ContinuousLaserBulletType
       damage: 105
@@ -104,7 +105,7 @@ x: 0
 }
 ]
 lightRadius: 256
-research: quell
+research: disfigure
 abilities: [
 {
   type: RepairFieldAbility
