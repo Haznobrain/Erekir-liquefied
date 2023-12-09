@@ -84,6 +84,7 @@ moveX: 40
 moveY: 24
 progress: warmup
 mirror: true
+layerOffset: 0.01
 }
  ]
 weapons: [
@@ -92,7 +93,7 @@ reload: 5
 range: 680
 shootSound: bolt
 alternate: false
-rotate: true
+rotate: false
 x: 40
 y: 24
 mirror: true
