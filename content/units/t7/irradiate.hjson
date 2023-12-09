@@ -36,7 +36,7 @@ melting
 parts: [
 {
 type: ShapePart
-radius: 32
+radius: 20
 circle: true
 hollow: true
 color: ffe995
@@ -49,7 +49,7 @@ strokeTo: 3
 }
 {
 type: ShapePart
-radius: 32
+radius: 16
 circle: false
 sides: 3
 hollow: true
@@ -63,7 +63,7 @@ strokeTo: 3
 }
 {
 type: ShapePart
-radius: 32
+radius: 16
 circle: false
 sides: 3
 hollow: true
@@ -106,7 +106,7 @@ spread: 8
 bullet: {
   type: LaserBulletType
   pierce: false
-  pierceBuildings: false
+  pierceBuilding: false
   length: 680
   width: 3
   colors: [ffe995,ffe995,ffe995]
