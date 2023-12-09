@@ -97,7 +97,7 @@ rotate: false
 x: 40
 y: 24
 mirror: true
-shootY: 16
+shootY: 14
 shoot: {
 type: ShootAlternate
 barrels: 2
