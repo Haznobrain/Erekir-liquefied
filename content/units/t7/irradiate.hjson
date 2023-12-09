@@ -12,12 +12,12 @@ hovering: true
 rotateSpeed: 2
 legStraightness: 0.2
 legSpeed: 0.5
-legCount: 4
+legCount: 8
 legLength: 256
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
-legBaseOffset: 8
+legBaseOffset: 24
 legMaxLength: 1.2
 legLengthScl: 0.96
 legMinLength: 0.8
@@ -27,6 +27,7 @@ legSplashDamage: 480
 legSplashRange: 40
 drownTimeMultiplier: 1000000
 legGroupSize: 3
+baseLegStraightness: 0.5
 rippleScale: 0.8
 immunities: [
 burning,
