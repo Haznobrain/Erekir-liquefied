@@ -153,7 +153,7 @@ bullet: {
  fragSpread: 90
  speed: 6
  lifetime: 114
- fragRandomSpread
+ fragRandomSpread: 0
  fragBullet: {
   type: ContinuousLaserBulletType
   colors: [ffe995,ffe995,ffe995,ffe995]
