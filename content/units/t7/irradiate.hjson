@@ -118,7 +118,7 @@ reload: 180
 range: 680
 shootSound: plasmaboom
 x: 0
-y: -100
+y: -80
 shootEffect: {
  type: MultiEffect
  effects: [
@@ -151,11 +151,15 @@ bullet: {
  splashDamage: 815
  fragBullets: 4
  fragSpread: 90
+ speed: 6
+ lifetime: 114
+ fragRandomSpread
  fragBullet: {
   type: ContinuousLaserBulletType
   colors: [ffe995,ffe995,ffe995,ffe995]
   damage: 36
   length: 120
+  lifetime: 120
   }
  height: 32
  width: 32
