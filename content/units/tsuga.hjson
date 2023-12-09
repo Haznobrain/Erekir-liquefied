@@ -19,14 +19,14 @@ engineSize: 10
 engineOffset: 36
 engines: [
 {
-y: -36
-x: -34
+y: -30
+x: -20
 radius: 10
 rotation: 135
 }
 {
-y: -36
-x: 34
+y: -30
+x: 20
 radius: 10
 rotation: 45
 }
