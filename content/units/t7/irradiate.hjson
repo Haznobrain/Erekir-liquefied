@@ -153,6 +153,9 @@ bullet: {
  fragSpread: 90
  speed: 6
  lifetime: 114
+ trailLength: 8
+trailWidth: 6
+trailColor: ffe995
  fragRandomSpread: 0
  fragBullet: {
   type: ContinuousLaserBulletType
