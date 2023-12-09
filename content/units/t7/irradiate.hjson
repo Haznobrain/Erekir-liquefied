@@ -76,7 +76,7 @@ x: 0
 y: 0
 moveX: 40
 moveY: 24
-progress: Warmup
+progress: warmup
 mirror: true
 layerOffset: -0.1
 }
