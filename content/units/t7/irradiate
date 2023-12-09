@@ -1,0 +1,34 @@
+template: ErekirUnitType
+type: legs
+name: Irradiate
+health: 540000
+armor: 28
+description: A very large 4 legged unit that while it moves slowly, summons a bunch of long range weapons to destroy ennemy targets.
+speed: 0.5
+multiTarget: true
+singleTarget: false
+hitSize: 60
+hovering: true
+rotateSpeed: 2
+legStraightness: 0.2
+legSpeed: 0.5
+legCount: 4
+legLength: 256
+lockLegBase: true
+legContinuousMove: true
+legExtension: -3
+legBaseOffset: 8
+legMaxLength: 1.2
+legLengthScl: 0.96
+legMinLength: 0.8
+legForwardScale: 1.1
+fogRadius: 35
+legSplashDamage: 480
+legSplashRange: 40
+drownTimeMultiplier: 1000000
+legGroupSize: 3
+rippleScale: 0.8
+immunities: [
+burning,
+melting
+]
