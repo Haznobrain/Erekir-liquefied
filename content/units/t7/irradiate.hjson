@@ -44,6 +44,8 @@ rotateSpeed: 2.8
 x: 40
 y: 24
 mirror: true
+stroke: 0
+strokeTo: 3
 }
 {
 type: ShapePart
@@ -56,6 +58,8 @@ rotateSpeed: 2.8
 x: 40
 y: 24
 mirror: true
+stroke: 0
+strokeTo: 3
 }
 {
 type: ShapePart
@@ -68,6 +72,8 @@ rotateSpeed: -2.8
 x: 40
 y: 24
 mirror: true
+stroke: 0
+strokeTo: 3
 }
 {
 type: RegionPart
@@ -78,7 +84,6 @@ moveX: 40
 moveY: 24
 progress: warmup
 mirror: true
-layerOffset: -0.1
 }
  ]
 weapons: [
