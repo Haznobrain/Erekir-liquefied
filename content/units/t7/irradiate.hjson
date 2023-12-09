@@ -166,5 +166,47 @@ bullet: {
  backColor: ffffff
  frontColor: ffe995
 }
+parts: [
+{
+type: ShapePart
+radius: 20
+circle: true
+hollow: true
+color: ffe995
+rotateSpeed: 2.8
+x: 0
+y: 0
+mirror: true
+stroke: 0
+strokeTo: 3
+}
+{
+type: ShapePart
+radius: 16
+circle: false
+sides: 3
+hollow: true
+color: ffe995
+rotateSpeed: 2.8
+x: 0
+y: 0
+mirror: true
+stroke: 0
+strokeTo: 3
+}
+{
+type: ShapePart
+radius: 16
+circle: false
+sides: 3
+hollow: true
+color: ffe995
+rotateSpeed: -2.8
+x: 0
+y: 0
+mirror: true
+stroke: 0
+strokeTo: 3
+}
 }
 ]
