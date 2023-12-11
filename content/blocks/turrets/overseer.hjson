@@ -2,3 +2,101 @@ name: Overseer
 description:  A superweapon that shoots an hypersonic impervium bolt that deals massive damage and area damage upon impact. Can be boosted with water.
 reload: 900
 range: 1680
+type: ItemTurret
+reload: 10
+shootSound: railgun
+inaccuracy: 0
+impervium-alloy: {
+  type: PointBulletType
+  splashDamage: 4560
+  damage: 8750
+  fragBullets: 8
+  fragBullet: {
+    type: LightningBulletType
+    lightningColor:  1dedc2
+    damage: 235
+    }
+  splashDamageRadius: 40
+  hitEffect: {
+    type: ExplosionEffect
+    waveColor: 16d3ac
+    waveLife: 30
+    waveRad: 40
+    waveRadBase: 40
+    sparkRad: 50
+    smokeRad: 60
+    smokes: 4
+    sparks: 6
+    smokeColor: 16d3ac
+    sparkColor: 16d3ac
+}
+trailSpacing: 16
+trailLength: 16
+trailWidth: 4
+shootEffect: {
+type: ParticleEffect
+length: 0
+randLength: false
+region: erekirliquefied-impervium-shoot
+}
+smokeEffect: smokeCloud
+trailEffect: {
+  type: particleEffect
+  region: erekirliquefied-impervium-trail
+  colorFrom: 1dedc2
+  colorTo: 16d3ac
+  randLength: false
+  sizeFrom: 16
+  sizeTo: 16
+  particles: 1
+  length: 0
+  }
+}
+}
+coolantMultiplier: 5
+coolant: {
+  type: ConsumeLiquid
+  liquid: water
+  amount: 2
+}
+drawer: [
+{
+type: DrawTurret
+parts: [
+  {
+  type: RegionPart
+  x: 0
+  y: 0
+  moveY: -16
+  progress: recoil
+  suffix: -barrel
+  }
+  {
+  type: RegionPart
+  x: 0
+  y: 0
+  moveY: -12
+  progress: recoil
+  suffix: -mid
+  }
+  {
+  type: RegionPart
+  x: 0
+  y: 0
+  moveY: -6
+  progress: recoil
+  suffix: -bottom
+  }
+  {
+  type: RegionPart
+  x: 0
+  y: 0
+  moveY: 0
+  progress: warmup
+  suffix: -side
+  mirror: true
+  moveRot: 45
+  }
+]
+}
+]
