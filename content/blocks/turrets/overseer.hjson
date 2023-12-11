@@ -4,6 +4,7 @@ reload: 900
 range: 1680
 type: ItemTurret
 reload: 10
+size: 7
 shootSound: railgun
 inaccuracy: 0
 ammoTypes: {
