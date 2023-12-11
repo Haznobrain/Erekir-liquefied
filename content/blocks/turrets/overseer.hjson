@@ -6,6 +6,7 @@ type: ItemTurret
 reload: 10
 shootSound: railgun
 inaccuracy: 0
+ammoTypes: {
 impervium-alloy: {
   type: PointBulletType
   splashDamage: 4560
