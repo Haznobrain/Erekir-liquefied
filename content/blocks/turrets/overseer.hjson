@@ -12,7 +12,7 @@ category: turret
 predictTarget: false
 recoil: 4
 ammoCapacity: 100
-ammoUse: 20
+ammoPerShot: 20
 ammoTypes: {
 impervium-alloy: {
   ammoMultiplier: 1
