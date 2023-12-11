@@ -101,3 +101,11 @@ parts: [
 ]
 }
 ]
+requirements: [
+  beryllium/3500
+  silicon/3600
+  tungsten/1900
+  impervium-alloy/1200
+  phase-fabric/1700
+  carbide/2300
+]
