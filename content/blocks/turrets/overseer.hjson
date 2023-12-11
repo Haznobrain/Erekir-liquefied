@@ -3,7 +3,6 @@ description:  A superweapon that shoots an hypersonic impervium bolt that deals 
 reload: 900
 range: 1680
 type: ItemTurret
-reload: 10
 size: 7
 shootSound: railgun
 inaccuracy: 0
@@ -93,11 +92,11 @@ parts: [
   type: RegionPart
   x: 0
   y: 0
-  moveY: 0
   progress: warmup
   suffix: -side
   mirror: true
-  moveRot: 45
+  moveRot: -45
+  moveY: 8
   }
 ]
 }
