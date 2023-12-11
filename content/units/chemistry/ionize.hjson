@@ -96,7 +96,7 @@ melting
 weapons: [
 {
 name: ionize-weapon1
-reload: 10
+reload: 30
 range: 304
 rotate: false
 mirror: true
