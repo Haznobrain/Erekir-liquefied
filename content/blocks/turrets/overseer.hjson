@@ -6,6 +6,10 @@ type: ItemTurret
 size: 7
 shootSound: railgun
 inaccuracy: 0
+shootWarmupSpeed: 0.02
+minWarmup: 0.96
+category: turret
+predictTarget: false
 recoil: 4
 ammoCapacity: 100
 ammoUse: 20
