@@ -126,7 +126,7 @@ statusDuration: 300
     trailLength: 96
     pierce: true
     pierceBuilding: true
-    pierceCap: 5
+    pierceCap: 2
     status: erekirliquefied-ionized
     statusDuration: 360
 }
