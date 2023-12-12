@@ -81,15 +81,17 @@ parts: [
   x: 0
   y: 0
   moveY: -16
-  progress: recoil
+  progress: reload
   suffix: -barrel
+  heatColor: e2ff00
+  heatProgress: reload
   }
   {
   type: RegionPart
   x: 0
   y: 0
   moveY: -12
-  progress: recoil
+  progress: reload
   suffix: -mid
   }
   {
@@ -97,7 +99,7 @@ parts: [
   x: 0
   y: 0
   moveY: -6
-  progress: recoil
+  progress: reload
   suffix: -bottom
   }
   {
