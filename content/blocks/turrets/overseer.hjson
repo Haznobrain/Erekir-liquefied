@@ -107,12 +107,13 @@ parts: [
   mirror: true
   moveRot: -45
   moveY: 5
-  moveX: 15
+  moveX: 12
   moves: [
     {
     progress: recoil
     moveY: -32
     moveX: -6
+    moveRot: -15
     }
 ]
   }
