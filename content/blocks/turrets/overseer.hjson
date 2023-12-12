@@ -49,6 +49,8 @@ sizeFrom: 32
 sizeTo: 32
 randLength: false
 region: erekirliquefied-impervium-shoot
+colorFrom: 1dedc2
+colorTo: 1dedc2
 }
 smokeEffect: smokeCloud
 trailEffect: {
