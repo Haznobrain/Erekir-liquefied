@@ -45,7 +45,8 @@ trailWidth: 4
 shootEffect: {
 type: ParticleEffect
 length: 0
-size: 32
+sizeFrom: 32
+sizeTo: 32
 randLength: false
 region: erekirliquefied-impervium-shoot
 }
@@ -105,8 +106,15 @@ parts: [
   suffix: -side
   mirror: true
   moveRot: -45
-  moveY: 8
+  moveY: 5
   moveX: 15
+  moves: [
+    {
+    progress: recoil
+    moveY: -32
+    moveX: -6
+    }
+]
   }
 ]
 }
