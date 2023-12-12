@@ -104,20 +104,17 @@ parts: [
   type: RegionPart
   x: 0
   y: 0
-  progress: warmup
+  progress: {
+    type: warmup
+    op: blend
+    other: reload
+    amount: 0.5
+}
   suffix: -side
   mirror: true
   moveRot: -45
-  moveY: 5
-  moveX: 12
-  moves: [
-    {
-    progress: recoil
-    moveY: -32
-    moveX: -6
-    moveRot: -15
-    }
-]
+  moveY: -12
+  moveX: 8
   }
 ]
 }
