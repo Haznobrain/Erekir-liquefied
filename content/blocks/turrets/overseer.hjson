@@ -2,6 +2,7 @@ name: Overseer
 description:  A superweapon that shoots an hypersonic impervium bolt that deals massive area damage upon impact. Can be boosted with water.
 reload: 900
 range: 1680
+health: 68000
 type: ItemTurret
 size: 7
 shootSound: railgun
@@ -93,6 +94,8 @@ parts: [
   moveY: -12
   progress: reload
   suffix: -mid
+  heatColor: ffde55
+  heatProgress: reload
   }
   {
   type: RegionPart
