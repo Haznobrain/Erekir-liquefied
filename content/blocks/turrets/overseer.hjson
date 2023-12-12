@@ -105,7 +105,7 @@ parts: [
   mirror: true
   moveRot: -45
   moveY: 8
-  moveX: 16
+  moveX: 15
   }
 ]
 }
