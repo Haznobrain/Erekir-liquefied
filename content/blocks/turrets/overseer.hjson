@@ -45,6 +45,7 @@ trailWidth: 4
 shootEffect: {
 type: ParticleEffect
 length: 0
+size: 32
 randLength: false
 region: erekirliquefied-impervium-shoot
 }
