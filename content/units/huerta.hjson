@@ -24,6 +24,20 @@ engineOffset: 18
 engineSize: 8
 lightRadius: 200
 research: quell
+engines: [
+{
+x: 10
+y: -18
+rotation: 135
+radius: 8
+}
+{
+x: _10
+y: -18
+radius: 8
+rotation: -45
+}
+]
 weapons: [
 {
 name: huerta
@@ -55,17 +69,12 @@ x: 0
 y: 0
 mirror: true
 range: 160
-shootX: 18
+shootX: 16
 shootY: -1
 continuous: true
 alternate: false
 alwaysContinuous: true
 shootSound: torch
-shoot: {
-type: ShootSpread
-spread: 15
-shots: 3
-}
 bullet: {
     type: ContinuousFlameBulletType
     damage: 26
