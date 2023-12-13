@@ -25,6 +25,7 @@ fogRadius: 20
     reload: 10
     shootX: 3
     shootSound: pew
+    outline: false
     bullet: {
         collidesTeam: true
         damage: 8
