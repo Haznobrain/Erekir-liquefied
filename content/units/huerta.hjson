@@ -20,24 +20,21 @@ faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 45
-engineOffset: 16
+engineOffset: 18
 engineSize: 8
 lightRadius: 200
 research: quell
 weapons: [
 {
-name: huerta-weapon1
+name: huerta
 reload: 120
-recoil: 3
+recoil: 0
 shootSound: laser
 x: 0
 y: 0
 mirror: false
 range: 360
-  shoot: {
-    shots: 1
-    rotateSpeed: 3
-}
+top: false
 bullet: {
     type: LaserBoltBulletType
     length: 20
@@ -47,11 +44,12 @@ bullet: {
     collidesTeam: true
     lifetime: 72
     speed: 5
-    backColor: 19ff00
-    frontColor: 19ff00
+    backColor: 54d67d
+    frontColor: 96f58c
 }
 }
 {
+top: false
 name: huerta-weapon2
 x: 0
 y: 0
@@ -63,6 +61,11 @@ continuous: true
 alternate: false
 alwaysContinuous: true
 shootSound: torch
+shoot: {
+type: ShootSpread
+spread: 15
+shots: 3
+}
 bullet: {
     type: ContinuousFlameBulletType
     damage: 26
