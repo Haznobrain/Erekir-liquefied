@@ -29,6 +29,7 @@ weapons: [{
     mirror: false
     reload: 60
     shootSound: laser
+    top: false
     bullet: {
         damage: 25
         type: LaserBulletType
