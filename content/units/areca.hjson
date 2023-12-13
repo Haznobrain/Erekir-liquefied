@@ -34,18 +34,30 @@ weapons: [{
     innacuracy: 15
     shootSound: none
     ignoreRotation: true
+    shoot: {
+        shots: 5
+        shotDelay: 2
+        }
     bullet: {
         type: BombBulletType
         width: 14
         length: 12
-        frontColor: 28785c
-        backColor: 28785c
-        hitEffect: massiveExplosion
-        hitColor: 28785c
+        frontColor: 96f58c
+        backColor: 96f58c
+        hitEffect: {
+            type: ExplosionEffect
+            smokeColor: 96f58c
+            sparkColor: 96f58c
+            waveColor: 96f58c
+            waveRad: 40
+            smokeRad: 40
+            sparkRad: 40
+            }
+        hitColor: 96f58c
         shootEffect: none
         smokeEffect: none
         collidesTeam: true
-        healPercent: 5
+        healPercent: 1
         splashDamage: 75
         splashDamageRadius: 40
         }
