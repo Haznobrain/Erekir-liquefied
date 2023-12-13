@@ -38,14 +38,14 @@ fogRadius: 20
 }]
 engines: [
 {
-x: -4
-y: -6
+x: -3
+y: -5
 radius: 1
 rotation: -90
 }
 {
-x: 4
-y: -6
+x: 3
+y: -5
 radius: 1
 rotation: -90
 }
