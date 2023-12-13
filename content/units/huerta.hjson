@@ -93,7 +93,7 @@ type: ForceFieldAbility
 radius: 80
 color: d1efff
 max: 2500
-regen: 1
+regen: 2
 cooldown: 360
 sides: 5
 }
