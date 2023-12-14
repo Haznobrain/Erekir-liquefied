@@ -4,6 +4,7 @@ name: Oxidize
 armor: 2
 health: 740
 description: Shoots a small oxidizing bullet at ennemy targets.
+hovering: true
 speed: 0.9
 hitSize: 12
 rotateSpeed: 3
