@@ -7,7 +7,7 @@ difficulty: 8
 planet: erekir
 allowLaunchLoadout: false
 allowLaunchSchematics: false
-addStartingItems: false
+addStartingItems: true
 overrideLaunchDefaults: true
 research: {
 parent: stronghold
