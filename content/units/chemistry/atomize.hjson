@@ -3,6 +3,7 @@ type: legs
 name: Atomize
 health: 34000
 armor: 18
+hovering: true
 description: Has a mounted malign and a bunch of small cannons for the annihilation of ennemy targets.
 speed: 0.45
 multiTarget: false
