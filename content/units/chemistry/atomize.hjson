@@ -9,6 +9,7 @@ speed: 0.45
 multiTarget: false
 singleTarget: true
 hitSize: 52
+allowLegStep: true
 rotateSpeed: 2.0
 legStraightness: 0.3
 legSpeed: 0.45
