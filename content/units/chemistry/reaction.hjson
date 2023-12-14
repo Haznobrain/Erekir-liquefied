@@ -9,6 +9,7 @@ multiTarget: true
 singleTarget: false
 hitSize: 32
 rotateSpeed: 2.5
+hovering: true
 legStraightness: 0.2
 legSpeed: 0.5
 legCount: 10
