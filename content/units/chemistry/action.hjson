@@ -7,7 +7,6 @@ description: Shoots firey projectiles at ennemy targets.
 speed: 0.8
 hitSize: 20
 hovering: true
-groundLayer: legUnit
 allowLegStep: true
 rotateSpeed: 2.5
 legStraightness: 0.1
