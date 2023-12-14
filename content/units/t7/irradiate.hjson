@@ -9,6 +9,7 @@ multiTarget: true
 singleTarget: false
 hitSize: 60
 hovering: true
+allowLegStep: true
 rotateSpeed: 2
 legStraightness: 0.2
 legSpeed: 0.5
