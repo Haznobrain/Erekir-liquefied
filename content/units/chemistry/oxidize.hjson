@@ -11,6 +11,7 @@ rotateSpeed: 3
 legStraightness: 0.6
 legSpeed: 0.9
 legCount: 6
+allowLegStep: true
 legLength: 10
 lockLegBase: true
 legContinuousMove: true
