@@ -51,10 +51,20 @@ y: 0
 mirror: false
 range: 360
   shoot: {
-    firstShotDelay: 65
-    type: ShootHelix
-    shots: 5
-    spread: 15
+type: ShootMulti
+source: ShootSpread
+dest: [
+{
+  type: ShootSpread
+  shots: 5
+  spread: 15
+}
+{
+  type: ShootHelix
+  scl: 4
+  mag: 3
+}
+]
 }
 parentizeEffects: true
 bullet: {
