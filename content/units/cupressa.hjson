@@ -7,6 +7,7 @@ health: 24000
 rotateSpeed: 0.8
 lowAltitude: false
 hitSize: 52
+controller: DefenderAi
 armor: 26
 fallSpeed: 0.006
 payloadCapacity: 5184
