@@ -84,6 +84,7 @@ continuous: true
 alternate: false
 alwaysContinuous: true
 shootSound: torch
+layerOffset: -20
 bullet: {
     type: ContinuousFlameBulletType
     damage: 26
