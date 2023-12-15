@@ -18,7 +18,7 @@ shoot: {
         shotDelay: 5
         shots: 5
 }
-shootY: 25
+shootY: 24
         shootEffect: {
           type: ParticleEffect
           cone: 9
@@ -32,7 +32,7 @@ shootY: 25
           }
   ammoTypes:{
     ozone: {
-        damage: 50
+        damage: 75
         hitSize: 7
         speed: 8
         lifetime: 24
@@ -52,7 +52,7 @@ shootY: 25
         boilTime: 1000000
           }
     hydrogen: {
-        damage: 45
+        damage: 65
         hitSize: 7
         speed: 8
         pierceBuilding: true
@@ -76,7 +76,7 @@ shootY: 25
         velMax: 9
           }
    cyanogen: {
-        damage: 65
+        damage: 115
         hitSize: 7
         pierceBuilding: true
         speed: 8
@@ -100,7 +100,7 @@ shootY: 25
         velMax: 9
           }
    azpanogen: {
-        damage: 70
+        damage: 135
         hitSize: 7
         speed: 8
         pierceBuilding: true
