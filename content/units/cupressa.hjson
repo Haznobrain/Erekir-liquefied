@@ -52,28 +52,17 @@ mirror: false
 range: 360
   shoot: {
     firstShotDelay: 65
+    type: ShootHelix
 }
 parentizeEffects: true
 bullet: {
-    type: LaserBulletType
-    length: 360
-    damage: 720
-    lifetime: 65
-    width: 80
     lightningSpacing: 32
     lightningLength: 7
     lightningDelay: 15
     lightningLengthRand: 15
     lightningDamage: 45
     lightningAngleRand: 30
-    largeHit: true
     chargeEffect: greenLaserCharge
-    healPercent: 100
-    collidesTeam: true
-    sideAngle: 15
-    sideWidth: 0
-    sideLength: 0
-colors: [96f58c, 54d67d, 28785c]
 }
 }
 {
