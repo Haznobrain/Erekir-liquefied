@@ -2,7 +2,7 @@ name: Cupressa
 template: ErekirUnitType
 type: payload
 flying: true
-description: A large flying unit with high health and armor that posses a strong shield and powerful healing and building capabilities. Can carry large payloads.
+description: A large flying unit with high health and armor that posseses a strong shield and powerful healing and building capabilities. Can carry large payloads.
 health: 24000
 rotateSpeed: 0.8
 hitSize: 52
@@ -30,9 +30,10 @@ lightRadius: 200
 research: disrupt
 weapons: [
 {
-name: cupressa-weapon1
+name: cupressa
 reload: 800
 recoil: 3
+top: false
 shootSound: laserblast
 chargeSound: lasercharge
 x: 0
