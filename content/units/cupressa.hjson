@@ -5,6 +5,7 @@ flying: true
 description: A large flying unit with high health and armor that posseses a strong shield and powerful healing and building capabilities. Can carry large payloads.
 health: 24000
 rotateSpeed: 0.8
+lowAltitude: false
 hitSize: 52
 armor: 26
 fallSpeed: 0.006
