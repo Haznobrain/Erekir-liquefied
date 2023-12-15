@@ -7,19 +7,24 @@ health: 6450
 targetGround: true
 targetAir: false
 rotateSpeed: 2.8
-reload: 2
+reload: 10
 recoil: 1
 shootSound: artillery
 loopSound: none
 inaccuracy: 15
 despawnHit: true
+shoot: {
+        type: ShootPatern
+        shotDelay: 5
+        shots: 5
+}
 shootY: 25
         shootEffect: {
           type: ParticleEffect
           cone: 15
           particles: 20
           sizeFrom: 10
-          sizeTo: 4
+          sizeTo: 0
           colorFrom: ffce32
           colorTo: 2c2b2b
           baseLength: 0
