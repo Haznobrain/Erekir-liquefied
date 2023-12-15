@@ -22,11 +22,16 @@ engineOffset: 24
 engineSize: 12
 engines: [
 {
-    y: -26
+    y: -20
     x: -24
-    size: 8
-    mirror: true
-    rotation: 45
+    radius: 8
+    rotation: -45
+      }
+{
+    y: -20
+    x: -24
+    radius: 8
+    rotation: -135
       }
 ]
 lightRadius: 200
