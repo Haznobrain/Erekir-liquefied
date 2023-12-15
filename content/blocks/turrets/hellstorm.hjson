@@ -13,22 +13,22 @@ shootSound: artillery
 loopSound: none
 inaccuracy: 15
 despawnHit: true
-  ammoTypes:{
-    ozone: {
-        damage: 50
-        speed: 8
-        lifetime: 24
         shootEffect: {
           type: ParticleEffect
           cone: 15
           particles: 20
           sizeFrom: 6
           sizeTo: 0
-          colorFrom: ff97f4
+          colorFrom: ffce32
           colorTo: 2c2b2b
           lengthFrom: 0
           lengthTo: 192
           }
+  ammoTypes:{
+    ozone: {
+        damage: 50
+        speed: 8
+        lifetime: 24
         effectColor: ff89a8
         type: BulletType
         colorFrom: ff89a8
