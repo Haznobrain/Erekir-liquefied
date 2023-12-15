@@ -62,7 +62,51 @@ bullet: {
     lightningLengthRand: 15
     lightningDamage: 45
     lightningAngleRand: 30
+    lightningColor: 47ff00
     chargeEffect: greenLaserCharge
+      type: BasicBulletType
+  width: 18
+  height: 18
+  speed: 3
+  lifetime: 120
+  shootEffect: {
+    type: MultiEffect
+effects: [
+{
+        effect: shootTitan
+}
+{
+type: WaveEffect
+colorTo: 47ff00
+sizeTo: 30
+lifetime: 20
+strokeFrom: 4
+}
+]
+}
+backColor: 28785c
+frontColor: 54d67d
+trailEffect: missileTrail
+trailInterval: 3
+trailParam: 4
+damage: 245
+splashDamage: 125
+splashDamageRadius: 60
+sprite: large-orb
+trailColor: 54d67d
+trailLength: 40
+trailWidth: 2
+collidesTeam: true
+healPercent: 25
+despawnEffect: {
+  type: ExplosionEffect
+  waveColor: 54d67d
+  smokeColor: 28785c
+  sparkColor: 28785c
+  waveStroke: 6
+  waveRad: 60
+}
+}
 }
 }
 {
