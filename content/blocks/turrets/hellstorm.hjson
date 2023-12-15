@@ -17,7 +17,7 @@ despawnHit: true
           type: ParticleEffect
           cone: 15
           particles: 20
-          sizeFrom: 6
+          sizeFrom: 10
           sizeTo: 0
           colorFrom: ffce32
           colorTo: 2c2b2b
