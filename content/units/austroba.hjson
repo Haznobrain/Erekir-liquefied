@@ -6,6 +6,7 @@ description: A small support unit that heals blocks and units while protecting t
 health: 750
 hitSize: 14
 armor: 2
+controller: DefenderAi
 mineFloor: false
 mineWalls: true
 mineHardnessScaling: false
