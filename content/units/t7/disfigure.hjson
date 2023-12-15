@@ -12,6 +12,7 @@ faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 32
+fallSpeed: 0.002
 engineOffset: 58
 engineSize: 18
 engines: [
