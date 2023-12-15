@@ -53,6 +53,8 @@ range: 360
   shoot: {
     firstShotDelay: 65
     type: ShootHelix
+    shots: 5
+    spread: 15
 }
 parentizeEffects: true
 bullet: {
@@ -89,8 +91,8 @@ frontColor: 54d67d
 trailEffect: missileTrail
 trailInterval: 3
 trailParam: 4
-damage: 245
-splashDamage: 125
+damage: 85
+splashDamage: 95
 splashDamageRadius: 60
 sprite: large-orb
 trailColor: 54d67d
