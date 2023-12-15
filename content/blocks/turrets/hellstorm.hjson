@@ -21,15 +21,14 @@ despawnHit: true
           sizeTo: 0
           colorFrom: ffce32
           colorTo: 2c2b2b
-          lengthFrom: 0
-          lengthTo: 192
+          baseLength: 0
+          length: 192
           }
   ammoTypes:{
     ozone: {
         damage: 50
         speed: 8
         lifetime: 24
-        effectColor: ff89a8
         type: BulletType
         colorFrom: ff89a8
         colorMid: 723848
