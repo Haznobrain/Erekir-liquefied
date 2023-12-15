@@ -13,6 +13,7 @@ shootSound: artillery
 loopSound: none
 inaccuracy: 15
 despawnHit: true
+shootY: 25
         shootEffect: {
           type: ParticleEffect
           cone: 15
