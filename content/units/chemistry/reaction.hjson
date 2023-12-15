@@ -113,22 +113,29 @@ shootY: 8
 shootStatus: slow
 inaccuracy: 15
   bullet: {
+        shootEffect: {
+          type: ParticleEffect
+          cone: 9
+          particles: 20
+          sizeFrom: 10
+          sizeTo: 0
+          colorFrom: ffce32
+          colorTo: 2c2b2b
+          baseLength: 0
+          length: 290
+          }
         type: BasicBulletType
         sprite: large-orb
         weaveMag: 2
         weaveScale: 2
         lifetime: 85
         speed: 3
-        shootEffect: shootPyraFlame
         damage: 55
         makeFire: true
         frontColor: ffffff
         backColor: ffdf62
         lightColor: ffdf62
         hitEffect: hitFlameSmall
-        mixColorTo: 6e7080
-        trailEffect: shootPyraFlame
-        trailInterval: 6
 }
 }
 {
