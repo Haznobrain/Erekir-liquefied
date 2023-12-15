@@ -69,6 +69,18 @@ dest: [
 }
 parentizeEffects: true
 bullet: {
+     hitPowerEffect: {
+          type: ParticleEffect
+          line: true
+          particles: 6
+          lifetime: 22
+          length: 80
+          cone: -360
+          lenFrom: 6
+          lenTo: 6
+          colorFrom: FFFFFFF,
+          colorTo: 96f58c
+        }
     lightningSpacing: 32
     lightningLength: 7
     lightningDelay: 15
