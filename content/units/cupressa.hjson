@@ -7,6 +7,7 @@ health: 24000
 rotateSpeed: 0.8
 hitSize: 52
 armor: 26
+fallSpeed: 0.006
 payloadCapacity: 5184
 buildSpeed: 7.5
 speed: 0.5
