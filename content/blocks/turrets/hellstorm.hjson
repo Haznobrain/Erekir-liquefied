@@ -22,7 +22,7 @@ despawnHit: true
           colorFrom: ffce32
           colorTo: 2c2b2b
           baseLength: 0
-          length: 192
+          length: 210
           }
   ammoTypes:{
     ozone: {
