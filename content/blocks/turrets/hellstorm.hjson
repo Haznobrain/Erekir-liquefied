@@ -33,6 +33,7 @@ shootY: 25
   ammoTypes:{
     ozone: {
         damage: 50
+        hitSize: 7
         speed: 8
         lifetime: 24
         type: BulletType
@@ -52,6 +53,7 @@ shootY: 25
           }
     hydrogen: {
         damage: 45
+        hitSize: 7
         speed: 8
         pierceBuilding: true
         lifetime: 24
@@ -75,6 +77,7 @@ shootY: 25
           }
    cyanogen: {
         damage: 65
+        hitSize: 7
         pierceBuilding: true
         speed: 8
         lifetime: 24
@@ -98,6 +101,7 @@ shootY: 25
           }
    azpanogen: {
         damage: 70
+        hitSize: 7
         speed: 8
         pierceBuilding: true
         lifetime: 24
