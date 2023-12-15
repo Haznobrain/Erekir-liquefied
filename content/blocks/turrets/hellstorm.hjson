@@ -11,7 +11,7 @@ reload: 10
 recoil: 1
 shootSound: artillery
 loopSound: none
-inaccuracy: 15
+inaccuracy: 9
 despawnHit: true
 shoot: {
         type: ShootPatern
@@ -21,7 +21,7 @@ shoot: {
 shootY: 25
         shootEffect: {
           type: ParticleEffect
-          cone: 15
+          cone: 9
           particles: 20
           sizeFrom: 10
           sizeTo: 0
@@ -37,6 +37,7 @@ shootY: 25
         lifetime: 24
         type: BulletType
         colorFrom: ff89a8
+        pierceBuilding: true
         colorMid: 723848
         colorTo: 0f090b
         radius: 4
@@ -52,8 +53,7 @@ shootY: 25
     hydrogen: {
         damage: 45
         speed: 8
-        trailEffect: shootSmallFlame
-        trailChance: 1
+        pierceBuilding: true
         lifetime: 24
         effectColor: ff89a8
         type: FireBulletType
@@ -75,8 +75,7 @@ shootY: 25
           }
    cyanogen: {
         damage: 65
-        trailEffect: shootSmallFlame
-        trailChance: 1
+        pierceBuilding: true
         speed: 8
         lifetime: 24
         effectColor: ff89a8
@@ -100,9 +99,8 @@ shootY: 25
    azpanogen: {
         damage: 70
         speed: 8
-        trailChance: 1
+        pierceBuilding: true
         lifetime: 24
-        trailEffect: shootSmallFlame
         effectColor: ff89a8
         type: FireBulletType
         colorFrom: 187227
