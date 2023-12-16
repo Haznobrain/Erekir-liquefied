@@ -7,6 +7,22 @@ health: 32000
 hitSize: 100
 armor: 100
 speed: 0.6
+engineSize: 8
+engineOffset: 50
+engines: [
+  {
+    x: 40
+    radius: 8
+    rotation: -45
+    y: -40
+}
+  {
+    x: -40
+    radius: 8
+    rotation: -135
+    y: -40
+}
+]
 targetAir: false
 faceTargets: true
 lightRadius: 5
@@ -33,6 +49,8 @@ engineColor: ff0000
   name: basaltoid
     bullet: {
     shootEffect: {
+      cone: 5
+      sizeFrom: 12
       type: ParticleEffect
       particles: 20
       colorFrom: ffffff
