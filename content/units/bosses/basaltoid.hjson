@@ -7,6 +7,61 @@ health: 32000
 hitSize: 100
 armor: 100
 speed: 0.6
+fallSpeed: 0.0015
+fallEffect: {
+type: ParticleEffect
+length: 24
+colorFrom: ff0000
+colorTo: 4d4b4b
+}
+fallEngineEffect: {
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+length: 24
+colorFrom: ff0000
+colorTo: 4d4b4b
+}
+{
+type: WaveEffect
+colorFrom: ff0000
+colorTo: ffffff
+sizeTo: 32
+}
+]
+}
+deathExplosionEffect: {
+type: MultiEffect
+effects: [
+  {
+    type: ParticleEffect
+    colorFrom: ff0000
+    colorTo: 4d4b4b
+    sizeFrom: 24
+    sizeTo: 20
+    lifetime: 48
+    particles: 15
+    length: 200
+  }
+  {
+  type: WaveEffect
+  colorFrom: ff0000
+  colorTo: 4d4b4b
+  sizeTo: 200
+  }
+    {
+    type: ParticleEffect
+    colorFrom: c9c9c9
+    colorTo: 4d4b4b
+    sizeFrom: 24
+    sizeTo: 20
+    lifetime: 120
+    particles: 15
+    length: 200
+  }
+]
+}
 engineSize: 8
 engineOffset: 50
 engines: [
