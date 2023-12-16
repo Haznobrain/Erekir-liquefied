@@ -40,6 +40,7 @@ faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 50
+rotateSpeed: 0.9
 engineColor: ff0000
   weapons: [{
     name: basaltoid
@@ -63,6 +64,7 @@ engineColor: ff0000
     bullet: {
     shootEffect: {
       cone: 5
+      despawnHit: false
       despawnEffect: none
       hitEffect: flame
       sizeFrom: 12
