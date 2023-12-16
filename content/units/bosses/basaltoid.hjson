@@ -1,1 +1,87 @@
-
+name: Basaltoid
+template: ErekirUnitType
+type: flying
+flying: true
+description: a simple and fast air specialist that shoots a piercing laser at ennemy targets.
+health: 32000
+hitSize: 100
+armor: 100
+speed: 0.6
+targetAir: false
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 50
+engineOffset: 5
+engineColor: ff0000
+  weapons: [{
+    name: basaltoid
+    shootSound: flame
+    y: 0
+    mirror: false
+    x: 0
+    reload: 10
+    shootCone: 5
+    range: 280
+    inaccuracy: 6
+    shoot: {
+      shots: 5
+      shotDelay: 5
+}
+shootEffect: {
+  type: ParticleEffect
+  particles: 20
+  colorFrom: ffffff
+  colorTo: ff0000
+  length: 300
+}
+  lengthBase: 0
+  top: false
+  name: basaltoid
+    bullet: {
+      absorbable: true
+      type: BulletType
+      damage: 210
+      pierceCap: 5
+      pierce: true
+      pierceBuilding: true
+      hitSize: 8
+      status: melting
+      statusDuration: 900
+        }
+  parts: [
+    {
+    type: RegionPart
+    suffix: -blade
+    x: 0
+    y: 0
+    moveRot: 25
+    moveX: 8
+    moveY: 5
+    mirror: true
+    heatProgress: warmup
+    heatColor: ff7a00
+    }
+]
+}
+{
+name: basaltoid-laser
+reload: 300
+mirror: true
+x: 32
+y: -16
+shootSound: laser
+soundPitchMin: -10
+soundPitchMax: 0
+range: 200
+cooldownTime: 600
+bullet: {
+  type: LaserBulletType
+  damage: 235
+  colors: [ff0000,ff0000,ff0000]
+  length: 200
+  width: 6
+  }
+}
+}]
+lightRadius: 200
