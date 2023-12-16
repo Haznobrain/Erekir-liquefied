@@ -60,6 +60,28 @@ effects: [
     particles: 15
     length: 200
   }
+  {
+    type: ParticleEffect
+    colorFrom: ff0000
+    colorTo: 4d4b4b
+    sizeFrom: 20
+    sizeTo: 24
+    lifetime: 65
+    particles: 15
+    length: 200
+  }
+  {
+    type: ParticleEffect
+    colorFrom: ff0000
+    colorTo: 4d4b4b
+    sizeFrom: 20
+    sizeTo: 24
+    lifetime: 65
+    particles: 15
+    randLength: false
+    length: 200
+    region: erekirliquefied-electric-shoot
+  }
 ]
 }
 engineSize: 8
