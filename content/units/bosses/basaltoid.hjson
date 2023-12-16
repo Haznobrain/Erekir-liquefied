@@ -28,20 +28,22 @@ engineColor: ff0000
       shots: 5
       shotDelay: 5
 }
-shootEffect: {
-  type: ParticleEffect
-  particles: 20
-  colorFrom: ffffff
-  colorTo: ff0000
-  length: 300
-}
   lengthBase: 0
   top: false
   name: basaltoid
     bullet: {
+    shootEffect: {
+      type: ParticleEffect
+      particles: 20
+      colorFrom: ffffff
+      colorTo: ff0000
+      length: 300
+      }
       absorbable: true
       type: BulletType
       damage: 210
+      speed: 8
+      lifetime: 35
       pierceCap: 5
       pierce: true
       pierceBuilding: true
