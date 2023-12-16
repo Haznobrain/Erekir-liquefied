@@ -2,7 +2,7 @@ name: Basaltoid
 template: ErekirUnitType
 type: flying
 flying: true
-description: a simple and fast air specialist that shoots a piercing laser at ennemy targets.
+description: Scorched wrecks of those that once stood before it is all that remains.
 health: 32000
 hitSize: 100
 armor: 100
