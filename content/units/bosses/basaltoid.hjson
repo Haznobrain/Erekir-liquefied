@@ -63,6 +63,8 @@ engineColor: ff0000
     bullet: {
     shootEffect: {
       cone: 5
+      despawnEffect: none
+      hitEffect: flame
       sizeFrom: 12
       type: ParticleEffect
       particles: 20
