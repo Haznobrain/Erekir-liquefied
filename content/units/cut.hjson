@@ -17,6 +17,8 @@ engineSize: 6
 engineColor: d4816b
   weapons: [
 {
+    name: cut
+    top: false
     shootSound: laser
     y: 6
     mirror: false
@@ -35,8 +37,11 @@ engineColor: d4816b
 {
   name: cut-weapon1
     mirror: true
-    y: -4
-    x: -6
+    y: 0
+    top: false
+    x: 0
+    shootX: 7
+    shootY: -1
     reload: 30
     shootCone: 15
     range: 160
