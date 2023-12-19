@@ -13,7 +13,6 @@ lightRadius: 5
 singleTarget: true
 fogRadius: 20
 engineOffset: 5
-engineColor: d4816b
   weapons: [{
     shootSound: laser
     y: 4
