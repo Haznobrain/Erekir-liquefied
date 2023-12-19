@@ -20,7 +20,8 @@ engineColor: d4816b
     name: cut
     top: false
     shootSound: laser
-    y: 6
+    y: 0
+    shootY: 6
     mirror: false
     x: 0
     reload: 45
