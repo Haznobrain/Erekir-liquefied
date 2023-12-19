@@ -25,6 +25,7 @@ engineColor: d4816b
     mirror: false
     x: 0
     reload: 45
+    recoil: 0
     shootCone: 5
     range: 124
     bullet: {
