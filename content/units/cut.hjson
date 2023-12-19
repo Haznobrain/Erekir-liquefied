@@ -27,7 +27,7 @@ y: -4
 rotation: 45
 radius: 3
 }
-engineColor: d4816b
+]
   weapons: [
 {
     name: cut
