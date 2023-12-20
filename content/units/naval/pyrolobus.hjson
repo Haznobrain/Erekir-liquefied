@@ -22,6 +22,7 @@ melting
     x: -6
     reload: 10
     shootCone: 5
+    top: false
     range: 176
     rotate: true
     name: small-gun
