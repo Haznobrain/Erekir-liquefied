@@ -17,7 +17,7 @@ burning,
 melting
 ]
   weapons: [{
-    y: 2
+    y: 6
     mirror: true
     x: -6
     reload: 10
