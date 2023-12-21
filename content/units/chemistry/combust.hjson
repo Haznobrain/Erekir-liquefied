@@ -2,23 +2,23 @@ template: ErekirUnitType
 type: legs
 name: combust
 health: 500
-description: explodes on ennemy targets spreading fire. very fast but takes a long time to reach max speed.
+description: Shoots a small short range flame at ennemies.
 speed: 1.1
 hitSize: 5
 hovering: true
 rotateSpeed: 12
 legStraightness: 0.3
 allowLegStep: true
-legSpeed: 0.5
+legSpeed: 1.1
 legCount: 4
 legLength: 8
 lockLegBase: true
 legContinuousMove: true
 legExtension: -2
 legBaseOffset: 5
-legMaxLength: 1.5
+legMaxLength: 1.05
 legLengthScl: 0.96
-legMinLength: 0.8
+legMinLength: 0.95
 legForwardScale: 1.1
 legGroupSize: 2
 rippleScale: 0.2
