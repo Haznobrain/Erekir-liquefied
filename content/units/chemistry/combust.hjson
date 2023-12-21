@@ -59,7 +59,7 @@ weapons: [
       particles: 0
 }
     type: BulletType
-      damage: 40
+      damage: 7
       speed: 8
       lifetime: 7
       hitSize: 7
