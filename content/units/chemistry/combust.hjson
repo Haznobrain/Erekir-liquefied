@@ -15,7 +15,7 @@ legLength: 8
 lockLegBase: true
 legContinuousMove: true
 legExtension: -2
-legBaseOffset: 2
+legBaseOffset: 6
 legMaxLength: 1.5
 legLengthScl: 0.96
 legMinLength: 0.8
@@ -33,9 +33,11 @@ weapons: [
   reload: 10
   range: 56
   x: 0
+  innacurracy: 5
   mirror: false
   bullet: {
   shootEffect: {
+    cone: 5
     type: ParticleEffect
     particles: 12
     colorFrom: ffdf62
