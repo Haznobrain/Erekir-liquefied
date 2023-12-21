@@ -27,20 +27,26 @@ allowLegStep: true
 legPhysicsLayer: false
 weapons: [
 {
-  reload: 60
+  name: combust
+  recoil: 0
+  shootSound: flame
+  reload: 10
   range: 56
+  shootEffect: {
+    type: ParticleEffect
+    particles: 12
+    colorFrom: ffdf62
+    colorTo: 3e3e3e
+    length: 60
+    lengthBase: 0
+    sizeTo: 0
+}
   bullet: {
-    shootSound: blaster
-    trailEffect: missileTrail
-    type: ExplosionBulletType
-      splashDamage: 95
-      splashDamageRadius: 64
-        fragBullets: 5
-          fragBullet: {
-            damage: 15
-            makeFire: true
-            trailEffect: smoke
-            }
+    type: BulletType
+      Damage: 40
+      speed: 8
+      lifetime: 7
+      hitSize: 7
 }
 }
 ]
