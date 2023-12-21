@@ -20,9 +20,9 @@ legMaxLength: 1.5
 legLengthScl: 0.96
 legMinLength: 0.8
 legForwardScale: 1.1
-legGroupSize: 3
+legGroupSize: 2
 rippleScale: 0.2
-legMoveSpace: 1
+legMoveSpace: 2
 allowLegStep: true
 legPhysicsLayer: false
 weapons: [
@@ -51,6 +51,10 @@ weapons: [
     sizeTo: 0
 }
     hitEffect: {
+      type: ParticleEffect
+      particles: 0
+}
+    despawnEffect: {
       type: ParticleEffect
       particles: 0
 }
