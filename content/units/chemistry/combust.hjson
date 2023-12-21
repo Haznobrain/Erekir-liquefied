@@ -11,7 +11,7 @@ legStraightness: 0.3
 allowLegStep: true
 legSpeed: 0.5
 legCount: 4
-legLength: 8
+legLength: 6
 lockLegBase: true
 legContinuousMove: true
 legExtension: -2
