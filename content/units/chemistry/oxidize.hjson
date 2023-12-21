@@ -2,7 +2,7 @@ template: ErekirUnitType
 type: legs
 name: Oxidize
 armor: 2
-health: 740
+health: 1100
 description: Shoots a small oxidizing bullet at ennemy targets.
 hovering: true
 speed: 0.9
