@@ -46,6 +46,7 @@ weapons: [
     lengthBase: 0
     sizeTo: 0
 }
+    hitEffect: none
     type: BulletType
       Damage: 40
       speed: 8
