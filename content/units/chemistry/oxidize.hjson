@@ -45,7 +45,6 @@ weapons: [
   bullet: {
     trailEffect: {
       type: ParticleEffect
-      region: erekirliquefied-bullet-resonance
       lifetime: 100
       colorFrom: aaffa7
       colorTo: aaffa7
@@ -56,7 +55,7 @@ weapons: [
 }
     trailRotation: true
     trailParam: 1.8
-    trailInterval: 6
+    trailInterval: 1
     trailColor: aaffa7
     trailLength: 32
     trailWidth: 4
