@@ -54,7 +54,6 @@ weapons: [
       randLength: false
       length: 0
 }
-}
     trailParam: 1.8
     trailInterval: 6
     trailColor: aaffa7
