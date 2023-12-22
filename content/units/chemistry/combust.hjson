@@ -63,6 +63,7 @@ weapons: [
       speed: 8
       lifetime: 7
       hitSize: 7
+      makeFire: true
 }
 }
 ]
