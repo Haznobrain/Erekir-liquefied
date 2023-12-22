@@ -1,4 +1,5 @@
 name: Cesium
+type: Item
   color: ba914d
   explosiveness: 0.2
   flammability: 0.05
