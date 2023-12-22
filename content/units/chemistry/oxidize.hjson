@@ -72,9 +72,21 @@ weapons: [
       colorTo: aaffa7
       sizeFrom: 12
       sizeTo: 0
+      lifetime: 12
       }
 ]
 }
+despawnEffect: {
+  type: ParticleEffect
+  line: true
+  cone: 25
+  particles: 8
+  colorFrom: aaffa7
+  colorTo: aaffa7
+  length: 12
+  lengthBase: 0
+}
+    despawnHit: false
     trailRotation: true
     trailParam: 1.8
     trailInterval: 1
