@@ -42,6 +42,7 @@ weapons: [
     shotDelay: 10
 }
   shootSound: blaster
+  heatColor: aaffa7
   bullet: {
     trailEffect: {
       type: ParticleEffect
