@@ -53,6 +53,28 @@ weapons: [
       randLength: false
       length: 0
 }
+  hitEffect: {
+    type: SeqEffect
+    effects: [
+      {
+      type: ParticleEffect
+      line: true
+      colorFrom: aaffa7
+      colorTo: aaffa7
+      length: 12
+      lengthBase: 0
+      particles: 8
+      lifetime: 12
+      }
+      {
+      type: WaveEffect
+      colorFrom: aaffa7
+      colorTo: aaffa7
+      sizeFrom: 12
+      sizeTo: 0
+      }
+]
+}
     trailRotation: true
     trailParam: 1.8
     trailInterval: 1
