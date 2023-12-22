@@ -95,7 +95,6 @@ despawnEffect: {
     trailWidth: 4
     type: BasicBulletType
       damage: 25
-      splashDamageRadius: 64
       lifetime: 23
       speed: 5
       sprite: erekirliquefied-bullet-resonance
