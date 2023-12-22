@@ -86,6 +86,16 @@ despawnEffect: {
   length: 12
   lengthBase: 0
 }
+shootEffect: {
+  type: ParticleEffect
+  line: true
+  cone: 45
+  particles: 12
+  colorFrom: aaffa7
+  colorTo: aaffa7
+  length: 24
+  lengthBase: 0
+}
     despawnHit: false
     trailRotation: true
     trailParam: 1.8
