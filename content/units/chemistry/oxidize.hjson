@@ -3,7 +3,7 @@ type: legs
 name: Oxidize
 armor: 2
 health: 1100
-description: Shoots a small oxidizing bullet at ennemy targets.
+description: Shoots salvos of oxidizing bullet at ennemy targets.
 hovering: true
 speed: 0.9
 hitSize: 12
@@ -28,27 +28,46 @@ allowLegStep: true
 legPhysicsLayer: false
 weapons: [
 {
-  name: oxidize-weapon
-  reload: 45
+  name: oxidize
+  reload: 160
   recoil: 0
   range: 112
   mirror: false
   x: 0
   y: 0
   shootY: 6
+  shoot: {
+    type: ShootPattern
+    shots: 10
+    shotDelay: 10
+}
+  shootSound: blaster
   bullet: {
-    trailEffect: missileTrail
+    trailEffect: {
+      type: ParticleEffect
+      region: erekirliquefied-bullet-resonance
+      lifetime: 100
+      colorFrom: aaffa7
+      colorTo: aaffa7
+      sizeFrom: 3
+      sizeTo: 0
+      randLength: false
+      length: 0
+}
+}
     trailParam: 1.8
     trailInterval: 6
-    trailColor: 3f523d
+    trailColor: aaffa7
+    trailLength: 32
+    trailWidth: 4
     type: BasicBulletType
-      damage: 50
+      damage: 25
       splashDamageRadius: 64
       lifetime: 23
       speed: 5
       sprite: erekirliquefied-bullet-resonance
-      backColor: 323d39
-      frontColor: 3f523d
+      backColor: aaffa7
+      frontColor: aaffa7
       status: erekirliquefied-oxidized
       statusDuration: 300
 }
