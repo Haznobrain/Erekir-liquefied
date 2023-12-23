@@ -72,8 +72,22 @@ shoot: {
         weaveScale: 4
         lifetime: 85
         speed: 3
-        shootEffect: shootBig2
-        smokeEffect: shootSmokeTitan
+        shootEffect: {
+          type: ParticleEffect
+          length: 16
+          particles: 16
+          colorTo: ffe995
+          colorFrom: ffe995
+          cone: 25
+        }
+        smokeEffect: {
+          type: ParticleEffect
+          particles: 10
+          colorFrom: ffe995
+          colorTo: ffe995
+          length: 20
+          cone: 25
+        }
         damage: 80
         makeFire: true
         frontColor: ffffff
