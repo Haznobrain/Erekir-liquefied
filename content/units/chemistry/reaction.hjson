@@ -12,6 +12,7 @@ engineOffset: 16
 engineSize: 10
 engineColor: ffdf62
 canBoost: true
+groundLayer: 74
 boostMultiplier: 1.3
 rotateSpeed: 2.5
 hovering: true
