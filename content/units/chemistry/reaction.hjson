@@ -8,6 +8,10 @@ speed: 0.75
 multiTarget: true
 singleTarget: false
 hitSize: 32
+engineOffset: 16
+engineSize: 10
+engineColor: ffdf62
+canBoost: true
 rotateSpeed: 2.5
 hovering: true
 legStraightness: 0.2
@@ -113,29 +117,13 @@ shootY: 8
 shootStatus: slow
 inaccuracy: 15
   bullet: {
-        shootEffect: {
-          type: ParticleEffect
-          cone: 9
-          particles: 20
-          sizeFrom: 10
-          sizeTo: 0
-          colorFrom: ffce32
-          colorTo: 2c2b2b
-          baseLength: 0
-          length: 290
-          }
-        type: BasicBulletType
-        sprite: large-orb
-        weaveMag: 2
-        weaveScale: 2
-        lifetime: 85
-        speed: 3
-        damage: 55
-        makeFire: true
-        frontColor: ffffff
-        backColor: ffdf62
-        lightColor: ffdf62
-        hitEffect: hitFlameSmall
+    type: ContinuousFlameBulletType
+    width: 8
+    flareColor: ffdf62
+    colors: [ffdf62, ffe995, fff3c6, fff7d7, ffffff]
+    damage: 31.7
+    length: 280
+    pierceCap: 3
 }
 }
 {
