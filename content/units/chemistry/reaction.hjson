@@ -100,7 +100,7 @@ progress: warmup
 ]
 weapons: [
 {
-reload: 2
+continuous: true
 heatColor: fde588
 shootSound: flame
 soundPitchMin: -1
