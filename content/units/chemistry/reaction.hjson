@@ -100,23 +100,22 @@ progress: warmup
 ]
 weapons: [
 {
+alwaysContinuous: true
 alternate: false
 continuous: true
 heatColor: fde588
 shootSound: torch
-soundPitchMin: -1
-soundPitchMax: 0.5
 range: 280
 name: reaction-weapon1
 mirror: true
-x: 20
+x: 18
 rotationLimit: 30
 rotateSpeed: 1.5
 rotate: true
 y: 0
 shootY: 8
 shootStatus: slow
-inaccuracy: 15
+inaccuracy: 0
   bullet: {
     type: ContinuousFlameBulletType
     width: 8
