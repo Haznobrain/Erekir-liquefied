@@ -133,7 +133,6 @@ nitrogen: {
 }
 }
 research: diffuse
-research: marsh
 requirements: [
   beryllium/250
   graphite/400
