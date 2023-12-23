@@ -100,9 +100,10 @@ progress: warmup
 ]
 weapons: [
 {
+alternate: false
 continuous: true
 heatColor: fde588
-shootSound: flame
+shootSound: torch
 soundPitchMin: -1
 soundPitchMax: 0.5
 range: 280
