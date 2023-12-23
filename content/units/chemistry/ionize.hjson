@@ -13,6 +13,7 @@ rotateSpeed: 2.5
 legStraightness: 0.2
 legSpeed: 0.5
 allowLegStep: true
+groundLayer: 74
 legCount: 8
 legLength: 96
 lockLegBase: true
