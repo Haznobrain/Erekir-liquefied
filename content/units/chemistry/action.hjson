@@ -3,7 +3,7 @@ type: legs
 name: Action
 health: 2500
 armor: 8
-description: Shoots firey projectiles at ennemy targets.
+description: Shoots salvos of firey projectiles at ennemy targets.
 speed: 0.8
 hitSize: 20
 hovering: true
@@ -60,6 +60,11 @@ x: 0
 y: 0
 shootX: 10
 shootY: 6
+shoot: {
+  type: ShootPatern
+  shots: 3
+  shotDelay: 2
+}
   bullet: {
         homingPower: 0.2
         type: MissileBulletType
@@ -69,7 +74,7 @@ shootY: 6
         speed: 3
         shootEffect: shootBig2
         smokeEffect: shootSmokeTitan
-        damage: 125
+        damage: 80
         makeFire: true
         frontColor: ffffff
         backColor: ffdf62
