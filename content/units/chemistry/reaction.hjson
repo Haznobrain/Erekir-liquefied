@@ -3,7 +3,7 @@ type: legs
 name: Reaction
 health: 8000
 armor: 12
-description: A large unit with a lot of large legs that give it a very fast speed for its size. Shoots 2 strong flamethrowers and 2 sapping lasers.
+description: A large unit with a lot of large legs that give it a very fast speed for its size. Shoots 2 strong plasma flames and 2 sapping lasers.
 speed: 0.75
 multiTarget: true
 singleTarget: false
@@ -117,6 +117,7 @@ shootY: 8
 shootStatus: slow
 inaccuracy: 0
   bullet: {
+    hitColor: ffdf62
     type: ContinuousFlameBulletType
     width: 8
     flareColor: ffdf62
