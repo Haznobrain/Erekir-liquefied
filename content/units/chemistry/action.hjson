@@ -17,6 +17,7 @@ lockLegBase: true
 legContinuousMove: true
 legExtension: -3
 legBaseOffset: 6
+groundLayer: 74
 legMaxLength: 1.2
 legLengthScl: 0.96
 legMinLength: 0.8
