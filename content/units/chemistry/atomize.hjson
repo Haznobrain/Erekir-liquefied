@@ -10,6 +10,7 @@ multiTarget: false
 singleTarget: true
 hitSize: 52
 allowLegStep: true
+groundLayer: 74
 rotateSpeed: 2.0
 legStraightness: 0.3
 legSpeed: 0.45
