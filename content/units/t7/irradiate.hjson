@@ -10,7 +10,7 @@ singleTarget: false
 hitSize: 60
 hovering: true
 allowLegStep: true
-groundLayer: 74
+groundLayer: 75
 rotateSpeed: 2
 legStraightness: 0.2
 legSpeed: 0.5
