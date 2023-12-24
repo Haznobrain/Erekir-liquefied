@@ -106,9 +106,9 @@ rotate: false
 mirror: true
 x: 0
 y: 0
-shootX: 16
+shootX: 24
 drawOutline: false
-shootY: 32
+shootY: 16
 shootSound: pulseBlast
 shootStatus: erekirliquefied-ionboosted
 statusDuration: 300
@@ -119,6 +119,7 @@ statusDuration: 300
         type: MultiEffect
         effects: [
           {
+            cone: 25
             type: ParticleEffect
             length: 16
             line: true
@@ -130,6 +131,7 @@ statusDuration: 300
             colorTo: ffdf62
           }
           {
+            cone: 25
             type: ParticleEffect
             length: 24
             particles: 16
