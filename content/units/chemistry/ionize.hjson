@@ -98,6 +98,7 @@ melting
 ]
 weapons: [
 {
+top: false
 name: ionize-weapon1
 reload: 30
 range: 304
