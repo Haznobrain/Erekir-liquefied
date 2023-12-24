@@ -106,7 +106,7 @@ rotate: false
 mirror: true
 x: 0
 y: 0
-shootX: 24
+shootX: 16
 drawOutline: false
 shootY: 32
 shootSound: pulseBlast
@@ -115,6 +115,40 @@ statusDuration: 300
   bullet: {
     type: MissileBulletType
     damage: 245
+    shootEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            length: 16
+            line: true
+            sizeFrom: 6
+            strokeFrom: 3
+            particles: 20
+            lifetime: 20
+            colorFrom: ffdf62
+            colorTo: ffdf62
+          }
+          {
+            type: ParticleEffect
+            length: 24
+            particles: 16
+            sizeFrom: 6
+            lifetime: 12
+            colorFrom: ffffff
+            colorTo: ffdf62
+          }
+          {
+            colorFrom: ffdf62
+            colorTo: ffdf62
+            type: WaveEffect
+            lifetime: 10
+            sides: 4
+            spin: 10
+            sizeTo: 10
+          }
+]
+}
     splashDamage: 140
     splashDamageRadius: 24
     sprite: erekirliquefied-bullet-resonance
