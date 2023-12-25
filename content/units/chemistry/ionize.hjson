@@ -115,6 +115,7 @@ statusDuration: 300
   bullet: {
     type: MissileBulletType
     damage: 245
+    trailRotation: true
     trailInterval: 6
     trailEffect: {
           type: ParticleEffect
