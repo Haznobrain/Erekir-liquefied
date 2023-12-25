@@ -115,6 +115,19 @@ statusDuration: 300
   bullet: {
     type: MissileBulletType
     damage: 245
+    trailInterval: 6
+    trailEffect: {
+          type: ParticleEffect
+          line: true
+          particles: 6
+          lifetime: 76
+          length: 80
+          cone: -360
+          lenFrom: 6
+          lenTo: 6
+          colorFrom: FFFFFFF,
+          colorTo: ffdf62
+        }
     shootEffect: {
         type: MultiEffect
         effects: [
