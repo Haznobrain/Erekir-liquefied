@@ -1,0 +1,13 @@
+name: large floating beryllium wall
+type: Wall
+description: A wall that blocks ennemy projectiles and can be built on liquids.
+health: 2000
+placeableLiquid: true
+armor: 2
+size: 2
+requirements: [
+  beryllium/24
+  tungsten/8
+]
+research: floating-beryllium-wall
+category: defense
