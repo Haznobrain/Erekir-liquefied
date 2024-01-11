@@ -39,7 +39,7 @@ weapons: [{
         }
 ]
     recoil: 0
-    range: 168
+    range: 280
     mirror: false
     reload: 30
     shootSound: missile
