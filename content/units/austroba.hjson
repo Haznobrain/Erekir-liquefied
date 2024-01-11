@@ -35,9 +35,12 @@ weapons: [{
             type: RegionPart
             mirror: true
             suffix: -top
-            moveRot: 15
+            moveRot: -15
         }
 ]
+    top: false
+    layerOffset: -20
+    inaccuracy: 30
     recoil: 0
     range: 280
     mirror: false
