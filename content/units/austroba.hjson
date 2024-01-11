@@ -41,10 +41,12 @@ weapons: [{
     recoil: 0
     range: 280
     mirror: false
-    reload: 30
+    reload: 60
+    shoot: {
+        shots: 2
+        shotDelay: 6
+    }
     shootSound: missile
-    top: false
-    layerOffset: -20
     bullet: {
         spawnUnit: heal-missile
 }
