@@ -60,7 +60,8 @@ width: 0
 height: 0
 keepVelocity: false
 splashDamage: 75
-healPercent: 0.01
+healPercent: 1.75
+collidesTeam: true
 splashDamageRadius: 40
 status: erekirliquefied-ionized
 statusDuration: 300
