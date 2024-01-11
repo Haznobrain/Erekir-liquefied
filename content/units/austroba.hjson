@@ -38,6 +38,9 @@ weapons: [{
             moveRot: -15
         }
 ]
+rotationLimit: 30
+rotateSpeed: 1.5
+rotate: true
     top: false
     layerOffset: -20
     inaccuracy: 30
