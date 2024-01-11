@@ -25,20 +25,28 @@ lightRadius: 200
 research: avert
 weapons: [{
     x: 0
-    name: austroba-weapon
+    name: launcher
+    parts: [
+        {
+            type: RegionPart
+            suffix: -bottom
+        }
+        {
+            type: RegionPart
+            mirror: true
+            suffix: -top
+            moveRot: 15
+        }
+]
+    recoil: 0
     range: 168
     mirror: false
-    reload: 60
-    shootSound: laser
+    reload: 30
+    shootSound: missile
     top: false
+    layerOffset: -20
     bullet: {
-        damage: 25
-        type: LaserBulletType
-        length: 168 
-        colors: [96f58c, 54d67d, 28785c]
-        width: 4
-        collidesTeam: true
-        healPercent: 3.5
+        spawnUnit: heal-missile
 }
 }]
 abilities: [
