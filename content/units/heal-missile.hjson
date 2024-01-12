@@ -63,7 +63,6 @@ splashDamage: 75
 healPercent: 1.75
 collidesTeam: true
 splashDamageRadius: 40
-status: erekirliquefied-ionized
 statusDuration: 300
   }
 }]
