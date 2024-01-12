@@ -28,7 +28,7 @@ research: obviate
 weapons: [{
     minShootVelocity: 0.5
     range: 56
-    mirror: false
+    mirror: true
     reload: 60
     shootCone: 360
     innacuracy: 15
