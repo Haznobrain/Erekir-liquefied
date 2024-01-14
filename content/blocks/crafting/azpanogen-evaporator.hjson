@@ -18,7 +18,7 @@ consumes: {
     amount: 0.05
   }
 }
-  research: cyanogen-synthetizer
+  research: cyanogen-synthesizer
 requirements: [
   beryllium/150
   silicon/200
