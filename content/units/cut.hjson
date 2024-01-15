@@ -52,11 +52,11 @@ radius: 3
 {
   name: cut-weapon1
     mirror: true
-    y: 0
+    y: -2
     top: false
-    x: 0
-    shootX: 7
-    shootY: -1
+    x: 6
+    shootX: 0
+    shootY: 2
     reload: 30
     shootCone: 15
     range: 160
