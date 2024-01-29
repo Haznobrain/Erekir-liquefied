@@ -47,7 +47,9 @@ rotation: -45
     name: amputate
     recoil: 0
     shootSound: beam
-    y: 16
+    y: 0
+    shootY: 0
+    top: false
     mirror: false
     x: 0
     reload: 360
