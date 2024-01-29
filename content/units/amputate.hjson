@@ -13,7 +13,7 @@ faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 40
-engineOffset: 28
+engineOffset: 20
 engineSize: 12
 lowAltitude: true
 engines: [
@@ -44,6 +44,8 @@ rotation: -45
 ]
   weapons: [
 {
+    name: amputate
+    recoil: 0
     shootSound: beam
     y: 16
     mirror: false
@@ -64,7 +66,7 @@ rotation: -45
   name: amputate-point-defense
     type: PointDefenseWeapon
     mirror: true
-    y: -16
+    y: -20
     rotate: true
     x: -16
     reload: 2
@@ -78,7 +80,7 @@ rotation: -45
 name: amputate-weapon2
     mirror: true
     y: -2
-    x: -8
+    x: -20
     rotate: true
     reload: 10
     shootCone: 360
@@ -98,7 +100,7 @@ name: amputate-emp
 mirror: false
 reload: 120
 x: 0
-y: -20
+y: -10
 range: 304
 shootSound: blaster
 rotate: true
