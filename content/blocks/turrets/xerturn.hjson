@@ -58,10 +58,10 @@ drawer: {
       progress: {
         type: warmup
         other: recoil
-        amount: -0.5
+        amount: 0.5
         op: blend
           }
-      moveRot: 10
+      moveRot: -10
       moveY: -2
     }
     {
