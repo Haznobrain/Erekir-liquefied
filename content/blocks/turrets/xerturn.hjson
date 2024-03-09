@@ -71,8 +71,9 @@ drawer: {
       hollow: true
       y: -24
       stroke: 0
-      strokeTo: 2
+      strokeTo: 1
       radius: 5
+      bloom: true
     }
     {
       type: ShapePart
@@ -82,8 +83,10 @@ drawer: {
       hollow: true
       y: -24
       stroke: 0
-      strokeTo: 2
+      strokeTo: 1
+      rotateSpeed: 2
       radius: 4.5
+      bloom: true
     }
     {
       type: HaloPart
@@ -94,9 +97,12 @@ drawer: {
       triLength: 0
       triLengthTo: 5
       haloRotateSpeed: 0.8
+      bloom: true
+      color: c6eeff
     }
     {
       type: HaloPart
+      color: c6eeff
       y: -24
       haloRadius: 7.5
       tri: true
@@ -108,6 +114,7 @@ drawer: {
     }
     {
       type: HaloPart
+      color: c6eeff
       y: -24
       haloRadius: 7.5
       tri: true
