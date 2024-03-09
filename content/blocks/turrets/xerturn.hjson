@@ -46,6 +46,7 @@ drawer: {
     {
       suffix: -barrel-side
       moveY: -4
+      mirror: true
       heatProgress: recoil
       progress: warmup
     }
