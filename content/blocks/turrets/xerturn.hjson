@@ -12,6 +12,12 @@ minWarmup: 0.96
 shootWarmupSpeed: 0.2
 warmupMaintainTime: 60
 unitSort: weakest
+coolantMultiplier: 2.4
+coolant: {
+  type: ConsumeLiquid
+  liquid: water
+  amount: 0.5
+}
 shootEffect: {
       type: MultiEffect
         effects: [railShoot,{
