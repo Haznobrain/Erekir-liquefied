@@ -8,6 +8,7 @@ range: 640
 ammoPerShot: 20
 shootCone: 5
 minWarmup: 0.96
+shootY: 0
   loopSound: spellloop
 shootWarmupSpeed: 0.02
 category: turret
