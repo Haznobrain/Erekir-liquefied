@@ -9,7 +9,8 @@ ammoPerShot: 20
 shootCone: 5
 minWarmup: 0.96
   loopSound: spellloop
-shootWarmupSpeed: 0.2
+shootWarmupSpeed: 0.02
+category: turret
 warmupMaintainTime: 60
 unitSort: weakest
 coolantMultiplier: 2.4
