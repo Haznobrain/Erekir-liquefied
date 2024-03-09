@@ -1,0 +1,193 @@
+type: ItemTurret
+reload: 600
+shootSound: largeCannon
+rotateSpeed: 0.8
+size: 5
+recoil: 2
+range: 640
+ammoPerShot: 20
+shootCone: 5
+minWarmup: 0.96
+  loopSound: spellloop
+shootWarmupSpeed: 0.2
+warmupMaintainTime: 60
+unitSort: weakest
+name: Xerturn
+description: Fires a massive tungsten bolt at the weakest ennemy target it detects. Made to eliminate large groups of small units. Idea from @smiler4 on discord.
+drawer: {
+  type: DrawTurret
+  basePrefix: reinforced-
+    parts:[
+    {
+    suffix: -bottom
+    heatColor: ff0000
+    heatProgress: warmup
+    progress: recoil
+    }
+    {
+      suffix: -wing
+      progress: warmup
+      heatProgress: warmup
+      moveRot: -15
+      mirror: true
+    }
+    {
+      suffix: -barrel
+      mirror: true
+      heatProgress: recoil
+      progress: {
+        type: warmup
+        other: recoil
+        amount: -2
+          }
+      moveRot: -10
+      moveY: -2
+    }
+    {
+      suffix: -barrel-side
+      moveY: -4
+      heatProgress: recoil
+      progress: warmup
+    }
+    {
+      type: ShapePart
+      circle: true
+      color: c6eeff
+      hollow: true
+      y: -24
+      stroke: 0
+      strokeTo: 2
+      radius: 20
+    }
+    {
+      type: ShapePart
+      circle: false
+      sides: 4
+      color: c6eeff
+      hollow: true
+      y: -24
+      stroke: 0
+      strokeTo: 2
+      radius: 18
+    }
+    {
+      type: HaloPart
+      y: -24
+      haloRadius: 22
+      tri: true
+      shapes: 4
+      triLength: 0
+      triLengthTo: 5
+      haloRotateSpeed: 0.8
+    }
+    {
+      type: HaloPart
+      y: -24
+      haloRadius: 30
+      tri: true
+      shapes: 2
+      triLength: 0
+      triLengthTo: 16
+      haloRotateSpeed: 0
+      haloRotation: 90
+    }
+    {
+      type: HaloPart
+      y: -24
+      haloRadius: 30
+      tri: true
+      shapes: 2
+      shapeRotation: 180
+      triLength: 0
+      triLengthTo: 16
+      haloRotateSpeed: 0
+      haloRotation: 90
+    }
+]
+}
+ammoTypes: {
+  tungsten: {
+      type: BasicBulletType
+      pierce: true
+      pierceDamageFactor: 0.2
+      height: 20
+      width: 15
+      shrinkY: 0
+      shrinkX: 0.8
+      backColor: c6eeff
+      trailColor: c6eeff
+      trailLength: 320
+      hitEffect: {
+        type: MultiEffect
+            effects:[
+              {
+              type: ParticleEffect
+              line: true
+              lengthFrom: 10
+              length: 30
+              colorFrom: ffffff
+              colorTo: c6eeff
+              lifetime: 12
+                }
+              {
+              type: WaveEffect
+              sizeTo: 35
+              lifetime: 12
+              colorTo: c6eeff
+                }
+]
+      }
+trailEffect: {
+        type: MultiEffect
+            effects:[
+              {
+              type: ParticleEffect
+              line: true
+              lengthFrom: 10
+              length: 30
+              colorFrom: ffffff
+              colorTo: c6eeff
+              lifetime: 12
+                }
+              {
+              type: WaveEffect
+              sizeTo: 35
+              lifetime: 12
+              colorTo: c6eeff
+                }
+]
+      }
+trailInterval: 40
+trailChance: 0.4
+damage: 2500
+despawnEffect: {
+        type: MultiEffect
+            effects:[
+              {
+              type: ParticleEffect
+              line: true
+              lengthFrom: 10
+              length: 30
+              colorFrom: ffffff
+              colorTo: c6eeff
+              lifetime: 12
+                }
+              {
+              type: WaveEffect
+              sizeTo: 35
+              lifetime: 12
+              colorTo: c6eeff
+                }
+]
+      }
+speed: 10
+lifetime: 64
+  }
+}
+research: smite
+requirements: [
+      beryllium/8000
+      tungsten/2500
+      carbide/800
+      phase-fabric/300
+      ]
