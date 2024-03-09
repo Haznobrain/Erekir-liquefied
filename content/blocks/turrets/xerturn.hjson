@@ -12,6 +12,19 @@ minWarmup: 0.96
 shootWarmupSpeed: 0.2
 warmupMaintainTime: 60
 unitSort: weakest
+shootEffect: {
+      type: MultiEffect
+        effects: [railShoot,{
+          type: ParticleEffect
+          line: true
+          particles: 12
+          cone: 20
+          length: 40
+          lengthFrom: 12
+          }
+]
+}
+          
 name: Xerturn
 description: Fires a massive tungsten bolt at the weakest ennemy target it detects. Made to eliminate large groups of small units. Idea from @smiler4 on discord.
 drawer: {
