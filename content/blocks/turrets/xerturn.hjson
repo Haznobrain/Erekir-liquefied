@@ -33,7 +33,7 @@ shootEffect: {
 }
           
 name: Xerturn
-description: Fires a massive tungsten bolt at the weakest ennemy target it detects. Made to eliminate large groups of small units. Idea from @smiler4 on discord.
+description: Fires a massive tungsten bolt at the weakest ennemy target it detects. The bullet can't be absorbed by shields and does not pierce buildings. Made to eliminate large groups of small units. Idea from @smiler4 on discord.
 drawer: {
   type: DrawTurret
   basePrefix: reinforced-
@@ -136,6 +136,7 @@ drawer: {
 }
 ammoTypes: {
   tungsten: {
+      absorbable: true
       type: BasicBulletType
       pierce: true
       pierceDamageFactor: 0.2
