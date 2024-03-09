@@ -136,7 +136,7 @@ drawer: {
 }
 ammoTypes: {
   tungsten: {
-      absorbable: true
+      absorbable: false
       type: BasicBulletType
       pierce: true
       pierceDamageFactor: 0.2
