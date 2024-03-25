@@ -60,6 +60,7 @@ engineOffset: 10
     range: 160
     shootSound: laser
     recoil: 0
+    top: false
     layerOffset: -20
     shoot: {
       type: ShootBarrel
