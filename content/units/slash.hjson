@@ -59,6 +59,8 @@ engineOffset: 10
     shootCone: 15
     range: 160
     shootSound: laser
+    recoil: 0
+    layerOffset: -20
     shoot: {
       type: ShootBarrel
       barrels: [
@@ -78,7 +80,7 @@ engineOffset: 10
       {
       type: RegionPart
       suffix: -barrel2
-      recoilIndex: 0
+      recoilIndex: 1
       moveY: -4
       progress: recoil
       }
