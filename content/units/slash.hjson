@@ -30,7 +30,9 @@ engineSize: 4
 engineOffset: 10
   weapons: [
 {
-    y: 12
+    y: 0
+    recoil: 0
+    name: slash
     mirror: false
     x: 0
     reload: 480
@@ -49,13 +51,45 @@ engineOffset: 10
 }
 }
 {
-    mirror: true
-    y: 10
-    x: -6
+    mirror: false
+    y: 0
+    name: slash-weapon2
+    x: 0
     reload: 15
     shootCone: 15
     range: 160
     shootSound: laser
+    shoot: {
+      type: ShootBarrel
+      barrels: [
+        -1, 2, 0
+        1, 2, 0
+          ]
+        }
+    recoils: 2
+    parts: [
+      {
+      type: RegionPart
+      suffix: -barrel1
+      recoilIndex: 0
+      moveY: -4
+      progress: recoil
+      }
+      {
+      type: RegionPart
+      suffix: -barrel2
+      recoilIndex: 0
+      moveY: -4
+      progress: recoil
+      }
+      {
+      type: RegionPart
+      suffix: -bottom
+      recoilIndex: 0
+      moveY: -2
+      progress: recoil
+      }
+      ]
     bullet: {
         type: LaserBulletType
         color: 8ca9e8
