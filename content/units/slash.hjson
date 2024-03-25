@@ -70,6 +70,7 @@ engineOffset: 10
           ]
         }
     recoils: 2
+    rotate: true
     parts: [
       {
       type: RegionPart
