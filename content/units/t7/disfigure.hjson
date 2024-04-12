@@ -46,8 +46,8 @@ lowAltitude: true
     shoot: {
       type: ShootBarrel
       barrels: [
-        15, 32, 0
-        15, 32, 0
+        15, 44, 0
+        15, 44, 0
         ]
       }
     y: -24
