@@ -15,32 +15,6 @@ fogRadius: 32
 fallSpeed: 0.002
 engineOffset: 58
 engineSize: 18
-engines: [
-{
-x: -52
-y: -40
-radius: 12
-rotation: -135
-}
-{
-x: 52
-y: -40
-radius: 12
-rotation: -45
-}
-{
-x: -32
-y: -52
-radius: 16
-rotation: -135
-}
-{
-x: 32
-y: -52
-radius: 16
-rotation: -45
-}
-]
 lowAltitude: true
   weapons: [
 {
@@ -63,20 +37,84 @@ lowAltitude: true
       width: 6
         }
 }
+{
+    name: disfigure-weapon2
+    shootSound: shockblast
+    reload: 120
+    recoils: 2
+    range: 248
+    shoot: {
+      type: ShootBarrel
+      barrels: [
+        15, 32, 0
+        15, 32, 0
+        ]
+      }
+    y: -64
+    x: 0
+    parts: [
+      {
+        type: RegionPart
+        suffix: -barrel1
+        progress: recoil
+        moveY: -24
+      }
+      {
+        type: RegionPart
+        suffix: -barrel1
+        progress: recoil
+        moveY: -24
+      }
+    ]
+    bullet: {
+      type: RailBulletType
+      length: 248
+      pointEffectSpace: 8
+      pointEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            region: erekirliquefied-lightningrail-1
+            lifetime: 10
+            length: 0
+            sizeFrom: 8
+            sizeTo: 8
+          }
+          {
+            type: ParticleEffect
+            region: erekirliquefied-lightningrail-2
+            lifetime: 10
+            length: 0
+            sizeFrom: 8
+            sizeTo: 8
+            startDelay: 10
+          }
+          {
+            type: ParticleEffect
+            region: erekirliquefied-lightningrail-3
+            lifetime: 10
+            length: 0
+            sizeFrom: 8
+            sizeTo: 8
+            startDelay: 20
+          }
+          {
+            type: ParticleEffect
+            region: erekirliquefied-lightningrail-4
+            lifetime: 10
+            length: 0
+            sizeFrom: 8
+            sizeTo: 8
+            startDelay: 30
+          }
+      ]
+      damage: 1800
+      pierceDamageFactor: 1800
+      hitEffect: massiveExplosion
+      }
+    }
+}
 ]
 lightRadius: 256
 research: quell
-abilities: [
-{
-type: EnergyFieldAbility
-statusDuration: 300
-maxTargets: 70
-damage: 125
-range: 250
-color: d1efff
-reload: 5
-healPercent: 0.1
-sameTypeHealMult: 0.1
-sectors: 4
-}
-]
