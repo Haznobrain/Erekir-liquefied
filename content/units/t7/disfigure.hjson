@@ -50,7 +50,8 @@ lowAltitude: true
         15, 32, 0
         ]
       }
-    y: -64
+    y: -32
+    layerOffset: -20
     x: 0
     parts: [
       {
@@ -69,7 +70,7 @@ lowAltitude: true
     bullet: {
       type: RailBulletType
       length: 248
-      pointEffectSpace: 8
+      pointEffectSpace: 7
       pointEffect: {
         type: MultiEffect
         effects: [
