@@ -114,7 +114,6 @@ lowAltitude: true
       ]
       }
       damage: 1800
-      pierceDamageFactor: 1800
       hitEffect: massiveExplosion
     }
 }
