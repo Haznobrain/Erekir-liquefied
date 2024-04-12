@@ -112,10 +112,10 @@ lowAltitude: true
             startDelay: 30
           }
       ]
+      }
       damage: 1800
       pierceDamageFactor: 1800
       hitEffect: massiveExplosion
-      }
     }
 }
 ]
