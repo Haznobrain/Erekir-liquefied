@@ -50,7 +50,7 @@ lowAltitude: true
         15, 32, 0
         ]
       }
-    y: -32
+    y: -24
     layerOffset: -20
     x: 0
     parts: [
