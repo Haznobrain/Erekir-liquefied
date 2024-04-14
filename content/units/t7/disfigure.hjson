@@ -53,6 +53,29 @@ lowAltitude: true
     y: -24
     layerOffset: -20
     x: 0
+    parts: [
+      {
+        type: RegionPart
+        suffix: -barrel1
+        progress: recoil
+        moveY: -16
+        y: 36
+        recoilIndex: 1
+        mirror: false
+      }
+      {
+        type: RegionPart
+        suffix: -barrel2
+        progress: recoil
+        moveY: -16
+        y: 36
+        recoilIndex: 0
+        mirror: false
+      }
+    ]
+    mirror: false
+    rotate: true
+    rotationLimit: 110
     bullet: {
       type: RailBulletType
       length: 248
