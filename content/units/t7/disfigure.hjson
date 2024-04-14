@@ -73,6 +73,7 @@ lowAltitude: true
         mirror: false
       }
     ]
+    rotateSpeed: 0.7
     mirror: false
     rotate: true
     rotationLimit: 110
