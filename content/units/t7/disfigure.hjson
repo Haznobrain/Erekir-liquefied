@@ -61,6 +61,7 @@ lowAltitude: true
         moveY: -16
         y: 36
         recoilIndex: 1
+        mirror: false
       }
       {
         type: RegionPart
@@ -69,6 +70,7 @@ lowAltitude: true
         moveY: -16
         y: 36
         recoilIndex: 0
+        mirror: false
       }
     ]
     bullet: {
