@@ -59,8 +59,8 @@ lowAltitude: true
         suffix: -barrel1
         progress: recoil
         moveY: -16
-        y: 36
-        recoilIndex: 0
+        y: 0
+        recoilIndex: 1
         mirror: false
       }
       {
@@ -68,8 +68,8 @@ lowAltitude: true
         suffix: -barrel2
         progress: recoil
         moveY: -16
-        y: 36
-        recoilIndex: 1
+        y: 0
+        recoilIndex: 2
         mirror: false
       }
     ]
