@@ -62,6 +62,7 @@ lowAltitude: true
         y: 0
         recoilIndex: 0
         mirror: false
+        under: true
       }
       {
         type: RegionPart
@@ -71,6 +72,7 @@ lowAltitude: true
         y: 0
         recoilIndex: 1
         mirror: false
+        under: true
       }
     ]
     rotateSpeed: 0.7
@@ -82,7 +84,7 @@ lowAltitude: true
       type: RailBulletType
       length: 248
       pointEffectSpace: 7
-      laserAbsorb: true
+      pierceCap: 8
       pointEffect: {
         type: MultiEffect
         effects: [
