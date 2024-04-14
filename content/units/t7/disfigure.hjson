@@ -82,6 +82,7 @@ lowAltitude: true
       type: RailBulletType
       length: 248
       pointEffectSpace: 7
+      laserAbsorb: true
       pointEffect: {
         type: MultiEffect
         effects: [
