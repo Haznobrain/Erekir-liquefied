@@ -60,13 +60,15 @@ lowAltitude: true
         progress: recoil
         moveY: -16
         y: 36
+        recoilIndex: 1
       }
       {
         type: RegionPart
-        suffix: -barrel1
+        suffix: -barrel2
         progress: recoil
         moveY: -16
         y: 36
+        recoilIndex: 0
       }
     ]
     bullet: {
