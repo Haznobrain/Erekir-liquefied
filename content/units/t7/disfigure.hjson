@@ -60,7 +60,7 @@ lowAltitude: true
         progress: recoil
         moveY: -16
         y: 36
-        recoilIndex: 1
+        recoilIndex: 0
         mirror: false
       }
       {
@@ -69,13 +69,14 @@ lowAltitude: true
         progress: recoil
         moveY: -16
         y: 36
-        recoilIndex: 0
+        recoilIndex: 1
         mirror: false
       }
     ]
     mirror: false
     rotate: true
     rotationLimit: 110
+    shootEffect: LancerShootSmoke
     bullet: {
       type: RailBulletType
       length: 248
