@@ -69,7 +69,7 @@ lowAltitude: true
         progress: recoil
         moveY: -16
         y: 0
-        recoilIndex: 2
+        recoilIndex: 0
         mirror: false
       }
     ]
