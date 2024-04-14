@@ -56,7 +56,7 @@ lowAltitude: true
     parts: [
       {
         type: RegionPart
-        suffix: -barrel1
+        suffix: -barrel-1
         progress: recoil
         moveY: -16
         y: 36
@@ -64,7 +64,7 @@ lowAltitude: true
       }
       {
         type: RegionPart
-        suffix: -barrel2
+        suffix: -barrel-2
         progress: recoil
         moveY: -16
         y: 36
