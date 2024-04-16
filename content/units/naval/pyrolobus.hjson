@@ -27,6 +27,7 @@ melting
     name: pyrolobus-weapon
     recoil: 0
     recoils: 3
+    layerOffset: 2
     shoot: {
         type: ShootBarrel
         barrels: [
