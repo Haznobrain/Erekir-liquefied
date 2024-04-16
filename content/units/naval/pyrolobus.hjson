@@ -42,6 +42,7 @@ melting
           recoilIndex: 0
           under: true
           moveY: -1
+          progress: recoil
         }
         {
           type: RegionPart
@@ -49,6 +50,7 @@ melting
           recoilIndex: 1
           under: true
           moveY: -1
+          progress: recoil
         }
                 {
           type: RegionPart
@@ -56,6 +58,7 @@ melting
           recoilIndex: 2
           under: true
           moveY: -1
+          progress: recoil
         }
     ]
     bullet: {
