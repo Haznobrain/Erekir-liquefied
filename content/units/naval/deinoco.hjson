@@ -71,6 +71,7 @@ melting
         trailColor: ffa245
         backColor: ffa245
         frontColor: ffffff
+        homingDelay: 18
         homingPower: 0.3
         hitEffect: {
           type: MultiEffect
