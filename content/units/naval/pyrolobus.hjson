@@ -22,10 +22,10 @@ melting
     x: 0
     reload: 10
     shootCone: 5
-    top: false
     range: 176
     rotate: true
-    name: small-gun
+    name: pyrolobus-weapon
+    recoil: 0
     recoils: 3
     shoot: {
         type: ShootBarrel
@@ -40,18 +40,21 @@ melting
           suffix: -barrel1
           recoilIndex: 0
           under: true
+          moveY: -1
         }
         {
           type: RegionPart
           suffix: -barrel2
           recoilIndex: 1
           under: true
+          moveY: -1
         }
                 {
           type: RegionPart
           suffix: -barrel3
           recoilIndex: 2
           under: true
+          moveY: -1
         }
     ]
     bullet: {
