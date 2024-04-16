@@ -4,7 +4,7 @@ type: naval
 flying: false
 description: a small ship immune to burning and melting damage that shoots a spread of missiles.
 health: 2250
-hitSize: 14
+hitSize: 23
 armor: 2
 speed: 0.8
 targetAir: true
