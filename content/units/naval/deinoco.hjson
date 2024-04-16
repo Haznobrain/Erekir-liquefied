@@ -24,15 +24,25 @@ melting
   y: -10
   range: 184
   mirror: false
+  rotate: true
   shoot: {
-    shots: 3
-    shotDelay: 2
+    type: ShootMulti
+    source: ShootBarrel
+      dest: [
+    {
     type: ShootBarrel
     barrels: [
       0, 3, 0
       3, 2, 45
       -3, 2, -45
       ]
+    }
+    {
+      type: ShootAlternate
+      shots: 3
+      shotDelay: 2
+    }
+    ]
     }
   recoils: 3
   parts: [
