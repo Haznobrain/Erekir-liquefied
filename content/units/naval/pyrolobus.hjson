@@ -39,16 +39,19 @@ melting
           type: RegionPart
           suffix: -barrel1
           recoilIndex: 0
+          under: true
         }
         {
           type: RegionPart
           suffix: -barrel2
           recoilIndex: 1
+          under: true
         }
                 {
           type: RegionPart
           suffix: -barrel3
           recoilIndex: 2
+          under: true
         }
     ]
     bullet: {
