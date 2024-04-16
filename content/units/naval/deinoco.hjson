@@ -26,24 +26,10 @@ melting
   mirror: false
   rotate: true
   shoot: {
-    type: ShootMulti
-    source: ShootAlternate
-      dest: [
-    {
-      type: ShootAlternate
-      shots: 3
-      shotDelay: 2
-      barrels: 3
-    }
-    {
-    type: ShootBarrel
-    barrels: [
-      0, 3, 0
-      4, 2, 45
-      -4, 2, -45
-      ]
-    }
-    ]
+    type: ShootSpread
+    shots: 3
+    spread: 45
+    shotDelay: 2
     }
   recoils: 3
   parts: [
@@ -52,7 +38,6 @@ melting
         suffix: -barrel1
         progress: recoil
         moveY: -2
-        recoilIndex: 0
       }
       {
         type: RegionPart
@@ -60,7 +45,6 @@ melting
         progress: recoil
         moveY: -2
         moveX: -2
-        recoilIndex: 1
       }
       {
         type: RegionPart
@@ -68,7 +52,6 @@ melting
         progress: recoil
         moveY: -2
         moveX: -2
-        recoilIndex: 2
       }
     ]
     bullet: {
