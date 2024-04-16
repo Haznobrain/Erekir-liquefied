@@ -27,8 +27,13 @@ melting
   rotate: true
   shoot: {
     type: ShootMulti
-    source: ShootBarrel
+    source: ShootAlternate
       dest: [
+    {
+      type: ShootAlternate
+      shots: 3
+      shotDelay: 2
+    }
     {
     type: ShootBarrel
     barrels: [
@@ -36,11 +41,6 @@ melting
       3, 2, 45
       -3, 2, -45
       ]
-    }
-    {
-      type: ShootAlternate
-      shots: 3
-      shotDelay: 2
     }
     ]
     }
