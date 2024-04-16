@@ -2,7 +2,7 @@ name: Deinoco
 template: ErekirUnitType
 type: naval
 flying: false
-description: a small ship immune to burning and melting damage that shoots a barrage of small missiles and bullet spreads.
+description: a small ship immune to burning and melting damage that shoots a spread of missiles.
 health: 2250
 hitSize: 14
 armor: 2
@@ -16,77 +16,44 @@ immunities: [
 burning,
 melting
 ]
-  weapons: [{
-    y: -2
-    mirror: true
-    x: -6
-    reload: 10
-    shootCone: 5
-    range: 248
-    rotate: true
-    shootSound: missile
-    name: small-gun
+  weapons: [
+ {
+  name: deinoco-weapon
+  reload: 60
+  x: 0
+  y: -10
+  range: 184
+  mirror: false
+  shoot: {
+    shots: 3
+    shotDelay: 2
+    type: ShootBarrel
+    barrels: [
+      0, 3, 0
+      3, 2, 45
+      -3, 2, -45
+      ]
     bullet: {
-      type: MissileBulletType
-      damage: 45
-      height: 8
-      width: 8
-      speed: 4
-      lifetime: 62
-        }
-}
-{
-parts: [
-{
-type: RegionPart
-x: 0
-y: 0
-moveY: -1
-progress: recoil
-suffix: -mid
+        type: MissileBulletType
+        speed: 5
+        lifetime: 37
+        damage: 30
+        splashDamage: 10
+        width: 6
+        height: 6
+        trailLength: 32
+        trailColor: ffa245
+        backColor: ffa245
+        frontColor: ffffff
+        homingPower: 0.3
+        hitEffect: {
+          type: MultiEffect
+          effects: [hitSquaresColor, massiveExplosion]
+          }
+        despawnEffect: none
+        smokeEffect: shootSmokeSquareSparse
+      }
   }
-{
-type: RegionPart
-x: 0
-y: 0
-moveRot: 15
-suffix: -side
-mirror: true
-  progress: recoil
-  }
-]
- y: 2
-    mirror: true
-    x: 0
-    reload: 60
-    shootCone: 5
-    range: 120
-    rotate: true
-    shootSound: shootAlt
-    mirror: false
-    name: splasher
-   shoot: {
-   shots: 15
-    spread: 2
-    type: ShootSpread
-     }
-    bullet: {
-      type: BasicBulletType
-      shootEffect: shootBigColor
-      smokeEffect: shootSmokeSquareSparse
-      frontColor: ff967b
-      trailWidth: 6
-      trailLength: 3
-      hitEffect: hitSquaresColor
-      hitColor: db3d13
-      trailColor: db3d13
-      damage: 20
-      height: 20
-      width: 25
-      speed: 6
-      lifetime: 20
-      knockback: 4
-        }
 }
   ]
 lightRadius: 200
