@@ -17,15 +17,40 @@ burning,
 melting
 ]
   weapons: [{
-    y: 6
-    mirror: true
-    x: -6
+    y: 0
+    mirror: false
+    x: 0
     reload: 10
     shootCone: 5
     top: false
     range: 176
     rotate: true
     name: small-gun
+    recoils: 3
+    shoot: {
+        type: ShootBarrel
+        barrels: [
+          -1, 2, 0
+          0, 2.5, 0
+          1, 2, 0
+            ]
+    parts: [
+        {
+          type: RegionPart
+          suffix: -barrel1
+          recoilIndex: 0
+        }
+        {
+          type: RegionPart
+          suffix: -barrel2
+          recoilIndex: 1
+        }
+                {
+          type: RegionPart
+          suffix: -barrel3
+          recoilIndex: 2
+        }
+    ]
     bullet: {
       type: BasicBulletType
       damage: 25
