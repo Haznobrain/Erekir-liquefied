@@ -81,7 +81,6 @@ melting
         smokeEffect: shootSmokeSquareSparse
       }
   }
-}
   ]
 lightRadius: 200
 research: naval-refabricator
