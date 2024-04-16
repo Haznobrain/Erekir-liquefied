@@ -33,6 +33,33 @@ melting
       3, 2, 45
       -3, 2, -45
       ]
+    }
+  recoils: 3
+  parts: [
+      {
+        type: RegionPart
+        suffix: -barrel1
+        progress: recoil
+        moveY: -2
+        recoilIndex: 0
+      }
+      {
+        type: RegionPart
+        suffix: -barrel2
+        progress: recoil
+        moveY: -2
+        moveX: -2
+        recoilIndex: 1
+      }
+      {
+        type: RegionPart
+        suffix: -barrel3
+        progress: recoil
+        moveY: -2
+        moveX: -2
+        recoilIndex: 2
+      }
+    ]
     bullet: {
         type: MissileBulletType
         speed: 5
