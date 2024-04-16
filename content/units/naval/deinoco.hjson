@@ -25,6 +25,7 @@ melting
   range: 184
   mirror: false
   rotate: true
+  layerOffset: 2
   shoot: {
     type: ShootSpread
     shots: 3
@@ -38,6 +39,7 @@ melting
         suffix: -barrel1
         progress: recoil
         moveY: -2
+        under: true
       }
       {
         type: RegionPart
@@ -45,6 +47,7 @@ melting
         progress: recoil
         moveY: -2
         moveX: -2
+        under: true
       }
       {
         type: RegionPart
@@ -52,6 +55,7 @@ melting
         progress: recoil
         moveY: -2
         moveX: -2
+        under: true
       }
     ]
     bullet: {
