@@ -53,7 +53,7 @@ melting
         {
         type: PartMove
         rot: 10
-        progress: warmup
+        progress: reload
         }
         ]
     }
@@ -67,7 +67,7 @@ melting
         {
         type: PartMove
         rot: 10
-        progress: warmup
+        progress: reload
         }
         ]
     }
@@ -81,7 +81,7 @@ melting
         {
         type: PartMove
         rot: 10
-        progress: warmup
+        progress: reload
         }
         ]
     }
