@@ -37,7 +37,7 @@ abilities: [
       lifetime: 50
       sizeTo: 0
       sizeFrom: 2
-      lightOpacity: O.5
+      lightOpacity: 0.5
       interp: pow3Out
       }
     }
