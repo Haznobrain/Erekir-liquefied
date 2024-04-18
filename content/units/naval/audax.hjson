@@ -16,57 +16,88 @@ immunities: [
 burning,
 melting
 ]
-  weapons: [{
-    y: -12
-    mirror: true
-    x: -8
-    reload: 10
-    shootCone: 5
-    range: 256
-    shoot: {
-      type: ShootAlternate
-      barrels: 2
-      spread: 4
-      shots: 2
+  weapons: [
+{
+  name: audax-weapon
+  y: -3
+  x: 0
+  range: 448
+  reload: 180
+  recoil: 0
+  shootWarmupSpeed: 0.07
+  minWarmup: 0.98
+  parts: [
+    {
+      type: RegionPart
+      colorTo: [1,1,1,0]
+      color: ffffff
+      mixColor: [1,1,1,0]
+      progress: {
+          type: PartProgress
+          curve: pow2In
+          progress: reload
+          op: blend
+          }
+      outline: false
+      under: true
+      layerOffset: -0.01
+      moves: [
+        {
+          type: PartMove
+          y: -4
+          progress: warmup
         }
-    rotate: true
-    name: double-missile
-    shootSound: missile
-    bullet: {
-      type: MissileBulletType
-      damage: 65
-      height: 8
-      width: 8
-      speed: 7
-      lifetime: 37
+        ]
+      }
+    {
+      suffix: -arm
+      mirror: true
+      moveRot: -10
+      progress: warmup
+      type: RegionPart
+      moves: [
+        {
+        type: PartMove
+        rot: 10
+        progress: warmup
         }
-}
-  {
- y: -2
-    mirror: false
-    x: 0
-    reload: 10
-    shootCone: 5
-    range: 224
-    shoot: {
-      type: ShootAlternate
-      barrels: 2
-      spread: 8
+        ]
+    }
+    {
+      suffix: -arm
+      mirror: true
+      moveRot: -20
+      progress: warmup
+      type: RegionPart
+      moves: [
+        {
+        type: PartMove
+        rot: 10
+        progress: warmup
         }
-    rotate: true
-    name: double-cannon
-    shootSound: shootSnap
-    bullet: {
-      type: BasicBulletType
-      damage: 75
-      height: 10
-      width: 10
-      shootEffect: shootBig
-      backColor: ff704a
-      speed: 7
-      trailLength: 8
-      trailWidth: 2
-      lifetime: 32
+        ]
+    }
+    {
+      suffix: -arm
+      mirror: true
+      moveRot: -30
+      progress: warmup
+      type: RegionPart
+      moves: [
+        {
+        type: PartMove
+        rot: 10
+        progress: warmup
+        }
+        ]
+    }
+    {
+      type: RegionPart
+      suffix: -bottom
+    }
+    ]
+  bullet: {
+      spawnUnit: boat-missile
         }
 }
   ]
