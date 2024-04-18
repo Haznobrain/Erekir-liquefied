@@ -22,7 +22,7 @@ trailLength: 12
 trailWidth: 4
 trailColor: 96f58c
 loopSound: missileTrail
-trailEffect: missileTrail
+trailEffect: missileTrailSmoke
 MissileAccelTime: 40
 parts: [
 {
