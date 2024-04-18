@@ -29,9 +29,9 @@ melting
   parts: [
     {
       type: RegionPart
-      colorTo: [1,1,1,0]
+      colorTo: {1,1,1,0}
       color: ffffff
-      mixColor: [1,1,1,0]
+      mixColor: {1,1,1,0}
       progress: {
           type: PartProgress
           curve: pow2In
