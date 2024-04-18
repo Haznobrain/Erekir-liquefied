@@ -31,10 +31,7 @@ melting
       colorTo: ffffffff
       color: ffffff
       mixColor: ffffffff
-      progress: {
-          type: reload
-          op: blend
-          }
+      progress: reload
       outline: false
       under: true
       layerOffset: -0.01
