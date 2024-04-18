@@ -24,6 +24,7 @@ trailColor: 96f58c
 loopSound: missileTrail
 trailEffect: missileTrailSmoke
 MissileAccelTime: 40
+targetAir: false
 parts: [
 {
   type: FlarePart
@@ -54,6 +55,7 @@ weapons: [{
                 smokeSize: 4
                 smokeRad: 45
           }
+collidesAir: false
 shootSound: none
 type: ExplosionBulletType
 instantDisappear: true
