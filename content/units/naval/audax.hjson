@@ -28,6 +28,9 @@ melting
   mirror: false
   shootSound: missileLaunch
   layerOffset: 2
+  rotate: true
+  shootCone: 1
+  rotateSpeed: 0.7
   parts: [
     {
       type: RegionPart
