@@ -27,6 +27,7 @@ melting
   minWarmup: 0.98
   mirror: false
   shootSound: missileLaunch
+  layerOffset: 2
   parts: [
     {
       type: RegionPart
