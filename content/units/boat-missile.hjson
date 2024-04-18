@@ -27,12 +27,12 @@ abilities: [
   type: MoveEffectAbility
   rotation: 180
   y: -4
+ interval: 2
   effect: {
-      interval: 2
       type: ParticleEffect
       particles: 1
-      colorFrom: 3d3f4466
-      colorTo: 3d3f4466
+      colorFrom: 3d3f44
+      colorTo: 3d3f44
       length: 2
       lifetime: 50
       sizeTo: 0
