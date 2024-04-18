@@ -2,7 +2,7 @@ name: Audax
 template: ErekirUnitType
 type: naval
 flying: false
-description: A medium sized ship that shoots a barrage of bullets and missile at ennemy targets
+description: A medium sized ship that shoots long range missiles at ennemy ground targets.
 health: 5600
 hitSize: 20
 armor: 8
