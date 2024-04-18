@@ -33,9 +33,8 @@ melting
       color: ffffff
       mixColor: ffffffff
       progress: {
-          type: PartProgress
           curve: pow2In
-          progress: reload
+          type: reload
           op: blend
           }
       outline: false
