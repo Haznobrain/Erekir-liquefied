@@ -31,8 +31,8 @@ abilities: [
       interval: 2
       type: ParticleEffect
       particles: 1
-      colorFrom: 3d3f44
-      colorTo: 3d3f44
+      colorFrom: 3d3f4444
+      colorTo: 3d3f4444
       length: 2
       lifetime: 50
       sizeTo: 0
