@@ -26,12 +26,13 @@ melting
   shootWarmupSpeed: 0.07
   minWarmup: 0.98
   mirror: false
+  shootSound: missileLaunch
   parts: [
     {
       type: RegionPart
-      colorTo: ffffffff
+      colorTo: ffffff00
       color: ffffff
-      mixColor: ffffffff
+      mixColor: ffffff00
       progress: reload
       outline: false
       under: true
@@ -39,7 +40,7 @@ melting
       moves: [
         {
           type: PartMove
-          y: -4
+          y: 4
           progress: warmup
         }
         ]
