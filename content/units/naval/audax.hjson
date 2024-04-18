@@ -16,8 +16,7 @@ immunities: [
 burning,
 melting
 ]
-  weapons: [
-{
+  weapons: [{
   name: audax-weapon
   y: -3
   x: 0
@@ -98,7 +97,6 @@ melting
   bullet: {
       spawnUnit: boat-missile
         }
-}
-  ]
+}]
 lightRadius: 200
 research: prime-refabricator
