@@ -22,9 +22,13 @@ trailLength: 12
 trailWidth: 4
 trailColor: ffa665
 loopSound: missileTrail
-trailEffect: {
-  type: MultiEffect
-  effects: [missileTrailSmoke,{
+abilities: [
+  {
+  type: MoveEffectAbility
+  rotation: 180
+  y: -4
+  effect: {
+      interval: 2
       type: ParticleEffect
       particles: 1
       colorFrom: 3d3f44
@@ -36,8 +40,8 @@ trailEffect: {
       lightOpacity: O.5
       interp: pow3Out
       }
-      ]
     }
+]
 MissileAccelTime: 40
 targetAir: false
 parts: [
@@ -62,9 +66,6 @@ weapons: [{
           killShooter: true
             hitEffect: {
                 type: ExplosionEffect
-                waveColor: 96f58c
-                smokeColor: 96f58c
-                sparkColor: a99ab6
                 waveRad: 40
                 sparkRad: 60
                 smokeSize: 4
