@@ -308,13 +308,15 @@ parts: [
         fragVelocityMax: 1
         fragRandomSpread: 10
         fragBullet: {
-          type: ArtilleryBulletType
+          type: BasicBulletType
           splashDamage: 80
+          damage: 20
           splashDamageRadius: 40
           lifetime: 30
           backColor: 3d3d3d22
           frontColor: 3d3d3d11
-          shrinkY: 0
+          shrinkY: 0.2
+          shrinkInterp: slope
           shrinkX: 0
           speed: 3
           lifetime: 83
