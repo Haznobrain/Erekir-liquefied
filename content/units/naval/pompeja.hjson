@@ -33,6 +33,8 @@ shoot: {
       }
 shootWarmupSpeed: 0.04
 minWarmup: 0.98
+cooldownTime: 20
+recoilTime: 20
 parts: [
     {
     type: RegionPart
@@ -255,7 +257,7 @@ parts: [
           sizeTo: 8
           sizeInterp: pow2In
           lifetime: 60
-          colorFrom: ff2b2bff
+          colorFrom: ff2b2b66
           colorTo: ff2b2b
           }
           {
@@ -267,7 +269,7 @@ parts: [
           sizeTo: 4
           sizeInterp: pow2In
           lifetime: 60
-          colorFrom: ff2b2bff
+          colorFrom: ff2b2b66
           colorTo: ff2b2b
           }
           {
@@ -282,7 +284,7 @@ parts: [
           interp: pow2In
           sizeInterp: pow2In
           lifetime: 60
-          colorFrom: ff2b2bff
+          colorFrom: ff2b2b66
           colorTo: ff2b2b
           }
           {
@@ -292,7 +294,7 @@ parts: [
           strokeFrom: 0
           strokeTo: 2
           sizeTo: 0
-          colorFrom: ff2b2bff
+          colorFrom: ff2b2b66
           colorTo: ff2b2b
           lifetime: 60
           }
@@ -309,8 +311,8 @@ parts: [
           splashDamage: 80
           splashDamageRadius: 40
           lifetime: 30
-          backColor: 3d3d3d66
-          frontColor: 3d3d3d22
+          backColor: 3d3d3d22
+          frontColor: 3d3d3d11
           shrinkY: 0
           shrinkX: 0
           speed: 3
