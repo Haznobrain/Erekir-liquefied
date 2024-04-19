@@ -35,6 +35,7 @@ shootWarmupSpeed: 0.04
 minWarmup: 0.98
 cooldownTime: 20
 recoilTime: 20
+warmupMaintainTime: 360
 parts: [
     {
     type: RegionPart
