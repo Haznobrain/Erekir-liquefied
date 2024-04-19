@@ -25,6 +25,7 @@ range: 248
 shoot: {
     firstShotDelay: 60
     shots: 5
+    shotDelay: 60
       }
 shootWarmupSpeed: 0.04
 minWarmup: 0.98
@@ -182,7 +183,7 @@ parts: [
       haloRadius: 6
     }
     ]
-    reload: 180
+    reload: 600
     inaccuracy: 10
     shootEffect: {
         type: MultiEffect
@@ -196,8 +197,21 @@ parts: [
           }
           {
             type: ParticleEffect
-            particles: 80
+            particles: 40
             sizeFrom: 6
+            colorFrom: 3d3d3d66
+            colorTo: 3d3d3dff
+            lifetime: 120
+            interp: pow3In
+            sizeInterp: pow1Out
+            length: 248
+            cone: 10
+            lifetime: 83
+          }
+          {
+            type: ParticleEffect
+            particles: 40
+            sizeFrom: 10
             colorFrom: 3d3d3d66
             colorTo: 3d3d3dff
             lifetime: 120
@@ -209,6 +223,62 @@ parts: [
           }
         ]
       }
+    chargeSound: torch
+    shootSound: smelter
+    chargeEffect: {
+        type: MultiEffect
+        effects: [
+          {
+          type: ParticleEffect
+          baseLength: -40
+          length: 0
+          interp: pow2In
+          sizeFrom: 0
+          sizeTo: 8
+          sizeInterp: pow2In
+          lifetime: 60
+          colorFrom: ff2b2bff
+          colorTo: ff2b2b00
+          }
+          {
+          type: ParticleEffect
+          baseLength: -8
+          length: 0
+          interp: pow2In
+          sizeFrom: 0
+          sizeTo: 4
+          sizeInterp: pow2In
+          lifetime: 60
+          colorFrom: ff2b2bff
+          colorTo: ff2b2b00
+          }
+          {
+          type: ParticleEffect
+          baseLength: -40
+          line: true
+          lengthFrom: 0
+          lengthTo: 10
+          strokeFrom: 0
+          strokeTo: 2
+          length: 0
+          interp: pow2In
+          sizeInterp: pow2In
+          lifetime: 60
+          colorFrom: ff2b2bff
+          colorTo: ff2b2b00
+          }
+          {
+          type: WaveEffect
+          sizeFrom: 40
+          interp: pow2In
+          strokeFrom: 0
+          strokeTo: 2
+          sizeTo: 0
+          colorFrom: ff2b2b66
+          colorTo: ff2b2b00
+          }
+      ]
+    }
     bullet: {
         type: BulletType
         instantDisappear: true
@@ -219,6 +289,7 @@ parts: [
         fragBullet: {
           type: ArtilleryBulletType
           splashDamage: 80
+          splashDamageRadius: 40
           lifetime: 30
           backColor: 3d3d3d66
           frontColor: 3d3d3d22
