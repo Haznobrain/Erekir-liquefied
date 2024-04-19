@@ -199,7 +199,10 @@ parts: [
     ]
     reload: 600
     inaccuracy: 10
-    shootEffect: {
+    chargeSound: torch
+    shootSound: smelter
+    bullet: {
+        shootEffect: {
         type: MultiEffect
         effects: [
           {
@@ -237,16 +240,13 @@ parts: [
           }
         ]
       }
-    chargeSound: torch
-    shootSound: smelter
-    bullet: {
     chargeEffect: {
         type: MultiEffect
         effects: [
           {
           type: ParticleEffect
           baseLength: -40
-          length: 0
+          length: 40
           interp: pow2In
           sizeFrom: 0
           sizeTo: 8
@@ -258,7 +258,7 @@ parts: [
           {
           type: ParticleEffect
           baseLength: -8
-          length: 0
+          length: 40
           interp: pow2In
           sizeFrom: 0
           sizeTo: 4
@@ -275,7 +275,7 @@ parts: [
           lengthTo: 10
           strokeFrom: 0
           strokeTo: 2
-          length: 0
+          length: 40
           interp: pow2In
           sizeInterp: pow2In
           lifetime: 60
@@ -291,6 +291,7 @@ parts: [
           sizeTo: 0
           colorFrom: ff2b2bff
           colorTo: ff2b2b
+          lifetime: 60
           }
       ]
     }
