@@ -8,6 +8,7 @@ hitSize: 40
 armor: 18
 speed: 0.6
 targetAir: false
+traiLength: 32
 faceTargets: false
 lightRadius: 5
 singleTarget: true
@@ -220,7 +221,7 @@ parts: [
             colorTo: 3d3d3dff
             lifetime: 120
             interp: pow3In
-            sizeInterp: pow1Out
+            sizeInterp: pow3Out
             length: 248
             cone: 10
             lifetime: 83
@@ -233,7 +234,7 @@ parts: [
             colorTo: 3d3d3dff
             lifetime: 120
             interp: pow3In
-            sizeInterp: pow1Out
+            sizeInterp: pow3Out
             length: 248
             cone: 10
             lifetime: 83
