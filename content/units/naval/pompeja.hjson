@@ -8,7 +8,7 @@ hitSize: 40
 armor: 18
 speed: 0.6
 targetAir: false
-traiLength: 32
+traiLength: 92
 faceTargets: false
 lightRadius: 5
 singleTarget: true
@@ -150,7 +150,7 @@ parts: [
     mirror: true
     moves: [
       {
-      rot: 10
+      rot: -10
       progress: recoil
       type: PartMove
       }
