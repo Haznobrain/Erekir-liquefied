@@ -181,7 +181,7 @@ parts: [
       haloRotateSpeed: 2.3
       triLength: 0
       triLengthTo: 4
-      shapeColor: ff000066
+      color: ff000066
       haloRadius: 6
     }
     {
@@ -192,7 +192,7 @@ parts: [
       shapeRotation: 180
       triLength: 0
       triLengthTo: 2
-      shapeColor: ff000066
+      color: ff000066
       haloRadius: 6
     }
     {
