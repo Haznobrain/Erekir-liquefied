@@ -42,6 +42,7 @@ parts: [
     progress: warmup
     moveRot: -10
     moveY: -3
+    mirror
     heatProgress: {
         type: reload
         amount: 0.5
@@ -50,7 +51,7 @@ parts: [
         }
     moves: [
       {
-      rot: -5
+      rot: 5
       progress: recoil
       type: PartMove
       }
