@@ -41,7 +41,7 @@ parts: [
     type: RegionPart
     suffix: -blade
     progress: warmup
-    moveRot: -10
+    moveRot: 10
     moveY: -3
     mirror: true
     heatProgress: {
@@ -52,7 +52,7 @@ parts: [
         }
     moves: [
       {
-      rot: 5
+      rot: -5
       progress: recoil
       type: PartMove
       }
@@ -314,8 +314,8 @@ parts: [
           damage: 20
           splashDamageRadius: 40
           lifetime: 30
-          backColor: 3d3d3d22
-          frontColor: 3d3d3d11
+          backColor: 3d3d3d11
+          frontColor: 3d3d3d
           shrinkY: 0.2
           shrinkInterp: slope
           shrinkX: 0
