@@ -264,7 +264,7 @@ parts: [
           }
           {
           type: ParticleEffect
-          baseLength: -8
+          baseLength: -40
           length: 40
           interp: pow2In
           sizeFrom: 0
