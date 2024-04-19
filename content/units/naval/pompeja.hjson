@@ -12,6 +12,7 @@ trailLength: 92
 trailWidth: 4
 faceTargets: false
 lightRadius: 5
+trailScl: 2.5
 singleTarget: true
 fogRadius: 20
 immunities: [
