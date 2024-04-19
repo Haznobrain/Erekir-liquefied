@@ -8,7 +8,8 @@ hitSize: 40
 armor: 18
 speed: 0.6
 targetAir: false
-traiLength: 92
+trailLength: 92
+trailWidth: 4
 faceTargets: false
 lightRadius: 5
 singleTarget: true
