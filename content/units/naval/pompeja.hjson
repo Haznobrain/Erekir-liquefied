@@ -42,7 +42,7 @@ parts: [
     progress: warmup
     moveRot: -10
     moveY: -3
-    mirror
+    mirror: true
     heatProgress: {
         type: reload
         amount: 0.5
