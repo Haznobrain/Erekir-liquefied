@@ -7,9 +7,9 @@ health: 12000
 hitSize: 40
 armor: 18
 speed: 0.6
-targetAir: false
+range: 248
+targetAir: true
 trailLength: 92
-trailWidth: 4
 faceTargets: false
 lightRadius: 5
 waveTrailX: 16
@@ -38,7 +38,6 @@ shootWarmupSpeed: 0.04
 minWarmup: 0.98
 cooldownTime: 20
 recoilTime: 20
-warmupMaintainTime: 360
 parts: [
     {
     type: RegionPart
