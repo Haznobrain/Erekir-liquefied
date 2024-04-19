@@ -22,6 +22,8 @@ mirror: false
 y: 0
 x: 0
 range: 248
+layerOffset: 2
+rotate: true
 shoot: {
     firstShotDelay: 60
     shots: 5
@@ -34,7 +36,7 @@ parts: [
     type: RegionPart
     suffix: -blade
     progress: warmup
-    moveRot: 10
+    moveRot: -10
     moveY: -3
     heatProgress: {
         type: reload
@@ -44,7 +46,7 @@ parts: [
         }
     moves: [
       {
-      rot: 5
+      rot: -5
       progress: reload
       type: PartMove
       }
@@ -54,11 +56,11 @@ parts: [
     type: RegionPart
     suffix: -dome
     progress: warmup
-    moveRot: 10
+    moveRot: -10
     mirror: true
     moves: [
       {
-      rot: 5
+      rot: -5
       progress: recoil
       type: PartMove
       }
@@ -68,11 +70,11 @@ parts: [
     type: RegionPart
     suffix: -dome
     progress: warmup
-    moveRot: 20
+    moveRot: -20
     mirror: true
     moves: [
       {
-      rot: 5
+      rot: -5
       progress: recoil
       type: PartMove
       }
@@ -82,11 +84,11 @@ parts: [
     type: RegionPart
     suffix: -dome
     progress: warmup
-    moveRot: 30
+    moveRot: -30
     mirror: true
     moves: [
       {
-      rot: 5
+      rot: -5
       progress: recoil
       type: PartMove
       }
@@ -96,11 +98,11 @@ parts: [
     type: RegionPart
     suffix: -dome
     progress: warmup
-    moveRot: 40
+    moveRot: -40
     mirror: true
     moves: [
       {
-      rot: 5
+      rot: -5
       progress: recoil
       type: PartMove
       }
@@ -110,11 +112,11 @@ parts: [
     type: RegionPart
     suffix: -side
     progress: warmup
-    moveRot: 10
+    moveRot: -10
     mirror: true
     moves: [
       {
-      rot: 10
+      rot: -10
       progress: recoil
       type: PartMove
       }
@@ -124,11 +126,11 @@ parts: [
     type: RegionPart
     suffix: -side
     progress: warmup
-    moveRot: 20
+    moveRot: -20
     mirror: true
     moves: [
       {
-      rot: 10
+      rot: -10
       progress: recoil
       type: PartMove
       }
@@ -138,7 +140,7 @@ parts: [
     type: RegionPart
     suffix: -side
     progress: warmup
-    moveRot: 30
+    moveRot: -30
     mirror: true
     moves: [
       {
@@ -175,7 +177,7 @@ parts: [
       haloRotateSpeed: 2.3
       triLength: 0
       triLengthTo: 4
-      haloColor: ff000066
+      shapeColor: ff000066
       haloRadius: 6
     }
     {
@@ -186,7 +188,7 @@ parts: [
       shapeRotation: 180
       triLength: 0
       triLengthTo: 2
-      haloColor: ff000066
+      shapeColor: ff000066
       haloRadius: 6
     }
     {
@@ -236,6 +238,7 @@ parts: [
       }
     chargeSound: torch
     shootSound: smelter
+    bullet: {
     chargeEffect: {
         type: MultiEffect
         effects: [
@@ -249,7 +252,7 @@ parts: [
           sizeInterp: pow2In
           lifetime: 60
           colorFrom: ff2b2bff
-          colorTo: ff2b2b00
+          colorTo: ff2b2b
           }
           {
           type: ParticleEffect
@@ -261,7 +264,7 @@ parts: [
           sizeInterp: pow2In
           lifetime: 60
           colorFrom: ff2b2bff
-          colorTo: ff2b2b00
+          colorTo: ff2b2b
           }
           {
           type: ParticleEffect
@@ -276,7 +279,7 @@ parts: [
           sizeInterp: pow2In
           lifetime: 60
           colorFrom: ff2b2bff
-          colorTo: ff2b2b00
+          colorTo: ff2b2b
           }
           {
           type: WaveEffect
@@ -285,12 +288,11 @@ parts: [
           strokeFrom: 0
           strokeTo: 2
           sizeTo: 0
-          colorFrom: ff2b2b66
-          colorTo: ff2b2b00
+          colorFrom: ff2b2bff
+          colorTo: ff2b2b
           }
       ]
     }
-    bullet: {
         type: BulletType
         instantDisappear: true
         fragBullets: 5
