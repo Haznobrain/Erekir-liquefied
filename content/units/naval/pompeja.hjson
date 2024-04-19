@@ -2,13 +2,13 @@ name: Pompeja
 template: ErekirUnitType
 type: naval
 flying: false
-description: A large ship that shoots a barrage of slag and electric bullets at ennemy targets.
+description: A large ship that shoots like a volcanic eruption.
 health: 12000
 hitSize: 40
 armor: 18
 speed: 0.6
-targetAir: true
-faceTargets: true
+targetAir: false
+faceTargets: false
 lightRadius: 5
 singleTarget: true
 fogRadius: 20
@@ -16,110 +16,224 @@ immunities: [
 burning,
 melting
 ]
-  weapons: [{
-    y: 16
-    mirror: true
-    x: -8
-    reload: 5
-    shootCone: 5
-    range: 192
-    rotate: true
-    shootSound: none
-    name: slag-cannon
-    shootEffect: shootLiquid
-    bullet: {
-      type: LiquidBulletType
-      damage: 45
-      orbSize: 3
-      liquid: slag
-      speed: 6
-      lifetime: 32
-        }
-}
+  weapons: [
 {
+mirror: false
+y: 0
+x: 0
+range: 248
+shoot: {
+    firstShotDelay: 60
+    shots: 5
+      }
+shootWarmupSpeed: 0.04
+minWarmup: 0.98
 parts: [
-{
-type: RegionPart
-x: 0
-y: 0
-moveY: -1
-progress: recoil
-suffix: -mid
-heatLayerOffset: 0.05
-heatColor: ff9135
-heatProgress: recoil
-  }
-{
-type: RegionPart
-x: 0
-y: 0
-moveRot: 15
-suffix: -side
-mirror: true
-  progress: recoil
-heatLayerOffset: 0.05
-heatColor: ff9135
-heatProgress: recoil
-  }
-]
- y: -12
-    mirror: true
-    cooldownTime: 160
-    x: 0
-    reload: 120
-    shootCone: 5
-    range: 280
-    rotate: true
-    shootSound: shootAlt
-    mirror: false
-    name: flaker
-    bullet: {
-      type: BasicBulletType
-      shootEffect: shootBigColor
-      smokeEffect: shootSmokeSquareSparse
-      frontColor: ff967b
-      trailWidth: 6
-      trailLength: 3
-      hitEffect: hitSquaresColor
-      hitColor: db3d13
-      trailColor: db3d13
-      damage: 120
-      height:  8
-      width: 8
-      speed: 3
-      lifetime: 94
-      knockback: 2
-      bulletInterval: 2
-      intervalBullet: {
-        type: laserBulletType
-        length: 64
-        damage: 15
-        pierceCap: 3
+    {
+    type: RegionPart
+    suffix: -blade
+    progress: warmup
+    moveRot: 10
+    moveY: -3
+    heatProgress: {
+        type: reload
+        amount: 0.5
+        other: warmup
+        heatColor: ff000066
         }
-}
-}
-{
-name: spiker
-reload: 6
-range: 120
-x: 12
-y: 0
-rotate: true
-shootSound: shotgun
-  controllable: false
-smokeEffect: shootSmokeSquareSparse
-shootEffect: shootBigColor
-autoTarget: true
-bullet: {
-shootEffect: shootBigColor
-smokeEffect: shootSmokeSquareSparse
-type: ShrapnelBulletType
-colorFrom: ffffff
-colorTo: d70000
-length: 120
-width: 10
-damage: 45
-  }
-}
+    moves: [
+      {
+      rot: 5
+      progress: reload
+      type: PartMove
+      }
+      ]
+    }
+    {
+    type: RegionPart
+    suffix: -dome
+    progress: warmup
+    moveRot: 10
+    moves: [
+      {
+      rot: 5
+      progress: recoil
+      type: PartMove
+      }
+      ]
+    }
+    {
+    type: RegionPart
+    suffix: -dome
+    progress: warmup
+    moveRot: 20
+    moves: [
+      {
+      rot: 5
+      progress: recoil
+      type: PartMove
+      }
+      ]
+    }
+    {
+    type: RegionPart
+    suffix: -dome
+    progress: warmup
+    moveRot: 30
+    moves: [
+      {
+      rot: 5
+      progress: recoil
+      type: PartMove
+      }
+      ]
+    }
+    {
+    type: RegionPart
+    suffix: -dome
+    progress: warmup
+    moveRot: 40
+    moves: [
+      {
+      rot: 5
+      progress: recoil
+      type: PartMove
+      }
+      ]
+    }
+    {
+    type: RegionPart
+    suffix: -side
+    progress: warmup
+    moveRot: 10
+    moves: [
+      {
+      rot: 10
+      progress: recoil
+      type: PartMove
+      }
+      ]
+    }
+    {
+    type: RegionPart
+    suffix: -dome
+    progress: warmup
+    moveRot: 20
+    moves: [
+      {
+      rot: 10
+      progress: recoil
+      type: PartMove
+      }
+      ]
+    }
+    {
+    type: RegionPart
+    suffix: -dome
+    progress: warmup
+    moveRot: 30
+    moves: [
+      {
+      rot: 10
+      progress: recoil
+      type: PartMove
+      }
+      ]
+    }
+    {
+      type: ShapePart
+      sides: 4
+      radius: 2
+      strokeTo: 1
+      stroke: 0
+      color: ff000066
+      hollow: true
+      progress: warmup
+    }
+    {
+      type: ShapePart
+      circle: true
+      hollow: true
+      radius: 3
+      strokeTo: 1
+      stroke: 0
+      color: ff000066
+      progress: warmup
+    }
+    {
+      type: HaloPart
+      shapes: 4
+      tri: true
+      haloRotateSpeed: 2.3
+      triLength: 0
+      triLengthTo: 4
+      haloColor: ff000066
+      haloRadius: 6
+    }
+    {
+      type: HaloPart
+      shapes: 4
+      tri: true
+      haloRotateSpeed: 2.3
+      shapeRotation: 180
+      triLength: 0
+      triLengthTo: 2
+      haloColor: ff000066
+      haloRadius: 6
+    }
+    ]
+    reload: 180
+    inaccuracy: 10
+    shootEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: WaveEffect
+            colorFrom: 533f3f
+            colorTo: 3d3d3dff
+            sizeTo: 40
+            lifetime: 12
+          }
+          {
+            type: ParticleEffect
+            particles: 80
+            sizeFrom: 6
+            colorFrom: 3d3d3d66
+            colorTo: 3d3d3dff
+            lifetime: 120
+            interp: pow3In
+            sizeInterp: pow1Out
+            length: 248
+            cone: 10
+            lifetime: 83
+          }
+        ]
+      }
+    bullet: {
+        type: BulletType
+        instantDisappear: true
+        fragBullets: 5
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragRandomSpread: 10
+        fragBullet: {
+          type: ArtilleryBulletType
+          splashDamage: 80
+          lifetime: 30
+          backColor: 3d3d3d66
+          frontColor: 3d3d3d22
+          shrinkY: 0
+          shrinkX: 0
+          speed: 3
+          lifetime: 83
+          shootEffect: none
+          despawnEffect: massiveExplosion
+          hitEffect: none
+          width: 10
+          height: 10
+          hitSound: bang
+            }
+        }
+    }
   ]
 lightRadius: 200
