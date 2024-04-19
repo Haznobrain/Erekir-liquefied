@@ -49,7 +49,7 @@ parts: [
     moves: [
       {
       rot: -5
-      progress: reload
+      progress: recoil
       type: PartMove
       }
       ]
@@ -171,10 +171,12 @@ parts: [
       stroke: 0
       color: ff000066
       progress: warmup
+      layer: 100
     }
     {
       type: HaloPart
       shapes: 4
+      layer: 100
       tri: true
       haloRotateSpeed: 2.3
       triLength: 0
@@ -220,8 +222,8 @@ parts: [
             colorFrom: 3d3d3d66
             colorTo: 3d3d3dff
             lifetime: 120
-            interp: pow3In
-            sizeInterp: pow3Out
+            interp: pow3Out
+            sizeInterp: pow3In
             length: 248
             cone: 10
             lifetime: 83
@@ -233,8 +235,8 @@ parts: [
             colorFrom: 3d3d3d66
             colorTo: 3d3d3dff
             lifetime: 120
-            interp: pow3In
-            sizeInterp: pow3Out
+            interp: pow3Out
+            sizeInterp: pow3In
             length: 248
             cone: 10
             lifetime: 83
