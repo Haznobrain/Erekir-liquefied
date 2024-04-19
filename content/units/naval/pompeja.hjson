@@ -311,7 +311,11 @@ parts: [
         fragVelocityMin: 1
         fragVelocityMax: 1
         fragRandomSpread: 10
+        keepVelocity: false
+        despawnEffect: none
+        damage: 0
         fragBullet: {
+          keepVelocity: false
           type: BasicBulletType
           splashDamage: 80
           damage: 20
