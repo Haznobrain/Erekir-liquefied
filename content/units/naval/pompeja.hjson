@@ -55,6 +55,7 @@ parts: [
     suffix: -dome
     progress: warmup
     moveRot: 10
+    mirror: true
     moves: [
       {
       rot: 5
@@ -68,6 +69,7 @@ parts: [
     suffix: -dome
     progress: warmup
     moveRot: 20
+    mirror: true
     moves: [
       {
       rot: 5
@@ -81,6 +83,7 @@ parts: [
     suffix: -dome
     progress: warmup
     moveRot: 30
+    mirror: true
     moves: [
       {
       rot: 5
@@ -94,6 +97,7 @@ parts: [
     suffix: -dome
     progress: warmup
     moveRot: 40
+    mirror: true
     moves: [
       {
       rot: 5
@@ -107,6 +111,7 @@ parts: [
     suffix: -side
     progress: warmup
     moveRot: 10
+    mirror: true
     moves: [
       {
       rot: 10
@@ -117,9 +122,10 @@ parts: [
     }
     {
     type: RegionPart
-    suffix: -dome
+    suffix: -side
     progress: warmup
     moveRot: 20
+    mirror: true
     moves: [
       {
       rot: 10
@@ -130,9 +136,10 @@ parts: [
     }
     {
     type: RegionPart
-    suffix: -dome
+    suffix: -side
     progress: warmup
     moveRot: 30
+    mirror: true
     moves: [
       {
       rot: 10
@@ -181,6 +188,10 @@ parts: [
       triLengthTo: 2
       haloColor: ff000066
       haloRadius: 6
+    }
+    {
+      type: RegionPart
+      suffix: -bottom
     }
     ]
     reload: 600
