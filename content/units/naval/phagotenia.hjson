@@ -12,6 +12,7 @@ faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 45
+rotateSpeed: 1.2
 immunities: [
 burning,
 melting
@@ -31,6 +32,7 @@ melting
       moveX: 6
       moveY: -2
       heatProgress: reload
+      layerOffset: -0.01
       }
       ]
   reload: 420
