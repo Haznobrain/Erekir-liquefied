@@ -200,6 +200,7 @@ parts: [
         type: LightningBulletType
         lightningLength: 100
         lightningColor: ffd300
+        splashDamageRadius: 2
         lightningType: {
             type: LightningBulletType
             lightningLength: 3
