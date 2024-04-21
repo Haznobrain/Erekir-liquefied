@@ -132,8 +132,8 @@ parts: [
                 colorTo: ffd300ff
                 lightColor: ffd300
                 lightOpacity: 1
-                interp: pow2In
-                sizeInterp: pow3Out
+                interp: pow3Out
+                sizeInterp: pow2In
                 lifetime: 60
                 sizeFrom: 12
                 sizeTo: 0
@@ -145,9 +145,10 @@ parts: [
                 colorFrom: ffd300bb
                 colorTo: ffd300ff
                 lightColor: ffd300
+                lifetime: 60
                 lightOpacity: 1
-                interp: pow2In
-                sizeInterp: pow3Out
+                interp: pow3Out
+                sizeInterp: pow2In
                 lifetime: 60
                 sizeFrom: 8
                 sizeTo: 0
@@ -156,12 +157,13 @@ parts: [
               {
                 type: ParticleEffect
                 particles: 16
+                lifetime: 60
                 colorFrom: ffd300bb
                 colorTo: ffd300ff
                 lightColor: ffd300
                 lightOpacity: 1
-                interp: pow2In
-                sizeInterp: pow3Out
+                interp: pow3Out
+                sizeInterp: pow2In
                 lifetime: 60
                 sizeFrom: 5
                 sizeTo: 0
@@ -179,6 +181,7 @@ parts: [
                   colorFrom: ffd300bb
                   colorTo: ffd300ff
                   lightColor: ffd300
+                  lifetime: 60
                     }
               lengthOffset: 200
               amount: 8
@@ -189,6 +192,7 @@ parts: [
               sizeTo: 200
               sizeFrom: 200
               strokeFrom: 3
+              lifetime: 60
               colorFrom: ffd300
               colorTo: ffd300
               lightColor: ffd300
