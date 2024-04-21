@@ -116,6 +116,7 @@ parts: [
       instantDisappear: true
       splashDamage: 4500
       splashDamageRadius: 200
+      damage: 0
       fragBullets: 4
       fragSpread: 90
       fragRandomSpread: 0
