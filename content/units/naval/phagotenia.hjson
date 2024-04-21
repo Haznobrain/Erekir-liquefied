@@ -23,9 +23,10 @@ melting
       {
       type: RegionPart
       x: -6
-      y: 6
+      y: 8
       suffix: -heatsink
       mirror: true
+      under: true
       progress: warmup
       moveX: 4
       moveY: -4
@@ -35,7 +36,7 @@ melting
   reload: 420
   shoot: {
       type: ShootAlternate
-      spread: 3
+      spread: 2
       barrels: 6
       shots: 30
       shotDelay: 2
