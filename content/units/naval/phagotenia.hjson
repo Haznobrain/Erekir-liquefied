@@ -62,6 +62,7 @@ melting
       width: 5
       shrinkY: 0
       shrinkX: -1
+      splashDamageRadius: 24
       hitEffect: massiveExplosion
       despawnEffect: none
       }
@@ -206,6 +207,7 @@ parts: [
             lightningColor: ffd30010
             hitEffect: none
             lightColor: ffd300
+            splashDamageRadius: 6
               }
         lightColor: ffd300
         damage: 65
