@@ -40,6 +40,7 @@ melting
       shots: 30
       shotDelay: 2
       }
+    shootSound: missile
     range: 336
     inaccuracy: 3
     rotate: true
@@ -103,15 +104,15 @@ parts: [
     rotate: false
     shootOnDeath: true
     cooldownTime: 1800
-    shootSound: plasmaboom
+    shootSound: shockBlast
     mirror: false
     bullet: {
       type: BasicBulletType
       instantDisappear: true
       splashDamage: 4500
       splashDamageRadius: 200
-      fragBullets: 8
-      fragSpread: 45
+      fragBullets: 4
+      fragSpread: 90
       fragRandomSpread: 0
       shootEffect: none
       hitEffect: massiveExplosion
