@@ -28,7 +28,7 @@ melting
       mirror: true
       under: true
       progress: warmup
-      moveX: 4
+      moveX: 6
       moveY: -2
       heatProgress: reload
       }
@@ -39,7 +39,7 @@ melting
       spread: 2
       barrels: 6
       shots: 30
-      shotDelay: 2
+      shotDelay: 1
       }
     shootSound: missile
     range: 336
@@ -169,7 +169,7 @@ parts: [
                   sizeFrom: 20
                   sizeTo: 0
                   sizeInterp: pow3Out
-                  region: erekirliquefied-effect
+                  region: erekirliquefied-diamond
                   length: 0
                   colorFrom: ffd300bb
                   colorTo: ffd300ff
