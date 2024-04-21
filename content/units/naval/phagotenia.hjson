@@ -35,7 +35,7 @@ melting
   reload: 420
   shoot: {
       type: ShootAlternate
-      spread: 0.75
+      spread: 3
       barrels: 6
       shots: 30
       shotDelay: 2
@@ -95,7 +95,7 @@ parts: [
   tri: true
     }
 ]
- y: -12
+ y: -40
     mirror: true
     x: 0
     reload: 1800
