@@ -169,7 +169,7 @@ parts: [
                   sizeFrom: 20
                   sizeTo: 0
                   sizeInterp: pow3Out
-                  region: erekirliquefied-lasershoot
+                  region: erekirliquefied-effect
                   length: 0
                   colorFrom: ffd300bb
                   colorTo: ffd300ff
@@ -182,6 +182,7 @@ parts: [
               {
               type: WaveEffect
               sizeTo: 200
+              sizeFrom: 200
               strokeFrom: 3
               colorFrom: ffd300
               colorTo: ffd300
