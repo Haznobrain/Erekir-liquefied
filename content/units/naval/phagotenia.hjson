@@ -1,0 +1,213 @@
+name: Phagotenia
+template: ErekirUnitType
+type: naval
+flying: false
+description: A large very well armored ship that shoots a massive swarm of missiles at ennemy targets. Also occasionaly releases a massive lightning explosion.
+health: 22000
+hitSize: 56
+armor: 30
+speed: 0.5
+targetAir: true
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 45
+immunities: [
+burning,
+melting
+]
+  weapons: [
+{
+  name: phagotenia-swarmer
+  parts: [
+      {
+      type: RegionPart
+      x: -5
+      y: 5
+      suffix: -heatsink
+      mirror: true
+      progress: warmup
+      moveX: 5
+      moveY: -5
+      heatProgress: reload
+      }
+      ]
+  reload: 420
+  shoot: {
+      type: ShootAlternate
+      spread: 0.75
+      barrels: 6
+      shots: 30
+      shotDelay: 2
+      }
+    range: 336
+    inaccuracy: 3
+    rotate: true
+    rotateSpeed: 1.3
+    y: -12
+    x: 0
+    mirror: false
+    bullet: {
+      type: MissileBulletType
+      speed: 4
+      lifetime: 84
+      damage: 12
+      splashDamage: 60
+      height: 10
+      width: 5
+      shrinkY: 0
+      shrinkX: -1
+      hitEffect: massiveExplosion
+      despawnEffect: none
+      }
+}
+{
+parts: [
+{
+  type: ShapePart
+  radius: 8
+  hollow: false
+  circle: true
+  color: ffd300
+  layerOffset: 0
+  radiusTo: 0
+  progress: recoil
+    }
+  {
+  type: ShapePart
+  radius: 6
+  hollow: false
+  circle: true
+  color: 000000
+  radiusTo: 0
+  progress: recoil
+    }
+{
+  type: HaloPart
+  haloRad: 8
+  triLength: 8
+  triLengthTo: 0
+  haloRotateSpeed: 8
+  haloRadTo: 0
+  progress: recoil
+  color: ffd300
+  tri: true
+    }
+]
+ y: -12
+    mirror: true
+    x: 0
+    reload: 1800
+    shootCone: 360
+    range: 120
+    rotate: false
+    shootOnDeath: true
+    cooldownTime: 1800
+    shootSound: plasmaboom
+    mirror: false
+    bullet: {
+      type: BasicBulletType
+      instantDisappear: true
+      splashDamage: 4500
+      splashDamageRadius: 200
+      fragBullets: 8
+      fragSpread: 45
+      fragRandomSpread: 0
+      shootEffect: none
+      hitEffect: massiveExplosion
+      despawnEffect: {
+          type: MultiEffect
+            effects: [
+              {
+                type: ParticleEffect
+                particles: 8
+                colorFrom: ffd300bb
+                colorTo: ffd300ff
+                lightColor: ffd300
+                lightOpacity: 1
+                interp: pow2In
+                sizeInterp: pow3Out
+                lifetime: 60
+                sizeFrom: 12
+                sizeTo: 0
+                length: 200
+              }
+              {
+                type: ParticleEffect
+                particles: 12
+                colorFrom: ffd300bb
+                colorTo: ffd300ff
+                lightColor: ffd300
+                lightOpacity: 1
+                interp: pow2In
+                sizeInterp: pow3Out
+                lifetime: 60
+                sizeFrom: 8
+                sizeTo: 0
+                length: 200
+              }
+              {
+                type: ParticleEffect
+                particles: 16
+                colorFrom: ffd300bb
+                colorTo: ffd300ff
+                lightColor: ffd300
+                lightOpacity: 1
+                interp: pow2In
+                sizeInterp: pow3Out
+                lifetime: 60
+                sizeFrom: 5
+                sizeTo: 0
+                length: 200
+              }
+              {
+              type: RadialEffect
+              effect: {
+                  type: ParticleEffect
+                  sizeFrom: 20
+                  sizeTo: 0
+                  sizeInterp: pow3Out
+                  region: erekirliquefied-lasershoot
+                  length: 0
+                  colorFrom: ffd300bb
+                  colorTo: ffd300ff
+                  lightColor: ffd300
+                    }
+              lengthOffset: 200
+              amount: 8
+              rotationSpacing: 45
+              }
+              {
+              type: WaveEffect
+              sizeTo: 200
+              strokeFrom: 3
+              colorFrom: ffd300
+              colorTo: ffd300
+              lightColor: ffd300
+              interp: pow2In
+              }
+          ]
+    }
+      fragBullet: {
+        type: LightningBulletType
+        lightningLength: 100
+        lightningColor: ffd300
+        lightningType: {
+            type: LightningBulletType
+            lightningLength: 3
+            lightningLengthRand: 6
+            damage: 4
+            lightningColor: ffd30010
+            hitEffect: none
+            lightColor: ffd300
+              }
+        lightColor: ffd300
+        damage: 65
+        splashDamage: 12
+        hitEffect: blastExplosion
+        
+          }
+        }
+}
+  ]
+lightRadius: 200
