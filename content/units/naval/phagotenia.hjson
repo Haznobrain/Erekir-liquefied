@@ -28,7 +28,7 @@ melting
       mirror: true
       under: true
       progress: warmup
-      moveX: 2
+      moveX: 4
       moveY: -2
       heatProgress: reload
       }
