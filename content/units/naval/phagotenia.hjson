@@ -20,7 +20,7 @@ melting
   weapons: [
 {
   name: phagotenia-swarmer
-  layerOffset: 2
+  layerOffset: 3
   parts: [
       {
       type: RegionPart
@@ -33,7 +33,7 @@ melting
       moveX: 6
       moveY: -2
       heatProgress: reload
-      layerOffset: -0.1
+      layerOffset: -1
       }
       ]
   reload: 420
