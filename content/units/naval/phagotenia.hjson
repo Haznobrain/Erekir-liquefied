@@ -23,13 +23,13 @@ melting
       {
       type: RegionPart
       x: -6
-      y: 8
+      y: 10
       suffix: -heatsink
       mirror: true
       under: true
       progress: warmup
-      moveX: 4
-      moveY: -4
+      moveX: 2
+      moveY: -2
       heatProgress: reload
       }
       ]
