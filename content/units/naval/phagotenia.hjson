@@ -20,6 +20,7 @@ melting
   weapons: [
 {
   name: phagotenia-swarmer
+  layerOffset: 2
   parts: [
       {
       type: RegionPart
