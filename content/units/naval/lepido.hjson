@@ -2,7 +2,7 @@ name: Lepido
 template: ErekirUnitType
 type: naval
 flying: false
-description: A huge and well armored ship that has an explosive core and produces Friction units to attack at a longer range.
+description: A huge and well armored ship that has an explosive core and long-range missile launcher.
 health: 52000
 hitSize: 80
 armor: 34
@@ -14,6 +14,7 @@ singleTarget: true
 fogRadius: 45
 rotateSpeed: 1.1
 trailLength: 100
+waveTrailScl: 3.5
 waveTrailX: 40
 waveTrailY: -32
 immunities: [
