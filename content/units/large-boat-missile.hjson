@@ -42,8 +42,8 @@ abilities: [
       }
     }
 ]
-MissileAccelTime: 40
-targetAir: false
+MissileAccelTime: 50
+targetAir: true
 weapons: [{
     name: missile-explode
       shootCone: 360
