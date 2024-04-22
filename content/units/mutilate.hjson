@@ -66,6 +66,23 @@ barrels: 3
 shotDelay: 3
 }
   bullet: {
+    trailEffect: {
+      type: ParticleEffect
+      particles: 1
+      length: 0
+      sizeFrom: 6
+      colorFrom: ff9e00
+      colorTo: ff9e00
+      lightColor: ff9e00
+      layer: 120
+        }
+    trailEffect: {
+      type: ParticleEffect
+      particles: 8
+      length: 6
+      sizeFrom: 2
+      layer: 120
+        }
     layer: 120
     type: MissileBulletType
     damage: 80
