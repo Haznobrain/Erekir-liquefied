@@ -18,12 +18,12 @@ fogRadius: 40
 engineSize: 16
 engines: [
 {
-x: -9
+x: -18
 y: 0
 radius: 8
 }
 {
-x: 9
+x: 18
 y: 0
 radius: 8
 }
