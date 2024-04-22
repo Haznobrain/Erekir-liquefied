@@ -12,8 +12,7 @@ targetAir: true
 faceTargets: true
 lightRadius: 5
 singleTarget: true
-rngineOffset: 16
-engineColor: d4816b
+engineOffset: 30
 fogRadius: 40
 engineSize: 16
 engines: [
