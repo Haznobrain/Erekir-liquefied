@@ -128,7 +128,6 @@ parts: [
   tri: true
     }
 ]
-    range: 240
     y: 20
     mirror: true
     x: 0
