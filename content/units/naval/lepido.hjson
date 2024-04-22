@@ -35,9 +35,9 @@ parts: [
     type: RegionPart
     suffix: -missile
     progress: reload
-    colorTo: 000000ff
+    colorTo: 00000000
     color: ffffff
-    mixColor: 000000ff
+    mixColor: 00000000
     outline: false
     under: true
     layerOffset: -0.01
