@@ -27,6 +27,9 @@ rotateSpeed: 0.9
 rotate: true
 mirror: false
 name: lepido-weapon
+x: 0
+layerOffset: 3
+y: -20
 parts: [
     {
     type: RegionPart
