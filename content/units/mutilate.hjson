@@ -70,7 +70,7 @@ shotDelay: 3
       type: ParticleEffect
       particles: 1
       length: 0
-      sizeFrom: 4
+      sizeFrom: 2
       colorFrom: ffca3e
       colorTo: ffca3e
       lightColor: ff9e00
@@ -79,7 +79,8 @@ shotDelay: 3
     shootEffect: {
       type: ParticleEffect
       particles: 8
-      length: 6
+      length: 12
+      lifetime: 15
       sizeFrom: 2
       layer: 120
       cone: 5
