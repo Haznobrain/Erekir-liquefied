@@ -108,7 +108,7 @@ parts: [
   haloRotateSpeed: 8
   haloRadTo: 0
   progress: recoil
-  triColor: ffd37f
+  color: ffd37f
   tri: true
     }
   {
@@ -120,7 +120,7 @@ parts: [
   haloRotateSpeed: -8
   haloRadTo: 0
   progress: recoil
-  triColor: ffd37f
+  color: ffd37f
   tri: true
     }
 ]
