@@ -61,11 +61,12 @@ range: 384
 shoot: {
 type: shootAlternate
 shots: 3
-spread: 2
+spread: 4
 barrels: 3
 shotDelay: 3
 }
   bullet: {
+    layer: 110
     type: MissileBulletType
     damage: 80
     speed: 6
