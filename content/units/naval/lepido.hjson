@@ -12,6 +12,10 @@ faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 45
+rotateSpeed: 1.1
+trailLength: 100
+waveTrailX: 40
+waveTrailY: -32
 immunities: [
 burning,
 melting
