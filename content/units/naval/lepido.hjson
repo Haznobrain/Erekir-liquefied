@@ -98,11 +98,12 @@ parts: [
         sparks: 10
 }
       fragBullet: {
-        type: ContinuousLaserBulletType
+        type: ContinuousFlameBulletType
         damage: 108
         length: 240
-        colors: [ffd37f,000000,ffd37f]
+        colors: [ffd37f,000000,ffd37f, ffffff]
         width: 16
+        drawFlare: false
         lifetime: 120
           }
         }
