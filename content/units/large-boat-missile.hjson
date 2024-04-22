@@ -44,18 +44,6 @@ abilities: [
 ]
 MissileAccelTime: 40
 targetAir: false
-parts: [
-{
-  type: FlarePart
-  color1: ffa665
-  color2: ffffff
-  y: -2
-  followRotation: true
-  stroke: 1
-  radius: 6
-  rotateSpeed: 3
-}
-]
 weapons: [{
     name: missile-explode
       shootCone: 360
@@ -89,7 +77,7 @@ splashDamageRadius: 80
 continuous: true
 alwaysContinuous: true
 alwaysShooting: true
-baseRot: 180
+baseRotation: 180
 x: 0
 y: -5
 shootSound: none
@@ -141,6 +129,7 @@ colorTo: ffbd7b
   collides: false
   width: 4
   length: 27
+  flareColor: ffbd7b
 }
 }
   ]
