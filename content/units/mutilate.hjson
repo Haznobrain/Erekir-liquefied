@@ -70,9 +70,9 @@ shotDelay: 3
       type: ParticleEffect
       particles: 1
       length: 0
-      sizeFrom: 6
-      colorFrom: ff9e00
-      colorTo: ff9e00
+      sizeFrom: 4
+      colorFrom: ffca3e
+      colorTo: ffca3e
       lightColor: ff9e00
       layer: 120
         }
