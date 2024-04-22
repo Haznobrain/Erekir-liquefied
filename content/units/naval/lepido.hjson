@@ -4,7 +4,7 @@ type: naval
 flying: false
 description: A huge and well armored ship that has an explosive core and produces Friction units to attack at a longer range.
 health: 52000
-hitSize: 70
+hitSize: 80
 armor: 34
 speed: 0.45
 targetAir: true
@@ -17,6 +17,65 @@ burning,
 melting
 ]
   weapons: [
+{
+range: 600
+targetAir: false
+reload: 300
+shootSound: missileLaunch
+shootCone: 1
+rotateSpeed: 0.9
+rotate: true
+mirror: false
+name: lepido-weapon
+parts: [
+    {
+    type: RegionPart
+    suffix: -missile
+    progress: reload
+    colorTo: 000000ff
+    color: ffffff
+    mixColor: 000000ff
+    outline: false
+    under: true
+    layerOffset: -0.01
+    mixColorTo: ffff00
+    }
+    {
+    type: RegionPart
+    mirror: true
+    progress: warmup
+    suffix: -bottom
+    moves: [
+      {
+        type: PartMove
+        y: -2
+        progress: recoil
+      }
+      ]
+    }
+    {
+    type: RegionPart
+    mirror: true
+    x: -2
+    y: 0
+    moveX: 2
+    progress: warmup
+    suffix: -side
+    moves: [
+      {
+        type: PartMove
+        y: -2
+        progress: recoil
+      }
+      ]
+    }
+    ]
+bullet: {
+    spawnUnit: large-boat-missile
+    shootEffect: shootBig
+    smokeEffect: shootSmokeMissile
+      }
+      }
 {
 parts: [
 {
@@ -62,7 +121,7 @@ parts: [
   tri: true
     }
 ]
- y: -12
+    y: 20
     mirror: true
     x: 0
     reload: 900
@@ -71,7 +130,7 @@ parts: [
     rotate: false
     shootOnDeath: true
     cooldownTime: 1800
-    shootSound: plasmaboom
+    shootSound: shockblast
     mirror: false
     bullet: {
       type: BasicBulletType
@@ -84,19 +143,83 @@ parts: [
       shootEffect: none
       hitEffect: massiveExplosion
       despawnEffect: {
-        type: ExplosionEffect
-        waveColor: 000000
-        smokeColor: ffd37f
-        sparkColor: ffd37f
-        waveRad: 200
-        waveRadBase: 200
-        waveLife: 60
-        waveStroke: 10
-        sparkRad: 200
-        smokeRad: 200
-        smokes: 0
-        sparks: 10
-}
+          type: MultiEffect
+            effects: [
+              {
+                type: ParticleEffect
+                particles: 8
+                colorFrom: ffd300bb
+                colorTo: ffd300ff
+                lightColor: ffd300
+                lightOpacity: 1
+                interp: pow3Out
+                sizeInterp: pow2In
+                lifetime: 60
+                sizeFrom: 12
+                sizeTo: 0
+                length: 240
+              }
+              {
+                type: ParticleEffect
+                particles: 12
+                colorFrom: ffd300bb
+                colorTo: ffd300ff
+                lightColor: ffd300
+                lifetime: 60
+                lightOpacity: 1
+                interp: pow3Out
+                sizeInterp: pow2In
+                lifetime: 60
+                sizeFrom: 8
+                sizeTo: 0
+                length: 240
+              }
+              {
+                type: ParticleEffect
+                particles: 16
+                lifetime: 60
+                colorFrom: ffd300bb
+                colorTo: ffd300ff
+                lightColor: ffd300
+                lightOpacity: 1
+                interp: pow3Out
+                sizeInterp: pow2In
+                lifetime: 60
+                sizeFrom: 5
+                sizeTo: 0
+                length: 240
+              }
+              {
+              type: RadialEffect
+              effect: {
+                  type: ParticleEffect
+                  sizeFrom: 20
+                  sizeTo: 0
+                  sizeInterp: pow3Out
+                  region: erekirliquefied-diamond
+                  length: 0
+                  colorFrom: ffd300bb
+                  colorTo: ffd300ff
+                  lightColor: ffd300
+                  lifetime: 60
+                    }
+              lengthOffset: 240
+              amount: 8
+              rotationSpacing: 45
+              }
+              {
+              type: WaveEffect
+              sizeTo: 240
+              sizeFrom: 200
+              strokeFrom: 3
+              lifetime: 60
+              colorFrom: ffd300
+              colorTo: ffd300
+              lightColor: ffd300
+              interp: pow2In
+              }
+          ]
+    }
       fragBullet: {
         type: ContinuousFlameBulletType
         damage: 108
