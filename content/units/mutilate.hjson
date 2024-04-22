@@ -76,12 +76,13 @@ shotDelay: 3
       lightColor: ff9e00
       layer: 120
         }
-    trailEffect: {
+    shootEffect: {
       type: ParticleEffect
       particles: 8
       length: 6
       sizeFrom: 2
       layer: 120
+      cone: 5
         }
     layer: 120
     type: MissileBulletType
