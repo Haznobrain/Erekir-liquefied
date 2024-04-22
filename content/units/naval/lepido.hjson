@@ -213,7 +213,7 @@ parts: [
               {
               type: WaveEffect
               sizeTo: 240
-              sizeFrom: 200
+              sizeFrom: 240
               strokeFrom: 3
               lifetime: 60
               colorFrom: ffd300
