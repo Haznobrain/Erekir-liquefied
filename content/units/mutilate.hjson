@@ -86,7 +86,6 @@ shotDelay: 3
       sizeFrom: 2
       layer: 120
       cone: 5
-      followParent: true
         }
     layer: 120
     type: MissileBulletType
