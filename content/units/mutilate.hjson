@@ -39,7 +39,7 @@ radius: 8
     reload: 300
     continuous: true
     range: 304
-    heatColor: 65c5c9
+    heatColor: ff0000
     bullet: {
       type: ContinuousLaserBulletType
       damage: 96
