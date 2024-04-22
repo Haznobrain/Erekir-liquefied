@@ -58,6 +58,7 @@ mirror: true
 rotate: true
 reload: 18
 range: 384
+parentizeEffects: true
 shoot: {
 type: shootAlternate
 shots: 3
@@ -75,6 +76,7 @@ shotDelay: 3
       colorTo: ffca3e
       lightColor: ff9e00
       layer: 120
+      followParent: true
         }
     shootEffect: {
       type: ParticleEffect
@@ -84,6 +86,7 @@ shotDelay: 3
       sizeFrom: 2
       layer: 120
       cone: 5
+      followParent: true
         }
     layer: 120
     type: MissileBulletType
