@@ -58,6 +58,7 @@ parts: [
     heatColor: fde588
     moveY: -2
     moveX: 2
+    heatProgress: recoil
     }
     ]
 x: 12
