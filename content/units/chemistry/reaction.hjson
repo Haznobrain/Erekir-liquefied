@@ -3,7 +3,7 @@ type: legs
 name: Reaction
 health: 8000
 armor: 12
-description: A large unit with a lot of large legs that give it a very fast speed for its size. Can boost to go faster. Shoots 2 strong plasma flames and 2 sapping lasers.
+description: A large unit with powerful, large legs that give it a very fast speed for its size. Can boost to go faster. Shoots 2 strong plasma flames and 2 sapping lasers.
 speed: 0.75
 multiTarget: true
 singleTarget: false
@@ -18,8 +18,8 @@ rotateSpeed: 2.5
 hovering: true
 legStraightness: 0.2
 legSpeed: 0.5
-legCount: 10
-legLength: 80
+legCount: 4
+legLength: 64
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
@@ -38,68 +38,6 @@ immunities: [
 burning,
 melting
 ]
-parts: [
-{
-type: regionPart
-suffix: -blade
-layerOffset: -0.01
-heatColor: fde588
-heatLayerOffset: 0.05
-heatProgress: warmup
-x: 6
-y: 10
-moveX: 10
-moveY: 0
-moveRot: 30
-mirror: true
-progress: warmup
-}
-{
-type: regionPart
-suffix: -blade
-layerOffset: -0.01
-heatColor: fde588
-heatLayerOffset: 0.05
-heatProgress: warmup
-x: 6
-y: 3
-moveX: 10
-moveY: 0
-moveRot: 30
-mirror: true
-progress: warmup
-}
-{
-type: regionPart
-suffix: -blade
-layerOffset: -0.01
-heatColor: fde588
-heatLayerOffset: 0.05
-heatProgress: warmup
-x: 8
-y: -2
-moveX: 12
-moveY: 0
-moveRot: 30
-mirror: true
-progress: warmup
-}
-{
-type: regionPart
-suffix: -blade
-layerOffset: -0.01
-heatColor: fde588
-heatLayerOffset: 0.05
-heatProgress: warmup
-x: 6
-y: -10
-moveX: 12
-moveY: 0
-moveRot: 30
-mirror: true
-progress: warmup
-}
-]
 weapons: [
 {
 alwaysContinuous: true
@@ -107,25 +45,34 @@ alternate: false
 continuous: true
 heatColor: fde588
 shootSound: torch
-range: 280
+range: 168
 name: reaction-weapon1
 mirror: true
-x: 18
 rotationLimit: 30
 rotateSpeed: 1.5
 rotate: true
-y: 0
-shootY: 8
+parts: [
+    {
+    suffix: -blade
+    mirror: true
+    heatColor: fde588
+    moveY: -2
+    moveX: 2
+    }
+    ]
+x: 12
+y: 8
+shootY: 4
 shootStatus: slow
 inaccuracy: 0
   bullet: {
     hitColor: ffdf62
     type: ContinuousFlameBulletType
-    width: 8
+    width: 5
     flareColor: ffdf62
     colors: [ffdf62, ffe995, fff3c6, fff7d7, ffffff]
     damage: 31.7
-    length: 280
+    length: 168
     pierceCap: 3
 }
 }
