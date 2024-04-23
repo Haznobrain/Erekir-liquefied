@@ -57,10 +57,8 @@ shootSound: pulseBlast
 range: 200
 name: action-weapon
 mirror: true
-x: 0
+x: 6
 y: 0
-shootX: 10
-shootY: 6
 shoot: {
   type: ShootPatern
   shots: 3
@@ -89,7 +87,7 @@ shoot: {
           length: 20
           cone: 25
         }
-        damage: 80
+        damage: 35
         makeFire: true
         frontColor: ffffff
         backColor: ffdf62
