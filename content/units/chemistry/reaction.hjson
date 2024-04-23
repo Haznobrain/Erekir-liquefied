@@ -55,6 +55,7 @@ parts: [
     {
     suffix: -blade
     mirror: true
+    type: RegionPart
     heatColor: fde588
     moveY: -2
     moveX: 2
