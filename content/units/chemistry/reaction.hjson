@@ -57,8 +57,9 @@ parts: [
     mirror: true
     type: RegionPart
     heatColor: fde588
-    moveY: -2
-    moveX: 2
+    moveY: -4
+    moveX: 4
+    under: true
     heatProgress: recoil
     }
     ]
@@ -84,7 +85,7 @@ shootSound: sap
 range: 96
 name: reaction-weapon2
 mirror: true
-x: 10
+x: 6
 rotate: true
 rotateSpeed: 1.5
 y: 10
