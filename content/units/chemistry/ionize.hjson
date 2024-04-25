@@ -15,7 +15,7 @@ legSpeed: 0.5
 allowLegStep: true
 groundLayer: 74
 legCount: 8
-legLength: 96
+legLength: 40
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
@@ -30,68 +30,6 @@ legSplashRange: 15
 drownTimeMultiplier: 9
 legGroupSize: 3
 rippleScale: 2
-parts: [
-{
-type: regionPart
-suffix: -blade
-layerOffset: -0.01
-heatColor: ffe993
-heatLayerOffset: 0.005
-heatProgress: warmup
-x: 12
-y: 20
-moveX: 18
-moveY: 0
-moveRot: 15
-mirror: true
-progress: warmup
-}
-{
-type: regionPart
-suffix: -blade
-layerOffset: -0.01
-heatColor: ffe993
-heatLayerOffset: 0.005
-heatProgress: warmup
-x: 10
-y: 10
-moveX: 18
-moveY: 0
-moveRot: 30
-mirror: true
-progress: warmup
-}
-{
-type: regionPart
-suffix: -blade
-layerOffset: -0.01
-heatColor: ffe993
-heatLayerOffset: 0.005
-heatProgress: warmup
-x: 10
-y: -10
-moveX: 18
-moveY: 0
-moveRot: 45
-mirror: true
-progress: warmup
-}
-{
-type: regionPart
-suffix: -blade
-layerOffset: -0.01
-heatColor: ffe993
-heatLayerOffset: 0.005
-heatProgress: warmup
-x: 4
-y: -20
-moveX: 18
-moveY: 0
-moveRot: 60
-mirror: true
-progress: warmup
-}
-]
 immunities: [
 burning,
 melting
@@ -99,16 +37,14 @@ melting
 weapons: [
 {
 top: false
-name: ionize-weapon1
-reload: 30
+name: ionize
+recoil: 0
+reload: 180
 range: 304
 rotate: false
 mirror: true
 x: 0
 y: 0
-shootX: 24
-drawOutline: false
-shootY: 16
 shootSound: pulseBlast
 shootStatus: erekirliquefied-ionboosted
 statusDuration: 300
@@ -131,7 +67,7 @@ statusDuration: 300
         }
     shootEffect: {
         type: MultiEffect
-        effects: [
+        effects: [shootBig,
           {
             cone: 25
             type: ParticleEffect
@@ -187,13 +123,13 @@ statusDuration: 300
 }
 {
 name: ionize-weapon2
-reload: 15
+reload: 30
 shootCone: 360
 range: 280
 rotate: false
 mirror: true
 x: 12
-y: -18
+y: 0
 shootSound: malignShoot
 baseRotation: -45
 bullet: {
