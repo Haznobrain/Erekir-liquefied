@@ -9,6 +9,7 @@ speed: 0.45
 multiTarget: false
 singleTarget: true
 hitSize: 52
+shadowElevation: 0.28
 allowLegStep: true
 groundLayer: 74
 rotateSpeed: 2.0
@@ -16,7 +17,7 @@ legStraightness: 0.3
 legSpeed: 0.45
 legCount: 6
 legLength: 48
-lockLegBase: true
+lockLegBase: false
 legContinuousMove: true
 legExtension: -3
 legBaseOffset: 4
