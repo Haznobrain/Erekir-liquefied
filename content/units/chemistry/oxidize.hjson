@@ -8,6 +8,7 @@ hovering: true
 speed: 0.9
 hitSize: 12
 rotateSpeed: 3
+shadowElevation: 0.15
 legStraightness: 0.6
 legSpeed: 0.9
 legCount: 6
