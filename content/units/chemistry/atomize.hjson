@@ -106,7 +106,7 @@ parts: [
   {
   type: HaloPart
   x: 0
-  y: -40
+  y: -12
   haloRadius: 22
   shapes: 4
   triLength: 0
@@ -129,7 +129,7 @@ parts: [
 }
 {
   x: 0
-  y: -40
+  y: -12
   type: ShapePart
   radius: 22
   circle: true
@@ -140,7 +140,7 @@ parts: [
   }
 {
   x: 0
-  y: -40
+  y: -12
   type: ShapePart
   sides: 4
   hollow: true
@@ -152,7 +152,7 @@ parts: [
 }
 {
   x: 0
-  y: -40
+  y: -12
   type: ShapePart
   sides: 4
   hollow: true
@@ -164,7 +164,7 @@ parts: [
 }
 {
   x: 0
-  y: -40
+  y: -12
   type: ShapePart
   sides: 4
   hollow: true
@@ -176,7 +176,7 @@ parts: [
 }
 {
   x: 0
-  y: -40
+  y: -12
   type: ShapePart
   sides: 4
   hollow: true
