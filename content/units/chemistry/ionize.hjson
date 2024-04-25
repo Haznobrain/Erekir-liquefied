@@ -6,6 +6,7 @@ armor: 15
 hovering: true
 description: Rapidly shoots piercing ionizing bullets. Becomes faster when shooting. Posses great firepower. 
 speed: 0.5
+shadowElevation: 0.25
 multiTarget: false
 singleTarget: true
 hitSize: 48
