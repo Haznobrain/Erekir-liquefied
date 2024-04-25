@@ -272,8 +272,8 @@ bullet: {
 name: atomize-weapon2
 shootSound: shotGun
 reload: 20
-x: 24
-y: -2
+x: 22
+y: 0
 mirror: true
 range: 152
 bullet: {
