@@ -7,6 +7,7 @@ description: A large unit with powerful, large legs that give it a very fast spe
 speed: 0.75
 multiTarget: true
 singleTarget: false
+shadowElevation: 0.3
 hitSize: 32
 engineOffset: 16
 engineSize: 10
