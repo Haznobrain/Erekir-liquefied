@@ -119,10 +119,9 @@ parts: [
   type: FlarePart
   color1: ffffff
   color2: fcff8d
-  stroke: 0
+  stroke: 6
   y: -40
   followRotation: true
-  strokeTo: 6
   radius: 20
   flareRotateSpeed: 1.2
   partProgress: warmup
