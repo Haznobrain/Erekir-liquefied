@@ -279,6 +279,18 @@ bullet: {
 sapStrength: 0.5
 type: ShrapnelBulletType
 length: 152
+shootEffect: none
+smokeEffect: {
+    type: ParticleEffect
+    line: true
+    colorFrom: fcff8d
+    colorTo: fcff8d
+    lenghtFrom: 4
+    lengthTo: 0
+    length: 20
+    cone: 20
+    particles: 12
+    }
 damage: 140
 toColor: fcff8d
 width: 24
