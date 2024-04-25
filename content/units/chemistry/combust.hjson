@@ -4,6 +4,7 @@ name: combust
 health: 500
 description: Shoots a small short range flame at ennemies.
 speed: 1.1
+shadowElevation: 0.1
 hitSize: 10
 hovering: true
 rotateSpeed: 12
