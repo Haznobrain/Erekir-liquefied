@@ -18,6 +18,7 @@ faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 20
+drag: 0.016
   weapons: [{
     x: 0
     name: amborell-weapon
