@@ -87,10 +87,10 @@ suffix: -cannon
 progress: warmup
 mirror: true
 layerOffset: 0.01
-colorTo: 00000000
-color: ffffff
-mixColor: 00000000
-mixColorTo: ffff00
+color: 00000000
+colorTo: ffffff
+mixColorTo: 00000000
+mixColor: ffff00
 }
 ]
 rotate: true
