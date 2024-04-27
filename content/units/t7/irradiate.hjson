@@ -77,10 +77,14 @@ mirror: true
 stroke: 0
 strokeTo: 3
 }
+ ]
+weapons: [
 {
+parts: [
+ {
 type: RegionPart
-suffix: -double
-x: 0
+suffix: -cannon
+x: -40
 y: 0
 moveX: 40
 moveY: 24
@@ -88,9 +92,10 @@ progress: warmup
 mirror: true
 layerOffset: 0.01
 }
- ]
-weapons: [
-{
+]
+rotate: true
+name: irradiate-double
+layerOffset: -5
 reload: 5
 range: 680
 shootSound: bolt
@@ -99,11 +104,10 @@ rotate: false
 x: 40
 y: 24
 mirror: true
-shootY: 14
 shoot: {
 type: ShootAlternate
 barrels: 2
-spread: 8
+spread: 4
 }
 bullet: {
   type: LaserBulletType
