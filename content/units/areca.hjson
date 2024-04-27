@@ -29,7 +29,7 @@ parts: [
     {
         type: RegionPart
         moveX: 2
-        suffix: -obfuscator
+        suffix: -occultor
         progress: charge
     }
     ]
