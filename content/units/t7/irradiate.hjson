@@ -84,13 +84,13 @@ parts: [
  {
 type: RegionPart
 suffix: -cannon
-x: -40
-y: 0
-moveX: 40
-moveY: 24
 progress: warmup
 mirror: true
 layerOffset: 0.01
+colorTo: 00000000
+color: ffffff
+mixColor: 00000000
+mixColorTo: ffff00
 }
 ]
 rotate: true
