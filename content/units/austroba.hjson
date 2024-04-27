@@ -25,43 +25,42 @@ drag: 0.016
 engineSize: 5
 lightRadius: 200
 research: avert
+weapons: [{
+    x: 0
+    name: austroba
+    rotateSpeed: 1.5
+    rotate: false
+    top: false
     parts: [
         {
             type: RegionPart
             mirror: true
             suffix: -arm
             moveRot: -30
-            layerOffset: -0.01
+            under: true
         }
         {
             type: RegionPart
             mirror: true
             suffix: -arm
             moveRot: -35
-            layerOffset: -0.001
+            under: true
         }
         {
             type: RegionPart
             mirror: true
             suffix: -arm
             moveRot: -40
-            layerOffset: -0.001
+            under: true
         }
         {
             type: RegionPart
             mirror: true
             suffix: -arm
             moveRot: -45
-            layerOffset: -0.001
+            under: true
         }
 ]
-weapons: [{
-    x: -5
-    name: austroba
-    rotateSpeed: 1.5
-    rotate: false
-    top: false
-    layerOffset: 0
     outline: false
     inaccuracy: 30
     recoil: 0
