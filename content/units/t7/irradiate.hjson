@@ -173,6 +173,8 @@ trailColor: ffe995
   damage: 36
   length: 120
   lifetime: 120
+  width: 16
+  flareColor: ffe995
   }
  height: 32
  width: 32
