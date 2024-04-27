@@ -90,7 +90,7 @@ layerOffset: 0.01
 color: 00000000
 colorTo: ffffff
 mixColorTo: 00000000
-mixColor: ffff00
+mixColor: ffff00ff
 }
 ]
 rotate: true
