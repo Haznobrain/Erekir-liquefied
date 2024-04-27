@@ -7,7 +7,7 @@ description: A very large 8 legged unit that while it moves slowly, summons a bu
 speed: 0.4
 multiTarget: true
 singleTarget: false
-hitSize: 60
+hitSize: 120
 hovering: true
 allowLegStep: true
 groundLayer: 75
