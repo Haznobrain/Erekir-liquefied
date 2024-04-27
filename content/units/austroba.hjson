@@ -25,24 +25,37 @@ lightRadius: 200
 research: avert
 weapons: [{
     x: 0
-    name: launcher
+    name: austroba
     parts: [
         {
             type: RegionPart
-            suffix: -bottom
+            mirror: true
+            suffix: -arm
+            moveRot: -15
         }
         {
             type: RegionPart
             mirror: true
-            suffix: -top
-            moveRot: -15
+            suffix: -arm
+            moveRot: -20
+        }
+        {
+            type: RegionPart
+            mirror: true
+            suffix: -arm
+            moveRot: -25
+        }
+        {
+            type: RegionPart
+            mirror: true
+            suffix: -arm
+            moveRot: -30
         }
 ]
 rotationLimit: 30
 rotateSpeed: 1.5
 rotate: true
     top: false
-    layerOffset: -20
     inaccuracy: 30
     recoil: 0
     range: 280
