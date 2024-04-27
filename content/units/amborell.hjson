@@ -14,6 +14,7 @@ mineSpeed: 2.5
 mineTier: 3
 speed: 2.13
 targetAir: true
+accel: 0.08
 faceTargets: true
 lightRadius: 5
 singleTarget: true
