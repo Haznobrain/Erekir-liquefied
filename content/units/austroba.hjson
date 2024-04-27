@@ -23,9 +23,6 @@ engineOffset: 7
 engineSize: 5
 lightRadius: 200
 research: avert
-weapons: [{
-    x: 0
-    name: austroba
     parts: [
         {
             type: RegionPart
@@ -56,6 +53,9 @@ weapons: [{
             layerOffset: -0.001
         }
 ]
+weapons: [{
+    x: 0
+    name: austroba
 rotateSpeed: 1.5
 rotate: false
     top: false
