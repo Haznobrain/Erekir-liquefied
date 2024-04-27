@@ -17,6 +17,9 @@ buildSpeed: 2.75
 mineTier: 4
 speed: 2
 targetAir: false
+omniMovement: false
+accel: 0.08
+drag: 0.016
 faceTargets: true
 lightRadius: 5
 singleTarget: true
