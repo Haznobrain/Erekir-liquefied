@@ -158,16 +158,17 @@ bullet: {
  pierceCap: 3
  damage: 420
  splashDamage: 815
- fragBullets: 4
- fragSpread: 90
+ fragBullets: 8
+ fragSpread: 45
  speed: 6
  lifetime: 114
  trailLength: 8
 trailWidth: 6
 trailColor: ffe995
+ splashDamageRadius: 80
  fragRandomSpread: 0
  fragBullet: {
-  type: ContinuousLaserBulletType
+  type: ContinuousFlameBulletType
   colors: [ffe995,ffe995,ffe995,ffe995]
   damage: 36
   length: 120
