@@ -14,8 +14,8 @@ groundLayer: 75
 rotateSpeed: 2
 legStraightness: 0.2
 legSpeed: 0.5
-legCount: 8
-legLength: 256
+legCount: 12
+legLength: 128
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
