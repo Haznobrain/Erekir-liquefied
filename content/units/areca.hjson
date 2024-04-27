@@ -25,11 +25,19 @@ engineOffset: 7
 engineSize: 5
 lightRadius: 200
 research: obviate
+parts: [
+    {
+        type: RegionPart
+        moveX: 2
+        suffix: -obfuscator
+        progress: charge
+    }
+    ]
 weapons: [{
     minShootVelocity: 0.5
     range: 56
     mirror: true
-    reload: 60
+    reload: 50
     shootCone: 360
     innacuracy: 15
     shootSound: none
@@ -37,6 +45,7 @@ weapons: [{
     shoot: {
         shots: 5
         shotDelay: 2
+        firstShotDelay: 10
         }
     bullet: {
         type: BombBulletType
@@ -76,5 +85,14 @@ sides: 6
 type: RepairFieldAbility
 amount: 3
 range: 80
+}
+{
+type: EnergyFieldAbility
+damage: 0
+range: 0
+layer: 80
+display: false
+color: 84f491
+y: 2
 }
 ]
