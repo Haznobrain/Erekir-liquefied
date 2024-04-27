@@ -4,7 +4,7 @@ name: Irradiate
 health: 540000
 armor: 28
 description: A very large 8 legged unit that while it moves slowly, summons a bunch of long range weapons to destroy ennemy targets.
-speed: 0.5
+speed: 0.4
 multiTarget: true
 singleTarget: false
 hitSize: 60
@@ -15,7 +15,7 @@ rotateSpeed: 2
 legStraightness: 0.2
 legSpeed: 0.5
 legCount: 12
-legLength: 128
+legLength: 64
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
@@ -100,8 +100,8 @@ reload: 5
 range: 680
 shootSound: bolt
 alternate: false
-rotate: false
-x: 40
+rotate: true
+x: -40
 y: 24
 mirror: true
 shoot: {
