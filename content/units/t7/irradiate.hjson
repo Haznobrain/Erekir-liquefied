@@ -47,6 +47,7 @@ x: 40
 y: 24
 mirror: true
 stroke: 0
+layer: 70
 strokeTo: 3
 }
 {
@@ -62,6 +63,7 @@ y: 24
 mirror: true
 stroke: 0
 strokeTo: 3
+layer: 70
 }
 {
 type: ShapePart
@@ -76,6 +78,7 @@ y: 24
 mirror: true
 stroke: 0
 strokeTo: 3
+layer: 70
 }
  ]
 weapons: [
