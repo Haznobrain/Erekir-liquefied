@@ -36,7 +36,9 @@ parts: [
 weapons: [{
     minShootVelocity: 0.5
     range: 56
-    mirror: true
+    x: 0
+    y: 2
+    mirror: false
     reload: 50
     shootCone: 360
     innacuracy: 15
