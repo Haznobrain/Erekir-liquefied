@@ -24,7 +24,8 @@ fogRadius: 20
     range: 120
     mirror: true
     reload: 10
-    shootX: 3
+    shootX: 2.5
+    shootY: 2.5
     shootSound: pew
     top: false
     bullet: {
