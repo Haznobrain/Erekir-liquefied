@@ -98,6 +98,6 @@ layer: 80
 display: false
 color: 84f491
 y: 2
-blinkSize: 4
+effectRadius: 2
 }
 ]
