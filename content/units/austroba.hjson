@@ -31,30 +31,33 @@ weapons: [{
             type: RegionPart
             mirror: true
             suffix: -arm
-            moveRot: -15
-        }
-        {
-            type: RegionPart
-            mirror: true
-            suffix: -arm
-            moveRot: -20
-        }
-        {
-            type: RegionPart
-            mirror: true
-            suffix: -arm
-            moveRot: -25
-        }
-        {
-            type: RegionPart
-            mirror: true
-            suffix: -arm
             moveRot: -30
+            layerOffset: -0.01
+        }
+        {
+            type: RegionPart
+            mirror: true
+            suffix: -arm
+            moveRot: -35
+            layerOffset: -0.01
+        }
+        {
+            type: RegionPart
+            mirror: true
+            suffix: -arm
+            moveRot: -40
+            layerOffset: -0.01
+        }
+        {
+            type: RegionPart
+            mirror: true
+            suffix: -arm
+            moveRot: -45
+            layerOffset: -0.01
         }
 ]
-rotationLimit: 30
 rotateSpeed: 1.5
-rotate: true
+rotate: false
     top: false
     inaccuracy: 30
     recoil: 0
