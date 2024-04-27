@@ -20,6 +20,8 @@ lightRadius: 5
 singleTarget: true
 fogRadius: 20
 engineOffset: 7
+accel: 0.08
+drag: 0.016
 engineSize: 5
 lightRadius: 200
 research: avert
@@ -56,9 +58,11 @@ research: avert
 weapons: [{
     x: 0
     name: austroba
-rotateSpeed: 1.5
-rotate: false
+    rotateSpeed: 1.5
+    rotate: false
     top: false
+    layerOffset: 0
+    outline: false
     inaccuracy: 30
     recoil: 0
     range: 280
