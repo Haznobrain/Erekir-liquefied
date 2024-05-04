@@ -113,6 +113,7 @@ colorTo: 84f491
   collidesAir: false
   width: 4
   length: 12
+  hitColor: 84f491
   flareColor: 84f491
 }
 }
