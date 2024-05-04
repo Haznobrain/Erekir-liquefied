@@ -26,20 +26,6 @@ engineOffset: 18
 engineSize: 8
 lightRadius: 200
 research: quell
-engines: [
-{
-x: 14
-y: -10
-rotation: -135
-radius: 8
-}
-{
-x: -14
-y: -10
-radius: 8
-rotation: -45
-}
-]
 weapons: [
 {
 name: huerta
@@ -65,6 +51,7 @@ bullet: {
 }
 }
 {
+alternate: false
 display: false
 name: huerta-engine
 continuous: true
@@ -124,7 +111,7 @@ colorTo: 84f491
   collides: true
   collidesAir: false
   width: 4
-  length: 27
+  length: 12
   flareColor: 84f491
 }
 }
