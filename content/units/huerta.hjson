@@ -65,6 +65,7 @@ bullet: {
 }
 }
 {
+display: false
 name: huerta-engine
 continuous: true
 alwaysContinuous: true
