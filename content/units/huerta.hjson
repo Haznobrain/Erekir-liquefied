@@ -142,7 +142,7 @@ shootY: 4.5
 bullet: {
     type: ContinuousFlameBulletType
     damage: 15
-    layer: 104
+    layer: 100
     intervalBullets: 2
     intervalRandomSpread: 1
     bulletInterval: 2.7
@@ -164,6 +164,7 @@ followParent: false
 rotWithParent: true
 line: true
 layer: 105
+recoil: 0
 particles: 1
 lifetime: 31
 interp: circleOut
