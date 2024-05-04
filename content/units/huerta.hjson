@@ -51,13 +51,16 @@ bullet: {
     fragAngle: 180
     fragBullets: 5
     fragSpread: 15
+    fragRandomSpread: 0
     fragBullet: {
+        fragRandomSpread: 0
         lifetime: 60
         speed: 4
         drag: 0.07
         trailLength: 20
         trailInterp: slope
         sizeInterp: slope
+        trailColor: 54d67d
         shrinkY: 0.8
         shrinkX: 0.6
         width: 4
@@ -67,13 +70,18 @@ bullet: {
         damage: 15
         type: BasicBulletType
         backColor: 54d67d
+        frontColor: ffffff
         trailWidth: 4
         fragBullets: 1
         fragAngle: 180
         fragBullet: {
         damage: 10
+        fragRandomSpread: 0
         hitEffect: none
         despawnEffect: none
+        trailColor: 54d67d
+        backColor: 54d67d
+        frontColor: ffffff
         lifetime: 60
         speed: 4
         drag: 0.07
@@ -97,6 +105,7 @@ bullet: {
             width: 4
             pierceCap: 2
             length: 24
+            colors: [54d67d,54d67d;54d67d]
     }
     }
 }
