@@ -75,6 +75,7 @@ bullet: {
     bulletInterval: 2.7
     colors: [84f491, 9ee5b9, bde5c0, ffffff]
     intervalBullet: {
+        keepVelocity: false
         type: BulletType
         despawnHit: true
         despawnEffect: none
