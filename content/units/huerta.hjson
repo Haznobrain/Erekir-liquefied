@@ -12,6 +12,8 @@ mineHardnessScaling: false
 circleTarget: true
 mineSpeed: 7.5
 payloadCapacity: 1600
+drag: 0.04
+accel: 0.04
 buildSpeed: 5
 mineTier: 4
 speed: 1.7
@@ -63,30 +65,6 @@ bullet: {
 }
 }
 {
-top: false
-name: huerta-weapon2
-x: 0
-y: 0
-mirror: true
-range: 160
-shootX: 16
-shootY: -1
-continuous: true
-alternate: false
-alwaysContinuous: true
-shootSound: torch
-bullet: {
-    type: ContinuousFlameBulletType
-    damage: 26
-    colors: [96f58c, 54d67d, 81d79c, 9cdbb0, ffffff]
-    flareColor: 96f58c
-    lightStroke: 160
-    collidesTeam: true
-    healPercent: 0.2
-    hitColor: 96f58c
-}
-}
-{
 name: huerta-engine
 continuous: true
 alwaysContinuous: true
@@ -102,7 +80,7 @@ layerOffset: -5
 baseRotation: -135
 bullet: {
     type: ContinuousFlameBulletType
-    damage: 0
+    damage: 15
     layer: 110
     intervalBullets: 2
     intervalRandomSpread: 1
@@ -123,7 +101,7 @@ type: ParticleEffect
 followParent: true
 rotWithParent: true
 line: true
-layer: 108
+layer: 105
 particles: 1
 lifetime: 31
 interp: circleOut
@@ -142,7 +120,8 @@ colorTo: 84f491
     instantDisappear: true
     }
   drawFlare: false
-  collides: false
+  collides: true
+  collidesAir: false
   width: 4
   length: 27
   flareColor: 84f491
