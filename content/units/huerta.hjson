@@ -2,7 +2,7 @@ name: Huerta
 template: ErekirUnitType
 type: payload
 flying: true
-description: A large support unit that protects and heals allied blocks and units. Can carry large payload.
+description: A large support unit that protects and heals allied blocks and units. Can carry large payloads and is equipped with two rocket boosters that allow it to go quite fast..
 health: 6500
 hitSize: 36
 armor: 10
@@ -84,6 +84,68 @@ bullet: {
     collidesTeam: true
     healPercent: 0.2
     hitColor: 96f58c
+}
+}
+{
+name: huerta-engine
+continuous: true
+alwaysContinuous: true
+alwaysShooting: true
+baseRotation: 180
+x: 12
+y: -8
+shootSound: none
+mirror: true
+parentizeEffects: true
+top: false
+layerOffset: -5
+baseRotation: -135
+bullet: {
+    type: ContinuousFlameBulletType
+    damage: 0
+    layer: 110
+    intervalBullets: 2
+    intervalRandomSpread: 1
+    bulletInterval: 2.7
+    colors: [84f491, 9ee5b9, bde5c0, ffffff]
+    intervalBullet: {
+        type: BulletType
+        despawnHit: true
+        despawnEffect: none
+        shootEffect: none
+        hitEffect: {
+          type: MultiEffect
+          followParent: true
+          rotWithParent: true
+              effects: [
+{
+type: ParticleEffect
+followParent: true
+rotWithParent: true
+line: true
+layer: 108
+particles: 1
+lifetime: 31
+interp: circleOut
+length: 35
+baseLength: 8
+cone: 20
+strokeFrom: 2
+lenFrom: 10
+lenTo: 0
+colorFrom: 84f491
+colorTo: 84f491
+  }
+            ]
+            }
+    lifetime: 0
+    instantDisappear: true
+    }
+  drawFlare: false
+  collides: false
+  width: 4
+  length: 27
+  flareColor: 84f491
 }
 }
 ]
