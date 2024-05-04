@@ -54,14 +54,14 @@ bullet: {
     fragRandomSpread: 0
     fragVelocityMin: 1
     fragVelocityMax: 1
-        fragOffsetMin: 0
-        fragOffsetMax: 0
+        fragOffsetMin: 1
+        fragOffsetMax: 1
     fragBullet: {
         fragRandomSpread: 0
         fragVelocityMin: 1
         fragVelocityMax: 1
-        fragOffsetMin: 0
-        fragOffsetMax: 0
+        fragOffsetMin: 1
+        fragOffsetMax: 1
         lifetime: 60
         speed: 4
         drag: 0.07
@@ -85,8 +85,8 @@ bullet: {
         fragBullet: {
         damage: 10
         fragRandomSpread: 0
-        fragOffsetMin: 0
-        fragOffsetMax: 0
+        fragOffsetMin: 1
+        fragOffsetMax: 1
         hitEffect: none
         despawnEffect: none
         trailColor: 54d67d
