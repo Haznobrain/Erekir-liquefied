@@ -140,7 +140,6 @@ layerOffset: -5
 baseRotation: -135
 shootY: 4.5
 bullet: {
-    lifetime: 120
     type: ContinuousFlameBulletType
     damage: 15
     layer: 110
