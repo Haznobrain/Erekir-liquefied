@@ -138,6 +138,7 @@ parentizeEffects: true
 top: false
 layerOffset: -5
 baseRotation: -135
+shootY: 8
 bullet: {
     lifetime: 120
     type: ContinuousFlameBulletType
