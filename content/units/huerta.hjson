@@ -129,6 +129,7 @@ continuous: true
 alwaysContinuous: true
 alwaysShooting: true
 baseRotation: 180
+minShootVelocity: 0.4
 x: 12
 y: -8
 shootSound: none
@@ -138,6 +139,7 @@ top: false
 layerOffset: -5
 baseRotation: -135
 bullet: {
+    lifetime: 120
     type: ContinuousFlameBulletType
     damage: 15
     layer: 110
