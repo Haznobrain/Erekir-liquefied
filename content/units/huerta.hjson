@@ -142,7 +142,7 @@ shootY: 4.5
 bullet: {
     type: ContinuousFlameBulletType
     damage: 15
-    layer: 110
+    layer: 104
     intervalBullets: 2
     intervalRandomSpread: 1
     bulletInterval: 2.7
