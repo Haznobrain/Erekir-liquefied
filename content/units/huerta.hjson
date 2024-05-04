@@ -16,7 +16,7 @@ drag: 0.04
 accel: 0.04
 buildSpeed: 5
 mineTier: 4
-speed: 1.7
+speed: 1.8
 targetAir: false
 faceTargets: true
 lightRadius: 5
@@ -86,7 +86,7 @@ bullet: {
               effects: [
 {
 type: ParticleEffect
-followParent: true
+followParent: false
 rotWithParent: true
 line: true
 layer: 105
