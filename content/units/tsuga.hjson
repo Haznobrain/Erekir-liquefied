@@ -96,7 +96,7 @@ despawnEffect: {
 }
 }
 {
-  name: tsuga
+  name: tsuga-weapon
   top: true
   layerOffset: 1
   mirror: false
