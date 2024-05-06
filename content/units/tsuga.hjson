@@ -96,13 +96,22 @@ despawnEffect: {
 }
 }
 {
-  name: tsuga-weapon2
+  name: tsuga
+  top: false
   mirror: false
   reload: 900
   x: 0
   y: 8
   recoil: 0
+  recoilTime: 500
   parts: [
+  {
+    type: RegionPart
+    moveRot: -30
+    progress: recoil
+    under: true
+    mirror: true
+  }
   {
     type: FlarePart
     x: 0
@@ -145,7 +154,42 @@ shootOnDeath: true
 cooldownTime: 900
 range: 480
 parentizeEffects: true
+shoot: {
+    firstShotDelay: 65
+    }
 bullet: {
+    chargeEffect: {
+      type: MultiEffect
+        effects: [
+        {
+          type: RadialEffect
+          rotationSpacing: 10
+          amount: 36
+          lengthOffset: 24
+          effect: {
+            type: ParticleEffect
+            length: 24
+            cone: 0
+            particles: 6
+            sizeFrom: 6
+            interp: pow2In
+            sizeInterp: pow3Out
+            colorFrom: 84f491
+            colorTo: 84f491
+            lifetime: 65
+            offset: 180
+                }
+        }
+        {
+          type: WaveEffect
+          sizeTo: 0
+          sizeFrom: 24
+          strokeFrom: 3
+          colorFrom: 84f491
+          colorTo: 84f491
+        }
+        ]
+      }
     type: LaserBulletType
     length: 480
     damage: 2450
