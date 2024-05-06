@@ -147,7 +147,6 @@ despawnEffect: {
     followRotation: true
   }
 ]
-]
 shootSound: laserblast
 chargeSound: lasercharge
 shootOnDeath: true
