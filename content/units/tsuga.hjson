@@ -37,11 +37,11 @@ weapons: [
 {
 name: support-helixer
 reload: 45
-recoil: 1
+recoil: 2
+layerOffset: 2
 shootSound: shockBlast
 x: 16
 y: -16
-shootY: 36
 top: true
 rotate: true
 rotationLimit: 30
