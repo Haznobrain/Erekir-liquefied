@@ -101,7 +101,7 @@ despawnEffect: {
   mirror: false
   reload: 900
   x: 0
-  y: 8
+  y: 0
   recoil: 0
   recoilTime: 500
   parts: [
@@ -110,12 +110,13 @@ despawnEffect: {
     moveRot: -30
     progress: recoil
     under: true
+    suffix: -arm
     mirror: true
   }
   {
     type: FlarePart
     x: 0
-    y: 0
+    y: 8
     color1: 84f491
     color2: 62ae7f
     spinSpeed: 0.89
@@ -126,7 +127,7 @@ despawnEffect: {
   {
     type: FlarePart
     x: 0
-    y: 0
+    y: 8
     color1: 84f491
     color2: 62ae7f
     spinSpeed: -0.89
@@ -137,12 +138,12 @@ despawnEffect: {
   {
     type: FlarePart
     x: 0
-    y: 0
+    y: 8
     color1: 84f491
     color2: 62ae7f
     spinSpeed: 0
     radius: 24
-    rotation: 180
+    rotation: 0
     sides: 2
     followRotation: true
   }
@@ -152,6 +153,7 @@ chargeSound: lasercharge
 shootOnDeath: true
 cooldownTime: 900
 range: 480
+shootY: 8
 parentizeEffects: true
 shoot: {
     firstShotDelay: 65
