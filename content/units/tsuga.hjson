@@ -98,6 +98,7 @@ despawnEffect: {
 {
   name: tsuga
   top: true
+  layerOffset: 1
   mirror: false
   reload: 900
   x: 0
