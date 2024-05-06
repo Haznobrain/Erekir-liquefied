@@ -97,7 +97,7 @@ despawnEffect: {
 }
 {
   name: tsuga
-  top: false
+  top: true
   mirror: false
   reload: 900
   x: 0
