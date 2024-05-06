@@ -35,17 +35,18 @@ lightRadius: 200
 research: cupressa
 weapons: [
 {
-name: tsuga-weapon1
+name: support-helixer
 reload: 45
 recoil: 1
 shootSound: shockBlast
-x: 0
-y: 0
+x: 16
+y: -16
 shootY: 36
-top: false
-rotate: false
+top: true
+rotate: true
+rotationLimit: 30
 range: 320
-mirror: false
+mirror: true
 shoot: {
   type: ShootHelix
 }
@@ -99,76 +100,44 @@ despawnEffect: {
   mirror: false
   reload: 900
   x: 0
-  y: 16
+  y: 8
   recoil: 0
   parts: [
-    {
-      type: HaloPart
-      shapes: 2
-      triLength: 16
-      triLengthTo: 6
-      progress: reload
-      color: 69ff00
-      haloRotateSpeed: 0
-      haloRotation: 90
-      haloRadius: 10
-      tri: true
-      followRotation: true
-    }
-    {
-      type: HaloPart
-      shapes: 6
-      triLength: 4
-      triLengthTo: 8
-      progress: reload
-      color: 69ff00
-      haloRotateSpeed: -6
-      haloRadius: 10
-      haloRadiusTo: 4
-      tri: true
-      followRotation: true
-    }
-{
-  type: ShapePart
-  hollow: true
-  radius: 8
-  circle: true
-  stroke: 1.2
-  strokeTo: 0
-  progress: reload
-  color: 69ff00
-  followRotation: true
+  {
+    type: FlarePart
+    x: 0
+    y: 0
+    color1: 84f491
+    color2: 62ae7f
+    spinSpeed: 0.89
+    radius: 16
+    sides: 8
+    followRotation: true
   }
-{
-  type: ShapePart
-  hollow: true
-  radius: 7
-  radiusTo: 16
-  circle: false
-  sides: 3
-  stroke: 1.2
-  strokeTo: 0.8
-  progress: reload
-  color: 69ff00
-  rotateSpeed: 1.8
-  rotateSpeedTo: 3.6
-  followRotation: true
+  {
+    type: FlarePart
+    x: 0
+    y: 0
+    color1: 84f491
+    color2: 62ae7f
+    spinSpeed: -0.89
+    radius: 16
+    sides: 4
+    followRotation: true
   }
-{
-  type: ShapePart
-  hollow: true
-  radius: 7
-  radiusTo: 0
-  circle: false
-  sides: 3
-  stroke: 1.2
-  strokeTo: 0.8
-  progress: reload
-  color: 69ff00
-  rotateSpeed: 1.8
-  rotateSpeedTo: 3.6
-  followRotation: true
+  {
+    type: FlarePart
+    x: 0
+    y: 0
+    color1: 84f491
+    color2: 62ae7f
+    spinSpeed: 0
+    radius: 24
+    rotation: 180
+    sides: 2
+    followRotation: true
   }
+]
 ]
 shootSound: laserblast
 chargeSound: lasercharge
