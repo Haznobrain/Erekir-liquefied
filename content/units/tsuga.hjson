@@ -14,7 +14,6 @@ targetAir: true
 faceTargets: true
 lightRadius: 58
 singleTarget: false
-cellRegion: tsuga-weapon-cell
 fogRadius: 60
 engineSize: 10
 engineOffset: 36
