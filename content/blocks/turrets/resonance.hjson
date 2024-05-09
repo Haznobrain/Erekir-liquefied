@@ -167,6 +167,7 @@ ammoTypes: {
         fragOnHit: false
         despawnHit: true
         trailLength: 480
+        splashDamageRadius: 160
         trailInterp: slope
         trailColor: 48cef9
         backColor: 48cef9
