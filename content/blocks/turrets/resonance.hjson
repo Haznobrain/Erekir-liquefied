@@ -159,7 +159,7 @@ ammoTypes: {
         pierce: false
         damage: 210
         splashDamage: 680
-        hitSound: bang
+        hitSound: largeExplosion
         despawnHit: true
         trailLength: 480
         trailInterp: slope
