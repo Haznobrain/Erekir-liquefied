@@ -80,7 +80,9 @@ ammoTypes: {
         fragVelocityMax: 1
         fragLifeMin: 1
         fragLifeMax: 1
+        fragBullets: 1
         fragBullet: {
+        fragBullets: 1
         type: BasicBulletType
         speed: 6
         lifetime: 80
@@ -112,6 +114,7 @@ ammoTypes: {
         fragLifeMin: 1
         fragLifeMax: 1
         fragBullet: {
+        fragBullets: 1
         type: BasicBulletType
         speed: 6
         lifetime: 80
@@ -143,6 +146,7 @@ ammoTypes: {
         fragLifeMin: 1
         fragLifeMax: 1
         fragBullet: {
+        fragBullets: 1
         type: BasicBulletType
         scaleLife: false
         collides: false
