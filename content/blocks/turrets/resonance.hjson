@@ -1,6 +1,6 @@
 name: Resonance
 type: ItemTurret
-description: shoots a bullet wich bounces and makes a massive explosion upon impact. Requires massive amounts of coolant
+description: shoots a bullet wich bounces backwards a few times upon impact and then explodes.
 size: 6
 minWarmup: 0.96
 recoil: 6
@@ -19,221 +19,154 @@ consumes: {
 }
 ammoTypes: {
   cesium: {
-      length: 16
-      width: 16
-      damage: 340
-      type: BasicBulletType
-      splashDamage: 250
-      splashDamageRadius: 160
-          hitEffect: [
-                {
-                        type: WaveEffect
-                        colorFrom: ffffff
-                        colorTo: 0041ff
-                        sizeTo: 160
-        }
-]      hitColor: 0041ff
-      frontColor: 0036ff
-      backColor: 0531d7
-      fragRandomSpread: 0
-      fragBullets: 1
-      speed: 5
-      lifetime: 12
-      collidesAir: false
-      fragBullet: {
-      length: 16
-      width: 16
-          type: BasicBulletType
-          damage: 340
-          splashDamage: 250
-          splashDamageRadius: 160
-          hitEffect: [
-                {
-                        type: WaveEffect
-                        colorFrom: ffffff
-                        colorTo: 0041ff
-                        sizeTo: 160
-        }
-]
-          hitColor: 0041ff
-          fragRandomSpread: 0
-          fragBullets: 1
-          speed: 5
-          frontColor: 0036ff
-          backColor: 2305d7
-          collidesAir: false
-          lifetime: 12
-          fragBullet: {
-      length: 16
-      width: 16
-          type: BasicBulletType
-          damage: 340
-          splashDamage: 250
-          splashDamageRadius: 160
-          fragRandomSpread: 0
-          hitEffect: [
-                {
-                        type: WaveEffect
-                        colorFrom: ffffff
-                        colorTo: 0041ff
-                        sizeTo: 160
-        }
-]
-          hitColor: 0041ff
-          fragBullets: 1
-          speed: 5
-          collidesAir: false
-          lifetime: 12
-          fragBullet: {
-            damage: 340
-      length: 16
-      width: 16
-            type: BasicBulletType
-            fragRandomSpread: 0
-            splashDamage: 250
-            splashDamageRadius: 160
-            frontColor: 2305d7
-            backColor: 4805d7
-            hitEffect: [
-                {
-                        type: WaveEffect
-                        colorFrom: ffffff
-                        colorTo: 0041ff
-                        sizeTo: 160
-            }
-            ]
-            hitColor: 0041ff
-            fragBullets: 1
-            collidesAir: false
-            speed: 5
-            lifetime: 12
-            fragBullet: {
-      length: 16
-      width: 16
-              damage: 340
-              type: BasicBulletType
-              splashDamage: 250
-              fragRandomSpread: 0
-              splashDamageRadius: 160
-              frontColor: 4805d7
-              backColor: 4805d7
-          hitEffect: [
-                {
-                        type: WaveEffect
-                        colorFrom: ffffff
-                        colorTo: 0041ff
-                        sizeTo: 160
-        }
-]
-              hitColor: 0041ff
-              fragBullets: 1
-              speed: 5
-              collidesAir: false
-              lifetime: 12
-              fragBullet: {
-                damage: 340
-      length: 16
-      width: 16
-                type: BasicBulletType
-                splashDamage: 250
-                fragRandomSpread: 0
-                splashDamageRadius: 160
-                frontColor: 4805d7
-                backColor: 6d05d7
-          hitEffect: [
-                {
-                        type: WaveEffect
-                        colorFrom: ffffff
-                        colorTo: 0041ff
-                        sizeTo: 160
-        }
-]                hitColor: 0041ff
-                fragBullets: 1
-                collidesAir: false
-                speed: 5
-                lifetime: 12
-                fragBullet: {
-      length: 16
-      width: 16
-                  type: BasicBulletType
-                  damage: 340
-                  splashDamage: 250
-                  fragRandomSpread: 0
-                  splashDamageRadius: 160
-                  frontColor: 4805d7
-                  backColor: 6d05d7
-          hitEffect: [
-                {
-                        type: WaveEffect
-                        colorFrom: ffffff
-                        colorTo: 0041ff
-                        sizeTo: 160
-        }
-]                  hitColor: 0041ff
-                  fragBullets: 1
-                  speed: 5
-                  lifetime: 12
-                  collidesAir: false
-                  fragBullet: {
-      length: 16
-      width: 16
-                    type: BasicBulletType
-                    damage: 340
-                    collidesAir: false
-                    splashDamage: 250
-                    fragRandomSpread: 0
-                    splashDamageRadius: 160
-                    frontColor: 6d05d7
-                    backColor: 9b05d7
-          hitEffect: [
-                {
-                        type: WaveEffect
-                        colorFrom: ffffff
-                        colorTo: 0041ff
-                        sizeTo: 160
-        }
-]                    hitColor: 0041ff
-                    fragBullets: 3
-                    speed: 5
-                    lifetime: 12
-                    fragSpread: 15
-fragBullet: {
-      length: 16
-      width: 16
-                    type: BasicBulletType
-                    damage: 340
-                    collidesAir: false
-                    splashDamage: 250
-                    fragRandomSpread: 0
-                    splashDamageRadius: 160
-                    frontColor: 6d05d7
-                    backColor: 9b05d7
-          hitEffect: [
-                {
-                        type: WaveEffect
-                        colorFrom: ffffff
-                        colorTo: 0041ff
-                        sizeTo: 160
-        }
-]                    hitColor: 0041ff
-                    fragBullets: 3
-                    speed: 5
-                    lifetime: 12
-                    fragSpread: 15
-                        fragBullet: {
-                            type: LaserBulletType
-                            damage: 260
-                            length: 120
-                            width: 16
-                            collidesAir: false
-                            fragRandomSpread: 0
-                            colors: [9b05d7, fa2fff, fa2fff]
-                            hitColor: 0041ff
-}
-}
-}
-}
-}
+        type: BasicBulletType
+        speed: 6
+        lifetime: 80
+        pierce: true
+        damage: 210
+        hitSound: bang
+        despawnHit: true
+        trailLength: 480
+        trailInterp: slope
+        trailColor: 48cef9
+        backColor: 48cef9
+        sprite: erekirliquefied-bullet-resonance
+        frontColor: 81d9f5
+        width: 12
+        length: 16
+        interp: slope
+        hitEffect: massiveExplosion
+        despawnEffect: {
+                type: WaveEffect
+                sides: 8
+                sizeTo: 24
+                colorFrom: 81d9f5
+                colorTo: 81d9f5
+                }
+        fragAngle: 180
+        fragRandomSpread: 0
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragLifeMin: 1
+        fragLifeMax: 1
+        fragBullet: {
+        type: BasicBulletType
+        speed: 6
+        lifetime: 80
+        pierce: true
+        damage: 210
+        hitSound: bang
+        despawnHit: true
+        trailLength: 480
+        trailInterp: slope
+        trailColor: 48cef9
+        backColor: 48cef9
+        sprite: erekirliquefied-bullet-resonance
+        frontColor: 81d9f5
+        width: 12
+        length: 16
+        interp: slope
+        hitEffect: massiveExplosion
+        despawnEffect: {
+                type: WaveEffect
+                sides: 8
+                sizeTo: 24
+                colorFrom: 81d9f5
+                colorTo: 81d9f5
+                }
+        fragAngle: 180
+        fragRandomSpread: 0
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragLifeMin: 1
+        fragLifeMax: 1
+        fragBullet: {
+        type: BasicBulletType
+        speed: 6
+        lifetime: 80
+        pierce: true
+        damage: 210
+        hitSound: bang
+        despawnHit: true
+        trailLength: 480
+        trailInterp: slope
+        trailColor: 48cef9
+        backColor: 48cef9
+        sprite: erekirliquefied-bullet-resonance
+        frontColor: 81d9f5
+        width: 12
+        length: 16
+        interp: slope
+        hitEffect: massiveExplosion
+        despawnEffect: {
+                type: WaveEffect
+                sides: 8
+                sizeTo: 24
+                colorFrom: 81d9f5
+                colorTo: 81d9f5
+                }
+        fragAngle: 180
+        fragRandomSpread: 0
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragLifeMin: 1
+        fragLifeMax: 1
+        fragBullet: {
+        type: BasicBulletType
+        speed: 6
+        lifetime: 80
+        pierce: true
+        damage: 210
+        hitSound: bang
+        despawnHit: true
+        trailLength: 480
+        trailInterp: slope
+        trailColor: 48cef9
+        backColor: 48cef9
+        sprite: erekirliquefied-bullet-resonance
+        frontColor: 81d9f5
+        width: 12
+        length: 16
+        interp: slope
+        hitEffect: massiveExplosion
+        despawnEffect: {
+                type: WaveEffect
+                sides: 8
+                sizeTo: 24
+                colorFrom: 81d9f5
+                colorTo: 81d9f5
+                }
+        fragAngle: 180
+        fragRandomSpread: 0
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragLifeMin: 1
+        fragLifeMax: 1
+        fragBullet: {
+        type: BasicBulletType
+        scaleLife: false
+        collides: false
+        collidesGround: false
+        collidesAir: false
+        collidesTiles: false
+        speed: 6
+        lifetime: 80
+        pierce: true
+        damage: 210
+        splashDamage: 680
+        hitSound: bang
+        despawnHit: true
+        trailLength: 480
+        trailInterp: slope
+        trailColor: 48cef9
+        backColor: 48cef9
+        sprite: erekirliquefied-bullet-resonance
+        frontColor: 81d9f5
+        width: 12
+        length: 16
+        interp: slope
+        hitEffect: reactorExplosion
+        despawnEffect: none
 }
 }
 }
