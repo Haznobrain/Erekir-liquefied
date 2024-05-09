@@ -21,6 +21,7 @@ ammoTypes: {
   cesium: {
         type: BasicBulletType
         speed: 6
+        fragOnHit: false
         lifetime: 80
         trailWidth: 16
         pierce: true
@@ -54,6 +55,7 @@ ammoTypes: {
         fragBullet: {
         type: BasicBulletType
         speed: 6
+        fragOnHit: false
         lifetime: 80
         pierce: true
         trailWidth: 16
@@ -88,6 +90,7 @@ ammoTypes: {
         fragBullets: 1
         trailWidth: 16
         type: BasicBulletType
+        fragOnHit: false
         speed: 6
         lifetime: 80
         pierce: true
@@ -120,6 +123,7 @@ ammoTypes: {
         fragBullet: {
         fragBullets: 1
         type: BasicBulletType
+        fragOnHit: false
         trailWidth: 16
         speed: 6
         lifetime: 80
@@ -160,6 +164,7 @@ ammoTypes: {
         damage: 210
         splashDamage: 680
         hitSound: largeExplosion
+        fragOnHit: false
         despawnHit: true
         trailLength: 480
         trailInterp: slope
