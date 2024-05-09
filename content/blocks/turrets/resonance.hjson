@@ -25,7 +25,7 @@ ammoTypes: {
         lifetime: 80
         trailWidth: 16
         pierce: true
-        damage: 210
+        damage: 480
         hitSound: bang
         despawnHit: true
         trailLength: 480
@@ -59,7 +59,7 @@ ammoTypes: {
         lifetime: 80
         pierce: true
         trailWidth: 16
-        damage: 210
+        damage: 480
         hitSound: bang
         despawnHit: true
         trailLength: 480
@@ -94,7 +94,7 @@ ammoTypes: {
         speed: 6
         lifetime: 80
         pierce: true
-        damage: 210
+        damage: 480
         hitSound: bang
         despawnHit: true
         trailLength: 480
@@ -128,7 +128,7 @@ ammoTypes: {
         speed: 6
         lifetime: 80
         pierce: true
-        damage: 210
+        damage: 480
         hitSound: bang
         despawnHit: true
         trailLength: 480
@@ -161,8 +161,8 @@ ammoTypes: {
         speed: 6
         lifetime: 80
         pierce: false
-        damage: 210
-        splashDamage: 680
+        damage: 480
+        splashDamage: 800
         hitSound: largeExplosion
         fragOnHit: false
         despawnHit: true
