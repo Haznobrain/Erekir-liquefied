@@ -179,6 +179,7 @@ ammoTypes: {
         hitEffect: {
                 type: MultiEffect
                 effects: [reactorExplosion, dynamicSpikes]
+                }
         despawnEffect: none
 }
 }
