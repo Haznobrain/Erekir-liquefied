@@ -22,7 +22,41 @@ ammoTypes: {
         type: BasicBulletType
         speed: 6
         lifetime: 80
+        trailWidth: 16
         pierce: true
+        damage: 210
+        hitSound: bang
+        despawnHit: true
+        trailLength: 480
+        trailInterp: slope
+        trailColor: 48cef9
+        backColor: 48cef9
+        sprite: erekirliquefied-bullet-resonance
+        frontColor: 81d9f5
+        width: 16
+        length: 20
+        interp: slope
+        hitEffect: massiveExplosion
+        despawnEffect: {
+                type: WaveEffect
+                sides: 8
+                sizeTo: 24
+                colorFrom: 81d9f5
+                colorTo: 81d9f5
+                }
+        fragAngle: 180
+        fragRandomSpread: 0
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragLifeMin: 1
+        fragLifeMax: 1
+        fragBullets: 1
+        fragBullet: {
+        type: BasicBulletType
+        speed: 6
+        lifetime: 80
+        pierce: true
+        trailWidth: 16
         damage: 210
         hitSound: bang
         despawnHit: true
@@ -51,6 +85,8 @@ ammoTypes: {
         fragLifeMax: 1
         fragBullets: 1
         fragBullet: {
+        fragBullets: 1
+        trailWidth: 16
         type: BasicBulletType
         speed: 6
         lifetime: 80
@@ -64,41 +100,8 @@ ammoTypes: {
         backColor: 48cef9
         sprite: erekirliquefied-bullet-resonance
         frontColor: 81d9f5
-        width: 12
-        length: 16
-        interp: slope
-        hitEffect: massiveExplosion
-        despawnEffect: {
-                type: WaveEffect
-                sides: 8
-                sizeTo: 24
-                colorFrom: 81d9f5
-                colorTo: 81d9f5
-                }
-        fragAngle: 180
-        fragRandomSpread: 0
-        fragVelocityMin: 1
-        fragVelocityMax: 1
-        fragLifeMin: 1
-        fragLifeMax: 1
-        fragBullets: 1
-        fragBullet: {
-        fragBullets: 1
-        type: BasicBulletType
-        speed: 6
-        lifetime: 80
-        pierce: true
-        damage: 210
-        hitSound: bang
-        despawnHit: true
-        trailLength: 480
-        trailInterp: slope
-        trailColor: 48cef9
-        backColor: 48cef9
-        sprite: erekirliquefied-bullet-resonance
-        frontColor: 81d9f5
-        width: 12
-        length: 16
+        width: 16
+        length: 20
         interp: slope
         hitEffect: massiveExplosion
         despawnEffect: {
@@ -117,6 +120,7 @@ ammoTypes: {
         fragBullet: {
         fragBullets: 1
         type: BasicBulletType
+        trailWidth: 16
         speed: 6
         lifetime: 80
         pierce: true
@@ -129,8 +133,8 @@ ammoTypes: {
         backColor: 48cef9
         sprite: erekirliquefied-bullet-resonance
         frontColor: 81d9f5
-        width: 12
-        length: 16
+        width: 16
+        length: 20
         interp: slope
         hitEffect: massiveExplosion
         despawnEffect: {
@@ -149,14 +153,10 @@ ammoTypes: {
         fragBullet: {
         fragBullets: 1
         type: BasicBulletType
-        scaleLife: false
-        collides: false
-        collidesGround: false
-        collidesAir: false
-        collidesTiles: false
+        trailWidth: 16
         speed: 6
         lifetime: 80
-        pierce: true
+        pierce: false
         damage: 210
         splashDamage: 680
         hitSound: bang
@@ -167,8 +167,8 @@ ammoTypes: {
         backColor: 48cef9
         sprite: erekirliquefied-bullet-resonance
         frontColor: 81d9f5
-        width: 12
-        length: 16
+        width: 16
+        length: 20
         interp: slope
         hitEffect: reactorExplosion
         despawnEffect: none
