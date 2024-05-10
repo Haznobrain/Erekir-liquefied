@@ -15,6 +15,8 @@ consumes: {
 ammoTypes: {
     surge-alloy: {
       type: BulletType
+      lifetime: 0
+      speed: 0
       instantDisappear: true
       hitEffect: none
       despawnEffect: none
@@ -23,6 +25,9 @@ ammoTypes: {
         {
           type: BulletType
           fragSpread: 10
+          instantDisappear: true
+          speed: 0
+          lifetime: 0
           fragRandomSpread: 0
           hitEffect: none
           despawnEffect: none
@@ -73,6 +78,7 @@ ammoTypes: {
               colors: [ccfccf, d8fcff, ffffff]
               length: 20
               sideLength: 5
+              lifetime: 60
               sideAngle: 135
               }
             }
@@ -83,6 +89,9 @@ ammoTypes: {
           fragRandomSpread: 0
           hitEffect: none
           despawnEffect: none
+          instantDisappear: true
+          speed: 0
+          lifetime: 0
           fragOffsetMin: 1
           fragOffsetMax: 1
           fragVelocityMin: 1
@@ -129,6 +138,7 @@ ammoTypes: {
               damage: 110
               colors: [ccfccf, d8fcff, ffffff]
               length: 40
+              lifetime: 60
               sideLength: 10
               sideAngle: 135
               }
@@ -139,6 +149,9 @@ ammoTypes: {
           fragSpread: 10
           fragRandomSpread: 0
           hitEffect: none
+          instantDisappear: true
+          speed: 0
+          lifetime: 0
           despawnEffect: none
           fragOffsetMin: 1
           fragOffsetMax: 1
@@ -188,6 +201,7 @@ ammoTypes: {
               length: 60
               sideLength: 15
               sideAngle: 135
+              lifetime: 60
               }
             }
           }
@@ -198,6 +212,9 @@ ammoTypes: {
           hitEffect: none
           despawnEffect: none
           fragOffsetMin: 1
+          instantDisappear: true
+          speed: 0
+          lifetime: 0
           fragOffsetMax: 1
           fragVelocityMin: 1
           fragBullets: 2
@@ -240,6 +257,7 @@ ammoTypes: {
             lightning: 1
             fragBullet: {
               type: LaserBulletType
+              lifetime: 60
               damage: 110
               colors: [ccfccf, d8fcff, ffffff]
               length: 80
@@ -257,6 +275,9 @@ ammoTypes: {
           fragOffsetMin: 1
           fragOffsetMax: 1
           fragVelocityMin: 1
+          instantDisappear: true
+          speed: 0
+          lifetime: 0
           fragBullets: 2
           fragBullet: {
             type: FlakBulletType
@@ -302,6 +323,7 @@ ammoTypes: {
               length: 100
               sideLength: 25
               sideAngle: 135
+              lifetime: 60
               }
             }
           }
@@ -309,6 +331,9 @@ ammoTypes: {
           type: BulletType
           fragSpread: 10
           fragRandomSpread: 0
+          instantDisappear: true
+          speed: 0
+          lifetime: 0
           hitEffect: none
           despawnEffect: none
           fragOffsetMin: 1
@@ -359,6 +384,7 @@ ammoTypes: {
               length: 120
               sideLength: 30
               sideAngle: 135
+              lifetime: 60
               }
             }
           }
@@ -366,6 +392,9 @@ ammoTypes: {
           type: BulletType
           fragSpread: 10
           fragRandomSpread: 0
+          instantDisappear: true
+          speed: 0
+          lifetime: 0
           hitEffect: none
           despawnEffect: none
           fragOffsetMin: 1
@@ -412,6 +441,7 @@ ammoTypes: {
             fragBullet: {
               type: LaserBulletType
               damage: 110
+              lifetime: 60
               colors: [ccfccf, d8fcff, ffffff]
               length: 140
               sideLength: 35
@@ -425,6 +455,9 @@ ammoTypes: {
           fragRandomSpread: 0
           hitEffect: none
           despawnEffect: none
+          instantDisappear: true
+          speed: 0
+          lifetime: 0
           fragOffsetMin: 1
           fragOffsetMax: 1
           fragVelocityMin: 1
@@ -471,6 +504,7 @@ ammoTypes: {
               damage: 110
               colors: [ccfccf, d8fcff, ffffff]
               length: 160
+              lifetime: 60
               sideLength: 40
               sideAngle: 135
               }
@@ -482,6 +516,9 @@ ammoTypes: {
           fragRandomSpread: 0
           hitEffect: none
           despawnEffect: none
+          instantDisappear: true
+          speed: 0
+          lifetime: 0
           fragOffsetMin: 1
           fragOffsetMax: 1
           fragVelocityMin: 1
@@ -529,6 +566,7 @@ ammoTypes: {
               colors: [ccfccf, d8fcff, ffffff]
               length: 180
               sideLength: 45
+              lifetime: 60
               sideAngle: 135
               }
             }
@@ -541,6 +579,9 @@ ammoTypes: {
           despawnEffect: none
           fragOffsetMin: 1
           fragOffsetMax: 1
+          instantDisappear: true
+          speed: 0
+          lifetime: 0
           fragVelocityMin: 1
           fragBullets: 2
           fragBullet: {
@@ -587,6 +628,7 @@ ammoTypes: {
               length: 200
               sideLength: 50
               sideAngle: 135
+              lifetime: 60
               }
             }
           }
@@ -611,13 +653,13 @@ drawer: {
       type: RegionPart
       suffix: -barrel
       mirror: true
-      moveRot: 5
+      moveRot: -5
       progress: warmup
       moves: [
       {
       type: PartMove
       progress: recoil
-      rot: 10
+      rot: -10
       y: -3
       }
       ]
@@ -710,7 +752,7 @@ drawer: {
     type: ShapePart
     color: ccfcff
     radius: 8
-    hollow: false
+    hollow: true
     stroke: 0
     trokeTo: 4
     sides: 4
@@ -721,9 +763,9 @@ drawer: {
     type: ShapePart
     color: ccfcff
     radius: 8
-    hollow: false
+    hollow: true
     stroke: 0
-    trokeTo: 4
+    strokeTo: 4
     sides: 4
     y: -32
     rotateSpeed: -5
