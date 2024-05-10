@@ -714,6 +714,7 @@ drawer: {
     stroke: 0
     trokeTo: 4
     sides: 4
+    y: -32
     rotateSpeed: 5
     }
     {
@@ -724,6 +725,7 @@ drawer: {
     stroke: 0
     trokeTo: 4
     sides: 4
+    y: -32
     rotateSpeed: -5
     }
   ]
