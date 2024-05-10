@@ -700,6 +700,7 @@ drawer: {
     progress: recoil
     moveY: -2
     under: false
+    mirror: true
     }
     ]
     }
