@@ -9,7 +9,7 @@ minWarmup: 0.96
 shootWarmupSpeed: 0.02
 heatColor: d1efff
 recoil: 3
-shootSound: shootBig
+shootSound: largeExplosion
 shootEffect: shootBig
 consumes: {
   power: 44
