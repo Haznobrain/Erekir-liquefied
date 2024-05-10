@@ -26,6 +26,7 @@ ammoTypes: {
           type: BulletType
           fragSpread: 10
           instantDisappear: true
+          fragAngle: -22.5
           speed: 0
           lifetime: 0
           fragRandomSpread: 0
@@ -39,6 +40,7 @@ ammoTypes: {
             type: FlakBulletType
             damage: 90
             collidesGround: true
+        fragAngle: -22.5
             trailLength: 48
             trailInterp: slope
             trailColor: ccfcff
@@ -87,6 +89,7 @@ ammoTypes: {
           type: BulletType
           fragSpread: 10
           fragRandomSpread: 0
+        fragAngle: -22.5
           hitEffect: none
           despawnEffect: none
           instantDisappear: true
@@ -106,6 +109,7 @@ ammoTypes: {
             sprite: missile-large
             backSprite: missile-large-back
             backColor: ccfcff
+        fragAngle: -22.5
             speed: 1.6
             lifetime: 60
             fragOffsetMin: 1
@@ -155,12 +159,14 @@ ammoTypes: {
           despawnEffect: none
           fragOffsetMin: 1
           fragOffsetMax: 1
+        fragAngle: -22.5
           fragVelocityMin: 1
           fragBullets: 2
           fragBullet: {
             type: FlakBulletType
             damage: 90
             collidesGround: true
+        fragAngle: -22.5
             trailLength: 48
             trailInterp: slope
             trailColor: ccfcff
@@ -209,6 +215,7 @@ ammoTypes: {
           type: BulletType
           fragSpread: 10
           fragRandomSpread: 0
+        fragAngle: -22.5
           hitEffect: none
           despawnEffect: none
           fragOffsetMin: 1
@@ -228,6 +235,7 @@ ammoTypes: {
             sprite: missile-large
             backSprite: missile-large-back
             backColor: ccfcff
+        fragAngle: -22.5
             speed: 3.2
             lifetime: 60
             fragOffsetMin: 1
@@ -269,6 +277,7 @@ ammoTypes: {
         {
           type: BulletType
           fragSpread: 10
+        fragAngle: -22.5
           fragRandomSpread: 0
           hitEffect: none
           despawnEffect: none
@@ -283,6 +292,7 @@ ammoTypes: {
             type: FlakBulletType
             damage: 90
             collidesGround: true
+        fragAngle: -22.5
             trailLength: 48
             trailInterp: slope
             trailColor: ccfcff
@@ -333,6 +343,7 @@ ammoTypes: {
           fragRandomSpread: 0
           instantDisappear: true
           speed: 0
+        fragAngle: -22.5
           lifetime: 0
           hitEffect: none
           despawnEffect: none
@@ -345,6 +356,7 @@ ammoTypes: {
             damage: 90
             collidesGround: true
             trailLength: 48
+        fragAngle: -22.5
             trailInterp: slope
             trailColor: ccfcff
             sprite: missile-large
@@ -401,6 +413,7 @@ ammoTypes: {
           fragOffsetMax: 1
           fragVelocityMin: 1
           fragBullets: 2
+        fragAngle: -22.5
           fragBullet: {
             type: FlakBulletType
             damage: 90
@@ -411,6 +424,7 @@ ammoTypes: {
             sprite: missile-large
             backSprite: missile-large-back
             backColor: ccfcff
+        fragAngle: -22.5
             speed: 5.6
             lifetime: 60
             fragOffsetMin: 1
@@ -454,6 +468,7 @@ ammoTypes: {
           fragSpread: 10
           fragRandomSpread: 0
           hitEffect: none
+        fragAngle: -22.5
           despawnEffect: none
           instantDisappear: true
           speed: 0
@@ -474,6 +489,7 @@ ammoTypes: {
             backColor: ccfcff
             speed: 6.4
             lifetime: 60
+        fragAngle: -22.5
             fragOffsetMin: 1
             fragOffsetMax: 1
             fragVelocityMin: 1
@@ -516,6 +532,7 @@ ammoTypes: {
           fragRandomSpread: 0
           hitEffect: none
           despawnEffect: none
+        fragAngle: -22.5
           instantDisappear: true
           speed: 0
           lifetime: 0
@@ -527,6 +544,7 @@ ammoTypes: {
             type: FlakBulletType
             damage: 90
             collidesGround: true
+        fragAngle: -22.5
             trailLength: 48
             trailInterp: slope
             trailColor: ccfcff
@@ -575,6 +593,7 @@ ammoTypes: {
           type: BulletType
           fragSpread: 10
           fragRandomSpread: 0
+        fragAngle: -22.5
           hitEffect: none
           despawnEffect: none
           fragOffsetMin: 1
@@ -589,6 +608,7 @@ ammoTypes: {
             damage: 90
             collidesGround: true
             trailLength: 48
+        fragAngle: -22.5
             trailInterp: slope
             trailColor: ccfcff
             sprite: missile-large
