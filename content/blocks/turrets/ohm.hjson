@@ -14,6 +14,11 @@ shootEffect: shootBig
 consumes: {
   power: 44
   }
+shoot: {
+    type: ShootSpread
+    shots: 2
+    spread: 10
+    }
 ammoTypes: {
     surge-alloy: {
       type: BulletType
@@ -37,7 +42,7 @@ ammoTypes: {
           fragOffsetMin: 1
           fragOffsetMax: 1
           fragVelocityMin: 1
-          fragBullets: 2
+          fragBullets: 1
           fragBullet: {
             type: FlakBulletType
             damage: 90
@@ -54,7 +59,7 @@ ammoTypes: {
             fragOffsetMin: 1
             fragOffsetMax: 1
             fragVelocityMin: 1
-            fragBullets: 2
+            fragBullets: 3
             fragSpread: 22.5
             fragRandomSpread: 0
             shrinkY: 1
@@ -100,7 +105,7 @@ ammoTypes: {
           fragOffsetMin: 1
           fragOffsetMax: 1
           fragVelocityMin: 1
-          fragBullets: 2
+          fragBullets: 1
           fragBullet: {
             type: FlakBulletType
             damage: 90
@@ -117,7 +122,7 @@ ammoTypes: {
             fragOffsetMin: 1
             fragOffsetMax: 1
             fragVelocityMin: 1
-            fragBullets: 2
+            fragBullets: 3
             fragSpread: 22.5
             fragRandomSpread: 0
             shrinkY: 1
@@ -163,7 +168,7 @@ ammoTypes: {
           fragOffsetMax: 1
           fragAngle: 0
           fragVelocityMin: 1
-          fragBullets: 2
+          fragBullets: 1
           fragBullet: {
             type: FlakBulletType
             damage: 90
@@ -180,7 +185,7 @@ ammoTypes: {
             fragOffsetMin: 1
             fragOffsetMax: 1
             fragVelocityMin: 1
-            fragBullets: 2
+            fragBullets: 3
             fragSpread: 22.5
             fragRandomSpread: 0
             shrinkY: 1
@@ -226,7 +231,7 @@ ammoTypes: {
           lifetime: 0
           fragOffsetMax: 1
           fragVelocityMin: 1
-          fragBullets: 2
+          fragBullets: 1
           fragBullet: {
             type: FlakBulletType
             damage: 90
@@ -243,7 +248,7 @@ ammoTypes: {
             fragOffsetMin: 1
             fragOffsetMax: 1
             fragVelocityMin: 1
-            fragBullets: 2
+            fragBullets: 3
             fragSpread: 22.5
             fragRandomSpread: 0
             shrinkY: 1
@@ -289,7 +294,7 @@ ammoTypes: {
           instantDisappear: true
           speed: 0
           lifetime: 0
-          fragBullets: 2
+          fragBullets: 1
           fragBullet: {
             type: FlakBulletType
             damage: 90
@@ -306,7 +311,7 @@ ammoTypes: {
             fragOffsetMin: 1
             fragOffsetMax: 1
             fragVelocityMin: 1
-            fragBullets: 2
+            fragBullets: 3
             fragSpread: 22.5
             fragRandomSpread: 0
             shrinkY: 1
@@ -352,7 +357,7 @@ ammoTypes: {
           fragOffsetMin: 1
           fragOffsetMax: 1
           fragVelocityMin: 1
-          fragBullets: 2
+          fragBullets: 1
           fragBullet: {
             type: FlakBulletType
             damage: 90
@@ -369,7 +374,7 @@ ammoTypes: {
             fragOffsetMin: 1
             fragOffsetMax: 1
             fragVelocityMin: 1
-            fragBullets: 2
+            fragBullets: 3
             fragSpread: 22.5
             fragRandomSpread: 0
             shrinkY: 1
@@ -414,7 +419,7 @@ ammoTypes: {
           fragOffsetMin: 1
           fragOffsetMax: 1
           fragVelocityMin: 1
-          fragBullets: 2
+          fragBullets: 1
           fragAngle: 0
           fragBullet: {
             type: FlakBulletType
@@ -432,7 +437,7 @@ ammoTypes: {
             fragOffsetMin: 1
             fragOffsetMax: 1
             fragVelocityMin: 1
-            fragBullets: 2
+            fragBullets: 3
             fragSpread: 22.5
             fragRandomSpread: 0
             shrinkY: 1
@@ -478,7 +483,7 @@ ammoTypes: {
           fragOffsetMin: 1
           fragOffsetMax: 1
           fragVelocityMin: 1
-          fragBullets: 2
+          fragBullets: 1
           fragBullet: {
             type: FlakBulletType
             damage: 90
@@ -495,7 +500,7 @@ ammoTypes: {
             fragOffsetMin: 1
             fragOffsetMax: 1
             fragVelocityMin: 1
-            fragBullets: 2
+            fragBullets: 3
             fragSpread: 22.5
             fragRandomSpread: 0
             shrinkY: 1
@@ -541,7 +546,7 @@ ammoTypes: {
           fragOffsetMin: 1
           fragOffsetMax: 1
           fragVelocityMin: 1
-          fragBullets: 2
+          fragBullets: 1
           fragBullet: {
             type: FlakBulletType
             damage: 90
@@ -558,7 +563,7 @@ ammoTypes: {
             fragOffsetMin: 1
             fragOffsetMax: 1
             fragVelocityMin: 1
-            fragBullets: 2
+            fragBullets: 3
             fragSpread: 22.5
             fragRandomSpread: 0
             shrinkY: 1
@@ -604,7 +609,7 @@ ammoTypes: {
           speed: 0
           lifetime: 0
           fragVelocityMin: 1
-          fragBullets: 2
+          fragBullets: 1
           fragBullet: {
             type: FlakBulletType
             damage: 90
@@ -621,7 +626,7 @@ ammoTypes: {
             fragOffsetMin: 1
             fragOffsetMax: 1
             fragVelocityMin: 1
-            fragBullets: 2
+            fragBullets: 3
             fragSpread: 22.5
             fragRandomSpread: 0
             shrinkY: 1
@@ -646,7 +651,7 @@ ammoTypes: {
             fragBullet: {
               type: LaserBulletType
               damage: 110
-              colors: [ccfccf, d8fcff, ffffff]
+              colors: [ccfcff, d8fcff, ffffff]
               length: 200
               sideLength: 50
               sideAngle: 135
@@ -735,11 +740,11 @@ drawer: {
     circle: true
     hollow: true
     rotateSpeed: 2.3
-    color: ccfcff
+    color: dbfdff
     }
     {
     type: ShapePart
-    color: ccfcff
+    color: dbfdff
     stroke: 0
     strokeTo: 1
     radius: 12
@@ -755,7 +760,7 @@ drawer: {
     shapes: 8
     haloRotateSpeed: 2.3
     tri: true
-    color: ccfcff
+    color: dbfdff
     triLength: 0
     triLengthTo: 6
     }
@@ -766,14 +771,14 @@ drawer: {
     shapes: 8
     haloRotateSpeed: 2.3
     tri: true
-    color: ccfcff
+    color: dbfdff
     triLength: 0
     triLengthTo: 2
     shapeRotation: 180
     }
     {
     type: ShapePart
-    color: ccfcff
+    color: dbfdff
     radius: 8
     hollow: true
     stroke: 0
@@ -784,7 +789,7 @@ drawer: {
     }
     {
     type: ShapePart
-    color: ccfcff
+    color: dbfdff
     radius: 8
     hollow: true
     stroke: 0
