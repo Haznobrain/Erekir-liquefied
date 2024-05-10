@@ -1,6 +1,6 @@
 name: Ohm
 type: ItemTurret
-description: Fires a powerful electrically charged bullet that constantly sheds off layers of explosive charged plasma and fragments upon impact. Requires large amounts of power.
+description: Fires a bunch of bullets wich explode into lasers, requires large amounts of power.
 size: 6
 reload: 180
 range: 480
@@ -14,118 +14,583 @@ consumes: {
   }
 ammoTypes: {
     surge-alloy: {
-        damage: 250
-        type: ArtilleryBulletType
-        splashDamage: 450
-        splashDamageRadius: 104
-        bulletInterval: 5
-        speed: 4
-        hittable: false
-        backColor: ffec00
-        frontColor: fff78d
-        width: 24
-        height: 30
-        lifetime: 120
-        bulletInterval: 3
-        intervalRandomSpread: 45
-          intervalBullet: {
-              type: ArtilleryBulletType
-              width: 20
-              height: 6
-              damage: 85
-              hittable: false
-        backColor: ffec00
-        frontColor: fff78d
-              speed: 2
-              lifetime: 60
-              splashDamage: 150
-              splashDamageRadius: 40
-              homingPower: 0.3
-              fragRandomSpread: 0
-                  fragBullets: 6
-                    fragBullet: {
-                      type: LightningBulletType
-                      lightningLength: 15
-                      damage: 40
-                      lightningColor: f6ff69
-                      }
-}
-      fragBullets: 15
+      type: BulletType
+      instantDisappear: true
+      hitEffect: none
+      despawnEffect: none
+      damage: 90
+      spawnBullets: [
+        {
+          type: BulletType
+          fragSpread: 10
+          fragRandomSpread: 0
+          hitEffect: none
+          despawnEffect: none
+          fragOffsetMin: 1
+          fragOffsetMax: 1
+          fragVelocityMin: 1
+          fragBullets: 2
           fragBullet: {
-              type: ArtilleryBulletType
-              splashDamage: 80
-              splashDamageRadius: 40
-        backColor: ffec00
-        frontColor: fff78d
-              homingPower: 1
-              hittable: false
-              fragRandomSpread: 0
-                fragBullets: 1
-                    fragBullet: {
-                      type: LaserBulletType
-                      damage: 40
-                      length: 80
-                      width: 4
-                      colors: [f6ff69, fcff47, fdff76]
-}
-}
-}
-    cesium: {
-        damage: 245
-        type: ArtilleryBulletType
-        splashDamage: 480
-        splashDamageRadius: 120
-        bulletInterval: 6
-        speed: 4
-        hittable: false
-        backColor: efff74
-        frontColor: ffde74
-        width: 24
-        height: 30
-        lifetime: 120
-        bulletInterval: 3
-        intervalRandomSpread: 45
-          intervalBullet: {
-              type: ArtilleryBulletType
-              width: 20
-              height: 6
-              damage: 85
-              hittable: false
-        backColor: efff74
-        frontColor: ffde74
-              speed: 2
-              lifetime: 60
-              splashDamage: 150
-              splashDamageRadius: 40
-              homingPower: 0.3
-              fragRandomSpread: 0
-                  fragBullets: 6
-                    fragBullet: {
-                      type: LightningBulletType
-                      lightningLength: 12
-                      damage: 45
-                      lightningColor: f6ff69
-                      }
-}
-      fragBullets: 18
+            type: FlakBulletType
+            damage: 90
+            collidesGround: true
+            trailLength: 48
+            trailInterp: slope
+            trailColor: ccfcff
+            sprite: missile-large
+            backSprite: missile-large-back
+            backColor: ccfcff
+            speed: 0.8
+            lifetime: 60
+            fragOffsetMin: 1
+            fragOffsetMax: 1
+            fragVelocityMin: 1
+            fragBullets: 2
+            fragSpread: 22.5
+            fragRandomSpread: 0
+            shrinkY: 1
+            shrinkX: 1
+            trailEffect: disperseTrail
+            hitEffect: {
+              type: ParticleEffect
+              line: true
+              lifetime: 15
+              length: 10
+              lengthTo: 0
+              lengthFrom: 6
+              colorTo: ccfcff
+              }
+            despawnEffect: none
+            despawnHit: true
+            lightningLength: 20
+            lightningColor: ccfccf
+            lightningDamage: 60
+            damage: 60
+            lightning: 1
+            fragBullet: {
+              type: LaserBulletType
+              damage: 110
+              colors: [ccfccf, d8fcff, ffffff]
+              length: 20
+              sideLength: 5
+              sideAngle: 135
+              }
+            }
+          }
+        {
+          type: BulletType
+          fragSpread: 10
+          fragRandomSpread: 0
+          hitEffect: none
+          despawnEffect: none
+          fragOffsetMin: 1
+          fragOffsetMax: 1
+          fragVelocityMin: 1
+          fragBullets: 2
           fragBullet: {
-              type: ArtilleryBulletType
-              splashDamage: 85
-              splashDamageRadius: 40
-        backColor: ffec00
-        frontColor: fff78d
-              homingPower: 1
-              hittable: false
-              fragRandomSpread: 0
-                fragBullets: 1
-                    fragBullet: {
-                      type: LaserBulletType
-                      damage: 25
-                      length: 80
-                      width: 4
-                      colors: [efff74, ffde74, ffc574]
-}
-}
+            type: FlakBulletType
+            damage: 90
+            collidesGround: true
+            trailLength: 48
+            trailInterp: slope
+            trailColor: ccfcff
+            sprite: missile-large
+            backSprite: missile-large-back
+            backColor: ccfcff
+            speed: 1.6
+            lifetime: 60
+            fragOffsetMin: 1
+            fragOffsetMax: 1
+            fragVelocityMin: 1
+            fragBullets: 2
+            fragSpread: 22.5
+            fragRandomSpread: 0
+            shrinkY: 1
+            shrinkX: 1
+            trailEffect: disperseTrail
+            hitEffect: {
+              type: ParticleEffect
+              line: true
+              lifetime: 15
+              length: 10
+              lengthTo: 0
+              lengthFrom: 6
+              colorTo: ccfcff
+              }
+            despawnEffect: none
+            despawnHit: true
+            lightningLength: 20
+            lightningColor: ccfccf
+            lightningDamage: 60
+            damage: 60
+            lightning: 1
+            fragBullet: {
+              type: LaserBulletType
+              damage: 110
+              colors: [ccfccf, d8fcff, ffffff]
+              length: 40
+              sideLength: 10
+              sideAngle: 135
+              }
+            }
+          }
+        {
+          type: BulletType
+          fragSpread: 10
+          fragRandomSpread: 0
+          hitEffect: none
+          despawnEffect: none
+          fragOffsetMin: 1
+          fragOffsetMax: 1
+          fragVelocityMin: 1
+          fragBullets: 2
+          fragBullet: {
+            type: FlakBulletType
+            damage: 90
+            collidesGround: true
+            trailLength: 48
+            trailInterp: slope
+            trailColor: ccfcff
+            sprite: missile-large
+            backSprite: missile-large-back
+            backColor: ccfcff
+            speed: 2.4
+            lifetime: 60
+            fragOffsetMin: 1
+            fragOffsetMax: 1
+            fragVelocityMin: 1
+            fragBullets: 2
+            fragSpread: 22.5
+            fragRandomSpread: 0
+            shrinkY: 1
+            shrinkX: 1
+            trailEffect: disperseTrail
+            hitEffect: {
+              type: ParticleEffect
+              line: true
+              lifetime: 15
+              length: 10
+              lengthTo: 0
+              lengthFrom: 6
+              colorTo: ccfcff
+              }
+            despawnEffect: none
+            despawnHit: true
+            lightningLength: 20
+            lightningColor: ccfccf
+            lightningDamage: 60
+            damage: 60
+            lightning: 1
+            fragBullet: {
+              type: LaserBulletType
+              damage: 110
+              colors: [ccfccf, d8fcff, ffffff]
+              length: 60
+              sideLength: 15
+              sideAngle: 135
+              }
+            }
+          }
+        {
+          type: BulletType
+          fragSpread: 10
+          fragRandomSpread: 0
+          hitEffect: none
+          despawnEffect: none
+          fragOffsetMin: 1
+          fragOffsetMax: 1
+          fragVelocityMin: 1
+          fragBullets: 2
+          fragBullet: {
+            type: FlakBulletType
+            damage: 90
+            collidesGround: true
+            trailLength: 48
+            trailInterp: slope
+            trailColor: ccfcff
+            sprite: missile-large
+            backSprite: missile-large-back
+            backColor: ccfcff
+            speed: 3.2
+            lifetime: 60
+            fragOffsetMin: 1
+            fragOffsetMax: 1
+            fragVelocityMin: 1
+            fragBullets: 2
+            fragSpread: 22.5
+            fragRandomSpread: 0
+            shrinkY: 1
+            shrinkX: 1
+            trailEffect: disperseTrail
+            hitEffect: {
+              type: ParticleEffect
+              line: true
+              lifetime: 15
+              length: 10
+              lengthTo: 0
+              lengthFrom: 6
+              colorTo: ccfcff
+              }
+            despawnEffect: none
+            despawnHit: true
+            lightningLength: 20
+            lightningColor: ccfccf
+            lightningDamage: 60
+            damage: 60
+            lightning: 1
+            fragBullet: {
+              type: LaserBulletType
+              damage: 110
+              colors: [ccfccf, d8fcff, ffffff]
+              length: 80
+              sideLength: 20
+              sideAngle: 135
+              }
+            }
+          }
+        {
+          type: BulletType
+          fragSpread: 10
+          fragRandomSpread: 0
+          hitEffect: none
+          despawnEffect: none
+          fragOffsetMin: 1
+          fragOffsetMax: 1
+          fragVelocityMin: 1
+          fragBullets: 2
+          fragBullet: {
+            type: FlakBulletType
+            damage: 90
+            collidesGround: true
+            trailLength: 48
+            trailInterp: slope
+            trailColor: ccfcff
+            sprite: missile-large
+            backSprite: missile-large-back
+            backColor: ccfcff
+            speed: 4
+            lifetime: 60
+            fragOffsetMin: 1
+            fragOffsetMax: 1
+            fragVelocityMin: 1
+            fragBullets: 2
+            fragSpread: 22.5
+            fragRandomSpread: 0
+            shrinkY: 1
+            shrinkX: 1
+            trailEffect: disperseTrail
+            hitEffect: {
+              type: ParticleEffect
+              line: true
+              lifetime: 15
+              length: 10
+              lengthTo: 0
+              lengthFrom: 6
+              colorTo: ccfcff
+              }
+            despawnEffect: none
+            despawnHit: true
+            lightningLength: 20
+            lightningColor: ccfccf
+            lightningDamage: 60
+            lightning: 1
+            damage: 60
+            fragBullet: {
+              type: LaserBulletType
+              damage: 110
+              colors: [ccfccf, d8fcff, ffffff]
+              length: 100
+              sideLength: 25
+              sideAngle: 135
+              }
+            }
+          }
+        {
+          type: BulletType
+          fragSpread: 10
+          fragRandomSpread: 0
+          hitEffect: none
+          despawnEffect: none
+          fragOffsetMin: 1
+          fragOffsetMax: 1
+          fragVelocityMin: 1
+          fragBullets: 2
+          fragBullet: {
+            type: FlakBulletType
+            damage: 90
+            collidesGround: true
+            trailLength: 48
+            trailInterp: slope
+            trailColor: ccfcff
+            sprite: missile-large
+            backSprite: missile-large-back
+            backColor: ccfcff
+            speed: 4.8
+            lifetime: 60
+            fragOffsetMin: 1
+            fragOffsetMax: 1
+            fragVelocityMin: 1
+            fragBullets: 2
+            fragSpread: 22.5
+            fragRandomSpread: 0
+            shrinkY: 1
+            shrinkX: 1
+            trailEffect: disperseTrail
+            hitEffect: {
+              type: ParticleEffect
+              line: true
+              lifetime: 15
+              length: 10
+              lengthTo: 0
+              lengthFrom: 6
+              colorTo: ccfcff
+              }
+            despawnEffect: none
+            despawnHit: true
+            lightningLength: 20
+            lightningColor: ccfccf
+            lightningDamage: 60
+            lightning: 1
+            damage: 60
+            fragBullet: {
+              type: LaserBulletType
+              damage: 110
+              colors: [ccfccf, d8fcff, ffffff]
+              length: 120
+              sideLength: 30
+              sideAngle: 135
+              }
+            }
+          }
+        {
+          type: BulletType
+          fragSpread: 10
+          fragRandomSpread: 0
+          hitEffect: none
+          despawnEffect: none
+          fragOffsetMin: 1
+          fragOffsetMax: 1
+          fragVelocityMin: 1
+          fragBullets: 2
+          fragBullet: {
+            type: FlakBulletType
+            damage: 90
+            collidesGround: true
+            trailLength: 48
+            trailInterp: slope
+            trailColor: ccfcff
+            sprite: missile-large
+            backSprite: missile-large-back
+            backColor: ccfcff
+            speed: 5.6
+            lifetime: 60
+            fragOffsetMin: 1
+            fragOffsetMax: 1
+            fragVelocityMin: 1
+            fragBullets: 2
+            fragSpread: 22.5
+            fragRandomSpread: 0
+            shrinkY: 1
+            shrinkX: 1
+            trailEffect: disperseTrail
+            hitEffect: {
+              type: ParticleEffect
+              line: true
+              lifetime: 15
+              length: 10
+              lengthTo: 0
+              lengthFrom: 6
+              colorTo: ccfcff
+              }
+            despawnEffect: none
+            despawnHit: true
+            lightningLength: 20
+            lightningColor: ccfccf
+            lightningDamage: 60
+            lightning: 1
+            damage: 60
+            fragBullet: {
+              type: LaserBulletType
+              damage: 110
+              colors: [ccfccf, d8fcff, ffffff]
+              length: 140
+              sideLength: 35
+              sideAngle: 135
+              }
+            }
+          }
+        {
+          type: BulletType
+          fragSpread: 10
+          fragRandomSpread: 0
+          hitEffect: none
+          despawnEffect: none
+          fragOffsetMin: 1
+          fragOffsetMax: 1
+          fragVelocityMin: 1
+          fragBullets: 2
+          fragBullet: {
+            type: FlakBulletType
+            damage: 90
+            collidesGround: true
+            trailLength: 48
+            trailInterp: slope
+            trailColor: ccfcff
+            sprite: missile-large
+            backSprite: missile-large-back
+            backColor: ccfcff
+            speed: 6.4
+            lifetime: 60
+            fragOffsetMin: 1
+            fragOffsetMax: 1
+            fragVelocityMin: 1
+            fragBullets: 2
+            fragSpread: 22.5
+            fragRandomSpread: 0
+            shrinkY: 1
+            shrinkX: 1
+            trailEffect: disperseTrail
+            hitEffect: {
+              type: ParticleEffect
+              line: true
+              lifetime: 15
+              length: 10
+              lengthTo: 0
+              lengthFrom: 6
+              colorTo: ccfcff
+              }
+            despawnEffect: none
+            despawnHit: true
+            lightningLength: 20
+            lightningColor: ccfccf
+            lightningDamage: 60
+            lightning: 1
+            damage: 60
+            fragBullet: {
+              type: LaserBulletType
+              damage: 110
+              colors: [ccfccf, d8fcff, ffffff]
+              length: 160
+              sideLength: 40
+              sideAngle: 135
+              }
+            }
+          }
+        {
+          type: BulletType
+          fragSpread: 10
+          fragRandomSpread: 0
+          hitEffect: none
+          despawnEffect: none
+          fragOffsetMin: 1
+          fragOffsetMax: 1
+          fragVelocityMin: 1
+          fragBullets: 2
+          fragBullet: {
+            type: FlakBulletType
+            damage: 90
+            collidesGround: true
+            trailLength: 48
+            trailInterp: slope
+            trailColor: ccfcff
+            sprite: missile-large
+            backSprite: missile-large-back
+            backColor: ccfcff
+            speed: 7.2
+            lifetime: 60
+            fragOffsetMin: 1
+            fragOffsetMax: 1
+            fragVelocityMin: 1
+            fragBullets: 2
+            fragSpread: 22.5
+            fragRandomSpread: 0
+            shrinkY: 1
+            shrinkX: 1
+            trailEffect: disperseTrail
+            hitEffect: {
+              type: ParticleEffect
+              line: true
+              lifetime: 15
+              length: 10
+              lengthTo: 0
+              lengthFrom: 6
+              colorTo: ccfcff
+              }
+            despawnEffect: none
+            despawnHit: true
+            lightningLength: 20
+            lightningColor: ccfccf
+            lightningDamage: 60
+            lightning: 1
+            damage: 60
+            fragBullet: {
+              type: LaserBulletType
+              damage: 110
+              colors: [ccfccf, d8fcff, ffffff]
+              length: 180
+              sideLength: 45
+              sideAngle: 135
+              }
+            }
+          }
+        {
+          type: BulletType
+          fragSpread: 10
+          fragRandomSpread: 0
+          hitEffect: none
+          despawnEffect: none
+          fragOffsetMin: 1
+          fragOffsetMax: 1
+          fragVelocityMin: 1
+          fragBullets: 2
+          fragBullet: {
+            type: FlakBulletType
+            damage: 90
+            collidesGround: true
+            trailLength: 48
+            trailInterp: slope
+            trailColor: ccfcff
+            sprite: missile-large
+            backSprite: missile-large-back
+            backColor: ccfcff
+            speed: 8
+            lifetime: 60
+            fragOffsetMin: 1
+            fragOffsetMax: 1
+            fragVelocityMin: 1
+            fragBullets: 2
+            fragSpread: 22.5
+            fragRandomSpread: 0
+            shrinkY: 1
+            shrinkX: 1
+            trailEffect: disperseTrail
+            hitEffect: {
+              type: ParticleEffect
+              line: true
+              lifetime: 15
+              length: 10
+              lengthTo: 0
+              lengthFrom: 6
+              colorTo: ccfcff
+              }
+            despawnEffect: none
+            despawnHit: true
+            lightningLength: 20
+            lightningColor: ccfccf
+            lightningDamage: 60
+            lightning: 1
+            damage: 60
+            fragBullet: {
+              type: LaserBulletType
+              damage: 110
+              colors: [ccfccf, d8fcff, ffffff]
+              length: 200
+              sideLength: 50
+              sideAngle: 135
+              }
+            }
+          }
+        ]
 }
 }
 requirements: [
@@ -139,5 +604,127 @@ requirements: [
 ]
 category: turret
 research: malign
-research: origin
-research: phase-fabric
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      mirror: true
+      moveRot: 5
+      progress: warmup
+      moves: [
+      {
+      type: PartMove
+      progress: recoil
+      rot: 10
+      y: -3
+      }
+      ]
+    }
+    {
+    type: RegionPart
+    suffix: -bottom
+    mirror: false
+    }
+    {
+    type: RegionPart
+    suffix: -arm
+    moveX: 1
+    mirror: true
+    children: [
+    {
+    type: RegionPart
+    suffix: -pusher
+    mirror: true
+    x: -6
+    y: 6
+    moveX: 6
+    moveY: -6
+    under: true
+    moves: [
+    {
+    type: PartMove
+    x: 1
+    y: -1
+    progress: recoil
+    }
+      ]
+    progress: warmup
+    }
+    {
+    type: RegionPart
+    suffix: -side
+    progress: recoil
+    moveY: -2
+    under: false
+    }
+    ]
+    }
+    {
+    type: ShapePart
+    stroke: 0
+    strokeTo: 2
+    radius: 16
+    y: -32
+    circle: true
+    hollow: true
+    rotateSpeed: 2.3
+    color: ccfcff
+    }
+    {
+    type: ShapePart
+    color: ccfcff
+    stroke: 0
+    strokeTo: 1
+    radius: 12
+    y: -32
+    circle: true
+    hollow: true
+    rotateSpeed: 2.3
+    }
+    {
+    type: HaloPart
+    radius: 16
+    y: -32
+    shapes: 8
+    haloRotateSpeed: 2.3
+    tri: true
+    color: ccfcff
+    triLength: 0
+    triLengthTo: 6
+    }
+    {
+    type: HaloPart
+    radius: 16
+    y: -32
+    shapes: 8
+    haloRotateSpeed: 2.3
+    tri: true
+    color: ccfcff
+    triLength: 0
+    triLengthTo: 2
+    shapeRotation: 180
+    }
+    {
+    type: ShapePart
+    color: ccfcff
+    radius: 8
+    hollow: false
+    stroke: 0
+    trokeTo: 4
+    sides: 4
+    rotateSpeed: 5
+    }
+    {
+    type: ShapePart
+    color: ccfcff
+    radius: 8
+    hollow: false
+    stroke: 0
+    trokeTo: 4
+    sides: 4
+    rotateSpeed: -5
+    }
+  ]
+}
