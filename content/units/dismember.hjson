@@ -24,11 +24,13 @@ lowAltitude: true
     shootSound: beam
     y: 6.25
     mirror: true
-    x: 6
+    x: 7
     recoil: 0
     top: false
+    under: true
     reload: 330
     continuous: true
+    layerOffset: -0.001
     range: 256
     bullet: {
       type: ContinuousLaserBulletType
