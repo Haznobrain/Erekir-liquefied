@@ -24,7 +24,7 @@ type: UnitAssemblerPlan
   unit: amputate
       time: 10800
         requirements: [
-          erekirliquefied-cut/4
+          erekirliquefied-incise/4
           carbide-wall-large/20
 ]
 }
