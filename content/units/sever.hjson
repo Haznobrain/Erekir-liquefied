@@ -5,6 +5,8 @@ flying: true
 description: a simple and fast air specialist that shoots a piercing laser at ennemy targets.
 health: 700
 hitSize: 10
+accel: 0.05
+drag: 0.017
 armor: 1
 speed: 2.13
 targetAir: false
@@ -14,6 +16,8 @@ singleTarget: true
 fogRadius: 20
 engineOffset: 5
   weapons: [{
+    name: sever-weapon
+    recoil: 0
     shootSound: laser
     y: 4
     mirror: false
@@ -22,6 +26,7 @@ engineOffset: 5
     shootCone: 5
     range: 96
     bullet: {
+      recoil: 2
       type: LaserBulletType
       damage: 25
       pierceCap: 5
