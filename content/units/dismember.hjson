@@ -22,7 +22,7 @@ lowAltitude: false
     name: dismember-weapon
     alternate: false
     shootSound: beam
-    y: 6.25
+    y: 6
     mirror: true
     x: 6.75
     recoil: 3
