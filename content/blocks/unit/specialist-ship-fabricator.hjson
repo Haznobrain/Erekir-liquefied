@@ -8,7 +8,7 @@ configurable: true
   }
 plans: [
 {
-unit: T1-sever
+unit: sever
   requirements: [
     silicon/60
     beryllium/80
