@@ -19,7 +19,8 @@ engineOffset: 5
     name: sever-weapon
     recoil: 0
     shootSound: laser
-    y: 4
+    y: 0
+    top: false
     mirror: false
     x: 0
     reload: 45
