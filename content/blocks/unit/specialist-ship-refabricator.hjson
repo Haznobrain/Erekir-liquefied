@@ -20,7 +20,7 @@ liquid: {
   }
 upgrades: [
 [
-  T1-sever,
+  sever,
   cut
 ]
 [
