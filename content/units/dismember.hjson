@@ -25,13 +25,13 @@ lowAltitude: false
     y: 6.25
     mirror: true
     x: 6.75
-    recoil: 0
+    recoil: 3
     top: false
     under: true
     reload: 330
     continuous: true
     range: 256
-    shootX: 2
+    shootX: 0
     bullet: {
       type: ContinuousLaserBulletType
       damage: 34
@@ -39,6 +39,15 @@ lowAltitude: false
       colors: [72e0ff, 72a8ff, 3b38ff, 725aff]
       length: 256
       width: 3
+      despawnEffect: {
+          type: ParticleEffect
+          interp: pow2In
+          sizeInterp: pow3Out
+          particles: 13
+          sizeFrom: 3
+          length: 32
+          cone: 10
+          }
         }
 }
 ]
