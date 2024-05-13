@@ -40,7 +40,7 @@ radius: 3
     mirror: false
     x: 0
     reload: 45
-    recoil: 2
+    recoil: 0
     shootCone: 5
     range: 124
     bullet: {
