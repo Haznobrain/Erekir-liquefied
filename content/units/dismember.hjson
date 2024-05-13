@@ -22,10 +22,11 @@ lowAltitude: true
     name: dismember-weapon
     alternate: false
     shootSound: beam
-    y: 6
+    y: 6.25
     mirror: true
     x: 6
     recoil: 0
+    top: false
     reload: 330
     continuous: true
     range: 256
@@ -52,7 +53,6 @@ color: d1efff
 reload: 45
 healPercent: 0.5
 sectors: 6
-layer: 111
 y: -9
 }
 ]
