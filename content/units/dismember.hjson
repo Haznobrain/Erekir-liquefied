@@ -16,7 +16,7 @@ singleTarget: true
 fogRadius: 32
 engineOffset: 19
 engineSize: 6
-lowAltitude: true
+lowAltitude: false
   weapons: [
 {
     name: dismember-weapon
@@ -24,21 +24,21 @@ lowAltitude: true
     shootSound: beam
     y: 6.25
     mirror: true
-    x: 7
+    x: 6.75
     recoil: 0
     top: false
     under: true
     reload: 330
     continuous: true
-    layerOffset: -0.001
     range: 256
+    shootX: 2
     bullet: {
       type: ContinuousLaserBulletType
       damage: 34
       lifetime: 240
       colors: [72e0ff, 72a8ff, 3b38ff, 725aff]
       length: 256
-      width: 6
+      width: 3
         }
 }
 ]
