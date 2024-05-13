@@ -15,7 +15,7 @@ type: UnitAssemblerPlan
   unit: dismember
   time: 3600
   requirements: [
-    erekirliquefied-T1-sever/4
+    erekirliquefied-sever/4
     tungsten-wall-large/12
     ]
 }
