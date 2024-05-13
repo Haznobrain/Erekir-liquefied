@@ -9,7 +9,7 @@ armor: 9
 speed: 1.2
 drag: 0.018
 accel: 0.07
-targetAir: false
+targetAir: true
 faceTargets: true
 lightRadius: 5
 singleTarget: true
