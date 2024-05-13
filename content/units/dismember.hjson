@@ -1,12 +1,14 @@
 name: Dismember
 type: flying
 flying: true
-description: A strong specialist air unit that shoots a powerful long-range piercing lasers at ennemy targets while having an electric field.
-health: 7100
+description: A strong specialist air unit that shoots 2 powerful long-range piercing lasers, but has low health.
+health: 4800
 template: ErekirUnitType
 hitSize: 30
 armor: 9
 speed: 1.2
+drag: 0.018
+accel: 0.07
 targetAir: false
 faceTargets: true
 lightRadius: 5
@@ -14,39 +16,16 @@ singleTarget: true
 fogRadius: 32
 engineOffset: 19
 engineSize: 6
-engines: [
-{
-x: -13
-y: -15
-radius: 4
-rotation: -135
-}
-{
-x: 13
-y: -15
-radius: 4
-rotation: -45
-}
-{
-x: -16
-y: -11
-radius: 3
-rotation: -135
-}
-{
-x: 16
-y: -11
-radius: 3
-rotation: -45
-}
-]
 lowAltitude: true
   weapons: [
 {
+    name: dismember-weapon
+    alternate: false
     shootSound: beam
-    y: 16
-    mirror: false
-    x: 0
+    y: 6
+    mirror: true
+    x: 6
+    recoil: 0
     reload: 330
     continuous: true
     range: 256
@@ -58,35 +37,6 @@ lowAltitude: true
       length: 256
       width: 6
         }
-}
-{
-  name: dismember-missile
-    mirror: true
-    y: -8
-    x: -13
-    reload: 15
-    shootCone: 15
-    range: 240
-    shootSound: missile
-    layerOffset: 1
-    ejectEffect: casing1
-    shoot: {
-      type: ShootAlternate
-      barrels: 2
-      spread: 4
-      shots: 2
-      shotDelay: 3
-    }
-    bullet: {
-        type: MissileBulletType
-        color: 8ca9e8
-        pierceBuilding: true
-        pierce: true
-        pierceCap: 10
-        damage: 45
-        lifetime: 48
-        speed: 5
-     }     
 }
 ]
 lightRadius: 256
@@ -103,5 +53,6 @@ reload: 45
 healPercent: 0.5
 sectors: 6
 layer: 111
+y: -9
 }
 ]
