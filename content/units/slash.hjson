@@ -42,6 +42,7 @@ engineOffset: 10
     shootSound: laserbig
     bullet: {
       type: ContinuousLaserBulletType
+      buildingDamageMultiplier: 0.5
       damage: 12.5
       pierceCap: 25
       length: 208
