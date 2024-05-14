@@ -108,6 +108,7 @@ rotation: -45
   range: 184
   x: 0
   reload: 90
+  lifetime: 92
   bullet: {
     type: ArtilleryBulletType
     trailLength: 10
@@ -122,8 +123,8 @@ rotation: -45
         {
           type: ParticleEffect
           particles: 6
-          interp: pow2In
-          sizeInterp: pow3Out
+          interp: pow3Out
+          sizeInterp: pow2In
           cone: 5
           colorFrom: d1efff
           colorMid: 8ca9e8
@@ -136,8 +137,8 @@ rotation: -45
           particles: 6
           line: true
           lifetime: 12
-          interp: pow2In
-          sizeInterp: pow3Out
+          interp: pow3Out
+          sizeInterp: pow2In
           cone: 5
           colorFrom: d1efff
           colorMid: 8ca9e8
@@ -182,8 +183,8 @@ rotation: -45
     despawnEffect: [dynamicSpikes
       {
       type: ParticleEffect
-      interp: pow2In
-      sizeInterp: pow3Out
+      interp: pow3Out
+      sizeInterp: pow2In
       colorFrom: d1efff66
       particles: 12
       sizeFrom: 7
