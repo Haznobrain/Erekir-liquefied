@@ -167,7 +167,6 @@ rotation: -45
         rotWithParent: true
         cone: 0
         baseRot: 90
-        line: true
           }
     height: 10
     width: 12
