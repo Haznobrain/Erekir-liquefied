@@ -70,7 +70,7 @@ rotation: -45
         under: true
       }
       ]
-    name: amputate
+    name: amputate-main
     recoil: 0
     shootSound: beam
     y: 0
