@@ -7,7 +7,7 @@ template: ErekirUnitType
 hitSize: 48
 rotateSpeed: 1.5
 armor: 10
-speed: 1.1
+speed: 1.3
 targetAir: true
 faceTargets: true
 lightRadius: 5
@@ -44,11 +44,37 @@ rotation: -45
 ]
   weapons: [
 {
+    parts: [
+      {
+        type: RegionPart
+        progress: charge
+        moveRot: 15
+        mirror: true
+        suffix: -arm1
+        under: true
+      }
+      {
+        type: RegionPart
+        progress: charge
+        moveRot: 20
+        mirror: true
+        suffix: -arm2
+        under: true
+      }
+      {
+        type: RegionPart
+        progress: charge
+        moveRot: 25
+        mirror: true
+        suffix: -arm3
+        under: true
+      }
+      ]
     name: amputate
     recoil: 0
     shootSound: beam
     y: 0
-    shootY: 0
+    shootY: 10
     top: false
     mirror: false
     x: 0
@@ -62,117 +88,102 @@ rotation: -45
       colors: [72e0ff, 72a8ff, 3b38ff, 725aff]
       length: 304
       width: 8
+      bulletInterval: 3
+      intervalRandomSpread: 10
+      intervalBullet: {
+          type: LightningBulletType
+          length: 38
+          damage: 80
+          lifetime: 12
+          despawnSound: spark
         }
+      hitColor: 72e0ff
+}
 }
 {
-  name: amputate-point-defense
-    type: PointDefenseWeapon
-    mirror: true
-    y: -20
-    rotate: true
-    x: -16
-    reload: 2
-    shootCone: 20
-    range: 256
-    shootLength: 256
-    rotateSpeed: 360
-    bulletDamage: 100
-}
-{
-name: amputate-weapon2
-    mirror: true
-    y: -2
-    x: -20
-    rotate: true
-    reload: 10
-    shootCone: 360
-    range: 200
-    shootSound: laser
-    bullet: {
-        type: LaserBulletType
-        length: 200
-        color: 8ca9e8
-        pierce: true
-        pierceCap: 10
-        damage: 40
-     }
-}
-{
-name: amputate-emp
-mirror: false
-reload: 120
-x: 0
-y: -10
-range: 304
-shootSound: blaster
-rotate: true
-bullet: {
-  type: EmpBulletType
-  speed: 5
-  lifetime: 60.8
-  splashDamageRadius: 48
-  radius: 120
-  powerDamageScl: 3.5
-  splashDamage: 300
-  backColor: d1efff
-  frontColor: ffffff
-  height: 12
-  width: 12
-  trailLength: 24
-  trailWidth: 4
-  trailColor: d1efff
-  trailEffect: {
-  type: ExplosionEffect
-  waveLife: 0
-  smokeColor: d1efff
-  sparks: 0
-  smokeRad: 8
-  smokeSize: 4
-  smokeColor: d1efff
-  smokes: 13
-  }
-trailChance: 0.3
-  hitPowerEffect: {
+  name: electric-launcher
+  y: -12
+  mirror: false
+  shootSound: artillery
+  range: 184
+  reload: 90
+  bullet: {
+    type: ArtilleryBulletType
+    trailLength: 10
+    trailColor: d1efff
+    sprite: mine-back
+    backColor: d1efff
+    shootEffect: {
+    type: MultiEffect
+    effects: [
+        {
           type: ParticleEffect
-          line: true
           particles: 6
-          lifetime: 22
-          length: 80
-          cone: -360
-          lenFrom: 6
-          lenTo: 6
-          colorFrom: FFFFFFF,
-          colorTo: A9D8FFFF
+          interp: pow2In
+          sizeInterp: pow3Out
+          cone: 5
+          colorFrom: d1efff
+          colorMid: 8ca9e8
+          colorTo: ffffff
+          lifetime: 12
+          length: 12
         }
-  hitColor: d1efff
-  despawnEffect: {
+              {
           type: ParticleEffect
+          particles: 6
           line: true
-          particles: 7
-          lifetime: 20
-          offset: 50
-          length: 55
-          cone: -360
-          lenFrom: 6
-          lenTo: 0
-          colorFrom: A9D8FFFF
-          "colorTo": d1efff
+          lifetime: 12
+          interp: pow2In
+          sizeInterp: pow3Out
+          cone: 5
+          colorFrom: d1efff
+          colorMid: 8ca9e8
+          colorTo: ffffff
+          length: 12
         }
-hitEffect: {
-          type: ParticleEffect
-          line: true
-          particles: 7
-          lifetime: 20
-          offset: 50
-          length: 55
-          cone: -360
-          lenFrom: 6
-          lenTo: 0
-          colorFrom: A9D8FFFF
-          "colorTo": d1efff
+        {
+          type: WaveEffect
+          sizeTo: 24
+          colorFrom: d1efff
+          lifetime: 12
         }
+            ]
+              }
+    parentizeEffects: true
+    trailInterval: 10
+    trailChance: 1
+    trailEffect: {
+        type: ParticleEffect
+        length: 0
+        particles: 1
+        lengthFrom: 10
+        stroke: 1
+        lifetime: 30
+        rotWithParent: true
+        cone: 0
+        baseRot: 90
+          }
+    
+    speed: 2
+    damage: 0
+    splashDamage: 40
+    lightning: 8
+    lightningDamage: 10
+    collidesAir: true
+    hitEffect: chainLightning
+    despawnEffect: [dynamicSpikes
+      {
+      type: ParticleEffect
+      interp: pow2In
+      sizeInterp: pow3Out
+      colorFrom: d1efff66
+      particles: 12
+      sizeFrom: 7
+      lifetime: 100
+      }
+      ]
+    }
   }
-}
 ]
 lightRadius: 360
 research: disrupt
