@@ -109,6 +109,7 @@ rotation: -45
   mirror: false
   shootSound: artillery
   range: 184
+  x: 0
   reload: 90
   bullet: {
     type: ArtilleryBulletType
