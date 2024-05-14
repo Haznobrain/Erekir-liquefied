@@ -47,24 +47,24 @@ rotation: -45
     parts: [
       {
         type: RegionPart
-        progress: charge
-        moveRot: 15
+        progress: warmup
+        moveRot: -15
         mirror: true
         suffix: -arm1
         under: true
       }
       {
         type: RegionPart
-        progress: charge
-        moveRot: 20
+        progress: warmup
+        moveRot: -20
         mirror: true
         suffix: -arm2
         under: true
       }
       {
         type: RegionPart
-        progress: charge
-        moveRot: 25
+        progress: warmup
+        moveRot: -25
         mirror: true
         suffix: -arm3
         under: true
@@ -81,9 +81,6 @@ rotation: -45
     reload: 360
     continuous: true
     range: 304
-    shoot: {
-        firstShotDelay: 60
-        }
     bullet: {
       type: ContinuousLaserBulletType
       damage: 62.5
@@ -115,7 +112,9 @@ rotation: -45
     type: ArtilleryBulletType
     trailLength: 10
     trailColor: d1efff
-    sprite: mine-back
+    sprite: mine-bullet
+    lightningLength: 10
+    lightningColor: d1efff
     backColor: d1efff
     shootEffect: {
     type: MultiEffect
