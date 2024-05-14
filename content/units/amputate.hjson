@@ -75,7 +75,8 @@ rotation: -45
     shootSound: beam
     y: 0
     shootY: 10
-    top: false
+    top: true
+    layerOffset: 1
     mirror: false
     x: 0
     reload: 360
@@ -101,6 +102,7 @@ rotation: -45
 }
 }
 {
+  layerOffset: 2
   name: electric-launcher
   y: -12
   mirror: false
@@ -121,6 +123,7 @@ rotation: -45
     type: MultiEffect
     effects: [
         {
+          layer: 110
           type: ParticleEffect
           particles: 6
           interp: pow3Out
