@@ -44,7 +44,7 @@ lowAltitude: true
   weapons: [
 {
     name: tomaxella-weapon
-    shootSound: laserblast
+    shootSound: laser
     y: 0
     minWarmup: 0.96
     shootWarmupSpeed: 0.016
@@ -64,6 +64,7 @@ lowAltitude: true
         suffix: -top
         mirror: true
         moveY: 12
+        moveX: 4
         progress: warmup
       }
       {
