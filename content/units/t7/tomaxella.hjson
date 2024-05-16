@@ -1,7 +1,7 @@
 name: Tomaxella
 type: flying
 flying: true
-description: A massive airship with a lot of health and armor that shoots a barrage of bullets and a large laser at ennemy targets
+description: A massive airship with a lot of health and armor that shoots a bunch of lasers at ennemy targets
 health: 620000
 template: ErekirUnitType
 hitSize: 100
@@ -41,66 +41,77 @@ rotation: -45
 }
 ]
 lowAltitude: true
-  parts: [
-{
-suffix: -body
-x: 0
-  y: 0
-  moveX: 0
-  moveY: 0
-  progress: recoil
-  }
-  {
-suffix: -side
-  mirror: true
-x: 0
-  y: 0
-  moveX: -8
-  moveY: -12
-  progress: recoil
-  }
-]
   weapons: [
 {
     name: tomaxella-weapon
-    shootSound: beam
+    shootSound: laserblast
     y: 0
     mirror: false
     x: 0
-    reload: 240
+    reload: 900
     continuous: true
-    range: 304
+    range: 480
     recoil: 3
-    heatColor: 74ffff
-    shootY: 32
-    bullet: {
-      type: ContinuousLaserBulletType
-      damage: 105
-      lifetime: 330
-      colors: [96f58c,54d67d ,28785c ,286550 ]
-      length: 304
-      width: 6
-      bulletInterval: 3
-      intervalRandomSpread: 100
-      intervalBullet: {
-          type: BasicBulletType
-          speed: 6
-          lifetime: 51
-          backColor: 54d67d
-          frontColor: 96f58c
-          damage: 36
-          splashDamage: 45
-          splashDamageRadius: 12
-          hitEffect: {
-              type: ExplosionEffect
-              smokeColor: 96f58c
-              waveColor: 96f58c
-              sparkColor: 96f58c
-              waveRad: 12
-              smokeRad: 12
-              sparkRad: 12
-                }
+    parts: [
+      {
+        type: RegionPart
+        suffix: -back
+      }
+      {
+        type: RegionPart
+        suffix: -bottom
+      }
+      {
+        type: RegionPart
+        suffix: -side
+        mirror: true
+        moveX: 12
+        moveY: 12
+        progress: warmup
+      }
+      {
+        type: RegionPart
+        suffix: -top
+        mirror: true
+        moveY: 12
+        progress: warmup
+      }
+      {
+        type: FlarePart
+        color1: 84f491
+        color2: 62ae7f
+        spinSpeed: 6
+      }
+      {
+        type: FlarePart
+        color1: 84f491
+        color2: 62ae7f
+        spinSpeed: -6
+      }
+      {
+        type: FlarePart
+        color1: 84f491
+        color2: 62ae7f
+        sides: 12
+      }
+      ]
+    shootY: 24
+    shoot: {
+      type: ShootSpread
+      spread: 45
+      shots: 15
+      shotDelay: 20
         }
+    bullet: {
+      type: LaserBulletType
+      sideLength: 0
+      sideWidth: 0
+      damage: 480
+      hitEffect: massiveExplosion
+      lifetime: 90
+      colors: [96f58c,54d67d, 286550 ]
+      length: 480
+      width: 10
 }
 }
 ]
