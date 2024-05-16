@@ -83,18 +83,24 @@ lowAltitude: true
         color1: 84f491
         color2: 62ae7f
         spinSpeed: 6
+        radius: 24
+        y: 24
       }
       {
         type: FlarePart
         color1: 84f491
         color2: 62ae7f
+        radius: 24
         spinSpeed: -6
+        y: 24
       }
       {
         type: FlarePart
         color1: 84f491
         color2: 62ae7f
         sides: 12
+        radius: 26
+        y: 24
       }
       ]
     shootY: 24
@@ -113,7 +119,7 @@ lowAltitude: true
       lifetime: 90
       colors: [96f58c,54d67d, 286550 ]
       length: 480
-      width: 10
+      width: 16
 }
 }
 ]
