@@ -7,8 +7,8 @@ template: ErekirUnitType
 hitSize: 100
 armor: 26
 speed: 0.9
-targetAir: false
-faceTargets: true
+targetAir: true
+faceTarget: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 32
