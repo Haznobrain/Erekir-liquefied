@@ -106,12 +106,22 @@ lowAltitude: true
       ]
     shootY: 24
     shoot: {
-      type: ShootSpread
-      spread: 45
-      shots: 15
       shotDelay: 20
+      shots: 5
         }
     bullet: {
+      type: BulletType
+      despawnHit: false
+      damage: 0
+      instantDisappear: true
+      spawnBullets: [
+      {
+      type: BulletType
+      lifetime: 7
+      hitEffect: none
+      despawnEffect: none
+      fragBullets: 1
+      fragBullet: {
       type: LaserBulletType
       sideLength: 0
       sideWidth: 0
@@ -121,6 +131,47 @@ lowAltitude: true
       colors: [96f58c,54d67d, 286550 ]
       length: 480
       width: 24
+      }
+      }
+      {
+      type: BulletType
+      lifetime: 14
+      hitEffect: none
+      despawnEffect: none
+      fragBullets: 1
+      fragAngle: 45
+      fragBullet: {
+      type: LaserBulletType
+      sideLength: 0
+      sideWidth: 0
+      damage: 480
+      hitEffect: massiveExplosion
+      lifetime: 90
+      colors: [96f58c,54d67d, 286550 ]
+      length: 480
+      width: 24
+      }
+      }
+      {
+      type: BulletType
+      lifetime: 21
+      hitEffect: none
+      despawnEffect: none
+      fragAngle: -45
+      fragBullets: 1
+      fragBullet: {
+      type: LaserBulletType
+      sideLength: 0
+      sideWidth: 0
+      damage: 480
+      hitEffect: massiveExplosion
+      lifetime: 90
+      colors: [96f58c,54d67d, 286550 ]
+      length: 480
+      width: 24
+      }
+      }
+      ]
 }
 }
 ]
