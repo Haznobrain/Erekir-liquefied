@@ -46,6 +46,8 @@ lowAltitude: true
     name: tomaxella-weapon
     shootSound: laserblast
     y: 0
+    minWarmup: 0.96
+    shootWarmupSpeed: 0.16
     mirror: false
     x: 0
     reload: 900
