@@ -121,6 +121,7 @@ lowAltitude: true
       hitEffect: none
       despawnEffect: none
       fragBullets: 1
+      fragRandomSpread: 0
       fragBullet: {
       type: LaserBulletType
       sideLength: 0
@@ -140,6 +141,7 @@ lowAltitude: true
       despawnEffect: none
       fragBullets: 1
       fragAngle: 45
+      fragRandomSpread: 0
       fragBullet: {
       type: LaserBulletType
       sideLength: 0
@@ -159,6 +161,7 @@ lowAltitude: true
       despawnEffect: none
       fragAngle: -45
       fragBullets: 1
+      fragRandomSpread: 0
       fragBullet: {
       type: LaserBulletType
       sideLength: 0
