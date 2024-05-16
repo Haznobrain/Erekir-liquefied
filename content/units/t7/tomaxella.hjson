@@ -47,7 +47,7 @@ lowAltitude: true
     shootSound: laserblast
     y: 0
     minWarmup: 0.96
-    shootWarmupSpeed: 0.16
+    shootWarmupSpeed: 0.016
     mirror: false
     x: 0
     reload: 900
@@ -61,7 +61,10 @@ lowAltitude: true
       }
       {
         type: RegionPart
-        suffix: -bottom
+        suffix: -top
+        mirror: true
+        moveY: 12
+        progress: warmup
       }
       {
         type: RegionPart
@@ -73,10 +76,7 @@ lowAltitude: true
       }
       {
         type: RegionPart
-        suffix: -top
-        mirror: true
-        moveY: 12
-        progress: warmup
+        suffix: -bottom
       }
       {
         type: FlarePart
@@ -119,7 +119,7 @@ lowAltitude: true
       lifetime: 90
       colors: [96f58c,54d67d, 286550 ]
       length: 480
-      width: 16
+      width: 24
 }
 }
 ]
