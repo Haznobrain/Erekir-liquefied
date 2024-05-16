@@ -14,6 +14,8 @@ singleTarget: true
 fogRadius: 30
 engineOffset: 50
 engineSize: 18
+drag: 0.016
+accel: 0.04
 engines: [
 {
 x: -20
