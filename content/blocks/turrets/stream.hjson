@@ -7,20 +7,16 @@ range: 224
 rotateSpeed: 3
 liquidCapacity: 40
 targetAir: false
-inaccuracy: 5
+inaccuracy: 0
+shootCone: 1
 targetGround: true
 shootEffect: shootLiquid
-reload: 180
+reload: 90
 recoil: 2
 shootSound: laser
 loopSound: none
 despawnHit: true
 coolantMultiplier: 2
-coolant: {
-  type: ConsumeLiquid
-  liquid: slag
-  amount: 0.25
-}
 consumes: {
         power: 3
         }
