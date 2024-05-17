@@ -1,6 +1,6 @@
 type: LiquidTurret
 name: Stream
-description: a medium size medium-range turret. Uses fluids as ammunition to shoot at ennemy ground targets. May be inacurrate when using gases.
+description: a medium ranged turret that fires a superheated liquid spike.
 size: 3
 health: 3200
 range: 224
@@ -10,126 +10,101 @@ targetAir: false
 inaccuracy: 5
 targetGround: true
 shootEffect: shootLiquid
-reload: 140
+reload: 90
 recoil: 2
-shootSound: artillery
+shootSound: laser
 loopSound: none
 despawnHit: true
-shoot: {
-    shots: 3
-  }
+consumes: {
+        liquid: slag/0.25
+        }
 ammoTypes: {
-  slag: {
-    type: LiquidBulletType
-    liquid: slag
-    lifetime: 140
-    speed: 1.6
-    knockback: 3
-    puddleSize: 25
-    orbSize: 5
-    statusDuration: 240
-    status: melting
-    damage: 35
-    splashDamage: 25
-    splashDamageRadius: 16
-   }
   ozone: {
-    type: LiquidBulletType
-    liquid: ozone
-    lifetime: 140
-    speed: 1.6
+    type: LaserBulletType
+    lifetime: 20
     knockback: 3.5
-    orbSize: 6
-    puddleSize: 25
-    damage: 18
-    splashDamage: 45
-    splashDamageRadius: 25
-    boilTime: 280
+    damage: 40
+    length: 224
+    colors: [fca9fb, fcc7fc, fcf5c7]
+    width: 8
+    shootEffect: lancerShoot
 }
   hydrogen: {
-    type: LiquidBulletType
-    liquid: hydrogen
-    lifetime: 140
-    speed: 1.6
-    knockback: 2.5
-    orbsize: 6
-    puddleSize: 25
-    status: burning
-    statusDuration: 180
+    type: LaserBulletType
+    lifetime: 20
+    knockback: 3.5
     damage: 20
-    splashDamage: 15
-    boilTime: 140
+    length: 224
+    width: 8
+    shootEffect: lancerShoot
 }
   arkycite: {
-    type: LiquidBulletType
-    liquid: arkycite
-    lifetime: 140
-    speed: 2
-    knockback: 2.9
-    orbSize: 4
-    puddleSize: 35
-    damage: 25
-    splashDamage: 40
-    splashDamageRadius: 35
+    type: LaserBulletType
+    lifetime: 20
+    knockback: 3.5
+    damage: 40
+    length: 224
+    colors: [cbffa3, deffc5, fcf5c7]
+    width: 8
+    shootEffect: lancerShoot
 }
   water: {
-    type: LiquidBulletType
-    liquid: water
-    lifetime: 140
-    speed: 1.6
-    knockback: 4
-    orbSize: 5
-    puddleSize: 30
+    type: LaserBulletType
+    lifetime: 20
+    knockback: 6
     damage: 5
-    boilTime: 140
+    length: 224
+    colors: [fca9fb, fcc7fc, fcf5c7]
+    width: 8
+    shootEffect: lancerShoot
 }
   cyanogen: {
-    type: LiquidBulletType
-    liquid: cyanogen
-    lifetime: 140
-    speed: 2.2
-    knockback: 4
-    orbsize: 2
-    damage: 35
-    splashDamage: 60
-    splashDamageRadius: 45
+    type: LaserBulletType
+    lifetime: 20
+    knockback: 3.5
+    damage: 70
+    length: 224
+    colors: [b6ffe3, cafcea, fcf5c7]
+    width: 8
+    shootEffect: lancerShoot
     status: burning
-    statusDuration: 240
-    boilTime: 140
+    statusDuration: 120
 }
 azpanogen: {
-  type: LiquidBulletType
-  liquid: azpanogen
-  lifetime: 140
-  speed: 1.6
-  knockback: 3
-  splashDamage: 115
-  splashDamageRadius: 80
-  boilTime: 140
-  }
+    type: LaserBulletType
+    lifetime: 20
+    knockback: 3.5
+    damage: 90
+    length: 224
+    colors: [aaffb2, c7f9cc, fcf5c7]
+    width: 8
+    shootEffect: lancerShoot
+    status: melting
+    statusDuration: 120
+}
   neoplasm: {
-    type: LiquidBulletType
-    liquid: neoplasm
-    lifetime: 160
-    speed: 1.6
-    knockback: 4.5
-    orbSize: 8
-    damage: 65
-    splashDamage: 85
-    splashDamageRadius: 65
-    puddleSize: 65
-    homingPower: 0.1
-    }
+    type: LaserBulletType
+    lifetime: 20
+    knockback: 3.5
+    damage: 180
+    length: 224
+    colors: [ffe1a3, ffecc5, fcf5c7]
+    width: 8
+    shootEffect: lancerShoot
+    status: tarred
+    statusDuration: 120
+}
 nitrogen: {
-  type: LiquidBulletType
-  liquid: nitrogen
-  lifetime: 140
-  speed: 1.6
-  knockback: 1.5
-  orbSize: 2
-  damage: 60
-  reloadMultiplier: 2
-  boilTime: 140
+    type: LaserBulletType
+    lifetime: 20
+    knockback: 3.5
+    damage: 50
+    length: 224
+    colors: [ffffff88, ffffff22, fcf5c7]
+    width: 8
+    shootEffect: lancerShoot
+    status: tarred
+    statusDuration: 120
 }
 }
 research: diffuse
@@ -140,3 +115,23 @@ requirements: [
   silicon/150
 ]
 category: turret
+drawer: {
+    type: DrawTurret
+        parts: [
+            {
+                type: RegionPart
+                suffix: -barrel
+                under: true
+                progress: recoil
+                moveY: -3
+            }
+            {
+                type: RegionPart
+                suffix: -side
+                mirror: true
+                progress: recoil
+                moveX: 2
+                moveY: -2
+            }
+                ]
+        }
