@@ -27,7 +27,8 @@ ammoTypes: {
     length: 224
     colors: [fca9fb, fcc7fc, fcf5c7]
     width: 8
-    shootEffect: lancerShoot
+    shootEffect: lancerLaserShoot
+    smokeEffect: none
 }
   hydrogen: {
     type: LaserBulletType
@@ -36,7 +37,8 @@ ammoTypes: {
     damage: 20
     length: 224
     width: 8
-    shootEffect: lancerShoot
+    shootEffect: lancerLaserShoot
+    smokeEffect: none
 }
   arkycite: {
     type: LaserBulletType
@@ -46,7 +48,8 @@ ammoTypes: {
     length: 224
     colors: [cbffa3, deffc5, fcf5c7]
     width: 8
-    shootEffect: lancerShoot
+    shootEffect: lancerLaserShoot
+    smokeEffect: none
 }
   water: {
     type: LaserBulletType
@@ -56,7 +59,8 @@ ammoTypes: {
     length: 224
     colors: [fca9fb, fcc7fc, fcf5c7]
     width: 8
-    shootEffect: lancerShoot
+    shootEffect: lancerLaserShoot
+    smokeEffect: none
 }
   cyanogen: {
     type: LaserBulletType
@@ -66,7 +70,8 @@ ammoTypes: {
     length: 224
     colors: [b6ffe3, cafcea, fcf5c7]
     width: 8
-    shootEffect: lancerShoot
+    shootEffect: lancerLaserShoot
+    smokeEffect: none
     status: burning
     statusDuration: 120
 }
@@ -78,7 +83,8 @@ azpanogen: {
     length: 224
     colors: [aaffb2, c7f9cc, fcf5c7]
     width: 8
-    shootEffect: lancerShoot
+    shootEffect: lancerLaserShoot
+    smokeEffect: none
     status: melting
     statusDuration: 120
 }
@@ -90,7 +96,8 @@ azpanogen: {
     length: 224
     colors: [ffe1a3, ffecc5, fcf5c7]
     width: 8
-    shootEffect: lancerShoot
+    shootEffect: lancerLaserShoot
+    smokeEffect: none
     status: tarred
     statusDuration: 120
 }
@@ -102,7 +109,8 @@ nitrogen: {
     length: 224
     colors: [ffffff88, ffffff22, fcf5c7]
     width: 8
-    shootEffect: lancerShoot
+    shootEffect: lancerLaserShoot
+    smokeEffect: none
     status: tarred
     statusDuration: 120
 }
