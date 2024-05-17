@@ -22,7 +22,7 @@ coolant: {
   amount: 0.25
 }
 consumes: {
-        power/3
+        power: 3
         }
 ammoTypes: {
   ozone: {
