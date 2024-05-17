@@ -1,6 +1,6 @@
 type: LiquidTurret
 name: Stream
-description: a medium ranged turret that fires a superheated liquid spike.
+description: a medium ranged turret that fires a superheated liquid spike. Can use slag to speed up the heating process.
 size: 3
 health: 3200
 range: 224
@@ -10,13 +10,19 @@ targetAir: false
 inaccuracy: 5
 targetGround: true
 shootEffect: shootLiquid
-reload: 90
+reload: 180
 recoil: 2
 shootSound: laser
 loopSound: none
 despawnHit: true
+coolantMultiplier: 2
+coolant: {
+  type: ConsumeLiquid
+  liquid: slag
+  amount: 0.25
+}
 consumes: {
-        liquid: slag/0.25
+        power/3
         }
 ammoTypes: {
   ozone: {
