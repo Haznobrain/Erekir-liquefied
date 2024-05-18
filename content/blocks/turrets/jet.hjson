@@ -1,196 +1,365 @@
 type: LiquidTurret
 name: Jet
-description: A large long-range liquid turret, fires a jet of liquid bombs at ennemy targets.
+description: A large long-range liquid turret, fires an orb that fires massive amounts of liquid orbs around itself.
 range: 280
 size: 4
 health: 5600
 targetGround: true
 targetAir: true
 rotateSpeed: 1.7
-reload: 3
-recoil: 1
-inaccuracy: 5
-shootEffect: shootLiquid
-despawnHit: true
+reload: 90
+recoil: 0
+inaccuracy: 0
+shootCone: 1
+shootEffect: shootTitan
+smokeEffect: shootSmokeTitan
 ammoTypes: {
  slag: {
-    type: LiquidBulletType
-    liquid: slag
+    type: BasicBulletType
+    sprite: large-orb
+    shrinkY: 1
+    shrinkX: 1
+    trailEffect: missileTrail
+    trailColor: ff9c5a
+    backColor: ff9c5a
+    trailInterval: 3
     lifetime: 56
     speed: 5
     knockback: 1.6
     puddleSize: 25
-    orbSize: 5
+    height: 12
+    width: 12
     statusDuration: 300
     status: melting
-    damage: 15
-    splashDamage: 20
-    splashDamageRadius: 25
-    hitEffect: explosion
+    damage: 25
+    splashDamage: 120
+    splashDamageRadius: 32
+    hitEffect: massiveExplosion
+    spin: 3
+    intervalBullets: 4
+     buildingDamageMultiplier: 0.1
+    bulletInterval: 8
+    intervalRandomSpread: 0
+    intervalSpread: 90
+    intervalBullet: {
+      type: LiquidBulletType
+      liquid: slag
+      damage: 10
+      knockback: 0.9
+      lifetime: 60
+     buildingDamageMultiplier: 0.1
+      speed: 2
+      status: melting
+      orbSize: 6
+       }
    }
  ozone: {
-  type: LiquidBulletType
-  liquid: ozone
-  lifetime: 56
-  speed: 5
-  knockback: 1
-  orbsize: 6
-  statusDuration: 300
-  status: blasted
-  boilTime: 56
-  damage: 10
-  splashDamage: 35
-  splashDamageRadius: 40
-  hitEffect: explosion
-}
- hydrogen: {
-type: LiquidBulletType
-  liquid: hydrogen
-  lifetime: 56
-  speed: 5
-  knockback: 0.8
-  orbsize: 4
-  statusDuration: 300
-  status: burning
-  boilTime: 56
-  damage: 10
-  splashDamage: 15
-  splashDamageRadius: 24
-reloadMultiplier: 1.3
-  hitEffect: explosion
-}
- water: {
-type: LiquidBulletType
-  liquid: water
-  lifetime: 56
-  speed: 5
-  knockback: 4
-  orbsize: 7
-  statusDuration: 300
-  status: wet
-  boilTime: 56
-  damage: 8
-  }
- nitrogen: {
-type: LiquidBulletType
-  liquid: nitrogen
-  lifetime: 56
-  speed: 5
-  knockback: 1.2
-  orbsize: 3
-  statusDuration: 300
-  status: freezing
-  boilTime: 56
-  damage: 32
- reloadMultiplier: 3
-  }
- cyanogen: {
-type: LiquidBulletType
-  liquid: cyanogen
-  lifetime: 70
-  speed: 5
-  knockback: 2
-  orbsize: 8
-  statusDuration: 600
-  status: burning
-  boilTime: 70
-  damage: 40
-  splashDamage: 75
-  splashDamageRadius: 80
-  reloadMultiplier: 1.5
-  fragBullets: 4
-  hitEffect: explosion
-fragBullet: {
-      collidesGround: true
-      splashDamage: 8
-      splashDamageRadius: 16
-      speed: 3
-      lifetime: 60
-      drag: 0.02
-      makeFire: true
-      status: burning
-      statusDuration: 240
-      hitEffect: explosion
-      width: 4
-      height: 8
-    }
-}
- arkycite: {
-type: LiquidBulletType
-  liquid: arkycite
-  lifetime: 56
-  speed: 5
-  knockback: 1.5
-  orbsize: 6
-  statusDuration: 300
-  status: shocked
-  damage: 15
-  puddleSize: 40
-  splashDamage: 40
-  splashDamageRadius: 40
-  hitEffect: explosion
- }
- neoplasm: {
-type: LiquidBulletType
-  liquid: neoplasm
-  lifetime: 80
-  speed: 4.9
-  knockback: 2.7
-  orbsize: 10
-  statusDuration: 600
-  status: tarred
-  damage: 65
-  splashDamage: 95
-  splashDamageRadius: 120
-  puddlesize: 120
-  hitEffect: explosion
-fragBullets: 4
-fragBullet: {
-      collidesGround: true
-      splashDamage: 15
-      splashDamageRadius: 24
-      speed: 2.5
-      lifetime: 120
-      orbsize: 7
+    type: BasicBulletType
+    sprite: large-orb
+    trailEffect: missileTrail
+    trailColor: ffcbdd
+    shrinkY: 1
+    shrinkX: 1
+    backColor: ffcbdd
+    trailInterval: 3
+    lifetime: 56
+    speed: 5
+    knockback: 1.6
+     buildingDamageMultiplier: 0.1
+    puddleSize: 25
+    height: 12
+    width: 12
+    status: blasted
+    damage: 10
+    splashDamage: 160
+    splashDamageRadius: 32
+    hitEffect: massiveExplosion
+    spin: 3
+    intervalBullets: 4
+    bulletInterval: 8
+    intervalRandomSpread: 0
+    intervalSpread: 90
+    intervalBullet: {
       type: LiquidBulletType
-      liquid: neoplasm
-      drag: 0.02
-      status: tarred
-      statusDuration: 240
-      hitEffect: explosion
-    }
- azpanogen: {
-type: LiquidBulletType
-  liquid: azpanogen
-  lifetime: 70
-  speed: 5
-  knockback: 2
-  orbsize: 8
-  statusDuration: 600
-  status: melting
-  boilTime: 70
-  damage: 45
-  splashDamage: 70
-  splashDamageRadius: 100
-  reloadMultiplier: 1.5
-  fragBullets: 4
-  hitEffect: explosion
-fragBullet: {
-      collidesGround: true
-      splashDamage: 8
-      splashDamageRadius: 16
-      speed: 3
+     status: blasted
+     buildingDamageMultiplier: 0.1
+      liquid: ozone
+      boilTime: 60
+      damage: 4
+      knockback: 0.6
       lifetime: 60
-      drag: 0.02
-      makeFire: true
-      status: burning
-      statusDuration: 240
-      hitEffect: explosion
-      width: 4
-      height: 8
-    }
-}
-}
+      speed: 2
+      orbSize: 6
+       }
+   }
+ hydrogen: {
+    type: BasicBulletType
+    sprite: large-orb
+    trailEffect: missileTrail
+    trailColor: d1efff
+    shrinkY: 1
+    shrinkX: 1
+    trailInterval: 3
+    backColor: d1efff
+    lifetime: 56
+    speed: 5
+    knockback: 1.6
+    puddleSize: 25
+    height: 12
+    width: 12
+    status: burning
+    damage: 5
+    splashDamage: 80
+    splashDamageRadius: 20
+    hitEffect: massiveExplosion
+     buildingDamageMultiplier: 0.1
+    spin: 3
+    intervalBullets: 4
+    bulletInterval: 8
+    intervalRandomSpread: 0
+    intervalSpread: 90
+    intervalBullet: {
+      type: LiquidBulletType
+     status: burning
+      liquid: hydrogen
+      boilTime: 60
+      damage: 2
+      knockback: 0.6
+      lifetime: 60
+      speed: 2
+      orbSize: 6
+     buildingDamageMultiplier: 0.1
+       }
+   }
+ water: {
+    type: BasicBulletType
+    sprite: large-orb
+    trailEffect: missileTrail
+    trailInterval: 3
+    trailColor: 88a4ff
+    shrinkY: 1
+    shrinkX: 1
+    backColor: 88a4ff
+    lifetime: 56
+    speed: 5
+    knockback: 1.6
+    puddleSize: 25
+    height: 12
+    width: 12
+    status: wet
+    damage: 5
+     buildingDamageMultiplier: 0.1
+    splashDamage: 10
+    splashDamageRadius: 20
+    hitEffect: massiveExplosion
+    spin: 3
+    intervalBullets: 4
+    bulletInterval: 8
+    intervalRandomSpread: 0
+    intervalSpread: 90
+    intervalBullet: {
+      type: LiquidBulletType
+     status: burning
+      liquid: hydrogen
+      damage: 0.5
+      knockback: 1.2
+      lifetime: 60
+     buildingDamageMultiplier: 0.1
+      speed: 2
+      orbSize: 6
+       }
+   }
+ nitrogen: {
+    type: BasicBulletType
+    sprite: large-orb
+    shrinkY: 1
+    shrinkX: 1
+    trailEffect: missileTrail
+    trailInterval: 3
+    trailColor: d7d7d7
+    backColor: d7d7d7
+    lifetime: 56
+    speed: 5
+    knockback: 1.6
+    puddleSize: 25
+     buildingDamageMultiplier: 0.1
+    height: 12
+    width: 12
+    status: freezing
+    damage: 60
+    splashDamage: 20
+    splashDamageRadius: 12
+    hitEffect: massiveExplosion
+    spin: 3
+    intervalBullets: 4
+    bulletInterval: 8
+    intervalRandomSpread: 0
+    intervalSpread: 90
+    intervalBullet: {
+      type: LiquidBulletType
+     status: freezing
+      liquid: nitrogen
+     buildingDamageMultiplier: 0.1
+      boilTime: 60
+      damage: 15
+      knockback: 1.2
+      lifetime: 60
+      speed: 2
+      orbSize: 6
+       }
+   }
+ cyanogen: {
+    type: BasicBulletType
+    sprite: large-orb
+    shrinkY: 1
+    shrinkX: 1
+    trailEffect: missileTrail
+    trailInterval: 3
+    trailColor: cafffa
+    backColor: cafffa
+    lifetime: 56
+    speed: 5
+    knockback: 1.6
+    puddleSize: 25
+    height: 12
+    width: 12
+    status: burning
+    damage: 25
+    splashDamage: 150
+    splashDamageRadius: 40
+    hitEffect: massiveExplosion
+    spin: 3
+    intervalBullets: 4
+     buildingDamageMultiplier: 0.1
+    bulletInterval: 8
+    intervalRandomSpread: 0
+    intervalSpread: 90
+    intervalBullet: {
+      type: LiquidBulletType
+     status: burning
+      liquid: cyanogen
+      boilTime: 60
+     buildingDamageMultiplier: 0.1
+      damage: 6
+      knockback: 1.2
+      lifetime: 60
+      speed: 2
+      orbSize: 6
+       }
+   }
+ arkycite: {
+    type: BasicBulletType
+    sprite: large-orb
+    shrinkY: 1
+    shrinkX: 1
+    trailEffect: missileTrail
+    trailInterval: 3
+    trailColor: 82a467
+    backColor: 82a467
+    lifetime: 56
+    speed: 5
+    knockback: 1.6
+    puddleSize: 25
+    height: 12
+    width: 12
+    status: shocked
+    damage: 30
+    splashDamage: 90
+    splashDamageRadius: 40
+    hitEffect: massiveExplosion
+    spin: 3
+     buildingDamageMultiplier: 0.1
+    intervalBullets: 4
+    bulletInterval: 8
+    intervalRandomSpread: 0
+    intervalSpread: 90
+    intervalBullet: {
+      type: LightningBulletType
+      lightningColor: 82a467
+      damage: 10
+     buildingDamageMultiplier: 0.1
+      lifetime: 12
+       }
+   }
+ neoplasm: {
+    type: BasicBulletType
+    sprite: large-orb
+    shrinkY: 1
+    shrinkX: 1
+    trailEffect: missileTrail
+    trailInterval: 3
+    trailColor: eea666
+    backColor: eea666
+    lifetime: 56
+    speed: 5
+    knockback: 1.6
+    puddleSize: 25
+    height: 12
+    width: 12
+    status: tarred
+    damage: 40
+    splashDamage: 200
+    splashDamageRadius: 60
+    hitEffect: massiveExplosion
+    spin: 3
+    intervalBullets: 4
+     buildingDamageMultiplier: 0.1
+    bulletInterval: 8
+    intervalRandomSpread: 0
+    intervalSpread: 90
+    intervalBullet: {
+      type: LiquidBulletType
+     status: tarred
+      liquid: neoplasm
+      puddleSize: 12
+      boilTime: 60
+     buildingDamageMultiplier: 0.1
+      damage: 25
+      knockback: 1.2
+      lifetime: 60
+      speed: 2
+      orbSize: 6
+       }
+   }
+ azpanogen: {
+    type: BasicBulletType
+    sprite: large-orb
+    shrinkY: 1
+    shrinkX: 1
+    trailEffect: missileTrail
+    trailInterval: 3
+    trailColor: 567148
+    backColor: 567148
+    lifetime: 56
+    speed: 5
+    knockback: 1.6
+    puddleSize: 25
+    height: 12
+    width: 12
+    status: shocked
+    damage: 0
+    splashDamage: 200
+    splashDamageRadius: 48
+    hitEffect: massiveExplosion
+    spin: 3
+    intervalBullets: 4
+     buildingDamageMultiplier: 0.1
+    bulletInterval: 8
+    intervalRandomSpread: 0
+    intervalSpread: 90
+    intervalBullet: {
+      type: LiquidBulletType
+     status: shocked
+      liquid: azpanogen
+      boilTime: 60
+     buildingDamageMultiplier: 0.1
+      damage: 10
+      knockback: 1.2
+      lifetime: 60
+      speed: 2
+      orbSize: 6
+       }
+   }
 }
 requirements: [
   beryllium/400
@@ -199,6 +368,30 @@ requirements: [
   silicon/400
   carbide/65
 ]
-category: turret
-research: stream
 research: afflict
+drawer: {
+  type: DrawTurret
+  parts: [
+   {
+   type: RegionPart
+   progress: recoil
+   suffix: -barrel
+   mirror: true
+   moveY: -6
+   moveRot: -15
+   }
+   {
+   type: RegionPart
+   progress: recoil
+   suffix: -side
+   mirror: true
+   moveY: -5
+   }
+   {
+   type: RegionPart
+   progress: recoil
+   suffix: -bottom
+   moveY: -4
+   }
+  ]
+}
