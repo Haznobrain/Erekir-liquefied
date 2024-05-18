@@ -14,6 +14,8 @@ category: turret
 shootCone: 1
 shootEffect: shootTitan
 smokeEffect: shootSmokeTitan
+loopSound: none
+shootSound: mediumCannon
 ammoTypes: {
  slag: {
     type: BasicBulletType
@@ -44,6 +46,7 @@ ammoTypes: {
     intervalSpread: 90
     intervalBullet: {
       type: LiquidBulletType
+      despawnHit: true
       liquid: slag
       damage: 10
       knockback: 0.9
@@ -86,6 +89,7 @@ ammoTypes: {
      buildingDamageMultiplier: 0.1
       liquid: ozone
       boilTime: 60
+      despawnHit: true
       damage: 4
       knockback: 0.6
       lifetime: 60
@@ -124,6 +128,7 @@ ammoTypes: {
      status: burning
       liquid: hydrogen
       boilTime: 60
+      despawnHit: true
       damage: 2
       knockback: 0.6
       lifetime: 60
@@ -161,6 +166,7 @@ ammoTypes: {
     intervalBullet: {
       type: LiquidBulletType
      status: burning
+      despawnHit: true
       liquid: hydrogen
       damage: 0.5
       knockback: 1.2
@@ -205,6 +211,7 @@ ammoTypes: {
       damage: 15
       knockback: 1.2
       lifetime: 60
+      despawnHit: true
       speed: 2
       orbSize: 6
        }
@@ -244,6 +251,7 @@ ammoTypes: {
       damage: 6
       knockback: 1.2
       lifetime: 60
+      despawnHit: true
       speed: 2
       orbSize: 6
        }
@@ -310,6 +318,7 @@ ammoTypes: {
     intervalSpread: 90
     intervalBullet: {
       type: LiquidBulletType
+      despawnHit: true
      status: tarred
       liquid: neoplasm
       puddleSize: 12
@@ -355,6 +364,7 @@ ammoTypes: {
       boilTime: 60
      buildingDamageMultiplier: 0.1
       damage: 10
+      despawnHit: true
       knockback: 1.2
       lifetime: 60
       speed: 2
