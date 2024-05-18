@@ -10,6 +10,7 @@ rotateSpeed: 1.7
 reload: 90
 recoil: 0
 inaccuracy: 0
+category: turret
 shootCone: 1
 shootEffect: shootTitan
 smokeEffect: shootSmokeTitan
