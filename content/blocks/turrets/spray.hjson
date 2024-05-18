@@ -1,5 +1,5 @@
 name: Spray
-description: shoots an arc of powerful long-range liquid shells at ennemy target.
+description: shoots huge salvos of gas-powered missiles.
 type: LiquidTurret
 range: 312
 size: 4
@@ -7,141 +7,187 @@ health: 6450
 targetGround: true
 targetAir: true
 rotateSpeed: 3.2
-reload: 20
+reload: 180
 recoil: 3
-shootSound: artillery
+shootSound: bang
 loopSound: none
-inaccuracy: 15
+inaccuracy: 0
 despawnHit: true
 shoot: {
+      type: ShootBarrel
+      barrels: [
+            -8.75, -3, 0
+            -5.25, -2, 0
+            0, -1, 0
+            5.25, -2, 0
+            8.75, -3, 0
+            ]
       shots: 20
+      shotDelay: 3
           }
 ammoTypes: {
-  slag: {
-    type: LiquidBulletType
-    liquid: slag
-    speed: 4.6
-    lifetime: 68
-    orbSize: 8
-    knockback: 3.2
-    puddleSize: 32
-    damage: 15
-    splashDamage: 35
-    splashDamageRadius: 32
-    status: melting
-    statusDuration: 240
-    hitEffect: explosion
-  }
   ozone: {
-    type: LiquidBulletType
-    liquid: ozone
+    type: MissileBulletType
+    backColor: ffcbdd
     speed: 4.6
-    knockback: 2.8
+    knockback: 0.6
     lifetime: 68
-    boilTime: 68
-    orbSize: 9
     puddleSize: 32
+    trailColor: ffcbdd
+    trailLength: 60
+    trailwidth: 8
+    trailParam: 2.2
+    puddleLiquid: ozone
     damage: 8
     splashDamage: 45
     splashDamageRadius: 40
     status: blasted
-    statusDuration: 240
-    hitEffect: explosion
+    height: 10
+    width: 8
+    shrinkX: 0
+    shrinkY: 0
+    sprite: missile-large
+    hitEffect: {
+            type: ExplosionEffect
+            smokeColor: ffcbdd
+            sparkColor: ffcbdd
+            waveColor: ffcbdd
+            waveRad: 45
+            sparkRad: 48
+            smokes: 8
+            sparks: 12
+            smokeRad: 49
+            }
   }
  hydrogen: {
-    type: LiquidBulletType
-    liquid: hydrogen
+    type: MissileBulletType
+    backColor: d1efff
     speed: 4.6
+    knockback: 0.3
     lifetime: 68
-    boilTime: 68
-    orbSize: 6
-    knockback: 2.2
+    puddleSize: 32
+    puddleLiquid: hydrogen
     damage: 6
     splashDamage: 25
-    splashDamageRadius: 16
+    splashDamageRadius: 24
     status: burning
-    statusDuration: 240
-    hitEffect: explosion
-    reloadMultiplier: 1.5
+    statusDuration: 180
+    trailColor: d1efff
+    trailLength: 60
+    trailwidth: 8
+    trailParam: 2.2
+    height: 10
+    width: 8
+    shrinkX: 0
+    shrinkY: 0
+    sprite: missile-large
+    hitEffect: {
+            type: ExplosionEffect
+            smokeColor: d1efff
+            sparkColor: d1efff
+            waveColor: d1efff
+            waveRad: 26
+            sparkRad: 28
+            smokes: 8
+            sparks: 12
+            smokeRad: 29
+            }
   }
 nitrogen: {
-    type: LiquidBulletType
-    liquid: nitrogen
+    type: MissileBulletType
+    backColor: d1efff
     speed: 4.6
+    knockback: 0.3
     lifetime: 68
-    boilTime: 68
-    orbSize: 3
-    knockback: 3.6
-    damage: 54
-    status: freezing
-    statusDuration: 240
-    hitEffect: explosion
-    reloadMultiplier: 3
+    puddleSize: 32
+    puddleLiquid: nitrogen
+    damage: 45
+    status: burning
+    statusDuration: 180
+    trailColor: aaadb7
+    trailLength: 60
+    trailwidth: 8
+    trailParam: 2.2
+    height: 10
+    width: 8
+    shrinkX: 0
+    shrinkY: 0
+    sprite: missile-large
+    hitEffect: {
+            type: ExplosionEffect
+            sparkColor: ffffff
+            waveColor: ffffff
+            waveRad: 12
+            sparkRad: 14
+            smokes: 0
+            sparks: 8
+            }
   }
 cyanogen: {
-    type: LiquidBulletType
-    liquid: cyanogen
-    speed: 5.2
-    lifetime: 68
-    boilTime: 68
-    orbSize: 12
-    knockback: 3.4
-    damage: 45
-    splashDamage: 95
-    splashDamageRadius: 64
-    status: burning
-    statusDuration: 600
-      makeFire: true
-    hitEffect: explosion
-    reloadMultiplier: 1.5
-  }
-arkycite: {
-    type: LiquidBulletType
-    liquid: arkycite
+    type: MissileBulletType
+    backColor: ffcbdd
     speed: 4.6
+    knockback: 0.6
     lifetime: 68
-    orbSize: 7
-    knockback: 3
-    puddleSize: 40
+    puddleSize: 32
+    trailColor: aef7e8
+    trailLength: 60
+    trailwidth: 8
+    trailParam: 2.2
+    puddleLiquid: cyanogen
     damage: 12
-    splashDamage: 40
-    splashDamageRadius: 32
-    status: shocked
-    statusDuration: 240
-    hitEffect: explosion
-    lightning: 7
-    lightningLength: 15
-    lightningDamage: 24
+    splashDamage: 60
+    splashDamageRadius: 60
+    status: blasted
+    height: 10
+    width: 8
+    shrinkX: 0
+    shrinkY: 0
+    sprite: missile-large
+    hitEffect: {
+            type: ExplosionEffect
+            smokeColor: aef7e8
+            sparkColor: aef7e8
+            waveColor: aef7e8
+            waveRad: 65
+            sparkRad: 68
+            smokes: 8
+            sparks: 12
+            smokeRad: 69
+            }
   }
 azpanogen: {
-  type: LiquidBulletType
-  liquid: azpanogen
-  lifetime: 140
-  speed: 1.6
-  knockback: 3
-  splashDamage: 135
-  splashDamageRadius: 80
-  boilTime: 140
-  hitEffect: massiveExplosion
-      homingPower: 0.2
-      statusDuration: 600
-      status: melting
-  }
-neoplasm: {
-    type: LiquidBulletType
-    liquid: neoplasm
+    type: MissileBulletType
+    backColor: 82a467
     speed: 4.6
-    lifetime: 72
-    orbSize: 14
-    knockback: 4
-    puddleSize: 80
-    damage: 90
-    splashDamage: 120
+    knockback: 0.6
+    lifetime: 68
+    puddleSize: 32
+    trailColor: 82a467
+    trailLength: 60
+    trailwidth: 8
+    trailParam: 2.2
+    puddleLiquid: cyanogen
+    splashDamagePierce: true
+    splashDamage: 70
     splashDamageRadius: 80
-    status: tarred
-    statusDuration: 600
-    hitEffect: massiveExplosion
-    homingPower: 0.5
+    status: blasted
+    height: 10
+    width: 8
+    shrinkX: 0
+    shrinkY: 0
+    sprite: missile-large
+    hitEffect: {
+            type: ExplosionEffect
+            smokeColor: 82a467
+            sparkColor: 82a467
+            waveColor: 82a467
+            waveRad: 85
+            sparkRad: 88
+            smokes: 8
+            sparks: 12
+            smokeRad: 89
+            }
   }
 }
 requirements: [
@@ -153,4 +199,50 @@ requirements: [
 ]
 category: turret
 research: jet
-research: crevice
+recoils: 5
+drawer: {
+      type: DrawTurret
+      parts: [
+            {
+            type: RegionPart
+            suffix: -barrel3
+            moveY: -4
+            progress: recoil
+            recoilIndex: 3
+            }
+            {
+            type: RegionPart
+            suffix: -barrel2
+            moveY: -4
+            progress: recoil
+            recoilIndex: 2
+            }
+            {
+            type: RegionPart
+            suffix: -barrel4
+            moveY: -4
+            progress: recoil
+            recoilIndex: 4
+            }
+            {
+            type: RegionPart
+            suffix: -barrel5
+            moveY: -4
+            progress: recoil
+            recoilIndex: 5
+            }
+            {
+            type: RegionPart
+            suffix: -barrel1
+            moveY: -4
+            progress: recoil
+            recoilIndex: 1
+            }
+            {
+            type: RegionPart
+            suffix: -bottom
+            moveY: -2
+            progress: recoil
+            }
+            ]
+}
