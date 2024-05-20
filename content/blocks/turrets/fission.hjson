@@ -64,48 +64,42 @@ drawer: [
 type: DrawTurret
 parts: [
 {
-type: RegionPart
-  suffix: -mid
+  type: RegionPart
+  suffix: -bottom
   progress: recoil
   under: false
+  heatProgress: warmup
   moveY: -2
 }
 {
-type: RegionPart
-    suffix: -topright
+    type: RegionPart
+    suffix: -side
+    moveX: 8
     progress: warmup
-    x: 0
-    moveY: -16
-    moveX: 16
-    moveRot: 30
-    }
-{
-type: RegionPart
-    suffix: -topleft
-    progress: warmup
-    x: 0
-    moveY: -16
-    moveX: -16
-    moveRot: -30
-    }
-{
-type: RegionPart
-    suffix: -bottomright
-    progress: warmup
-    x: 0
-    moveY: 0
-    moveX: 16
-    moveRot: -60
-    }
-{
-type: RegionPart
-    suffix: -bottomleft
-    progress: warmup
-    x: 0
-    moveY: 0
-    moveX: -16
-    moveRot: 60
-    }
+    moves: [
+        {
+        type: PartMove
+        y: -8
+        progress: recoil
+        }
+        ]
+    heatProgress: warmup
+    children: [
+        {
+        type: RegionPart
+        suffix: -side-top
+        moveY: -4
+        moves: [
+            {
+            type: PartMove
+            y: -10
+            progress: recoil
+            }
+            ]
+        heatProgress: warmup
+        }
+        ]
+}
 {
 type: ShapePart
   y: -24
@@ -172,4 +166,3 @@ type: HaloPart
 }
 ]
 research: malign
-research: origin
