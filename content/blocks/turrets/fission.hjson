@@ -74,6 +74,7 @@ parts: [
 {
     type: RegionPart
     suffix: -side
+    mirror: true
     moveX: 8
     progress: warmup
     moves: [
