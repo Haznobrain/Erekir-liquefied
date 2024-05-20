@@ -70,6 +70,7 @@ parts: [
   under: false
   heatProgress: warmup
   moveY: -2
+        heatColor: ffed00
 }
 {
     type: RegionPart
@@ -77,6 +78,7 @@ parts: [
     mirror: true
     moveX: 8
     progress: warmup
+        heatColor: ffed00
     moves: [
         {
         type: PartMove
@@ -90,6 +92,8 @@ parts: [
         type: RegionPart
         suffix: -side-top
         moveY: -4
+        mirror: true
+        heatColor: ffed00
         moves: [
             {
             type: PartMove
