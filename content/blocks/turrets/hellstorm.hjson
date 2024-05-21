@@ -1,128 +1,262 @@
 type: LiquidTurret
 name: Hellstorm
-description: shoots a powerful stream of flames at ennemy ground targets by combusting flammable gases.
+description: shoots a fragmentary incendiary bullet.
 range: 192
 size: 3
-health: 6450
+health: 3550
 targetGround: true
 targetAir: false
 rotateSpeed: 2.8
-reload: 10
+reload: 90
 recoil: 1
 shootSound: artillery
 loopSound: none
 inaccuracy: 9
 despawnHit: true
-shoot: {
-        type: ShootPatern
-        shotDelay: 5
-        shots: 5
-}
 shootY: 24
-        shootEffect: {
-          type: ParticleEffect
-          cone: 9
-          particles: 20
-          sizeFrom: 10
-          sizeTo: 0
-          colorFrom: ffce32
-          colorTo: 2c2b2b
-          baseLength: 0
-          length: 210
-          }
   ammoTypes:{
     ozone: {
-        damage: 75
-        hitSize: 7
-        speed: 8
-        lifetime: 24
-        type: BulletType
-        colorFrom: ff89a8
-        pierceBuilding: true
-        colorMid: 723848
-        colorTo: 0f090b
-        radius: 4
-        pierce: true
-        pierceCap: 10
-        hitEffect: fire
-        status: melting
-        buildingDamageMultiplier: 0.3
-        statusDuration: 360
-        makeFire: true
-        boilTime: 1000000
-          }
+        type: ArtilleryBulletType
+        speed: 3
+        lifetime: 64
+        damage: 0
+        splashDamage: 0
+        shrinkInterp: slope
+        fragBullets: 4
+        trailInterp: slope
+        trailLength: 10
+        width: 14
+        height: 17
+        trailParam: 2.2
+        hitEffect: massiveExplosion
+        backColor: ffcbdd
+        frontColor: ffffff
+        trailColor: ffcbdd
+        splashDamage: 60
+        splashDamageRadius: 40
+        fragBullet: {
+         type: ArtilleryBulletType
+        speed: 1
+        damage: 0
+        splashDamage: 0
+        shrinkInterp: slope
+        fragBullets: 4
+        lifetime: 30
+        trailInterp: slope
+        trailLength: 10
+        trailParam: 2.2
+        backColor: ffcbdd
+        hitEffect: massiveExplosion
+        frontColor: ffffff
+        trailColor: ffcbdd
+        splashDamage: 20
+        splashDamageRadius: 10
+        puddleLiquid: oil
+        puddleAmount: 10
+        fragBullet: {
+        type: ArtilleryBulletType
+        speed: 0.8
+        lifetime: 20
+        damage: 0
+        splashDamage: 0
+        shrinkInterp: slope
+        fragBullets: 4
+        trailInterp: slope
+        trailLength: 10
+        hitEffect: massiveExplosion
+        trailParam: 2.2
+        backColor: ffcbdd
+        frontColor: ffffff
+        trailColor: ffcbdd
+        splashDamage: 10
+        splashDamageRadius: 10
+        puddleLiquid: slag
+        puddleAmount: 10
+        }
+}
+}
     hydrogen: {
-        damage: 65
-        hitSize: 7
-        speed: 8
-        pierceBuilding: true
-        lifetime: 24
-        effectColor: ff89a8
-        type: FireBulletType
-        colorFrom: b8fcff
-        colorMid: 73a1a3
-        colorTo: 111415
-        radius: 4
-        pierce: true
-        pierceCap: 10
-        hitEffect: fire
-        status: melting
-        buildingDamageMultiplier: 0.3
-        statusDuration: 360
-        makeFire: true
-        boilTime: 100000
-        drag: 0.01
-        velMin: 7
-        velMax: 9
-          }
+        type: ArtilleryBulletType
+        speed: 3
+        lifetime: 64
+        damage: 0
+        splashDamage: 0
+        shrinkInterp: slope
+        fragBullets: 4
+        trailInterp: slope
+        trailLength: 10
+        width: 14
+        height: 17
+        trailParam: 2.2
+        backColor: d1efff
+        frontColor: ffffff
+        trailColor: d1efff
+        splashDamage: 35
+        hitEffect: massiveExplosion
+        splashDamageRadius: 32
+        fragBullet: {
+         type: ArtilleryBulletType
+        speed: 1
+        damage: 0
+        splashDamage: 0
+        shrinkInterp: slope
+        fragBullets: 4
+        lifetime: 30
+        trailInterp: slope
+        trailLength: 10
+        trailParam: 2.2
+        backColor: d1efff
+        frontColor: ffffff
+        trailColor: d1efff
+        splashDamage: 10
+        hitEffect: massiveExplosion
+        splashDamageRadius: 10
+        puddleLiquid: oil
+        puddleAmount: 15
+        fragBullet: {
+        type: ArtilleryBulletType
+        speed: 0.8
+        lifetime: 20
+        damage: 0
+        splashDamage: 0
+        shrinkInterp: slope
+        fragBullets: 4
+        trailInterp: slope
+        trailLength: 10
+        trailParam: 2.2
+        backColor: d1efff
+        frontColor: ffffff
+        trailColor: d1efff
+        hitEffect: massiveExplosion
+        splashDamage: 10
+        splashDamageRadius: 10
+        puddleLiquid: slag
+        puddleAmount: 10
+        }
+}
+}
    cyanogen: {
-        damage: 115
-        hitSize: 7
-        pierceBuilding: true
-        speed: 8
-        lifetime: 24
-        effectColor: ff89a8
-        type: FireBulletType
-        colorFrom: 2d745b
-        colorMid: 2e5849
-        colorTo: 18201d
-        radius: 4
-        pierce: true
-        pierceCap: 10
-        hitEffect: fire
-        status: melting
-        buildingDamageMultiplier: 0.3
-        statusDuration: 360
-        makeFire: true
-        boilTime: 100000
-        drag: 0.01
-        velMin: 7
-        velMax: 9
-          }
+        type: ArtilleryBulletType
+        speed: 3
+        lifetime: 64
+        damage: 0
+        splashDamage: 0
+        shrinkInterp: slope
+        fragBullets: 4
+        trailInterp: slope
+        trailLength: 10
+        width: 14
+        height: 17
+        trailParam: 2.2
+        backColor: 68ffe1
+        frontColor: ffffff
+        trailColor: 68ffe1
+        splashDamage: 95
+        splashDamageRadius: 60
+        hitEffect: massiveExplosion
+        fragBullet: {
+         type: ArtilleryBulletType
+        hitEffect: massiveExplosion
+        speed: 1
+        damage: 0
+        splashDamage: 0
+        shrinkInterp: slope
+        fragBullets: 4
+        lifetime: 30
+        trailInterp: slope
+        trailLength: 10
+        trailParam: 2.2
+        backColor: 68ffe1
+        frontColor: ffffff
+        trailColor: 68ffe1
+        splashDamage: 10
+        splashDamageRadius: 10
+        puddleLiquid: oil
+        puddleAmount: 20
+        fragBullet: {
+        type: ArtilleryBulletType
+        hitEffect: massiveExplosion
+        speed: 0.8
+        lifetime: 20
+        damage: 0
+        splashDamage: 0
+        shrinkInterp: slope
+        fragBullets: 4
+        trailInterp: slope
+        trailLength: 10
+        trailParam: 2.2
+        backColor: 68ffe1
+        frontColor: ffffff
+        trailColor: 68ffe1
+        splashDamage: 10
+        splashDamageRadius: 10
+        puddleLiquid: slag
+        puddleAmount: 10
+        }
+}
+}
    azpanogen: {
-        damage: 135
-        hitSize: 7
-        speed: 8
-        pierceBuilding: true
-        lifetime: 24
-        effectColor: ff89a8
-        type: FireBulletType
-        colorFrom: 187227
-        colorMid: 265a2e
-        colorTo: 1c241d
-        radius: 4
-        pierce: true
-        pierceCap: 10
-        hitEffect: fire
-        status: melting
-        buildingDamageMultiplier: 0.3
-        statusDuration: 360
-        makeFire: true
-        boilTime: 100000
-        drag: 0.01
-        velMin: 7
-        velMax: 9
-          }
+        type: ArtilleryBulletType
+        speed: 3
+        lifetime: 64
+        damage: 0
+        splashDamage: 0
+        shrinkInterp: slope
+        fragBullets: 4
+        trailInterp: slope
+        trailLength: 10
+        width: 14
+        height: 17
+        trailParam: 2.2
+        backColor: 82a467
+        frontColor: ffffff
+        trailColor: 82a467
+        splashDamage: 110
+        splashDamagePierce: true
+        splashDamageRadius: 80
+        hitEffect: massiveExplosion
+        fragBullet: {
+         type: ArtilleryBulletType
+        hitEffect: massiveExplosion
+        speed: 1
+        damage: 0
+        splashDamage: 0
+        shrinkInterp: slope
+        fragBullets: 4
+        lifetime: 30
+        trailInterp: slope
+        trailLength: 10
+        trailParam: 2.2
+        backColor: 68ffe1
+        frontColor: ffffff
+        trailColor: 68ffe1
+        splashDamage: 30
+        splashDamagePierce: true
+        splashDamageRadius: 20
+        puddleLiquid: oil
+        puddleAmount: 8
+        fragBullet: {
+        type: ArtilleryBulletType
+        hitEffect: massiveExplosion
+        speed: 0.8
+        lifetime: 20
+        damage: 0
+        splashDamage: 0
+        shrinkInterp: slope
+        fragBullets: 4
+        trailInterp: slope
+        trailLength: 10
+        trailParam: 2.2
+        backColor: 68ffe1
+        frontColor: ffffff
+        trailColor: 68ffe1
+        splashDamage: 15
+        splashDamageRadius: 20
+        puddleLiquid: slag
+        puddleAmount: 2
+        }
+}
+}
 }
 requirements: [
     beryllium/300
@@ -132,3 +266,31 @@ requirements: [
   ]
 category: turret
 research: diffuse
+drawer: {
+        type: DrawTurret
+        parts: [
+        {
+        type: RegionPart
+        suffix: -barrel
+        under: true
+        progress: recoil
+        moveY: -3
+        heatProgress: recoil
+        }
+        {
+        type: RegionPart
+        suffix: -side
+        under: true
+        progress: recoil
+        moveY: -5
+        mirror: true
+        heatProgress: {
+                type: recoil
+                other: warmup
+                amount: 0.5
+                op: blend
+                }
+        heatColor: ff000066
+        }
+        ]
+        }
