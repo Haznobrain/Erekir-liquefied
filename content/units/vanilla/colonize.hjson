@@ -76,6 +76,7 @@ outline: false
 ]
 weapons: [
 {
+
 name: colonize-weapon
 layerOffset: 1
 reload: 30
@@ -185,6 +186,13 @@ parts: [
   moveX: 8
   moveY: -6
   moveRot: -45
+  moves: [
+    {
+    type: PartMove
+    rot: -10
+    progress: recoil
+    }
+    ]
   }
   {
   type: RegionPart
@@ -197,6 +205,13 @@ parts: [
   mirror: true
   moveX: 16
   moveY: -12
+  moves: [
+    {
+    type: PartMove
+    rot: -10
+    progress: recoil
+    }
+    ]
   }
   {
   type: RegionPart
@@ -209,6 +224,56 @@ parts: [
   mirror: true
   moveX: 16
   moveY: -12
+  moves: [
+    {
+    type: PartMove
+    rot: -10
+    progress: recoil
+    }
+    ]
+  }
+  {
+  type: RegionPart
+  suffix: -middle
+  heatColor: ffee71
+  progress: recoil
+  moveY: -4
+  heatProgress: {
+    type: recoil
+    op: blend
+    other: warmup
+    amount: 0.5
+    }
+  }
+  {
+  type: RegionPart
+  suffix: -side
+  children: [
+    {
+    type: RegionPart
+    color: ff000000
+    colorTo: ff000066
+    blending: additive
+    outline: false
+    suffix: -side-glow
+    }
+    ]
+  heatColor: ffee71
+  progress: recoil
+  moveY: -4
+  moves: [
+    {
+    type: PartMove
+    progress: warmup
+    x: 4
+    }
+    ]
+  heatProgress: {
+    type: recoil
+    op: blend
+    other: warmup
+    amount: 0.5
+    }
   }
   {
   type: HaloPart
@@ -220,7 +285,7 @@ parts: [
   haloRadius: 16
   tri: true
   radius: 4
-  color: ffee71
+  color: fff6b0
   y: -32
   }
     {
@@ -234,7 +299,7 @@ parts: [
   haloRadius: 16
   tri: true
   radius: 4
-  color: ffee71
+  color: fff6b0
   y: -32
   }
   {
@@ -242,7 +307,7 @@ parts: [
   circle: true
   radius: 10
   hollow: true
-  color: ffee71
+  color: fff6b0
   stroke: 0
   strokeTo: 2
   rotateSpeed: 1.8
@@ -257,7 +322,7 @@ parts: [
   haloRadius: 16
   tri: true
   radius: 4
-  color: ffee71
+  color: fff6b0
   shapeRotation: 180
   y: -32
   }
@@ -271,7 +336,7 @@ parts: [
   haloRadius: 16
   tri: true
   radius: 8
-  color: ffee71
+  color: fff6b0
   shapeRotation: 180
   y: -32
   }
@@ -285,7 +350,7 @@ parts: [
   haloRadius: 16
   tri: true
   radius: 8
-  color: ffee71
+  color: fff6b0
   shapeRotation: 180
   y: -32
   }
@@ -299,7 +364,7 @@ parts: [
   haloRadius: 10
   tri: true
   radius: 6
-  color: ffee71
+  color: fff6b0
   y: -32
   }
     {
@@ -307,7 +372,7 @@ parts: [
   circle: true
   radius: 4
   hollow: true
-  color: ffee71
+  color: fff6b0
   stroke: 0
   strokeTo: 1.6
   rotateSpeed: 1.8
