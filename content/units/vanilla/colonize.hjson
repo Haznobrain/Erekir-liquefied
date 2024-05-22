@@ -178,7 +178,7 @@ parts: [
   type: RegionPart
   suffix: -blade
   x: 0
-  y: -30
+  y: 0
   heatColor: ffec5c
   layerOffset: -0.01
   heatLayerOffset: 0.005
@@ -198,7 +198,7 @@ parts: [
   type: RegionPart
   suffix: -blade
   x: 0
-  y: -16
+  y: 4
   heatColor: ffec5c
   layerOffset: -0.01
   heatLayerOffset: 0.005
@@ -217,7 +217,7 @@ parts: [
   type: RegionPart
   suffix: -blade
   x: 0
-  y: -4
+  y: 8
   heatColor: ffec5c
   layerOffset: -0.01
   heatLayerOffset: 0.005
@@ -248,6 +248,7 @@ parts: [
   {
   type: RegionPart
   suffix: -side
+  mirror: true
   children: [
     {
     type: RegionPart
