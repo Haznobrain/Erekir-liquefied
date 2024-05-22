@@ -27,7 +27,7 @@ drawer: {
       children: [
             {
             type: RegionPart
-            color: ff0000ff
+            color: ff000000
             suffix: -side-glow
             colorTo: ff000066
             progress: warmup
