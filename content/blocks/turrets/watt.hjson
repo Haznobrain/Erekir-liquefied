@@ -7,6 +7,43 @@ range: 200
 recoil: 4
 size: 3
 reload: 45
+drawer: {
+      type: DrawTurret
+      parts: [
+      {
+      type: RegionPart
+      suffix: -side
+      under: true
+      mirror: true
+      heatProgress: recoil
+      progress: warmup
+      moveRot: -10
+      moves: [
+      {
+      type: PartMove
+      rot: -10
+      }
+      ]
+      children: [
+            {
+            type: RegionPart
+            color: ff0000ff
+            suffix: -side-glow
+            colorTo: ff000066
+            progress: warmup
+            outline: false
+            }
+            ]
+      }
+      {
+      type: RegionPart
+      suffix: -middle
+      progress: recoil
+      moveY: -4
+      heatProgress: recoil
+      }
+      ]
+      }
 shootSound: spark
 shoot: {
       shots: 3
