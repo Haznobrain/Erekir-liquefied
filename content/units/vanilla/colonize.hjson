@@ -179,9 +179,9 @@ parts: [
   suffix: -blade
   x: 0
   y: 0
-  heatColor: ffec5c
   layerOffset: -0.01
-  heatLayerOffset: 0.005
+  color: ffee7100
+  colorTo: ffee71ff
   mirror: true
   moveX: 16
   moveY: -12
@@ -199,12 +199,12 @@ parts: [
   suffix: -blade
   x: 0
   y: 4
-  heatColor: ffec5c
   layerOffset: -0.01
-  heatLayerOffset: 0.005
+  color: ffee7100
+  colorTo: ffee71ff
   mirror: true
-  moveX: 24
-  moveY: -18
+  moveX: 18
+  moveY: 0
   moves: [
     {
     type: PartMove
@@ -218,12 +218,12 @@ parts: [
   suffix: -blade
   x: 0
   y: 8
-  heatColor: ffec5c
   layerOffset: -0.01
-  heatLayerOffset: 0.005
+  color: ffee7100
+  colorTo: ffee71ff
   mirror: true
-  moveX: 32
-  moveY: -20
+  moveX: 28
+  moveY: 0
   moves: [
     {
     type: PartMove
