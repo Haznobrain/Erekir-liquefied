@@ -183,8 +183,8 @@ parts: [
   layerOffset: -0.01
   heatLayerOffset: 0.005
   mirror: true
-  moveX: 8
-  moveY: -6
+  moveX: 16
+  moveY: -12
   moveRot: -45
   moves: [
     {
@@ -203,8 +203,8 @@ parts: [
   layerOffset: -0.01
   heatLayerOffset: 0.005
   mirror: true
-  moveX: 16
-  moveY: -12
+  moveX: 24
+  moveY: -18
   moves: [
     {
     type: PartMove
@@ -222,8 +222,8 @@ parts: [
   layerOffset: -0.01
   heatLayerOffset: 0.005
   mirror: true
-  moveX: 16
-  moveY: -12
+  moveX: 32
+  moveY: -20
   moves: [
     {
     type: PartMove
