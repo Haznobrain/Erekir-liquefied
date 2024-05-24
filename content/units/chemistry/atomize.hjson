@@ -49,13 +49,13 @@ parts: [
   {
   type: RegionPart
   x: 0
+  layer: 110
   y: 0
   suffix: -base
   moveX: 0
   moveY: 0
   heatColor: fcff8d
   heatLayerOffset: 0.005
-  layerOffset: -0.01
 }
   {
   type: HaloPart
@@ -65,6 +65,7 @@ parts: [
   shapes: 4
   triLength: 0
   triLengthTo: 8
+  layer: 110
   tri: true
   haloRotateSpeed: -0.9
   color: fcff8d
@@ -73,6 +74,7 @@ parts: [
   x: 0
   y: 6
   type: ShapePart
+  layer: 110
   radius: 8
   circle: true
   hollow: true
@@ -85,6 +87,7 @@ parts: [
   y: 6
   type: ShapePart
   sides: 4
+    layer: 110
   hollow: true
   stroke: 0
   strokeTo: 1
@@ -98,6 +101,7 @@ parts: [
   type: ShapePart
   sides: 4
   hollow: true
+    layer: 110
   stroke: 0
   strokeTo: 1
   radius: 4
@@ -110,6 +114,7 @@ parts: [
   y: -40
   haloRadius: 22
   shapes: 4
+    layer: 110
   triLength: 0
   triLengthTo: 20
   tri: true
@@ -118,19 +123,20 @@ parts: [
   }
 {
   type: FlarePart
-  color1: ffffff
-  color2: fcff8d
+  color1: fcff8d
+  color2: ffffff
   stroke: 6
   y: -40
   followRotation: true
   radius: 20
-  flareRotateSpeed: 1.2
+  spinSpeed: 1.2
   partProgress: warmup
 }
 {
   x: 0
   y: -40
   type: ShapePart
+  layer: 110
   radius: 22
   circle: true
   hollow: true
@@ -144,6 +150,7 @@ parts: [
   type: ShapePart
   sides: 4
   hollow: true
+  layer: 110
   stroke: 0
   strokeTo: 1.5
   radius: 20
@@ -155,6 +162,7 @@ parts: [
   y: -40
   type: ShapePart
   sides: 4
+  layer: 110
   hollow: true
   stroke: 0
   strokeTo: 1.5
@@ -171,6 +179,7 @@ parts: [
   stroke: 0
   strokeTo: 1.5
   radius: 8
+  layer: 110
   color: fcff8d
   rotateSpeed: -2.1
 }
@@ -180,6 +189,7 @@ parts: [
   type: ShapePart
   sides: 4
   hollow: true
+  layer: 110
   stroke: 0
   strokeTo: 1.5
   radius: 8
