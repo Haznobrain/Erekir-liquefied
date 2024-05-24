@@ -13,6 +13,7 @@ predictTarget: true
 velocityRnd: 0.1
 minRange: 40
 shootY: 16
+shootSound: shellingshoot
 shoot: {
     shots: 15
     shotDelay: 10
