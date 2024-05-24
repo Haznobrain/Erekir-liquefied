@@ -33,8 +33,8 @@ ammoTypes: {
                             particles: 16
                             cone: 4
                             sizeFrom: 4
-                            colorFrom: b876ff66
-                            colorTo: b876ff66
+                            colorFrom: b876ffcc
+                            colorTo: b876ffcc
                             interp: circleOut
                             sizeInterp: pow5Out
                         }
@@ -44,8 +44,8 @@ ammoTypes: {
                             particles: 18
                             cone: 4
                             sizeFrom: 2
-                            colorFrom: b876ff66
-                            colorTo: b876ff66
+                            colorFrom: b876ffcc
+                            colorTo: b876ffcc
                             interp: circleOut
                             sizeInterp: pow5Out
                         }
@@ -53,8 +53,8 @@ ammoTypes: {
                             type: WaveEffect
                             lifetime: 12
                             sizeTo: 12
-                            colorFrom: b876ff66
-                            colorTo: b876ff66
+                            colorFrom: b876ff
+                            colorTo: b876ff
                         }
                     ]
                 }
@@ -63,8 +63,8 @@ ammoTypes: {
                     effects: [
                         {
                             type: ParticleEffect
-                            colorFrom: b876ff33
-                            colorTo: b876ff33
+                            colorFrom: b876ffcc
+                            colorTo: b876ffcc
                             particles: 20
                             sizeFrom: 8
                             sizeTo: 0
@@ -76,8 +76,8 @@ ammoTypes: {
                         }
                         {
                             type: ParticleEffect
-                            colorFrom: b876ff33
-                            colorTo: b876ff33
+                            colorFrom: b876ffcc
+                            colorTo: b876ffcc
                             particles: 22
                             sizeFrom: 5
                             sizeTo: 0
@@ -160,8 +160,8 @@ ammoTypes: {
                             lifetime: 30
                             cone: 4
                             sizeFrom: 4
-                            colorFrom: f2e87866
-                            colorTo: f2e87866
+                            colorFrom: f2e878cc
+                            colorTo: f2e878cc
                             interp: circleOut
                             sizeInterp: pow5Out
                         }
@@ -170,8 +170,8 @@ ammoTypes: {
                             lifetime: 30
                             cone: 4
                             sizeFrom: 2
-                            colorFrom: f2e87866
-                            colorTo: f2e87866
+                            colorFrom: f2e878cc
+                            colorTo: f2e878cc
                             interp: circleOut
                             sizeInterp: pow5Out
                         }
@@ -179,8 +179,8 @@ ammoTypes: {
                             type: WaveEffect
                             lifetime: 12
                             sizeTo: 12
-                            colorFrom: f2e87866
-                            colorTo: f2e87866
+                            colorFrom: f2e878
+                            colorTo: f2e878
                         }
                     ]
                 }
@@ -189,8 +189,8 @@ ammoTypes: {
                     effects: [
                         {
                             type: ParticleEffect
-                            colorFrom: f2e87833
-                            colorTo: f2e87833
+                            colorFrom: f2e878cc
+                            colorTo: f2e878cc
                             sizeFrom: 8
                             sizeTo: 0
                             length: 32
@@ -202,8 +202,8 @@ ammoTypes: {
                         }
                         {
                             type: ParticleEffect
-                            colorFrom: f2e87833
-                            colorTo: f2e87833
+                            colorFrom: f2e878cc
+                            colorTo: f2e878cc
                             sizeFrom: 5
                             particles: 22
                             sizeTo: 0
@@ -215,9 +215,9 @@ ammoTypes: {
                         }
                         {
                             type: ParticleEffect
-                            colorFrom: f2e87833
                             particles: 10
-                            colorTo: f2e87833
+                            colorFrom: f2e878cc
+                            colorTo: f2e878cc
                             line: true
                             lengthFrom: 10
                             lengthTo: 0
@@ -230,8 +230,8 @@ ammoTypes: {
                         }
                         {
                             type: ParticleEffect
-                            colorFrom: f2e87833
-                            colorTo: f2e87833
+                            colorFrom: f2e878cc
+                            colorTo: f2e878cc
                             particles: 14
                             line: true
                             lengthFrom: 3
@@ -246,8 +246,8 @@ ammoTypes: {
                         }
                         {
                             type: WaveEffect
-                            colorFrom: f2e87833
-                            colorTo: f2e87833
+                            colorFrom: f2e878
+                            colorTo: f2e878
                             lifetime: 12
                             sizeTo: 32
                             strokeFrom: 3
