@@ -323,8 +323,6 @@ moves: [
         progress: recoil
     }
         ]
-}
-]
 children: [
 {
 type: RegionPart
@@ -341,6 +339,8 @@ moves: [
         progress: recoil
     }
         ]
+}
+]
 }
 ]
 }
