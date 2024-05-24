@@ -49,6 +49,7 @@ mirror: true
 stroke: 0
 layer: 70
 strokeTo: 3
+layer: 110
 }
 {
 type: ShapePart
@@ -64,6 +65,7 @@ mirror: true
 stroke: 0
 strokeTo: 3
 layer: 70
+layer: 110
 }
 {
 type: ShapePart
@@ -79,6 +81,7 @@ mirror: true
 stroke: 0
 strokeTo: 3
 layer: 70
+layer: 110
 }
  ]
 weapons: [
@@ -191,6 +194,7 @@ hollow: true
 color: ffe995
 rotateSpeed: 2.8
 x: 0
+layer: 110
 y: 0
 mirror: true
 stroke: 0
@@ -205,6 +209,7 @@ hollow: true
 color: ffe995
 rotateSpeed: 2.8
 x: 0
+layer: 110
 y: 0
 mirror: true
 stroke: 0
@@ -215,6 +220,7 @@ type: ShapePart
 radius: 16
 circle: false
 sides: 3
+layer: 110
 hollow: true
 color: ffe995
 rotateSpeed: -2.8
