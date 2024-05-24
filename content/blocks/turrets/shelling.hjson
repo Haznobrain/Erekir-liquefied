@@ -1,35 +1,270 @@
 type: ItemTurret
 name: shelling
-description: test
+description: fires large salvos of long-range artillery shells. some shells may fail and not fire.
 size: 4
-range: 1456
-reload: 10
+range: 576
+reload: 500
+inaccuracy: 4
 minWarmup: 0.94
-shootWarmupSpeed: 0.03
+shootWarmupSpeed: 0.07
 warmupMaintainTime: 240
 targetAir: false
-fogRadiusMultiplier: 0.4
-predictTarget: false
+predictTarget: true
+velocityRnd: 0.1
+minRange: 40
+shootY: 16
+shoot: {
+    shots: 15
+    shotDelay: 10
+    }
 ammoTypes: {
     carbide: {
-        trailEffect: none
-        damage: 0
-        type: PointBulletType
-        length: 360
-        hitEffect: scatheExplosion
-        effectColor: ff9200
-          fragBullets: 6
-fragLifeMin: 0.25
-            fragBullet: {
-              damage: 60
+              damage: 0
+              despawnEffect: none
+              despawnHit: true
+              hitSound: explosion
+              smokeEffect: none
+              shootEffect: {
+                    type: MultiEffect
+                    effects: [shootTitan, 
+                        {
+                            type: ParticleEffect
+                            lifetime: 30
+                            cone: 4
+                            sizeFrom: 4
+                            colorFrom: b876ff66
+                            colorTo: b876ff66
+                            interp: circleOut
+                            sizeInterp: pow5Out
+                        }
+                        {
+                            type: ParticleEffect
+                            lifetime: 30
+                            cone: 4
+                            sizeFrom: 2
+                            colorFrom: b876ff66
+                            colorTo: b876ff66
+                            interp: circleOut
+                            sizeInterp: pow5Out
+                        }
+                        {
+                            type: WaveEffect
+                            lifetime: 12
+                            sizeTo: 12
+                            colorFrom: b876ff66
+                            colorTo: b876ff66
+                        }
+                    ]
+                }
+              hitEffect: {
+                    type: MultiEffect
+                    effects: [
+                        {
+                            type: ParticleEffect
+                            colorFrom: b876ff33
+                            colorTo: b876ff33
+                            sizeFrom: 8
+                            sizeTo: 0
+                            length: 32
+                            baseLength: 32
+                            interp: pow2In
+                            sizeInterp: pow3Out
+                            lifetime: 100
+                        }
+                        {
+                            type: ParticleEffect
+                            colorFrom: b876ff33
+                            colorTo: b876ff33
+                            sizeFrom: 5
+                            sizeTo: 0
+                            length: 32
+                            baseLength: 32
+                            interp: pow2In
+                            sizeInterp: pow3Out
+                            lifetime: 80
+                        }
+                        {
+                            type: ParticleEffect
+                            colorFrom: b876ff
+                            colorTo: b876ff
+                            line: true
+                            lengthFrom: 10
+                            lengthTo: 0
+                            strokeTo: 2
+                            length: 32
+                            baseLength: 32
+                            interp: pow2In
+                            sizeInterp: pow3Out
+                            lifetime: 60
+                        }
+                        {
+                            type: ParticleEffect
+                            colorFrom: b876ff
+                            colorTo: b876ff
+                            line: true
+                            lengthFrom: 3
+                            lengthTo: 0
+                            strokeTo: 1
+                            strokeFrom: 1
+                            length: 32
+                            baseLength: 32
+                            interp: pow2In
+                            sizeInterp: pow3Out
+                            lifetime: 30
+                        }
+                        {
+                            type: WaveEffect
+                            colorFrom: b876ff
+                            colorTo: b876ff
+                            lifetime: 12
+                            sizeTo: 32
+                            strokeFrom: 3
+                        }
+                    ]
+                    }
+              createChance: 0.91
+              trailLength: 120
+              trailColor: b876ff
+              buildingDamageMultiplier: 0.1
+              frontColor: b876ff
+              backColor: 594cb5
               type: ArtilleryBulletType
               splashDamage: 80
-              splashDamageRadius: 24
-              lifetime: 60
-              speed: 2
+              splashDamageRadius: 32
+              lifetime: 823
+              speed: 0.7
+              shrinkInterp: slope
+              trailInterp: slope
               height: 8
               width: 12
+              trailParam: 2.4
+              trailWidth: 14
+    }
+    surge-alloy: {
+              damage: 0
+              despawnEffect: none
+              despawnHit: true
+              hitSound: explosion
+              smokeEffect: none
+              shootEffect: {
+                    type: MultiEffect
+                    effects: [shootTitan, 
+                        {
+                            type: ParticleEffect
+                            lifetime: 30
+                            cone: 4
+                            sizeFrom: 4
+                            colorFrom: f2e87866
+                            colorTo: f2e87866
+                            interp: circleOut
+                            sizeInterp: pow5Out
+                        }
+                        {
+                            type: ParticleEffect
+                            lifetime: 30
+                            cone: 4
+                            sizeFrom: 2
+                            colorFrom: f2e87866
+                            colorTo: f2e87866
+                            interp: circleOut
+                            sizeInterp: pow5Out
+                        }
+                        {
+                            type: WaveEffect
+                            lifetime: 12
+                            sizeTo: 12
+                            colorFrom: f2e87866
+                            colorTo: f2e87866
+                        }
+                    ]
                 }
+              hitEffect: {
+                    type: MultiEffect
+                    effects: [
+                        {
+                            type: ParticleEffect
+                            colorFrom: f2e87833
+                            colorTo: f2e87833
+                            sizeFrom: 8
+                            sizeTo: 0
+                            length: 32
+                            baseLength: 32
+                            interp: pow2In
+                            sizeInterp: pow3Out
+                            lifetime: 100
+                        }
+                        {
+                            type: ParticleEffect
+                            colorFrom: f2e87833
+                            colorTo: f2e87833
+                            sizeFrom: 5
+                            sizeTo: 0
+                            length: 32
+                            baseLength: 32
+                            interp: pow2In
+                            sizeInterp: pow3Out
+                            lifetime: 80
+                        }
+                        {
+                            type: ParticleEffect
+                            colorFrom: f2e87833
+                            colorTo: f2e87833
+                            line: true
+                            lengthFrom: 10
+                            lengthTo: 0
+                            strokeTo: 2
+                            length: 32
+                            baseLength: 32
+                            interp: pow2In
+                            sizeInterp: pow3Out
+                            lifetime: 60
+                        }
+                        {
+                            type: ParticleEffect
+                            colorFrom: f2e87833
+                            colorTo: f2e87833
+                            line: true
+                            lengthFrom: 3
+                            lengthTo: 0
+                            strokeTo: 1
+                            strokeFrom: 1
+                            length: 32
+                            baseLength: 32
+                            interp: pow2In
+                            sizeInterp: pow3Out
+                            lifetime: 30
+                        }
+                        {
+                            type: WaveEffect
+                            colorFrom: f2e87833
+                            colorTo: f2e87833
+                            lifetime: 12
+                            sizeTo: 32
+                            strokeFrom: 3
+                        }
+                    ]
+                    }
+              createChance: 0.87
+              trailLength: 120
+              trailColor: f2e878
+              buildingDamageMultiplier: 0.1
+              frontColor: f2e878
+              backColor: e8d074
+              type: ArtilleryBulletType
+              splashDamage: 90
+              splashDamageRadius: 34
+              lifetime: 823
+              speed: 0.7
+              shrinkInterp: slope
+              trailInterp: slope
+              height: 8
+              width: 12
+              trailParam: 2.4
+              trailWidth: 14
+              lightning: 3
+              lightningLength: 8
+              lightningDamage: 15
+              lightningLengthRand: 3
     }
 }
 requirements: [
@@ -38,36 +273,102 @@ requirements: [
   tungsten/500
   carbide/150
   ]
-drawer: [ 
-{
+drawer:{
 type: DrawTurret
 parts: [
 {
 type: RegionPart
-  suffix: -mid
-  progress: recoil
-  under: false
-  moveY: -12
+suffix: -side1
+mirror: true
+heatProgress: warmup
+heatColor: ff000077
+moveY: 1    
+progress: warmup
+moves: [
+    {
+        type: PartMove
+        y: -2
+        progress: recoil
+    }
+        ]
+children: [
+{
+type: RegionPart
+suffix: -side2
+mirror: true
+heatProgress: warmup
+heatColor: ff000077
+moveY: 3
+progress: warmup
+moves: [
+    {
+        type: PartMove
+        y: -3
+        progress: recoil
+    }
+        ]
+children: [
+{
+type: RegionPart
+suffix: -side3
+mirror: true
+heatProgress: warmup
+heatColor: ff000077
+moveY: -1
+progress: warmup
+moves: [
+    {
+        type: PartMove
+        y: -3
+        progress: recoil
+    }
+        ]
 }
+]
+children: [
 {
 type: RegionPart
-    suffix: -partright
-    progress: warmup
-    x: -2
-    moveY: -8
-    moveX: -4
+suffix: -side4
+mirror: true
+heatProgress: warmup
+heatColor: ff000077
+moveY: 4
+progress: warmup
+moves: [
+    {
+        type: PartMove
+        y: -5
+        progress: recoil
     }
-{
-type: RegionPart
-    suffix: -partleft
-    progress: warmup
-    x: 2
-    moveY: -8
-    moveX: 4
-    }
+        ]
+}
 ]
 }
 ]
+}
+{
+    type: RegionPart
+    suffix: -barrel
+    heatProgress: recoil
+    progress: recoil
+    moveY: -6
+    children: [
+        {
+        type: RegionPart
+        color: ff000000
+        colorTo: ff000066
+        mixColor: ff000000 
+        micColorTo: ff000066
+        suffix: -barrel-glow
+        }
+        ]
+]
+}
 category: turret
-research: scathe
-research: karst
+research: {
+        parent: scathe
+        objectives: {
+            type: OnSector
+            sector: karst
+            }
+        }
