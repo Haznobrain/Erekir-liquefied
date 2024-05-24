@@ -87,6 +87,7 @@ bullet: {
 {
 parts: [
 {
+  layer: 110
   type: ShapePart
   radius: 10
   hollow: false
@@ -97,6 +98,7 @@ parts: [
   progress: recoil
     }
   {
+  layer: 110
   type: ShapePart
   radius: 7
   hollow: false
@@ -106,6 +108,7 @@ parts: [
   progress: recoil
     }
 {
+  layer: 110
   type: HaloPart
   haloRad: 10
   triLength: 8
@@ -117,6 +120,7 @@ parts: [
   tri: true
     }
   {
+  layer: 110
   type: HaloPart
   haloRad: 10
   triLength: 12
