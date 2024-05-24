@@ -164,7 +164,7 @@ parts: [
       radius: 2
       strokeTo: 1
       stroke: 0
-      color: ff000066
+      color: ff6d46
       hollow: true
       progress: warmup
       layer: 110
@@ -176,7 +176,7 @@ parts: [
       radius: 3
       strokeTo: 1
       stroke: 0
-      color: ff000066
+      color: ff6d46
       progress: warmup
       layer: 110
     }
@@ -188,7 +188,7 @@ parts: [
       haloRotateSpeed: 2.3
       triLength: 0
       triLengthTo: 4
-      color: ff000066
+      color: ff6d46
       haloRadius: 6
     }
     {
@@ -199,7 +199,7 @@ parts: [
       shapeRotation: 180
       triLength: 0
       triLengthTo: 2
-      color: ff000066
+      color: ff6d46
       haloRadius: 6
       layer: 110
     }
