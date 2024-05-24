@@ -740,13 +740,13 @@ drawer: {
     circle: true
     hollow: true
     rotateSpeed: 2.3
-    color: dbfdff
+    color: 74e4e8
     layer: 110
     }
     {
     layer: 110
     type: ShapePart
-    color: dbfdff
+    color: 74e4e8
     stroke: 0
     strokeTo: 1
     radius: 12
@@ -763,7 +763,7 @@ drawer: {
     shapes: 8
     haloRotateSpeed: 2.3
     tri: true
-    color: dbfdff
+    color: 74e4e8
     triLength: 0
     triLengthTo: 6
     }
@@ -775,7 +775,7 @@ drawer: {
     shapes: 8
     haloRotateSpeed: 2.3
     tri: true
-    color: dbfdff
+    color: 74e4e8
     triLength: 0
     triLengthTo: 2
     shapeRotation: 180
@@ -783,7 +783,7 @@ drawer: {
     {
     layer: 110
     type: ShapePart
-    color: dbfdff
+    color: 74e4e8
     radius: 8
     hollow: true
     stroke: 0
@@ -795,7 +795,7 @@ drawer: {
     {
     layer: 110
     type: ShapePart
-    color: dbfdff
+    color: 74e4e8
     radius: 8
     hollow: true
     stroke: 0
