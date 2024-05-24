@@ -70,7 +70,7 @@ ammoTypes: {
                             sizeTo: 0
                             length: 32
                             baseLength: 32
-                            interp: pow3In
+                            interp: circleOut
                             sizeInterp: pow5Out
                             lifetime: 100
                         }
@@ -83,7 +83,7 @@ ammoTypes: {
                             sizeTo: 0
                             length: 32
                             baseLength: 32
-                            interp: pow3In
+                            interp: circleOut
                             sizeInterp: pow5Out
                             lifetime: 80
                         }
@@ -98,7 +98,7 @@ ammoTypes: {
                             strokeTo: 2
                             length: 32
                             baseLength: 32
-                            interp: pow3In
+                            interp: circleOut
                             sizeInterp: pow5Out
                             lifetime: 30
                         }
@@ -114,7 +114,7 @@ ammoTypes: {
                             strokeFrom: 1
                             length: 32
                             baseLength: 32
-                            interp: pow3In
+                            interp: circleOut
                             sizeInterp: pow5Out
                             lifetime: 60
                         }
@@ -196,7 +196,7 @@ ammoTypes: {
                             length: 32
                             particles: 20
                             baseLength: 32
-                            interp: pow3In
+                            interp: circleOut
                             sizeInterp: pow5Out
                             lifetime: 100
                         }
@@ -209,7 +209,7 @@ ammoTypes: {
                             sizeTo: 0
                             length: 32
                             baseLength: 32
-                            interp: pow3In
+                            interp: circleOut
                             sizeInterp: pow5Out
                             lifetime: 80
                         }
@@ -224,7 +224,7 @@ ammoTypes: {
                             strokeTo: 2
                             length: 32
                             baseLength: 32
-                            interp: pow3In
+                            interp: circleOut
                             sizeInterp: pow5Out
                             lifetime: 60
                         }
@@ -240,7 +240,7 @@ ammoTypes: {
                             strokeFrom: 1
                             length: 32
                             baseLength: 32
-                            interp: pow3In
+                            interp: circleOut
                             sizeInterp: pow5Out
                             lifetime: 30
                         }
