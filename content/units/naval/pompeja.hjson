@@ -167,6 +167,7 @@ parts: [
       color: ff000066
       hollow: true
       progress: warmup
+      layer: 110
     }
     {
       type: ShapePart
@@ -177,12 +178,12 @@ parts: [
       stroke: 0
       color: ff000066
       progress: warmup
-      layer: 100
+      layer: 110
     }
     {
       type: HaloPart
       shapes: 4
-      layer: 100
+      layer: 110
       tri: true
       haloRotateSpeed: 2.3
       triLength: 0
@@ -200,6 +201,7 @@ parts: [
       triLengthTo: 2
       color: ff000066
       haloRadius: 6
+      layer: 110
     }
     {
       type: RegionPart
