@@ -67,8 +67,8 @@ ammoTypes: {
                             sizeTo: 0
                             length: 32
                             baseLength: 32
-                            interp: pow2In
-                            sizeInterp: pow3Out
+                            interp: pow3In
+                            sizeInterp: pow5Out
                             lifetime: 100
                         }
                         {
@@ -79,8 +79,8 @@ ammoTypes: {
                             sizeTo: 0
                             length: 32
                             baseLength: 32
-                            interp: pow2In
-                            sizeInterp: pow3Out
+                            interp: pow3In
+                            sizeInterp: pow5Out
                             lifetime: 80
                         }
                         {
@@ -93,8 +93,8 @@ ammoTypes: {
                             strokeTo: 2
                             length: 32
                             baseLength: 32
-                            interp: pow2In
-                            sizeInterp: pow3Out
+                            interp: pow3In
+                            sizeInterp: pow5Out
                             lifetime: 60
                         }
                         {
@@ -108,8 +108,8 @@ ammoTypes: {
                             strokeFrom: 1
                             length: 32
                             baseLength: 32
-                            interp: pow2In
-                            sizeInterp: pow3Out
+                            interp: pow3In
+                            sizeInterp: pow5Out
                             lifetime: 30
                         }
                         {
@@ -189,8 +189,8 @@ ammoTypes: {
                             sizeTo: 0
                             length: 32
                             baseLength: 32
-                            interp: pow2In
-                            sizeInterp: pow3Out
+                            interp: pow3In
+                            sizeInterp: pow5Out
                             lifetime: 100
                         }
                         {
@@ -201,8 +201,8 @@ ammoTypes: {
                             sizeTo: 0
                             length: 32
                             baseLength: 32
-                            interp: pow2In
-                            sizeInterp: pow3Out
+                            interp: pow3In
+                            sizeInterp: pow5Out
                             lifetime: 80
                         }
                         {
@@ -215,8 +215,8 @@ ammoTypes: {
                             strokeTo: 2
                             length: 32
                             baseLength: 32
-                            interp: pow2In
-                            sizeInterp: pow3Out
+                            interp: pow3In
+                            sizeInterp: pow5Out
                             lifetime: 60
                         }
                         {
@@ -230,8 +230,8 @@ ammoTypes: {
                             strokeFrom: 1
                             length: 32
                             baseLength: 32
-                            interp: pow2In
-                            sizeInterp: pow3Out
+                            interp: pow3In
+                            sizeInterp: pow5Out
                             lifetime: 30
                         }
                         {
