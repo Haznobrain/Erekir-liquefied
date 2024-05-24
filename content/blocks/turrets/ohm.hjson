@@ -741,8 +741,10 @@ drawer: {
     hollow: true
     rotateSpeed: 2.3
     color: dbfdff
+    layer: 110
     }
     {
+    layer: 110
     type: ShapePart
     color: dbfdff
     stroke: 0
@@ -754,6 +756,7 @@ drawer: {
     rotateSpeed: 2.3
     }
     {
+    layer: 110
     type: HaloPart
     radius: 16
     y: -32
@@ -765,6 +768,7 @@ drawer: {
     triLengthTo: 6
     }
     {
+    layer: 110
     type: HaloPart
     radius: 16
     y: -32
@@ -777,6 +781,7 @@ drawer: {
     shapeRotation: 180
     }
     {
+    layer: 110
     type: ShapePart
     color: dbfdff
     radius: 8
@@ -788,6 +793,7 @@ drawer: {
     rotateSpeed: 5
     }
     {
+    layer: 110
     type: ShapePart
     color: dbfdff
     radius: 8
