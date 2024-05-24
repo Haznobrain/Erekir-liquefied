@@ -370,6 +370,6 @@ research: {
         parent: scathe
         objectives: [{
             type: OnSector
-            sector: karst
+            preset: karst
             }]
         }
