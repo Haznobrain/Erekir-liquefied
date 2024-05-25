@@ -1,0 +1,139 @@
+type: missile
+template: MissileUnitType
+speed: 5
+flying: true
+health: 600
+hitSize: 24
+rotateSpeed: 0.4
+controller: MissileAi
+lowAltitude: true
+lifetime: 128
+isEnemy: false
+allowedInPayloads: false
+playerControllable: false
+physics: false
+useUnitCap: false
+createWreck: false
+createScorch: false
+hidden: true
+engineOffset: 10
+engineSize: 0
+trailLength: 12
+trailWidth: 4
+trailColor: d1efff
+loopSound: torch-missile-loop
+abilities: [
+  {
+  type: MoveEffectAbility
+  rotation: 180
+  y: -4
+ interval: 2
+  effect: {
+      type: ParticleEffect
+      particles: 6
+      colorFrom: 3d3f44
+      colorTo: 3d3f44
+      length: 2
+      lifetime: 50
+      sizeTo: 0
+      sizeFrom: 2
+      lightOpacity: 0.5
+      interp: pow3Out
+      }
+    }
+]
+MissileAccelTime: 50
+targetAir: false
+weapons: [{
+    name: specialist-missile
+    top: false
+    recoil: 0
+      shootCone: 360
+      shootOnDeath: true
+      controllable: true
+      shootSound: none
+        bullet: {
+          killShooter: true
+            hitEffect: {
+                type: ExplosionEffect
+                waveRad: 80
+                sparkRad: 80
+                smokeSize: 4
+                smokeRad: 90
+                smokeSize: 6
+                smokes: 12
+                sparks: 8
+          }
+collidesAir: false
+shootSound: none
+type: ExplosionBulletType
+instantDisappear: true
+width: 0
+height: 0
+keepVelocity: false
+splashDamage: 600
+splashDamageRadius: 80
+fragBullets: 10
+
+  }
+}
+{
+continuous: true
+alwaysContinuous: true
+alwaysShooting: true
+baseRotation: 180
+x: 0
+y: -10
+shootSound: none
+mirror: false
+parentizeEffects: true
+top: true
+bullet: {
+    type: ContinuousFlameBulletType
+    damage: 0
+    layer: 110
+    intervalBullets: 2
+    intervalRandomSpread: 1
+    bulletInterval: 2.7
+    colors: [d1efff, dcf3ff, edf9ff, ffffff]
+    intervalBullet: {
+        type: BulletType
+        despawnHit: true
+        despawnEffect: none
+        shootEffect: none
+        hitEffect: {
+          type: MultiEffect
+          followParent: true
+          rotWithParent: true
+              effects: [
+{
+type: ParticleEffect
+followParent: true
+rotWithParent: true
+line: true
+layer: 108
+particles: 1
+lifetime: 31
+interp: circleOut
+length: 35
+baseLength: 8
+cone: 20
+strokeFrom: 2
+lenFrom: 10
+lenTo: 0
+colorFrom: ffbd7b
+colorTo: ffbd7b
+  }
+            ]
+            }
+    lifetime: 0
+    instantDisappear: true
+    }
+  drawFlare: true
+  collides: false
+  width: 4
+  length: 27
+  flareColor: ffbd7b
+}
+}
+  ]
