@@ -79,7 +79,8 @@ bullet: {
     }
     {
     type: ShapePart
-    x: 40
+    x: 12
+    y: -16
     radius: 10
     circle: true
     layer: 110
@@ -90,7 +91,8 @@ bullet: {
     }
     {
     type: ShapePart
-    x: 40
+    x: 12
+    y: -16
     radius: 10
     circle: false
     sides: 4
@@ -103,7 +105,8 @@ bullet: {
     }
     {
     type: ShapePart
-    x: 40
+    x: 12
+    y: -16
     radius: 10
     circle: false
     sides: 4
@@ -119,18 +122,24 @@ bullet: {
     layer: 110
     color: d1efff
     triLength: 0
+    x: 12
+    y: -16
     triLengthTo: 40
     radius: 12
     shapes: 2
     tri: true
     sides: 3
+    strokeTo: 1
+    stroke: 0
     }
     {
     type: HaloPart
     layer: 110
     color: d1efff
+    x: 12
+    y: -16
     triLength: 0
-    triLengthTo: 40
+    triLengthTo: 4
     radius: 10
     shapes: 4
     sides: 3
@@ -142,8 +151,10 @@ bullet: {
     type: HaloPart
     layer: 110
     color: d1efff
+    x: 12
+    y: -16
     triLength: 0
-    triLengthTo: 40
+    triLengthTo: 4
     radius: 10
     shapes: 4
     sides: 3
