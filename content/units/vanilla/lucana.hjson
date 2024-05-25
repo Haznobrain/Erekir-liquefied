@@ -6,7 +6,7 @@ armor: 22
 description: Fires a large fragmenting missile at ennemy targets periodically.
 speed: 0.5
 hovering: true
-hitSize: 20
+hitSize: 65
 rotateSpeed: 1.6
 legStraightness: 0.6
 baseLegStraightness: 0.5
@@ -33,5 +33,123 @@ legSplashRange: 40
 weapons: [
 {
 name: lucana-weapon
+top: false
+layerOffset: -5
+reload: 420
+range: 640
+rotate: true
+rotateSpeed: 0.6
+rotationLimit: 20
+shake: 40
+recoil: 4
+shootCone: 1
+minWarmup: 0.96
+shootWarmupSpeed: 0.04
+shootSound: missileLaunch
+x: 26
+y: -2
+bullet: {
+  spawnUnit: specialist-missile
+  shootEffect: shootBig
+  smokeEffect: {
+    type: ParticleEffect
+    cone: -20
+    length: 40
+    interp: circleOut
+    sizeInterp: pow5Out
+    colorFrom: ffffff
+    colorTo: d1efff66
+    particles: 30
+    sizeFrom: 6
+    sizeTo: 0
+      }
+  parts: [
+    {
+    type: RegionPart
+    suffix: -missile
+    progress: reload
+    colorTo: 00000000
+    color: ffffff
+    mixColor: 00000000
+    outline: false
+    under: true
+    layerOffset: -0.01
+    mixColorTo: d1efff
+    }
+    {
+    type: ShapePart
+    x: 40
+    radius: 10
+    circle: true
+    layer: 110
+    color: d1efff
+    stroke: 0
+    strokeTo: 2
+    hollow: true
+    }
+    {
+    type: ShapePart
+    x: 40
+    radius: 10
+    circle: false
+    sides: 4
+    layer: 110
+    color: d1efff
+    stroke: 0
+    strokeTo: 2
+    hollow: true
+    rotateSpeed: 2
+    }
+    {
+    type: ShapePart
+    x: 40
+    radius: 10
+    circle: false
+    sides: 4
+    layer: 110
+    color: d1efff
+    stroke: 0
+    strokeTo: 2
+    hollow: true
+    rotateSpeed: -2
+    }
+    {
+    type: HaloPart
+    layer: 110
+    color: d1efff
+    triLength: 0
+    triLengthTo: 40
+    radius: 12
+    shapes: 2
+    tri: true
+    sides: 3
+    }
+    {
+    type: HaloPart
+    layer: 110
+    color: d1efff
+    triLength: 0
+    triLengthTo: 40
+    radius: 10
+    shapes: 4
+    sides: 3
+    tri: true
+    haloRotateSpeed: 2
+    shapeRotation: 180
+    }
+    {
+    type: HaloPart
+    layer: 110
+    color: d1efff
+    triLength: 0
+    triLengthTo: 40
+    radius: 10
+    shapes: 4
+    sides: 3
+    tri: true
+    haloRotateSpeed: 2
+    }
+    ]
+}
 }
 ]
