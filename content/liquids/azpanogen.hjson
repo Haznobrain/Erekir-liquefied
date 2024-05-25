@@ -8,4 +8,6 @@ temperature: 1
 heatCapacity: 0.6
 viscosity: 0.1
 explosiveness: 1
-research: cyanogen
+research: {
+    parent: cyanogen
+    }
