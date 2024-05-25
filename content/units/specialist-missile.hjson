@@ -138,8 +138,8 @@ cone: 20
 strokeFrom: 2
 lenFrom: 10
 lenTo: 0
-colorFrom: ffbd7b
-colorTo: ffbd7b
+colorFrom: d1efff
+colorTo: d1efff
   }
             ]
             }
@@ -150,7 +150,7 @@ colorTo: ffbd7b
   collides: false
   width: 4
   length: 27
-  flareColor: ffbd7b
+  flareColor: d1efff
 }
 }
   ]
