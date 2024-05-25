@@ -17,7 +17,15 @@ unit: combust
 time: 2700
 }
 ]
-research: mech-fabricator
+research: {
+  parent: mech-fabricator
+    objectives: [
+      {
+      type: OnSector
+      preset: basin
+      }
+                ]
+        }
 category: units
 requirements: [
     beryllium/200
