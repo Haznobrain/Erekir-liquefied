@@ -7,3 +7,7 @@ flammability: 0.2
 radioactivity: 0
 charge: 0.05
 cost: 2
+hiddenOnPlanets: [serpulo, tantros]
+research: {
+    parent: cesium
+    }
