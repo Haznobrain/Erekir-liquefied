@@ -48,5 +48,12 @@ moveX: 3
 }
 ]
 category: turret
-research: afflict
-research: stronghold
+research:{
+  parent: afflict
+    objectives: [
+      {
+      type: OnSector
+      preset: stronghold
+      }
+      ]
+    }
