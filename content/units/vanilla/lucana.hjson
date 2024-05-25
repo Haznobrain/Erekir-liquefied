@@ -76,6 +76,7 @@ bullet: {
     under: true
     layerOffset: -0.01
     mixColorTo: d1efff
+    moveY: -32
     }
     {
     type: ShapePart
