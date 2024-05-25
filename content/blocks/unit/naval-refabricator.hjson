@@ -28,4 +28,12 @@ requirements: [
   oxide/80
   silicon/250
 ]
-research: tank-refabricator
+research: {
+    parent: naval-fabricator
+      objectives: [
+      {
+      type: OnSector
+      preset: sinkhole
+      }
+              ]
+      }
