@@ -3,11 +3,11 @@ type: legs
 name: Lucana
 health: 39500
 armor: 22
-description: Fires a large fragmenting energy bolt at ennemy targets periodically.
-speed: 1
+description: Fires a large fragmenting missile at ennemy targets periodically.
+speed: 0.5
 hovering: true
 hitSize: 20
-rotateSpeed: 2.5
+rotateSpeed: 1.6
 legStraightness: 0.6
 baseLegStraightness: 0.5
 legSpeed: 0.6
@@ -33,104 +33,5 @@ legSplashRange: 40
 weapons: [
 {
 name: lucana-weapon
-reload: 100
-recoil: 4
-shootSound: plasmaboom
-chargeSound: lasercharge
-x: 0
-shootOnDeath: true
-cooldownTime: 300
-y: 16
-mirror: false
-range: 480
-  shoot: {
-    firstShotDelay: 65
-}
-parentizeEffects: true
-bullet: {
-    type: BasicBulletType
-    lifetime: 96
-    recoil: 4
-    speed: 5
-    width: 24
-    height: 24
-    sprite: erekirliquefied-bullet-resonance
-    scaleLife: true
-    chargeEffect: {
-    type: MultiEffect
-    effects: [
-    {
-    type: ParticleEffect
-    sizeFrom: 0
-    ranLength: false
-    cone: 180
-    strokeTo: 2
-    strokeFrom: 0
-    lenFrom: 2
-    lenTo: 4
-    sizeTo: 8
-    color: d1efff
-    particles: 1
-    lifetime: 65
-    region: erekirliquefied-large-circle
-    }
-    {
-    type: ExplosionEffect
-    waveColor: d1efff
-    smokeColor: d1efff
-    sparkColor: d1efff
-    waveLife: 65
-    waveStrokeTo: 3
-    waveStroke: 0
-    waveRad: 0
-    waveRadBase: 24
-    smokeRad: 0
-    smokeSizeBase: 0
-    smokeSize: 8
-    lifetime: 65
-    }
-]
-}
-damage: 565
-splashDamage: 670
-splashDamageRadius: 160
-frontColor: ffffff
-backColor: d1efff
-hitSound: plasmaboom
-hitEffect: {
-  type: ExplosionEffect
-      waveColor: d1efff
-    smokeColor: d1efff
-    sparkColor: d1efff
-    waveLife: 65
-    waveRad: 180
-    waveRadBase: 0
-    smokeRad: 160
-    smokeSizeBase: 0.5
-    smokeSize: 24
-    }
-fragBullets: 15
-fragLifeMin: 0.2
-fragLifeMax: 1
-  fragBullet: {
-    type: ArtilleryBulletType
-    damage: 105
-    splashDamage: 125
-    splashDamageRadius: 45
-    sprite: erekirliquefied-bullet-resonance
-    lifetime: 60
-    speed: 2
-    backColor: d1efff
-    frontColor: ffffff
-    hitSound: plasmaboom
-    hitEffect: {
-      type: WaveEffect
-      ColorTo: d1efff
-      ColorFrom: ffffff
-      sizeTo: 45
-      lifetime: 60
-      }
-}
-}
 }
 ]
