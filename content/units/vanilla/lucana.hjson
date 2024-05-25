@@ -34,7 +34,7 @@ weapons: [
 {
 name: lucana-weapon
 top: false
-layerOffset: -5
+layerOffset: -0.001
 reload: 420
 range: 640
 rotate: true
@@ -63,6 +63,7 @@ bullet: {
     sizeFrom: 6
     sizeTo: 0
       }
+}
   parts: [
     {
     type: RegionPart
@@ -150,6 +151,5 @@ bullet: {
     haloRotateSpeed: 2
     }
     ]
-}
 }
 ]
