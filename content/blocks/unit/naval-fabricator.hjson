@@ -16,7 +16,15 @@ unit: pyrolobus
 time: 2700
 }
 ]
-research: chemical-fabricator
+research:{
+  parent: chemical-fabricator
+  objectives: [
+    {
+    type: OnSector
+    preset: lake
+    }
+    ]
+    }
 category: units
 requirements: [
     beryllium/200
