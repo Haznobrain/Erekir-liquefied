@@ -7,3 +7,6 @@ flammability: 0
 radioactivity: 0
 charge: 4
 cost: 4
+research: {
+    parent: azpacite
+    }
