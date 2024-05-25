@@ -107,7 +107,8 @@ bullet: {
     type: ShapePart
     x: 12
     y: -16
-    radius: 10
+    haloRadius: 10
+    radius: 1
     circle: false
     sides: 4
     layer: 110
@@ -125,7 +126,8 @@ bullet: {
     x: 12
     y: -16
     triLengthTo: 40
-    radius: 12
+    haloRadius: 12
+    radius: 2
     shapes: 2
     tri: true
     sides: 3
@@ -138,9 +140,10 @@ bullet: {
     color: d1efff
     x: 12
     y: -16
+    haloRadius: 12
+    radius: 2
     triLength: 0
     triLengthTo: 4
-    radius: 10
     shapes: 4
     sides: 3
     tri: true
@@ -152,10 +155,11 @@ bullet: {
     layer: 110
     color: d1efff
     x: 12
+    haloRadius: 12
+    radius: 2
     y: -16
     triLength: 0
     triLengthTo: 4
-    radius: 10
     shapes: 4
     sides: 3
     tri: true
