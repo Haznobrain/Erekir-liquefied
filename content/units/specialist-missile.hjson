@@ -47,6 +47,9 @@ targetAir: false
 weapons: [{
     name: specialist-missile
     top: false
+    x: 0
+    y: 0
+    mirror: false
     recoil: 0
       shootCone: 360
       shootOnDeath: true
@@ -74,7 +77,20 @@ keepVelocity: false
 splashDamage: 600
 splashDamageRadius: 80
 fragBullets: 10
-
+fragBullet: {
+    type: ArtilleryBullletType
+    speed: 10
+    lifetime: 10
+    splashDamage: 110
+    splashDamageRadius: 32
+    despawnEffect: scatheSlash
+    hitColor: d1efff
+    hitEffect: massiveExplosion
+    despawnHit: true
+    damage: 0
+    backColor: d1efff
+    trailColor: d1efff
+    frontColor: ffffff
   }
 }
 {
