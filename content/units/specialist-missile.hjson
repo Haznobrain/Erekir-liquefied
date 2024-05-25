@@ -93,6 +93,7 @@ fragBullet: {
     frontColor: ffffff
   }
 }
+}
 {
 continuous: true
 alwaysContinuous: true
