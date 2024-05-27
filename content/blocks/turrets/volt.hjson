@@ -131,13 +131,13 @@ drawer: {
         type: PartMove
         }
             ]
-      colorTo: 00000000
-      color: ffffff
-      mixColor: 00000000
+      color: 00000000
+      colorTo: ffffff
+      mixColorTo: 00000000
       outline: false
       under: true
       layerOffset: -0.01
-      mixColorTo: d1efff
+      mixColor: d1efff
       moveY: -20
     }
     {
