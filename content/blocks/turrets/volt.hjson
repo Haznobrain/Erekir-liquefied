@@ -32,4 +32,17 @@ research: {
       }
                 ]
           }
-
+drawer: {  
+    type: DrawTurret
+    parts: [
+      {
+      type: RegionPart
+      suffix: -mandible
+      progress: warmup
+      moveRot: -30
+      moveY: 6
+      heatProgress: warmup
+      heatLayerOffset: 0.001
+      under: true
+      heatColor: aeebffaa
+      }
