@@ -106,6 +106,7 @@ fragSpread: 36
 hitColor: 9ff0ff
 fragVelocityMin: 1
 fragVelocityMax: 1
+splashDamageRadius: 120
 fragBullet: {
         type: FlakBulletType
         speed: 6
