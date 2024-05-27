@@ -454,9 +454,9 @@ drawer: {
    type: RegionPart
    progress: warmup
    suffix: -barrel1-glow
-   colorFrom: ff000000
+   color: ff000000
    colorTo: ff000066
-   mixColorFrom: ff000000
+   mixColor: ff000000
    mixColorTo: ff000066
    blending: additive
    }
@@ -473,9 +473,9 @@ drawer: {
    type: RegionPart
    progress: warmup
    suffix: -bottom-glow
-   colorFrom: ff000000
+   color: ff000000
    colorTo: ff000066
-   mixColorFrom: ff000000
+   mixColor: ff000000
    mixColorTo: ff000066
    blending: additive
    }
