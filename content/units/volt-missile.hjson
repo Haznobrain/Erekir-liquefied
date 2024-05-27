@@ -22,6 +22,7 @@ engineOffset: 4
 engineSize: 8
 engineColor: 8ca9e8
 MissileAccelTime: 72
+trailColor: 9ff0ff
 weapons: [{
     name: volt-missile
     mirror: false
