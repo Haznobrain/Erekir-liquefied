@@ -21,11 +21,14 @@ engineSize: 8
 engineColor: 8ca9e8
 MissileAccelTime: 72
 weapons: [{
-    name: missile-explode
+    name: volt-missile
+    mirror: false
+    x: 0
+    top: 0
       shootCone: 360
       shootOnDeath: true
       controllable: true
-      shootSound: none
+      shootSound: none 
         bullet: {
           killShooter: true
             hitEffect: {
@@ -34,6 +37,57 @@ weapons: [{
 massiveExplosion
 scatheExplosion
 scatheLight
+{
+type: ParticleEffect
+colorFrom: 9ff0ffaa
+colorTo: 9ff0ffaa
+particles: 14
+length: 120
+sizeFrom: 16
+lifetime: 230
+interp: circleOut
+sizeInterp: pow5Out
+layer: 74
+}
+{
+type: ParticleEffect
+colorFrom: 9ff0ffaa
+colorTo: 9ff0ffaa
+particles: 14
+length: 120
+lengthFrom: 16
+lengthTo: 0
+strokeFrom: 3
+strokeTo: 3
+lifetime: 60
+interp: circleOut
+sizeInterp: pow5Out
+layer: 74
+}
+{
+type: ParticleEffect
+colorFrom: 9ff0ffaa
+colorTo: 9ff0ffaa
+particles: 20
+length: 120
+sizeFrom: 10
+lifetime: 200
+interp: circleOut
+sizeInterp: pow5Out
+layer: 74
+}
+{
+type: ParticleEffect
+colorFrom: 9ff0ffaa
+colorTo: 9ff0ffaa
+particles: 24
+length: 120
+sizeFrom: 6
+lifetime: 180
+interp: circleOut
+sizeInterp: pow5Out
+layer: 74
+}
 ]
           }
 shootSound: none
@@ -42,10 +96,227 @@ instantDissapear: true
 width: 0
 height: 0
 keepVelocity: false
-splashDamage: 340
-splashDamageRadius: 120
+splashDamage: 900
+fragBullets: 10
+fragRandomSpread: 0
+fragSpread: 36
+hitColor: 9ff0ff
+fragBullet: {
+        type: FlakBulletType
+        speed: 6
+        height: 8
+        width: 8
+        collidesAir: true
+        collidesTiles: false
+        collidesGround: true
+        fragBullets: 1
+        splashDamageRadius: 120
+        hitEffect: hitBulletColor
+        frontColor: ffffff
+        backColor: 9ff0ff
+        damage: 30
+        splashDamage: 0
+        explodeRange: 40
+        buildingDamageMultiplier: 0.0001
+        fragBullet: {
+            type: BasicBulletType
+            speed: 30
+            hitEffect: hitSquareColor
+            frontColor: ffffff
+            backColor: 9ff0ff
+            lifetime: 3
+            sprite: missile
+            trailEffect: missile-trail
+            trailChance: 0.33
+            trailInterval: 3
+            damage: 45
+            pierceArmor: true
+            pierce: true
+            pierceBuildings: true
+            buildingDamageMultiplier: 0.0001
+            }
+    
   }
-}]
+}
+}
+{
+continuous: true
+alwaysContinuous: true
+alwaysShooting: true
+baseRotation: 180
+x: 0
+y: -10
+shootSound: none
+mirror: false
+parentizeEffects: true
+top: true
+bullet: {
+    type: ContinuousFlameBulletType
+    damage: 0
+    layer: 110
+    intervalBullets: 2
+    intervalRandomSpread: 1
+    bulletInterval: 2.7
+    colors: [d1efff, dcf3ff, edf9ff, ffffff]
+    intervalBullet: {
+        type: BulletType
+        despawnHit: true
+        despawnEffect: none
+        shootEffect: none
+        hitEffect: {
+          type: MultiEffect
+          followParent: true
+          rotWithParent: true
+              effects: [
+{
+type: ParticleEffect
+followParent: true
+rotWithParent: true
+line: true
+layer: 108
+particles: 1
+lifetime: 31
+interp: circleOut
+length: 35
+baseLength: 8
+cone: 20
+strokeFrom: 2
+lenFrom: 10
+lenTo: 0
+colorFrom: d1efff
+colorTo: d1efff
+  }
+            ]
+            }
+    lifetime: 0
+    instantDisappear: true
+    }
+  drawFlare: true
+  collides: false
+  width: 4
+  length: 27
+  flareColor: d1efff
+}
+}
+{
+continuous: true
+alwaysContinuous: true
+alwaysShooting: true
+baseRotation: 135
+x: 6
+y: -7
+shootSound: none
+mirror: true
+parentizeEffects: true
+top: true
+bullet: {
+    type: ContinuousFlameBulletType
+    damage: 0
+    layer: 110
+    intervalBullets: 2
+    intervalRandomSpread: 1
+    bulletInterval: 2.7
+    colors: [d1efff, dcf3ff, edf9ff, ffffff]
+    intervalBullet: {
+        type: BulletType
+        despawnHit: true
+        despawnEffect: none
+        shootEffect: none
+        hitEffect: {
+          type: MultiEffect
+          followParent: true
+          rotWithParent: true
+              effects: [
+{
+type: ParticleEffect
+followParent: true
+rotWithParent: true
+line: true
+layer: 108
+particles: 1
+lifetime: 31
+interp: circleOut
+length: 35
+baseLength: 8
+cone: 20
+strokeFrom: 2
+lenFrom: 10
+lenTo: 0
+colorFrom: d1efff
+colorTo: d1efff
+  }
+            ]
+            }
+    lifetime: 0
+    instantDisappear: true
+    }
+  drawFlare: true
+  collides: false
+  width: 3
+  length: 20
+  flareColor: d1efff
+}
+}
+{
+continuous: true
+alwaysContinuous: true
+alwaysShooting: true
+baseRotation: 135
+x: 7.5
+y: -2
+shootSound: none
+mirror: true
+parentizeEffects: true
+top: true
+bullet: {
+    type: ContinuousFlameBulletType
+    damage: 0
+    layer: 110
+    intervalBullets: 2
+    intervalRandomSpread: 1
+    bulletInterval: 2.7
+    colors: [d1efff, dcf3ff, edf9ff, ffffff]
+    intervalBullet: {
+        type: BulletType
+        despawnHit: true
+        despawnEffect: none
+        shootEffect: none
+        hitEffect: {
+          type: MultiEffect
+          followParent: true
+          rotWithParent: true
+              effects: [
+{
+type: ParticleEffect
+followParent: true
+rotWithParent: true
+line: true
+layer: 108
+particles: 1
+lifetime: 31
+interp: circleOut
+length: 35
+baseLength: 8
+cone: 20
+strokeFrom: 2
+lenFrom: 10
+lenTo: 0
+colorFrom: d1efff
+colorTo: d1efff
+  }
+            ]
+            }
+    lifetime: 0
+    instantDisappear: true
+    }
+  drawFlare: true
+  collides: false
+  width: 3
+  length: 20
+  flareColor: d1efff
+}
+}
+]
 abilities: [{
 type: EnergyFieldAbility
 statusDuration: 300
