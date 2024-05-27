@@ -97,6 +97,8 @@ shootSound: none
 type: ExplosionBulletType
 instantDissapear: true
 width: 0
+despawnEffect: none
+buildingDamageMultiplier: 0.3
 height: 0
 keepVelocity: false
 splashDamage: 900
@@ -107,6 +109,7 @@ hitColor: 9ff0ff
 fragVelocityMin: 1
 fragVelocityMax: 1
 splashDamageRadius: 120
+despawnHit: true
 fragBullet: {
         type: FlakBulletType
         speed: 6
