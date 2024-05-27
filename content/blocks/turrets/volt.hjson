@@ -88,7 +88,6 @@ drawer: {
     }
     {
       type: RegionPart
-
       mirror: true
       suffix: -blade
       progress: warmup
@@ -108,7 +107,6 @@ drawer: {
     }
       {
       type: RegionPart
-
       mirror: true
       suffix: -mandible
       progress: warmup
@@ -172,6 +170,8 @@ drawer: {
     {
       type: HaloPart
       haloRadius: 12
+      y: 9
+      color: aeebff
       layer: 110
       triLength: 0
       triLengthTo: 16
