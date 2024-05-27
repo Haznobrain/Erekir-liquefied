@@ -49,6 +49,60 @@ research: {
 drawer: {  
     type: DrawTurret
     parts: [
+    {
+      type: RegionPart
+      suffix: -blade
+      progress: warmup
+      rot: -40
+      moveY: -5
+      moveX: 8
+      heatProgress: warmup
+      heatLayerOffset: 0.001
+      heatColor: aeebffaa
+      moves: [
+        {
+        type: PartMove
+        rot: -10
+        progress: recoil
+        }
+                ]
+    }
+    {
+      type: RegionPart
+      suffix: -blade
+      progress: warmup
+      rot: -60
+      moveY: -2
+      moveX: 12
+      heatProgress: warmup
+      heatLayerOffset: 0.001
+      heatColor: aeebffaa
+      moves: [
+        {
+        type: PartMove
+        rot: -10
+        progress: recoil
+        }
+                ]
+    }
+    {
+      type: RegionPart
+      suffix: -blade
+      progress: warmup
+      rot: -90
+      moveY: 4
+      moveX: 10
+      heatProgress: warmup
+      heatLayerOffset: 0.001
+      heatColor: aeebffaa
+      moves: [
+        {
+        type: PartMove
+        rot: -10
+        progress: recoil
+        }
+                ]
+    }
       {
       type: RegionPart
       suffix: -mandible
