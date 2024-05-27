@@ -389,6 +389,7 @@ drawer: {
  moveX: 2
  moveY: -2
  mirror: true
+ heatLayerOffset: 0.0001
  progress: warmup
  heatProgress: {
    type: recoil
@@ -410,6 +411,7 @@ drawer: {
 {
  suffix: -pusher-top
  type: RegionPart
+ heatLayerOffset: 0.0001
  moveX: 3
  moveY: -3
  mirror: true
@@ -428,6 +430,7 @@ drawer: {
  type: RegionPart
  moveX: -2
  heatColor: ff0000
+ heatLayerOffset: 0.0001
  moveY: -4
  mirror: true
  progress: recoil
@@ -441,6 +444,7 @@ drawer: {
  children: [
   {
  suffix: -barrel1
+ heatLayerOffset: 0.0001
  type: RegionPart
  moveRot: 5
  heatColor: ff0000
@@ -455,6 +459,7 @@ drawer: {
    progress: warmup
    suffix: -barrel1-glow
    color: ff000000
+   heatLayerOffset: 0.0001
    colorTo: ff000066
    mixColor: ff000000
    mixColorTo: ff000066
@@ -468,6 +473,7 @@ drawer: {
  type: RegionPart
  suffix: -bottom
  heatProgress: recoil
+ heatLayerOffset: 0.0001
  children: [
    {
    type: RegionPart
