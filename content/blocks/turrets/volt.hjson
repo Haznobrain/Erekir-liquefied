@@ -4,6 +4,8 @@ size: 5
 reload: 600
 type: LiquidTurret
 ammoPerShot: 30
+minWarmup: 0.98
+shootWarmupSpeed: 0.03
 targetAir: true
 targetGround: true
 loopSound: none
@@ -53,7 +55,7 @@ drawer: {
       type: RegionPart
       suffix: -blade
       progress: warmup
-      rot: -40
+      moveRot: -40
       moveY: -5
       moveX: 8
       heatProgress: warmup
@@ -72,7 +74,7 @@ drawer: {
       suffix: -blade
       progress: warmup
       mirror: true
-      rot: -60
+      moveRot: -60
       moveY: -2
       moveX: 12
       heatProgress: warmup
@@ -91,7 +93,7 @@ drawer: {
       mirror: true
       suffix: -blade
       progress: warmup
-      rot: -90
+      moveRot: -90
       moveY: 4
       moveX: 10
       heatProgress: warmup
