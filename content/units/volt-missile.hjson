@@ -4,6 +4,7 @@ speed: 8
 flying: true
 health: 600
 hitSize: 23
+deathExplosionEffect: none
 rotateSpeed: 1
 controller: MissileAi
 lowAltitude: true
