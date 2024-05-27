@@ -102,6 +102,8 @@ fragBullets: 10
 fragRandomSpread: 0
 fragSpread: 36
 hitColor: 9ff0ff
+fragVelocityMin: 1
+fragVelocityMax: 1
 fragBullet: {
         type: FlakBulletType
         speed: 6
@@ -119,6 +121,9 @@ fragBullet: {
         splashDamage: 0
         explodeRange: 40
         buildingDamageMultiplier: 0.0001
+fragVelocityMin: 1
+fragVelocityMax: 1
+        fragRandomSpread: 0
         fragBullet: {
             type: BasicBulletType
             speed: 30
@@ -204,6 +209,7 @@ colorTo: d1efff
 continuous: true
 alwaysContinuous: true
 alwaysShooting: true
+alternate: false
 baseRotation: 135
 x: 6
 y: -7
@@ -252,7 +258,7 @@ colorTo: d1efff
     lifetime: 0
     instantDisappear: true
     }
-  drawFlare: true
+  drawFlare: false
   collides: false
   width: 3
   length: 20
@@ -264,6 +270,7 @@ continuous: true
 alwaysContinuous: true
 alwaysShooting: true
 baseRotation: 135
+alternate: false
 x: 7.5
 y: -2
 shootSound: none
@@ -311,7 +318,7 @@ colorTo: d1efff
     lifetime: 0
     instantDisappear: true
     }
-  drawFlare: true
+  drawFlare: false
   collides: false
   width: 3
   length: 20
