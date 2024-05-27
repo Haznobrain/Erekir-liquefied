@@ -7,6 +7,20 @@ ammoPerShot: 30
 targetAir: true
 targetGround: true
 loopSound: none
+shootEffect: {
+    type: MultiEffect
+    effects: [shootBig, {
+      type: ParticleEffect
+      cone: -20
+      particles: 20
+      lifetime: 200
+      colorTo: aeebffcc
+      sizeFrom: 10
+      interp: circleOut
+      sizeInterp: pow5Out
+            }
+        ]
+      }
 consumes: {
 power: 34
   }
@@ -15,7 +29,7 @@ ammoTypes: {
       spawnUnit: erekirliquefied-missile-volt
 }
 }
-range: 576
+range: 1152
 requirements: [
   beryllium/1500
   tungsten/800
@@ -46,3 +60,68 @@ drawer: {
       under: true
       heatColor: aeebffaa
       }
+      {
+      type: RegionPart
+      suffix: -missile
+      progress: warmup
+      moves: [
+        {
+        color: ffffff
+        mixColor: 00000000
+        progress: reload
+        type: PartMove
+        }
+            ]
+      colorTo: 00000000
+      color: ffffff
+      mixColor: 00000000
+      outline: false
+      under: true
+      layerOffset: -0.01
+      mixColorTo: d1efff
+      moveY: -20
+    }
+    {
+      type: RegionPart
+      suffix: -bottom
+      heatProgress: warmup
+      heatLayerOffset: 0.001
+      heatColor: aeebffaa
+    }
+    {
+      type: ShapePart
+      y: 9
+      radius: 10
+      layer: 110
+      color: aeebff
+      stroke: 0
+      strokeTo: 1
+      circle: true
+      hollow: true
+    }
+    {
+      type: ShapePart
+      y: 9
+      radius: 0
+      radiusTo: 10
+      layer: 110
+      color: aeebff
+      circle: false
+      hollow: false
+      sides: 4
+    }
+    {
+      type: HaloPart
+      haloRadius: 12
+      layer: 110
+      triLength: 0
+      triLengthTo: 16
+      hollow: true
+      shapes: 3
+      tri: true
+      sides: 3
+      radius: 4
+      haloRotateSpeed: 4
+    }
+    ]
+    }
