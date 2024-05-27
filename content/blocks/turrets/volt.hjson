@@ -1,5 +1,5 @@
 name: Volt
-description: fires an electrically charged long-range missile that carries a strong ectric field.
+description: fires an electrically charged long-range missile that carries a strong electric field.
 size: 5
 reload: 600
 type: LiquidTurret
@@ -9,6 +9,7 @@ shootWarmupSpeed: 0.03
 targetAir: true
 targetGround: true
 loopSound: none
+shootY: 0
 shootEffect: {
     type: MultiEffect
     effects: [shootBig, {
