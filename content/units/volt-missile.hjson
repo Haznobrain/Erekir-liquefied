@@ -4,37 +4,7 @@ speed: 8
 flying: true
 health: 600
 hitSize: 23
-deathExplosionEffect: none
-rotateSpeed: 1
-controller: MissileAi
-lowAltitude: true
-lifetime: 144
-isEnemy: false
-allowedInPayloads: false
-targetAir: true
-playerControllable: false
-physics: false
-useUnitCap: false
-createWreck: false
-createScorch: false
-hidden: true
-engineOffset: 4
-engineSize: 8
-engineColor: 8ca9e8
-MissileAccelTime: 72
-trailColor: 9ff0ff
-weapons: [{
-    name: volt-missile
-    mirror: false
-    x: 0
-    top: 0
-      shootCone: 360
-      shootOnDeath: true
-      controllable: true
-      shootSound: none 
-        bullet: {
-          killShooter: true
-            hitEffect: {
+deathExplosionEffect: {
                 type: MultiEffect
                 effects: [
 massiveExplosion
@@ -93,6 +63,36 @@ layer: 74
 }
 ]
           }
+rotateSpeed: 1
+controller: MissileAi
+lowAltitude: true
+lifetime: 144
+isEnemy: false
+allowedInPayloads: false
+targetAir: true
+playerControllable: false
+physics: false
+useUnitCap: false
+createWreck: false
+createScorch: false
+hidden: true
+engineOffset: 4
+engineSize: 8
+engineColor: 8ca9e8
+MissileAccelTime: 72
+trailColor: 9ff0ff
+weapons: [{
+    name: volt-missile
+    mirror: false
+    x: 0
+    top: 0
+      shootCone: 360
+      shootOnDeath: true
+      controllable: true
+      shootSound: none 
+        bullet: {
+          killShooter: true
+            hitEffect: none
 shootSound: none
 type: ExplosionBulletType
 instantDissapear: true
