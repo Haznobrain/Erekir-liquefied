@@ -10,6 +10,7 @@ lowAltitude: true
 lifetime: 144
 isEnemy: false
 allowedInPayloads: false
+targetAir: true
 playerControllable: false
 physics: false
 useUnitCap: false
