@@ -122,7 +122,7 @@ fragBullet: {
         fragBullet: {
             type: BasicBulletType
             speed: 30
-            hitEffect: hitSquareColor
+            hitEffect: hitSquaresColor
             frontColor: ffffff
             backColor: 9ff0ff
             lifetime: 3
