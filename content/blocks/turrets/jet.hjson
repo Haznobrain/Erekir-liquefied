@@ -383,26 +383,104 @@ research: afflict
 drawer: {
   type: DrawTurret
   parts: [
+{
+ suffix: -pusher-bottom
+ type: RegionPart
+ moveX: 2
+ moveY: -2
+ mirror: true
+ progress: warmup
+ heatProgress: {
+   type: recoil
+   other: warmup
+   amount: 0.5
+   op: blend
+    }
+ heatColor: ff0000
+ heatLight: true
+ moves: [
+  {
+  type: PartMove
+  progress: recoil
+  x: -2
+  y: 2
+  }
+    ]
+ }
+{
+ suffix: -pusher-top
+ type: RegionPart
+ moveX: 3
+ moveY: -3
+ mirror: true
+ progress: warmup
+ moves: [
+  {
+  type: PartMove
+  progress: recoil
+  x: -3
+  y: 3
+  }
+    ]
+ }
+{
+ suffix: -barrel2
+ type: RegionPart
+ moveX: -2
+ heatColor: ff0000
+ moveY: -4
+ mirror: true
+ progress: recoil
+ heatProgress: {
+   type: recoil
+   other: warmup
+   amount: 0.5
+   op: blend
+    }
+ heatLight: true
+ children: [
+  {
+ suffix: -barrel1
+ type: RegionPart
+ moveRot: 5
+ heatColor: ff0000
+ moveY: -6
+ mirror: true
+ progress: recoil
+ heatProgress: recoil
+ heatLight: true
+ children: [
    {
    type: RegionPart
-   progress: recoil
-   suffix: -barrel
-   mirror: true
-   moveY: -6
-   moveRot: -15
+   progress: warmup
+   suffix: -barrel1-glow
+   colorFrom: ff000000
+   colorTo: ff000066
+   mixColorFrom: ff000000
+   mixColorTo: ff000066
+   blending: additive
    }
+   ]
+ }
+  ]
+ }
+ {
+ type: RegionPart
+ suffix: -bottom
+ heatProgress: recoil
+ children: [
    {
    type: RegionPart
-   progress: recoil
-   suffix: -side
-   mirror: true
-   moveY: -5
+   progress: warmup
+   suffix: -bottom-glow
+   colorFrom: ff000000
+   colorTo: ff000066
+   mixColorFrom: ff000000
+   mixColorTo: ff000066
+   blending: additive
    }
-   {
-   type: RegionPart
-   progress: recoil
-   suffix: -bottom
-   moveY: -4
-   }
+   ]
+  heatColor: ff000066
+  }
   ]
 }
