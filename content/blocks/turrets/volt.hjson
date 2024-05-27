@@ -57,7 +57,7 @@ drawer: {
       progress: warmup
       moveRot: -40
       moveY: -5
-      moveX: 8
+      moveX: 18
       heatProgress: warmup
       heatLayerOffset: 0.001
       heatColor: aeebffaa
@@ -76,7 +76,7 @@ drawer: {
       mirror: true
       moveRot: -60
       moveY: -2
-      moveX: 12
+      moveX: 18
       heatProgress: warmup
       heatLayerOffset: 0.001
       heatColor: aeebffaa
@@ -95,7 +95,7 @@ drawer: {
       progress: warmup
       moveRot: -90
       moveY: 4
-      moveX: 10
+      moveX: 18
       heatProgress: warmup
       heatLayerOffset: 0.001
       heatColor: aeebffaa
@@ -138,7 +138,8 @@ drawer: {
       under: true
       layerOffset: -0.01
       mixColor: d1efff
-      moveY: -20
+      Y: -20
+      moveY: 20
     }
     {
       type: RegionPart
