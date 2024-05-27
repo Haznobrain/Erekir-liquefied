@@ -1,10 +1,10 @@
 name: Volt
 description: fires an electrically charged long-range missile that carries a strong ectric field.
 size: 5
-reload: 120
+reload: 600
 type: LiquidTurret
 ammoPerShot: 30
-targetAir: false
+targetAir: true
 targetGround: true
 loopSound: none
 consumes: {
@@ -23,5 +23,13 @@ requirements: [
   phase-fabric/300
 ]
 category: turret
-research: fission
-research: origin
+research: {
+    parent: fission
+    objectives: [
+      {
+      type: OnSector
+      preset: origin
+      }
+                ]
+          }
+
