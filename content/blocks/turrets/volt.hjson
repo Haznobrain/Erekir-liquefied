@@ -15,11 +15,11 @@ shootEffect: {
       type: ParticleEffect
       cone: -20
       particles: 20
-      length: -24
+      length: -40
       baseLength: 0
       lifetime: 200
       colorTo: aeebffcc
-      sizeFrom: 10
+      sizeFrom: 16
       interp: circleOut
       sizeInterp: pow5Out
             }
