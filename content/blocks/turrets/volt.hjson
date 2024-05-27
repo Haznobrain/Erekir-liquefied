@@ -71,6 +71,7 @@ drawer: {
       type: RegionPart
       suffix: -blade
       progress: warmup
+      mirror: true
       rot: -60
       moveY: -2
       moveX: 12
@@ -87,6 +88,8 @@ drawer: {
     }
     {
       type: RegionPart
+
+      mirror: true
       suffix: -blade
       progress: warmup
       rot: -90
@@ -105,6 +108,8 @@ drawer: {
     }
       {
       type: RegionPart
+
+      mirror: true
       suffix: -mandible
       progress: warmup
       moveRot: -30
