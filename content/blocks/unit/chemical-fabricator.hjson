@@ -22,7 +22,7 @@ research: {
     objectives: [
       {
       type: OnSector
-      preset: basin
+      preset: erekir-junction
       }
                 ]
         }
