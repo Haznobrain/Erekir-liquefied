@@ -26,7 +26,15 @@ time: 3000
 }
 ]
 category: units
-research: ship-fabricator
+research: {
+  parent: ship-fabricator
+      objectives: [
+      {
+      type: OnSector
+      preset: erekir-junction
+      }
+                ]
+}
 requirements: [
     beryllium/200
     silicon/200
