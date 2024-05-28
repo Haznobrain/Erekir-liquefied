@@ -30,7 +30,7 @@ drawer: {
       {
       type: DrawLiquidTile
       padding: 1
-      liquid: azpanogen
+      drawLiquid: azpanogen
       }
       {
       type: DrawRegion
