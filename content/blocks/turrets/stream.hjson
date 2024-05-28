@@ -117,7 +117,15 @@ nitrogen: {
     statusDuration: 120
 }
 }
-research: diffuse
+research: {
+        parent: diffuse
+    objectives: [
+      {
+      type: OnSector
+      preset: erekir-junction
+      }
+                ]
+        }
 requirements: [
   beryllium/250
   graphite/400
