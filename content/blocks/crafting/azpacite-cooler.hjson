@@ -20,13 +20,28 @@ requirements: [
   tungsten/200
   carbide/25
 ]
-drawer: [
-   {
-    type: DrawHeatRegion
-  }
-  {
-    type: DrawDefault
-  }
-  ]
+drawer: {
+    type: DrawMulti
+    drawers: [
+      {
+      type: DrawRegion
+      suffix: -bottom
+      }
+      {
+      type: DrawLiquidTile
+      padding: 1
+      liquid: azpanogen
+      }
+      {
+      type: DrawRegion
+      suffix: -main
+      }
+      {
+      type: DrawHeatOutput
+      rotateDraw: true
+      drawGlow: false
+      }
+      ]
+    }
 category: crafting
 research: azpanogen-evaporator
