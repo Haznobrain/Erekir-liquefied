@@ -1,11 +1,8 @@
 name: Cesium Crystallizer
 description: crystallizes cesium out of slag.
-  type: HeatProducer
-heatOutput: 12
+  type: GenericCrafter
 size: 3
   outputItem: cesium/1
-rotateDraw: false
-regionRotated1: 2
   consumes: {
     liquid: {
         liquid: slag
@@ -14,7 +11,9 @@ regionRotated1: 2
   power: 4.1
       }
 
-drawer: [
+drawer: {
+type: DrawMulti
+drawers: [
 {
   Type: DrawRegion
   suffix: -bottom
@@ -22,13 +21,23 @@ drawer: [
 {
 Type: DrawLiquidTile
 drawLiquid: slag
-suffix: -liquid
 padding: 2
 }
 {
-type: drawDefault
+type: DrawRegion
+suffix: -main
+}
+{
+type: DrawRegion
+suffix: -spinner
+rotateSpeed: 0.6
+}
+{
+type: DrawRegion
+suffix: -cap
 }
 ]
+}
 requirements: [
   beryllium/100
   silicon/50
