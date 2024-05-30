@@ -4,6 +4,7 @@ maxEfficiency: 1
 outputliquid: dilute-polymer-fiber/2
 craftTime: 300
 size: 5
+conductsPower: true
 consumes: {
   items: [
 carbide/5
