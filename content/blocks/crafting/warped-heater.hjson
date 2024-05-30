@@ -13,3 +13,17 @@ requirements: [
     phase-fabric/200
     carbide/200
       ]
+drawer: {
+    type: DrawMulti
+    drawers: [
+    {
+    type: DrawRegion
+    suffix: -main
+    }
+    {
+    type: DrawHeatOutput
+    heatColor: a8ffee
+    heatPulseScl: 30
+    }
+    ]
+}
