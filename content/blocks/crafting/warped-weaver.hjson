@@ -51,7 +51,6 @@ suffix: -top
 }
 {
 type: DrawSoftParticles
-region: "circle"
 color: d8fff7
 color2: 889f9a
 particleRad: 3
@@ -61,7 +60,6 @@ y: 5.25
 }
 {
 type: DrawSoftParticles
-region: "circle"
 color: d8fff7
 color2: 889f9a
 particleRad: 3
@@ -71,7 +69,6 @@ y: 5.25
 }
 {
 type: DrawSoftParticles
-region: "circle"
 color: d8fff7
 color2: 889f9a
 particleRad: 3
@@ -81,7 +78,6 @@ y: -5.25
 }
 {
 type: DrawSoftParticles
-region: "circle"
 color: d8fff7
 color2: 889f9a
 particleRad: 3
@@ -91,7 +87,6 @@ y: -5.25
 }
 {
 type: DrawSoftParticles
-region: "circle"
 color: d8fff7
 color2: 889f9a
 particleRad: 3
@@ -101,7 +96,6 @@ y: 9
 }
 {
 type: DrawSoftParticles
-region: "circle"
 color: d8fff7
 color2: 889f9a
 particleRad: 3
@@ -111,7 +105,6 @@ y: -9
 }
 {
 type: DrawSoftParticles
-region: "circle"
 color: d8fff7
 color2: 889f9a
 particleRad: 3
@@ -121,7 +114,6 @@ y: 9
 }
 {
 type: DrawSoftParticles
-region: "circle"
 color: d8fff7
 color2: 889f9a
 particleRad: 3
