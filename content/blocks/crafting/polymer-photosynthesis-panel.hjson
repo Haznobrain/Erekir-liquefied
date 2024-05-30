@@ -14,7 +14,6 @@ carbide/5
 ]
     liquids: [
       cyanogen/0.4
-      hydrogen/0.5
     ]
     power: 20
     }
