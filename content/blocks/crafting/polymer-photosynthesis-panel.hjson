@@ -27,7 +27,7 @@ suffix: -bottom
 {
 type: DrawLiquidTile
 padding: 2
-drawLiquid: diluted-polymer-fiber
+drawLiquid: dilute-polymer-fiber
 }
 {
 type: DrawLiquidTile
