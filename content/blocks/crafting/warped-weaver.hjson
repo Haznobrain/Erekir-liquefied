@@ -1,6 +1,7 @@
 type: GenericCrafter
 name: Warped Weaver
 description:  Creates warped polymer fabric from dilute and concentrated polymer fibers, using some other materials as catalysts for the reaction.
+itemCapacity: 40
 consumes: {
   power: 40
   liquids: [
