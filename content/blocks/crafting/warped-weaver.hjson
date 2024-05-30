@@ -6,7 +6,7 @@ consumes: {
   liquids: [
       azpanogen/0.25
       dilute-polymer-fiber/1.5
-      polymer-goo
+      polymer-goo/0.5
     ]
   items: [
       surge-alloy/5
@@ -17,7 +17,7 @@ conductsPower: true
 outputItem: impervium-alloy/2
 craftTime: 300
 size: 3
-drawer: [
+drawer: {
   type: DrawMulti
   drawers: [
 {
