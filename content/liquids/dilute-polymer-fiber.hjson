@@ -1,0 +1,13 @@
+name: Diluted polymer fiber
+description: Weird and goopy, emanating a lot of heat and radiation.
+gas: false
+color: 16d3ac
+gasColor: 16d3ac
+flammability: 0
+temperature: 1
+heatCapacity: 0.6
+viscosity: 0.6
+explosiveness: 1
+research: {
+    parent: azpanogen
+    }
