@@ -13,6 +13,7 @@ consumes: {
       tungsten/10
       ]
     }
+conductsPower: true
 outputItem: impervium-alloy/2
 craftTime: 300
 size: 3
