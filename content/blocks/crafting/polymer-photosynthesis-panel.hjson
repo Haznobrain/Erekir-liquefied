@@ -42,3 +42,10 @@ type: DrawDefault
   }
 ]
 }
+requirements: [
+  beryllium/1600
+  tungsten/2000
+  silicon/3000
+  carbide/900
+  phase-fabric/1100
+    ]
