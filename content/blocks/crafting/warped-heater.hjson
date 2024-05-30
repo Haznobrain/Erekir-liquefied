@@ -9,6 +9,7 @@ size: 2
 conductsPower: true
 heatOutput: 30
 warmupRate: 0.05
+category: crafting
 requirements: [
     beryllium/400
     phase-fabric/200
