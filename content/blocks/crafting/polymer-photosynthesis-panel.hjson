@@ -1,0 +1,44 @@
+type: HeatCrafter
+heatRequirements: 30
+maxEfficiency: 1
+outputliquid: dilute-polymer-fiber/2
+craftTime: 300
+consumes: {
+  items: [
+carbide/5
+]
+    liquids: [
+      cyanogen/0.4
+      hydrogen/0.5
+    ]
+    power: 20
+    }
+name: Polymer Phostosynthesis Panel
+description: Uses a few materials and a large amount of heat to create diluted goop.
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+}
+{
+type: DrawLiquidTile
+padding: 2
+drawLiquid: diluted-polymer-fiber
+}
+{
+type: DrawLiquidTile
+padding: 2
+drawLiquid: cyanogen
+}
+{
+type: DrawLiquidTile
+padding: 2
+drawLiquid: hydrogen
+}
+{
+type: DrawDefault
+  }
+]
+}
