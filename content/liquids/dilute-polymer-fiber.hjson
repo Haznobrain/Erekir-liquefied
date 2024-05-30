@@ -7,7 +7,7 @@ flammability: 0
 temperature: 1
 heatCapacity: 0.6
 viscosity: 0.6
-explosiveness: 1
+explosiveness: 0
 research: {
     parent: azpanogen
     }
