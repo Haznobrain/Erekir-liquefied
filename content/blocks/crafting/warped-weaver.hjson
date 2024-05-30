@@ -16,6 +16,12 @@ consumes: {
 conductsPower: true
 outputItem: impervium-alloy/2
 craftTime: 300
+requirements: [
+  beryllium/2000
+  tungsten/1000
+  silicon/3000
+  phase-fabric/800
+  ]
 size: 3
 drawer: {
   type: DrawMulti
