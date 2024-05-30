@@ -1,9 +1,7 @@
 type: HeatCrafter
 heatRequirements: 30
 maxEfficiency: 1
-outputliquid: dilute-polymer-fiber/2
-outputsLiquids: true
-dumpExtraLiquid: false
+outputLiquid: dilute-polymer-fiber/2
 category: crafting
 craftTime: 300
 size: 5
@@ -14,6 +12,7 @@ carbide/5
 ]
     liquids: [
       cyanogen/0.4
+      hydrogen/0.5
     ]
     power: 20
     }
