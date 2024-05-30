@@ -1,0 +1,13 @@
+name: Polymer goo
+description: A very thick semi-fluid substance.
+gas: false
+color: 03b08c
+gasColor: 03b08c
+flammability: 0
+temperature: 1
+heatCapacity: 0.6
+viscosity: 0.9
+explosiveness: 0
+research: {
+    parent: azpanogen
+    }
