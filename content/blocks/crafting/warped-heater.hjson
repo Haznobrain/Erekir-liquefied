@@ -1,0 +1,15 @@
+type: HeatProducer
+name: Warped Heater
+description: Uses dilute polymer fiber to produce large amounts of heat and polymer goo.
+consumes: {
+    liquid: dilute-polymer-fiber/0.5
+      }
+outputLiquid: polymer-goo/0.5
+size: 2
+heatOutput: 30
+warmupRate: 0.05
+requirements: [
+    beryllium/400
+    phase-fabric/200
+    carbide/200
+      ]
