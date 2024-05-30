@@ -3,6 +3,7 @@ heatRequirements: 30
 maxEfficiency: 1
 outputliquid: dilute-polymer-fiber/2
 craftTime: 300
+size: 5
 consumes: {
   items: [
 carbide/5
