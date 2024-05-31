@@ -146,7 +146,7 @@ moveY: -4
 heatColor: ffffffcc
 heatProgress: warmup
 progress: recoil
-children: [
+}
   {
   type: RegionPart
   suffix: -side1
@@ -206,8 +206,6 @@ children: [
     }
       ]
   }
-    ]
-}
 {
 type: RegionPart
 color: ffff0000
@@ -219,6 +217,7 @@ moveY: -6
 moveRot: 20
 suffix: -blade
 progress: warmup
+mirror: true
 }
 {
 type: RegionPart
@@ -231,6 +230,7 @@ moveY: -6
 moveRot: 20
 suffix: -blade
 progress: warmup
+mirror: true
 }
 {
 type: RegionPart
@@ -243,6 +243,7 @@ moveY: -6
 moveRot: 20
 suffix: -blade
 progress: warmup
+mirror: true
 }
 {
 type: RegionPart
@@ -255,6 +256,7 @@ moveY: -2
 moveRot: 45
 suffix: -blade
 progress: warmup
+mirror: true
 }
 {
 type: RegionPart
@@ -267,6 +269,7 @@ moveY: 8
 moveRot: 45
 suffix: -blade
 progress: warmup
+mirror: true
 }
 ]
 }
