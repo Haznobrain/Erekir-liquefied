@@ -29,7 +29,7 @@ shake: 30
 length: 1680
 width: 90
 colors: [06060c, 15151f, 888888]
-lightningSpacing: 10
+lightningSpacing: 40
 lightningAngle: 135
 lightningDelay: 0.04
 largeHit: true
@@ -230,7 +230,7 @@ colorTo: ffffffff
 mixColor: ffffff00
 mixColorTo: ffffff00
 movex: 16
-moveY: -8
+moveY: -12
 moveRot: 20
 suffix: -blade
 progress: warmup
@@ -244,7 +244,7 @@ colorTo: ffffffff
 mixColor: ffffff00
 mixColorTo: ffffff00
 movex: 24
-moveY: -10
+moveY: -14
 moveRot: 20
 suffix: -blade
 progress: warmup
@@ -257,7 +257,7 @@ color: ffffff00
 colorTo: ffffffff
 mixColor: ffffff00
 mixColorTo: ffffff00
-movex: 32
+movex: 36
 moveY: -8
 moveRot: 45
 suffix: -blade
@@ -271,7 +271,7 @@ color: ffffff00
 colorTo: ffffffff
 mixColor: ffffff00
 mixColorTo: ffffff00
-movex: 32
+movex: 36
 moveY: 8
 layerOffset: -1
 moveRot: 45
