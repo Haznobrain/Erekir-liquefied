@@ -40,6 +40,17 @@ drawers: [
     padding: 2
   }
   {
+   type: DrawCircles
+   color: 393c53
+   amount: 3
+   strokeMin: 0.5
+   strokeMax: 4
+   timeScl: 90
+   radius: 8
+   x: 0
+   y: 0
+  }
+  {
     type: DrawLiquidTile
     drawLiquid: azpanogen
     padding: 2
@@ -58,49 +69,5 @@ drawers: [
    type: DrawFade
    suffix: -heat
    }
-  {
-   type: DrawCircles
-   color: 393c53
-   amount: 3
-   strokeMin: 0.5
-   strokeMax: 4
-   timeScl: 90
-   radius: 8
-   x: 8
-   y: 0
-  }
-  {
-   type: DrawCircles
-   color: 393c53
-   amount: 3
-   strokeMin: 0.5
-   strokeMax: 4
-   timeScl: 90
-   radius: 8
-   x: -8
-   y: 0
-  }
-  {
-   type: DrawCircles
-   color: 393c53
-   amount: 3
-   strokeMin: 0.5
-   strokeMax: 4
-   timeScl: 90
-   radius: 8
-   y: 8
-   x: 0
-  }
-  {
-   type: DrawCircles
-   color: 393c53
-   amount: 3
-   strokeMin: 0.5
-   strokeMax: 4
-   timeScl: 90
-   radius: 8
-   y: -8
-   x: 0
-  }
 ]
 }
