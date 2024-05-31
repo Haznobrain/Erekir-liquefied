@@ -139,6 +139,25 @@ coolant: {
 drawer:{
 type: DrawTurret
 parts: [
+  {
+  type: RegionPart
+  suffix: -side3
+  progress: warmup
+  under: true
+  moveY: 2
+  heatProgress: warmup
+  moveX: -1
+  mirror: true
+  heatColor: ffffffcc
+  moves: [
+    {
+    x: 0
+    y: 4
+    type: PartMove
+    progress: recoil
+    }
+      ]
+  }
 {
 type: RegionPart
 suffix: -bottom
@@ -186,25 +205,6 @@ progress: recoil
       ]
   }
   ]
-  }
-  {
-  type: RegionPart
-  suffix: -side3
-  progress: warmup
-  under: true
-  moveY: 2
-  heatProgress: warmup
-  moveX: -1
-  mirror: true
-  heatColor: ffffffcc
-  moves: [
-    {
-    x: 0
-    y: 4
-    type: PartMove
-    progress: recoil
-    }
-      ]
   }
 {
 type: RegionPart
