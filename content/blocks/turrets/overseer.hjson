@@ -29,7 +29,7 @@ shake: 30
 length: 1680
 width: 90
 colors: [06060c, 15151f, 888888]
-lightningSpacing: 1
+lightningSpacing: 10
 lightningAngle: 135
 lightningDelay: 0.04
 largeHit: true
@@ -133,7 +133,7 @@ lightningType: {
 }
 }
 }
-coolantMultiplier: 5
+coolantMultiplier: 1.8
 coolant: {
   type: ConsumeLiquid
   liquid: water
@@ -211,10 +211,10 @@ progress: recoil
   }
 {
 type: RegionPart
-color: ff000000
-colorTo: ff0000ff
-mixColor: ff000000
-mixColorTo: ff000000
+color: ffffff00
+colorTo: ffffffff
+mixColor: ffffff00
+mixColorTo: ffffff00
 movex: 1
 moveY: -8
 moveRot: 20
@@ -225,26 +225,12 @@ layerOffset: -1
 }
 {
 type: RegionPart
-color: ff000000
-colorTo: ff0000ff
-mixColor: ff000000
-mixColorTo: ff000000
-movex: 8
-moveY: -20
-moveRot: 20
-suffix: -blade
-progress: warmup
-mirror: true
-layerOffset: -1
-}
-{
-type: RegionPart
-color: ff000000
-colorTo: ff0000ff
-mixColor: ff000000
-mixColorTo: ff000000
+color: ffffff00
+colorTo: ffffffff
+mixColor: ffffff00
+mixColorTo: ffffff00
 movex: 16
-moveY: -20
+moveY: -8
 moveRot: 20
 suffix: -blade
 progress: warmup
@@ -253,12 +239,26 @@ layerOffset: -1
 }
 {
 type: RegionPart
-color: ff000000
-colorTo: ff0000ff
-mixColor: ff000000
-mixColorTo: ff000000
+color: ffffff00
+colorTo: ffffffff
+mixColor: ffffff00
+mixColorTo: ffffff00
 movex: 24
-moveY: -20
+moveY: -10
+moveRot: 20
+suffix: -blade
+progress: warmup
+mirror: true
+layerOffset: -1
+}
+{
+type: RegionPart
+color: ffffff00
+colorTo: ffffffff
+mixColor: ffffff00
+mixColorTo: ffffff00
+movex: 32
+moveY: -8
 moveRot: 45
 suffix: -blade
 progress: warmup
@@ -267,11 +267,11 @@ layerOffset: -1
 }
 {
 type: RegionPart
-color: ff000000
-colorTo: ff0000ff
-mixColor: ff000000
-mixColorTo: ff000000
-movex: 30
+color: ffffff00
+colorTo: ffffffff
+mixColor: ffffff00
+mixColorTo: ffffff00
+movex: 32
 moveY: 8
 layerOffset: -1
 moveRot: 45
