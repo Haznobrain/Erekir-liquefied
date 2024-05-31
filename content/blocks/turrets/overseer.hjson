@@ -214,11 +214,12 @@ colorTo: ffff00ff
 mixColor: ffff0000
 mixColorTo: ffff0000
 movex: 1
-moveY: -6
+moveY: -10
 moveRot: 20
 suffix: -blade
 progress: warmup
 mirror: true
+layerOffset: -1
 }
 {
 type: RegionPart
@@ -227,11 +228,12 @@ colorTo: ffff00ff
 mixColor: ffff0000
 mixColorTo: ffff0000
 movex: 8
-moveY: -6
+moveY: -10
 moveRot: 20
 suffix: -blade
 progress: warmup
 mirror: true
+layerOffset: -1
 }
 {
 type: RegionPart
@@ -240,11 +242,12 @@ colorTo: ffff00ff
 mixColor: ffff0000
 mixColorTo: ffff0000
 movex: 16
-moveY: -6
+moveY: -10
 moveRot: 20
 suffix: -blade
 progress: warmup
 mirror: true
+layerOffset: -1
 }
 {
 type: RegionPart
@@ -253,11 +256,12 @@ colorTo: ffff00ff
 mixColor: ffff0000
 mixColorTo: ffff0000
 movex: 24
-moveY: -2
+moveY: -4
 moveRot: 45
 suffix: -blade
 progress: warmup
 mirror: true
+layerOffset: -1
 }
 {
 type: RegionPart
@@ -265,8 +269,9 @@ color: ffff0000
 colorTo: ffff00ff
 mixColor: ffff0000
 mixColorTo: ffff0000
-movex: 24
+movex: 30
 moveY: 8
+layerOffset: -1
 moveRot: 45
 suffix: -blade
 progress: warmup
