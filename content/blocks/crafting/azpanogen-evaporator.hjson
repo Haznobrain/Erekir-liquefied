@@ -44,9 +44,9 @@ drawers: [
    color: 393c53
    amount: 3
    strokeMin: 0.5
-   strokeMax: 4
-   timeScl: 90
-   radius: 8
+   strokeMax: 2
+   timeScl: 300
+   radius: 20
    x: 0
    y: 0
   }
