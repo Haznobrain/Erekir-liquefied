@@ -129,6 +129,8 @@ lightningType: {
 }
 }
 }
+}
+}
 coolantMultiplier: 5
 coolant: {
   type: ConsumeLiquid
