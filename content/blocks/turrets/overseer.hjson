@@ -33,6 +33,8 @@ lightningSpacing: 1
 lightningAngle: 135
 lightningDelay: 0.04
 largeHit: true
+lightningAngleRand: 0
+lightningLength: 1
   chargeEffect: {
   type: MultiEffect
   effects:[
@@ -93,7 +95,7 @@ largeHit: true
 }
 lightningType: {
   type: LaserBulletType
-  damage: 1200
+  damage: 30
   colors: [06060c, 15151f, 888888]
   lifetime: 0.04
   laserEffect: none
@@ -228,7 +230,7 @@ colorTo: ffff00ff
 mixColor: ffff0000
 mixColorTo: ffff0000
 movex: 8
-moveY: -10
+moveY: -14
 moveRot: 20
 suffix: -blade
 progress: warmup
@@ -242,7 +244,7 @@ colorTo: ffff00ff
 mixColor: ffff0000
 mixColorTo: ffff0000
 movex: 16
-moveY: -10
+moveY: -14
 moveRot: 20
 suffix: -blade
 progress: warmup
@@ -256,7 +258,7 @@ colorTo: ffff00ff
 mixColor: ffff0000
 mixColorTo: ffff0000
 movex: 24
-moveY: -4
+moveY: -8
 moveRot: 45
 suffix: -blade
 progress: warmup
