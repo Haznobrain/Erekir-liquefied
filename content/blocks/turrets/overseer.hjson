@@ -211,10 +211,10 @@ progress: recoil
   }
 {
 type: RegionPart
-color: ffff0000
-colorTo: ffff00ff
-mixColor: ffff0000
-mixColorTo: ffff0000
+color: ff000000
+colorTo: ff0000ff
+mixColor: ff000000
+mixColorTo: ff000000
 movex: 1
 moveY: -10
 moveRot: 20
@@ -225,10 +225,10 @@ layerOffset: -1
 }
 {
 type: RegionPart
-color: ffff0000
-colorTo: ffff00ff
-mixColor: ffff0000
-mixColorTo: ffff0000
+color: ff000000
+colorTo: ff0000ff
+mixColor: ff000000
+mixColorTo: ff000000
 movex: 8
 moveY: -14
 moveRot: 20
@@ -239,10 +239,10 @@ layerOffset: -1
 }
 {
 type: RegionPart
-color: ffff0000
-colorTo: ffff00ff
-mixColor: ffff0000
-mixColorTo: ffff0000
+color: ff000000
+colorTo: ff0000ff
+mixColor: ff000000
+mixColorTo: ff000000
 movex: 16
 moveY: -14
 moveRot: 20
@@ -253,10 +253,10 @@ layerOffset: -1
 }
 {
 type: RegionPart
-color: ffff0000
-colorTo: ffff00ff
-mixColor: ffff0000
-mixColorTo: ffff0000
+color: ff000000
+colorTo: ff0000ff
+mixColor: ff000000
+mixColorTo: ff000000
 movex: 24
 moveY: -8
 moveRot: 45
@@ -267,10 +267,10 @@ layerOffset: -1
 }
 {
 type: RegionPart
-color: ffff0000
-colorTo: ffff00ff
-mixColor: ffff0000
-mixColorTo: ffff0000
+color: ff000000
+colorTo: ff0000ff
+mixColor: ff000000
+mixColorTo: ff000000
 movex: 30
 moveY: 8
 layerOffset: -1
