@@ -41,12 +41,12 @@ drawers: [
   }
   {
    type: DrawCircles
-   color: 393c53
+   color: 39533e
    amount: 3
    strokeMin: 0.5
    strokeMax: 2
    timeScl: 300
-   radius: 20
+   radius: 12
    x: 0
    y: 0
   }
