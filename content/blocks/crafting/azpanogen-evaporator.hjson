@@ -37,6 +37,7 @@ craftEffect: {
     sizeTo: 0
     interp: circleOut
     sizeInterp: pow5Out
+    cone: 4
     }
   rotationSpacing: 90
   lengthOffset: 8
