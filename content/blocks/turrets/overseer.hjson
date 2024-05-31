@@ -31,7 +31,7 @@ width: 90
 colors: [06060c, 15151f, 888888]
 lightningSpacing: 1
 lightningAngle: 135
-lightningDelay: 0.1
+lightningDelay: 0.04
 largeHit: true
   chargeEffect: {
   type: MultiEffect
@@ -95,7 +95,8 @@ lightningType: {
   type: LaserBulletType
   damage: 1200
   colors: [06060c, 15151f, 888888]
-  lifetime: 0.1
+  lifetime: 0.04
+  laserEffect: none
   length: 90
   sideLength: 0
   width: 30
