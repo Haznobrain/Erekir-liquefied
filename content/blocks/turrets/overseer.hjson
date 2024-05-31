@@ -208,6 +208,66 @@ children: [
   }
     ]
 }
+{
+type: RegionPart
+color: ffff0000
+colorTo: ffff00ff
+mixColor: ffff0000
+mixColorTo: ffff0000
+movex: 1
+moveY: -6
+moveRot: 20
+suffix: -blade
+progress: warmup
+}
+{
+type: RegionPart
+color: ffff0000
+colorTo: ffff00ff
+mixColor: ffff0000
+mixColorTo: ffff0000
+movex: 8
+moveY: -6
+moveRot: 20
+suffix: -blade
+progress: warmup
+}
+{
+type: RegionPart
+color: ffff0000
+colorTo: ffff00ff
+mixColor: ffff0000
+mixColorTo: ffff0000
+movex: 16
+moveY: -6
+moveRot: 20
+suffix: -blade
+progress: warmup
+}
+{
+type: RegionPart
+color: ffff0000
+colorTo: ffff00ff
+mixColor: ffff0000
+mixColorTo: ffff0000
+movex: 24
+moveY: -2
+moveRot: 45
+suffix: -blade
+progress: warmup
+}
+{
+type: RegionPart
+color: ffff0000
+colorTo: ffff00ff
+mixColor: ffff0000
+mixColorTo: ffff0000
+movex: 24
+moveY: 8
+moveRot: 45
+suffix: -blade
+progress: warmup
+}
 ]
 }
 requirements: [
