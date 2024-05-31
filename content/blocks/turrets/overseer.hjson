@@ -1,129 +1,214 @@
 name: Overseer
-description:  A superweapon that shoots an hypersonic impervium bolt that deals massive area damage upon impact. Can be boosted with water.
+description:  A superweapon that shoots a massive  v o i d  spear. Can be boosted with water.
 reload: 900
 range: 1680
 health: 68000
 type: ItemTurret
 size: 7
-shootSound: railgun
+shootSound: erekirliquefied-shockblast
 inaccuracy: 0
 shootWarmupSpeed: 0.02
+shootCone: 1
 minWarmup: 0.96
 category: turret
 predictTarget: false
 recoil: 4
 ammoCapacity: 100
 ammoPerShot: 20
+chargeSound: laserCharge2
+  shoot: {
+    firstShotDelay: 30
+    }
+soundPitchMin: 1
 ammoTypes: {
 impervium-alloy: {
-  ammoMultiplier: 1
-  type: PointBulletType
-  splashDamage: 14500
-  fragBullets: 8
-  hitShake: 20
-  fragBullet: {
-    type: LightningBulletType
-    lightningColor:  1dedc2
-    damage: 235
+type: LaserBulletType
+lifetime: 65
+damage: 14500
+shake: 30
+length: 1680
+width: 90
+colors: [06060c, 15151f, 888888]
+lightningSpacing: 1
+lightningAngle: 135
+lightningDelay: 0.1
+largeHit: true
+  chargeEffect: {
+  type: MultiEffect
+  effects:[
+    {
+    type: ParticleEffect
+    baseLength: -32
+    particles: 12
+    length: 0  
+    line: true
+    colorFrom: 06060c
+    colorTo: 06060c
+    strokeFrom: 0
+    strokeTo: 2
+    lengthFrom: 8
+    lengthTo: 8
+    lifetime: 30
     }
-  splashDamageRadius: 40
+    {
+    type: WaveEffect
+    sizeTo: 0
+    sizeFrom: 24
+    colorFrom: 06060c
+    colorTo: 06060c
+    strokeFrom: 0
+    strokeTo: 2
+    lifetime: 12
+    }
+  ]
+}
   hitEffect: {
-    type: ExplosionEffect
-    waveColor: 16d3ac
-    waveLife: 30
-    waveRad: 40
-    waveRadBase: 40
-    sparkRad: 50
-    smokeRad: 60
-    smokes: 4
-    sparks: 6
-    smokeColor: 16d3ac
-    sparkColor: 16d3ac
+  type: MultiEffect
+  effects:[
+    {
+    type: ParticleEffect
+    baseLength: -24
+    particles: 12
+    length: 0
+    line: true
+    colorFrom: 06060c
+    colorTo: 06060c
+    strokeFrom: 0
+    strokeTo: 2
+    lengthFrom: 8
+    lengthTo: 8
+    lifetime: 40
+    }
+    {
+    type: WaveEffect
+    sizeTo: 0
+    sizeFrom: 24
+    colorFrom: 06060c
+    colorTo: 06060c
+    strokeFrom: 0
+    strokeTo: 2
+    lifetime: 12
+    }
+  ]
 }
-trailSpacing: 16
-trailLength: 16
-trailWidth: 4
-shootEffect: {
-type: ParticleEffect
-length: 0
-sizeFrom: 32
-sizeTo: 32
-randLength: false
-region: erekirliquefied-impervium-shoot
-colorFrom: 1dedc2
-colorTo: 1dedc2
+lightningType: {
+  type: LaserBulletType
+  damage: 1200
+  colors: [06060c, 15151f, 888888]
+  lifetime: 0.1
+  length: 90
+  sideLength: 0
+  width: 30
+  hitEffect: {
+  type: MultiEffect
+  effects:[
+    {
+    type: ParticleEffect
+    baseLength: -8
+    length: 0
+    line: true
+    colorFrom: 06060c
+    colorTo: 06060c
+    strokeFrom: 0
+    strokeTo: 2
+    lengthFrom: 4
+    lengthTo: 4
+    lifetime: 20
+    }
+    {
+    type: WaveEffect
+    sizeTo: 0
+    sizeFrom: 12
+    colorFrom: 06060c
+    colorTo: 06060c
+    strokeFrom: 0
+    strokeTo: 2
+    lifetime: 12
+    }
+  ]
 }
-smokeEffect: smokeCloud
-trailEffect: {
-  type: particleEffect
-  region: erekirliquefied-impervium-trail
-  colorFrom: 1dedc2
-  colorTo: 16d3ac
-  randLength: false
-  sizeFrom: 16
-  sizeTo: 16
-  particles: 1
-  length: 0
-  }
 }
 }
 coolantMultiplier: 5
 coolant: {
   type: ConsumeLiquid
   liquid: water
-  amount: 2
+  amount: 5
 }
-drawer: [
-{
+drawer:{
 type: DrawTurret
 parts: [
+{
+type: RegionPart
+suffix: -bottom
+moveY: -4
+heatColor: ffffffcc
+heatProgress: warmup
+progress: recoil
+children: [
   {
   type: RegionPart
-  x: 0
-  y: 0
-  moveY: -16
-  progress: reload
-  suffix: -barrel
-  heatColor: e2ff00
-  heatProgress: reload
-  }
-  {
-  type: RegionPart
-  x: 0
-  y: 0
-  moveY: -12
-  progress: reload
-  suffix: -mid
-  heatColor: ffde55
-  heatProgress: reload
-  }
-  {
-  type: RegionPart
-  x: 0
-  y: 0
-  moveY: -6
-  progress: reload
-  suffix: -bottom
-  }
-  {
-  type: RegionPart
-  x: 0
-  y: 0
-  progress: {
-    type: warmup
-    op: blend
-    other: reload
-    amount: 0.5
-}
-  suffix: -side
+  suffix: -side1
+  progress: warmup
+  under: true
+  moveY: -1
+  heatProgress: warmup
+  moveX: 1
   mirror: true
-  moveRot: -45
-  moveY: -12
-  moveX: 8
+  heatColor: ffffffcc
+  moves: [
+    {
+    x: 2
+    y: -2
+    type: PartMove
+    progress: recoil
+    }
+      ]
+    children: [
+    {
+      type: RegionPart
+  suffix: -side2
+  progress: warmup
+  under: true
+  moveY: -2
+  heatProgress: warmup
+  moveX: 0.5
+  mirror: true
+  heatColor: ffffffcc
+  moves: [
+    {
+    x: 3
+    y: -4
+    type: PartMove
+    progress: recoil
+    }
+      ]
   }
-]
+  ]
+  }
+  {
+  type: RegionPart
+  suffix: -side3
+  progress: warmup
+  under: true
+  moveY: 2
+  heatProgress: warmup
+  moveX: -1
+  mirror: true
+  heatColor: ffffffcc
+  moves: [
+    {
+    x: 0
+    y: 4
+    type: PartMove
+    progress: recoil
+    }
+      ]
+  }
+    ]
 }
 ]
+}
 requirements: [
   beryllium/3500
   silicon/3600
