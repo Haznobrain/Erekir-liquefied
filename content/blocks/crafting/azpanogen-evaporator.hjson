@@ -26,7 +26,22 @@ requirements: [
   oxide/50
   carbide/50
 ]
-craftEffect: smoke
+craftEffect: {
+  type: RadialEffect
+  effect: {
+    type: ParticleEffect
+    length: 8
+    colorFrom: 39533eff
+    colorTo: 39533e11
+    sizeFrom: 5
+    sizeTo: 0
+    interp: circleOut
+    sizeInterp: pow5Out
+    }
+  rotationSpacing: 90
+  lengthOffset: 8
+  amount: 4
+  }
 drawer: {
 type: DrawMulti
 drawers: [
