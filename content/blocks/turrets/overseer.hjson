@@ -34,7 +34,7 @@ lightningAngle: 135
 lightningDelay: 0.04
 largeHit: true
 lightningAngleRand: 0
-lightningLength: 1
+lightningLength: 2
   chargeEffect: {
   type: MultiEffect
   effects:[
@@ -216,7 +216,7 @@ colorTo: ff0000ff
 mixColor: ff000000
 mixColorTo: ff000000
 movex: 1
-moveY: -10
+moveY: -8
 moveRot: 20
 suffix: -blade
 progress: warmup
@@ -230,7 +230,7 @@ colorTo: ff0000ff
 mixColor: ff000000
 mixColorTo: ff000000
 movex: 8
-moveY: -14
+moveY: -20
 moveRot: 20
 suffix: -blade
 progress: warmup
@@ -244,7 +244,7 @@ colorTo: ff0000ff
 mixColor: ff000000
 mixColorTo: ff000000
 movex: 16
-moveY: -14
+moveY: -20
 moveRot: 20
 suffix: -blade
 progress: warmup
@@ -258,7 +258,7 @@ colorTo: ff0000ff
 mixColor: ff000000
 mixColorTo: ff000000
 movex: 24
-moveY: -8
+moveY: -20
 moveRot: 45
 suffix: -blade
 progress: warmup
