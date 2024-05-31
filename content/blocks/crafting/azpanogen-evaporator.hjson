@@ -27,13 +27,80 @@ requirements: [
   carbide/50
 ]
 craftEffect: smoke
-drawer: [
+drawer: {
+type: DrawMulti
+drawers: [
    {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawLiquidTile
+    drawLiquid: hydrogen
+    padding: 2
+  }
+  {
     type: DrawLiquidTile
     drawLiquid: azpanogen
     padding: 2
   }
   {
-    type: DrawDefault
+   type: DrawPistons
+   sinMag: 0.75
+   sinScl: 1
+   lenOffset: 0
+   }
+  {
+   type: DrawRegion
+   suffix: -top
+  }
+  {
+   type: DrawFade
+   suffix: -heat
+   }
+  {
+   type: DrawCircles
+   color: 393c53
+   amount: 3
+   strokeMin: 0.5
+   strokeMax: 4
+   timeScl: 90
+   radius: 8
+   x: 8
+   y: 0
+  }
+  {
+   type: DrawCircles
+   color: 393c53
+   amount: 3
+   strokeMin: 0.5
+   strokeMax: 4
+   timeScl: 90
+   radius: 8
+   x: -8
+   y: 0
+  }
+  {
+   type: DrawCircles
+   color: 393c53
+   amount: 3
+   strokeMin: 0.5
+   strokeMax: 4
+   timeScl: 90
+   radius: 8
+   y: 8
+   x: 0
+  }
+  {
+   type: DrawCircles
+   color: 393c53
+   amount: 3
+   strokeMin: 0.5
+   strokeMax: 4
+   timeScl: 90
+   radius: 8
+   y: -8
+   x: 0
   }
 ]
+}
