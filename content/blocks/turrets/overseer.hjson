@@ -102,7 +102,7 @@ lightningDamage: 0
 }
 lightningType: {
   type: LaserBulletType
-  damage: 30
+  damage: 7000
   colors: [06060cff, 15151fff, 888888ff]
   lifetime: 1.1
   laserEffect: none
@@ -316,23 +316,7 @@ type: HaloPart
 y: -50
 haloRadius: 11
 radius: 0
-radiusTo: 4
-tri: true
-hollow: false
-triLength: 0
-triLengthTo: 2
-color: ffffffff
-colorTo: ffffffff
-haloRotation: 90
-haloRotateSpeed: 0
-shapes: 2
-}
-{
-type: HaloPart
-y: -50
-haloRadius: 11
-radius: 0
-radiusTo: 3
+radiusTo: 8
 tri: true
 hollow: false
 triLength: 0
@@ -348,7 +332,7 @@ type: HaloPart
 y: -50
 haloRadius: 11
 radius: 0
-radiusTo: 2
+radiusTo: 6
 tri: true
 hollow: false
 triLength: 0
@@ -364,11 +348,27 @@ type: HaloPart
 y: -50
 haloRadius: 11
 radius: 0
-radiusTo: 1
+radiusTo: 4
 tri: true
 hollow: false
 triLength: 0
-triLengthTo: 10
+triLengthTo: 16
+color: ffffffff
+colorTo: ffffffff
+haloRotation: 90
+haloRotateSpeed: 0
+shapes: 2
+}
+{
+type: HaloPart
+y: -50
+haloRadius: 11
+radius: 0
+radiusTo: 2
+tri: true
+hollow: false
+triLength: 0
+triLengthTo: 20
 color: ffffffff
 colorTo: ffffffff
 haloRotation: 90
