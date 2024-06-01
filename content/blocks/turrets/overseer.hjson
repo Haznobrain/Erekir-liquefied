@@ -306,6 +306,7 @@ hollow: false
 }
 {
 type: HaloPart
+y: -50
 haloRadius: 11
 radius: 0
 radiusTo: 4
@@ -321,6 +322,7 @@ shapes: 2
 }
 {
 type: HaloPart
+y: -50
 haloRadius: 11
 radius: 0
 radiusTo: 3
@@ -336,6 +338,7 @@ shapes: 2
 }
 {
 type: HaloPart
+y: -50
 haloRadius: 11
 radius: 0
 radiusTo: 2
@@ -351,6 +354,7 @@ shapes: 2
 }
 {
 type: HaloPart
+y: -50
 haloRadius: 11
 radius: 0
 radiusTo: 1
