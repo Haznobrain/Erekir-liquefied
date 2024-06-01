@@ -280,6 +280,88 @@ suffix: -blade
 progress: warmup
 mirror: true
 }
+{
+type: ShapePart
+y: -50
+radius: 0
+radiusTo: 12
+color: ffffffff
+colorTo: ffffffff
+layer: 110
+circle: true
+hollow: false
+}
+{
+type: ShapePart
+y: -50
+radius: 0
+radiusTo: 10
+color: 000000ff
+colorTo: 000000ff
+layer: 110
+circle: true
+hollow: false
+}
+{
+type: HaloPart
+haloRadius: 11
+radius: 0
+radiusTo: 4
+tri: true
+hollow: false
+triLength: 0
+triLengthTo: 2
+color: ffffffff
+colorTo: ffffffff
+haloRotation: 90
+haloRotateSpeed: 0
+shapes: 2
+}
+{
+type: HaloPart
+haloRadius: 11
+radius: 0
+radiusTo: 3
+tri: true
+hollow: false
+triLength: 0
+triLengthTo: 4
+color: ffffffff
+colorTo: ffffffff
+haloRotation: 90
+haloRotateSpeed: 0
+shapes: 2
+}
+{
+type: HaloPart
+haloRadius: 11
+radius: 0
+radiusTo: 2
+tri: true
+hollow: false
+triLength: 0
+triLengthTo: 8
+color: ffffffff
+colorTo: ffffffff
+haloRotation: 90
+haloRotateSpeed: 0
+shapes: 2
+}
+{
+type: HaloPart
+haloRadius: 11
+radius: 0
+radiusTo: 1
+tri: true
+hollow: false
+triLength: 0
+triLengthTo: 10
+color: ffffffff
+colorTo: ffffffff
+haloRotation: 90
+haloRotateSpeed: 0
+shapes: 2
+}
 ]
 }
 requirements: [
