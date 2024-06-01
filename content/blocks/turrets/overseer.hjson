@@ -36,7 +36,7 @@ lightningDelay: 1.1
 largeHit: true
 lightningAngleRand: 0
 lightningLength: 2
-lightningDamage: 0
+lightningDamage: 7000
   sideLength: 0
   chargeEffect: {
   type: MultiEffect
