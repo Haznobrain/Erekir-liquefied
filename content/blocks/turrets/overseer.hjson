@@ -326,6 +326,7 @@ colorTo: ffffffff
 haloRotation: 90
 haloRotateSpeed: 0
 shapes: 2
+layer: 110
 }
 {
 type: HaloPart
@@ -342,6 +343,7 @@ colorTo: ffffffff
 haloRotation: 90
 haloRotateSpeed: 0
 shapes: 2
+layer: 110
 }
 {
 type: HaloPart
@@ -358,11 +360,13 @@ colorTo: ffffffff
 haloRotation: 90
 haloRotateSpeed: 0
 shapes: 2
+layer: 110
 }
 {
 type: HaloPart
 y: -50
 haloRadius: 11
+layer: 110
 radius: 0
 radiusTo: 2
 tri: true
