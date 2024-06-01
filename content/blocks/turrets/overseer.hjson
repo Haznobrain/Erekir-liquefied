@@ -5,7 +5,7 @@ range: 1680
 health: 68000
 type: ItemTurret
 size: 7
-shootSound: erekirliquefied-shockblast
+shootSound: shockblast
 inaccuracy: 0
 shootWarmupSpeed: 0.02
 shootCone: 1
@@ -15,7 +15,7 @@ predictTarget: false
 recoil: 4
 ammoCapacity: 100
 ammoPerShot: 20
-chargeSound: laserCharge2
+chargeSound: lasercharge2
   shoot: {
     firstShotDelay: 30
     }
@@ -28,10 +28,10 @@ damage: 14500
 shake: 30
 length: 1680
 width: 90
-colors: [06060c, 15151f, 888888]
+colors: [06060cff, 15151fff, 888888ff]
 lightningSpacing: 40
 lightningAngle: 135
-lightningDelay: 0.04
+lightningDelay: 1.1
 largeHit: true
 lightningAngleRand: 0
 lightningLength: 2
@@ -44,8 +44,8 @@ lightningLength: 2
     particles: 12
     length: 0  
     line: true
-    colorFrom: 06060c
-    colorTo: 06060c
+    colorFrom: 06060cff
+    colorTo: 06060cff
     strokeFrom: 0
     strokeTo: 2
     lengthFrom: 8
@@ -56,11 +56,11 @@ lightningLength: 2
     type: WaveEffect
     sizeTo: 0
     sizeFrom: 24
-    colorFrom: 06060c
-    colorTo: 06060c
+    colorFrom: 06060cff
+    colorTo: 06060cff
     strokeFrom: 0
     strokeTo: 2
-    lifetime: 12
+    lifetime: 30
     }
   ]
 }
@@ -96,8 +96,8 @@ lightningLength: 2
 lightningType: {
   type: LaserBulletType
   damage: 30
-  colors: [06060c, 15151f, 888888]
-  lifetime: 0.04
+  colors: [06060cff, 15151fff, 888888ff]
+  lifetime: 1.1
   laserEffect: none
   length: 90
   sideLength: 0
