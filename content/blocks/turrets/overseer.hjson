@@ -29,7 +29,7 @@ shake: 30
 length: 1680
 width: 90
 colors: [06060cff, 15151fff, 888888ff]
-lengthFalloff: 0
+lengthFalloff: 1
 lightningSpacing: 40
 lightningAngle: 135
 lightningDelay: 1.1
@@ -100,7 +100,7 @@ lightningType: {
   colors: [06060cff, 15151fff, 888888ff]
   lifetime: 1.1
   laserEffect: none
-lengthFalloff: 0
+lengthFalloff: 1
   length: 90
   sideLength: 0
   width: 30
