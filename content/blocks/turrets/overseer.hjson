@@ -29,13 +29,13 @@ shake: 30
 length: 1680
 width: 90
 colors: [06060cff, 15151fff, 888888ff]
-lengthFalloff: 1
 lightningSpacing: 40
 lightningAngle: 135
 lightningDelay: 1.1
 largeHit: true
 lightningAngleRand: 0
 lightningLength: 2
+  sideLength: 0
   chargeEffect: {
   type: MultiEffect
   effects:[
@@ -100,7 +100,6 @@ lightningType: {
   colors: [06060cff, 15151fff, 888888ff]
   lifetime: 1.1
   laserEffect: none
-lengthFalloff: 1
   length: 90
   sideLength: 0
   width: 30
