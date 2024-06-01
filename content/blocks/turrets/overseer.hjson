@@ -31,6 +31,7 @@ width: 90
 colors: [06060cff, 15151fff, 888888ff]
 lightningSpacing: 40
 lightningAngle: 135
+layer: 111
 lightningDelay: 1.1
 largeHit: true
 lightningAngleRand: 0
@@ -102,6 +103,7 @@ lightningType: {
   laserEffect: none
   length: 90
   sideLength: 0
+  layer: 111
   width: 30
   hitEffect: {
   type: MultiEffect
@@ -298,7 +300,7 @@ radius: 0
 radiusTo: 10
 color: 000000ff
 colorTo: 000000ff
-layer: 110
+layer: 111
 circle: true
 hollow: false
 }
