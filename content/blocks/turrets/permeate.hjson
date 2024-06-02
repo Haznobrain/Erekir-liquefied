@@ -96,7 +96,7 @@ ammoTypes: {
       lightningLength: 6
       lightningLengthRand: 1
       color: 16d3ac
-      despawnSound: zap
+      despawnSound: spark
       }
     frontColor: ffffff
     backColor: 69ffe0
@@ -144,7 +144,7 @@ ammoTypes: {
           lightningLength: 3
           lightningLengthRand: 1
           lifetime: 12
-          hitSound: zap
+          hitSound: spark
           despawnHit: true
               }
       shrinkX: 0
