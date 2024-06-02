@@ -114,6 +114,7 @@ ammoTypes: {
     fragSpread: 10
     fragVelocityMin: 1
     fragVelocityMax: 1
+    fragRandomSpread: 0
     buildingDamageMultiplier: 0.00000001
       fragBullet: {
         type: EmpBulletType
@@ -160,6 +161,7 @@ ammoTypes: {
           sizeTo: 100
           colorFrom: 69ffe0
           colorTo: 69ffe0
+          lifetime: 10
           }
           ]
             }
@@ -207,6 +209,7 @@ progress: recoil
 color: 69ffe0
 layer: 110
 circle: true
+y: 24
 }
   ]
 }
