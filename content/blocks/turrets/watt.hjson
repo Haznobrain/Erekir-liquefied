@@ -6,7 +6,7 @@ type: PowerTurret
 range: 200
 recoil: 4
 size: 3
-reload: 45
+reload: 90
 drawer: {
       type: DrawTurret
       parts: [
