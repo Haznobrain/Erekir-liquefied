@@ -12,33 +12,39 @@ size: 7
 category: turret
 recoil: 5
 rotateSpeed: 0.8
-shoot: {
-  type: shootAlternate
-  barrels: 3
-  shots: 3
-  shotDelay: 10
-  spread: 16
-    }
-shootSound: plasmaboom
+shootSound: plasmaCannon
 shootY: 24
 ammoTypes: {
   impervium-alloy: {
       type: BasicBulletType
       shootEffect: {
+      type: MultiEffect
+      effects: [shootTitan, colorSparkBig,
+      {
       type: ParticleEffect
       particles: 20
       lengthFrom: 0
       lengthTo: 40
       colorFrom: 69ffe0
-      colorTo: 1dedc2
+      colorTo: 69ffe0
       sizeFrom: 6
       cone: 30
     }
+    {
+    type: WaveEffect
+    sizeTo: 40
+    colorFrom: 69ffe0
+    colorTo: 69ffe0
+    }
+    ]
+    }
     hitShake: 10
-    sprite: circle
+    sprite: large-orb
+    shrinkY: 0
+    shrinkX: 0
     backColor: 1dedc2
     despawnSound: dullExplosion
-    hitSound: corexplode
+    hitSound: mediumCannon
     trailLength: 8
     trailWidth: 3
     trailColor: 69ffe0
@@ -67,151 +73,143 @@ ammoTypes: {
 ]
 }
     hitEffect: {
-      type: ExplosionEffect
-      smokeColor: 69ffe0
-      sparkColor: 69ffe0
-      waveColor: 69ffe0
-      waveRad: 120
-      sparkRad: 120
-      smokeRad: 120
-      smokeSize: 8
-}
-    despawnEffect: {
-      type: ExplosionEffect
-      smokeColor: 69ffe0
-      sparkColor: 69ffe0
-      waveColor: 69ffe0
-      waveRad: 120
-      sparkRad: 120
-      smokeRad: 120
-      smokeSize: 8
-}
+      type: ParticleEffect
+      line: true
+      length: 30
+      particles: 14
+      lengthTo: 15
+      lengthFrom: 0
+      strokeFrom: 4
+      strokeTo: 0
+      lifetime: 30
+        }
+    despawnEffect: none
+    despawnHit: true
     height: 12
     width: 12
     bulletInterval: 3
+    pierce: true
+    pierceBuildings: true
     intervalBullet: {
       type: LightningBulletType
       damage: 45
-      lightningLength: 3
+      lightningLength: 6
       lightningLengthRand: 1
       color: 16d3ac
+      despawnSound: zap
       }
-    frontColor: 16d3ac
-    lifetime: 140
-    speed: 4
-    damage: 860
-    splashDamage: 2450
-    splashDamageRadius: 120
+    frontColor: ffffff
+    backColor: 69ffe0
+    lifetime: 60
+    speed: 1
+    damage: 400
+    splashDamage: 600
+    splashDamageRadius: 24
     lightning: 12
     lightningLength: 10
     lightningLengthRand: 3
     lightningColor: 69ffe0
-    lightningDamage: 30
-    fragBullets: 20
+    lightningDamage: 180
+    fragBullets: 5
+    fragSpread: 10
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    buildingDamageMultiplier: 0.00000001
       fragBullet: {
-        height: 6
-        width: 6
-        type:BasicBulletType
-        sprite: circle
-        backColor: 1dedc2
-        frontColor: 16d3ac
-        lifetime: 30
-        speed: 3
-        damage: 65
-        splashDamage: 40
-        splashDamageRadius: 24
-        lightning: 5
-        lightningLength: 10
-        lightningLengthRand: 3
-        lightningColor: 69ffe0
-        lightningDamage: 45
+        type: EmpBulletType
+        pierce: true
+        pierceBuilding: true
+        buildingDamageMultiplier: 0.1
+        sprite: erekirliquefied-diamond-bullet
+        frontColor: 69ffe0
+        radius: 100
+        timeIncrease: 1
+        powerDamageScl: 4
+        powerSclDecrease: 0.2
+        unitDamageScl: 1
+        damage: 1250
+        splashDamage: 3000
+        splashDamageRadius: 100
+        trailLength: 200
+        trailWidth: 3
+        trailColor: 69ffe0
+        bulletInterval: 3
+        lifetime: 125
+        speed: 4
+        intervalBullet: {
+          type: LightningBulletType
+          lightningColor: 69ffe0
+          damage: 45
+          lightningLength: 3
+          lightningLengthRand: 1
+          lifetime: 12
+          hitSound: zap
+          despawnHit: true
+              }
+      shrinkX: 0
+      shrinkY: 0
+      width: 24
+      height: 16
+      hitSize: 16
+      hitColor: 69ffe0
+      hitEffect: {
+        type: MultiEffect
+        effects: [hitSquaresColor, 
+          {
+          type: WaveEffect
+          sizeTo: 100
+          colorFrom: 69ffe0
+          colorTo: 69ffe0
+          }
+          ]
+            }
           }
   }
 }
-drawer: [
-{
+drawer:{
 type: DrawTurret
   parts: [
 {
-progress: warmup
 type: RegionPart
-suffix: -bottom
-x: 0
-y: 0
-moveX: 0
-moveY: 0
+suffix: -barrel
+moveRot: -15
+mirror: true
+moveY: -5
+progress: recoil
 heatProgress: warmup
-heatColor: 69ffe0
 }
-  {
-progress: warmup
+{
 type: RegionPart
-suffix: -barrelLeft
-x: 0
-y: 0
-moveX: -6
-moveY: 0
+suffix: -side
+mirror: true
+moveX: -2
+moves: [
+  {
+  type: PartMove
+  progress: recoil
+  y: -3
+  }
+  ]
+progress: recoil
 heatProgress: warmup
-heatColor: 69ffe0
 }
-  {
-progress: warmup
+{
 type: RegionPart
-suffix: -barrelRight
-x: 0
-y: 0
-moveX: 6
-moveY: 0
-heatProgress: warmup
-heatColor: 69ffe0
+suffix: -hitter
+moveY: 5
+progress: recoil
 }
-  {
-progress: warmup
-type: RegionPart
-suffix: -rightTop
-x: 0
-y: 0
-moveX: 8
-moveY: -6
-heatProgress: warmup
-heatColor: 69ffe0
-}
-  {
-progress: warmup
-type: RegionPart
-suffix: -leftTop
-x: 0
-y: 0
-moveX: -8
-moveY: -6
-heatProgress: warmup
-heatColor: 69ffe0
-}
-  {
-progress: warmup
-type: RegionPart
-suffix: -rightBottom
-x: 0
-y: 0
-moveX: 0
-moveY: -2
-heatProgress: warmup
-heatColor: 69ffe0
-}
-  {
-progress: warmup
-type: RegionPart
-suffix: -leftBottom
-x: 0
-y: 0
-moveX: 0
-moveY: -2
-heatProgress: warmup
-heatColor: 69ffe0
+{
+type: ShapePart
+radius: 4
+radiusTo: 0
+progress: recoil
+color: 69ffe0
+layer: 110
+circle: true
 }
   ]
 }
-]
 requirements: [
 beryllium/3000
 silicon/2000
