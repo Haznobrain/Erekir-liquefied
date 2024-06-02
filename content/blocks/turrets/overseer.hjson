@@ -45,7 +45,7 @@ lightningDamage: 7000
     type: ParticleEffect
     baseLength: -32
     particles: 12
-    length: 0  
+    length: 32
     line: true
     colorFrom: 06060cff
     colorTo: 06060cff
@@ -76,7 +76,7 @@ lightningDamage: 7000
     type: ParticleEffect
     baseLength: -24
     particles: 12
-    length: 0
+    length: 24
     line: true
     colorFrom: 06060c
     colorTo: 06060c
@@ -116,7 +116,7 @@ lightningType: {
     {
     type: ParticleEffect
     baseLength: -8
-    length: 0
+    length: 8
     line: true
     colorFrom: 06060c
     colorTo: 06060c
