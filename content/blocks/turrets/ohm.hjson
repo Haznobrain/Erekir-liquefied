@@ -73,6 +73,8 @@ ammoTypes: {
               lengthTo: 0
               lengthFrom: 6
               colorTo: ccfcff
+              interp: circleOut
+              sizeInterp: pow5In
               }
             despawnEffect: none
             despawnHit: true
@@ -136,6 +138,8 @@ ammoTypes: {
               lengthTo: 0
               lengthFrom: 6
               colorTo: ccfcff
+              interp: circleOut
+              sizeInterp: pow5In
               }
             despawnEffect: none
             despawnHit: true
@@ -199,6 +203,8 @@ ammoTypes: {
               lengthTo: 0
               lengthFrom: 6
               colorTo: ccfcff
+              interp: circleOut
+              sizeInterp: pow5In
               }
             despawnEffect: none
             despawnHit: true
@@ -262,6 +268,8 @@ ammoTypes: {
               lengthTo: 0
               lengthFrom: 6
               colorTo: ccfcff
+              interp: circleOut
+              sizeInterp: pow5In
               }
             despawnEffect: none
             despawnHit: true
@@ -325,6 +333,8 @@ ammoTypes: {
               lengthTo: 0
               lengthFrom: 6
               colorTo: ccfcff
+              interp: circleOut
+              sizeInterp: pow5In
               }
             despawnEffect: none
             despawnHit: true
@@ -388,6 +398,8 @@ ammoTypes: {
               lengthTo: 0
               lengthFrom: 6
               colorTo: ccfcff
+              interp: circleOut
+              sizeInterp: pow5In
               }
             despawnEffect: none
             despawnHit: true
@@ -451,6 +463,8 @@ ammoTypes: {
               lengthTo: 0
               lengthFrom: 6
               colorTo: ccfcff
+              interp: circleOut
+              sizeInterp: pow5In
               }
             despawnEffect: none
             despawnHit: true
@@ -514,6 +528,8 @@ ammoTypes: {
               lengthTo: 0
               lengthFrom: 6
               colorTo: ccfcff
+              interp: circleOut
+              sizeInterp: pow5In
               }
             despawnEffect: none
             despawnHit: true
@@ -577,6 +593,8 @@ ammoTypes: {
               lengthTo: 0
               lengthFrom: 6
               colorTo: ccfcff
+              interp: circleOut
+              sizeInterp: pow5In
               }
             despawnEffect: none
             despawnHit: true
@@ -640,6 +658,8 @@ ammoTypes: {
               lengthTo: 0
               lengthFrom: 6
               colorTo: ccfcff
+              interp: circleOut
+              sizeInterp: pow5In
               }
             despawnEffect: none
             despawnHit: true
