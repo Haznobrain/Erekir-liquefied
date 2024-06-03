@@ -29,6 +29,8 @@ ammoTypes: {
       colorTo: 69ffe0
       sizeFrom: 6
       cone: 30
+              interp: circleOut
+              sizeInterp: pow5In
     }
     {
     type: WaveEffect
@@ -82,6 +84,8 @@ ammoTypes: {
       strokeFrom: 4
       strokeTo: 0
       lifetime: 30
+      interp: circleOut
+      sizeInterp: pow5In
         }
     despawnEffect: none
     despawnHit: true
