@@ -37,7 +37,7 @@ ammoTypes: {
                             colorFrom: b876ff66
                             colorTo: b876ff66
                             interp: circleOut
-                            sizeInterp: pow5Out
+                            sizeInterp: pow5In
                         }
                         {
                             type: ParticleEffect
@@ -48,7 +48,7 @@ ammoTypes: {
                             colorFrom: b876ff66
                             colorTo: b876ff66
                             interp: circleOut
-                            sizeInterp: pow5Out
+                            sizeInterp: pow5In
                         }
                         {
                             type: WaveEffect
@@ -72,7 +72,7 @@ ammoTypes: {
                             length: 32
                             baseLength: 32
                             interp: circleOut
-                            sizeInterp: pow5Out
+                            sizeInterp: pow5In
                             lifetime: 100
                         }
                         {
@@ -85,7 +85,7 @@ ammoTypes: {
                             length: 32
                             baseLength: 32
                             interp: circleOut
-                            sizeInterp: pow5Out
+                            sizeInterp: pow5In
                             lifetime: 80
                         }
                         {
@@ -100,7 +100,7 @@ ammoTypes: {
                             length: 32
                             baseLength: 32
                             interp: circleOut
-                            sizeInterp: pow5Out
+                            sizeInterp: pow5In
                             lifetime: 30
                         }
                         {
@@ -116,7 +116,7 @@ ammoTypes: {
                             length: 32
                             baseLength: 32
                             interp: circleOut
-                            sizeInterp: pow5Out
+                            sizeInterp: pow5In
                             lifetime: 60
                         }
                         {
@@ -164,7 +164,7 @@ ammoTypes: {
                             colorFrom: f2e87866
                             colorTo: f2e87866
                             interp: circleOut
-                            sizeInterp: pow5Out
+                            sizeInterp: pow5In
                         }
                         {
                             type: ParticleEffect
@@ -174,7 +174,7 @@ ammoTypes: {
                             colorFrom: f2e87866
                             colorTo: f2e87866
                             interp: circleOut
-                            sizeInterp: pow5Out
+                            sizeInterp: pow5In
                         }
                         {
                             type: WaveEffect
@@ -198,7 +198,7 @@ ammoTypes: {
                             particles: 20
                             baseLength: 32
                             interp: circleOut
-                            sizeInterp: pow5Out
+                            sizeInterp: pow5In
                             lifetime: 100
                         }
                         {
@@ -211,7 +211,7 @@ ammoTypes: {
                             length: 32
                             baseLength: 32
                             interp: circleOut
-                            sizeInterp: pow5Out
+                            sizeInterp: pow5In
                             lifetime: 80
                         }
                         {
@@ -226,7 +226,7 @@ ammoTypes: {
                             length: 32
                             baseLength: 32
                             interp: circleOut
-                            sizeInterp: pow5Out
+                            sizeInterp: pow5In
                             lifetime: 60
                         }
                         {
@@ -242,7 +242,7 @@ ammoTypes: {
                             length: 32
                             baseLength: 32
                             interp: circleOut
-                            sizeInterp: pow5Out
+                            sizeInterp: pow5In
                             lifetime: 30
                         }
                         {
