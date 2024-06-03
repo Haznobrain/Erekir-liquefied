@@ -22,7 +22,7 @@ shootEffect: {
       colorTo: aeebffcc
       sizeFrom: 16
       interp: circleOut
-      sizeInterp: pow5Out
+      sizeInterp: pow5In
             }
         ]
       }
