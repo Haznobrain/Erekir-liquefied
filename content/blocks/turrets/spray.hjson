@@ -14,17 +14,21 @@ loopSound: none
 inaccuracy: 0
 despawnHit: true
 shoot: {
-      type: ShootBarrel
-      barrels: [
-            -8.75, -3, 0
-            -5.25, -2, 0
-            0, -1, 0
-            5.25, -2, 0
-            8.75, -3, 0
-            ]
+      source: ShootAlternate
+      type: ShootMulti
+      dest: [
+      {
+      type: ShootAlternate
+      barrels: 5
+      spread: 3
+      }
+      {
+      type: ShootPattern
       shots: 20
       shotDelay: 3
-          }
+      }
+            ]
+      }
 ammoTypes: {
   ozone: {
     type: MissileBulletType
@@ -199,6 +203,7 @@ requirements: [
 ]
 category: turret
 research: jet
+recoils: 5
 drawer: {
       type: DrawTurret
       parts: [
@@ -207,30 +212,35 @@ drawer: {
             suffix: -barrel3
             moveY: -4
             progress: recoil
+            recoilIndex: 2
             }
             {
             type: RegionPart
             suffix: -barrel2
             moveY: -4
             progress: recoil
+            recoilIndex: 1
             }
             {
             type: RegionPart
             suffix: -barrel4
             moveY: -4
             progress: recoil
+            recoilIndex: 3
             }
             {
             type: RegionPart
             suffix: -barrel5
             moveY: -4
             progress: recoil
+            recoilIndex: 4
             }
             {
             type: RegionPart
             suffix: -barrel1
             moveY: -4
             progress: recoil
+            recoilIndex: 0
             }
             {
             type: RegionPart
