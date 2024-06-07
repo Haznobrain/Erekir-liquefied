@@ -23,7 +23,6 @@ shoot: {
       spread: 3
       }
       {
-      type: ShootPattern
       shots: 20
       shotDelay: 3
       }
