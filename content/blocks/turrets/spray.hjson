@@ -18,6 +18,7 @@ shoot: {
       type: ShootAlternate
       shots: 5
       spread: 3
+      shotDelay: 12
       }
       type: ShootMulti
       dest: {
