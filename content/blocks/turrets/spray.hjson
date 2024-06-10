@@ -14,18 +14,19 @@ loopSound: none
 inaccuracy: 0
 despawnHit: true
 shoot: {
-      source:{
-      type: ShootAlternate
-      shots: 5
-      spread: 3
-      shotDelay: 12
-      }
-      type: ShootMulti
-      dest: {
+  type: ShootMulti
+  source: {
+    type: ShootAlternate
+    spread: 3
+    shots: 5
+  }
+  dest: [
+    {
       shots: 4
       shotDelay: 3
-      }
-      }
+    }
+  ]
+}
 ammoTypes: {
   ozone: {
     type: MissileBulletType
