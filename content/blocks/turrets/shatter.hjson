@@ -1,7 +1,7 @@
 name: shatter
 recoil: 0
   type: ItemTurret
-dexcription: Shoots tungsten bolts that weaken and pierce ennemy air unit's armors.
+dexcription: Shoots tungsten bolts that weaken and pierces ennemy air unit's armors.
   size: 5
   reload: 10
   inaccuracy: 20
@@ -12,7 +12,7 @@ velocityRnd: 0.5
 targetAir: true
 shoot: {
   type: ShootAlternate
-  spread: 5
+  spread: 7
   shots: 3
   barrels: 3
     }
@@ -52,6 +52,7 @@ shoot: {
         interp: pow10Out
         sizeInterp: pow5In
             }
+      despawnEffect: hitBulletColor
       pierceArmor: true
       status: erekirliquefied-metalfrag
       statusDuration: 1200
@@ -68,6 +69,7 @@ progress: warmup
 moveRot: 8
 mirror: true
 under: true
+suffix: -side
 }
 {
 type: RegionPart
