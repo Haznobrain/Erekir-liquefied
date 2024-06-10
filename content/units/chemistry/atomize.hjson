@@ -34,7 +34,7 @@ rippleScale: 1.2
 immunities: [
 burning,
 melting,
-erekirliquefied-ionize
+erekirliquefied-ionized
 ]
 weapons: [
 {
