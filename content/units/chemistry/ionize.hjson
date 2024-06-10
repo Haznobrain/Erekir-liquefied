@@ -32,8 +32,7 @@ drownTimeMultiplier: 9
 legGroupSize: 3
 rippleScale: 2
 immunities: [
-burning,
-melting
+erekirliquefied-ionized
 ]
 weapons: [
 {
