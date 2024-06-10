@@ -27,6 +27,9 @@ rippleScale: 0.2
 legMoveSpace: 2
 allowLegStep: true
 legPhysicsLayer: false
+immunities: [
+  burning
+  ]
 weapons: [
 {
   name: combust
