@@ -21,7 +21,6 @@ shoot: {
       }
       type: ShootMulti
       dest: {
-      type: ShootPattern
       shots: 20
       shotDelay: 3
       }
