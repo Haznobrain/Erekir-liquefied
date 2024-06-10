@@ -203,6 +203,7 @@ requirements: [
 category: turret
 research: jet
 recoils: 5
+recoilTime: 30
 drawer: {
       type: DrawTurret
       parts: [
