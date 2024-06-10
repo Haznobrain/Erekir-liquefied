@@ -20,6 +20,8 @@ shoot: {
     }
   ammoTypes: {
     tungsten: {
+      pierce: true
+      pierceCap: 5
       type: BasicBulletType
       damage: 90
       speed: 12
