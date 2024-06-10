@@ -208,7 +208,7 @@ children: [
   {
   type: RegionPart
   color: 69ffe000
-  colorTo: 69ffe066
+  colorTo: 69ffe0cc
   outline: false
   progress: warmup
   suffix: -barrel-glow
@@ -229,7 +229,7 @@ moves: [
   ]
 progress: recoil
 heatProgress: warmup
-heatColor: 69ffe066
+heatColor: 69ffe0cc
 }
 {
 type: RegionPart
@@ -240,7 +240,7 @@ children: [
 {
 type: RegionPart
 color: 69ffe000
-colorTo: 69ffe066
+colorTo: 69ffe0cc
 progress: warmup
 suffix: -hitter-glow
 outline: false
