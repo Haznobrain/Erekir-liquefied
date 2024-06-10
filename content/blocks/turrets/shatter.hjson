@@ -4,7 +4,7 @@ recoil: 0
 dexcription: Shoots tungsten bolts that weaken and pierces ennemy air unit's armors.
   size: 5
   reload: 10
-  inaccuracy: 20
+  inaccuracy: 6
   range: 384
   shootSound: shootBig
   targetGround: false
