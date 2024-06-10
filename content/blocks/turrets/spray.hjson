@@ -16,12 +16,12 @@ despawnHit: true
 shoot: {
       source:{
       type: ShootAlternate
-      barrels: 5
+      shots: 5
       spread: 3
       }
       type: ShootMulti
       dest: {
-      shots: 20
+      shots: 4
       shotDelay: 3
       }
       }
