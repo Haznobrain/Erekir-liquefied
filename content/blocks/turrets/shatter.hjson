@@ -1,61 +1,87 @@
 name: shatter
 recoil: 0
   type: ItemTurret
-dexcription: shoots powerful fragmentary anti-air bullets.
+dexcription: Shoots tungsten bolts that weaken and pierce ennemy air unit's armors.
   size: 5
-  reload: 3
+  reload: 10
   inaccuracy: 20
   range: 384
-      shootEffect: shootBig
   shootSound: shootBig
   targetGround: false
 velocityRnd: 0.5
 targetAir: true
+shoot: {
+  type: ShootAlternate
+  spread: 5
+  shots: 3
+  barrels: 3
+    }
   ammoTypes: {
     tungsten: {
-      ammoMultiplier: 4
-      damage: 40
-      hitEffect: hitBulletBig
-      height: 40
-      width: 30
-      speed: 6
+      type: BasicBulletType
+      damage: 90
+      speed: 12
+      lifetime: 34
+      width: 16
+      height: 16
+      shrinkY: 0.3
+      backSprite: large-bomb-back
+      sprite: mine-bullet
+      velocityRnd: 0.09
       collidesGround: false
-      lifetime: 64
-      fragBullets: 2
-      homingPower: 0.1
-          fragBullet: {
-            collidesGround: false
-            damage: 50
-            homingPower: 1
-            speed: 6
-            lifetime: 60
-            fragRandomSPread: 0
-            fragBullets: 1
-                fragBullet: { 
-                    colors: [ffffff, a6a9b2, 818181]
-                    collidesGround: false
-                    type: LaserBulletType
-                    damage: 45
-                    length: 80
-                    width: 16
-                  }
+      collidesTiles: false
+      shootEffect: shootBig2
+      smokeEffect: shootSmokeDisperse
+      frontColor: ffffff
+      backColor: 5dade2
+      trailColor: 5dade2
+      hitColor: 5dade2
+      trailChance: 0.44
+      ammoMultiplier: 3
+      rotationOffset: 90
+      trailRotation: true
+      trailEffect: disperseTrail
+      hitEffect: {
+        type: ParticleEffect
+        particles: 6
+        colorTo: 00000000
+        region: erekirliquefied-metalfrag
+        cone: -60
+        length: 20
+        lifetime: 90
+        interp: pow10Out
+        sizeInterp: pow5In
             }
+      pierceArmor: true
+      status: erekirliquefied-metalfrag
+      statusDuration: 1200
+}    
 }
-}
-drawer: [ 
-{
+drawer:{
 type: DrawTurret
 parts: [
 {
 type: RegionPart
-  suffix: -mid
+heatColor: 5dade2dd
+heatProgress: warmup
+progress: warmup
+moveRot: 8
+mirror: true
+under: true
+}
+{
+type: RegionPart
+  suffix: -barrel
   progress: recoil
   under: false
-  moveY: -12
+  moveY: -4
+  heatColor: 5dade2dd
+  heatProgress: warmup
+  moveY: 1
+  moveX: 1.5
 }
 ]
 }
-]
 requirements: [
   tungsten/800
   phase-fabric/300
@@ -69,5 +95,12 @@ coolant: {
   amount: 0.5
 }
 category: turret
-research: smite
-research: origin
+research: {
+  parent: smite
+  objectives: [
+    {
+    preset: origin
+    type: OnSector
+    }
+      ]
+    }
