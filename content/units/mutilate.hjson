@@ -27,6 +27,9 @@ y: 0
 radius: 8
 }
 ]
+immunities:  [
+  erekirliquefied-metalfrag
+  ]
   weapons: [
 {
     name: mutilate
@@ -72,13 +75,13 @@ shotDelay: 3
       particles: 1
       length: 0
       sizeFrom: 2
-      colorFrom: ffca3e
-      colorTo: ffca3e
-      lightColor: ff9e00
+      colorFrom: e58956
+      colorTo: e58956
+      lightColor: e58956
       layer: 120
       followParent: true
         }
-    shootEffect: {
+    smokeEffect: {
       type: ParticleEffect
       particles: 8
       length: 12
