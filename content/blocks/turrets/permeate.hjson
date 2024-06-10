@@ -13,7 +13,7 @@ category: turret
 recoil: 5
 rotateSpeed: 0.8
 shootSound: plasmaCannon
-shootY: 24
+shootY: 16
 ammoTypes: {
   impervium-alloy: {
       type: BasicBulletType
@@ -29,7 +29,7 @@ ammoTypes: {
       colorTo: 69ffe0
       sizeFrom: 6
       cone: 30
-              interp: circleOut
+              interp: pow10Out
               sizeInterp: pow5In
     }
     {
@@ -84,7 +84,7 @@ ammoTypes: {
       strokeFrom: 4
       strokeTo: 0
       lifetime: 30
-      interp: circleOut
+      interp: pow10Out
       sizeInterp: pow5In
         }
     despawnEffect: none
@@ -157,6 +157,18 @@ ammoTypes: {
       height: 16
       hitSize: 16
       hitColor: 69ffe0
+      trailEffect: {
+        type: ParticleEffect
+        particles: 5
+        sizeFrom: 6
+        sizeTo: 0
+        length: 20
+        lifetime: 70
+        colorFrom: 69ffe0
+        colorTo: 69ffe0
+        interp: pow10Out
+        sizeInterp: pow5In
+            }
       hitEffect: {
         type: MultiEffect
         effects: [hitSquaresColor, 
@@ -178,11 +190,28 @@ type: DrawTurret
 {
 type: RegionPart
 suffix: -barrel
-moveRot: -15
+moveRot: -5
 mirror: true
 moveY: -5
-progress: recoil
-heatProgress: warmup
+progress: warmup
+moves: [
+  {
+  type: PartMove
+  rot: -10
+  progress: recoil
+  }
+    ]
+heatProgress: recoil
+children: [
+  {
+  type: RegionPart
+  colorFrom: 69ffe000
+  colorTo: 69ffe066
+  outline: false
+  progress: warmup
+  suffix: -barrel-glow
+  }
+  ]
 }
 {
 type: RegionPart
@@ -198,12 +227,23 @@ moves: [
   ]
 progress: recoil
 heatProgress: warmup
+heatColor: 69ffe066
 }
 {
 type: RegionPart
 suffix: -hitter
 moveY: 5
 progress: recoil
+children: [
+{
+type: RegionPart
+colorFrom: 69ffe000
+colorTo: 69ffe0
+progress: warmup
+suffix: -hitter-glow
+outline: false
+}
+]
 }
 {
 type: ShapePart
@@ -213,7 +253,71 @@ progress: recoil
 color: 69ffe0
 layer: 110
 circle: true
-y: 24
+y: 16
+}
+{
+type: ShapePart
+hollow: true
+y: -40
+radius: 0
+radiusTo: 16
+stroke: 0
+strokeTo: 3
+color: 69ffe0
+layer: 110
+circle: true
+}
+{
+type: ShapePart
+hollow: true
+y: -40
+sides: 3
+radius: 0
+radiusTo: 15
+stroke: 0
+strokeTo: 2
+color: 69ffe0
+layer: 110
+}
+{
+type: FlarePart
+layer: 110
+sides: 4
+spinSpeed: 3
+radius: 0
+radiusTo: 24
+color1: 69ffe0
+progress: warmup
+}
+{
+type: FlarePart
+layer: 110
+sides: 8
+spinSpeed: 3
+radius: 0
+radiusTo: 28
+color1: 69ffe0
+progress: warmup
+}
+{
+type: FlarePart
+layer: 110
+sides: 2
+spinSpeed: 6
+radius: 0
+radiusTo: 32
+color1: 69ffe0
+progress: warmup
+}
+{
+type: FlarePart
+layer: 110
+sides: 2
+spinSpeed: 6
+radius: 0
+radiusTo: 32
+color1: 69ffe0
+progress: warmup
 }
   ]
 }
