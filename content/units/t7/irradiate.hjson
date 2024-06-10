@@ -34,7 +34,7 @@ rippleScale: 0.8
 immunities: [
 burning,
 melting,
-ionized
+erekirliquefied-ionized
 ]
 parts: [
 {
