@@ -17,13 +17,13 @@ shoot: {
   type: ShootMulti
   source: {
     type: ShootAlternate
-    spread: 3
-    shots: 5
+    spread: 4
+    shots: 1
     barrels: 5
   }
   dest: [
     {
-      shots: 4
+      shots: 20
       shotDelay: 3
     }
   ]
