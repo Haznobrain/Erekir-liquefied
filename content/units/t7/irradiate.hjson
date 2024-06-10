@@ -33,7 +33,8 @@ baseLegStraightness: 0.5
 rippleScale: 0.8
 immunities: [
 burning,
-melting
+melting,
+ionized
 ]
 parts: [
 {
