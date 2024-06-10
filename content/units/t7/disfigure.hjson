@@ -16,6 +16,9 @@ fallSpeed: 0.002
 engineOffset: 58
 engineSize: 18
 lowAltitude: true
+immunities: [
+erekirliquefied-metalfrag
+]
   weapons: [
 {
     name: disfigure
