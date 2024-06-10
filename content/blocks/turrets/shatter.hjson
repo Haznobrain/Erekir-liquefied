@@ -10,6 +10,8 @@ dexcription: Shoots tungsten bolts that weaken and pierces ennemy air unit's arm
   targetGround: false
 velocityRnd: 0.5
 targetAir: true
+minWarmup: 0.97
+shootWarmupSpeed: 0.06
 shoot: {
   type: ShootAlternate
   spread: 7
