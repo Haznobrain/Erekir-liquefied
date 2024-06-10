@@ -33,7 +33,8 @@ legGroupSize: 2
 rippleScale: 1.2
 immunities: [
 burning,
-melting
+melting,
+erekirliquefied-ionize
 ]
 weapons: [
 {
