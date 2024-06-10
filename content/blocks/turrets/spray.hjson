@@ -19,6 +19,7 @@ shoot: {
     type: ShootAlternate
     spread: 3
     shots: 5
+    barrels: 5
   }
   dest: [
     {
