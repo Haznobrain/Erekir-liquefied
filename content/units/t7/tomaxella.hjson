@@ -16,6 +16,9 @@ engineOffset: 50
 engineSize: 18
 drag: 0.016
 accel: 0.04
+immunities: [
+  erekirliquefied-metalfrag
+  ]
 engines: [
 {
 x: -20
