@@ -17,6 +17,9 @@ singleTarget: false
 fogRadius: 60
 engineSize: 10
 engineOffset: 36
+immunities: [
+erekirliquefied-metalfrag
+]
 engines: [
 {
 y: -30
