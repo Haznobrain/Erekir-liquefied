@@ -28,6 +28,9 @@ rippleScale: 0.2
 legMoveSpace: 1
 allowLegStep: true
 legPhysicsLayer: false
+immunities: [
+  erekirliquefied-oxidized
+    ]
 weapons: [
 {
   name: oxidize
