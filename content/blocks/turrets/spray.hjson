@@ -17,7 +17,7 @@ shoot: {
   type: ShootMulti
   source: {
     type: ShootAlternate
-    spread: 4
+    spread: 5
     shots: 1
     barrels: 5
   }
