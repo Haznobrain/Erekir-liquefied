@@ -74,6 +74,8 @@ moveRot: 8
 mirror: true
 under: true
 suffix: -side
+moveY: 1
+moveX: 1.5
 }
 {
 type: RegionPart
@@ -83,8 +85,6 @@ type: RegionPart
   moveY: -4
   heatColor: 5dade2dd
   heatProgress: warmup
-  moveY: 1
-  moveX: 1.5
 }
 ]
 }
