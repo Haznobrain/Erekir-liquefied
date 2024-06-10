@@ -212,35 +212,35 @@ drawer: {
             suffix: -barrel3
             moveY: -4
             progress: recoil
-            recoilIndex: 2
+            recoilIndex: 3
             }
             {
             type: RegionPart
             suffix: -barrel2
             moveY: -4
             progress: recoil
-            recoilIndex: 1
+            recoilIndex: 2
             }
             {
             type: RegionPart
             suffix: -barrel4
             moveY: -4
             progress: recoil
-            recoilIndex: 3
+            recoilIndex: 4
             }
             {
             type: RegionPart
             suffix: -barrel5
             moveY: -4
             progress: recoil
-            recoilIndex: 4
+            recoilIndex: 0
             }
             {
             type: RegionPart
             suffix: -barrel1
             moveY: -4
             progress: recoil
-            recoilIndex: 0
+            recoilIndex: 1
             }
             {
             type: RegionPart
