@@ -31,7 +31,7 @@ research: {
       objectives: [
       {
       type: OnSector
-      preset: erekir-junction
+      preset: chasm
       }
                 ]
 }
