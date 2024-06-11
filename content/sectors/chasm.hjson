@@ -1,0 +1,14 @@
+{
+localizedName: Chasm
+description: A deep ravine through wich a small amount of ennemy units go.
+sector: 87
+difficulty: 4
+planet: erekir
+allowLaunchLoadout: false
+allowLaunchSchematics: false
+addStartingItems: true
+overrideLaunchDefaults: true
+research: {
+parent: aegis
+}
+}
