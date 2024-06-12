@@ -1,7 +1,7 @@
 {
 localizedName: Magmatic Sinkhole
-description: A massive lava tube caved in here, revealing a base from an unknown ennemy. research the naval refabricator and #ffff00ff deinoco units to crack the small fortress.
-sector: 42
+description: A massive lava tube caved in here, revealing a base from an unknown ennemy. research the naval refabricator and deinoco units to crack the small fortress.
+sector: 44
 difficulty: 4
 planet: erekir
 allowLaunchLoadout: false
