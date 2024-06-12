@@ -1,18 +1,14 @@
-{
+{  
 localizedName: Slag River
 description: The river feeding into the slag lake of a nearby sector has a small ennemy base. Another stronghold from an unknown team has been detected, however it has no unit production capabilities and shouldn't be a threat.
 sector: 42
-difficulty: 4
+difficulty: 2
 planet: erekir
 allowLaunchLoadout: false
 allowLaunchSchematics: false
 addStartingItems: true
 overrideLaunchDefaults: true
 research: {
-parent: stronghold
-  objectives: [
-      naval-fabricator,
-      stream,
-        ]
+parent: lake
 }
 }
