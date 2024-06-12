@@ -9,7 +9,7 @@ allowLaunchSchematics: false
 addStartingItems: true
 overrideLaunchDefaults: true
 research: {
-parent: stronghold
+parent: caldera
   objectives: [
       naval-fabricator,
       stream,
