@@ -2,7 +2,7 @@
 localizedName: Chasm
 description: A deep ravine through wich a small amount of ennemy units go.
 sector: 87
-captureWave: 15
+captureWave: 16
 difficulty: 4
 planet: erekir
 allowLaunchLoadout: false
