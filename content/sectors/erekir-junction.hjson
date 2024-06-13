@@ -2,6 +2,7 @@
 localizedName: Junction
 description: The intersection beetween two small ravines. A small malis production outpost has been detected here along with the passage of units from an unknown team.
 sector: 11
+captureWave: 15
 difficulty: 3
 planet: erekir
 allowLaunchLoadout: false
