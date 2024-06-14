@@ -1,7 +1,7 @@
 type: Item
 color: 1dedc2
-name: Impervium alloy
-description: A super strong alloy, some say dropping a piece of it causes an earthquake.
+name: Warped Polymer Fabric
+description: Very strong fabric with weird properties.
 explosiveness: 0
 flammability: 0
 radioactivity: 0
