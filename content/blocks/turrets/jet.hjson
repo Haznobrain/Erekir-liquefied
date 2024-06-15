@@ -18,6 +18,7 @@ loopSound: none
 shootSound: mediumCannon
 ammoTypes: {
  slag: {
+      buildingDamageMultiplier: 0.01
     type: BasicBulletType
     sprite: large-orb
     shrinkY: 1
@@ -45,6 +46,7 @@ ammoTypes: {
     intervalRandomSpread: 0
     intervalSpread: 90
     intervalBullet: {
+      buildingDamageMultiplier: 0.01
       type: LiquidBulletType
       despawnHit: true
       liquid: slag
@@ -60,6 +62,7 @@ ammoTypes: {
  ozone: {
     type: BasicBulletType
     sprite: large-orb
+      buildingDamageMultiplier: 0.01
     trailEffect: missileTrail
     trailColor: ffcbdd
     shrinkY: 1
@@ -84,6 +87,7 @@ ammoTypes: {
     intervalRandomSpread: 0
     intervalSpread: 90
     intervalBullet: {
+      buildingDamageMultiplier: 0.01
       type: LiquidBulletType
      status: blasted
      buildingDamageMultiplier: 0.1
@@ -100,6 +104,7 @@ ammoTypes: {
  hydrogen: {
     type: BasicBulletType
     sprite: large-orb
+      buildingDamageMultiplier: 0.01
     trailEffect: missileTrail
     trailColor: d1efff
     shrinkY: 1
@@ -124,6 +129,7 @@ ammoTypes: {
     intervalRandomSpread: 0
     intervalSpread: 90
     intervalBullet: {
+      buildingDamageMultiplier: 0.01
       type: LiquidBulletType
      status: burning
       liquid: hydrogen
@@ -147,6 +153,7 @@ ammoTypes: {
     shrinkX: 1
     backColor: 88a4ff
     lifetime: 56
+      buildingDamageMultiplier: 0.01
     speed: 5
     knockback: 1.6
     puddleSize: 25
@@ -171,6 +178,7 @@ ammoTypes: {
       damage: 0.5
       knockback: 1.2
       lifetime: 60
+      buildingDamageMultiplier: 0.01
      buildingDamageMultiplier: 0.1
       speed: 2
       orbSize: 6
@@ -185,6 +193,7 @@ ammoTypes: {
     trailInterval: 3
     trailColor: d7d7d7
     backColor: d7d7d7
+      buildingDamageMultiplier: 0.01
     lifetime: 56
     speed: 5
     knockback: 1.6
@@ -209,6 +218,7 @@ ammoTypes: {
      buildingDamageMultiplier: 0.1
       boilTime: 60
       damage: 15
+      buildingDamageMultiplier: 0.01
       knockback: 1.2
       lifetime: 60
       despawnHit: true
@@ -228,6 +238,7 @@ ammoTypes: {
     lifetime: 56
     speed: 5
     knockback: 1.6
+      buildingDamageMultiplier: 0.01
     puddleSize: 25
     height: 12
     width: 12
@@ -244,6 +255,7 @@ ammoTypes: {
     intervalSpread: 90
     intervalBullet: {
       type: LiquidBulletType
+      buildingDamageMultiplier: 0.01
      status: burning
       liquid: cyanogen
       boilTime: 60
@@ -261,6 +273,7 @@ ammoTypes: {
     sprite: large-orb
     shrinkY: 1
     shrinkX: 1
+      buildingDamageMultiplier: 0.01
     trailEffect: missileTrail
     trailInterval: 3
     trailColor: 82a467
@@ -286,6 +299,7 @@ ammoTypes: {
       type: LightningBulletType
       lightningColor: 82a467
       damage: 10
+      buildingDamageMultiplier: 0.01
      buildingDamageMultiplier: 0.1
       lifetime: 12
        }
@@ -298,6 +312,7 @@ ammoTypes: {
     trailEffect: missileTrail
     trailInterval: 3
     trailColor: eea666
+      buildingDamageMultiplier: 0.01
     backColor: eea666
     lifetime: 56
     speed: 5
@@ -322,6 +337,7 @@ ammoTypes: {
      status: tarred
       liquid: neoplasm
       puddleSize: 12
+      buildingDamageMultiplier: 0.01
       boilTime: 60
      buildingDamageMultiplier: 0.1
       damage: 25
@@ -339,6 +355,7 @@ ammoTypes: {
     trailEffect: missileTrail
     trailInterval: 3
     trailColor: 567148
+      buildingDamageMultiplier: 0.01
     backColor: 567148
     lifetime: 56
     speed: 5
@@ -362,6 +379,7 @@ ammoTypes: {
      status: shocked
       liquid: azpanogen
       boilTime: 60
+      buildingDamageMultiplier: 0.01
      buildingDamageMultiplier: 0.1
       damage: 10
       despawnHit: true
