@@ -51,6 +51,7 @@ ammoTypes: {
     trailWidth: 3
     trailColor: 69ffe0
     trailInterval: 12
+      buildingDamageMultiplier: 0.01
     trailEffect: {
       type: MultiEffect
     effects: [
@@ -96,6 +97,7 @@ ammoTypes: {
     pierceBuildings: true
     intervalBullet: {
       type: LightningBulletType
+      buildingDamageMultiplier: 0.01
       damage: 45
       lightningLength: 6
       lightningLengthRand: 1
@@ -122,6 +124,7 @@ ammoTypes: {
     buildingDamageMultiplier: 0.00000001
       fragBullet: {
         type: EmpBulletType
+      buildingDamageMultiplier: 0.01
         pierce: true
         pierceBuilding: true
         buildingDamageMultiplier: 0.1
@@ -150,6 +153,7 @@ ammoTypes: {
           lifetime: 12
           hitSound: spark
           despawnHit: true
+      buildingDamageMultiplier: 0.01
               }
       shrinkX: 0
       shrinkY: 0
