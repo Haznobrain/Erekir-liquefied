@@ -16,6 +16,7 @@ despawnHit: true
 shootY: 24
   ammoTypes:{
     ozone: {
+      buildingDamageMultiplier: 0.01
         type: ArtilleryBulletType
         speed: 3
         lifetime: 64
@@ -35,6 +36,7 @@ shootY: 24
         splashDamage: 60
         splashDamageRadius: 40
         fragBullet: {
+      buildingDamageMultiplier: 0.01
          type: ArtilleryBulletType
         speed: 1
         damage: 0
@@ -55,6 +57,7 @@ shootY: 24
         puddleLiquid: oil
         puddleAmount: 10
         fragBullet: {
+      buildingDamageMultiplier: 0.01
         type: ArtilleryBulletType
         speed: 0.8
         lifetime: 20
@@ -77,6 +80,7 @@ shootY: 24
 }
 }
     hydrogen: {
+      buildingDamageMultiplier: 0.01
         type: ArtilleryBulletType
         speed: 3
         lifetime: 64
@@ -100,6 +104,7 @@ shootY: 24
         speed: 1
         puddles: 1
         damage: 0
+      buildingDamageMultiplier: 0.01
         splashDamage: 0
         shrinkInterp: slope
         fragBullets: 1
@@ -131,6 +136,7 @@ shootY: 24
         trailColor: d1efff
         hitEffect: massiveExplosion
         splashDamage: 10
+      buildingDamageMultiplier: 0.01
         splashDamageRadius: 10
         puddleLiquid: slag
         puddleAmount: 10
@@ -138,6 +144,7 @@ shootY: 24
 }
 }
    cyanogen: {
+      buildingDamageMultiplier: 0.01
         type: ArtilleryBulletType
         speed: 3
         lifetime: 64
@@ -157,6 +164,7 @@ shootY: 24
         splashDamageRadius: 60
         hitEffect: massiveExplosion
         fragBullet: {
+      buildingDamageMultiplier: 0.01
          type: ArtilleryBulletType
         hitEffect: massiveExplosion
         speed: 1
@@ -177,6 +185,7 @@ shootY: 24
         puddleLiquid: oil
         puddleAmount: 20
         fragBullet: {
+      buildingDamageMultiplier: 0.01
         type: ArtilleryBulletType
         hitEffect: massiveExplosion
         speed: 0.8
@@ -201,6 +210,7 @@ shootY: 24
    azpanogen: {
         type: ArtilleryBulletType
         speed: 3
+      buildingDamageMultiplier: 0.01
         lifetime: 64
         damage: 0
         splashDamage: 0
@@ -223,6 +233,7 @@ shootY: 24
         hitEffect: massiveExplosion
         speed: 1
         damage: 0
+      buildingDamageMultiplier: 0.01
         splashDamage: 0
         puddles: 1
         shrinkInterp: slope
@@ -246,6 +257,7 @@ shootY: 24
         lifetime: 20
         damage: 0
         splashDamage: 0
+      buildingDamageMultiplier: 0.01
         shrinkInterp: slope
         trailInterp: slope
         puddles: 1
