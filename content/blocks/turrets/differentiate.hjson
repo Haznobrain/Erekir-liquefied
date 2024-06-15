@@ -41,6 +41,7 @@ ammoTypes: {
     width: 12
     speed: 5
     lifetime: 56
+      buildingDamageMultiplier: 0.01
       }
 tungsten: {
     type: BasicBulletType
@@ -53,6 +54,7 @@ tungsten: {
     damage: 0
     ammoMultiplier: 3
     shootEffect: shootBig
+      buildingDamageMultiplier: 0.01
     fragBullet: {
       lifetime: 28
       speed: 5
@@ -72,6 +74,7 @@ tungsten: {
       damage: 65
       splashDamage: 35
       splashDamageRadius: 12
+      buildingDamageMultiplier: 0.01
       hitEffect: {
         type: ExplosionEffect
         waveColor: aaadb7
@@ -101,6 +104,7 @@ graphite: {
     frontColor: ffffff
     backColor: 818181
     trailColor: 818181
+      buildingDamageMultiplier: 0.01
 }
 silicon: {
     shootEffect: shootBig
@@ -118,6 +122,7 @@ silicon: {
     backColor: 7b7b7b
     frontColor: ffffff
     trailWidth: 3
+      buildingDamageMultiplier: 0.01
     trailLength: 14
     trailColor: 7b7b7b
     reloadMultiplier: 1.25
@@ -143,6 +148,7 @@ oxide: {
   damage: 0
   shootEffect: thoriumShoot
   shootColor: 82a467
+      buildingDamageMultiplier: 0.01
   rangeChange: -180
   fragBullets: 3
   fragRandomSpread: 0
@@ -179,6 +185,7 @@ surge-alloy: {
   lightningDelay: 0.05
   lightningDamage: 30
   lightningLength: 4
+      buildingDamageMultiplier: 0.01
   lightningLengthRand: 8
   lightningColor: ffcd66
   lightningAngleRand: 15
@@ -192,6 +199,7 @@ thorium: {
   type: PointBulletType
   reloadMultiplier: 0.5
   rangeChange: 160
+      buildingDamageMultiplier: 0.01
   splashDamage: 350
   splashDamageRadius: 40
   hitEffect: {
@@ -228,6 +236,7 @@ phase-fabric: {
   rangeChange: 280
   type: RailBulletType
   damage: 350
+      buildingDamageMultiplier: 0.01
   shootEffect: {
     type: MultiEffect
     effects: [
@@ -333,9 +342,11 @@ azpacite: {
   rangeChange: -80
   lightningColor: 82a467
   homingPower: 0.1
+      buildingDamageMultiplier: 0.01
 }
 cesium: {
     type: MissileBulletType
+      buildingDamageMultiplier: 0.01
     damage: 45
     splashDamage: 60
     splashDamageRadius: 48
@@ -364,6 +375,7 @@ cesium: {
     fragRandomSpread: 0
     fragBullet: {
       type: MissileBulletType
+      buildingDamageMultiplier: 0.01
       damage: 45
       splashDamage: 60
       splashDamageRadius: 48
@@ -394,6 +406,7 @@ cesium: {
             pierce: true
             splashDamage: 60
             splashDamageRadius: 48
+      buildingDamageMultiplier: 0.01
             pierceBuilding: true
             pierceCap: 8
             sprite: missile-large
@@ -432,6 +445,7 @@ type: MissileBulletType
     pierce: true
     rangeChange: 200
     pierceBuilding: true
+      buildingDamageMultiplier: 0.01
     sprite: missile-large
     shootEffect: {
     type: MultiEffect
@@ -480,6 +494,7 @@ type: MissileBulletType
     lightningColor: ffbc4a
     fragBullet: {
         type: MissileBulletType
+      buildingDamageMultiplier: 0.01
         reloadMultiplier: 0.2
         damage: 65
         homingPower: 0.5
