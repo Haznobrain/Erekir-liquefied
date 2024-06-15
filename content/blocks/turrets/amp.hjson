@@ -17,6 +17,7 @@ type: LaserBulletType
   length: 432
   width: 16
   damage: 95
+  buildingDamageMultiplier: 0.01
 }
 requirements: [
 beryllium/350
