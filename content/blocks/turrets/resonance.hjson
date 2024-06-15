@@ -38,6 +38,7 @@ ammoTypes: {
         length: 20
         interp: slope
         hitEffect: massiveExplosion
+      buildingDamageMultiplier: 0.01
         despawnEffect: {
                 type: WaveEffect
                 sides: 8
@@ -66,6 +67,7 @@ ammoTypes: {
         trailInterp: slope
         trailColor: 48cef9
         backColor: 48cef9
+      buildingDamageMultiplier: 0.01
         sprite: erekirliquefied-bullet-resonance
         frontColor: 81d9f5
         width: 12
@@ -130,6 +132,7 @@ ammoTypes: {
         pierce: true
         damage: 480
         hitSound: bang
+      buildingDamageMultiplier: 0.01
         despawnHit: true
         trailLength: 480
         trailInterp: slope
@@ -160,6 +163,7 @@ ammoTypes: {
         trailWidth: 16
         speed: 6
         lifetime: 80
+      buildingDamageMultiplier: 0.01
         pierce: false
         damage: 480
         splashDamage: 800
