@@ -34,7 +34,8 @@ shootType: {
     lifetime: 300
     bulletInterval: 5
     largeHit: true
-    intervalRandomSpread: 170
+    intervalRandomSpread: 20
+      buildingDamageMultiplier: 0.01
     intervalBullet: {
       type: LightningBulletType
       lightningLength: 45
