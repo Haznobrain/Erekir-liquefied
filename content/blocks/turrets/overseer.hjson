@@ -23,6 +23,7 @@ soundPitchMin: 1
 ammoTypes: {
 impervium-alloy: {
 type: LaserBulletType
+      buildingDamageMultiplier: 0.01
 lifetime: 65
 damage: 14500
 shake: 30
@@ -102,6 +103,7 @@ lightningDamage: 7000
 }
 lightningType: {
   type: LaserBulletType
+      buildingDamageMultiplier: 0.01
   damage: 7000
   colors: [06060cff, 15151fff, 888888ff]
   lifetime: 1.1
