@@ -146,6 +146,7 @@ ammoTypes: {
       shrinkY: 0
       shrinkX: 0.8
       backColor: c6eeff
+      buildingDamageMultiplier: 0.01
       trailColor: c6eeff
       trailLength: 320
       hitEffect: {
