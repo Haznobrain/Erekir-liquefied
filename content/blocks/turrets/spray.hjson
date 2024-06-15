@@ -41,6 +41,7 @@ ammoTypes: {
     trailwidth: 8
     trailParam: 2.2
     puddleLiquid: ozone
+      buildingDamageMultiplier: 0.01
     damage: 8
     splashDamage: 45
     splashDamageRadius: 40
@@ -67,6 +68,7 @@ ammoTypes: {
     backColor: d1efff
     speed: 4.6
     knockback: 0.3
+      buildingDamageMultiplier: 0.01
     lifetime: 68
     puddleSize: 32
     puddleLiquid: hydrogen
@@ -99,6 +101,7 @@ ammoTypes: {
 nitrogen: {
     type: MissileBulletType
     backColor: d1efff
+      buildingDamageMultiplier: 0.01
     speed: 4.6
     knockback: 0.3
     lifetime: 68
@@ -133,6 +136,7 @@ cyanogen: {
     knockback: 0.6
     lifetime: 68
     puddleSize: 32
+      buildingDamageMultiplier: 0.01
     trailColor: aef7e8
     trailLength: 60
     trailwidth: 8
@@ -167,6 +171,7 @@ azpanogen: {
     lifetime: 68
     puddleSize: 32
     trailColor: 82a467
+      buildingDamageMultiplier: 0.01
     trailLength: 60
     trailwidth: 8
     trailParam: 2.2
