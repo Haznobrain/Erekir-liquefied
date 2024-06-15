@@ -38,6 +38,7 @@ shootType: {
       buildingDamageMultiplier: 0.01
     intervalBullet: {
       type: LightningBulletType
+      buildingDamageMultiplier: 0.01
       lightningLength: 45
       lightningColor: ff8632
       damage: 60
