@@ -28,6 +28,7 @@ ammoTypes: {
       hitEffect: none
       despawnEffect: none
       damage: 90
+      buildingDamageMultiplier: 0.01
       spawnBullets: [
         {
           type: BulletType
@@ -45,6 +46,7 @@ ammoTypes: {
           fragBullets: 1
           fragBullet: {
             type: FlakBulletType
+      buildingDamageMultiplier: 0.01
             damage: 90
             collidesGround: true
             fragAngle: 0
@@ -85,6 +87,7 @@ ammoTypes: {
             lightning: 1
             fragBullet: {
               type: LaserBulletType
+      buildingDamageMultiplier: 0.01
               damage: 110
               colors: [ccfccf, d8fcff, ffffff]
               length: 20
@@ -150,6 +153,7 @@ ammoTypes: {
             lightning: 1
             fragBullet: {
               type: LaserBulletType
+      buildingDamageMultiplier: 0.01
               damage: 110
               colors: [ccfccf, d8fcff, ffffff]
               length: 40
@@ -217,6 +221,7 @@ ammoTypes: {
               type: LaserBulletType
               damage: 110
               colors: [ccfccf, d8fcff, ffffff]
+      buildingDamageMultiplier: 0.01
               length: 60
               sideLength: 15
               sideAngle: 135
@@ -282,6 +287,7 @@ ammoTypes: {
               type: LaserBulletType
               lifetime: 60
               damage: 110
+      buildingDamageMultiplier: 0.01
               colors: [ccfccf, d8fcff, ffffff]
               length: 80
               sideLength: 20
@@ -351,6 +357,7 @@ ammoTypes: {
               sideLength: 25
               sideAngle: 135
               lifetime: 60
+      buildingDamageMultiplier: 0.01
               }
             }
           }
@@ -413,6 +420,7 @@ ammoTypes: {
               damage: 110
               colors: [ccfccf, d8fcff, ffffff]
               length: 120
+      buildingDamageMultiplier: 0.01
               sideLength: 30
               sideAngle: 135
               lifetime: 60
@@ -479,6 +487,7 @@ ammoTypes: {
               lifetime: 60
               colors: [ccfccf, d8fcff, ffffff]
               length: 140
+      buildingDamageMultiplier: 0.01
               sideLength: 35
               sideAngle: 135
               }
@@ -543,6 +552,7 @@ ammoTypes: {
               damage: 110
               colors: [ccfccf, d8fcff, ffffff]
               length: 160
+      buildingDamageMultiplier: 0.01
               lifetime: 60
               sideLength: 40
               sideAngle: 135
@@ -611,6 +621,7 @@ ammoTypes: {
               sideLength: 45
               lifetime: 60
               sideAngle: 135
+      buildingDamageMultiplier: 0.01
               }
             }
           }
@@ -675,6 +686,7 @@ ammoTypes: {
               length: 200
               sideLength: 50
               sideAngle: 135
+      buildingDamageMultiplier: 0.01
               lifetime: 60
               }
             }
