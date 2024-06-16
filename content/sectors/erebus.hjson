@@ -1,7 +1,7 @@
 {
 localizedName: Erebus
 description: A stalemate beetween an ancient team's stronghold and a malis base. End it and take the sector's plentiful ressources.
-sector: 15
+sector: 13
 difficulty: 6
 planet: erekir
 allowLaunchLoadout: false
