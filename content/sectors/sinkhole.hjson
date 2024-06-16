@@ -9,7 +9,7 @@ allowLaunchSchematics: false
 addStartingItems: true
 overrideLaunchDefaults: true
 research: {
-parent: caldera
+parent: caldera-erekir
   objectives: [
       naval-fabricator,
       stream,
