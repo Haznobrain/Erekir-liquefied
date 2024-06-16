@@ -58,21 +58,7 @@ weapons: [
     interp: pow10Out
     sizeInterp: pow5In
 }
-    hitEffect: {
-      type: ParticleEffect
-      particles: 1
-      length: 0
-      cone: 10
-      line: true
-      lifetime: 30
-      lengthFrom: 6
-      lengthTo: 6
-      strokeFrom: 1
-      strokeTo: 0
-      colorFrom: ffdf62
-      colorTo: ffdf62
-      rotWithParent: true
-}
+    hitEffect: hitFlameSmall
     despawnEffect: {
       type: ParticleEffect
       particles: 0
