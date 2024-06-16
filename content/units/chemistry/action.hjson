@@ -79,6 +79,8 @@ shoot: {
           colorTo: ffe995
           colorFrom: ffe995
           cone: 25
+          interp: pow10Out
+          sizeInterp: pow5In
         }
         smokeEffect: {
           type: ParticleEffect
@@ -87,6 +89,8 @@ shoot: {
           colorTo: ffe995
           length: 20
           cone: 25
+          interp: pow10Out
+          sizeInterp: pow5In
         }
         damage: 35
         makeFire: true
