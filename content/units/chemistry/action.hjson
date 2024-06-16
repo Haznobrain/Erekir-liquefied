@@ -79,7 +79,7 @@ shoot: {
           colorTo: ffe995
           colorFrom: ffe995
           cone: 25
-          interp: pow10Out
+          interp: circleOut
           sizeInterp: pow5In
         }
         smokeEffect: {
@@ -89,7 +89,7 @@ shoot: {
           colorTo: ffe995
           length: 20
           cone: 25
-          interp: pow10Out
+          interp: circleOut
           sizeInterp: pow5In
         }
         damage: 35
