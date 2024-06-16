@@ -45,6 +45,7 @@ weapons: [
     shotDelay: 2
 }
   bullet: {
+  parentizeEffects: true
   shootEffect: {
     cone: 5
     type: ParticleEffect
@@ -70,6 +71,7 @@ weapons: [
       strokeTo: 0
       colorFrom: ffdf62
       colorTo: ffdf62
+      rotWithParent: true
 }
     despawnEffect: {
       type: ParticleEffect
