@@ -28,11 +28,10 @@ shootEffect: {
           particles: 12
           cone: 20
           length: 40
-          lengthFrom: 12
+          baseLength: 12
           }
 ]
 }
-          
 name: Xerturn
 description: Fires a massive tungsten bolt at the weakest ennemy target it detects. The bullet can't be absorbed by shields and does not pierce buildings. Made to eliminate large groups of small units. Idea from @smiler4 on discord.
 drawer: {
@@ -81,7 +80,7 @@ drawer: {
       stroke: 0
       strokeTo: 1
       radius: 5
-      bloom: true
+      layer: 110
     }
     {
       type: ShapePart
@@ -94,7 +93,7 @@ drawer: {
       strokeTo: 1
       rotateSpeed: 2
       radius: 4.5
-      bloom: true
+      layer: 110
     }
     {
       type: HaloPart
@@ -105,7 +104,7 @@ drawer: {
       triLength: 0
       triLengthTo: 5
       haloRotateSpeed: 0.8
-      bloom: true
+      layer: 110
       color: c6eeff
     }
     {
@@ -119,6 +118,7 @@ drawer: {
       triLengthTo: 16
       haloRotateSpeed: 0
       haloRotation: 90
+      layer: 110
     }
     {
       type: HaloPart
@@ -132,6 +132,7 @@ drawer: {
       triLengthTo: 5
       haloRotateSpeed: 0
       haloRotation: 90
+      layer: 110
     }
 ]
 }
