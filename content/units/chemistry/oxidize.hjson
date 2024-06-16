@@ -71,6 +71,8 @@ weapons: [
       lengthBase: 0
       particles: 8
       lifetime: 12
+      interp: pow10Out
+      sizeInterp: pow5In
       }
       {
       type: WaveEffect
@@ -91,6 +93,8 @@ despawnEffect: {
   colorTo: aaffa7
   length: 12
   lengthBase: 0
+  interp: pow10Out
+  sizeInterp: pow5In
 }
 shootEffect: {
   type: ParticleEffect
@@ -101,6 +105,8 @@ shootEffect: {
   colorTo: aaffa7
   length: 24
   lengthBase: 0
+  interp: circleOut
+  sizeInterp: pow5In
 }
     despawnHit: false
     trailRotation: true
