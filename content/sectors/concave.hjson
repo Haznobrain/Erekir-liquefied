@@ -1,0 +1,14 @@
+{
+localizedName: Concave
+description: A small ennemy base with a bit of unit production capacity is here.
+sector: 37
+difficulty: 3
+planet: erekir
+allowLaunchLoadout: false
+allowLaunchSchematics: false
+addStartingItems: true
+overrideLaunchDefaults: true
+research: {
+parent: intersect
+}
+}
