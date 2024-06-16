@@ -1,0 +1,18 @@
+{
+localizedName: Fissure
+description: 2 intersecting fault lines have caused a deep depression to open in the ground. A large amount of ennemy units come through here. The afflict turret and surge walls will be required to stand a chance against the later waves.
+sector: 17
+captureWave: 16
+difficulty: 6
+planet: erekir
+allowLaunchLoadout: false
+allowLaunchSchematics: false
+addStartingItems: true
+overrideLaunchDefaults: true
+research: {
+parent: ravine
+objectives: [
+    afflict
+    ]
+}
+}
