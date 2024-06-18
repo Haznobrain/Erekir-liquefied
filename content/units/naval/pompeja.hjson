@@ -38,6 +38,7 @@ shootWarmupSpeed: 0.04
 minWarmup: 0.98
 cooldownTime: 20
 recoilTime: 20
+canAttack: true
 parts: [
     {
     type: RegionPart
@@ -314,7 +315,9 @@ parts: [
         fragVelocityMax: 1
         fragRandomSpread: 10
         keepVelocity: false
-        despawnEffect: none
+        despawnEffect: massiveExplosion
+        splashDamage: 120
+        splashDamageRadius: 60
         damage: 0
         fragBullet: {
           keepVelocity: false
