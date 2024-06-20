@@ -459,6 +459,8 @@ parts: [
     ]
     }
   spawnUnit: disfigure-launcher-missile
+  }
+}
 ]
 lightRadius: 256
 research: quell
