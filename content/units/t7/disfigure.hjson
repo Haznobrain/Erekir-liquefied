@@ -160,6 +160,7 @@ parts: [
   moveRot: -45
   progress: warmup
   moveY: 6
+  moveX: 2
   moves: [
   {
   type: PartMove
@@ -181,6 +182,7 @@ parts: [
   moveRot: -35
   moveY: 0
   progress: warmup
+  moveX: 2
   moves: [
   {
   type: PartMove
@@ -202,6 +204,7 @@ parts: [
   moveRot: -30
   moveY: -6
   progress: warmup
+  moveX: 2
   moves: [
   {
   type: PartMove
@@ -292,6 +295,7 @@ parts: [
   moveRot: -45
   progress: warmup
   moveY: 6
+  moveX: 2
   moves: [
   {
   type: PartMove
@@ -313,6 +317,7 @@ parts: [
   moveRot: -35
   moveY: 0
   progress: warmup
+  moveX: 2
   moves: [
   {
   type: PartMove
@@ -334,6 +339,7 @@ parts: [
   moveRot: -30
   moveY: -6
   progress: warmup
+  moveX: 2
   moves: [
   {
   type: PartMove
@@ -400,6 +406,26 @@ bullet: {
 {
 name: disfigure-launcher
 parts: [
+    {
+    suffix: -blade
+    heatColor: ff0000cc
+    heatProgress: recoil
+    progress: warmup
+    moveY: -4
+    moveRot: -25
+    color: d1efff
+    colorTo: d1efff
+    }
+    {
+    suffix: -blade
+    heatColor: ff0000cc
+    heatProgress: recoil
+    progress: warmup
+    moveY: -4
+    moveRot: -35
+    color: d1efff
+    colorTo: d1efff
+    }
     {
     type: RegionPart
     suffix: -missile
