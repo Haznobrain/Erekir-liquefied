@@ -45,7 +45,7 @@ erekirliquefied-metalfrag
     shootSound: shockblast
     reload: 120
     recoils: 2
-    range: 248
+    range: 328
     shoot: {
       type: ShootBarrel
       barrels: [
@@ -85,7 +85,7 @@ erekirliquefied-metalfrag
     shootEffect: LancerShootSmoke
     bullet: {
       type: RailBulletType
-      length: 248
+      length: 328
       pointEffectSpace: 7
       pierceCap: 8
       pointEffect: {
@@ -132,6 +132,333 @@ erekirliquefied-metalfrag
       hitEffect: massiveExplosion
     }
 }
+{
+name: disfigure-laser
+mirror: true
+shake: 3
+range: 248
+shootSound: plasmadrop
+x: 22
+y: -25
+rotate: true
+rotateSpeed: 1.9
+shootY: 10
+recoil: 4
+reload: 45
+heatColor: ff0000cc
+parts: [
+  {
+  type: RegionPart
+  color: d1efff
+  colorTo: d1efff
+  suffix: -blade
+  heatColor: ff0000cc
+  heatProgress: recoil
+  heatLight: true
+  under: true
+  moveRot: -45
+  progress: warmup
+  moveY: 6
+  moves: [
+  {
+  type: PartMove
+  progress: recoil
+  rot: 45
+  y: -6
+  }
+  ]
+  }
+  {
+  type: RegionPart
+  color: d1efff
+  colorTo: d1efff
+  suffix: -blade
+  heatColor: ff0000cc
+  heatProgress: recoil
+  heatLight: true
+  under: true
+  moveRot: -35
+  moveY: 0
+  progress: warmup
+  moves: [
+  {
+  type: PartMove
+  y: 0
+  rot: 35
+  progress: recoil
+  }
+  ]
+  }
+  {
+  type: RegionPart
+  color: d1efff
+  colorTo: d1efff
+  suffix: -blade
+  heatColor: ff0000cc
+  heatProgress: recoil
+  heatLight: true
+  under: true
+  moveRot: -30
+  moveY: -6
+  progress: warmup
+  moves: [
+  {
+  type: PartMove
+  y: 6
+  progress: recoil
+  rot: 30
+  }
+  ]
+  }
+  ]
+bullet: {
+  type: LaserBulletType
+  colors: [d1efff, e3f5ff, ffffff]
+  laserEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            region: erekirliquefied-lightningrail-1
+            lifetime: 10
+            length: 0
+            sizeFrom: 8
+            sizeTo: 8
+          }
+          {
+            type: ParticleEffect
+            region: erekirliquefied-lightningrail-2
+            lifetime: 10
+            length: 0
+            sizeFrom: 8
+            sizeTo: 8
+            startDelay: 10
+          }
+          {
+            type: ParticleEffect
+            region: erekirliquefied-lightningrail-3
+            lifetime: 10
+            length: 0
+            sizeFrom: 8
+            sizeTo: 8
+            startDelay: 20
+          }
+          {
+            type: ParticleEffect
+            region: erekirliquefied-lightningrail-4
+            lifetime: 10
+            length: 0
+            sizeFrom: 8
+            sizeTo: 8
+            startDelay: 30
+          }
+      ]
+      }
+      lifetime: 40
+      sideAngle: 25
+      sideLength: 60
+      sideWidth: 12
+      length: 248
+      width: 24
+      damage: 550
+      status: shocked
+    }
+}
+{
+name: disfigure-laser
+mirror: true
+shake: 3
+range: 248
+shootSound: plasmadrop
+x: 32
+y: -28
+rotate: true
+rotateSpeed: 1.6
+shootY: 10
+recoil: 4
+reload: 30
+heatColor: ff0000cc
+parts: [
+  {
+  type: RegionPart
+  color: d1efff
+  colorTo: d1efff
+  suffix: -blade
+  heatColor: ff0000cc
+  heatProgress: recoil
+  heatLight: true
+  under: true
+  moveRot: -45
+  progress: warmup
+  moveY: 6
+  moves: [
+  {
+  type: PartMove
+  progress: recoil
+  rot: 45
+  y: -6
+  }
+  ]
+  }
+  {
+  type: RegionPart
+  color: d1efff
+  colorTo: d1efff
+  suffix: -blade
+  heatColor: ff0000cc
+  heatProgress: recoil
+  heatLight: true
+  under: true
+  moveRot: -35
+  moveY: 0
+  progress: warmup
+  moves: [
+  {
+  type: PartMove
+  y: 0
+  rot: 35
+  progress: recoil
+  }
+  ]
+  }
+  {
+  type: RegionPart
+  color: d1efff
+  colorTo: d1efff
+  suffix: -blade
+  heatColor: ff0000cc
+  heatProgress: recoil
+  heatLight: true
+  under: true
+  moveRot: -30
+  moveY: -6
+  progress: warmup
+  moves: [
+  {
+  type: PartMove
+  y: 6
+  progress: recoil
+  rot: 30
+  }
+  ]
+  }
+  ]
+bullet: {
+  type: LaserBulletType
+  colors: [d1efff, e3f5ff, ffffff]
+  laserEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            region: erekirliquefied-lightningrail-1
+            lifetime: 10
+            length: 0
+            sizeFrom: 8
+            sizeTo: 8
+          }
+          {
+            type: ParticleEffect
+            region: erekirliquefied-lightningrail-2
+            lifetime: 10
+            length: 0
+            sizeFrom: 8
+            sizeTo: 8
+            startDelay: 10
+          }
+          {
+            type: ParticleEffect
+            region: erekirliquefied-lightningrail-3
+            lifetime: 10
+            length: 0
+            sizeFrom: 8
+            sizeTo: 8
+            startDelay: 20
+          }
+          {
+            type: ParticleEffect
+            region: erekirliquefied-lightningrail-4
+            lifetime: 10
+            length: 0
+            sizeFrom: 8
+            sizeTo: 8
+            startDelay: 30
+          }
+      ]
+      }
+      lifetime: 40
+      sideAngle: 25
+      sideLength: 60
+      sideWidth: 12
+      length: 248
+      width: 24
+      damage: 480
+      status: shocked
+    }
+}
+{
+name: disfigure-launcher
+parts: [
+    {
+    type: RegionPart
+    suffix: -missile
+    progress: reload
+    colorTo: 00000000
+    color: ffffff
+    mixColor: 00000000
+    outline: false
+    under: true
+    layerOffset: -0.01
+    mixColorTo: ffff00
+    }
+    {
+    suffix: -side
+    progress: warmup
+    moveRot: -10
+    moveX: 2
+    mirror: true
+    }
+    {
+    suffix: -bottom
+    }
+  ]
+  reload: 60
+  shoot: {
+    shots: 3
+    shotDelay: 4
+    }
+  range: 328
+  mirror: true
+  y: -32
+  x: 44
+  layerOffset: 0.01
+  bullet: {
+    shootEffect:{
+    type: MultiEffect
+    effects: [shootBigColor, {
+      type: ParticleEffect
+      line: true
+      cone: 5  
+      length: 24
+      lengthFrom: 12
+      lengthTo: 0
+      strokeFrom: 2
+      strokeTo: 2
+      colorFrom: ffffff
+      colorTo: d1efff
+      lifetime: 25
+      }
+      {
+      type: WaveEffect
+      lifetime: 12
+      colorFrom: d1efff
+      colorTo: d1efff
+      sizeTo: 15
+      strokeFrom: 3
+      }
+    ]
+    }
+  spawnUnit: disfigure-launcher-missile
 ]
 lightRadius: 256
 research: quell
