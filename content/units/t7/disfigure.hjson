@@ -17,7 +17,8 @@ engineOffset: 58
 engineSize: 18
 lowAltitude: true
 immunities: [
-erekirliquefied-metalfrag
+erekirliquefied-metalfrag,
+melting
 ]
   weapons: [
 {
@@ -257,7 +258,7 @@ bullet: {
       lifetime: 40
       sideAngle: 25
       sideLength: 60
-      sideWidth: 12
+      sideWidth: 1.8
       length: 248
       width: 24
       damage: 550
@@ -389,7 +390,7 @@ bullet: {
       lifetime: 40
       sideAngle: 25
       sideLength: 60
-      sideWidth: 12
+      sideWidth: 1.8
       length: 248
       width: 24
       damage: 480
@@ -427,6 +428,10 @@ parts: [
     shots: 3
     shotDelay: 4
     }
+  shootSound: missileLarge
+  rotate: true
+  shootWarmupSpeed: 0.08
+  minWarmup: 0.96
   range: 328
   mirror: true
   y: -32
