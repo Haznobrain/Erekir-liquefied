@@ -89,6 +89,7 @@ shocked
       length: 304
       width: 6
       bulletInterval: 5
+      intervalRandomSpread: 0
       intervalBullet: {
         display: false
         damage: 0
