@@ -114,6 +114,7 @@ shocked
               }
         }
 }
+}
 {
     name: disfigure-weapon2
     shootSound: shockblast
