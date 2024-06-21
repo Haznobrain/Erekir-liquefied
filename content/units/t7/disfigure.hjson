@@ -106,7 +106,7 @@ shocked
           type: WaveEffect
           sizeFrom: 10
           sizeTo: 10
-          lifetime: 5
+          lifetime: 6
           interp: slope
           strokeFrom: 0
           strokeTo: 1
