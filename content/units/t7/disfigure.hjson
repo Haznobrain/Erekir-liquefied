@@ -11,14 +11,17 @@ targetAir: true
 faceTarget: true
 lightRadius: 5
 singleTarget: true
-fogRadius: 32
+fogRadius: 41
 fallSpeed: 0.002
 engineOffset: 58
 engineSize: 18
 lowAltitude: true
+rotateSpeed: 1.4
 immunities: [
 erekirliquefied-metalfrag,
-melting
+burning,
+melting,
+shocked
 ]
   weapons: [
 {
@@ -32,6 +35,52 @@ melting
     range: 304
     recoil: 0
     heatColor: 74ffff
+    parts: [
+      {
+      type: ShapePart
+      circle: true
+      y: 0
+      x: 0
+      radius: 0
+      radiusTo: 12
+      hollow: true
+      stroke: 0
+      strokeTo: 2
+      color: d1efff
+      rotateSpeed: 4
+      layer: 110
+      }
+      {
+      type: ShapePart
+      sides: 5
+      radiusTo: 11
+      hollow: true
+      color: d1efff
+      rotateSpeed: 4
+      layer: 110
+      }
+      {
+      type: ShapePart
+      sides: 5
+      radiusTo: 11
+      hollow: true
+      color: d1efff
+      rotateSpeed: -4
+      layer: 110
+      }
+      {
+      type: FlarePart
+      radius: 0
+      radiusTo: 24
+      stroke: 0
+      strokeTo: 4
+      color1: ffffff
+      color2: d1efff
+      progress: warmup
+      }
+      ]
+    shootWarmupSpeed: 0.095
+    minWarmup: 0.95
     bullet: {
       type: ContinuousLaserBulletType
       damage: 162.5
@@ -39,6 +88,30 @@ melting
       colors: [72e0ff, 72a8ff, 3b38ff, 725aff]
       length: 304
       width: 6
+      bulletInterval: 5
+      intervalBullet: {
+        display: false
+        damage: 0
+        length: 300
+        type: RailBulletType
+        despawnSound: plasmadrop
+        pointEffectSpace: 6
+        pierceEffect: none
+        lineEffect: none
+        endEffect: none
+        pointEffect: {
+          lightColor: d1efff
+          lightInterp: slope
+          type: WaveEffect
+          sizeFrom: 10
+          sizeTo: 10
+          lifetime: 5
+          interp: slope
+          strokeFrom: 0
+          strokeTo: 1
+          colorFrom: d1efff
+          colorTo: ffffff
+              }
         }
 }
 {
@@ -415,6 +488,7 @@ parts: [
     moveRot: -25
     color: d1efff
     colorTo: d1efff
+    mirror: true
     }
     {
     suffix: -blade
@@ -425,6 +499,8 @@ parts: [
     moveRot: -35
     color: d1efff
     colorTo: d1efff
+    mirror: true
+    moveX: 4
     }
     {
     type: RegionPart
