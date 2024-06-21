@@ -31,13 +31,14 @@ parts: [
   color2: d1efff
   y: -2
   followRotation: true
-  stroke: 1
+  stroke: 3
+  strokeTo: 0
   radius: 0
   radiusTo: 24
   progress: {
       type: life
       op: curve
-      interp: pow3Out
+      interp: slope
         }
   spinSpeed: 3
 }
