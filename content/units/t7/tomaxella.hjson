@@ -267,7 +267,8 @@ mirror: true
 top: true
 rotate: false
 shootCone: 360
-baseRotation: 45
+baseRotation: 135
+layerOffset: 1
 recoil: 3
 range: 480
 bullet: {
@@ -314,6 +315,9 @@ bullet: {
     buildingDamageMultiplier: 0.4
     speed: 6
     lifetime: 80
+    hitEffect: hitBulletColor
+    despawnEffect: none
+    despawnHit: true
     }
 }
 ]
