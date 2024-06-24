@@ -226,6 +226,7 @@ bullet: {
     ]
     }
 }
+}
 {
 name: tomaxella-big
 parts: [
@@ -288,6 +289,7 @@ bullet: {
     }
     ]
     }
+}
 }
 {
   name: tomaxella-medium
