@@ -274,7 +274,7 @@ bullet: {
   spawnUnit: tomaxella-big-missile
   shootEffect: {
   type: MultiEffect
-  effects: [shootBigColor, shootColorSpark, {
+  effects: [shootBigColor, colorSparkBig, {
     type: ParticleEffect
     particles: 24
     length: 60
