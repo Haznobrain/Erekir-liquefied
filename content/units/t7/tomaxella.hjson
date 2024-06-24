@@ -313,6 +313,7 @@ bullet: {
     speed: 6
     lifetime: 80
     }
+}
 ]
 lightRadius: 256
 research: disfigure
