@@ -76,6 +76,8 @@ healAmount: 40
 fragBullets: 3
 fragSpread: 45
 fragRandomSpread: 0
+fragVelocityMin: 1
+fragVelocityMax: 1
 fragBullet: {
     type: MissileBulletType
     homingPower: 0
