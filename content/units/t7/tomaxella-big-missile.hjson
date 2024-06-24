@@ -4,7 +4,7 @@ speed: 7
 flying: true
 health: 60
 hitSize: 6
-rotateSpeed: 6
+rotateSpeed: 3
 controller: MissileAi
 lowAltitude: true
 lifetime: 69 
