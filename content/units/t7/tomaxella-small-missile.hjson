@@ -4,7 +4,7 @@ speed: 7
 flying: true
 health: 60
 hitSize: 6
-rotateSpeed: 6
+rotateSpeed: 2
 controller: MissileAi
 lowAltitude: true
 lifetime: 69 
@@ -93,6 +93,8 @@ fragBullet: {
     shootEffect: none
     smokeEffect: none
     trailColor: 84f491
+    backColor: 84f491
+    frontColor: ffffff
     trailLength: 10
     trailWidth: 4
     trailScl: 1.2
