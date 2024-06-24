@@ -182,6 +182,137 @@ lowAltitude: true
       ]
 }
 }
+{
+name: tomaxella-small
+parts: [
+    {
+    type: RegionPart
+    suffix: -missile
+    progress: reload
+    colorTo: 00000000
+    color: ffffff
+    mixColor: 00000000
+    outline: false
+    under: true
+    layerOffset: -0.01
+    mixColorTo: ffff00
+    }
+    ]
+reload: 90
+rotateSpeed: 2
+y: -19
+x: 13
+mirror: true
+top: true
+rotate: true
+recoil: 3
+shootSound: missileLarge
+range: 480
+bullet: {
+  spawnUnit: tomaxella-small-missile
+  shootEffect: {
+  type: MultiEffect
+  effects: [shootBigColor, {
+    type: ParticleEffect
+    particles: 12
+    lifetime: 50
+    baseRotation: 180
+    cone: 20
+    colorFrom: 84f491
+    colorTo: 4a4b53
+    interp: pow5Out
+    sizeInterp: pow2In
+    }
+    ]
+    }
+}
+{
+name: tomaxella-big
+parts: [
+    {
+    type: RegionPart
+    suffix: -missile
+    progress: reload
+    colorTo: 00000000
+    color: ffffff
+    mixColor: 00000000
+    outline: false
+    under: true
+    layerOffset: -0.01
+    mixColorTo: ffff00
+    }
+    {
+    type: RegionPart
+    suffix: -cover
+    moveY: 1
+    progress: warmup
+    }
+    {
+    type: RegionPart
+    suffix: -arm
+    moveRot: -20
+    mirror: true
+    moveY: -1
+    progress: warmup
+    cooldownTime: 60
+    }
+    ]
+reload: 200
+shootSound: missileLaunch
+alternate: false
+y: -38
+x: 38
+mirror: true
+top: true
+rotate: false
+shootCone: 360
+baseRotation: 45
+recoil: 3
+range: 480
+bullet: {
+  spawnUnit: tomaxella-big-missile
+  shootEffect: {
+  type: MultiEffect
+  effects: [shootBigColor, shootColorSpark {
+    type: ParticleEffect
+    particles: 24
+    length: 60
+    sizeFrom: 12
+    lifetime: 100
+    baseRotation: 180
+    cone: 35
+    colorFrom: 84f491
+    colorTo: 4a4b53
+    interp: pow5Out
+    sizeInterp: pow2In
+    }
+    ]
+    }
+}
+{
+  name: tomaxella-medium
+  reload: 60
+  alternate: true
+  y: -8
+  x: 32
+  rotate: true
+  rotateSpeed: 2
+  shootSound: missile
+  range: 480
+  bullet: {
+    type: MissileBulletType
+    sprite: missile-large
+    backColor: 84f491
+    frontColor: 84f491
+    trailColor: 84f491
+    healAmount: 80
+    damage: 45
+    splashDamage: 40
+    splashDamageRadius: 8
+    buildingDamageMultiplier: 0.4
+    speed: 6
+    lifetime: 80
+    }
 ]
 lightRadius: 256
 research: disfigure
@@ -189,11 +320,11 @@ abilities: [
 {
   type: RepairFieldAbility
   amount: 840
-  range: 240
+  range: 600
     }
   {
 type: ForceFieldAbility
-  range: 240
+  range: 600
   regen: 12
   max: 12000
   sides: 24
