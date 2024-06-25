@@ -2,8 +2,8 @@ type: missile
 template: MissileUnitType
 speed: 7
 flying: true
-health: 60
-hitSize: 6
+health: 90
+hitSize: 12
 rotateSpeed: 3
 controller: MissileAi
 lowAltitude: true
@@ -17,7 +17,7 @@ useUnitCap: false
 createWreck: false
 createScorch: false
 hidden: true
-engineOffset: 1
+engineOffset: 6
 engineSize: 2
 engineColor: 84f491
 trailLength: 12
@@ -29,9 +29,9 @@ targetAir: true
 parts: [
 {
   type: FlarePart
-  color1: ffffff
-  color2: 84f491
-  y: -2
+  color2: ffffff
+  color1: 84f491
+  y: -6
   followRotation: true
   stroke: 3
   strokeTo: 0
