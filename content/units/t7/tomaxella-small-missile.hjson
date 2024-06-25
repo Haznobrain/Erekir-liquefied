@@ -95,6 +95,7 @@ fragBullet: {
     shootEffect: none
     smokeEffect: none
     trailColor: 84f491
+    hitColor: 84f491
     backColor: 84f491
     frontColor: ffffff
     trailLength: 10
