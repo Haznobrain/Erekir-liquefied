@@ -29,9 +29,9 @@ targetAir: true
 parts: [
 {
   type: FlarePart
-  color1: ffffff
-  color2: 84f491
-  y: -2
+  color2: ffffff
+  color1: 84f491
+  y: -4
   followRotation: true
   stroke: 3
   strokeTo: 0
