@@ -200,6 +200,7 @@ parts: [
     ]
 reload: 90
 rotateSpeed: 2
+layerOffset: 1
 y: -19
 x: 13
 mirror: true
