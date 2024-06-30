@@ -233,4 +233,331 @@ strokeTo: 3
 }
 ]
 }
+{
+name: irradiate-malign
+shootY: 0
+recoils: 5
+minWarmup: 0.96
+shootWarmupSpeed: 0.02
+reload: 8
+loopSound: spellLoop
+shootSound: malignShoot
+shoot: {
+ type: ShootMulti
+ source: {
+  type: ShootBarrel
+  barrels: [
+    0, 24, 0,
+    -14, 20, 0,
+    -8, 21, 0,
+    14, 20, 0,
+    8, 21, 0
+    ]
+  }
+  dest: [
+  {
+   type: ShootSummon
+   shots: 2
+   radius: 3
+   spread: 5
+  }
+   ]
+  }
+parts: [
+{
+type: RegionPart
+recoilIndex: 1
+suffix: -barrel1
+moveY: -9
+heatColor: ffffff
+progress: recoil
+children: [
+{
+type: ShapePart
+progress: warmup
+circle: true
+hollow: true
+radius: 4
+stroke: 0
+strokeTo: 1
+color: ffdf62
+y: 24
+x: -14
+}
+{
+type: ShapePart
+sides: 4
+progress: warmup
+hollow: true
+radius: 4
+stroke: 0
+strokeTo: 1
+color: ffdf62
+y: 24
+x: -14
+}
+]
+}
+{
+type: RegionPart
+recoilIndex: 3
+suffix: -barrel5
+moveY: -9
+heatColor: ffffff
+progress: recoil
+children: [
+{
+type: ShapePart
+progress: warmup
+circle: true
+hollow: true
+radius: 4
+stroke: 0
+strokeTo: 1
+color: ffdf62
+y: 24
+x: 14
+}
+{
+type: ShapePart
+sides: 4
+progress: warmup
+hollow: true
+radius: 4
+stroke: 0
+strokeTo: 1
+color: ffdf62
+y: 24
+x: 14
+}
+]
+}
+{
+type: RegionPart
+recoilIndex: 3
+suffix: -barrel3
+moveY: -10
+heatColor: ffffff
+progress: recoil
+children: [
+{
+type: ShapePart
+progress: warmup
+circle: true
+hollow: true
+radius: 4
+stroke: 0
+strokeTo: 1
+color: ffdf62
+y: 26
+x: 0
+}
+{
+type: ShapePart
+sides: 4
+progress: warmup
+hollow: true
+radius: 4
+stroke: 0
+strokeTo: 1
+color: ffdf62
+y: 26
+x: 0
+}
+]
+}
+{
+type: RegionPart
+recoilIndex: 2
+suffix: -barrel2
+moveY: -9
+heatColor: ffffff
+progress: recoil
+children: [
+{
+type: ShapePart
+progress: warmup
+circle: true
+hollow: true
+radius: 4
+stroke: 0
+strokeTo: 1
+color: ffdf62
+y: 25
+x: -8
+}
+{
+type: ShapePart
+sides: 4
+progress: warmup
+hollow: true
+radius: 3
+stroke: 0
+strokeTo: 1
+color: ffdf62
+y: 25
+x; -8
+}
+]
+}
+{
+type: RegionPart
+recoilIndex: 4
+suffix: -barrel4
+moveY: -9
+heatColor: ffffff
+progress: recoil
+children: [
+{
+type: ShapePart
+progress: warmup
+circle: true
+hollow: true
+radius: 4
+stroke: 0
+strokeTo: 1
+color: ffdf62
+y: 25
+x: 8
+}
+{
+type: ShapePart
+sides: 4
+progress: warmup
+hollow: true
+radius: 3
+stroke: 0
+strokeTo: 1
+color: ffdf62
+y: 25
+x: 8
+}
+]
+}
+{
+type: RegionPart
+suffix: -bottom
+moveY: -5
+progress: recoil
+children: [
+{
+type: RegionPart
+mixColor: ffffff00
+color: ffffff00
+layerOffset: 0.001
+colorTo: ffffff
+mixColorTo: ffffff
+outline: false
+recoilIndex: 1
+suffix: -bottom-heat1
+progress: recoil
+}
+{
+type: RegionPart
+mixColor: ffffff00
+color: ffffff00
+layerOffset: 0.001
+colorTo: ffffff
+mixColorTo: ffffff
+outline: false
+recoilIndex: 2
+suffix: -bottom-heat2
+progress: recoil
+}
+{
+type: RegionPart
+mixColor: ffffff00
+color: ffffff00
+layerOffset: 0.001
+colorTo: ffffff
+mixColorTo: ffffff
+outline: false
+recoilIndex: 0
+suffix: -bottom-heat3
+progress: recoil
+}
+{
+type: RegionPart
+mixColor: ffffff00
+color: ffffff00
+layerOffset: 0.001
+colorTo: ffffff
+mixColorTo: ffffff
+outline: false
+recoilIndex: 4
+suffix: -bottom-heat4
+progress: recoil
+}
+{
+type: RegionPart
+mixColor: ffffff00
+color: ffffff00
+layerOffset: 0.001
+colorTo: ffffff
+mixColorTo: ffffff
+outline: false
+recoilIndex: 3
+suffix: -bottom-heat5
+progress: recoil
+}
+]
+}
+]
+range: 370
+bullet: {
+   damage: 70
+  type: flakBulletType
+  sprite: missile-large
+  speed: 8
+  lifetime: 45
+  width: 12
+  height: 22
+  hitSize: 7
+  shootEffect: shootSmokeSquareBig
+  smokeEffect: shootSmokeDisperse
+  hitColor: ffdf62
+  backColor: ffdf62
+  trailColor: ffdf62
+  lightningColor: ffdf62
+  circleColor: ffdf62
+  frontColor: ffffff
+  trailWidth: 3
+  trailLength: 12
+  hitEffect: hitBulletColor
+  trailEffect: colorSpark
+  trailRotation: true
+  trailInterval: 3
+  lightning: 1
+  lightningCone: 15
+  lightningLength: 20
+  lightningLengthRand: 30
+  lightningDamage: 20
+  homingPower: 0.17
+  homingDelay: 19
+  homingRange: 160
+  explodeRange: 160
+  explodeDelay: 0
+  flakInterval: 15
+  despawnShake: 3
+  fragSpread: 0
+  fragRandomSpread: 0
+  splashDamage: 0
+  hitEffect: hitSquaresColor
+  collidesGround: true
+  fragBullet: {
+    type: LaserBulletType
+    colors: [ffdf62, ffa947, ffffff]
+    width: 19
+    damage: 70
+    hitEffect: hitLancer
+    sideAngle: 175
+    sideWidth: 1
+    sideLength: 40
+    lifetime: 22
+    drawSize: 400
+    length: 180
+    pierceCap: 5
+}
+}
+}
 ]
