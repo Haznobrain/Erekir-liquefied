@@ -254,14 +254,12 @@ shoot: {
     8, 21, 0
     ]
   }
-  dest: [
-  {
+  dest:  {
    type: ShootSummon
    shots: 2
    radius: 3
    spread: 5
   }
-   ]
   }
 parts: [
 {
@@ -504,6 +502,7 @@ progress: recoil
 }
 ]
 range: 370
+velocityRnd: 0.15
 bullet: {
    damage: 70
   type: flakBulletType
