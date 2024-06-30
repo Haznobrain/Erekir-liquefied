@@ -254,13 +254,14 @@ shoot: {
     8, 21, 0
     ]
   }
-  dest:  {
-   type: ShootSummon
+  dest: [ {
+   type: ShootSpread
    shots: 2
-   radius: 3
-   spread: 5
+   spread: 3
   }
+   ]
   }
+inaccuracy: 3
 parts: [
 {
 type: RegionPart
