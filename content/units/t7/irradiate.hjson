@@ -263,6 +263,8 @@ shoot: {
    ]
   }
 inaccuracy: 3
+mirror: false
+x: 0
 parts: [
 {
 type: RegionPart
