@@ -234,6 +234,7 @@ strokeTo: 3
 ]
 }
 {
+layerOffset: 1
 name: irradiate-malign
 shootY: 0
 recoils: 5
@@ -269,6 +270,7 @@ recoilIndex: 1
 suffix: -barrel1
 moveY: -9
 heatColor: ffffff
+heatLayerOffest: 0.001
 progress: recoil
 children: [
 {
@@ -282,6 +284,7 @@ strokeTo: 1
 color: ffdf62
 y: 24
 x: -14
+layer: 110
 }
 {
 type: ShapePart
@@ -294,6 +297,7 @@ strokeTo: 1
 color: ffdf62
 y: 24
 x: -14
+layer: 110
 }
 ]
 }
@@ -316,6 +320,7 @@ strokeTo: 1
 color: ffdf62
 y: 24
 x: 14
+layer: 110
 }
 {
 type: ShapePart
@@ -328,6 +333,7 @@ strokeTo: 1
 color: ffdf62
 y: 24
 x: 14
+layer: 110
 }
 ]
 }
@@ -350,6 +356,7 @@ strokeTo: 1
 color: ffdf62
 y: 26
 x: 0
+layer: 110
 }
 {
 type: ShapePart
@@ -362,6 +369,7 @@ strokeTo: 1
 color: ffdf62
 y: 26
 x: 0
+layer: 110
 }
 ]
 }
@@ -384,6 +392,7 @@ strokeTo: 1
 color: ffdf62
 y: 25
 x: -8
+layer: 110
 }
 {
 type: ShapePart
@@ -396,6 +405,7 @@ strokeTo: 1
 color: ffdf62
 y: 25
 x: -8
+layer: 110
 }
 ]
 }
@@ -418,6 +428,7 @@ strokeTo: 1
 color: ffdf62
 y: 25
 x: 8
+layer: 110
 }
 {
 type: ShapePart
@@ -430,6 +441,7 @@ strokeTo: 1
 color: ffdf62
 y: 25
 x: 8
+layer: 110
 }
 ]
 }
@@ -438,6 +450,7 @@ type: RegionPart
 suffix: -bottom
 moveY: -5
 progress: recoil
+cooldownTime: 300
 children: [
 {
 type: RegionPart
