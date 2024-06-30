@@ -24,7 +24,7 @@ legMaxLength: 1.05
 legLengthScl: 0.96
 legMinLength: 0.8
 legForwardScale: 1.1
-fogRadius: 35
+fogRadius: 85
 legSplashDamage: 480
 legSplashRange: 40
 drownTimeMultiplier: 1000000
