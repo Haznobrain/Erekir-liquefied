@@ -182,6 +182,7 @@ sizeTo: 60
 }
   {
   name: xenoid-laser
+  layerOffset: 2
   range: 180
   reload: 80
   rotate: true
@@ -215,6 +216,7 @@ under: true
   }
 {
   name: xenoid-ew
+  layerOffset: 2
   reload: 60
   range: 160
   x: 16
@@ -225,7 +227,7 @@ under: true
   parts: [
 {
 type: RegionPart
-growY: 0.8
+growY: 1.2
 growProgress: recoil
 suffix: -barrel
 }
