@@ -34,7 +34,7 @@ fogRadius: 29
 lightRadius: 30
 allowLegStep: true
 omniMovement: false
-forceMultiTarget: true
+singleTarget: true
 immunities: [
   tarred
   ]
