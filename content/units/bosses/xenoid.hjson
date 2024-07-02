@@ -1,0 +1,249 @@
+type: Legs
+speed: 0.37
+name: Xenoid
+description: has gone horrible wrong.
+template: ErekirUnitType
+health: 136000
+armor: 16
+abilities: [
+{
+type: RegenAbility
+amount: 4
+display: false
+}
+  ]
+shadowElevation: 0.4
+groundLayer: 75
+legCount: 7
+legGroupSize: 1
+legLength: 80
+legSpeed: 0.2
+legBaseOffset: 12
+legMaxLength: 1.25
+legMinLength: 0.9
+legSplashDamage: 150
+legSplashRange: 15
+lockLegBase: false
+legContinuousMove: true
+rotateSpeed: 1.5
+drag: 0.1
+hitSize: 96
+stepShake: 1
+hovering: true
+fogRadius: 29
+lightRadius: 30
+allowLegStep: true
+omniMovement: false
+forceMultiTarget: true
+immunities: [
+  tarred
+  ]
+weapons: [
+{
+name: xenoid
+reload: 300
+shoot: {
+  firstShotDelay: 90
+    }
+y: 0
+x: 0
+shootY: 48
+mirror: false
+shootSound: plasmaBoom
+range: 232
+top: false
+shake: 5
+recoil: 0
+bullet: {
+  type: BulletType
+  parts: [
+{
+  type: FlarePart
+  color1: ee5a5a
+  colorTo: ffffff
+  spinSpeed: 2
+  sides: 2
+  radius: 32
+    }
+    ]
+  damage: 320
+  splashDamage: 400
+  splashDamageRadius: 80
+  height: 16
+  with: 16
+  shootEffect: {
+    type: MultiEffect
+    effects: [
+{
+type: WaveEffect
+strokeFrom: 3
+strokeTo: 0.1
+lifetime: 12
+colorFrom: ee5a5a
+colorTo: ffffff
+sizeTo: 60
+  }
+      {
+  type: ParticleEffect
+  particles: 12
+  colorFrom: ee5a5aff
+  colorTo: ee5a5a66
+  lightColor: ee5a5a
+  lightOpacity: 0.8
+  interp: pow3Out
+  sizeInterp: pow3In
+  sizeFrom: 6
+  sizeTo: 0
+  length: 45
+  baseLength: 0
+  lifetime: 45
+  cone: 30
+    }
+      {
+  type: ParticleEffect
+  particles: 12
+  line: true
+  colorFrom: ee5a5aff
+  colorTo: ee5a5a66
+  lightColor: ee5a5a
+  lightOpacity: 0.8
+  interp: pow3Out
+  sizeInterp: pow3In
+  lengthFrom: 6
+  lengthTo: 0
+  strokeFrom: 2
+  strokeTo: 2
+  length: 45
+  baseLength: 0
+  lifetime: 45
+  cone: 30
+    }
+]
+  }
+  smokeEffect: none
+  sprite: large-orb
+  frontColor: ffffff
+  backColor: ee5a5a
+  speed: 3
+  lifetime: 78
+  shrinkY: 0
+  shrinkX: 0
+  trailLength: 60
+  trailWidth: 4
+  trailColor: ee5a5a
+  hitEffect: {
+    type: MultiEffect
+    effects: [
+{
+type: WaveEffect
+strokeFrom: 3
+strokeTo: 0.1
+lifetime: 12
+colorFrom: ee5a5a
+colorTo: ffffff
+sizeTo: 60
+  }
+      {
+  type: ParticleEffect
+  particles: 12
+  colorFrom: ee5a5aff
+  colorTo: ee5a5a66
+  lightColor: ee5a5a
+  lightOpacity: 0.8
+  interp: pow3Out
+  sizeInterp: pow3In
+  sizeFrom: 6
+  sizeTo: 0
+  length: 45
+  baseLength: 0
+  lifetime: 45
+    }
+      {
+  type: ParticleEffect
+  particles: 12
+  line: true
+  colorFrom: ee5a5aff
+  colorTo: ee5a5a66
+  lightColor: ee5a5a
+  lightOpacity: 0.8
+  interp: pow3Out
+  sizeInterp: pow3In
+  lengthFrom: 6
+  lengthTo: 0
+  strokeFrom: 2
+  strokeTo: 2
+  length: 45
+  baseLength: 0
+  lifetime: 45
+    }
+]
+  }
+  }
+}
+}
+  {
+  name: xenoid-laser
+  range: 180
+  reload: 80
+  rotate: true
+  rotateSpeed: 2.1
+  x: 16
+  y: 16
+  shootSound: laser
+  bullet: {
+    type: LaserBulletType
+    length: 180
+    damage: 140
+    width: 8
+    lifetime: 40
+    sideAngle: 10
+    colors: [ee5a5a, f28686, ffffff]
+    pierceCap: 8
+      }
+  heatColor: ff0000
+  parts: [
+{
+type: RegionPart
+moveRot: -10
+progress: recoil
+suffix: -mandible
+mirror: true
+moveY: -2
+moveX: 2
+under: true
+}
+    ]
+  }
+    }
+{
+  name: xenoid-ew
+  reload: 60
+  range: 160
+  x: 16
+  y: -16
+  rotate: true
+  rotateSpeed: 1.3
+  shootCone: 1
+  parts: [
+{
+type: RegionPart
+growY: 0.8
+growProgress: recoil
+suffix: -barrel
+}
+    ]
+bullet: {
+  type: BasicBulletType
+  backColor: ee5a5a
+  trailColor: ee5a5a
+  frontColor: ffffff
+  sprite: large-orb
+  shootEffect: shootBig2
+  damage: 40
+  splashDamage: 40
+  splashDamageRadius: 20
+  speed: 4
+  lifetime: 40
+    }
+}
+]
