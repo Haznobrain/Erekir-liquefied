@@ -67,7 +67,7 @@ bullet: {
     }
     ]
   damage: 320
-  splashDamage: 400
+  splashDamage: 2600
   splashDamageRadius: 80
   height: 16
   with: 16
@@ -185,7 +185,7 @@ sizeTo: 60
 type: WaveEffect
 strokeFrom: 0.1
 strokeTo: 3
-lifetime: 12
+lifetime: 90
 colorFrom: ee5a5a
 colorTo: ffffff
 sizeTo: 0
@@ -204,7 +204,7 @@ sizeFrom: 60
   sizeFrom: 0
   length: 45
   baseLength: -45
-  lifetime: 45
+  lifetime: 90
     }
       {
   type: ParticleEffect
@@ -222,7 +222,7 @@ sizeFrom: 60
   strokeTo: 2
   length: 45
   baseLength: -45
-  lifetime: 45
+  lifetime: 90
     }
 ]
   }
