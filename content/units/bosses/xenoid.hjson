@@ -275,7 +275,7 @@ under: true
   parts: [
 {
 type: RegionPart
-growY: 1.2
+growY: 0.6
 growProgress: recoil
 suffix: -barrel
 }
