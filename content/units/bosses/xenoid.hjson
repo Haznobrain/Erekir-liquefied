@@ -180,7 +180,6 @@ sizeTo: 60
   }
   }
 }
-}
   {
   name: xenoid-laser
   range: 180
