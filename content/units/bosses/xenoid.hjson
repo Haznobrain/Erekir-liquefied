@@ -178,6 +178,54 @@ sizeTo: 60
     }
 ]
   }
+  chargeEffect: {
+    type: MultiEffect
+    effects: [
+{
+type: WaveEffect
+strokeFrom: 0.1
+strokeTo: 3
+lifetime: 12
+colorFrom: ee5a5a
+colorTo: ffffff
+sizeTo: 0
+sizeFrom: 60
+  }
+      {
+  type: ParticleEffect
+  particles: 12
+  colorFrom: ee5a5aff
+  colorTo: ee5a5a66
+  lightColor: ee5a5a
+  lightOpacity: 0.8
+  interp: pow3Out
+  sizeInterp: pow3In
+  sizeTo: 6
+  sizeFrom: 0
+  length: 45
+  baseLength: -45
+  lifetime: 45
+    }
+      {
+  type: ParticleEffect
+  particles: 12
+  line: true
+  colorFrom: ee5a5aff
+  colorTo: ee5a5a66
+  lightColor: ee5a5a
+  lightOpacity: 0.8
+  interp: pow3Out
+  sizeInterp: pow3In
+  lengthTo: 6
+  lengthFrom: 0
+  strokeFrom: 2
+  strokeTo: 2
+  length: 45
+  baseLength: -45
+  lifetime: 45
+    }
+]
+  }
   }
 }
   {
