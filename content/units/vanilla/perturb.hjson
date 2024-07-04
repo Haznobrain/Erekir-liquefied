@@ -18,25 +18,25 @@ engines: [
 x: -31
 y: -28
 radius: 8
-rotation: -135
+rotation: 135
 }
 {
 x: -34
 y: -4
 radius: 8
-rotation: 135
+rotation: -135
 }
 {
 x: 34
 y: -4
 radius: 8
-rotation: -135
+rotation: 135
 }
 {
 x: 31
 y: -28
 radius: 8
-rotation: 135
+rotation: -135
 }
 ]
 engineSize: 8
@@ -103,17 +103,6 @@ range: 400
 y: 0.5
 x: -17
 orbRadius: 5
-particleSize: 3
-display: false
-active: false
-}
-{
-type: SuppressionFieldAbility
-reload: 60
-range: 400
-y: -19.75
-x: -22
-orbRadius: 4
 particleSize: 3
 display: false
 active: false
