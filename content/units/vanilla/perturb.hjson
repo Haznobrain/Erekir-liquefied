@@ -71,7 +71,7 @@ abilities: [
 type: SuppressionFieldAbility
 reload: 60
 range: 400
-y: 18
+y: 20
 orbRadius: 4
 particleSize: 3
 }
@@ -79,8 +79,8 @@ particleSize: 3
 type: SuppressionFieldAbility
 reload: 60
 range: 400
-y: 1
-x: 18
+y: 0.5
+x: 17
 orbRadius: 5
 particleSize: 3
 display: false
@@ -90,8 +90,8 @@ active: false
 type: SuppressionFieldAbility
 reload: 60
 range: 400
-y: 1
-x: -18
+y: 0.5
+x: -17
 orbRadius: 5
 particleSize: 3
 display: false
@@ -112,8 +112,19 @@ active: false
 type: SuppressionFieldAbility
 reload: 60
 range: 400
-y: -19.75
-x: -22
+y: -18.75
+x: -22.5
+orbRadius: 4
+particleSize: 3
+display: false
+active: false
+}
+{
+type: SuppressionFieldAbility
+reload: 60
+range: 400
+y: -18.75
+x: 22.5
 orbRadius: 4
 particleSize: 3
 display: false
