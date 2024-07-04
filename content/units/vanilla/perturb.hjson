@@ -66,8 +66,57 @@ range: 600
 }
 }
 ]
-abilities: [{
+abilities: [
+{
 type: SuppressionFieldAbility
 reload: 60
 range: 400
-}]
+y: 18
+orbRadius: 4
+particleSize: 3
+}
+{
+type: SuppressionFieldAbility
+reload: 60
+range: 400
+y: 1
+x: 18
+orbRadius: 5
+particleSize: 3
+display: false
+active: false
+}
+{
+type: SuppressionFieldAbility
+reload: 60
+range: 400
+y: 1
+x: -18
+orbRadius: 5
+particleSize: 3
+display: false
+active: false
+}
+{
+type: SuppressionFieldAbility
+reload: 60
+range: 400
+y: -19.75
+x: -22
+orbRadius: 4
+particleSize: 3
+display: false
+active: false
+}
+{
+type: SuppressionFieldAbility
+reload: 60
+range: 400
+y: -19.75
+x: -22
+orbRadius: 4
+particleSize: 3
+display: false
+active: false
+}
+]
