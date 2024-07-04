@@ -45,6 +45,13 @@ weapons: [{
                 sparks: 6
           }
 shootSound: none
+suppressionRange: 280
+suppressionDuration: 900
+lightning: 8
+lightningDamage: 250
+lightningLength: 40
+lightningLengthRand: 10
+lightningColor: bf92f9
 type: ExplosionBulletType
 instantDissapear: true
 width: 0
