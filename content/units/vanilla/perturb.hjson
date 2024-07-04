@@ -15,8 +15,8 @@ singleTarget: true
 fogRadius: 40
 engines: [
 {
-x: -31
-y: -28
+x: -33
+y: -30
 radius: 8
 rotation: -45
 }
@@ -33,8 +33,8 @@ radius: 8
 rotation: -45
 }
 {
-x: 31
-y: -28
+x: 33
+y: -30
 radius: 8
 rotation: 45
 }
