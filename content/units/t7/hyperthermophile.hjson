@@ -165,6 +165,7 @@ weapons: [
                   amount: 2
                   rotationSpacing: 180
                   baseRotation: 90
+                  rotWithParent: true
                   effect: {
                       type: ParticleEffect
                       length: 0
@@ -175,6 +176,8 @@ weapons: [
                       strokeFrom: 3
                       strokeTo: 3
                       line: true
+                      colorFrom: ffa245
+                      colorTo: ffa245
                         }
               }
         trailRotation: true
