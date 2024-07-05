@@ -68,6 +68,7 @@ weapons: [
     type: ShootAlternate
     shots: 2
     barrels: 2
+    spread: 4
       }
     dest: [
       {
@@ -160,26 +161,8 @@ weapons: [
         trailInterval: 4
         sprite: missile-large
         hitColor: ffa245
-        trailEffect: {
-                  type: RadialEffect
-                  amount: 2
-                  rotationSpacing: 180
-                  baseRotation: 90
-                  rotWithParent: true
-                  effect: {
-                      type: ParticleEffect
-                      length: 0
-                      baseLength: 0
-                      followParent: false
-                      lengthFrom: 24
-                      lengthTo: 0
-                      strokeFrom: 3
-                      strokeTo: 3
-                      line: true
-                      colorFrom: ffa245
-                      colorTo: ffa245
-                        }
-              }
+        trailEffect: disperseTrail
+        trailColor: ffa245
         trailRotation: true
         height: 24
         width: 20
