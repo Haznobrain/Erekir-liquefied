@@ -9,6 +9,10 @@ hitSize: 120
 speed: 0.38
 rotateSpeed: 0.9
 fogRadius: 65
+trailLength: 400
+waveTrailX: 66
+waveTrailY: 16
+trailScl: 4
 immunities: [
   burning,
   melting
