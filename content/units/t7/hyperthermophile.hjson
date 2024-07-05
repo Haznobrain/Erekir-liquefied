@@ -43,6 +43,7 @@ weapons: [
       suffix: -side
       moveRot: 10
       progress: warmup
+      mirror: true
       moves: [
         {
           type: PartMove
@@ -208,6 +209,7 @@ parts: [
   moveRot: -10
   moveY: -2.5
   heatColor: ff0000
+  mirror: true
   }
   {
   type: FlarePart
@@ -290,8 +292,8 @@ bullet: {
 }
 {
   name: audax-weapon
-  y: -3
-  x: 0
+  y: -52
+  x: 48
   range: 448
   reload: 120
   recoil: 0
