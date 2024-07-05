@@ -20,6 +20,7 @@ weapons: [
   range: 560
   rotateSpeed: 1.1
   recoil: 2
+  layerOffset: 1
   parts: [
     {
       type: RegionPart
@@ -182,5 +183,198 @@ weapons: [
         lightningLengthRand: 1
           }
       }
+{
+y: 13
+x: 61
+reload: 200
+range: 560
+name: boat-orber
+rotate: true
+rotateSpeed: 1.6
+layerOffset: 1
+heatColor: ff0000
+parts: [
+  {
+  type: RegionPart
+  suffix: -glow
+  color: ff0000cc
+  blending: additive
+  outline: false
+  }
+  {
+  type: RegionPart
+  under: true
+  suffix: -arm
+  moveRot: -10
+  moveY: -2.5
+  heatColor: ff0000
+  }
+  {
+  type: FlarePart
+  sides: 2
+  radius: 0
+  radiusTo: 24
+  y: 14
+  progress: charge
+  color2: ffffff
+  color1: ffa245
+  spinSpeed: 6
+  stroke: 3
+  }
+  {
+  type: ShapePart
+  circle: true
+  radius: 0
+  radiusTo: 12
+  color: ffa245
+  layer: 110
+  progress: charge
+  }
+]
+recoil: 4
+shoot: {
+  firstShotDelay: 70
+    }
+bullet: {
+    type: BasicBulletType
+    speed: 3
+    lifetime: 187
+    damage: 115
+    sprite: circle-bullet
+    frontColor: ffffff
+    backColor: ffa245
+    height: 20
+    width: 20
+    parts: [
+        {
+        type: FlarePart
+        color2: ffffff
+        color1: ffa245
+        radius: 24
+        sides: 2
+        spinSpeed: 6
+        }
+        ]
+    splashDamage: 450
+    splashDamageRadius: 45
+    shootEffect: {
+      type: MultiEffect
+      effects: [ shootBigColor, colorSparkBig]
+          }
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+      {
+      type: ParticleEffect
+      length: 50
+      lengthFrom: 20
+      lengthTo: 20
+      strokeFrom: 2
+      strokeTo: 1.5
+      line: true
+      colorFrom: ffa245
+      colorTo: ffa245
+      lifetime: 30
+      }
+      {
+      type: WaveEffect
+      sizeTo: 45
+      strokeFrom: 3
+      strokeTo: 0.1
+      colorTo: ffa245
+      lifetime: 12
+      }
+      ]
+      }
+    }
+}
+{
+  name: audax-weapon
+  y: -3
+  x: 0
+  range: 448
+  reload: 120
+  recoil: 0
+  shootWarmupSpeed: 0.07
+  minWarmup: 0.98
+  mirror: false
+  shootSound: missileLaunch
+  layerOffset: 2
+  rotate: true
+  shootCone: 1
+  rotateSpeed: 0.7
+  parts: [
+    {
+      type: RegionPart
+      colorTo: ffffff00
+      color: ffffff
+      mixColor: ffffff00
+      progress: reload
+      outline: false
+      under: true
+      layerOffset: -0.01
+      moves: [
+        {
+          type: PartMove
+          y: 4
+          progress: warmup
+        }
+        ]
+      }
+    {
+      suffix: -arm
+      mirror: true
+      moveRot: -10
+      progress: warmup
+      type: RegionPart
+      moves: [
+        {
+        type: PartMove
+        rot: 10
+        progress: reload
+        }
+        ]
+    }
+    {
+      suffix: -arm
+      mirror: true
+      moveRot: -20
+      progress: warmup
+      type: RegionPart
+      moves: [
+        {
+        type: PartMove
+        rot: 10
+        progress: reload
+        }
+        ]
+    }
+    {
+      suffix: -arm
+      mirror: true
+      moveRot: -30
+      progress: warmup
+      type: RegionPart
+      moves: [
+        {
+        type: PartMove
+        rot: 10
+        progress: reload
+        }
+        ]
+    }
+    {
+      type: RegionPart
+      suffix: -bottom
+    }
+    ]
+  shoot: {
+    shots: 3
+    shotDelay: 4
+      }
+  bullet: {
+      spawnUnit: boat-missile
+        }
+}
       ]
   
