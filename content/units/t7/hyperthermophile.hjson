@@ -211,7 +211,8 @@ parts: [
   type: RegionPart
   under: true
   suffix: -arm
-  moveRot: -10
+  moveRot: 10
+  progress: charge
   moveY: -2.5
   heatColor: ff0000
   mirror: true
@@ -232,6 +233,7 @@ parts: [
   type: ShapePart
   circle: true
   radius: 0
+  y: 14
   radiusTo: 12
   color: ffa245
   layer: 110
