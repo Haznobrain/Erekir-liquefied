@@ -157,7 +157,10 @@ weapons: [
         trailColor: ffa245
         frontColor: ffffff
         backColor: ffa245
+        trailChance: 1
+        trailInterval: 4
         sprite: missile-large
+        hitColor: ffa245
         trailEffect: {
                   type: RadialEffect
                   amount: 2
@@ -199,6 +202,7 @@ rotate: true
 rotateSpeed: 1.6
 layerOffset: 1
 heatColor: ff0000
+shootSound: malignShoot
 parts: [
   {
   type: RegionPart
@@ -256,6 +260,7 @@ bullet: {
     width: 20
     shrinkY: 0
     shrinkX: 0
+    hitColor: ffa245
     parts: [
         {
         type: FlarePart
