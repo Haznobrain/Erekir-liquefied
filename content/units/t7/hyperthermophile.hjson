@@ -129,7 +129,7 @@ weapons: [
               interp: pow3Out
               sizeInterp: pow10Out
               particles: 14
-              lifetime: 100
+              lifetime: 50
               colorFrom: ffa245
               colorTo: ffa245
                 }
