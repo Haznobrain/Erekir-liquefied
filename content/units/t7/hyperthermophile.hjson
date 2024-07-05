@@ -304,7 +304,7 @@ bullet: {
   recoil: 0
   shootWarmupSpeed: 0.07
   minWarmup: 0.98
-  mirror: false
+  mirror: true
   shootSound: missileLaunch
   layerOffset: 2
   rotate: true
