@@ -254,6 +254,8 @@ bullet: {
     backColor: ffa245
     height: 20
     width: 20
+    shrinkY: 0
+    shrinkX: 0
     parts: [
         {
         type: FlarePart
