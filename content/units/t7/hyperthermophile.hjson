@@ -174,8 +174,10 @@ weapons: [
                       lengthTo: 0
                       strokeFrom: 3
                       strokeTo: 3
+                      line: true
                         }
               }
+        trailRotation: true
         height: 24
         width: 20
         shrinkY: 0
