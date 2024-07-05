@@ -157,7 +157,6 @@ weapons: [
         trailColor: ffa245
         frontColor: ffffff
         backColor: ffa245
-        trailChance: 1
         trailInterval: 4
         sprite: missile-large
         hitColor: ffa245
@@ -165,6 +164,7 @@ weapons: [
                   type: RadialEffect
                   amount: 2
                   rotationSpacing: 180
+                  baseRotation: 90
                   effect: {
                       type: ParticleEffect
                       length: 0
