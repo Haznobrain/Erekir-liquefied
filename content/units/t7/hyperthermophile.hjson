@@ -1,0 +1,186 @@
+type: naval
+template: ErekirUnitType
+flying: false
+name: Hyperthermophile
+description: The final tier of slag boat units, possessing massive firepower and long range to destroy things quickly.
+health: 560000
+armor: 38
+hitSize: 120
+speed: 0.38
+rotateSpeed: 0.9
+fogRadius: 65
+immunities: [
+  burning,
+  melting
+  ]
+weapons: [
+{
+  name: hyperthermophile-big-gun
+  reload: 220
+  range: 560
+  rotateSpeed: 1.1
+  recoil: 2
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      moveY: 1
+      progress: recoil
+      under: true
+      children: [
+            {
+            type: RegionPart
+            outline: false
+            suffix: -glow
+            color: ff0000cc
+            blending: additive
+            }
+        ]
+        }
+    {
+      type: RegionPart
+      suffix: -side
+      moveRot: 10
+      progress: warmup
+      moves: [
+        {
+          type: PartMove
+          progress: recoil
+          rot: -20
+          y: -6
+            }
+            ]
+        }
+    ]
+  mirror: false
+  x: 0
+  y: 0
+  shoot: {
+    type: ShootMulti
+    source: {
+    type: ShootAlternate
+    shots: 2
+    barrels: 2
+      }
+    dest: [
+      {
+        shots: 2
+          }
+      ]
+      }
+  rotate: true
+  shootSound: largeBolt
+  bullet: {
+      type: BasicBulletType
+      damage: 650
+      speed: 10
+      lifetime: 56
+      splashDamage: 800
+      splashDamageRadius: 90
+      despawnHit: true
+      despawnEffect: none
+      hitEffect: {
+          type: MultiEffect
+          effects: [
+            {
+              type: WaveEffect
+              sizeTo: 90
+              lifetime: 12
+              strokeFrom: 4
+              strokeTo: 0.1
+              colorFrom: ffffff
+              colorTo: ffa245
+                }
+            {
+            type: ParticleEffect
+            colorFrom: ffa245cc
+            colorTo: 605a5500
+            sizeFrom: 12
+            sizeTo: 0
+            interp: pow3Out
+            sizeInterp: pow3In
+            particles: 7
+            lifetime: 180
+            length: 85
+              }
+                    {
+            type: ParticleEffect
+            colorFrom: ffa245cc
+            colorTo: 605a5500
+            sizeFrom: 6
+            sizeTo: 0
+            interp: pow3Out
+            sizeInterp: pow3In
+            particles: 14
+            lifetime: 160
+            length: 85
+              }
+              {
+              type: ParticleEffect
+              line: true
+              length: 95
+              lengthFrom: 10
+              lengthTo: 0
+              strokeFrom: 3
+              strokeTo: 3
+              interp: pow3Out
+              sizeInterp: pow10Out
+              particles: 14
+              lifetime: 100
+              colorFrom: ffa245
+              colorTo: ffa245
+                }
+                ]
+              }
+        shootEffect: {
+              type: MultiEffect
+              effects: [shootBigColor, colorSparkBig, 
+                {
+                  type: WaveEffect
+                  colorFrom: ffffff
+                  colorTo: ffa245
+                  sizeTo: 40
+                  sizeFrom: 1
+                  strokeFrom: 2
+                  strokeTo: 0
+                    }
+                  ]
+                    }
+        trailLength: 90
+        trailColor: ffa245
+        frontColor: ffffff
+        backColor: ffa245
+        sprite: large-missile
+        trailEffect: {
+                  type: RadialEffect
+                  amount: 2
+                  rotationSpacing: 180
+                  effect: {
+                      type: ParticleEffect
+                      length: 0
+                      baseLength: 0
+                      followParent: false
+                      lengthFrom: 24
+                      lengthTo: 0
+                      strokeFrom: 3
+                      strokeTo: 3
+                        }
+              }
+        height: 24
+        width: 20
+        shrinkY: 0
+        shrinkX: 0.1
+        hitSize: 12
+        smokeEffect: none
+        hitSound: explosion
+        status: melting
+        keepVelocity: false
+        hittable: false
+        lightning: 2
+        lightningDamage: 50
+        lightningLength: 3
+        lightningLengthRand: 1
+          }
+      }
+      ]
+  
