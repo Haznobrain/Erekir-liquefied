@@ -39,7 +39,7 @@ effect: {
 type: MoveEffectAbility
 y: -2
 x: -6
-interval: 1
+interval: 3
 rotateEffect: true
 rotation: -45
 parentizeEffects: true
@@ -70,7 +70,7 @@ shootY: 6
 shootSound: blaster
 reload: 90
 targetAir: false
-shootCone: 1
+shootCone: 5
 mirror: false
 x: 0
 y: 0
@@ -94,6 +94,8 @@ bullet: {
     trailInterp: pow3In
     trailColor: 84f49166
     trailInterval: 1
+    collidesTeam: true
+    healPercent: 5
     trailEffect: {
       type: MultiEffect
         effects: [
