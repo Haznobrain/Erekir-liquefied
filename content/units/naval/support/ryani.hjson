@@ -1,0 +1,159 @@
+type: naval
+speed: 0.95
+omniMovement: true
+health: 450
+name: Ryani
+description: A small support boat unit. Shoots ennemies with small artillery, capable of turning on the spot thanks to jet propulsion.
+armor: 2
+faceTarget: true
+singleTarget: true
+fogRadius: 15
+rotateSpeed: 2.5
+targetAir: false
+abilities: [
+{
+type: MoveEffectAbility
+y: -2
+x: 6
+interval: 1
+rotateEffect: true
+rotation: -45
+parentizeEffects: true
+effect: {
+  baseRotation: 180
+  cone: 3
+  layer: 60
+  colorFrom: ffa665
+  colorTo: ffa665
+  line: true
+  rotWithParent: true
+  followParent: false
+  lengthFrom: 6
+  lengthTo: 6
+  strokeFrom: 1
+  strokeTo: 0
+  lifetime: 70
+    }
+}
+{
+type: MoveEffectAbility
+y: -2
+x: -6
+interval: 1
+rotateEffect: true
+rotation: 45
+parentizeEffects: true
+effect: {
+  baseRotation: 180
+  cone: 3
+  layer: 60
+  colorFrom: ffa665
+  colorTo: ffa665
+  line: true
+  rotWithParent: true
+  followParent: false
+  lengthFrom: 6
+  lengthTo: 6
+  strokeFrom: 1
+  strokeTo: 0
+  lifetime: 70
+    }
+}
+]
+immunities: [
+  burning,
+  melting
+  ]
+weapons: [
+{
+shootY: 6
+shootSound: blaster
+reload: 90
+targetAir: false
+shootCone: 1
+mirror: false
+x: 0
+y: 0
+range: 96
+bullet: {
+    type: ArtilleryBulletType
+    damage: 0
+    splashDamage: 45
+    splashDamageRadius: 12
+    speed: 2
+    lifetime: 48
+    height: 6
+    width: 6
+    shrinkX: 0
+    shrinkY: 0
+    sprite: circle-bullet
+    frontColor: ffffff
+    backColor: 84f491
+    trailLength: 20
+    trailWidth: 6
+    trailInterp: pow3In
+    trailColor: 84f49166
+    trailInterval: 1
+    trailEffect: {
+      type: MultiEffect
+        effects: [
+{
+type: ParticleEffect
+lifetime: 3
+sizeFrom: 1
+particles: 10
+interp: pow10Out
+sizeInterp: pow3In
+colorFrom: 84f491
+colorTo: 62ae7f
+length: 3
+}
+        {
+type: ParticleEffect
+lifetime: 40
+length: 0
+sizeFrom: 2
+particles: 1
+colorFrom: 84f491
+colorTo: 62ae7f
+}
+]
+    }
+    shootEffect: {
+    type: MultiEffect
+    effects: [
+{
+type: RadialEffect
+rotationSpacing: 10
+effect: {
+type: ParticleEffect
+cone: 2
+length: 3
+line: true
+lengthFrom: 4
+lengthTo: 2
+strokeFrom: 1
+strokeTo: 0
+interp: pow10Out
+sizeInterp: pow3In
+colorFrom: ffffff
+colorTo: 84f491
+lifetime: 20
+}
+{
+type: ParticleEffect
+particles: 20
+length: 4
+line: true
+interp: pow10Out
+sizeInterp: pow3In
+colorFrom: ffffff
+colorTo: 84f491
+lengthFrom: 2
+lengthTo: 2
+strokeFrom: 1
+strokeTo: 0
+lifetime: 20
+}
+]
+  }
