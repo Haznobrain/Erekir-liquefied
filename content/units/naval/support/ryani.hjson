@@ -139,9 +139,12 @@ sizeInterp: pow3In
 colorFrom: ffffff
 colorTo: 84f491
 lifetime: 20
+layer: 60
+}
 }
 {
 type: ParticleEffect
+layer: 60
 particles: 20
 length: 4
 line: true
@@ -157,3 +160,36 @@ lifetime: 20
 }
 ]
   }
+hitEffect: {
+  type: ParticleEffect
+  particles: 8
+  line: true
+  interp: pow10Out
+  sizeInterp: pow3In
+  colorFrom: ffffff
+  colorTo: 84f491
+  length: 10
+  lengthFrom: 6
+  lengthTo: 0
+  strokeFrom: 1
+  strokeTo: 1
+    }
+}
+}
+{
+type: RepairBeamWeapon
+name: ryani-repair
+repairSpeed: 0.4
+mirror: false
+beamWidth: 1
+pulseRadius: 2
+pulseStroke: 2.0
+recentDamageMultiplier: 1
+laserColor: 84f491
+healColor: 84f491
+range: 96
+bullet: {
+  maxRange: 96
+    }
+}
+]
