@@ -177,6 +177,9 @@ hitEffect: {
 }
 }
 {
+y: -4.5
+x: 0
+rotate: true
 type: RepairBeamWeapon
 name: ryani-repair
 repairSpeed: 0.4
