@@ -8,7 +8,6 @@ armor: 2
 faceTarget: true
 singleTarget: true
 fogRadius: 15
-rotateSpeed: 2.5
 targetAir: false
 template: ErekirUnitType
 abilities: [
@@ -16,9 +15,9 @@ abilities: [
 type: MoveEffectAbility
 y: -2
 x: 6
-interval: 1
+interval: 3
 rotateEffect: true
-rotation: -45
+rotation: 45
 parentizeEffects: true
 effect: {
   baseRotation: 180
@@ -42,7 +41,7 @@ y: -2
 x: -6
 interval: 1
 rotateEffect: true
-rotation: 45
+rotation: -45
 parentizeEffects: true
 effect: {
   baseRotation: 180
