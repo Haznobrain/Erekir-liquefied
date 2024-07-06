@@ -10,6 +10,7 @@ singleTarget: true
 fogRadius: 15
 rotateSpeed: 2.5
 targetAir: false
+template: ErekirUnitType
 abilities: [
 {
 type: MoveEffectAbility
