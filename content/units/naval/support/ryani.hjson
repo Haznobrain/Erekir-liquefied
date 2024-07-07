@@ -186,8 +186,8 @@ type: RepairBeamWeapon
 name: ryani-repair
 repairSpeed: 0.4
 mirror: false
-beamWidth: 1
-pulseRadius: 2
+beamWidth: 0.5
+pulseRadius: 1
 pulseStroke: 2.0
 recentDamageMultiplier: 1
 laserColor: 84f491
