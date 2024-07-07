@@ -5,6 +5,7 @@ health: 450
 name: Ryani
 description: A small support boat unit. Shoots ennemies with small artillery, capable of turning on the spot thanks to jet propulsion.
 armor: 2
+hitSize: 12
 faceTarget: true
 singleTarget: true
 fogRadius: 15
