@@ -126,7 +126,8 @@ x: 3
 rotate: true
 type: RepairBeamWeapon
 name: ruffoi-heal
-repairSpeed: 0.8
+repairSpeed: 0.4
+alternate: false
 mirror: true
 beamWidth: 1
 pulseRadius: 2
