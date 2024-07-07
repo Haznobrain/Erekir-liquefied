@@ -79,8 +79,7 @@ mirror: false
 x: 0
 y: 0
 shootY: 8
-shootSound: laserBig
-loopSound: laserBeam
+shootSound: beam
 bullet: {
   type: ContinuousLaserBulletType
   length: 60
@@ -91,6 +90,7 @@ bullet: {
   lifetime: 180
   intervalRandomSpread: 0
   layer: 60
+  shootStatus: slow
   intervalBullet: {
     type: RailBulletType
     damage: 0
