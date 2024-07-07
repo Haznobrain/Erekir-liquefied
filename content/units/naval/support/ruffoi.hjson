@@ -5,6 +5,7 @@ health: 920
 name: Ruffoi
 description: A bit larger support boat unit. Burns ennemies with a small laser, still pretty fast and can turn quickly thanks to jet propulsion.
 armor: 4
+hitSize: 20
 rotateSpeed: 4.8
 faceTarget: true
 singleTarget: true
@@ -86,6 +87,7 @@ bullet: {
   colors: [84f491,b6fbbe, e5fbe8, ffffff]
   damage: 5
   bulletInterval: 60
+  lifetime: 180
   intervalRandomSpread: 0
   intervalBullet: {
     type: RailBulletType
