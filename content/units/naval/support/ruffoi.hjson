@@ -74,6 +74,7 @@ range: 60
 reload: 150
 continuous: true
 top: false
+recoil: 0
 mirror: false
 x: 0
 y: 0
@@ -89,6 +90,7 @@ bullet: {
   bulletInterval: 60
   lifetime: 180
   intervalRandomSpread: 0
+  layer: 60
   intervalBullet: {
     type: RailBulletType
     damage: 0
@@ -99,8 +101,10 @@ bullet: {
     shootEffect: none
     smokeEffect: none
     hitEffect: none
+    layer: 60
     pointEffect: {
       type: WaveEffect
+      layer: 60
       colorFrom: ffffff
       colorTo: 84f491
       sizeFrom: 10
