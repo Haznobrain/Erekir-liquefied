@@ -1,0 +1,137 @@
+type: naval
+speed: 0.9
+omniMovement: true
+health: 920
+name: Ruffoi
+description: A bit larger support boat unit. Burns ennemies with a small laser, still pretty fast and can turn quickly thanks to jet propulsion.
+armor: 4
+rotateSpeed: 4.8
+faceTarget: true
+singleTarget: true
+fogRadius: 15
+targetAir: true
+template: ErekirUnitType
+abilities: [
+{
+type: MoveEffectAbility
+y: -4
+x: 8
+interval: 4
+rotateEffect: true
+rotation: 45
+parentizeEffects: true
+effect: {
+  baseRotation: 180
+  cone: 3
+  layer: 60
+  colorFrom: ffa665
+  colorTo: ffa665
+  line: true
+  rotWithParent: true
+  followParent: false
+  lengthFrom: 6
+  lengthTo: 6
+  strokeFrom: 1
+  strokeTo: 0
+  lifetime: 70
+    }
+}
+{
+type: MoveEffectAbility
+y: -4
+x: -8
+interval: 3
+rotateEffect: true
+rotation: -45
+parentizeEffects: true
+effect: {
+  baseRotation: 180
+  cone: 3
+  layer: 60
+  colorFrom: ffa665
+  colorTo: ffa665
+  line: true
+  rotWithParent: true
+  followParent: false
+  lengthFrom: 6
+  lengthTo: 6
+  strokeFrom: 1
+  strokeTo: 0
+  lifetime: 70
+    }
+}
+]
+immunities: [
+  burning,
+  melting
+  ]
+weapons: [
+{
+name: ruffoi
+heatColor: ff0000
+range: 60
+reload: 150
+continuous: true
+top: false
+mirror: false
+x: 0
+y: 0
+shootY: 8
+shootSound: laserBig
+loopSound: laserBeam
+bullet: {
+  type: ContinuousLaserBulletType
+  length: 60
+  width: 8
+  colors: [84f491,b6fbbe, e5fbe8, ffffff]
+  damage: 5
+  bulletInterval: 60
+  intervalRandomSpread: 0
+  intervalBullet: {
+    type: RailBulletType
+    damage: 0
+    length: 50
+    pointEffectSpace: 16
+    pierceCap: 2
+    pierceEffect: none
+    shootEffect: none
+    smokeEffect: none
+    hitEffect: none
+    pointEffect: {
+      type: WaveEffect
+      colorFrom: ffffff
+      colorTo: 84f491
+      sizeFrom: 10
+      sizeTo: 10
+      strokeFrom: 2
+      strokeTo: 0.1
+      interp: slope
+      lightInterp: slope
+      lightColor: 84f491
+      lifetime: 61
+        }
+  pierceCap: 2
+    }
+}
+}
+{
+y: -3
+x: 3
+rotate: true
+type: RepairBeamWeapon
+name: ruffoi-heal
+repairSpeed: 0.8
+mirror: true
+beamWidth: 1
+pulseRadius: 2
+shootY: 4
+pulseStroke: 2.0
+recentDamageMultiplier: 1
+laserColor: 84f491
+healColor: 84f491
+range: 100
+bullet: {
+  maxRange: 100
+    }
+}
+]
