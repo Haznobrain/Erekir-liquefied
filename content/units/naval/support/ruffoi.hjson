@@ -80,6 +80,8 @@ x: 0
 y: 0
 shootY: 8
 shootSound: beam
+  shootStatus: slow
+shootStatusDuration: 190
 bullet: {
   type: ContinuousLaserBulletType
   length: 60
@@ -90,7 +92,6 @@ bullet: {
   lifetime: 180
   intervalRandomSpread: 0
   layer: 60
-  shootStatus: slow
   intervalBullet: {
     type: RailBulletType
     damage: 0
