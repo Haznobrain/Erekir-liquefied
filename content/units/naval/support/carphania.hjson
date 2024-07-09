@@ -1,0 +1,272 @@
+type: naval
+speed: 0.85
+omniMovement: true
+health: 3650
+name: Carphania
+description: A medium, light, and fast naval support unit, shoots a fragmentary orb, and can heal allies.
+armor: 5
+hitSize: 32
+rotateSpeed: 4.2
+faceTarget: false
+singleTarget: true
+fogRadius: 25
+targetAir: false
+template: ErekirUnitType
+abilities: [
+{
+type: MoveEffectAbility
+y: -10
+x: 7
+interval: 4
+rotateEffect: true
+rotation: 0
+parentizeEffects: true
+effect: {
+    type: ParticleEffect
+    colorFrom: ffa665
+    colorTo: ffa665
+    interp: pow5Out
+    sizeInterp: pow2In
+    sizeFrom: 4
+    particles: 4
+    length: 10
+    lifetime: 50
+    }
+}
+{
+type: MoveEffectAbility
+y: -10
+x: -7
+interval: 4
+rotateEffect: true
+rotation: 0
+parentizeEffects: true
+effect: {
+    type: ParticleEffect
+    colorFrom: ffa665
+    colorTo: ffa665
+    interp: pow5Out
+    sizeInterp: pow2In
+    sizeFrom: 4
+    particles: 4
+    length: 10
+    lifetime: 50
+    }
+]
+immunities: [
+  burning,
+  melting
+  ]
+weapons: [
+{
+shootY: -1
+shootSound: plasmaShoot
+reload: 240
+targetAir: false
+shootCone: 2
+name: carphania-weapon
+mirror: false
+x: 0
+y: 4.5
+rotateSpeed: 2.6
+range: 184
+bullet: {
+    type: ArtilleryBulletType
+    damage: 0
+    splashDamage: 90
+    splashDamageRadius: 24
+    speed: 2
+    lifetime: 92
+    height: 8
+    width: 8
+    shrinkX: 0
+    shrinkY: 0
+    sprite: circle-bullet
+    frontColor: ffffff
+    backColor: 84f491
+    trailLength: 20
+    trailWidth: 6
+    trailInterp: pow3In
+    trailColor: 84f49166
+    trailInterval: 1
+    collidesTeam: true
+    healPercent: 10
+    fragBullets: 8
+    fragRandomSpread: 0
+    fragSpread: 35
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragOffsetMin: 1
+    fragOffsetMax: 1
+    fragBullet: {
+        type: BasicBulletType
+            trailEffect: {
+      type: MultiEffect
+        effects: [
+{
+type: ParticleEffect
+lifetime: 3
+sizeFrom: 1
+particles: 10
+interp: pow10Out
+sizeInterp: pow3In
+colorFrom: 84f491
+colorTo: 62ae7f
+length: 3
+}
+        {
+type: ParticleEffect
+lifetime: 40
+length: 0
+sizeFrom: 2
+particles: 1
+colorFrom: 84f491
+colorTo: 62ae7f
+}
+]
+    }
+    shootEffect: none
+    smokeEffect: none
+    hitEffect: hitBulletColor
+    despawnHit: true
+    speed: 3
+    lifetime: 30
+    despawnEffect: none
+    sprite: circle-bullet
+    frontColor: ffffff
+    backColor: 84f491
+    trailColor: 84f49166
+    trailInterp: pow5In
+    shrinkX: 0
+    shrinkY: 0
+    damage: 15
+    splashDamage: 30
+    splashDamageRadius: 10
+    despawnSound: none
+    hitSound: explosion
+}
+    trailEffect: {
+      type: MultiEffect
+        effects: [
+{
+type: ParticleEffect
+lifetime: 3
+sizeFrom: 2
+particles: 10
+interp: pow10Out
+sizeInterp: pow3In
+colorFrom: 84f491
+colorTo: 62ae7f
+length: 3
+}
+        {
+type: ParticleEffect
+lifetime: 40
+length: 0
+sizeFrom: 5
+particles: 1
+colorFrom: 84f491
+colorTo: 62ae7f
+}
+]
+    }
+    shootEffect: {
+    type: MultiEffect
+    effects: [
+{
+type: RadialEffect
+rotationSpacing: 2
+amount: 5
+effect: {
+type: ParticleEffect
+cone: 2
+length: 3
+line: true
+lengthFrom: 16
+lengthTo: 2
+strokeFrom: 1
+strokeTo: 0
+interp: pow10Out
+sizeInterp: pow3In
+colorFrom: ffffff
+colorTo: 84f491
+lifetime: 40
+layer: 60
+}
+}
+{
+type: ParticleEffect
+layer: 60
+particles: 20
+length: 12
+line: true
+interp: pow10Out
+sizeInterp: pow3In
+colorFrom: ffffff
+colorTo: 84f491
+lengthFrom: 2
+lengthTo: 2
+strokeFrom: 1
+strokeTo: 0
+lifetime: 50
+cone: 10
+}
+]
+  }
+hitEffect: {
+  type: MultiEffect
+  effects: [
+{
+  type: ParticleEffect
+  particles: 12
+  line: true
+  interp: pow10Out
+  sizeInterp: pow3In
+  colorFrom: ffffff
+  colorTo: 84f491
+  length: 10
+  lengthFrom: 6
+  lengthTo: 0
+  strokeFrom: 1
+  strokeTo: 1
+  cone: 140
+    }
+{
+  type: ParticleEffect
+  particles: 8
+  line: true
+  interp: pow10Out
+  sizeInterp: pow3In
+  colorFrom: ffffff
+  colorTo: 84f491
+  length: 10
+  lengthFrom: 12
+  lengthTo: 0
+  strokeFrom: 1
+  strokeTo: 1
+  cone: 140
+    }
+  ]
+}
+}
+}
+{
+y: -15.25
+x: 3.75
+rotate: true
+type: RepairBeamWeapon
+name: ryani-repair
+repairSpeed: 1.2
+mirror: true
+beamWidth: 0.9
+pulseRadius: 1.4
+pulseStroke: 2.3
+recentDamageMultiplier: 1
+laserColor: 84f491
+healColor: 84f491
+range: 160
+bullet: {
+  maxRange: 160
+    }
+}
+]
