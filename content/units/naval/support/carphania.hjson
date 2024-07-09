@@ -57,6 +57,15 @@ effect: {
     followParent: false
     }
 }
+{
+type: ForceFieldAbility
+radius: 80
+sides: 4
+max: 600
+regen: 0.4
+cooldown: 240
+rotation: 45
+}
 ]
 immunities: [
   burning,
