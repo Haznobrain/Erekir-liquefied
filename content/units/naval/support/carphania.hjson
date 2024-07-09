@@ -73,6 +73,8 @@ x: 0
 y: 4.5
 rotateSpeed: 2.6
 range: 184
+rotate: true
+cooldownTime: 240
 bullet: {
     type: ArtilleryBulletType
     damage: 0
