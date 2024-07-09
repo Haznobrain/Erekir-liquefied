@@ -52,6 +52,7 @@ effect: {
     length: 10
     lifetime: 50
     }
+}
 ]
 immunities: [
   burning,
