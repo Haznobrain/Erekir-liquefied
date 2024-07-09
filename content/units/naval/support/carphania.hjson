@@ -89,7 +89,7 @@ bullet: {
     sprite: circle-bullet
     frontColor: ffffff
     backColor: 84f491
-    trailLength: 20
+    trailLength: 100
     trailWidth: 6
     trailInterp: pow3In
     trailColor: 84f49166
@@ -142,7 +142,7 @@ colorTo: 62ae7f
     backColor: 84f491
     trailColor: 84f49166
     trailInterp: pow5In
-    trailLength: 24
+    trailLength: 60
     height: 5
     width: 5
     trailWidth: 5
