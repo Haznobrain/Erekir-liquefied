@@ -32,6 +32,7 @@ effect: {
     length: 10
     lifetime: 50
     layer: 60
+    followParent: false
     }
 }
 {
@@ -53,6 +54,7 @@ effect: {
     length: 10
     lifetime: 50
     layer: 60
+    followParent: false
     }
 }
 ]
