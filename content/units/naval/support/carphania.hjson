@@ -31,6 +31,7 @@ effect: {
     particles: 4
     length: 10
     lifetime: 50
+    layer: 60
     }
 }
 {
@@ -51,6 +52,7 @@ effect: {
     particles: 4
     length: 10
     lifetime: 50
+    layer: 60
     }
 }
 ]
@@ -61,7 +63,7 @@ immunities: [
 weapons: [
 {
 shootY: -1
-shootSound: plasmaShoot
+shootSound: plasmaboom
 reload: 240
 targetAir: false
 shootCone: 2
@@ -89,10 +91,10 @@ bullet: {
     trailWidth: 6
     trailInterp: pow3In
     trailColor: 84f49166
-    trailInterval: 1
+    trailInterval: 3
     collidesTeam: true
     healPercent: 10
-    fragBullets: 8
+    fragBullets: 9
     fragRandomSpread: 0
     fragSpread: 35
     fragVelocityMin: 1
@@ -130,7 +132,7 @@ colorTo: 62ae7f
     smokeEffect: none
     hitEffect: hitBulletColor
     despawnHit: true
-    speed: 3
+    speed: 2
     lifetime: 30
     despawnEffect: none
     sprite: circle-bullet
@@ -138,6 +140,10 @@ colorTo: 62ae7f
     backColor: 84f491
     trailColor: 84f49166
     trailInterp: pow5In
+    trailLength: 24
+    height: 5
+    width: 5
+    trailWidth: 5
     shrinkX: 0
     shrinkY: 0
     damage: 15
