@@ -266,7 +266,7 @@ y: -15.25
 x: 3.75
 rotate: true
 type: RepairBeamWeapon
-name: ryani-repair
+name: carphania-heal
 repairSpeed: 1.2
 mirror: true
 beamWidth: 0.9
