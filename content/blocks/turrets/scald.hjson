@@ -8,6 +8,7 @@ targetGround: true
 size: 6
 loopSound: smelter
 name: Scald
+category: turrets
 description: Summons accelerating bullets that rush outwards in a line.
 shoot: {
   shots: 3
@@ -166,7 +167,7 @@ amount: 3
 }
 ]
 }
-coolantMultiplier: 2.4
+coolantMultiplier: 1.1
 coolant: {
   type: ConsumeLiquid
   liquid: water
@@ -191,7 +192,7 @@ shootType: {
   homingPower: 0.2
   speed: 0.1
   drag: -0.1
-  lifetime: 65
+  lifetime: 63
   trailLength: 60
   trailWidth: 1.5
   trailColor: d33f3f
