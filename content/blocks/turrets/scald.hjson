@@ -1,3 +1,4 @@
+shootY: 15
 type: PowerTurret
 reload: 20
 shootSound: malignShoot
