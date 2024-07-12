@@ -4,6 +4,7 @@ reload: 20
 shootSound: malignShoot
 range: 520
 targetAir: true
+predictTarget: false
 targetGround: true
 size: 6
 loopSound: smelter
