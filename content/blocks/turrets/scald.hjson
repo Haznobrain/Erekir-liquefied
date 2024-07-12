@@ -27,7 +27,7 @@ requirements: [
   phase-fabric/900
   azpacite/1200
   ]
-drawer: [
+drawer: {
   type: DrawTurret
   parts: [
 {
