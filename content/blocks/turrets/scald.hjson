@@ -8,7 +8,7 @@ targetGround: true
 size: 6
 loopSound: smelter
 name: Scald
-category: turrets
+category: turret
 description: Summons accelerating bullets that rush outwards in a line.
 shoot: {
   shots: 3
