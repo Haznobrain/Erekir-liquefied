@@ -38,6 +38,12 @@ fogRadius: 20
         lifetime: 24
         frontColor: 96f58c
         backColor: 28785c
+        hitColor: 96f58c
+        shootEffect: sparkShoot
+        hitEffect: hitBulletColor
+        despawnEffect: hitBulletColor
+        trailLength: 20
+        trailWidth: 5
 }
 }]
 engines: [
