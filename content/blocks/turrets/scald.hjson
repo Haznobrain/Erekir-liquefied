@@ -6,6 +6,8 @@ targetAir: true
 targetGround: true
 size: 6
 loopSound: smelter
+name: Scald
+description: Summons accelerating bullets that rush outwards in a line.
 shoot: {
   type: ShootSummon
   y: 15
@@ -183,6 +185,7 @@ shootType: {
 }
   smokeEffect: none
   inaccuracy: 1
+  homingPower: 0.2
   speed: 0.1
   drag: -0.1
   lifetime: 60
