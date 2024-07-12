@@ -64,5 +64,6 @@ healPercent: 1.75
 collidesTeam: true
 splashDamageRadius: 40
 statusDuration: 300
+buildingDamageMultiplier: 0.5
   }
 }]
