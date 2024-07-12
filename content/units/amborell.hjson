@@ -42,8 +42,9 @@ fogRadius: 20
         shootEffect: sparkShoot
         hitEffect: hitBulletColor
         despawnEffect: hitBulletColor
-        trailLength: 20
-        trailWidth: 5
+        trailLength: 5
+        trailColor: 96f58c
+        trailWidth: 1.5
 }
 }]
 engines: [
