@@ -166,9 +166,13 @@ liquid: slag
 amount: 3
 }
 ]
-  coolant: 1.2
 }
 coolantMultiplier: 2.4
+coolant: {
+  type: ConsumeLiquid
+  liquid: water
+  amount: 3
+    }
 shootType: {
   type: BasicBulletType
   shootEffect:{
