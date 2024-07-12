@@ -9,13 +9,10 @@ loopSound: smelter
 name: Scald
 description: Summons accelerating bullets that rush outwards in a line.
 shoot: {
-  type: ShootSummon
-  y: 15
-  x: 0
-  radius: 24
-  spread: 0
+  shots: 3
     }
 minWarmup: 0.96
+Xrand: 12
 shootWarmupSpeed: 0.026
 scaledHealth: 350
 requirements: [
