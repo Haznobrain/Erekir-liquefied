@@ -73,7 +73,7 @@ moveX: 0
 {
 type: ShapePart
 circle: true
-radius: 24
+radius: 12
 stroke: 0
 strokeTo: 2
 color: f5773b
@@ -84,7 +84,7 @@ layer: 110
 {
 type: ShapePart
 circle: true
-radius: 28
+radius: 14
 stroke: 0
 strokeTo: 2
 color: f5773b
@@ -97,7 +97,7 @@ type: ShapePart
 sides: 6
 color: f5773b
 hollow: true
-radius: 23
+radius: 11.5
 stroke: 0
 strokeTo: 2
 rotateSpeed: 1.9
@@ -109,7 +109,7 @@ type: ShapePart
 sides: 6
 color: f5773b
 hollow: true
-radius: 23
+radius: 11.5
 stroke: 0
 strokeTo: 2
 rotateSpeed: -1.9
@@ -120,7 +120,7 @@ layer: 110
 type: ShapePart
 color: ffffff00
 colorTo: f5773b
-radius: 22
+radius: 11
 sides: 4
 rotateSpeed: 3
 hollow: false
@@ -132,7 +132,7 @@ type: HaloPart
 shapes: 8
 sides: 20
 hollow: true
-haloRadius: 26
+haloRadius: 13
 radius: 0
 radiusTo: 2
 hollow: false
