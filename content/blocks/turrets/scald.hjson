@@ -168,7 +168,7 @@ amount: 3
 }
 ]
 }
-coolantMultiplier: 1.1
+coolantMultiplier: 0.9
 coolant: {
   type: ConsumeLiquid
   liquid: water
