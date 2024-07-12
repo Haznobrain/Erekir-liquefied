@@ -1,0 +1,220 @@
+type: PowerTurret
+reload: 20
+shootSound: malignShoot
+range: 520
+targetAir: true
+targetGround: true
+size: 6
+loopSound: smelter
+shoot: {
+  type: ShootSummon
+  y: 15
+  x: 0
+  radius: 24
+  spread: 0
+  shots: 3
+    }
+minWarmup: 0.96
+shootWarmupSpeed: 0.026
+scaledHealth: 350
+requirements: [
+  beryllium/5000
+  silicon/3000
+  graphite/4000
+  tungsten/1000
+  phase-fabric/900
+  azpacite/1200
+  ]
+drawer: [
+  type: DrawTurret
+  parts: [
+{
+type: RegionPart
+suffix: -arm
+mirror: true
+moveRot: -20
+heatColor: d33f3f
+progress: warmup
+moveY: 5
+heatProgress: {
+  type: recoil
+  op: blend
+  other: warmup
+  amount: 0.95
+    }
+}
+{
+type: RegionPart
+suffix: -side
+progress: warmup
+heatProgress: {
+  type: recoil
+  op: blend
+  other: warmup
+  amount: 0.95
+    }
+heatColor: d33f3f
+moveX: 2
+moveY: 0
+mirror: true
+}
+{
+type: RegionPart
+suffix: -bottom
+heatProgress: {
+  type: recoil
+  op: blend
+  other: warmup
+  amount: 0.95
+    }
+heatColor: d33f3f
+moveY: 0
+moveX: 0
+}
+{
+type: ShapePart
+circle: true
+radius: 24
+stroke: 0
+strokeTo: 2
+color: d33f3f
+hollow: true
+y: 15
+layer: 110
+}
+{
+type: ShapePart
+circle: true
+radius: 28
+stroke: 0
+strokeTo: 2
+color: d33f3f
+hollow: true
+y: 15
+layer: 110
+}
+{
+type: ShapePart
+sides: 6
+color: d33f3f
+hollow: true
+radius: 23
+stroke: 0
+strokeTo: 2
+rotateSpeed: 1.9
+y: 15
+layer: 110
+}
+{
+type: ShapePart
+sides: 6
+color: d33f3f
+hollow: true
+radius: 23
+stroke: 0
+strokeTo: 2
+rotateSpeed: -1.9
+y: 15
+layer: 110
+}
+{
+type: ShapePart
+color: ffffff00
+colorTo: d33f3f
+radius: 22
+sides: 4
+rotateSpeed: 3
+hollow: false
+y: 15
+layer: 110
+}
+{
+type: HaloPart
+shapes: 8
+sides: 20
+hollow: true
+haloRadius: 26
+radius: 0
+radiusTo: 2
+y: 15
+haloRotateSpeed: 1.8
+color: d33f3f
+layer: 110
+}
+{
+type: HaloPart
+shapes: 8
+sides: 20
+hollow: true
+haloRadius: 26
+radius: 0
+radiusTo: 2
+y: 15
+haloRotateSpeed: -1.8
+color: d33f3f
+layer: 110
+}
+]
+}
+consumes: {
+  power: 36
+  liquids: [
+{
+liquid: slag
+amount: 3
+}
+]
+  coolant: 1.2
+}
+coolantMultiplier: 2.4
+shootType: {
+  type: BasicBulletType
+  shootEffect:{
+    type: MultiEffect
+    effects:[shootSmokeSquareSparse, {
+    type: WaveEffect
+    colorFrom: d33f3f
+    colorTo: d33f3f
+    sizeTo: 4
+    strokeFrom: 4
+    lifetime: 24
+    }
+    ]
+}
+  smokeEffect: none
+  inaccuracy: 1
+  speed: 0.1
+  drag: -0.1
+  lifetime: 60
+  trailLength: 60
+  trailWidth: 1.5
+  trailColor: d33f3f
+  type: BasicBulletType
+  frontColor: ffffff
+  backColor: d33f3f
+  sprite: circle-bullet
+  damage: 90
+  splashDamage: 80
+  splashDamageRadius: 26
+  hitEffect: hitBulletColor
+  despawnEffect: none
+  fragBullets: 8
+  fragSpread: 90
+  fragBullet: {
+    type: ShrapnelBulletType
+    serrations: 0
+    toColor: d33f3f
+    length: 60
+    lifetime: 30
+    width: 12
+    hitLarge: true
+    damage: 120
+    status: melting
+    statusDuration: 1200
+    knockBack: 20
+    impact: true
+    }
+  fragRandomSpread: 0
+  knockback: 6
+  hitColor: d33f3f
+}
