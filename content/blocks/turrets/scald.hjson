@@ -13,7 +13,7 @@ shoot: {
   shots: 3
     }
 minWarmup: 0.96
-Xrand: 12
+xRand: 12
 shootWarmupSpeed: 0.026
 scaledHealth: 350
 requirements: [
@@ -32,7 +32,7 @@ type: RegionPart
 suffix: -arm
 mirror: true
 moveRot: -20
-heatColor: d33f3f
+heatColor: f5773bff
 progress: warmup
 moveY: 5
 heatProgress: {
@@ -52,7 +52,7 @@ heatProgress: {
   other: warmup
   amount: 0.95
     }
-heatColor: d33f3f
+heatColor: f5773bff
 moveX: 2
 moveY: 0
 mirror: true
@@ -66,7 +66,7 @@ heatProgress: {
   other: warmup
   amount: 0.95
     }
-heatColor: d33f3f
+heatColor: f5773bff
 moveY: 0
 moveX: 0
 }
@@ -76,7 +76,7 @@ circle: true
 radius: 24
 stroke: 0
 strokeTo: 2
-color: d33f3f
+color: f5773b
 hollow: true
 y: 15
 layer: 110
@@ -87,7 +87,7 @@ circle: true
 radius: 28
 stroke: 0
 strokeTo: 2
-color: d33f3f
+color: f5773b
 hollow: true
 y: 15
 layer: 110
@@ -95,7 +95,7 @@ layer: 110
 {
 type: ShapePart
 sides: 6
-color: d33f3f
+color: f5773b
 hollow: true
 radius: 23
 stroke: 0
@@ -107,7 +107,7 @@ layer: 110
 {
 type: ShapePart
 sides: 6
-color: d33f3f
+color: f5773b
 hollow: true
 radius: 23
 stroke: 0
@@ -119,7 +119,7 @@ layer: 110
 {
 type: ShapePart
 color: ffffff00
-colorTo: d33f3f
+colorTo: f5773b
 radius: 22
 sides: 4
 rotateSpeed: 3
@@ -135,9 +135,10 @@ hollow: true
 haloRadius: 26
 radius: 0
 radiusTo: 2
+hollow: false
 y: 15
 haloRotateSpeed: 1.8
-color: d33f3f
+color: f5773b
 layer: 110
 }
 {
@@ -145,12 +146,13 @@ type: HaloPart
 shapes: 8
 sides: 20
 hollow: true
-haloRadius: 26
+haloRadius: 13
+hollow: false
 radius: 0
 radiusTo: 2
 y: 15
 haloRotateSpeed: -1.8
-color: d33f3f
+color: f5773b
 layer: 110
 }
 ]
@@ -189,7 +191,7 @@ shootType: {
   homingPower: 0.2
   speed: 0.1
   drag: -0.1
-  lifetime: 60
+  lifetime: 75
   trailLength: 60
   trailWidth: 1.5
   trailColor: d33f3f
