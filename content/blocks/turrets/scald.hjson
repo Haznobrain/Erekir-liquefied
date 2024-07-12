@@ -191,7 +191,7 @@ shootType: {
   homingPower: 0.2
   speed: 0.1
   drag: -0.1
-  lifetime: 75
+  lifetime: 65
   trailLength: 60
   trailWidth: 1.5
   trailColor: d33f3f
