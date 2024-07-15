@@ -1,6 +1,6 @@
 name: Large Warped wall
 type: DirectionalForceProjector
-description: A huge wall that blocks lasers and has a chance to deflect bullets. Also has a directional shield whenever it is powered.
+description: A huge wall that blocks lasers and has a chance to deflect bullets. Also has a directional single use shield whenever it is powered.
 health: 50625
 armor: 30
 insulating: true
@@ -10,12 +10,12 @@ absorbLasers: true
 lightningChance: 0.6
 lightningColor: 1dedc2
 lightningDamage: 32
-shieldHealth: 5000
+shieldHealth: 15000
 width: 48
 length: 48
-cooldownNormal: 1.75
-cooldownLiquid: 1
-cooldownBrokenBase: 0.4
+cooldownNormal: 800
+cooldownLiquid: 600
+cooldownBrokenBase: 600
 requirements: [
   impervium-alloy/216
   tungsten/270
