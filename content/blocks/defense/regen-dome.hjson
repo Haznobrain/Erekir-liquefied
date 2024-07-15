@@ -18,12 +18,14 @@ consumes: {
     optional: false
       }
       ]
-  items:[ {
+}
+optionalConsumers: [
+{
     item: phase-fabric
     amount: 1
-    optional: true
-    }]
-}
+    type: ConsumeItem
+    }
+]
 drawer: {
   type: DrawMulti
   drawers: [
