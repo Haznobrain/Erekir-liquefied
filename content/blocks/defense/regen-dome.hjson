@@ -1,7 +1,7 @@
 size: 5
 type: RegenProjector
 category: effect
-range: 26
+range: 52
 effectChance: 0.004
 healPercent: 0.083
 optionalMultiplier: 2
