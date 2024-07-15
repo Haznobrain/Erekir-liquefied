@@ -1,7 +1,7 @@
-name: Impervium wall
+name: Warped Fabric Wall
 type: Wall
 description: A large and strong wall that blocks ennemy projectiles and lasers.
-health: 45000
+health: 22500
 armor: 30
 insulating: true
 size: 2
@@ -10,8 +10,8 @@ lightningChance: 0.5
 lightningColor: 1dedc2
 lightningDamage: 30
 requirements: [
-  impervium-alloy/96
-  tungsten/120
+  impervium-alloy/28
+  tungsten/42
 ]
 research:large-azpacite-wall
 category: defense
