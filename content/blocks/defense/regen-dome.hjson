@@ -18,6 +18,11 @@ consumes: {
     optional: false
       }
       ]
+  item: {
+    item: phase-fabric
+    amount: 1
+    optional: true
+    }
 }
 drawer: {
   type: DrawMulti
