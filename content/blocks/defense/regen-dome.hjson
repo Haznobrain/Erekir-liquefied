@@ -2,6 +2,7 @@ size: 5
 type: RegenProjector
 category: effect
 range: 26
+effectChance: 0.004
 healPercent: 0.083
 optionalMultiplier: 2
 optionalUseTime: 240
@@ -17,13 +18,6 @@ consumes: {
     optional: false
       }
       ]
-  items: [
-{
-item: phase-fabric
-amount: 1
-booster: true
-  }
-    ]
 }
 drawer: {
   type: DrawMulti
