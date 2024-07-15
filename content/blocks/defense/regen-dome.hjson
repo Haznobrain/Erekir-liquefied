@@ -1,0 +1,68 @@
+size: 5
+type: RegenProjector
+category: effect
+range: 26
+healPercent: 0.083
+optionalMultiplier: 2
+optionalUseTime: 240
+baseColor: d1efff
+name: Regen Dome
+description: Slightly more efficient than a normal regen projector, but also has a much larger range.
+consumes: {
+  power: 20
+  liquids: [
+    {
+    liquid: hydrogen
+    amount: 0.1
+    optional: false
+      }
+      ]
+  items: [
+{
+item: phase-fabric
+amount: 1
+optional: true
+  }
+    ]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+}
+{
+type: DrawLiquidTile
+drawLiquid: hydrogen
+padding: 4
+}
+{
+type: DrawDefault
+  }
+{
+type: DrawGlowRegion
+color: 5dade2
+}
+{
+type: DrawPulseShape
+color: d1efff
+layer: 60
+}
+{
+type: DrawShape
+layer: 60
+radius: 4.5
+useWarmupRadius: true
+timeScl: 3
+color: d1efff
+}
+]
+  }
+requirements: [
+  silicon/300
+  tungsten/500
+  oxide/200
+  phase-fabric/25
+  azpacite/150
+  ]
