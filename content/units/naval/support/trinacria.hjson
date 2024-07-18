@@ -369,9 +369,8 @@ bullet: {
         type: WaveEffect
         strokeFrom: 5
         lifetime: 80
-        interp: pow3In
+        interp: pow3Out
         sizeTo: 80
-        startDelay: 1
         }
         {
         type: ParticleEffect
@@ -383,7 +382,6 @@ bullet: {
         interp: pow3In
         sizeInterp: pow5Out
         lifetime: 50
-        startDelay: 1
         }
                 ]
         }
