@@ -141,6 +141,7 @@ alternate: false
 shootSound: shockBlast
 top: false
 layerOffset: -0.001
+shootCone: 90
 shake: 3
 recoil: 0
 heatColor: ff0000
@@ -280,7 +281,7 @@ parts: [
     stroke: 2
     layer: 110
     }
-{
+    {
     type: ShapePart
     circle: true
     hollow: true
@@ -288,6 +289,17 @@ parts: [
     radius: 12
     stroke: 1
     layer: 110
+    }
+    {
+    type: HaloPart
+    haloRadius: 10
+    color: ededed
+    tri: true
+    shapes: 3
+    radius: 4
+    triLength: 6
+    haloRotateSpeed: 1.2
+    under: false
     }
     {
     type: HaloPart
@@ -333,4 +345,93 @@ parts: [
     hollow: false
     layer: 110
     }
+]
+reload: 480
+range: 80
+shootCone:180
+mirror: false
+shootY: 0
+predictTarget: false
+recoil: 0
+shootSound: hugeExplosion
+bullet: {
+    type: BulletType
+    lifetime: 0
+    speed: 0
+    instantDisappear: true
+    shootEffect: none
+    smokeEffect: none
+    hitEffect: {
+        type: MultiEffect
+        effects: [
+        {
+        type: WaveEffect
+        strokeFrom: 5
+        lifetime: 80
+        interp: pow3In
+        sizeTo: 80
+        }
+        {
+        type: ParticleEffect
+        line: true
+        lengthFrom: 16
+        lengthTo: 0
+        strokeFrom: 4
+        strokeTo: 0
+        interp: pow3In
+        sizeInterp: pow5Out
+        lifetime: 50
+        }
+                ]
+        }
+    splashDamage: 2850
+    splashDamageRadius: 80
+    fragBullets: 4
+    spawnBullets: [
+        {
+        type: BulletType
+        damage: 0
+        fragBullets: 8
+        fragSpread: 45
+        fragRandomSpread: 0
+        hitEffect: none
+        shootEffect: none
+        smokeEffect: none
+        lifetime: 0
+        instantDisappear: true
+        speed: 0
+        fragOffsetMax: 1
+        fragBullet: {
+            type: LaserBulletType
+            damage: 90
+            knockback: 10
+            lifetime: 80
+            length: 80
+            width: 20
+            sideLength: 0
+            }
+        }
+        ]
+    fragBullets: {
+        type: BulletType
+        damage: 0
+        pierce: true
+        pierceBuilding: true
+        display: false
+        trailLength: 40
+        trailWidth: 8
+        trailScl: 1
+        trailColor: ffffff
+        lifetime: 24
+        speed: 3.333333333333333333333333333333
+        hitEffect: none
+        shootEffect: none
+        despawnEffect: none
+        smokeEffect: none
+            }
+    knockback: 2
+    status: unmoving
+    statusDuration: 120
+    }
+}
 ]
