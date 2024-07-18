@@ -412,7 +412,7 @@ bullet: {
             }
         }
         ]
-    fragBullets: {
+    fragBullet: {
         type: BulletType
         damage: 0
         pierce: true
