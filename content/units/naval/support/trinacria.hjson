@@ -1,0 +1,231 @@
+type: naval
+speed: 0.80
+omniMovement: true
+health: 10500
+name: Trinacria
+description: A large but still quite fast jet propelled support boat, has really great healing capabilities as well as two piercing spear launchers.
+armor: 9
+hitSize: 50
+rotateSpeed: 3.5
+faceTarget: false
+singleTarget: true
+fogRadius: 31
+targetAir: false
+template: ErekirUnitType
+abilities: [
+{
+type: MoveEffectAbility
+y: -24
+x: 18
+interval: 4
+rotateEffect: true
+rotation: 0
+parentizeEffects: true
+effect: {
+    type: ParticleEffect
+    colorFrom: ffa665
+    colorTo: ffa665
+    interp: slope
+    sizeInterp: pow2In
+    sizeFrom: 4
+    particles: 4
+    length: 10
+    lifetime: 50
+    layer: 60
+    followParent: false
+    }
+}
+{
+type: MoveEffectAbility
+y: -24
+x: -18
+interval: 4
+rotateEffect: true
+rotation: 0
+parentizeEffects: true
+effect: {
+    type: ParticleEffect
+    colorFrom: ffa665
+    colorTo: ffa665
+    interp: slope
+    sizeInterp: pow2In
+    sizeFrom: 4
+    particles: 4
+    length: 10
+    lifetime: 50
+    layer: 60
+    followParent: false
+    }
+}
+{
+type: ForceFieldAbility
+radius: 120
+sides: 8
+max: 1400
+regen: 0.8
+cooldown: 360
+}
+]
+immunities: [
+  burning,
+  melting
+  ]
+weapons: [
+{
+rotateSpeed: 3.1
+y: -16
+x: 0
+rotate: true
+type: RepairBeamWeapon
+name: trinacria-repair-huge
+repairSpeed: 2
+mirror: false
+unitSort: strongest
+beamWidth: 0.9
+pulseRadius: 1.4
+pulseStroke: 2.3
+recentDamageMultiplier: 1
+laserColor: 84f491
+healColor: 84f491
+range: 240
+bullet: {
+  maxRange: 240
+    }
+}
+{
+name: trinacria-gun
+reload: 160
+range: 248
+x: -20.25
+y: -4.5
+alternate: false
+shootSound: shockBlast
+top: false
+layerOffset: -0.001
+shake: 3
+recoil: 0
+heatColor: ff0000
+shoot: {
+  type: ShootBarrel
+  barrels: [
+      -0.25, 4.75, -15
+          ]
+    }
+bullet: {
+  type: MissileBulletType
+  sprite: erekirliquefied-harpoon
+  damage: 145
+  splashDamage: 30
+  splashDamageRadius: 10
+  frontColor: 84f491
+  backColor: 62ae7f
+  trailLength: 180
+  speed: 4
+  lifetime: 62
+  weaveScale: 25
+  weaveMag: 31
+  homingPower: 0.6
+  weaveRandom: false
+  trailWidth: 2
+  trailScl: 2
+  width: 20
+  height: 26
+  trailColor: 62ae7fcc
+  hitColor: 62ae7f
+  trailInterval: 4
+  trailEffect: {
+    type: WaveEffect
+    lifetime: 12
+    colorFrom: 62ae7f
+    colorTo: 62ae7f
+    sizeFrom: 20
+    sizeTo: 0
+      }
+  shootEffect: {
+    type: MultiEffect
+    effects: [shootBigColor,{
+  type: WaveEffect
+  sides: 3
+  colorFrom: ffffff
+  colorTo: 84f491
+  lifetime: 12
+  startDelay: 5
+  sizeTo: 20
+    }
+      {
+  type: WaveEffect
+  sides: 8
+  startDelay: 2
+  colorFrom: ffffff
+  colorTo: 84f491
+  lifetime: 12
+  sizeTo: 20
+    }
+{
+  type: WaveEffect
+  startDelay: 0
+  colorFrom: ffffff
+  colorTo: 84f491
+  lifetime: 12
+  sizeTo: 20
+    }
+{
+type: ParticleEffect
+line: true
+lengthFrom: 16
+lengthTo: 0
+interp: pow3In
+length: 6
+cone: 60
+particles: 4
+lifetime: 50
+startDelay: 5
+strokeFrom: 1
+strokeTo: 0
+sizeInterp: slope
+colorTo: 84f491
+  }
+  {
+type: ParticleEffect
+line: true
+lengthFrom: 8
+lengthTo: 0
+interp: pow3In
+length: 6
+randLength: false
+cone: 60
+particles: 12
+lifetime: 50
+startDelay: 0
+strokeFrom: 1
+strokeTo: 0
+sizeInterp: slope
+colorTo: 84f491
+  }
+]
+  }
+  hitEffect: {
+    type: ExplosionEffect
+    smokeColor: 84f491
+    waveColor: 84f491
+    sparkColor: 84f491
+    smokes: 9
+    sparks: 5
+    waveLife: 8
+    waveStroke: 2.5
+    waveRad: 16
+    smokeSize: 5
+    smokeRad: 18
+    sparkLen: 6
+    sparkRad: 17
+      }
+  despawnEffect: none
+  despawnHit: true
+  pierce: true
+  pierceBuilding: true
+  collidesTeam: true
+  healPercent: 10
+  pierceCap: 3
+    }
+}
+]
