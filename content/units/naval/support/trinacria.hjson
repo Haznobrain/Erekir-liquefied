@@ -148,7 +148,7 @@ heatColor: ff0000
 shoot: {
   type: ShootBarrel
   barrels: [
-      -0.25, 4.75, -15
+      -0.25, 4.75, 365
           ]
     }
 bullet: {
@@ -163,7 +163,7 @@ bullet: {
   speed: 4
   lifetime: 62
   weaveScale: 25
-  weaveMag: 0.5
+  weaveMag: 2
   homingPower: 0.6
   weaveRandom: false
   trailWidth: 2
