@@ -354,6 +354,7 @@ shootY: 0
 predictTarget: false
 recoil: 0
 shootSound: hugeExplosion
+x: 0
 bullet: {
     type: BulletType
     lifetime: 0
