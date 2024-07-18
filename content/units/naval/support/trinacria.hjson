@@ -140,7 +140,7 @@ y: -4.5
 alternate: false
 shootSound: shockBlast
 top: false
-layerOffset: -0.001
+layerOffset: -0.0001
 shootCone: 90
 shake: 3
 recoil: 0
@@ -148,7 +148,7 @@ heatColor: ff0000
 shoot: {
   type: ShootBarrel
   barrels: [
-      -0.25, 4.75, 345
+      -0.25, 4.75, 20
           ]
     }
 bullet: {
@@ -371,6 +371,7 @@ bullet: {
         lifetime: 80
         interp: pow3In
         sizeTo: 80
+        startDelay: 1
         }
         {
         type: ParticleEffect
@@ -382,6 +383,7 @@ bullet: {
         interp: pow3In
         sizeInterp: pow5Out
         lifetime: 50
+        startDelay: 1
         }
                 ]
         }
