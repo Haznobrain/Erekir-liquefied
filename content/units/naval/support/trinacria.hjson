@@ -148,7 +148,7 @@ heatColor: ff0000
 shoot: {
   type: ShootBarrel
   barrels: [
-      -0.25, 4.75, 365
+      -0.25, 4.75, 345
           ]
     }
 bullet: {
@@ -165,7 +165,7 @@ bullet: {
   weaveScale: 25
   weaveMag: 2
   homingPower: 0.6
-  weaveRandom: false
+  weaveRandom: true
   trailWidth: 2
   trailScl: 2
   width: 20
@@ -413,6 +413,8 @@ bullet: {
             }
         }
         ]
+    fragVelocityMin: 1
+    fragVelocityMax: 1
     fragBullet: {
         type: BulletType
         damage: 0
