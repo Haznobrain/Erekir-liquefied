@@ -160,6 +160,7 @@ bullet: {
   frontColor: 84f491
   backColor: 62ae7f
   trailLength: 180
+  homingDelay: 8
   speed: 4
   lifetime: 62
   weaveScale: 25
@@ -426,7 +427,7 @@ bullet: {
         trailScl: 1
         trailColor: ffffff
         lifetime: 24
-        speed: 3.333333333333333333333333333333
+        speed: 3
         hitEffect: none
         shootEffect: none
         despawnEffect: none
