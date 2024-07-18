@@ -93,6 +93,45 @@ bullet: {
     }
 }
 {
+y: -4.25
+x: -9.25
+rotate: true
+type: RepairBeamWeapon
+name: trinacria-repair-big
+repairSpeed: 1.2
+beamWidth: 0.9
+pulseRadius: 1.4
+pulseStroke: 2.3
+recentDamageMultiplier: 1
+laserColor: 84f491
+healColor: 84f491
+range: 200
+shootY: 7.5
+shootX: -0.5
+bullet: {
+  maxRange: 200
+    }
+}
+{
+y: 7.25
+x: -8
+rotate: true
+type: RepairBeamWeapon
+name: trinacria-repair-small
+repairSpeed: 0.6
+beamWidth: 0.5
+pulseRadius: 0.8
+pulseStroke: 0.9
+recentDamageMultiplier: 1
+laserColor: 84f491
+healColor: 84f491
+range: 160
+shootY: 3.25
+bullet: {
+  maxRange: 160
+    }
+}
+{
 name: trinacria-gun
 reload: 160
 range: 248
@@ -228,4 +267,70 @@ colorTo: 84f491
   pierceCap: 3
     }
 }
+{
+y: -6
+layerOffset: 2
+parts: [
+    {
+    type: ShapePart
+    circle: true
+    hollow: true
+    color: d7d7d766
+    radius: 11
+    stroke: 2
+    layer: 110
+    }
+{
+    type: ShapePart
+    circle: true
+    hollow: true
+    color: d7d7d7
+    radius: 12
+    stroke: 1
+    layer: 110
+    }
+    {
+    type: HaloPart
+    haloRadius: 10
+    shapeRotation: 180
+    color: d7d7d7
+    tri: true
+    shapes: 3
+    radius: 4
+    triLength: 6
+    haloRotateSpeed: 1.2
+    under: true
+    }
+    {
+    type: ShapePart
+    circle: true
+    radius: 9
+    color: 373946
+    hollow: false
+    layerOffset: -0.002
+    }
+    {
+    type: ShapePart
+    circle: true
+    radius: 8
+    color: 72778d
+    hollow: false
+    layerOffset: -0.001
+    }
+    {
+    type: ShapePart
+    circle: true
+    radius: 7
+    color: d7d7d7
+    hollow: false
+    layer: 110
+    }
+    {
+    type: ShapePart
+    circle: true
+    radius: 6
+    color: ffffff
+    hollow: false
+    layer: 110
+    }
 ]
