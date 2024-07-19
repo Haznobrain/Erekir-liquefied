@@ -148,7 +148,7 @@ heatColor: ff0000
 shoot: {
   type: ShootBarrel
   barrels: [
-      -0.25, 4.75, 20
+      -1.25, 2.75, 20
           ]
     }
 bullet: {
