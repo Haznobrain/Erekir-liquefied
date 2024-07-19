@@ -114,6 +114,7 @@ parts: [
     cooldownTime: 1800
     shootSound: shockBlast
     mirror: false
+    alwaysShooting: true
     bullet: {
       type: BasicBulletType
       instantDisappear: true
