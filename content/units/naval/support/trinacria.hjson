@@ -272,6 +272,7 @@ colorTo: 84f491
 {
 y: -6
 layerOffset: 2
+    alwaysShooting: true
 parts: [
     {
     type: ShapePart
