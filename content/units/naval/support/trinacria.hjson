@@ -428,7 +428,7 @@ bullet: {
         trailScl: 1
         trailColor: ffffff
         lifetime: 24
-        speed: 3
+        speed: 2.9
         hitEffect: none
         shootEffect: none
         despawnEffect: none
