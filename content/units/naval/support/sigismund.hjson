@@ -2,7 +2,7 @@ type: naval
 speed: 0.65
 omniMovement: true
 health: 21500
-name: Carphania
+name: Sigismund
 description: A medium, light, and fast naval support unit, shoots a fragmentary orb, and can heal allies.
 armor: 23
 hitSize: 80
@@ -27,7 +27,8 @@ effect: {
     colorTo: ffa665
     interp: pow5Out
     sizeInterp: slope
-    sizeFrom: 4
+    sizeTo: 4
+    sizeFrom: 0
     particles: 4
     length: 10
     lifetime: 50
@@ -49,7 +50,8 @@ effect: {
     colorTo: ffa665
     interp: pow5Out
     sizeInterp: slope
-    sizeFrom: 4
+    sizeTo: 4
+    sizeFrom: 0
     particles: 4
     length: 10
     lifetime: 50
@@ -71,7 +73,8 @@ effect: {
     colorTo: ffa665
     interp: pow5Out
     sizeInterp: slope
-    sizeFrom: 4
+    sizeTo: 4
+    sizeFrom: 0
     particles: 4
     length: 10
     lifetime: 50
@@ -93,7 +96,8 @@ effect: {
     colorTo: ffa665
     interp: pow5Out
     sizeInterp: slope
-    sizeFrom: 4
+    sizeTo: 4
+    sizeFrom: 0
     particles: 4
     length: 10
     lifetime: 50
@@ -115,7 +119,8 @@ effect: {
     colorTo: ffa665
     interp: pow5Out
     sizeInterp: pow2In
-    sizeFrom: 4
+    sizeTo: 4
+    sizeFrom: 0
     particles: 4
     length: 10
     lifetime: 50
@@ -137,7 +142,8 @@ effect: {
     colorTo: ffa665
     interp: pow5Out
     sizeInterp: pow2In
-    sizeFrom: 4
+    sizeTo: 4
+    sizeFrom: 0
     particles: 4
     length: 10
     lifetime: 50
@@ -167,7 +173,7 @@ maxTargets: 30
 healPercent: 5
 sameTypeHealMult: 0.25
 layer: 110
-effectRadius: 16
+effectRadius: 12
 sectors: 6
 }
 ]
