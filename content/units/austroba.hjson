@@ -67,6 +67,7 @@ weapons: [{
     range: 280
     mirror: false
     reload: 60
+    layerOffset: 2
     shoot: {
         shots: 2
         shotDelay: 6
