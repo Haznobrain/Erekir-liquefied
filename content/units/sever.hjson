@@ -19,6 +19,9 @@ engineOffset: 5
     name: sever-weapon
     recoil: 0
     shootSound: laser
+    shoot: {
+      firstShotDelay: 10
+        }
     y: 0
     top: false
     mirror: false
@@ -27,6 +30,37 @@ engineOffset: 5
     shootCone: 5
     range: 96
     bullet: {
+      chargeEffect: {
+      type: MultiEffect
+      effects: [
+        {
+        type: ParticleEffect
+        particles: 1
+        sizeTo: 4
+        length: 0
+        baseLength: 0
+        colorTo: ffffffff
+        colorFrom: a9d8ff66
+        lifetime: 10
+        }
+        {
+        type: ParticleEffect
+        particles: 5
+        line: true
+        lengthFrom: 0
+        lengthTo: 2
+        baseLength: -8
+        length: 8
+        interp: pow3Out
+        sizeInterp: pow3In
+        colorFrom: a9d8ff66
+        strokeFrom: 0
+        strokeTo: 1
+        lifetime: 10
+        }
+        ]
+        }
+      sideLength: 0
       recoil: 2
       type: LaserBulletType
       damage: 25
