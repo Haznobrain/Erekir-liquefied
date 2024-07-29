@@ -22,7 +22,6 @@ melting
     x: 0
     reload: 30
     shootCone: 5
-    range: 176
     rotate: true
     name: pyrolobus-weapon
     recoil: 0
