@@ -57,7 +57,7 @@ melting
       speed: 4
       lifetime: 84
       damage: 12
-      splashDamage: 60
+      splashDamage: 90
       height: 10
       width: 5
       shrinkY: 0
@@ -114,7 +114,6 @@ parts: [
     cooldownTime: 1800
     shootSound: shockBlast
     mirror: false
-    alwaysShooting: true
     bullet: {
       type: BasicBulletType
       instantDisappear: true
@@ -126,6 +125,7 @@ parts: [
       fragRandomSpread: 0
       shootEffect: none
       hitEffect: massiveExplosion
+      rangeOverride: 200
       despawnEffect: {
           type: MultiEffect
             effects: [
