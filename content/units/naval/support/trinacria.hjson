@@ -213,8 +213,8 @@ bullet: {
 {
 type: ParticleEffect
 line: true
-lengthFrom: 16
-lengthTo: 0
+lenFrom: 16
+lenTo: 0
 interp: pow3In
 length: 6
 cone: 60
@@ -229,8 +229,8 @@ colorTo: 84f491
   {
 type: ParticleEffect
 line: true
-lengthFrom: 8
-lengthTo: 0
+lenFrom: 8
+lenTo: 0
 interp: pow3In
 length: 6
 randLength: false
@@ -272,7 +272,6 @@ colorTo: 84f491
 {
 y: -6
 layerOffset: 2
-    alwaysShooting: true
 parts: [
     {
     type: ShapePart
@@ -364,6 +363,7 @@ bullet: {
     instantDisappear: true
     shootEffect: none
     smokeEffect: none
+    rangeOverride: 80
     hitEffect: {
         type: MultiEffect
         effects: [
@@ -377,8 +377,8 @@ bullet: {
         {
         type: ParticleEffect
         line: true
-        lengthFrom: 16
-        lengthTo: 0
+        lenFrom: 16
+        lenTo: 0
         strokeFrom: 4
         strokeTo: 0
         interp: pow3In
