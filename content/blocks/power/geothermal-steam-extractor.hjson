@@ -21,9 +21,9 @@ drawer: {
   color: d1efff
   amount: 8
   layers: 3
-  stroke: 4
+  stroke: 1
   rotateSpeed: 0.5
-  radius: 10
+  radius: 0
   length: 12
   layerSpeed: -0.5
 }
