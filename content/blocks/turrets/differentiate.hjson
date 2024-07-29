@@ -1,11 +1,11 @@
 type: ItemTurret
 reload: 10
-description: Shoots differently depending on the ammunition provided to it. Gets a very large firerate bosst when supplied with water
-shootSound: pulseBlast
+description: Shoots differently depending on the ammunition provided to it. Gets a very large firerate boost when supplied with water
+shootSound: shootSnap
 name: Differentiate
 inaccuracy: 0
 shootCone: 10
-shootY: 16
+shootY: 0
 size: 4
 category: turret
 range: 280
@@ -17,26 +17,118 @@ requirements: [
   carbide/45
 ]
 shoot: {
-  type: shootAlternate
-  barrels: 3
-  spread: 8
+  type: shootBarrel
+  barrels: [
+    11.25, 9.5, 0
+    6, 11, 0
+    -6, 11, 0
+    -11.25, 9.5, 0
+      ]
     }
-recoil: 1.5
+recoil: 0
+recoils: 4
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+    type: RegionPart
+    suffix: -bottom
+    mirror: true
+    moveRot: -10
+    progress: {
+      type: warmup
+      other: recoil
+      amount: 0.5
+      op: blend
+        }
+    heatProgress: warmup
+    under: true
+    heatColor: ff0000
+    }
+    {
+    type: RegionPart
+    suffix: -barrel1
+    recoilIndex: 0
+    moveY: -4
+    progress: recoil
+    heatColor: ff000066
+    heatProgress: {
+      type: recoil
+      other: warmup
+      amount: 0.2
+      op: delay 
+      }
+    }
+    {
+    type: RegionPart
+    suffix: -barrel4
+    recoilIndex: 3
+    moveY: -4
+    progress: recoil
+    heatColor: ff000066
+    heatProgress: {
+      type: recoil
+      other: warmup
+      amount: 0.6
+      op: delay 
+      }
+    }
+    {
+    type: RegionPart
+    suffix: -barrel2
+    recoilIndex: 1
+    moveY: -4
+    progress: recoil
+    heatColor: ff000066
+    heatProgress: {
+      type: recoil
+      other: warmup
+      amount: 0.4
+      op: delay 
+      }
+    }
+    {
+    type: RegionPart
+    suffix: -barrel3
+    recoilIndex: 2
+    moveY: -4
+    progress: recoil
+    heatColor: ff000066
+    heatProgress: {
+      type: recoil
+      other: warmup
+      amount: 0.6
+      op: delay 
+      }
+    }
+    {
+    type: RegionPart
+    suffix: -mid
+    heatProgress: warmup
+    heatColor: ff000066
+    }
+    ]
+  }
 ammoTypes: {
   beryllium: {
     type: MissileBulletType
     damage: 60
     pierce: true
     pierceBuilding: true
-    pierceCap: 2
     pierceCap: 3
     sprite: missile-large
-    shootEffect: shootBig
+    smokeEffect: none
+    shootEffect: {
+        type: MultiEffect
+        effects: [shootBigColor, colorSparkBig]
+          }
+    hitEffect: hitBulletColor
     frontColor: ffffff
-    backColor: 82a467
+    backColor: b1dd7e
     trailWidth: 2
     trailLength: 4
-    trailColor: 82a467
+    trailColor: b1dd7e
+    hitColor: b1dd7e
     height: 12
     width: 12
     speed: 5
@@ -53,7 +145,14 @@ tungsten: {
     fragSpread: 10
     damage: 0
     ammoMultiplier: 3
-    shootEffect: shootBig
+    frontColor: 768a9a
+    backColor: 768a9a
+    hitEffect: none
+    smokeEffect: shootBigSmoke
+    shootEffect: {
+        type: MultiEffect
+        effects: [shootBigColor, shootSmokeSquaresSparse]
+            }
       buildingDamageMultiplier: 0.01
     fragBullet: {
       lifetime: 28
@@ -61,11 +160,12 @@ tungsten: {
       type: MissileBulletType
       sprite: missile-large
       frontColor: ffffff
-      backColor: aaadb7
+      backColor: 768a9a
+      hitColor: 768a9a
       homingDelay: 14
       trailWidth: 2
       trailLength: 6
-      trailColor: aaadb7
+      trailColor: 768a9a
       height: 12
       width: 12
       pierce: true
@@ -77,8 +177,8 @@ tungsten: {
       buildingDamageMultiplier: 0.01
       hitEffect: {
         type: ExplosionEffect
-        waveColor: aaadb7
-        smokeColor: aaadb7
+        waveColor: 768a9a
+        smokeColor: 768a9a
         sparkColor: ffffff
         waveRad: 12
 }
@@ -88,11 +188,15 @@ graphite: {
     rangeChange: -70
     reloadMultiplier: 1.2
     type: MissileBulletType
-    shootEffect: shootBig
     weaveMag: 2
     weaveScale: 4
     damage: 40
     knockback: 3
+    smokeEffect: shootBigSmoke
+    shootEffect: {
+        type: MultiEffect
+        effects: [shootBigColor, shootSmokeSquaresSparse]
+            }
     speed: 5
     lifetime: 46
     sprite: missile-large
@@ -100,6 +204,8 @@ graphite: {
     midth: 12
     trailLength: 8
     trailWidth: 3
+    hitEffect: hitSquaresColor
+    hitColor: 818181
     trailLifetime: 25
     frontColor: ffffff
     backColor: 818181
@@ -107,7 +213,8 @@ graphite: {
       buildingDamageMultiplier: 0.01
 }
 silicon: {
-    shootEffect: shootBig
+    shootEffect: shootSmokeSquareBig
+    shootSmokeDisperse
     type: FlakBulletType
     collidesGround: true
     sprite: missile-large
@@ -146,7 +253,30 @@ oxide: {
   type: BasicBulletType
   lifetime: 0
   damage: 0
-  shootEffect: thoriumShoot
+  shootEffect: {
+      type: ParticleEffect
+      line: true
+      lenFrom: 6
+      lenTo: 0
+      strokeFrom: 2
+      strokeTo: 0
+      interp: pow6In
+      sizeInterp: pow5Out
+      cone: 20
+      colorTo: 82a467
+        }
+  smokeEffect: {
+      type: ParticleEffect
+      line: true
+      colorTo: 82a467
+      lenFrom: 6
+      cone: 20
+      lenTo: 0
+      strokeFrom: 2
+      strokeTo: 0
+      interp: pow6In
+      sizeInterp: pow5Out
+        }
   shootColor: 82a467
       buildingDamageMultiplier: 0.01
   rangeChange: -180
@@ -160,21 +290,12 @@ oxide: {
     fromColor: ffffff
     toColor: 82a467
     damage: 85
+    shootEffect: none
+    smokeEffect: none
 }
 }
 surge-alloy: {
   type: LaserBulletType
-  shootEffect: {
-    type: particleEffect
-    sizeFrom: 40
-    sizeTo: 0
-    colorFrom: ffffff
-    colorTo: ffffa3
-    region: erekirliquefied-electric-shoot
-    particles: 1
-    lifetime: 25
-    length: 0
-    }
   length: 240
   rangeChange: -40
   damage: 145
@@ -188,12 +309,15 @@ surge-alloy: {
       buildingDamageMultiplier: 0.01
   lightningLengthRand: 8
   lightningColor: ffcd66
+  sideAngle: 25
+  sideLength: 40
   lightningAngleRand: 15
 }
 carbide: {
 spawnUnit: erekirliquefied-small-missile
 shootEffect: shootTitan
-reloadMultiplier: 1.75
+smokeEffect: shootSmokeTitan
+reloadMultiplier: 0.7
 }
 thorium: {
   type: PointBulletType
@@ -202,6 +326,18 @@ thorium: {
       buildingDamageMultiplier: 0.01
   splashDamage: 350
   splashDamageRadius: 40
+  shootEffect: {
+      type: ParticleEffect
+      line: true
+      length: 440
+      colorTo: f9a3c7
+      interp: pow10Out
+      lifetime: 30
+      particles: 40
+      lenFrom: 20
+      strokeFrom: 20
+      sizeInterp: pow9In
+        }
   hitEffect: {
     type: ExplosionEffect
     waveColor: f9a3c7
@@ -230,6 +366,7 @@ trailEffect: {
   sizeTo: 8
   particles: 1
   length: 0
+  lifetime: 20
   }
 }
 phase-fabric: {
@@ -242,7 +379,18 @@ phase-fabric: {
     effects: [
     shootTitan,
     shootBig,
-    smokeCloud
+    smokeCloud,{
+    type: ParticleEffect
+    colorTo: feb380
+    line: true
+    particles: 12
+    length: 20
+    cone: 10
+    strokeFrom: 2
+    strokeTo: 0
+    lenFrom: 5
+    lenTo: 0
+    }
     ]
 }
   status: erekirliquefied-ionized
@@ -257,7 +405,6 @@ phase-fabric: {
     sizeFrom: 20
     sizeTo: 8
     region: erekirliquefied-pierce-rail
-    colorFrom: ffffff
     colorTo: feb380
 }
 pointEffect: {
@@ -268,7 +415,7 @@ pointEffect: {
   sizeFrom: 20
   sizeTo: 8
   region: erekirliquefied-point-phase
-  colorFrom: ffffff
+  colorFrom: feb380
   colorTo: feb380
 }
 lineEffect: {
@@ -320,17 +467,6 @@ hitEffect: {
     colorTo: feb380
 }
 ]
-}
-trailEffect: {
-  type: ParticleEffect
-  particles: 1
-  length: 0
-  lifetime: 25
-  sizeFrom: 20
-  sizeTo: 8
-  region: erekirliquefied-rail-phase
-  colorFrom: ffffff
-  colorTo: feb380
 }
 }
 azpacite: {
@@ -632,5 +768,5 @@ coolantMultiplier: 4
 coolant: {
   type: ConsumeLiquid
   liquid: water
-  amount: 0.5
+  amount: 1
 }
