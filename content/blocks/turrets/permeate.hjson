@@ -23,8 +23,7 @@ ammoTypes: {
       {
       type: ParticleEffect
       particles: 20
-      lengthFrom: 0
-      lengthTo: 40
+      length: 40
       colorFrom: 69ffe0
       colorTo: 69ffe0
       sizeFrom: 6
@@ -80,8 +79,8 @@ ammoTypes: {
       line: true
       length: 30
       particles: 14
-      lengthTo: 15
-      lengthFrom: 0
+      lenFrom: 15
+      lenTo: 0
       strokeFrom: 4
       strokeTo: 0
       lifetime: 30
