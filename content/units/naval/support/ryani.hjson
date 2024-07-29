@@ -29,8 +29,8 @@ effect: {
   line: true
   rotWithParent: true
   followParent: false
-  lengthFrom: 6
-  lengthTo: 6
+  lenFrom: 6
+  lenTo: 6
   strokeFrom: 1
   strokeTo: 0
   lifetime: 70
@@ -53,8 +53,8 @@ effect: {
   line: true
   rotWithParent: true
   followParent: false
-  lengthFrom: 6
-  lengthTo: 6
+  lenFrom: 6
+  lenTo: 6
   strokeFrom: 1
   strokeTo: 0
   lifetime: 70
@@ -133,8 +133,8 @@ type: ParticleEffect
 cone: 2
 length: 3
 line: true
-lengthFrom: 4
-lengthTo: 2
+lenFrom: 4
+lenTo: 2
 strokeFrom: 1
 strokeTo: 0
 interp: pow10Out
@@ -155,8 +155,8 @@ interp: pow10Out
 sizeInterp: pow3In
 colorFrom: ffffff
 colorTo: 84f491
-lengthFrom: 2
-lengthTo: 2
+lenFrom: 2
+lenTo: 2
 strokeFrom: 1
 strokeTo: 0
 lifetime: 20
@@ -172,8 +172,8 @@ hitEffect: {
   colorFrom: ffffff
   colorTo: 84f491
   length: 10
-  lengthFrom: 6
-  lengthTo: 0
+  lenFrom: 6
+  lenTo: 0
   strokeFrom: 1
   strokeTo: 1
     }
