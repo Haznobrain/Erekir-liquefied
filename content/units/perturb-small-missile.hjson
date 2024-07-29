@@ -61,7 +61,5 @@ height: 0
 keepVelocity: false
 splashDamage: 160
 splashDamageRadius: 40
-status: erekirliquefied-ionized
-statusDuration: 300
   }
 }]
