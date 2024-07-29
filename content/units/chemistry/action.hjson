@@ -72,16 +72,7 @@ shoot: {
         weaveScale: 4
         lifetime: 85
         speed: 3
-        shootEffect: {
-          type: ParticleEffect
-          length: 16
-          particles: 16
-          colorTo: ffe995
-          colorFrom: ffe995
-          cone: 25
-          interp: circleOut
-          sizeInterp: pow5In
-        }
+        shootEffect: shootBigColor
         smokeEffect: {
           type: ParticleEffect
           particles: 10
