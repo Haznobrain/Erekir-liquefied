@@ -61,10 +61,7 @@ bullet: {
   lifetime: 107
   shootEffect: {
     type: MultiEffect
-effects: [
-{
-        effect: shootTitan
-}
+effects: [ shootTitan,
 {
 type: WaveEffect
 colorTo: 47ff00
