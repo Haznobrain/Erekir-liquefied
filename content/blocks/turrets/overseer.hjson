@@ -52,8 +52,8 @@ lightningDamage: 7000
     colorTo: 06060cff
     strokeFrom: 0
     strokeTo: 2
-    lengthFrom: 8
-    lengthTo: 8
+    lenFrom: 8
+    lenTo: 8
     lifetime: 30
     layer: 111
     }
@@ -83,8 +83,8 @@ lightningDamage: 7000
     colorTo: 06060c
     strokeFrom: 0
     strokeTo: 2
-    lengthFrom: 8
-    lengthTo: 8
+    lenFrom: 8
+    lenTo: 8
     lifetime: 40
     layer: 111
     }
@@ -124,8 +124,8 @@ lightningType: {
     colorTo: 06060c
     strokeFrom: 0
     strokeTo: 2
-    lengthFrom: 4
-    lengthTo: 4
+    lengFrom: 4
+    lenTo: 4
     lifetime: 20
     layer: 111
     }
