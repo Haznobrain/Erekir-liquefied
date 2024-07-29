@@ -214,7 +214,7 @@ graphite: {
 }
 silicon: {
     shootEffect: shootSmokeSquareBig
-    shootSmokeDisperse
+    smokeEffect: shootSmokeDisperse
     type: FlakBulletType
     collidesGround: true
     sprite: missile-large
