@@ -28,8 +28,8 @@ colorFrom: 9ff0ffaa
 colorTo: 9ff0ffaa
 particles: 14
 length: 120
-lengthFrom: 16
-lengthTo: 0
+lenFrom: 16
+lenTo: 0
 strokeFrom: 3
 strokeTo: 3
 lifetime: 60
@@ -140,6 +140,7 @@ fragVelocityMax: 1
             lifetime: 3
             sprite: missile
             trailEffect: missileTrail
+            trailColor: 9ff0ff
             trailChance: 0.33
             trailInterval: 3
             damage: 45
