@@ -129,7 +129,8 @@ parts: [
   stroke: 6
   y: -40
   followRotation: true
-  radius: 20
+  radius: 0
+  radiusTo: 20
   spinSpeed: 1.2
   partProgress: warmup
 }
@@ -297,8 +298,8 @@ smokeEffect: {
     line: true
     colorFrom: fcff8d
     colorTo: fcff8d
-    lenghtFrom: 4
-    lengthTo: 0
+    lenFrom: 4
+    lenTo: 0
     length: 20
     cone: 20
     particles: 12
