@@ -52,7 +52,7 @@ drawer: {
     recoilIndex: 0
     moveY: -4
     progress: recoil
-    heatColor: ff000066
+    heatColor: ff0000
     heatProgress: {
       type: recoil
       other: warmup
@@ -66,7 +66,7 @@ drawer: {
     recoilIndex: 3
     moveY: -4
     progress: recoil
-    heatColor: ff000066
+    heatColor: ff0000
     heatProgress: {
       type: recoil
       other: warmup
@@ -80,7 +80,7 @@ drawer: {
     recoilIndex: 1
     moveY: -4
     progress: recoil
-    heatColor: ff000066
+    heatColor: ff0000
     heatProgress: {
       type: recoil
       other: warmup
@@ -94,7 +94,7 @@ drawer: {
     recoilIndex: 2
     moveY: -4
     progress: recoil
-    heatColor: ff000066
+    heatColor: ff0000
     heatProgress: {
       type: recoil
       other: warmup
@@ -106,7 +106,7 @@ drawer: {
     type: RegionPart
     suffix: -mid
     heatProgress: warmup
-    heatColor: ff000066
+    heatColor: ff0000
     }
     ]
   }
