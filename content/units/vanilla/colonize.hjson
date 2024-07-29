@@ -128,8 +128,8 @@ shootTitan,
 colorSparkBig,
 {
 type: WaveEffect
-colorFrom: ffec5c
-colorTo: ffec5c
+colorFrom: f3e979
+colorTo: f3e979
 lifetime: 12
 sizeTo: 20
 strokeFrom: 3
@@ -141,9 +141,9 @@ smokeEffect: shootSmokeSmite
 pierceCap: 4
 pierce: true
 pierceBuilding: true
-hitColor: ffec5c
+hitColor: f3e979
 frontColor: ffffff
-backColor: ffec5c
+backColor: f3e979
 trailWidth: 2.8
 trailLength: 9
 hitEffect: hitBulletColor
@@ -154,7 +154,7 @@ effects: [
   {
   type: WaveEffect
   sizeTo: 30
-  colorFrom: ffec5c
+  colorFrom: f3e979
   lifetime: 12
 }
 ]
@@ -167,7 +167,7 @@ intervalBullet: {
   type: LightningBulletType
     damage: 30
     collidesAir: false
-    lightningColor: ffec5c
+    lightningColor: f3e979
     lightningLength: 5
     lightningLengthRand: 10
 }
@@ -180,8 +180,8 @@ parts: [
   x: 0
   y: 0
   layerOffset: -0.01
-  color: ffee7100
-  colorTo: ffee71ff
+  color: f3e97900
+  colorTo: f3e979ff
   mirror: true
   moveX: 16
   moveY: -12
@@ -200,8 +200,8 @@ parts: [
   x: 0
   y: 4
   layerOffset: -0.01
-  color: ffee7100
-  colorTo: ffee71ff
+  color: f3e9797100
+  colorTo: f3e979ff
   mirror: true
   moveX: 18
   moveY: 0
@@ -219,8 +219,8 @@ parts: [
   x: 0
   y: 8
   layerOffset: -0.01
-  color: ffee7100
-  colorTo: ffee71ff
+  color: f3e97900
+  colorTo: f3e979ff
   mirror: true
   moveX: 28
   moveY: 0
@@ -235,7 +235,7 @@ parts: [
   {
   type: RegionPart
   suffix: -middle
-  heatColor: ffee71
+  heatColor: f3e979
   progress: recoil
   moveY: -4
   heatProgress: {
@@ -259,7 +259,7 @@ parts: [
     suffix: -side-glow
     }
     ]
-  heatColor: ffee71
+  heatColor: f3e979
   progress: recoil
   moveY: -4
   moves: [
@@ -287,7 +287,7 @@ parts: [
   haloRadius: 16
   tri: true
   radius: 4
-  color: fff6b0
+  color: f3e979
   y: -32
   }
     {
@@ -302,7 +302,7 @@ parts: [
   haloRadius: 16
   tri: true
   radius: 4
-  color: fff6b0
+  color: f3e979
   y: -32
   }
   {
@@ -311,7 +311,7 @@ parts: [
   radius: 10
   layer: 110
   hollow: true
-  color: fff6b0
+  color: f3e979
   stroke: 0
   strokeTo: 2
   rotateSpeed: 1.8
@@ -327,7 +327,7 @@ parts: [
   layer: 110
   tri: true
   radius: 4
-  color: fff6b0
+  color: f3e979
   shapeRotation: 180
   y: -32
   }
@@ -342,7 +342,7 @@ parts: [
   layer: 110
   tri: true
   radius: 8
-  color: fff6b0
+  color: f3e979
   shapeRotation: 180
   y: -32
   }
@@ -357,7 +357,7 @@ parts: [
   haloRadius: 16
   tri: true
   radius: 8
-  color: fff6b0
+  color: f3e979
   shapeRotation: 180
   y: -32
   }
@@ -372,7 +372,7 @@ parts: [
   haloRadius: 10
   tri: true
   radius: 6
-  color: fff6b0
+  color: f3e979
   y: -32
   }
     {
@@ -380,7 +380,7 @@ parts: [
   circle: true
   radius: 4
   hollow: true
-  color: fff6b0
+  color: f3e979
   layer: 110
   stroke: 0
   strokeTo: 1.6
