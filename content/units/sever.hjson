@@ -47,8 +47,8 @@ engineOffset: 5
         type: ParticleEffect
         particles: 5
         line: true
-        lengthFrom: 0
-        lengthTo: 2
+        lenFrom: 0
+        lenTo: 2
         baseLength: -8
         length: 8
         interp: pow3Out
