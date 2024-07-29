@@ -30,8 +30,8 @@ effect: {
   line: true
   rotWithParent: true
   followParent: false
-  lengthFrom: 6
-  lengthTo: 6
+  lenFrom: 6
+  lenTo: 6
   strokeFrom: 1
   strokeTo: 0
   lifetime: 70
@@ -54,8 +54,8 @@ effect: {
   line: true
   rotWithParent: true
   followParent: false
-  lengthFrom: 6
-  lengthTo: 6
+  lenFrom: 6
+  lenTo: 6
   strokeFrom: 1
   strokeTo: 0
   lifetime: 70
