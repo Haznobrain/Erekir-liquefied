@@ -260,7 +260,7 @@ oxide: {
       lenTo: 0
       strokeFrom: 2
       strokeTo: 0
-      interp: pow6In
+      interp: pow5In
       sizeInterp: pow5Out
       cone: 20
       colorTo: 82a467
@@ -274,7 +274,7 @@ oxide: {
       lenTo: 0
       strokeFrom: 2
       strokeTo: 0
-      interp: pow6In
+      interp: pow5In
       sizeInterp: pow5Out
         }
   shootColor: 82a467
@@ -336,7 +336,7 @@ thorium: {
       particles: 40
       lenFrom: 20
       strokeFrom: 20
-      sizeInterp: pow9In
+      sizeInterp: pow5In
         }
   hitEffect: {
     type: ExplosionEffect
