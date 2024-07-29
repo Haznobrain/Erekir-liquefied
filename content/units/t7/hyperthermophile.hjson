@@ -127,8 +127,8 @@ weapons: [
               type: ParticleEffect
               line: true
               length: 95
-              lengthFrom: 10
-              lengthTo: 0
+              lenFrom: 10
+              lenTo: 0
               strokeFrom: 3
               strokeTo: 3
               interp: pow3Out
@@ -257,6 +257,7 @@ bullet: {
         radius: 24
         sides: 2
         spinSpeed: 6
+        under: true
         }
         ]
     splashDamage: 450
@@ -271,8 +272,8 @@ bullet: {
       {
       type: ParticleEffect
       length: 50
-      lengthFrom: 20
-      lengthTo: 20
+      lenFrom: 20
+      lenTo: 20
       strokeFrom: 2
       strokeTo: 1.5
       line: true
