@@ -59,10 +59,7 @@ weapons: [
     sizeInterp: pow5In
 }
     hitEffect: hitFlameSmall
-    despawnEffect: {
-      type: ParticleEffect
-      particles: 0
-}
+    despawnEffect: none
     type: BulletType
       damage: 7
       speed: 8
