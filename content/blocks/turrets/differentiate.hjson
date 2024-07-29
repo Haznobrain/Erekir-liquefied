@@ -591,8 +591,7 @@ type: MissileBulletType
     type: ParticleEffect
     cone: 30
     particles: 10
-    lenFrom: 0
-    lenTo: 12
+    length: 12
     colorFrom: 1dedc2
     colorTo: 2b3331
     lifetime: 30
