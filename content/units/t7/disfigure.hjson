@@ -549,8 +549,8 @@ parts: [
       line: true
       cone: 5  
       length: 24
-      lengthFrom: 12
-      lengthTo: 0
+      lenFrom: 12
+      lenTo: 0
       strokeFrom: 2
       strokeTo: 2
       colorFrom: ffffff
