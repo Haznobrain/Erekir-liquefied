@@ -35,10 +35,11 @@ drawer: {
     suffix: -bottom
     mirror: true
     moveRot: -10
+    moveX: 5
     progress: {
       type: warmup
       other: recoil
-      amount: 0.5
+      amount: 0.9
       op: blend
         }
     heatProgress: warmup
