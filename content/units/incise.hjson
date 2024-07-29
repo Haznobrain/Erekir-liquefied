@@ -66,7 +66,8 @@ radius: 3
     shootSound: missile
     bullet: {
         type: MissileBulletType
-        color: 8ca9e8
+        backcolor: 8ca9e8
+        frontColor: ffffff
         pierce: true
         pierceCap: 5
         damage: 20
