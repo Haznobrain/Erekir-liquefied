@@ -141,9 +141,6 @@ engineColor: ff0000
     bullet: {
     shootEffect: {
       cone: 5
-      despawnHit: false
-      despawnEffect: none
-      hitEffect: hitFlameSmall
       sizeFrom: 12
       type: ParticleEffect
       particles: 20
@@ -151,6 +148,9 @@ engineColor: ff0000
       colorTo: ff0000
       length: 300
       }
+      despawnHit: false
+      despawnEffect: none
+      hitEffect: hitFlameSmall
       absorbable: true
       type: BulletType
       damage: 210
