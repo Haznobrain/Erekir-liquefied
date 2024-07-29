@@ -202,8 +202,8 @@ type: ParticleEffect
 cone: 2
 length: 3
 line: true
-lengthFrom: 16
-lengthTo: 2
+lenFrom: 16
+lenTo: 2
 strokeFrom: 1
 strokeTo: 0
 interp: pow10Out
@@ -224,8 +224,8 @@ interp: pow10Out
 sizeInterp: pow3In
 colorFrom: ffffff
 colorTo: 84f491
-lengthFrom: 2
-lengthTo: 2
+lenFrom: 2
+lenTo: 2
 strokeFrom: 1
 strokeTo: 0
 lifetime: 50
@@ -245,8 +245,8 @@ hitEffect: {
   colorFrom: ffffff
   colorTo: 84f491
   length: 10
-  lengthFrom: 6
-  lengthTo: 0
+  lenFrom: 6
+  lenTo: 0
   strokeFrom: 1
   strokeTo: 1
   cone: 140
@@ -260,8 +260,8 @@ hitEffect: {
   colorFrom: ffffff
   colorTo: 84f491
   length: 10
-  lengthFrom: 12
-  lengthTo: 0
+  lenFrom: 12
+  lenTo: 0
   strokeFrom: 1
   strokeTo: 1
   cone: 140
