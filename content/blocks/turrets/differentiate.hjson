@@ -364,7 +364,7 @@ trailEffect: {
   colorFrom: ffffff
   colorTo: f9a3c7
   sizeFrom: 16
-  sizeTo: 8
+  sizeTo: 0
   particles: 1
   length: 0
   lifetime: 20
@@ -414,7 +414,7 @@ pointEffect: {
   length: 0
   lifetime: 25
   sizeFrom: 20
-  sizeTo: 8
+  sizeTo: 0
   region: erekirliquefied-point-phase
   colorFrom: feb380
   colorTo: feb380
@@ -425,7 +425,7 @@ lineEffect: {
   length: 0
   lifetime: 25
   sizeFrom: 20
-  sizeTo: 8
+  sizeTo: 0
   region: erekirliquefied-rail-phase
   colorFrom: ffffff
   colorTo: feb380
