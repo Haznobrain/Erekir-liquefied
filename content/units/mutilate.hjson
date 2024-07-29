@@ -75,10 +75,10 @@ shotDelay: 3
       particles: 1
       length: 0
       sizeFrom: 2
-      colorFrom: e58956
-      colorTo: e58956
-      lightColor: e58956
-      layer: 120
+      colorFrom: 8ca9e8
+      colorTo: 8ca9e8
+      lightColor: 8ca9e8
+      layer: 110
       followParent: true
         }
     smokeEffect: {
@@ -90,9 +90,16 @@ shotDelay: 3
       layer: 120
       cone: 5
         }
-    layer: 120
+    layer: 110
     type: MissileBulletType
     damage: 80
+    backColor: 8ca9e8
+    hitColor: 8ca9e8
+    lightningColor: 8ca9e8
+    lightning: 3
+    lightningDamage: 6
+    lightningLength: 3
+    lightningLengthRand: 2
     speed: 6
     lifetime: 64
     pierceBuilding: true
@@ -114,7 +121,7 @@ color: d1efff
 reload: 15
 healPercent: 2.5
 sectors: 4
-layer: 120
+layer: 110
 }
 {
 type: ForceFieldAbility
