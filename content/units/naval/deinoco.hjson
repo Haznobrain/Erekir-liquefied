@@ -32,7 +32,7 @@ melting
     spread: 20
     shotDelay: 2
     }
-  shootY: 0
+  shootY: -2
   parts: [
       {
         type: RegionPart
