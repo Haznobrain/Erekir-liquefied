@@ -138,13 +138,11 @@ parts: [
     x: 0
     reload: 900
     shootCone: 360
-    range: 240
     rotate: false
     shootOnDeath: true
     cooldownTime: 1800
     shootSound: shockblast
     mirror: false
-    alwaysShooting: true
     bullet: {
       type: BasicBulletType
       instantDisappear: true
@@ -155,6 +153,7 @@ parts: [
       fragRandomSpread: 0
       shootEffect: none
       hitEffect: massiveExplosion
+      rangeOverride: 240
       despawnEffect: {
           type: MultiEffect
             effects: [
