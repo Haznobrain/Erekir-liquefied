@@ -109,8 +109,8 @@ sizeTo: 60
   lightOpacity: 0.8
   interp: pow3Out
   sizeInterp: pow3In
-  lengthFrom: 6
-  lengthTo: 0
+  lenFrom: 6
+  lenTo: 0
   strokeFrom: 2
   strokeTo: 2
   length: 45
@@ -168,8 +168,8 @@ sizeTo: 60
   lightOpacity: 0.8
   interp: pow3Out
   sizeInterp: pow3In
-  lengthFrom: 6
-  lengthTo: 0
+  lenFrom: 6
+  lenTo: 0
   strokeFrom: 2
   strokeTo: 2
   length: 45
@@ -216,8 +216,8 @@ sizeFrom: 60
   lightOpacity: 0.8
   interp: pow3Out
   sizeInterp: pow3In
-  lengthTo: 6
-  lengthFrom: 0
+  lenTo: 6
+  lenFrom: 0
   strokeFrom: 2
   strokeTo: 2
   length: 45
