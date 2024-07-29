@@ -195,7 +195,7 @@ graphite: {
     smokeEffect: shootBigSmoke
     shootEffect: {
         type: MultiEffect
-        effects: [shootBigColor, shootSmokeSquaresSparse]
+        effects: [shootBigColor, shootSmokeSquareSparse]
             }
     speed: 5
     lifetime: 46
