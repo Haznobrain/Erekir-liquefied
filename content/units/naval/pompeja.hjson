@@ -38,7 +38,6 @@ shootWarmupSpeed: 0.04
 minWarmup: 0.98
 cooldownTime: 20
 recoilTime: 20
-canAttack: true
 parts: [
     {
     type: RegionPart
@@ -284,8 +283,8 @@ parts: [
           type: ParticleEffect
           baseLength: -40
           line: true
-          lengthFrom: 0
-          lengthTo: 10
+          lenFrom: 0
+          lenTo: 10
           strokeFrom: 0
           strokeTo: 2
           length: 40
@@ -316,6 +315,7 @@ parts: [
         fragRandomSpread: 10
         keepVelocity: false
         despawnEffect: massiveExplosion
+        rangeOverride: 248
         splashDamage: 120
         splashDamageRadius: 60
         damage: 0
