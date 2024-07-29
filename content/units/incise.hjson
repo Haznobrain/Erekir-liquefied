@@ -73,6 +73,10 @@ radius: 3
         damage: 20
         lifetime: 32
         speed: 5
+        trailColor: 8ca9e8
+        hitEffect: hitBulletColor
+        despawnEffect: hitBulletColor
+        hitColor: 8ca9e8
      }     
 }
   ]
