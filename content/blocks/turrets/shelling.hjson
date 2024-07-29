@@ -94,8 +94,8 @@ ammoTypes: {
                             colorTo: b876ff
                             particles: 10
                             line: true
-                            lengthFrom: 10
-                            lengthTo: 0
+                            lenFrom: 10
+                            lenTo: 0
                             strokeTo: 2
                             length: 32
                             baseLength: 32
@@ -109,8 +109,8 @@ ammoTypes: {
                             colorTo: b876ff
                             particles: 14
                             line: true
-                            lengthFrom: 3
-                            lengthTo: 0
+                            lenFrom: 3
+                            lenTo: 0
                             strokeTo: 1
                             strokeFrom: 1
                             length: 32
@@ -220,8 +220,8 @@ ammoTypes: {
                             colorFrom: f2e87866
                             colorTo: f2e87866
                             line: true
-                            lengthFrom: 10
-                            lengthTo: 0
+                            lenFrom: 10
+                            lenTo: 0
                             strokeTo: 2
                             length: 32
                             baseLength: 32
@@ -235,8 +235,8 @@ ammoTypes: {
                             colorTo: f2e87866
                             particles: 14
                             line: true
-                            lengthFrom: 3
-                            lengthTo: 0
+                            lenFrom: 3
+                            lenTo: 0
                             strokeTo: 1
                             strokeFrom: 1
                             length: 32
