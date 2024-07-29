@@ -14,4 +14,6 @@ Events.on(ContentInitEvent, e => {
     Vars.content.block("mindustry-red-ice").attributes.set(Attribute.get("underground-steam"), 1.3);
     Vars.content.block("mindustry-arkyic-stone").attributes.set(Attribute.get("underground-steam"), 1.1);
     Vars.content.block("mindustry-rhyolite").attributes.set(Attribute.get("underground-steam"), 0.4);
+
+    Vars.content.block("erekirliquefied-geothermal-steam-extractor").attribute = Attribute.get("underground-steam");
 });
