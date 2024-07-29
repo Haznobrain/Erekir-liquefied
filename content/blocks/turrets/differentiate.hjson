@@ -151,7 +151,7 @@ tungsten: {
     smokeEffect: shootBigSmoke
     shootEffect: {
         type: MultiEffect
-        effects: [shootBigColor, shootSmokeSquaresSparse]
+        effects: [shootBigColor, shootSmokeSquareSparse]
             }
       buildingDamageMultiplier: 0.01
     fragBullet: {
