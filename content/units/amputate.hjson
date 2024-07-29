@@ -163,7 +163,8 @@ rotation: -45
         type: ParticleEffect
         length: 0
         particles: 1
-        lengthFrom: 10
+        lenFrom: 10
+        line: true
       strokeFrom: 1  
       strokeTo: 1
         lifetime: 30
@@ -182,7 +183,15 @@ rotation: -45
     hitEffect: chainLightning
     splashDamageRadius: 14
     hitColor: d1efff
-    despawnEffect: [dynamicSpikes
+    despawnEffect:{
+      type: MultiEffect
+      effects: [
+      {
+      type: WrapEffect
+      effect: dynamicSpikes
+      color: d1efff
+      rot: 14
+      }
       {
       type: ParticleEffect
       interp: pow3Out
