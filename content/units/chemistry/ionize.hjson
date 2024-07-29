@@ -61,8 +61,10 @@ statusDuration: 300
           length: 80
           cone: -360
           lenFrom: 6
-          lenTo: 6
-          colorFrom: FFFFFFF,
+          lenTo: 0
+          sizeInterp: pow5In
+          interp: pow3Out
+          colorFrom: FFFFFFF
           colorTo: ffdf62
         }
     shootEffect: {
