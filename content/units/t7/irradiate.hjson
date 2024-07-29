@@ -3,7 +3,7 @@ type: legs
 name: Irradiate
 health: 540000
 armor: 28
-description: A very large 8 legged unit that while it moves slowly, summons a bunch of long range weapons to destroy ennemy targets.
+description: A very large 12 legged unit that while it moves slowly, summons a bunch of long range weapons to destroy ennemy targets.
 speed: 0.4
 multiTarget: true
 singleTarget: false
@@ -132,6 +132,7 @@ range: 680
 shootSound: plasmaboom
 x: 0
 y: -80
+bullet: {
 shootEffect: {
  type: MultiEffect
  effects: [
@@ -155,7 +156,6 @@ shootEffect: {
   }
 ]
 }
-bullet: {
  type: BasicBulletType
  sprite: erekirliquefied-starBullet
  pierceBuilding: true
