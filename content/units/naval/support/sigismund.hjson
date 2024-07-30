@@ -217,7 +217,7 @@ bullet: {
     hitColor: 98ffa9
     despawnSound: dullExplosion
     sprite: large-orb
-    trailEffect: missile-trail
+    trailEffect: missileTrail
     trailInterval: 3
     trailParam: 4
     speed: 3
