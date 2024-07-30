@@ -1,9 +1,9 @@
 type: naval
 speed: 0.65
 omniMovement: true
-health: 21500
+health: 20500
 name: Sigismund
-description: A medium, light, and fast naval support unit, shoots a fragmentary orb, and can heal allies.
+description: A large, but still fast support ship, with a bit worse attack capability than its assault counterpart, but still good firepower.
 armor: 23
 hitSize: 80
 rotateSpeed: 2.6
@@ -175,6 +175,7 @@ sameTypeHealMult: 0.25
 layer: 110
 effectRadius: 12
 sectors: 6
+sectorRad: 0.7
 }
 ]
 immunities: [
@@ -183,220 +184,205 @@ immunities: [
   ]
 weapons: [
 {
-shootY: -1
-shootSound: plasmaboom
-reload: 240
-targetAir: false
-shootCone: 2
-name: carphania-weapon
-mirror: false
-x: 0
-y: 4.5
-rotateSpeed: 2.6
-range: 184
+y: 1.25
+x: 18.75
+shootY: 14
+shootX: 3
 rotate: true
-cooldownTime: 240
+rotateSpeed: 1.6
+reload: 90
+shootSound: shockBlast
+name: sigismund-gun
+shake: 3
+cooldownTime: 110
+shoot: {
+    type: ShootHelix
+    mag: 2
+    scl: 8
+    }
 bullet: {
-    type: ArtilleryBulletType
-    damage: 0
-    splashDamage: 90
-    splashDamageRadius: 24
-    speed: 2
-    lifetime: 92
-    height: 8
-    width: 8
-    shrinkX: 0
-    shrinkY: 0
-    sprite: circle-bullet
-    frontColor: ffffff
-    backColor: 84f491
-    trailLength: 100
-    trailWidth: 6
-    trailInterp: pow3In
-    trailColor: 84f49166
-    trailInterval: 3
-    collidesTeam: true
-    healPercent: 10
-    fragBullets: 9
-    fragRandomSpread: 0
-    fragSpread: 35
-    fragVelocityMin: 1
-    fragVelocityMax: 1
-    fragOffsetMin: 1
-    fragOffsetMax: 1
-    fragBullet: {
-        type: BasicBulletType
-            trailEffect: {
-      type: MultiEffect
-        effects: [
-{
-type: ParticleEffect
-lifetime: 3
-sizeFrom: 1
-particles: 10
-interp: pow10Out
-sizeInterp: pow3In
-colorFrom: 84f491
-colorTo: 62ae7f
-length: 3
-}
-        {
-type: ParticleEffect
-lifetime: 40
-length: 0
-sizeFrom: 2
-particles: 1
-colorFrom: 84f491
-colorTo: 62ae7f
-}
-]
-    }
-    shootEffect: none
-    smokeEffect: none
-    hitEffect: hitBulletColor
-    despawnHit: true
-    speed: 2
-    lifetime: 30
-    despawnEffect: none
-    sprite: circle-bullet
-    frontColor: ffffff
-    backColor: 84f491
-    trailColor: 84f49166
-    trailInterp: pow5In
-    trailLength: 60
-    height: 5
-    width: 5
-    trailWidth: 5
-    shrinkX: 0
-    shrinkY: 0
-    damage: 15
-    splashDamage: 30
-    splashDamageRadius: 10
-    despawnSound: none
-    hitSound: explosion
-}
-    trailEffect: {
-      type: MultiEffect
-        effects: [
-{
-type: ParticleEffect
-lifetime: 3
-sizeFrom: 2
-particles: 10
-interp: pow10Out
-sizeInterp: pow3In
-colorFrom: 84f491
-colorTo: 62ae7f
-length: 3
-}
-        {
-type: ParticleEffect
-lifetime: 40
-length: 0
-sizeFrom: 5
-particles: 1
-colorFrom: 84f491
-colorTo: 62ae7f
-}
-]
-    }
+    type: BasicBulletType
     shootEffect: {
-    type: MultiEffect
-    effects: [
-{
-type: RadialEffect
-rotationSpacing: 2
-amount: 5
-effect: {
-type: ParticleEffect
-cone: 2
-length: 3
-line: true
-lengthFrom: 16
-lengthTo: 2
-strokeFrom: 1
-strokeTo: 0
-interp: pow10Out
-sizeInterp: pow3In
-colorFrom: ffffff
-colorTo: 84f491
-lifetime: 40
-layer: 60
-}
-}
-{
-type: ParticleEffect
-layer: 60
-particles: 20
-length: 12
-line: true
-interp: pow10Out
-sizeInterp: pow3In
-colorFrom: ffffff
-colorTo: 84f491
-lengthFrom: 2
-lengthTo: 2
-strokeFrom: 1
-strokeTo: 0
-lifetime: 50
-cone: 10
-}
-]
-  }
-hitEffect: {
-  type: MultiEffect
-  effects: [
-{
-  type: ParticleEffect
-  particles: 12
-  line: true
-  interp: pow10Out
-  sizeInterp: pow3In
-  colorFrom: ffffff
-  colorTo: 84f491
-  length: 10
-  lengthFrom: 6
-  lengthTo: 0
-  strokeFrom: 1
-  strokeTo: 1
-  cone: 140
+        type: MultiEffect
+        effects: [shootTitan, {
+            type: WaveEffect
+            colorTo: 98ffa9
+            sizeTo: 26
+            lifetime: 14
+            strokeFrom: 4
+            }
+            ]
+            }
+    smokeEffect: shootSmokeTitan
+    hitColor: 98ffa9
+    despawnSound: dullExplosion
+    sprite: large-orb
+    trailEffect: missile-trail
+    trailInterval: 3
+    trailParam: 4
+    speed: 3
+    damage: 50
+    lifetime: 96
+    width: 15
+    height: 15
+    backColor: 98ffa9
+    frontColor: ffffff
+    healPercent: 10
+    collidesTeam: true
+    shrinkX: 0
+    shrinkY: 0
+    trailColor: 98ffa9
+    trailLength: 18
+    trailWidth: 2.2
+    splashDamage: 10
+    splashDamageRadius: 30
+    despawnEffect: {
+        type: ExplosionEffect
+        waveColor: 98ffa9
+        smokeColor: 454545
+        sparkColor: 98ffa9
+        waveStroke: 4
+        waveRad: 30
+                }
+    hitEffect: {
+        type: ExplosionEffect
+        waveColor: 98ffa9
+        smokeColor: 454545
+        sparkColor: 98ffa9
+        waveStroke: 4
+        waveRad: 30
+                }
     }
+}
 {
-  type: ParticleEffect
-  particles: 8
-  line: true
-  interp: pow10Out
-  sizeInterp: pow3In
-  colorFrom: ffffff
-  colorTo: 84f491
-  length: 10
-  lengthFrom: 12
-  lengthTo: 0
-  strokeFrom: 1
-  strokeTo: 1
-  cone: 140
+name: sigismund
+top: false
+layerOffset: -1
+shootY: 37
+mirror: false
+y: 0
+x: 0
+shootSound: smelter
+inaccuracy: 50
+shoot: {
+    shots: 8
+    shotDelay: 0.5
+}
+reload: 12
+heatColor: ff0000
+bullet: {
+    type: BulletType
+    collidesTeam: true
+    healPercent: 2
+    damage: 18
+    hitEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 3
+        lifetime: 30
+        lenFrom: 8
+        lenTo: 0
+        strokeFrom: 2
+        strokeTo: 0
+        colorFrom: 98ffa9
+        colorTo: 62ae7f
+        cone: 15
+        rotWithParent: true
+            }
+    despawnEffect: none
+    speed: 4
+    lifetime: 10
+    shootEffect: {
+        type: ParticleEffect
+        length: 45
+        lifetime: 10
+        colorFrom: ffffff
+        colorTo: 62ae7f
+        sizeFrom: 10
+        sizeTo: 0
+        interp: pow5Out
+        sizeInterp: pow3In
+        layer: 60
+        }
+    smokeEffect: none
+    hitSize: 16
+    incendAmount: 2
+    incendSpread: 10
     }
-  ]
-}
-}
 }
 {
-y: -15.25
-x: 3.75
+y: -24
+x: -15
+shootY: 5
+shootX: 1
 rotate: true
 type: RepairBeamWeapon
-name: carphania-heal
-repairSpeed: 1.2
+name: sigismund-repair-advanced
+repairSpeed: 2
 mirror: true
-beamWidth: 0.9
-pulseRadius: 1.4
-pulseStroke: 2.3
+beamWidth: 1
 recentDamageMultiplier: 1
-laserColor: 84f491
-healColor: 84f491
-range: 160
+laserColor: 98ffa9
+healColor: 98ffa9
 bullet: {
-  maxRange: 160
+  maxRange: 200
+  status: overclock
+  statusDuration: 60
+    }
+}
+{
+y: -23
+x: 0
+shootY: 5
+shootX: 1
+rotate: true
+type: RepairBeamWeapon
+name: sigismund-repair-huge
+repairSpeed: 4
+mirror: true
+beamWidth: 1
+recentDamageMultiplier: 1
+laserColor: 98ffa9
+healColor: 98ffa9
+bullet: {
+  maxRange: 250
+    }
+}
+{
+y: -23
+x: 0
+shootY: 5
+shootX: 1
+rotate: true
+type: RepairBeamWeapon
+repairSpeed: 4
+mirror: true
+beamWidth: 1
+recentDamageMultiplier: 1
+laserColor: 98ffa9
+healColor: 98ffa9
+display: false
+bullet: {
+  maxRange: 250
+    }
+}
+{
+y: -23
+x: 0
+shootY: 5
+shootX: 1
+rotate: true
+type: RepairBeamWeapon
+name: sigismund-repair-huge
+repairSpeed: 4
+mirror: true
+beamWidth: 1
+recentDamageMultiplier: 1
+laserColor: 98ffa9
+healColor: 98ffa9
+display: false
+bullet: {
+  maxRange: 250
     }
 }
 ]
