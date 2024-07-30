@@ -198,6 +198,7 @@ shootSound: shockBlast
 name: sigismund-gun
 shake: 3
 cooldownTime: 110
+layerOffset: 1
 shoot: {
     type: ShootHelix
     mag: 1
@@ -260,7 +261,7 @@ bullet: {
 {
 name: sigismund
 top: false
-layerOffset: -1
+layerOffset: 0.001
 shootY: 37
 mirror: false
 recoil: 0
@@ -322,6 +323,7 @@ x: -15
 shootY: 5
 shootX: 1
 rotate: true
+layerOffset: 1
 type: RepairBeamWeapon
 name: sigismund-repair-advanced
 repairSpeed: 2
@@ -340,6 +342,7 @@ bullet: {
 y: -23
 x: 0
 shootY: 5
+layerOffset: 1
 shootX: 1
 rotate: true
 type: RepairBeamWeapon
@@ -359,6 +362,7 @@ y: -23
 x: 0
 shootY: 5
 shootX: 1
+layerOffset: 1
 rotate: true
 type: RepairBeamWeapon
 repairSpeed: 4
@@ -378,6 +382,7 @@ x: 0
 shootY: 5
 shootX: 1
 rotate: true
+layerOffset: 1
 type: RepairBeamWeapon
 name: sigismund-repair-huge
 repairSpeed: 4
