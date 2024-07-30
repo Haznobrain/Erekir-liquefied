@@ -592,6 +592,8 @@ parts: [
         collidesGround: false
         collidesAir: false
         collidesTiles: false
+        fragVelocityMin: 1
+        fragVelocityMax: 1
         fragBullet: {
             type: BulletType
             collides: false
@@ -602,6 +604,8 @@ parts: [
             trailLength: 100
             trailWidth: 4
             trailColor: ffffff
+            lifetime: 30
+            speed: 6.6666666666666666666666666666666666666666666666666666666666666666666
                 }
         }
             ]
