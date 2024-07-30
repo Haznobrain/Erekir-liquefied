@@ -267,6 +267,7 @@ recoil: 0
 y: 0
 x: 0
 shootSound: smelter
+shootCone: 25
 inaccuracy: 50
 shoot: {
     shots: 8
@@ -389,5 +390,250 @@ display: false
 bullet: {
   maxRange: 250
     }
+}
+{
+y: 1
+x: 0
+reload: 600
+mirror: false
+shootY: 0
+recoil: 0
+shootCone: 180
+cooldownTime: 500
+parts: [
+    {
+    type: HaloPart
+    shapes: 6
+    tri: true
+    triLength: 3
+    layer: 99.98
+    triLengthTo: 0
+    haloRadius: 15
+    haloRotateSpeed: 0.5
+    haloRotation: 40
+    progress: {
+        type: recoil
+        op: delay
+        amount: 0.1
+        }
+    radius: 2
+    color: d7d7d7bb
+    stroke: 2
+    hollow: false
+    }
+    {
+    type: HaloPart
+    shapes: 6
+    tri: true
+    triLength: 3
+    layer: 99.98
+    triLengthTo: 0
+    haloRadius: 15
+    haloRotateSpeed: 0.5
+    haloRotation: 20
+    progress: {
+        type: recoil
+        op: delay
+        amount: 0.1
+        }
+    radius: 2
+    color: d7d7d7bb
+    stroke: 2
+    hollow: false
+    }
+    {
+    type: HaloPart
+    shapes: 6
+    tri: true
+    triLength: 3
+    layer: 99.98
+    triLengthTo: 0
+    haloRadius: 15
+    haloRotateSpeed: 0.5
+    haloRotation: 30
+    progress: {
+        type: recoil
+        op: delay
+        amount: 0.1
+        }
+    radius: 2
+    color: d7d7d7bb
+    stroke: 2
+    hollow: false
+    }
+    {
+    type: HaloPart
+    shapes: 6
+    tri: true
+    triLength: 6
+    layer: 99.98
+    triLengthTo: 0
+    haloRadius: 15
+    haloRotateSpeed: 0.5
+    progress: {
+        type: recoil
+        op: delay
+        amount: 0.1
+        }
+    radius: 2
+    color: d7d7d7bb
+    hollow: true
+    stroke: 2
+    }
+    {
+    type: HaloPart
+    shapes: 6
+    tri: true
+    triLength: 2
+    layer: 99.98
+    triLengthTo: 0
+    haloRadius: 15
+    haloRotateSpeed: 0.5
+    progress: {
+        type: recoil
+        op: delay
+        amount: 0.1
+        }
+    radius: 2
+    color: d7d7d7bb
+    hollow: false
+    }
+    {
+    type: HaloPart
+    shapes: 6
+    tri: true
+    haloRotateSpeed: 0.5
+    triLength: 15
+    layer: 99.98
+    triLengthTo: 0
+    haloRadius: 15
+    haloRotation: 30
+    progress: {
+        type: recoil
+        op: delay
+        amount: 0.1
+        }
+    radius: 2
+    color: d7d7d7bb
+    hollow: false
+    }
+    {
+    type: ShapePart
+    color: d7d7d7aa
+    hollow: true
+    circle: true
+    stroke: 2
+    }
+    {
+    type: ShapePart
+    circle: true
+    rotateSpeed: 0.5
+    radius: 13
+    layer: 99.98
+    radiusTo: 0
+    progress: {
+        type: recoil
+        op: delay
+        amount: 0.1
+            }
+    hollow: false
+    color: d7d7d722
+    }
+    {
+    type: ShapePart
+    circle: true
+    rotateSpeed: 0.5
+    radius: 13
+    layer: 99.98
+    radiusTo: 0
+    progress: {
+        type: recoil
+        op: delay
+        amount: 0.05
+            }
+    hollow: false
+    color: d7d7d7aa
+    }
+        ]
+    bullet: {
+        type: BulletType
+        damage: 0
+        rangeOverride: 200
+        splashDamage: 4000
+        splashDamageRadius: 200
+        reflectable: false
+        absorbable: false
+        lifetime: 0
+        instantDisappear: true
+        status: unmoving
+        statusDuration: 300
+        spawnBullets: [
+            {
+        type: BulletType
+        damage: 0
+        rangeOverride: 200
+        splashDamage: 10
+        splashDamageRadius: 200
+        reflectable: false
+        absorbable: false
+        lifetime: 0
+        instantDisappear: true
+        status: electrified
+        statusDuration: 600
+        }
+        {
+        type: BulletType
+        fragBullets: 6
+        instantDisappear: true
+        damage: 0
+        collides: false
+        collidesGround: false
+        collidesAir: false
+        collidesTiles: false
+        fragBullet: {
+            type: BulletType
+            collides: false
+            collidesGround: false
+            collidesAir: false
+            collidesTiles: false
+            damage: 0
+            trailLength: 100
+            trailWidth: 4
+            trailColor: ffffff
+                }
+        }
+            ]
+        knockback: 40
+        despawnEffect: none
+        despawnHit: true
+        fragBullets: 6
+        fragSpread: 60
+        fragRandomSpread: 0
+        fragBullet: {
+            type: LaserBulletType
+            colors: [d7d7d7aa, d7d7d7, ffffff]
+            damage: 150
+            sideLength: 0
+            lifetime: 30
+            length: 240
+            knockback: 10
+            }
+        hitEffect: {
+            type: MultiEffect
+            effects: [{
+            type: WrapEffect
+            effect: dynamicSpikes
+            rotation: 200
+            }
+            {
+            type: WaveEffect
+            lifetime: 30
+            strokeFrom: 100
+            strokeTo: 0
+            sizeTo: 200
+            }
+            ]
+        }
+        }
 }
 ]
