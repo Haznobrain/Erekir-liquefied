@@ -175,7 +175,7 @@ sameTypeHealMult: 0.25
 layer: 110
 effectRadius: 12
 sectors: 6
-sectorRad: 0.7
+sectorRad: 0.28
 color: d7d7d7
 }
 ]
