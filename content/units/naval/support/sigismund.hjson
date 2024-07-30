@@ -297,9 +297,9 @@ bullet: {
     shootEffect: {
         type: ParticleEffect
         length: 45
-        lifetime: 10
+        lifetime: 40
         colorFrom: ffffff
-        colorTo: 62ae7f
+        colorTo: 98ffa9
         sizeFrom: 6
         sizeTo: 0
         interp: pow5Out
