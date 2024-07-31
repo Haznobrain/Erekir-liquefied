@@ -12,6 +12,7 @@ shootSound: shootSmite
 targetAir: false
 reload: 60
 range: 480
+cooldownTime: 55
 consumes: {
         liquids: [
                 water/1
@@ -26,6 +27,8 @@ ammoTypes: {
         trailWidth: 16
         pierce: true
         damage: 480
+        splashDamage: 250
+        splashDamageRadius: 20
         hitSound: bang
         despawnHit: true
         trailLength: 480
@@ -61,6 +64,8 @@ ammoTypes: {
         pierce: true
         trailWidth: 16
         damage: 480
+        splashDamage: 250
+        splashDamageRadius: 20
         hitSound: bang
         despawnHit: true
         trailLength: 480
@@ -97,6 +102,8 @@ ammoTypes: {
         lifetime: 80
         pierce: true
         damage: 480
+        splashDamage: 250
+        splashDamageRadius: 20
         hitSound: bang
         despawnHit: true
         trailLength: 480
@@ -131,6 +138,8 @@ ammoTypes: {
         lifetime: 80
         pierce: true
         damage: 480
+        splashDamage: 250
+        splashDamageRadius: 20
         hitSound: bang
       buildingDamageMultiplier: 0.01
         despawnHit: true
@@ -167,7 +176,7 @@ ammoTypes: {
         pierce: false
         damage: 480
         splashDamage: 800
-        hitSound: largeExplosion
+        hitSound: hugeExplosion
         fragOnHit: false
         despawnHit: true
         trailLength: 480
@@ -192,62 +201,125 @@ ammoTypes: {
 }
 }
 }
+recoil 0
 drawer: [ 
 {
 type: DrawTurret
 parts: [
-    {
+{
 type: RegionPart
-  suffix: -barrelright
-  progress: warmup
-  under: false
-  moveX: 4
-  heatColor: 00a5ff
-  heatLayerOffset: 0.005
-  heatProgress: warmup
+suffix: -barrel
+mirror: true
+moveX: 6
+moves: [
+{
+type: PartMove
+y: -4
+progress: recoil
 }
-    {
+]
+progress: {
+        type: warmup
+        op: delay
+        amount: 0.5
+        }
+heatProgress: recoil
+heatColor: ff0000
+[
+{
 type: RegionPart
-  suffix: -barrelleft
-  drawOutline: false
-  progress: warmup
-  under: false
-  moveX: -4
-  heatColor: 00a5ff
-  heatLayerOffset: 0.005
-  heatProgress: warmup
+color: 00000000
+mixColor: 00000000
+colorTo: 00a5ffff
+mixColorTo: 00a5ffff
+suffix: -barrel-glow
+mirror: true
 }
-    {
+{
 type: RegionPart
-  suffix: -bottom
-  progress: warmup
-  under: false
-  moveY: -4
-  heatColor: 00a5ff
-  heatLayerOffset: 0.005
-  heatProgress: warmup
+suffix: -barrel-extension
+mirror: true
+moveY: 24
+heatColor: ff0000
+progress: {
+        type: warmup
+        op: delay
+        amount: 0.6
+        }
+heatProgress: recoil
+moves: [
+{
+type: PartMove
+y: -8
+progress: recoil
 }
-    {
+]
+children: [
+{
 type: RegionPart
-  suffix: -sideright
-  progress: warmup
-  under: false
-  moveX: 4
-  moveY: -4
-  heatColor: 00a5ff
-  heatLayerOffset: 0.005
-  heatProgress: warmup
+suffix: -barrel-extension-blade
+moveY: -6
+progress: recoil
+mirror: true
+heatColor: 00a5ff
+heatProgress: {
+        type: warmup
+        op: delay
+        amount: 0.8
+        }
 }
-    {
+]
+}
+]
+}
+{
 type: RegionPart
-  suffix: -sideleft
-  progress: warmup
-  under: false
-  moveX: -4
-  moveY: -4
-  heatColor: 00a5ff
-  heatLayerOffset: 0.005
-  heatProgress: warmup
+suffix: -side
+mirror: true
+moveX: 6
+progress: {
+        type: warmup
+        op: delay
+        amount: 0.6
+        }
+heatColor: 00a5ff
+heatProgress: {
+        type: warmup
+        op: delay
+        amount: 0.6
+        }
+moves: [
+{
+type: PartMove
+x: 2
+y: -6
+}
+]
+}
+{
+type: RegionPart
+suffix: -bottom
+moveY: -1
+progress: recoil
+heatProgress: warmup
+heatColor: 00a5ff
+}
+{
+type: RegionPart
+suffix: -bottom-side
+mirror: true
+heatProgress: {
+        type: warmup
+        op: delay
+        amount: 0.1
+        }
+moveX: 2
+heatColor: 00a5ff
+progress: {
+        type: Warmup
+        op: delay
+        amount: 0.1
+        }
 }
 {
 type: ShapePart
