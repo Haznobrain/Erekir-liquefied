@@ -3,6 +3,7 @@ name: Geothermal Steam Extractor
 description: "Injects highly explosive cesium to break the ground underneath itself and extract steam, wich it then uses in a turbine to produce power."
 powerProduction: 10
 size: 4
+category: power
 drawer: {
   type: DrawMulti
   drawers: [
@@ -44,4 +45,6 @@ requirements: [
     thorium/500
     graphite/800
     oxide/200
+    azpacite/100
+    cesium/150
     ]
