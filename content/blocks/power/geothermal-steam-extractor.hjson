@@ -3,9 +3,6 @@ name: Geothermal Steam Extractor
 description: Injects highly explosive cesium to break the ground underneath itself and extract steam, wich it then uses in a turbine to produce power.
 consumes: {
   power: 4
-  items: [
-      cesium/1
-        ]
     }
 powerProduction: 10
 size: 4
