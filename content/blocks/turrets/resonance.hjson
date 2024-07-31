@@ -225,7 +225,7 @@ progress: {
         }
 heatProgress: recoil
 heatColor: ff0000
-[
+children: [
 {
 type: RegionPart
 color: 00000000
