@@ -201,7 +201,7 @@ ammoTypes: {
 }
 }
 }
-recoil 0
+recoil: 0
 drawer: [ 
 {
 type: DrawTurret
