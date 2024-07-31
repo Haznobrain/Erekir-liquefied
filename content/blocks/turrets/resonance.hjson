@@ -233,7 +233,6 @@ mixColor: 00000000
 colorTo: 00a5ffff
 mixColorTo: 00a5ffff
 suffix: -barrel-glow
-mirror: true
 }
 {
 type: RegionPart
@@ -241,6 +240,7 @@ suffix: -barrel-extension
 mirror: true
 moveY: 24
 heatColor: ff0000
+under: true
 progress: {
         type: warmup
         op: delay
