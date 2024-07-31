@@ -233,6 +233,8 @@ mixColor: 00000000
 colorTo: 00a5ffff
 mixColorTo: 00a5ffff
 suffix: -barrel-glow
+turretShading: false
+mirror: true
 }
 {
 type: RegionPart
