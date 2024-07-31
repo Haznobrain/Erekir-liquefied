@@ -45,9 +45,11 @@ drawer: {
 ]
 }
 requirements: [
-    beryllium/800
-    silicon/1000
-    thorium/200
-    graphite/400
-    oxide/50
+    beryllium/1000
+    silicon/1100
+    thorium/500
+    graphite/800
+    oxide/200
+    azpacite/100
+    cesium/150
     ]
