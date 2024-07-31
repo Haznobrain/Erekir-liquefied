@@ -5,6 +5,7 @@ type: Item
   flammability: 0.05
   cost: 2
   description: An easily moldable metal that reacts with water and is used inhigh-tier chemistry applications.
+  hiddenOnPlanets: [serpulo, tantros]
 research: {
     parent: beryllium
     }
