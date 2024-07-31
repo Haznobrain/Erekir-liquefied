@@ -12,6 +12,7 @@ shootSound: shootSmite
 targetAir: false
 reload: 60
 range: 480
+shootY: 4
 cooldownTime: 55
 consumes: {
         liquids: [
