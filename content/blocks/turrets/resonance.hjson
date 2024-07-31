@@ -274,7 +274,7 @@ heatProgress: {
 }
 {
 type: RegionPart
-suffix: -side
+suffix: -side-top
 mirror: true
 moveX: 6
 progress: {
