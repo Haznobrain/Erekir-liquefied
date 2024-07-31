@@ -316,7 +316,7 @@ heatProgress: {
 moveX: 2
 heatColor: 00a5ff
 progress: {
-        type: Warmup
+        type: warmup
         op: delay
         amount: 0.1
         }
