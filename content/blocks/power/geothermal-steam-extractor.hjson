@@ -2,9 +2,6 @@ type: ThermalGenerator
 name: Geothermal Steam Extractor
 description: "Injects highly explosive cesium to break the ground underneath itself and extract steam, wich it then uses in a turbine to produce power."
 category: power
-consumes: {
-  power: 4
-    }
 powerProduction: 10
 size: 4
 drawer: {
