@@ -49,5 +49,4 @@ requirements: [
     graphite/800
     oxide/200
     azpacite/100
-    cesium/150
     ]
