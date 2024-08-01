@@ -41,7 +41,6 @@ effect: {
   lightColor: d6bafb
   length: 0
   rotWithParent: true
-  sizeInterp: swingIn
   baseRotation: 180
     }
 lengthOffset: 80
@@ -62,7 +61,6 @@ effect: {
   lightColor: d6bafb
   length: 0
   rotWithParent: true
-  sizeInterp: swingIn
     }
 lengthOffset: 112
 }
@@ -82,7 +80,6 @@ effect: {
   lifetime: 60
   length: 0
   rotWithParent: true
-  sizeInterp: swingIn
     }
 lengthOffset: 144
 }
