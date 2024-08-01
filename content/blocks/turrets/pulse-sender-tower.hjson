@@ -1,0 +1,609 @@
+type: PowerTurret
+reload: 1200
+range: 450
+size: 8
+health: 160000
+buildVisibility: sandboxOnly
+name: Pulse Sender Tower
+description: Used to transfer massive loads of energy beetween different bases on different planets.
+category: turret
+consumes: {
+  power: 834
+    }
+shoot: {
+  firstShotDelay: 180
+    }
+chargeSound: pulseTowerCharge
+shootSound: pulseTowerShoot
+alwaysShooting: true
+shootCone: 180
+hasPower: true
+shootY: 0
+shootType: {
+  type: BasicBulletType
+  damage: 0
+  chargeEffect: {
+    type: MultiEffect
+    effects: [
+{
+type: RadialEffect
+rotationOffset: 45
+startDelay: 0
+effect: {
+  type: ParticleEffect
+  lifetime: 180
+  sizeFrom: 0
+  sizeTo: 12
+  region: launch-arrow
+  colorFrom: bf92f9
+  colorTo: bf92f9
+  lightColor: d6bafb
+  length: 0
+  rotWithParent: true
+  sizeInterp: swingIn
+    }
+lengthOffset: 96
+}
+{
+type: RadialEffect
+rotationOffset: 45
+startDelay: 60
+effect: {
+  type: ParticleEffect
+  sizeFrom: 0
+  sizeTo: 16
+  region: launch-arrow
+  colorFrom: bf92f9
+  colorTo: bf92f9
+  lightColor: d6bafb
+  length: 0
+  rotWithParent: true
+  sizeInterp: swingIn
+    }
+lengthOffset: 128
+}
+{
+type: RadialEffect
+rotationOffset: 45
+startDelay: 120
+effect: {
+  type: ParticleEffect
+  sizeFrom: 0
+  sizeTo: 20
+  region: launch-arrow
+  colorFrom: bf92f9
+  colorTo: bf92f9
+  lightColor: d6bafb
+  length: 0
+  rotWithParent: true
+  sizeInterp: swingIn
+    }
+lengthOffset: 160
+}
+{
+type: WaveEffect
+interp: swingIn
+sizeFrom: 200
+sizeTo: 0
+colorFrom: bf92f9
+colorTo: ffffff
+lightColor: d6bafb
+strokeFrom: 0
+strokeTo: 8
+lifetime: 180
+}
+{
+type: WaveEffect
+interp: swingIn
+sizeFrom: 120
+sizeTo: 0
+colorFrom: bf92f9
+colorTo: ffffff
+lightColor: d6bafb
+strokeFrom: 0
+strokeTo: 8
+lifetime: 170
+startDelay: 10
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 5
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 10
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 15
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 20
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 25
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 30
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 35
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 40
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 45
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 50
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 55
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 60
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 65
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 70
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 75
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 80
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 85
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 90
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 95
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 100
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 105
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 110
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 115
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 120
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 125
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 130
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 135
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 140
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 145
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 150
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 155
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 160
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 165
+}
+{
+type: ParticleEffect
+particles: 12
+colorFrom: bf92f9aa
+colorTo: ffffffaa
+sizeFrom: 0
+sizeTo: 8
+length: 200
+lengthTo: 0
+lifetime: 10
+interp: swingIn
+startDelay: 170
+}
+{
+type: ParticleEffect
+length: 0
+sizeFrom: 0
+sizeTo: 20
+lifetime: 180
+}
+]
+  }
+hitEffect: {
+  type: WaveEffect
+  colorFrom: ffffff
+  colorTo: bf92f9
+  sizeTo: 450
+  strokeFrom: 12
+  lifetime: 100
+    }
+splashDamage: 200000
+splashDamageRadius: 450
+knockback: -100
+lifetime: 0
+despawnHit: true
+despawnEffect: none
+reflectable: false
+hittable: false
+absorbable: false
+instantDisappear: true
+  }
+loopSound: hum
+drawer: {
+  type: DrawMulti
+  iconOverride: -icon
+  drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+}
+{
+type: DrawPistons
+angleOffset: 45
+sinScl: 50
+}
+{
+type: DrawRegion
+suffix: -top
+}
+]
+}
