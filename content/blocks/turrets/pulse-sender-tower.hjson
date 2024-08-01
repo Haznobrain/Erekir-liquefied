@@ -608,6 +608,8 @@ fragBullet: {
   shootEffect: none
   smokeEffect: none
   laserEffect: none
+  pierce: true
+  pierceBuilding: true
   }
   }
 loopSound: hum
