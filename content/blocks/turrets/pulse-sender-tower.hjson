@@ -28,7 +28,6 @@ shootType: {
 {
 type: RadialEffect
 rotationOffset: 45
-startDelay: 0
 effect: {
   type: ParticleEffect
   lifetime: 180
@@ -49,10 +48,10 @@ lifetime: 180
 {
 type: RadialEffect
 rotationOffset: 45
-startDelay: 60
 lifetime: 120
 effect: {
   type: ParticleEffect
+  startDelay: 60
   baseRotation: 180
   sizeFrom: 0
   sizeTo: 16
@@ -69,10 +68,10 @@ lengthOffset: 112
 {
 type: RadialEffect
 rotationOffset: 45
-startDelay: 120
 lifetime: 180
 effect: {
   type: ParticleEffect
+  startDelay: 120
   sizeFrom: 0
   sizeTo: 20
   region: launch-arrow
