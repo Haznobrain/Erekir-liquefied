@@ -592,6 +592,23 @@ reflectable: false
 hittable: false
 absorbable: false
 instantDisappear: true
+fragBullets: 360
+fragSpread: 1
+fragRandomSpread: 0
+fragBullet: {
+  type: RailBulletType
+  length: 450
+  damage: 0
+  knockback: -100
+  hitEffect: none
+  despawnEffect: none
+  shootEffect: none
+  hitSize: 2
+  smokeEffect: none
+  pointEffect: none
+  lineEffect: none
+  pierceEffect: none
+  }
   }
 loopSound: hum
 drawer: {
