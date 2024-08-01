@@ -576,7 +576,7 @@ hitEffect: {
   strokeFrom: 12
   lifetime: 100
     }
-splashDamage: 200000
+splashDamage: 20000
 splashDamageRadius: 450
 knockback: -100
 lifetime: 0
