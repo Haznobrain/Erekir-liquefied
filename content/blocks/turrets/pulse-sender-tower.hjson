@@ -597,17 +597,15 @@ fragSpread: 1
 fragRandomSpread: 0
 smokeEffect: smokeCloud
 fragBullet: {
-  type: LaserBulletType
-  length: 450
-  laserEffect: none
-  width: 6
-  colors: [00000000, 00000000, 00000000]
+  type: BulletType
+  speed: 450
+  lifetime: 1
+  hitSize: 6
   damage: 0
   knockback: -100
   hitEffect: none
   despawnEffect: none
   shootEffect: none
-  largeHit: true
   smokeEffect: none
   laserEffect: none
   }
