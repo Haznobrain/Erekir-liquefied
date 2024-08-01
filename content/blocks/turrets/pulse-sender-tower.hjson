@@ -599,6 +599,7 @@ smokeEffect: smokeCloud
 fragBullet: {
   type: LaserBulletType
   length: 450
+  laserEffect: none
   width: 6
   colors: [00000000, 00000000, 00000000]
   damage: 0
@@ -609,7 +610,6 @@ fragBullet: {
   largeHit: true
   smokeEffect: none
   laserEffect: none
-  impact: true
   }
   }
 loopSound: hum
