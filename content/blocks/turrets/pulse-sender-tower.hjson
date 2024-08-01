@@ -36,13 +36,15 @@ effect: {
   sizeTo: 12
   region: launch-arrow
   colorFrom: bf92f9
+  lifetime: 180
   colorTo: bf92f9
   lightColor: d6bafb
   length: 0
   rotWithParent: true
   sizeInterp: swingIn
+  baseRotation: 180
     }
-lengthOffset: 96
+lengthOffset: 80
 }
 {
 type: RadialEffect
@@ -50,9 +52,11 @@ rotationOffset: 45
 startDelay: 60
 effect: {
   type: ParticleEffect
+  baseRotation: 180
   sizeFrom: 0
   sizeTo: 16
   region: launch-arrow
+  lifetime: 120
   colorFrom: bf92f9
   colorTo: bf92f9
   lightColor: d6bafb
@@ -60,7 +64,7 @@ effect: {
   rotWithParent: true
   sizeInterp: swingIn
     }
-lengthOffset: 128
+lengthOffset: 112
 }
 {
 type: RadialEffect
@@ -71,14 +75,16 @@ effect: {
   sizeFrom: 0
   sizeTo: 20
   region: launch-arrow
+  baseRotation: 180
   colorFrom: bf92f9
   colorTo: bf92f9
   lightColor: d6bafb
+  lifetime: 60
   length: 0
   rotWithParent: true
   sizeInterp: swingIn
     }
-lengthOffset: 160
+lengthOffset: 144
 }
 {
 type: WaveEffect
