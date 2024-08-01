@@ -44,11 +44,13 @@ effect: {
   baseRotation: 180
     }
 lengthOffset: 80
+lifetime: 180
 }
 {
 type: RadialEffect
 rotationOffset: 45
 startDelay: 60
+lifetime: 120
 effect: {
   type: ParticleEffect
   baseRotation: 180
@@ -68,6 +70,7 @@ lengthOffset: 112
 type: RadialEffect
 rotationOffset: 45
 startDelay: 120
+lifetime: 180
 effect: {
   type: ParticleEffect
   sizeFrom: 0
