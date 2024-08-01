@@ -590,7 +590,6 @@ instantDisappear: true
 loopSound: hum
 drawer: {
   type: DrawMulti
-  iconOverride: -icon
   drawers: [
 {
 type: DrawRegion
