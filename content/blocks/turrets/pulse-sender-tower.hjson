@@ -608,6 +608,7 @@ fragBullet: {
   pointEffect: none
   lineEffect: none
   pierceEffect: none
+  impact: true
   }
   }
 loopSound: hum
