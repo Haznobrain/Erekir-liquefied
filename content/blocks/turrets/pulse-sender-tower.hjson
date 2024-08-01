@@ -595,19 +595,20 @@ instantDisappear: true
 fragBullets: 360
 fragSpread: 1
 fragRandomSpread: 0
+smokeEffect: smokeCloud
 fragBullet: {
-  type: RailBulletType
+  type: LaserBulletType
   length: 450
+  width: 6
+  colors: [00000000, 00000000, 00000000]
   damage: 0
   knockback: -100
   hitEffect: none
   despawnEffect: none
   shootEffect: none
-  hitSize: 2
+  largeHit: true
   smokeEffect: none
-  pointEffect: none
-  lineEffect: none
-  pierceEffect: none
+  laserEffect: none
   impact: true
   }
   }
