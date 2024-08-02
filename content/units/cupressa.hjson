@@ -130,14 +130,14 @@ despawnEffect: {
     layerOffset: 1
     controllable: false
     rotate: true
+    autoTarget
     parts: [
     {
 type: RegionPart
-suffix: -mandible
-mirror: true
+suffix: -mandible-r
 heatColor: ff0000
 moveY: -1
-moveX: 4
+moveX: 2
 under: true
 progress: warmup
 children: [
@@ -147,11 +147,31 @@ color: 00000000
 mixColor: 00000000
 colorTo: adeeb4
 mixColorTo: adeeb4
-suffix: -glow
+suffix: mandible-glow
 progress: warmup
 }
 ]
+ }
+    {
+type: RegionPart
+suffix: -mandible-l
+heatColor: ff0000
+moveY: -1
+moveX: -2
+under: true
+progress: warmup
+children: [
+{
+type: RegionPart
+color: 00000000
+mixColor: 00000000
+colorTo: adeeb4
+mixColorTo: adeeb4
+suffix: mandible-glow-l
+progress: warmup
 }
+]
+ }
 ]
     cooldownTime: 120
     rotateSpeed: 4
