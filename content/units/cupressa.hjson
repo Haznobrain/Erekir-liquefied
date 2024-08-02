@@ -45,28 +45,22 @@ top: false
 shootSound: laserblast
 chargeSound: lasercharge
 x: 0
+parts: [
+    {
+type: RegionPart
+color: 00000000
+mixColor: 00000000
+colorTo: adeeb4
+mixColorTo: adeeb4
+suffix: -glow
+progress: warmup
+}
+]
 shootOnDeath: true
 cooldownTime: 800
 y: 0
 mirror: false
 range: 360
-  shoot: {
-type: ShootMulti
-source: ShootSpread
-firstShotDelay: 65
-dest: [
-{
-  type: ShootSpread
-  shots: 5
-  spread: 5
-}
-{
-  type: ShootHelix
-  scl: 4
-  mag: 3
-}
-]
-}
 parentizeEffects: true
 bullet: {
      hitPowerEffect: {
@@ -81,13 +75,9 @@ bullet: {
           colorFrom: FFFFFFF,
           colorTo: 96f58c
         }
-    lightningSpacing: 32
-    lightningLength: 7
-    lightningDelay: 15
-    lightningLengthRand: 15
-    lightningDamage: 45
-    lightningAngleRand: 30
-    lightningColor: 47ff00
+    shoot: {
+    firstShotDelay: 65
+        }
     chargeEffect: greenLaserCharge
       type: EmpBulletType
   width: 18
@@ -114,9 +104,9 @@ frontColor: 54d67d
 trailEffect: missileTrail
 trailInterval: 3
 trailParam: 4
-damage: 85
-splashDamage: 95
-splashDamageRadius: 60
+damage: 125
+splashDamage: 450
+splashDamageRadius: 80
 sprite: large-orb
 trailColor: 54d67d
 trailLength: 40
@@ -129,75 +119,59 @@ despawnEffect: {
   smokeColor: 28785c
   sparkColor: 28785c
   waveStroke: 6
-  waveRad: 60
+  waveRad: 80
 }
 }
 }
 {
-name: cupressa-weapon2
-x: 0
-y: 0
-mirror: false
-rotate: true
-rotateSpeed: 1.5
-range: 160
-shootX: 0
-shootY: 2
-continuous: true
-alternate: false
-alwaysContinuous: true
-shootSound: torch
-layerOffset: -20
-bullet: {
-    type: ContinuousFlameBulletType
-    damage: 26
-    colors: [96f58c, 54d67d, 81d79c, 9cdbb0, ffffff]
-    flareColor: 96f58c
-    lightStroke: 240
-    width: 8
-    collidesTeam: true
-    healPercent: 2
-    length: 240
-}
-}
-{
-    name: cupressa-weapon3
-    reload: 15
-    rotate: 360
-        x: -15
-        y: -15
-    range: 200
-    mirror: true
-        bullet: {
-            type: LaserBoltBulletType
-            backColor: 96f58c
-            frontColor: 96f58c
-            speed: 8
-            lifetime: 25
-            damage: 25
-            collidesTeam: true
-            healPercent: 0.5
-}
-}
-{
-    name: cupressa-weapon3
-    reload: 15
-        x: -8
-        y: 15
+    name: cupressa-flamethrower
+    continuous: true
+    alwaysContinuous: true
+    layerOffset: 1
+    controllable: false
     rotate: true
-    rotateSpeed: 360
-    range: 200
-    mirror: true
-        bullet: {
-            type: LaserBoltBulletType
-            backColor: 96f58c
-            frontColor: 96f58c
-            speed: 8
-            lifetime: 25
-            damage: 25
-            collidesTeam: true
-            healPercent: 0.5
+    parts: [
+    {
+type: RegionPart
+suffix: -mandible
+heatColor: ff0000
+moveY: -1
+moveX: 4
+under: true
+progress: warmup
+children: [
+{
+type: RegionPart
+color: 00000000
+mixColor: 00000000
+colorTo: adeeb4
+mixColorTo: adeeb4
+suffix: -glow
+progress: warmup
 }
+]
+}
+]
+    cooldownTime: 120
+    rotateSpeed: 4
+    shootY: 1
+    shootSound: torch
+    y: -10
+    x: 14
+    heatColor: adeeb4
+    bullet: {
+        type: ContinuousFlameBulletType
+        colors: [99eaa2aa, d0f7d4dd, d0f7d4, d0f7d4, ffffff]
+        length: 96
+        width: 8
+        damage: 12
+        hitColor: 99eaa2
+        lifetime: 30
+        flareLength: 24
+        flareColor: 99eaa2
+        layer: 110
+        flareLayer: 110
+        }
 }
 ]
 abilities: [
