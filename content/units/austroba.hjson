@@ -62,11 +62,12 @@ weapons: [{
         }
 ]
     outline: false
+    layerOffset: 1
     inaccuracy: 30
     recoil: 0
     range: 280
     mirror: false
-    reload: 60
+    reload: 90
     layerOffset: 2
     shoot: {
         shots: 2
