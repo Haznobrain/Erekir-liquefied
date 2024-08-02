@@ -155,7 +155,7 @@ progress: warmup
  }
     {
 type: RegionPart
-suffix: -l
+suffix: -mandible-l
 heatColor: ff0000
 moveY: -1
 moveX: -1
