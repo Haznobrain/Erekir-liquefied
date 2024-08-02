@@ -53,7 +53,7 @@ mixColor: 00000000
 colorTo: adeeb4
 mixColorTo: adeeb4
 suffix: -glow
-progress: warmup
+progress: recoil
 }
 ]
 shootOnDeath: true
@@ -134,6 +134,7 @@ despawnEffect: {
     {
 type: RegionPart
 suffix: -mandible
+mirror: true
 heatColor: ff0000
 moveY: -1
 moveX: 4
