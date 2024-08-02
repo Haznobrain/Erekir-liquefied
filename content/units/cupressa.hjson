@@ -131,6 +131,7 @@ despawnEffect: {
     controllable: false
     rotate: true
     autoTarget: true
+    alternate: false
     parts: [
     {
 type: RegionPart
@@ -154,7 +155,7 @@ progress: warmup
  }
     {
 type: RegionPart
-suffix: -mandible-l
+suffix: -l
 heatColor: ff0000
 moveY: -1
 moveX: -2
