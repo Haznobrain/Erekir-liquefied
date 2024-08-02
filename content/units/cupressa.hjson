@@ -130,7 +130,7 @@ despawnEffect: {
     layerOffset: 1
     controllable: false
     rotate: true
-    autoTarget
+    autoTarget: true
     parts: [
     {
 type: RegionPart
