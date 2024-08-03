@@ -86,6 +86,8 @@ recoil: 0.5
 shootY: 7.25
 bullet: {
   type: FlakBulletType
+  speed: 4
+  damage: 15
   shootEffect: shootBig
   ammoMultiplier: 4
   splashDamage: 65
