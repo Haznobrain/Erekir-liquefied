@@ -15,5 +15,10 @@ Events.on(ContentInitEvent, e => {
     Vars.content.block("arkyic-stone").attributes.set(Attribute.get("underground-steam"), 1.1);
     Vars.content.block("rhyolite").attributes.set(Attribute.get("underground-steam"), 0.4);
 
+    Vars.content.block("carbon-wall").attributes.set(Attribute.get("cyanogen"), 1);
+    Vars.content.block("crystalline-stone-wall").attributes.set(Attribute.get("cyanogen"), 0.5);
+    Vars.content.block("arkyic-stone").attributes.set(Attribute.get("cyanogen"), 0.33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333);
+
     Vars.content.block("erekirliquefied-geothermal-steam-extractor").attribute = Attribute.get("underground-steam");
+    Vars.content.block("erekirliquefied-wall-cyanogen-reactor").attribute = Attribute.get("cyanogen");
 });
