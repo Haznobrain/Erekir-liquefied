@@ -13,7 +13,7 @@ output: cyanogen
 drillTime: 60
 description: When placed against certain types of wall, directly reacts arkycite with materials in the wall to make cyanogen.
 size: 3
-drawer: [
+drawer: {
     type: DrawMulti
     drawers: [
 {
