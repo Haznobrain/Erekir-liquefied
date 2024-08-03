@@ -1,0 +1,16 @@
+{
+localizedName: Faultline
+description: "A system of rifts and fissures has caused a depression to form, giving way to a slag river through wich ennemy boat units will pass. Research the Shelling turret to better deal with the great amounts of ennemies of the later waves."
+sector: 42
+captureWave: 45
+difficulty: 8
+planet: erekir
+allowLaunchLoadout: false
+allowLaunchSchematics: false
+addStartingItems: true
+overrideLaunchDefaults: true
+attackAfterWaves: true
+research: {
+parent: crevice
+}
+}
