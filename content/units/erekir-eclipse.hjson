@@ -10,6 +10,7 @@ flying: true
 lowAltitude: true
 health: 22000
 engineSize: 7.3
+engineOffset: 38
 hitSize: 58
 armor: 13
 targetFlags: [
