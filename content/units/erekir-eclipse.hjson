@@ -1,0 +1,101 @@
+type: flying
+template: ErekirUnitType
+name: Eclipse
+description: "uhhhhhh how did this get here..."
+speed: 0.54
+accel: 0.04
+drag: 0.04
+rotateSpeed: 1
+flying: true
+lowAltitude: true
+health: 22000
+engineSize: 7.3
+hitSize: 58
+armor: 13
+targetFlags: [
+    reactor,
+    battery,
+    core
+    ]
+ammoType:{
+  type: ItemAmmoType
+  item: thorium
+    }
+weapons: [
+{
+name: erekir-large-laser-mount
+shake: 4
+shootY: 9
+x: 18
+y: 5
+rotateSpeed: 2
+reload: 45
+recoil: 4
+shootSound: laser
+shadow: 20
+rotate: true
+bullet: {
+  type: LaserBulletType
+  damage: 115
+  sideAngle: 20
+  sideWidth: 1.5
+  sideLength: 80
+  width: 25
+  length: 230
+  shootEffect: shockwave
+  colors: [ec7458aa, ff9c5a, ffffff]
+    }
+}
+{
+name: erekir-large-artillery
+x: 11
+y: 27
+rotateSpeed: 2
+reload: 9
+shootSound: shoot
+shadow: 7
+rotate: true
+recoil: 0.5
+shootY: 7.25
+bullet: {
+  type: FlakBulletType
+  shootEffect: shootBig
+  ammoMultiplier: 4
+  splashDamage: 65
+  splashDamageRadius: 25
+  collidesGround: true
+  lifetime: 47
+  status: blasted
+  statusDuration: 60
+  trailLength: 20
+  trailColor: f9c27a
+    }
+}
+{
+name: erekir-large-artillery
+x: 20
+y: -13
+rotateSpeed: 7
+shake: 1
+reload: 12
+ejectEffect: casing1
+shootSound: shoot
+shadow: 7
+rotate: true
+recoil: 0.5
+shootY: 7.25
+bullet: {
+  type: FlakBulletType
+  shootEffect: shootBig
+  ammoMultiplier: 4
+  splashDamage: 65
+  splashDamageRadius: 25
+  collidesGround: true
+  lifetime: 47
+  status: blasted
+  statusDuration: 60
+  trailLength: 20
+  trailColor: f9c27a
+    }
+}
+]
