@@ -1,0 +1,41 @@
+generator: AsteroidGenerator
+parent: erekir
+radius: 0.5
+minZoom: 0.9
+atmosphereRadIn: 0
+name: Commarchya
+description: "An asteroid on a low orbit around erekir, very hot due to tidal forces. Has an ennemy base that might be difficult to deal with."
+defaultEnv: 4
+accessible: true
+itemWhiteList: [
+          graphite,
+          thorium,
+          silicon,
+          phaseFabric,
+          surgeAlloy,
+          sand,
+          beryllium,
+          tungsten, 
+          oxide, 
+          carbide, 
+          fissileMatter, 
+          dormantCyst
+    ]
+bloom: true
+mesh: {
+  type: NoiseMesh
+  divisions: 3
+  radius: 0.2
+  planet: 1
+  color1: bc752a
+  color2: ffd2a3
+  octaves: 4
+  persistence: 0.2
+  scale: 1
+  mag: 5
+  coct: 4
+  cper: 1.4
+  cscl: 0.3
+  cthresh: 0.01
+  }
+iconColor: ffd2a3
