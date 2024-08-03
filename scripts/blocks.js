@@ -20,5 +20,4 @@ Events.on(ContentInitEvent, e => {
     Vars.content.block("arkyic-stone").attributes.set(Attribute.get("cyanogen"), 0.33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333);
 
     Vars.content.block("erekirliquefied-geothermal-steam-extractor").attribute = Attribute.get("underground-steam");
-    Vars.content.block("erekirliquefied-wall-cyanogen-reactor").attribute = Attribute.get("cyanogen");
 });
