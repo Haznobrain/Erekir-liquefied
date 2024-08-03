@@ -381,6 +381,6 @@ research: {
         parent: scathe
         objectives: [{
             type: OnSector
-            preset: karst
+            preset: faultline
             }]
         }
