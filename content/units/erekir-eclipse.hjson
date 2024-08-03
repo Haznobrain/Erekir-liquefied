@@ -69,6 +69,8 @@ bullet: {
   statusDuration: 60
   trailLength: 20
   trailColor: f9c27a
+  speed: 4
+  damage: 15
     }
 }
 {
