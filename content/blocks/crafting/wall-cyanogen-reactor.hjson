@@ -4,6 +4,7 @@ outputsLiquids: true
 name: Cyanogen Wall Reactor
 category: production
 liquidCapacity: 100
+attribute: cyanogen
 consumes: {
   liquid: arkycite/20
   power: 5
