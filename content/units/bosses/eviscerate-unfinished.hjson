@@ -11,7 +11,7 @@ immunities: [
     burning,
     ionized,
     shocked,
-    slowed,
+    slow,
     sapped
     ]
 name: "Eviscerate"
