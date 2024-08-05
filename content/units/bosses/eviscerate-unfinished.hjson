@@ -266,7 +266,7 @@ weapons: [
     sideLength: 60
     sideWidth: 2
     sideAngle: 22
-    colors: [dcf3ffaa, , f2faff, ffffffff]
+    colors: [dcf3ffaa, f2faff, ffffffff]
       }
 }
 ]
