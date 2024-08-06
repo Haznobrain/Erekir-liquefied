@@ -70,12 +70,10 @@ weapons: [
 shootY: 6
 shootSound: blaster
 reload: 90
-targetAir: false
 shootCone: 5
 mirror: false
 x: 0
 y: 0
-range: 96
 bullet: {
     type: ArtilleryBulletType
     damage: 0
@@ -96,6 +94,7 @@ bullet: {
     trailColor: 84f49166
     trailInterval: 1
     collidesTeam: true
+    collidesAir: false
     healPercent: 5
     trailEffect: {
       type: MultiEffect
@@ -193,7 +192,6 @@ pulseStroke: 2.0
 recentDamageMultiplier: 1
 laserColor: 84f491
 healColor: 84f491
-range: 96
 bullet: {
   maxRange: 96
     }
