@@ -14,7 +14,7 @@ singleTarget: true
 fogRadius: 45
 rotateSpeed: 1.1
 trailLength: 100
-waveTrailScl: 3.5
+trailScl: 3.5
 waveTrailX: 40
 waveTrailY: -32
 immunities: [
