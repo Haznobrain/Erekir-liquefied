@@ -21,10 +21,10 @@ engineOffset: 1
 engineSize: 2
 engineColor: 84f491
 trailLength: 12
-trailScl: 4
+trailScl: 1
 trailColor: 84f491
 loopSound: missileTrail
-missileAccelTime: 72
+missileAccelTime: 2
 targetAir: true
 parts: [
 {
