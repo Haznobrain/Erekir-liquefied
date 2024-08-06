@@ -11,7 +11,7 @@ payloadCapacity: 5184
 buildSpeed: 10
 speed: 0.475
 targetAir: true
-faceTargets: true
+faceTarget: true
 lightRadius: 58
 singleTarget: false
 fogRadius: 60
@@ -48,7 +48,6 @@ y: -16
 top: true
 rotate: true
 rotationLimit: 30
-range: 320
 mirror: true
 shoot: {
   type: ShootHelix
@@ -153,7 +152,6 @@ shootSound: laserblast
 chargeSound: lasercharge
 shootOnDeath: true
 cooldownTime: 900
-range: 480
 shootY: 8
 parentizeEffects: true
 shoot: {
