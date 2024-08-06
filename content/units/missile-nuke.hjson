@@ -5,7 +5,7 @@ flying: true
 health: 300
 hitSize: 10
 rotateSpeed: 3
-controller: MissileAi
+controller: MissileAI
 lowAltitude: true
 lifetime: 100
 isEnemy: false
@@ -20,7 +20,7 @@ engineOffset: 12
 engineSize: 8
 engineColor: bf92f9
 trailColor: bf92f9
-MissileAccelTime: 72
+missileAccelTime: 72
 weapons: [{
     name: missile-explode
       shootCone: 360
@@ -44,7 +44,6 @@ weapons: [{
                 smokes: 8
                 sparks: 6
           }
-shootSound: none
 suppressionRange: 280
 suppressionDuration: 900
 lightning: 8
@@ -53,9 +52,6 @@ lightningLength: 40
 lightningLengthRand: 10
 lightningColor: bf92f9
 type: ExplosionBulletType
-instantDissapear: true
-width: 0
-height: 0
 keepVelocity: false
 splashDamage: 800
 splashDamageRadius: 240
