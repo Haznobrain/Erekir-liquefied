@@ -2,7 +2,7 @@ name: naval refabricator
 size: 3
 type: Reconstructor
 configurable: false
-description: upgrades the pyrolobus unit into deinoco
+description: Upgrades naval units to their second tier.
 constructTime: 2400
 category: units
   consumes: {
@@ -21,6 +21,10 @@ upgrades: [
 [
 pyrolobus,
   deinoco
+]
+[
+ryani,
+  ruffoi
 ]
 ]
 requirements: [
