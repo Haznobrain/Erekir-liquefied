@@ -66,9 +66,6 @@ weapons: [{
 shootSound: none
 type: ExplosionBulletType
 collidesAir: true
-instantDissapear: true
-width: 0
-height: 0
 keepVelocity: false
 splashDamage: 190
 splashDamageRadius: 40
