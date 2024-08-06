@@ -10,7 +10,6 @@ speed: 0.6
 range: 248
 targetAir: true
 trailLength: 92
-faceTargets: false
 lightRadius: 5
 waveTrailX: 16
 waveTrailY: -16
