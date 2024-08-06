@@ -16,7 +16,7 @@ type: UnitAssemblerPlan
   time: 4000
   requirements: [
     erekirliquefied-ryani/5
-    surge-wall-large/15
+    reinforced-surge-wall-large/15
     ]
 }
 {
