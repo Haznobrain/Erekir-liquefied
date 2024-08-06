@@ -3,7 +3,7 @@ attribute: steam
 group: liquids
 displayEfficiencyScale: 0.111111111111111111111111111111111
 boostScale: 0.111111111111111111111111111111111
-minEfficiency: 1
+minEfficiency: 8.9999999999999999
 baseEfficiency: 0
 displayEfficiency: true
 size: 3
