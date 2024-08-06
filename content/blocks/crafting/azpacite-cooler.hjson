@@ -38,7 +38,7 @@ drawer: {
       }
       {
       type: DrawHeatOutput
-      rotateDraw: true
+      rotate: true
       drawGlow: false
       }
       ]
