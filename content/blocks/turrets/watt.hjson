@@ -49,7 +49,7 @@ shootSound: spark
 shoot: {
       shots: 3
           }
-innacuracy: 5
+inaccuracy: 5
 consumes: {
   power:10
 } 
