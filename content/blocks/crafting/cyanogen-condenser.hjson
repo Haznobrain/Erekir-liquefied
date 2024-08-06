@@ -1,0 +1,33 @@
+type: AttributeCrafter
+attribute: steam
+group: liquids
+displayEfficiencyScale: 0.111111111111111111111111111111111
+minEfficiency: 0.999999999999999999999999999999999
+displayEfficiency: false
+size: 3
+ambientSound: hum
+ambientSoundVolume: 0.06
+outputLiquid: cyanogen/0.0037037037037037037037037037037
+liquidCapacity: 20
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawDefault
+  }
+  {
+  type: DrawGlowRegion
+  color: b4ffffff
+    }
+{
+type: DrawBlurSpin
+suffix: -rotator
+blurTresh: 0.01
+  }
+]
+}
+requirements: [
+  beryllium/150
+  silicon/250
+  carbide/50
+  ]
