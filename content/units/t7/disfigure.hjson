@@ -156,7 +156,7 @@ shocked
     rotate: true
     rotationLimit: 110
     bullet: {
-    shootEffect: LancerShootSmoke
+    shootEffect: lancerShootSmoke
       type: RailBulletType
       length: 328
       pointEffectSpace: 7
