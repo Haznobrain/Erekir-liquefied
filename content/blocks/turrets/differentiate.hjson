@@ -155,6 +155,8 @@ tungsten: {
         effects: [shootBigColor, shootSmokeSquareSparse]
             }
       buildingDamageMultiplier: 0.01
+    fragVelocityMin: 0.95
+    fragVelocityMax: 1
     fragBullet: {
       lifetime: 28
       speed: 5
@@ -203,11 +205,10 @@ graphite: {
     sprite: missile-large
     height: 12
     midth: 12
-    trailLength: 8
     trailWidth: 3
     hitEffect: hitSquaresColor
     hitColor: 818181
-    trailLifetime: 25
+    trailLength: 25
     frontColor: ffffff
     backColor: 818181
     trailColor: 818181
