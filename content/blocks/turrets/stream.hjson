@@ -15,7 +15,6 @@ reload: 90
 recoil: 2
 shootSound: laser
 loopSound: none
-despawnHit: true
 coolantMultiplier: 2
 consumes: {
         power: 3
