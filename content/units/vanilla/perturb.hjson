@@ -9,7 +9,7 @@ rotateSpeed: 1.5
 armor: 20
 speed: 0.8
 targetAir: true
-faceTargets: true
+faceTarget: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 40
@@ -46,7 +46,6 @@ weapons: [
   name: perturb-nukeWeapon
   shootSound: missileLarge
   reload: 600
-  range: 600
   mirror: false
   x: 0
   y: 0
@@ -70,7 +69,6 @@ shoot: {
   spread: 4
   shots: 6
 }
-range: 600
   bullet: {
       spawnUnit: erekirliquefied-perturb-small-missile
 }
