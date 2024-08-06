@@ -3,13 +3,8 @@ type: DirectionalForceProjector
 description: A huge wall that blocks lasers and has a chance to deflect bullets. Also has a directional single use shield whenever it is powered.
 health: 50625
 armor: 30
-insulating: true
 size: 3
-chanceDeflect: 12
 absorbLasers: true
-lightningChance: 0.6
-lightningColor: 1dedc2
-lightningDamage: 32
 shieldHealth: 15000
 width: 48
 length: 48
