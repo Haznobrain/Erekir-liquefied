@@ -50,17 +50,16 @@ x: 0
 shootY: 48
 mirror: false
 shootSound: plasmaBoom
-range: 232
 top: false
 shake: 5
 recoil: 0
 bullet: {
-  type: BulletType
+  type: BasicBulletType
   parts: [
 {
   type: FlarePart
   color1: ee5a5a
-  colorTo: ffffff
+  color2: ffffff
   spinSpeed: 2
   sides: 2
   radius: 32
@@ -70,7 +69,7 @@ bullet: {
   splashDamage: 2600
   splashDamageRadius: 80
   height: 16
-  with: 16
+  width: 16
   shootEffect: {
     type: MultiEffect
     effects: [
@@ -231,7 +230,6 @@ sizeFrom: 60
   {
   name: xenoid-laser
   layerOffset: 2
-  range: 180
   reload: 80
   rotate: true
   rotateSpeed: 2.1
@@ -266,7 +264,6 @@ under: true
   name: xenoid-ew
   layerOffset: 2
   reload: 60
-  range: 160
   x: 16
   y: -16
   rotate: true
