@@ -21,7 +21,7 @@ legBaseOffset: 5
 legMaxLength: 1.05
 legLengthScl: 0.96
 legMinLength: 0.95
-legForwardScale: 1.1
+legForwardScl: 1
 legGroupSize: 2
 rippleScale: 0.2
 legMoveSpace: 2
@@ -36,7 +36,6 @@ weapons: [
   recoil: 0
   shootSound: flame
   reload: 10
-  range: 56
   x: 0
   innacurracy: 5
   mirror: false
@@ -53,7 +52,7 @@ weapons: [
     colorFrom: ffdf62
     colorTo: 3e3e3e
     length: 60
-    lengthBase: 0
+    baseLength: 0
     sizeTo: 0
     interp: pow10Out
     sizeInterp: pow5In
