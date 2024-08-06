@@ -15,7 +15,7 @@ consumes: {
       ]
     }
 category: crafting
-conductsPower: true
+conductivePower: true
 outputItem: impervium-alloy/2
 craftTime: 300
 requirements: [
