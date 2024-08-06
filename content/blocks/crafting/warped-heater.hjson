@@ -6,7 +6,7 @@ consumes: {
       }
 outputLiquid: polymer-goo/0.5
 size: 2
-conductsPower: true
+conductivePower: true
 heatOutput: 30
 warmupRate: 0.05
 category: crafting
