@@ -1,17 +1,26 @@
 type: AttributeCrafter
 attribute: steam
 group: liquids
+name: Cyanogen Condenser
+description: Produces cyanogen by directly reacting graphite with gases from vents, but requires a lot of power.
 displayEfficiencyScale: 0.111111111111111111111111111111111
 boostScale: 0.111111111111111111111111111111111
 minEfficiency: 8.9999999999999999
 baseEfficiency: 0
-displayEfficiency: true
+displayEfficiency: false
 size: 3
 ambientSound: hum
 ambientSoundVolume: 0.06
 outputLiquid: cyanogen/0.037037037037037037037037037037
 liquidCapacity: 20
 category: crafting
+consumes: {
+  power: 4
+  items: [
+    graphite/1
+      ]
+}
+craftTime: 120
 drawer: {
   type: DrawMulti
   drawers: [
