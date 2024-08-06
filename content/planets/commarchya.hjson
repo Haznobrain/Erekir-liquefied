@@ -5,7 +5,7 @@ minZoom: 0.9
 atmosphereRadIn: 0
 name: Commarchya
 description: "An asteroid on a low orbit around erekir, very hot due to tidal forces. Has an ennemy base that might be difficult to deal with."
-defaultEnv: 4
+defaultEnv: 16
 accessible: true
 itemWhiteList: [
           graphite,
