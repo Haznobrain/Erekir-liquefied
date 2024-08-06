@@ -8,7 +8,6 @@ hitSize: 14
 armor: 2
 speed: 0.9
 targetAir: true
-faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 40
