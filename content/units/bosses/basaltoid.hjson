@@ -1,8 +1,9 @@
 name: Basaltoid
+localizedName: "[#ff8046]Basaltoid"
 template: ErekirUnitType
 type: flying
 flying: true
-description: Scorched wrecks of those that once stood before it is all that remains.
+description: An ancient flagship covered in rocks to protect it from erekir's harsh conditions, although over half of it has been destroyed, it still is a threat.
 health: 32000
 hitSize: 100
 armor: 100
@@ -113,7 +114,7 @@ engines: [
 }
 ]
 targetAir: false
-faceTargets: true
+faceTarget: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 50
@@ -129,15 +130,12 @@ engineColor: ff0000
     x: 0
     reload: 10
     shootCone: 5
-    range: 280
     inaccuracy: 6
     shoot: {
       shots: 5
       shotDelay: 5
 }
-  lengthBase: 0
   top: false
-  name: basaltoid
     bullet: {
     shootEffect: {
       cone: 5
@@ -187,7 +185,6 @@ y: -16
 shootSound: laser
 soundPitchMin: -10
 soundPitchMax: 0
-range: 200
 cooldownTime: 600
 rotate: true
 bullet: {
