@@ -1,5 +1,6 @@
 generator: AsteroidGenerator
 parent: erekir
+localizedName: "[#efb044]Commarchya"
 radius: 0.5
 minZoom: 0.9
 atmosphereRadIn: 0
@@ -7,20 +8,18 @@ name: Commarchya
 description: "An asteroid on a low orbit around erekir, very hot due to tidal forces. Has an ennemy base that might be difficult to deal with."
 defaultEnv: 17
 accessible: true
-itemWhiteList: [
-          graphite,
-          thorium,
-          silicon,
-          phaseFabric,
-          surgeAlloy,
-          sand,
-          beryllium,
-          tungsten, 
-          oxide, 
-          carbide, 
-          fissileMatter, 
-          dormantCyst
-    ]
+    hiddenItems: [
+        "copper",
+        "lead",
+        "scrap",
+        "coal",
+        "titanium",
+        "plastanium",
+        "spore-pod",
+        "blast-compound",
+        "pyratite",
+        "metaglass",
+    ],
 bloom: true
 mesh: {
   type: NoiseMesh
