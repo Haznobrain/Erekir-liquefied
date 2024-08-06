@@ -1,5 +1,5 @@
 name: Azpanogen evaporator
-descrption: Creates azpanogen from silicon and hydrogen. Requires heating.
+description: Creates azpanogen from silicon and hydrogen. Requires heating.
 type: HeatCrafter
 heatRequirement: 20
 outputLiquid: azpanogen/0.05
