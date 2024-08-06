@@ -64,7 +64,7 @@ layer: 74
 ]
           }
 rotateSpeed: 1
-controller: missileAI
+controller: MissileAI
 lowAltitude: true
 lifetime: 144
 isEnemy: false
