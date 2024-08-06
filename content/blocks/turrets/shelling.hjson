@@ -369,7 +369,7 @@ moves: [
         color: ff000000
         colorTo: ff000066
         mixColor: ff000000 
-        micColorTo: ff000066
+        mixColorTo: ff000066
         suffix: -barrel-glow
         }
         ]
