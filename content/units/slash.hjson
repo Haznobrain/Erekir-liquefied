@@ -38,7 +38,6 @@ engineOffset: 10
     reload: 480
     shootCone: 5
     continuous: true
-    range: 208
     shootSound: laserbig
     bullet: {
       type: ContinuousLaserBulletType
@@ -58,7 +57,6 @@ engineOffset: 10
     x: 0
     reload: 15
     shootCone: 15
-    range: 160
     shootSound: laser
     recoil: 0
     top: false
@@ -97,7 +95,7 @@ engineOffset: 10
       ]
     bullet: {
         type: LaserBulletType
-        color: 8ca9e8
+        sideAngle: 15
         pierce: true
         pierceCap: 10
         damage: 30
