@@ -93,14 +93,14 @@ ammoTypes: {
     width: 12
     bulletInterval: 3
     pierce: true
-    pierceBuildings: true
+    pierceBuilding: true
     intervalBullet: {
       type: LightningBulletType
       buildingDamageMultiplier: 0.01
       damage: 45
       lightningLength: 6
       lightningLengthRand: 1
-      color: 16d3ac
+      lightningColor: 16d3ac
       despawnSound: spark
       }
     frontColor: ffffff
