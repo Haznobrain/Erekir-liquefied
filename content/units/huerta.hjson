@@ -18,7 +18,7 @@ buildSpeed: 5
 mineTier: 4
 speed: 1.8
 targetAir: false
-faceTargets: true
+faceTarget: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 45
@@ -35,11 +35,10 @@ shootSound: laser
 x: 0
 y: 0
 mirror: false
-range: 360
 top: false
 bullet: {
     type: LaserBoltBulletType
-    length: 20
+    height: 20
     width: 4
     damage: 120
     healPercent: 15
@@ -54,14 +53,10 @@ bullet: {
     fragRandomSpread: 0
     fragVelocityMin: 1
     fragVelocityMax: 1
-        fragOffsetMin: 1
-        fragOffsetMax: 1
     fragBullet: {
         fragRandomSpread: 0
         fragVelocityMin: 1
         fragVelocityMax: 1
-        fragOffsetMin: 1
-        fragOffsetMax: 1
         lifetime: 60
         speed: 4
         drag: 0.07
@@ -85,8 +80,6 @@ bullet: {
         fragBullet: {
         damage: 10
         fragRandomSpread: 0
-        fragOffsetMin: 1
-        fragOffsetMax: 1
         hitEffect: none
         despawnEffect: none
         trailColor: 54d67d
@@ -196,7 +189,6 @@ abilities: [
 {
 type: ForceFieldAbility
 radius: 80
-color: d1efff
 max: 2500
 regen: 2
 cooldown: 360
