@@ -124,7 +124,7 @@ lightningType: {
     colorTo: 06060c
     strokeFrom: 0
     strokeTo: 2
-    lengFrom: 4
+    lenFrom: 4
     lenTo: 4
     lifetime: 20
     layer: 111
@@ -227,7 +227,7 @@ color: ffffff00
 colorTo: ffffffff
 mixColor: ffffff00
 mixColorTo: ffffff00
-movex: 1
+moveX: 1
 moveY: -8
 moveRot: 20
 suffix: -blade
@@ -241,7 +241,7 @@ color: ffffff00
 colorTo: ffffffff
 mixColor: ffffff00
 mixColorTo: ffffff00
-movex: 24
+moveX: 24
 moveY: -8
 moveRot: 20
 suffix: -blade
@@ -255,7 +255,7 @@ color: ffffff00
 colorTo: ffffffff
 mixColor: ffffff00
 mixColorTo: ffffff00
-movex: 32
+moveX: 32
 moveY: -8
 moveRot: 20
 suffix: -blade
@@ -269,7 +269,7 @@ color: ffffff00
 colorTo: ffffffff
 mixColor: ffffff00
 mixColorTo: ffffff00
-movex: 42
+moveX: 42
 moveY: -8
 moveRot: 45
 suffix: -blade
@@ -283,7 +283,7 @@ color: ffffff00
 colorTo: ffffffff
 mixColor: ffffff00
 mixColorTo: ffffff00
-movex: 40
+moveX: 40
 moveY: 8
 layerOffset: -1
 moveRot: 45
