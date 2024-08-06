@@ -45,7 +45,6 @@ melting
       shotDelay: 1
       }
     shootSound: missile
-    range: 336
     inaccuracy: 3
     rotate: true
     rotateSpeed: 1.3
@@ -108,7 +107,6 @@ parts: [
     x: 0
     reload: 1800
     shootCone: 360
-    range: 120
     rotate: false
     shootOnDeath: true
     cooldownTime: 1800
