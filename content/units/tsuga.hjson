@@ -216,7 +216,6 @@ abilities: [
 {
 type: ForceFieldAbility
 radius: 240
-color: d1efff
 max: 15000
 regen: 5
 cooldown: 360
