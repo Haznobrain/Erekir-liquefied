@@ -28,7 +28,6 @@ engineOffset: 5
     x: 0
     reload: 45
     shootCone: 5
-    range: 96
     bullet: {
       chargeEffect: {
       type: MultiEffect
