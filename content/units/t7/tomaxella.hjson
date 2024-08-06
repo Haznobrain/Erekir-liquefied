@@ -8,7 +8,7 @@ hitSize: 100
 armor: 34
 speed: 0.75
 targetAir: false
-faceTargets: true
+faceTarget: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 30
@@ -270,7 +270,6 @@ shootCone: 360
 baseRotation: 135
 layerOffset: 1
 recoil: 3
-range: 480
 bullet: {
   spawnUnit: tomaxella-big-missile
   shootEffect: {
@@ -301,7 +300,6 @@ bullet: {
   rotate: true
   rotateSpeed: 2
   shootSound: missile
-  range: 480
   bullet: {
     type: MissileBulletType
     sprite: missile-large
