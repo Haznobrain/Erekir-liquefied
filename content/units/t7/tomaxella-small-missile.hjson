@@ -100,7 +100,7 @@ fragBullet: {
     frontColor: ffffff
     trailLength: 10
     trailWidth: 4
-    trailScl: 1.2
+    trailParam: 1.2
     hitEffect: hitBulletColor
   }
 }}]
