@@ -40,8 +40,6 @@ ammoTypes: {
           fragRandomSpread: 0
           hitEffect: none
           despawnEffect: none
-          fragOffsetMin: 1
-          fragOffsetMax: 1
           fragVelocityMin: 1
           fragBullets: 1
           fragBullet: {
@@ -58,8 +56,6 @@ ammoTypes: {
             backColor: ccfcff
             speed: 0.8
             lifetime: 60
-            fragOffsetMin: 1
-            fragOffsetMax: 1
             fragVelocityMin: 1
             fragBullets: 3
             fragSpread: 22.5
@@ -72,8 +68,8 @@ ammoTypes: {
               line: true
               lifetime: 15
               length: 10
-              lengthTo: 0
-              lengthFrom: 6
+              lenTo: 0
+              lenFrom: 6
               colorTo: ccfcff
               interp: circleOut
               sizeInterp: pow5In
@@ -107,8 +103,6 @@ ammoTypes: {
           instantDisappear: true
           speed: 0
           lifetime: 0
-          fragOffsetMin: 1
-          fragOffsetMax: 1
           fragVelocityMin: 1
           fragBullets: 1
           fragBullet: {
@@ -124,8 +118,6 @@ ammoTypes: {
           fragAngle: 0
             speed: 1.6
             lifetime: 60
-            fragOffsetMin: 1
-            fragOffsetMax: 1
             fragVelocityMin: 1
             fragBullets: 3
             fragSpread: 22.5
@@ -138,8 +130,8 @@ ammoTypes: {
               line: true
               lifetime: 15
               length: 10
-              lengthTo: 0
-              lengthFrom: 6
+              lengTo: 0
+              lenFrom: 6
               colorTo: ccfcff
               interp: circleOut
               sizeInterp: pow5In
@@ -172,8 +164,6 @@ ammoTypes: {
           speed: 0
           lifetime: 0
           despawnEffect: none
-          fragOffsetMin: 1
-          fragOffsetMax: 1
           fragAngle: 0
           fragVelocityMin: 1
           fragBullets: 1
@@ -190,8 +180,6 @@ ammoTypes: {
             backColor: ccfcff
             speed: 2.4
             lifetime: 60
-            fragOffsetMin: 1
-            fragOffsetMax: 1
             fragVelocityMin: 1
             fragBullets: 3
             fragSpread: 22.5
@@ -204,8 +192,8 @@ ammoTypes: {
               line: true
               lifetime: 15
               length: 10
-              lengthTo: 0
-              lengthFrom: 6
+              lengTo: 0
+              lenFrom: 6
               colorTo: ccfcff
               interp: circleOut
               sizeInterp: pow5In
@@ -240,8 +228,6 @@ ammoTypes: {
           instantDisappear: true
           speed: 0
           lifetime: 0
-          fragOffsetMax: 1
-          fragVelocityMin: 1
           fragBullets: 1
           fragBullet: {
             type: FlakBulletType
@@ -256,8 +242,6 @@ ammoTypes: {
           fragAngle: 0
             speed: 3.2
             lifetime: 60
-            fragOffsetMin: 1
-            fragOffsetMax: 1
             fragVelocityMin: 1
             fragBullets: 3
             fragSpread: 22.5
@@ -270,8 +254,8 @@ ammoTypes: {
               line: true
               lifetime: 15
               length: 10
-              lengthTo: 0
-              lengthFrom: 6
+              lenTo: 0
+              lenFrom: 6
               colorTo: ccfcff
               interp: circleOut
               sizeInterp: pow5In
@@ -302,8 +286,6 @@ ammoTypes: {
           fragRandomSpread: 0
           hitEffect: none
           despawnEffect: none
-          fragOffsetMin: 1
-          fragOffsetMax: 1
           fragVelocityMin: 1
           instantDisappear: true
           speed: 0
@@ -322,8 +304,6 @@ ammoTypes: {
             backColor: ccfcff
             speed: 4
             lifetime: 60
-            fragOffsetMin: 1
-            fragOffsetMax: 1
             fragVelocityMin: 1
             fragBullets: 3
             fragSpread: 22.5
@@ -336,8 +316,8 @@ ammoTypes: {
               line: true
               lifetime: 15
               length: 10
-              lengthTo: 0
-              lengthFrom: 6
+              lenTo: 0
+              lenFrom: 6
               colorTo: ccfcff
               interp: circleOut
               sizeInterp: pow5In
@@ -371,8 +351,6 @@ ammoTypes: {
           lifetime: 0
           hitEffect: none
           despawnEffect: none
-          fragOffsetMin: 1
-          fragOffsetMax: 1
           fragVelocityMin: 1
           fragBullets: 1
           fragBullet: {
@@ -388,8 +366,6 @@ ammoTypes: {
             backColor: ccfcff
             speed: 4.8
             lifetime: 60
-            fragOffsetMin: 1
-            fragOffsetMax: 1
             fragVelocityMin: 1
             fragBullets: 3
             fragSpread: 22.5
@@ -402,8 +378,8 @@ ammoTypes: {
               line: true
               lifetime: 15
               length: 10
-              lengthTo: 0
-              lengthFrom: 6
+              lenTo: 0
+              lenFrom: 6
               colorTo: ccfcff
               interp: circleOut
               sizeInterp: pow5In
@@ -436,8 +412,6 @@ ammoTypes: {
           lifetime: 0
           hitEffect: none
           despawnEffect: none
-          fragOffsetMin: 1
-          fragOffsetMax: 1
           fragVelocityMin: 1
           fragBullets: 1
           fragAngle: 0
@@ -454,8 +428,6 @@ ammoTypes: {
           fragAngle: 0
             speed: 5.6
             lifetime: 60
-            fragOffsetMin: 1
-            fragOffsetMax: 1
             fragVelocityMin: 1
             fragBullets: 3
             fragSpread: 22.5
@@ -468,8 +440,8 @@ ammoTypes: {
               line: true
               lifetime: 15
               length: 10
-              lengthTo: 0
-              lengthFrom: 6
+              lenTo: 0
+              lenFrom: 6
               colorTo: ccfcff
               interp: circleOut
               sizeInterp: pow5In
@@ -503,8 +475,6 @@ ammoTypes: {
           instantDisappear: true
           speed: 0
           lifetime: 0
-          fragOffsetMin: 1
-          fragOffsetMax: 1
           fragVelocityMin: 1
           fragBullets: 1
           fragBullet: {
@@ -520,8 +490,6 @@ ammoTypes: {
             speed: 6.4
             lifetime: 60
           fragAngle: 0
-            fragOffsetMin: 1
-            fragOffsetMax: 1
             fragVelocityMin: 1
             fragBullets: 3
             fragSpread: 22.5
@@ -534,8 +502,8 @@ ammoTypes: {
               line: true
               lifetime: 15
               length: 10
-              lengthTo: 0
-              lengthFrom: 6
+              lenTo: 0
+              lenFrom: 6
               colorTo: ccfcff
               interp: circleOut
               sizeInterp: pow5In
@@ -569,8 +537,6 @@ ammoTypes: {
           instantDisappear: true
           speed: 0
           lifetime: 0
-          fragOffsetMin: 1
-          fragOffsetMax: 1
           fragVelocityMin: 1
           fragBullets: 1
           fragBullet: {
@@ -586,8 +552,6 @@ ammoTypes: {
             backColor: ccfcff
             speed: 7.2
             lifetime: 60
-            fragOffsetMin: 1
-            fragOffsetMax: 1
             fragVelocityMin: 1
             fragBullets: 3
             fragSpread: 22.5
@@ -600,8 +564,8 @@ ammoTypes: {
               line: true
               lifetime: 15
               length: 10
-              lengthTo: 0
-              lengthFrom: 6
+              lengTo: 0
+              lenFrom: 6
               colorTo: ccfcff
               interp: circleOut
               sizeInterp: pow5In
@@ -632,8 +596,6 @@ ammoTypes: {
           fragAngle: 0
           hitEffect: none
           despawnEffect: none
-          fragOffsetMin: 1
-          fragOffsetMax: 1
           instantDisappear: true
           speed: 0
           lifetime: 0
@@ -666,8 +628,8 @@ ammoTypes: {
               line: true
               lifetime: 15
               length: 10
-              lengthTo: 0
-              lengthFrom: 6
+              lenTo: 0
+              lenFrom: 6
               colorTo: ccfcff
               interp: circleOut
               sizeInterp: pow5In
