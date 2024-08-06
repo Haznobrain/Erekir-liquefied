@@ -2,7 +2,7 @@ name: Naval fabricator
 size: 3
 description: Produces pyrolobus units.
 type: unitFactory
-configurable: false
+configurable: true
   consumes: {
     power: 2
   }
@@ -14,6 +14,14 @@ unit: pyrolobus
     beryllium/120
   ]
 time: 2700
+}
+{
+unit: ryani
+  requirements: [
+    silicon/120
+    tungsten/60
+  ]
+time: 3600
 }
 ]
 research:{
