@@ -1,7 +1,7 @@
 name: shatter
 recoil: 0
   type: ItemTurret
-dexcription: Shoots tungsten bolts that weaken and pierces ennemy air unit's armors.
+description: Shoots tungsten bolts that weaken and pierces ennemy air unit's armors.
   size: 5
   reload: 10
   inaccuracy: 6
