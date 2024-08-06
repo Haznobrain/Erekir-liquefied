@@ -5,7 +5,7 @@ flying: true
 health: 300
 hitSize: 10
 rotateSpeed: 3
-controller: MissileAi
+controller: MissileAI
 lowAltitude: true
 lifetime: 36
 isEnemy: false
@@ -20,10 +20,10 @@ engineOffset: 2
 engineSize: 3
 engineColor: 96f58c
 trailLength: 12
-trailWidth: 4
+trailScl: 4
 trailColor: 96f58c
 loopSound: missileTrail
-MissileAccelTime: 72
+missileAccelTime: 72
 parts: [
 {
   type: FlarePart
@@ -53,11 +53,7 @@ weapons: [{
                 smokeSize: 4
                 smokeRad: 45
           }
-shootSound: none
 type: ExplosionBulletType
-instantDissapear: true
-width: 0
-height: 0
 keepVelocity: false
 splashDamage: 75
 healPercent: 1.75
