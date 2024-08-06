@@ -22,7 +22,7 @@ groundLayer: 74
 legMaxLength: 1.2
 legLengthScl: 0.96
 legMinLength: 0.8
-legForwardScale: 1.1
+legForwardScl: 1.1
 fogRadius: 20
 legGroupSize: 3
 rippleScale: 0.2
@@ -61,7 +61,7 @@ mirror: true
 x: 6
 y: 0
 shoot: {
-  type: ShootPatern
+  type: ShootPattern
   shots: 3
   shotDelay: 2
 }
