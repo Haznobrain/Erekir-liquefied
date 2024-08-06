@@ -7,14 +7,14 @@ health: 24000
 rotateSpeed: 0.8
 lowAltitude: false
 hitSize: 52
-controller: DefenderAi
+controller: DefenderAI
 armor: 26
 fallSpeed: 0.006
 payloadCapacity: 5184
 buildSpeed: 7.5
 speed: 0.5
 targetAir: true
-faceTargets: true
+faceTarget: true
 lightRadius: 52
 singleTarget: false
 fogRadius: 45
@@ -48,10 +48,10 @@ x: 0
 parts: [
     {
 type: RegionPart
-color: 00000000
-mixColor: 00000000
-colorTo: adeeb4
-mixColorTo: adeeb4
+color: adeeb400
+mixColor: adeeb400
+colorTo: adeeb4ff
+mixColorTo: adeeb4ff
 suffix: -glow
 progress: recoil
 }
@@ -60,8 +60,10 @@ shootOnDeath: true
 cooldownTime: 800
 y: 0
 mirror: false
-range: 360
 parentizeEffects: true
+    shoot: {
+    firstShotDelay: 65
+        }
 bullet: {
      hitPowerEffect: {
           type: ParticleEffect
@@ -74,9 +76,6 @@ bullet: {
           lenTo: 6
           colorFrom: FFFFFFF,
           colorTo: 96f58c
-        }
-    shoot: {
-    firstShotDelay: 65
         }
     chargeEffect: greenLaserCharge
       type: EmpBulletType
@@ -141,17 +140,6 @@ moveY: -1
 moveX: 1
 under: true
 progress: warmup
-children: [
-{
-type: RegionPart
-color: 00000000
-mixColor: 00000000
-colorTo: adeeb4
-mixColorTo: adeeb4
-suffix: mandible-glow
-progress: warmup
-}
-]
  }
     {
 type: RegionPart
@@ -161,17 +149,6 @@ moveY: -1
 moveX: -1
 under: true
 progress: warmup
-children: [
-{
-type: RegionPart
-color: 00000000
-mixColor: 00000000
-colorTo: adeeb4
-mixColorTo: adeeb4
-suffix: mandible-glow-l
-progress: warmup
-}
-]
  }
 ]
     cooldownTime: 120
@@ -200,7 +177,6 @@ abilities: [
 {
 type: ForceFieldAbility
 radius: 160
-color: d1efff
 max: 7000
 regen: 2
 cooldown: 360
