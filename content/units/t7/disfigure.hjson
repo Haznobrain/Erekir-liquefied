@@ -32,7 +32,6 @@ shocked
     x: 0
     reload: 240
     continuous: true
-    range: 304
     recoil: 0
     heatColor: 74ffff
     parts: [
@@ -91,7 +90,6 @@ shocked
       bulletInterval: 5
       intervalRandomSpread: 0
       intervalBullet: {
-        display: false
         damage: 0
         length: 300
         type: RailBulletType
@@ -121,7 +119,6 @@ shocked
     shootSound: shockblast
     reload: 120
     recoils: 2
-    range: 328
     shoot: {
       type: ShootBarrel
       barrels: [
@@ -158,8 +155,8 @@ shocked
     mirror: false
     rotate: true
     rotationLimit: 110
-    shootEffect: LancerShootSmoke
     bullet: {
+    shootEffect: LancerShootSmoke
       type: RailBulletType
       length: 328
       pointEffectSpace: 7
@@ -212,7 +209,6 @@ shocked
 name: disfigure-laser
 mirror: true
 shake: 3
-range: 248
 shootSound: plasmadrop
 x: 22
 y: -25
@@ -347,7 +343,6 @@ bullet: {
 name: disfigure-laser
 mirror: true
 shake: 3
-range: 248
 shootSound: plasmadrop
 x: 32
 y: -28
@@ -536,7 +531,6 @@ parts: [
   rotate: true
   shootWarmupSpeed: 0.08
   minWarmup: 0.96
-  range: 328
   mirror: true
   y: -32
   x: 44
