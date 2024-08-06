@@ -256,7 +256,6 @@ parts: [
     mirror: true
     moveY: -1
     progress: warmup
-    cooldownTime: 60
     }
     ]
 reload: 200
