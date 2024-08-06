@@ -6,5 +6,5 @@ Events.run(Trigger.update, () => {
         e.hasEffect(StatusEffects.boss)
                     )
     if (unit)
-        Reflect.invoke(SoundControl, Vars.control.sound, "play", erekirliquefied-actio_venit, Music)
+        Reflect.invoke(SoundControl, Vars.control.sound, "play", "erekirliquefied-actio_venit", Music)
 })
