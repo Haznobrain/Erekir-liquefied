@@ -34,7 +34,6 @@ parts: [
   y: -4
   followRotation: true
   stroke: 3
-  strokeTo: 0
   radius: 0
   radiusTo: 22
   progress: {
@@ -47,6 +46,7 @@ parts: [
 ]
 weapons: [{
     name: missile-explode
+shootSound: none
       shootCone: 360
       shootOnDeath: true
       controllable: true
@@ -63,7 +63,7 @@ weapons: [{
                 smokeSize: 4
                 smokeRad: 45
           }
-shootSound: none
+
 type: ExplosionBulletType
 collidesAir: true
 keepVelocity: false
