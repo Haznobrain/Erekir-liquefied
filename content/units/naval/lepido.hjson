@@ -23,8 +23,6 @@ melting
 ]
   weapons: [
 {
-range: 600
-targetAir: false
 reload: 300
 shootSound: missileLaunch
 shootCone: 1
@@ -110,11 +108,11 @@ parts: [
 {
   layer: 110
   type: HaloPart
-  haloRad: 10
+  haloRadius: 10
   triLength: 8
   triLengthTo: 0
   haloRotateSpeed: 8
-  haloRadTo: 0
+  haloRadiusTo: 0
   progress: recoil
   color: ffd37f
   tri: true
@@ -122,12 +120,12 @@ parts: [
   {
   layer: 110
   type: HaloPart
-  haloRad: 10
+  haloRadius: 10
   triLength: 12
   shapes: 2
   triLengthTo: 0
   haloRotateSpeed: -8
-  haloRadTo: 0
+  haloRadiusTo: 0
   progress: recoil
   color: ffd37f
   tri: true
