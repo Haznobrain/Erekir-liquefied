@@ -213,7 +213,7 @@ shootType: {
     damage: 100
     status: melting
     statusDuration: 1200
-    knockBack: 20
+    knockback: 20
     impact: true
     }
   fragRandomSpread: 0
