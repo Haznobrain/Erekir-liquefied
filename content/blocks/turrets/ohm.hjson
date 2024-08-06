@@ -819,7 +819,7 @@ drawer: {
     radius: 8
     hollow: true
     stroke: 0
-    trokeTo: 4
+    strokeTo: 4
     sides: 4
     y: -32
     rotateSpeed: 5
