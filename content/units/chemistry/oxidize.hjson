@@ -22,7 +22,7 @@ legBaseOffset: 5
 legMaxLength: 1.5
 legLengthScl: 0.96
 legMinLength: 0.2
-legForwardScale: 1.1
+legForwardScl: 1.1
 legGroupSize: 3
 rippleScale: 0.2
 legMoveSpace: 1
@@ -36,7 +36,6 @@ weapons: [
   name: oxidize
   reload: 160
   recoil: 0
-  range: 112
   mirror: false
   x: 0
   y: 0
@@ -68,7 +67,7 @@ weapons: [
       colorFrom: aaffa7
       colorTo: aaffa7
       length: 12
-      lengthBase: 0
+      baseLength: 0
       particles: 8
       lifetime: 12
       interp: pow10Out
@@ -92,7 +91,7 @@ despawnEffect: {
   colorFrom: aaffa7
   colorTo: aaffa7
   length: 12
-  lengthBase: 0
+  baseLength: 0
   interp: pow10Out
   sizeInterp: pow5In
 }
@@ -104,7 +103,7 @@ shootEffect: {
   colorFrom: aaffa7
   colorTo: aaffa7
   length: 24
-  lengthBase: 0
+  baseLength: 0
   interp: circleOut
   sizeInterp: pow5In
 }
