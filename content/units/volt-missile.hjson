@@ -146,7 +146,7 @@ fragVelocityMax: 1
             damage: 45
             pierceArmor: true
             pierce: true
-            pierceBuildings: true
+            pierceBuilding: true
             buildingDamageMultiplier: 0.0001
             }
     
