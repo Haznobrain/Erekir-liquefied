@@ -7,7 +7,6 @@ hovering: true
 description: Rapidly shoots piercing ionizing bullets. Becomes faster when shooting. Posses great firepower. 
 speed: 0.5
 shadowElevation: 0.25
-multiTarget: false
 singleTarget: true
 hitSize: 48
 rotateSpeed: 2.5
@@ -24,7 +23,7 @@ legBaseOffset: 18
 legMaxLength: 1.2
 legLengthScl: 0.96
 legMinLength: 0.8
-legForwardScale: 1.1
+legForwardScl: 1.1
 fogRadius: 35
 legSplashDamage: 90
 legSplashRange: 15
@@ -40,14 +39,13 @@ top: false
 name: ionize
 recoil: 0
 reload: 180
-range: 304
-rotate: false
+range: 30rotate: false
 mirror: true
 x: 0
 y: 0
 shootSound: pulseBlast
 shootStatus: erekirliquefied-ionboosted
-statusDuration: 300
+shootStatusDuration: 300
   bullet: {
     type: MissileBulletType
     damage: 245
@@ -98,7 +96,6 @@ statusDuration: 300
             type: WaveEffect
             lifetime: 10
             sides: 4
-            spin: 10
             sizeTo: 10
           }
 ]
@@ -127,7 +124,6 @@ statusDuration: 300
 name: ionize-weapon2
 reload: 30
 shootCone: 360
-range: 280
 rotate: false
 mirror: true
 x: 12
@@ -149,7 +145,6 @@ bullet: {
   backColor: ffdf62
   trailColor: ffdf62
   lightningColor: ffdf62
-  circleColor: ffdf62
   frontColor: ffffff
   trailWidth: 3
   trailLength: 12
