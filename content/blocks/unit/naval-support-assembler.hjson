@@ -1,0 +1,38 @@
+type: UnitAssembler
+  size: 5
+name: Support Naval Assembler
+description: Assembles large support naval units using payload as input. Requires cyanogen.
+areaSize: 11
+  consumes: {
+    power: 10
+      liquids: [
+      cyanogen/0.15
+    ]
+      }
+plans: [ 
+{
+type: UnitAssemblerPlan
+  unit: trinacria
+  time: 4000
+  requirements: [
+    erekirliquefied-ryani/5
+    surge-wall-large/15
+    ]
+}
+{
+type: UnitAssemblerPlan
+  unit: sigismund
+      time: 12000
+        requirements: [
+          erekirliquefied-ruffoi/5
+          carbide-wall-large/25
+]
+}
+  ]
+requirements: [
+  graphite/300
+  silicon/400
+  tungsten/400
+  carbide/80
+]
+category: units
