@@ -39,8 +39,8 @@ ammoTypes: {
         sprite: erekirliquefied-bullet-resonance
         frontColor: 81d9f5
         width: 16
-        length: 20
-        interp: slope
+        height: 20
+        shrinkInterp: slope
         hitEffect: massiveExplosion
       buildingDamageMultiplier: 0.01
         despawnEffect: {
@@ -77,8 +77,8 @@ ammoTypes: {
         sprite: erekirliquefied-bullet-resonance
         frontColor: 81d9f5
         width: 12
-        length: 16
-        interp: slope
+        height: 16
+        shrinkInterp: slope
         hitEffect: massiveExplosion
         despawnEffect: {
                 type: WaveEffect
@@ -114,8 +114,8 @@ ammoTypes: {
         sprite: erekirliquefied-bullet-resonance
         frontColor: 81d9f5
         width: 16
-        length: 20
-        interp: slope
+        height: 20
+        shrinkInterp: slope
         hitEffect: massiveExplosion
         despawnEffect: {
                 type: WaveEffect
@@ -151,8 +151,8 @@ ammoTypes: {
         sprite: erekirliquefied-bullet-resonance
         frontColor: 81d9f5
         width: 16
-        length: 20
-        interp: slope
+        height: 20
+        shrinkInterp: slope
         hitEffect: massiveExplosion
         despawnEffect: {
                 type: WaveEffect
@@ -188,8 +188,8 @@ ammoTypes: {
         sprite: erekirliquefied-bullet-resonance
         frontColor: 81d9f5
         width: 16
-        length: 20
-        interp: slope
+        height: 20
+        shrinkInterp: slope
         hitColor: c67aff
         hitEffect: {
                 type: MultiEffect
