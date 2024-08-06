@@ -8,7 +8,6 @@ armor: 32
 hitSize: 66
 speed: 0.4
 targetAir: true
-faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 40
@@ -85,13 +84,10 @@ rotateSpeed: 1.8
 x: 0
 y: 0
 mirror: false
-range: 300
 shootSound: shootSmite
 shootWarmupSpeed: 0.04
-loopSound: glow
 shootY: 40
 minWarmup: 0.94
-warmupMaintainTime: 90
 recoil: 2
 rotateSpeed: 1.4
 heatColor: ffee71
