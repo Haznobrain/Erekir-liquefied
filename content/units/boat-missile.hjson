@@ -53,7 +53,7 @@ parts: [
   followRotation: true
   stroke: 1
   radius: 6
-  rotateSpeed: 3
+  spinSpeed: 3
 }
 ]
 weapons: [{
