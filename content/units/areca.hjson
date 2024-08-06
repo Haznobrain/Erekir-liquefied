@@ -19,7 +19,6 @@ speed: 2
 targetAir: false
 accel: 0.08
 drag: 0.016
-faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 20
@@ -39,13 +38,12 @@ parts: [
     ]
 weapons: [{
     minShootVelocity: 0.5
-    range: 56
     x: 0
     y: 2
     mirror: false
     reload: 50
     shootCone: 360
-    innacuracy: 15
+    inaccuracy: 15
     shootSound: none
     ignoreRotation: true
     shoot: {
@@ -56,9 +54,10 @@ weapons: [{
     bullet: {
         type: BombBulletType
         width: 14
-        length: 12
+        height: 12
         frontColor: 96f58c
         backColor: 96f58c
+        rangeOverride: 56
         hitEffect: {
             type: ExplosionEffect
             smokeColor: 96f58c
@@ -81,7 +80,6 @@ abilities: [
 {
 type: ForceFieldAbility
 radius: 80
-color: d1efff
 max: 600
 regen: 0.3
 cooldown: 360
