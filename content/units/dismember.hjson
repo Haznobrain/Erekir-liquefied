@@ -10,7 +10,7 @@ speed: 1.2
 drag: 0.018
 accel: 0.07
 targetAir: true
-faceTargets: true
+faceTarget: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 32
@@ -27,10 +27,9 @@ lowAltitude: false
     x: 6.75
     recoil: 3
     top: false
-    under: true
+    layerOffset: -0.001
     reload: 330
     continuous: true
-    range: 256
     shootX: 0
     bullet: {
       type: ContinuousLaserBulletType
