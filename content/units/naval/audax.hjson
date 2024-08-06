@@ -8,7 +8,6 @@ hitSize: 20
 armor: 8
 speed: 0.7
 targetAir: false
-faceTargets: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 40
@@ -20,7 +19,6 @@ melting
   name: audax-weapon
   y: -3
   x: 0
-  range: 448
   reload: 180
   recoil: 0
   shootWarmupSpeed: 0.07
