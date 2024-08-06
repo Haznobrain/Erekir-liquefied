@@ -200,7 +200,7 @@ despawnEffect: {
               {
               type: ParticleEffect
               line: true
-              lengthFrom: 10
+              lenFrom: 10
               length: 30
               colorFrom: ffffff
               colorTo: c6eeff
