@@ -30,7 +30,7 @@ ammoTypes: {
     lifetime: 56
     speed: 5
     knockback: 1.6
-    puddleSize: 25
+    puddleAmount: 25
     height: 12
     width: 12
     statusDuration: 300
@@ -73,7 +73,7 @@ ammoTypes: {
     speed: 5
     knockback: 1.6
      buildingDamageMultiplier: 0.1
-    puddleSize: 25
+    puddleAmount: 25
     height: 12
     width: 12
     status: blasted
@@ -114,7 +114,7 @@ ammoTypes: {
     lifetime: 56
     speed: 5
     knockback: 1.6
-    puddleSize: 25
+    puddleAmount: 25
     height: 12
     width: 12
     status: burning
@@ -156,7 +156,7 @@ ammoTypes: {
       buildingDamageMultiplier: 0.01
     speed: 5
     knockback: 1.6
-    puddleSize: 25
+    puddleAmount: 25
     height: 12
     width: 12
     status: wet
@@ -197,7 +197,7 @@ ammoTypes: {
     lifetime: 56
     speed: 5
     knockback: 1.6
-    puddleSize: 25
+    puddleAmount: 25
      buildingDamageMultiplier: 0.1
     height: 12
     width: 12
@@ -239,7 +239,7 @@ ammoTypes: {
     speed: 5
     knockback: 1.6
       buildingDamageMultiplier: 0.01
-    puddleSize: 25
+    puddleAmount: 25
     height: 12
     width: 12
     status: burning
@@ -281,7 +281,7 @@ ammoTypes: {
     lifetime: 56
     speed: 5
     knockback: 1.6
-    puddleSize: 25
+    puddleAmount: 25
     height: 12
     width: 12
     status: shocked
@@ -317,7 +317,7 @@ ammoTypes: {
     lifetime: 56
     speed: 5
     knockback: 1.6
-    puddleSize: 25
+    puddleAmount: 25
     height: 12
     width: 12
     status: tarred
@@ -360,7 +360,7 @@ ammoTypes: {
     lifetime: 56
     speed: 5
     knockback: 1.6
-    puddleSize: 25
+    puddleAmount: 25
     height: 12
     width: 12
     status: shocked
