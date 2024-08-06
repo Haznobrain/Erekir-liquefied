@@ -76,14 +76,12 @@ weapons: [
 shootY: -1
 shootSound: plasmaboom
 reload: 240
-targetAir: false
 shootCone: 2
 name: carphania-weapon
 mirror: false
 x: 0
 y: 4.5
 rotateSpeed: 2.6
-range: 184
 rotate: true
 cooldownTime: 240
 bullet: {
@@ -112,8 +110,6 @@ bullet: {
     fragSpread: 35
     fragVelocityMin: 1
     fragVelocityMax: 1
-    fragOffsetMin: 1
-    fragOffsetMax: 1
     fragBullet: {
         type: BasicBulletType
             trailEffect: {
@@ -211,12 +207,10 @@ sizeInterp: pow3In
 colorFrom: ffffff
 colorTo: 84f491
 lifetime: 40
-layer: 60
 }
 }
 {
 type: ParticleEffect
-layer: 60
 particles: 20
 length: 12
 line: true
