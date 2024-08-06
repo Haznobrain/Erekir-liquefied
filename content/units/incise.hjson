@@ -10,7 +10,7 @@ speed: 1.8
 drag: 0.016
 accel: 0.06
 targetAir: true
-faceTargets: true
+faceTarget: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 20
@@ -42,7 +42,6 @@ radius: 3
     reload: 45
     recoil: 0
     shootCone: 5
-    range: 124
     bullet: {
       type: LaserBulletType
       damage: 40
@@ -62,11 +61,10 @@ radius: 3
     shootY: 7
     reload: 30
     shootCone: 15
-    range: 160
     shootSound: missile
     bullet: {
         type: MissileBulletType
-        backcolor: 8ca9e8
+        backColor: 8ca9e8
         frontColor: ffffff
         pierce: true
         pierceCap: 5
