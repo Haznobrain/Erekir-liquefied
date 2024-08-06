@@ -5,7 +5,7 @@ flying: true
 health: 600
 hitSize: 24
 rotateSpeed: 0.4
-controller: MissileAi
+controller: MissileAI
 lowAltitude: true
 lifetime: 128
 isEnemy: false
@@ -19,7 +19,7 @@ hidden: true
 engineOffset: 10
 engineSize: 0
 trailLength: 12
-trailWidth: 4
+trailScl: 4
 trailColor: d1efff
 loopSound: torch-missile-loop
 abilities: [
@@ -42,7 +42,7 @@ abilities: [
       }
     }
 ]
-MissileAccelTime: 50
+missileAccelTime: 50
 targetAir: false
 weapons: [{
     name: specialist-missile
@@ -68,11 +68,7 @@ weapons: [{
                 sparks: 8
           }
 collidesAir: false
-shootSound: none
 type: ExplosionBulletType
-instantDisappear: true
-width: 0
-height: 0
 keepVelocity: false
 splashDamage: 600
 splashDamageRadius: 80
