@@ -20,7 +20,7 @@ legBaseOffset: 16
 legMaxLength: 1.05
 legLengthScl: 0.96
 legMinLength: 0.8
-legForwardScale: 2.1
+legForwardScl: 0.9
 fogRadius: 60
 legGroupSize: 2
 rippleScale: 1.2
@@ -36,7 +36,6 @@ name: lucana-weapon
 top: false
 layerOffset: -0.001
 reload: 420
-range: 640
 rotate: true
 rotateSpeed: 0.6
 rotationLimit: 20
@@ -108,7 +107,6 @@ bullet: {
     type: ShapePart
     x: 12
     y: -16
-    haloRadius: 10
     radius: 1
     circle: false
     sides: 4
