@@ -21,7 +21,6 @@ weapons: [
 {
   name: hyperthermophile-big-gun
   reload: 220
-  range: 560
   rotateSpeed: 1.1
   recoil: 2
   layerOffset: 1
@@ -68,7 +67,7 @@ weapons: [
     type: ShootAlternate
     shots: 2
     barrels: 2
-    spread: 4
+    spread: 6
       }
     dest: [
       {
@@ -184,7 +183,6 @@ weapons: [
 y: 13
 x: 61
 reload: 200
-range: 560
 name: boat-orber
 rotate: true
 rotateSpeed: 1.6
@@ -297,7 +295,6 @@ bullet: {
   name: audax-weapon
   y: -52
   x: 48
-  range: 448
   reload: 120
   recoil: 0
   shootWarmupSpeed: 0.07
