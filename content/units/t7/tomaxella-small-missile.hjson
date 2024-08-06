@@ -24,7 +24,7 @@ trailLength: 12
 trailWidth: 4
 trailColor: 84f491
 loopSound: missileTrail
-MissileAccelTime: 72
+missileAccelTime: 72
 targetAir: true
 parts: [
 {
