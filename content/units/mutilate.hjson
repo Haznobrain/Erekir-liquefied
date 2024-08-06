@@ -40,7 +40,6 @@ immunities:  [
     x: 0
     reload: 300
     continuous: true
-    range: 304
     heatColor: ff0000
     recoil: 0
     bullet: {
@@ -60,7 +59,6 @@ x: -12
 mirror: true
 rotate: true
 reload: 18
-range: 384
 parentizeEffects: true
 shoot: {
 type: shootAlternate
@@ -126,7 +124,6 @@ layer: 110
 {
 type: ForceFieldAbility
 radius: 120
-color: d1efff
 max: 3500
 regen: 0.6
 cooldown: 360
