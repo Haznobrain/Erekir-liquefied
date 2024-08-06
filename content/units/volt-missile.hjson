@@ -79,7 +79,7 @@ hidden: true
 engineOffset: 4
 engineSize: 8
 engineColor: 8ca9e8
-MissileAccelTime: 72
+missileAccelTime: 72
 trailColor: 9ff0ff
 weapons: [{
     shootSound: none
@@ -95,10 +95,8 @@ weapons: [{
           killShooter: true
             hitEffect: none
 type: ExplosionBulletType
-width: 0
 despawnEffect: none
 buildingDamageMultiplier: 0.3
-height: 0
 keepVelocity: false
 splashDamage: 900
 fragBullets: 10
