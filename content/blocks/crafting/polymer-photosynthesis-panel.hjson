@@ -5,7 +5,7 @@ outputLiquid: dilute-polymer-fiber/2
 category: crafting
 craftTime: 300
 size: 5
-conductsPower: true
+conductivePower: true
 consumes: {
   items: [
 carbide/5
