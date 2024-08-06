@@ -24,7 +24,7 @@ legBaseOffset: 4
 legMaxLength: 1.2
 legLengthScl: 0.96
 legMinLength: 0.8
-legForwardScale: 1.1
+legForwardScl: 0.95
 fogRadius: 35
 legSplashDamage: 210
 legSplashRange: 8
@@ -42,7 +42,6 @@ name: atomize-malign
 reload: 7
 inaccuracy: 30
 recoil: 0
-range: 288
 x: 0
 y: 28
 mirror: false
@@ -261,7 +260,6 @@ name: atomize-laser
 x: 0
 y: 8
 mirror: false
-range: 288
 shoot: {
 type: shootAlternate
 barrels: 2
@@ -287,9 +285,7 @@ reload: 20
 x: 22
 y: 0
 mirror: true
-range: 152
 bullet: {
-sapStrength: 0.5
 type: ShrapnelBulletType
 length: 152
 shootEffect: none
@@ -307,12 +303,6 @@ smokeEffect: {
 damage: 140
 toColor: fcff8d
 width: 24
-   lightningSpacing: 4
-    lightningLength: 2
-    lightningDelay: 1
-    lightningLengthRand: 4
-    lightningDamage: 60
-    lightningAngleRand: 15
 }
 }
 ]
