@@ -12,7 +12,6 @@ recoil: 3
 shootSound: bang
 loopSound: none
 inaccuracy: 0
-despawnHit: true
 shoot: {
   type: ShootMulti
   source: {
@@ -35,12 +34,13 @@ ammoTypes: {
     speed: 4.6
     knockback: 0.6
     lifetime: 68
-    puddleSize: 32
+    puddleAmount: 32
     trailColor: ffcbdd
     trailLength: 60
-    trailwidth: 8
+    trailWidth: 8
     trailParam: 2.2
     puddleLiquid: ozone
+    despawnHit: true
       buildingDamageMultiplier: 0.01
     damage: 8
     splashDamage: 45
@@ -67,10 +67,12 @@ ammoTypes: {
     type: MissileBulletType
     backColor: d1efff
     speed: 4.6
+despawnHit: true
+    
     knockback: 0.3
       buildingDamageMultiplier: 0.01
     lifetime: 68
-    puddleSize: 32
+    puddleAmount: 32
     puddleLiquid: hydrogen
     damage: 6
     splashDamage: 25
@@ -79,7 +81,7 @@ ammoTypes: {
     statusDuration: 180
     trailColor: d1efff
     trailLength: 60
-    trailwidth: 8
+    trailWidth: 8
     trailParam: 2.2
     height: 10
     width: 8
@@ -104,15 +106,17 @@ nitrogen: {
       buildingDamageMultiplier: 0.01
     speed: 4.6
     knockback: 0.3
+despawnHit: true
+    
     lifetime: 68
-    puddleSize: 32
+    puddleAmount: 32
     puddleLiquid: nitrogen
     damage: 45
     status: burning
     statusDuration: 180
     trailColor: aaadb7
     trailLength: 60
-    trailwidth: 8
+    trailWidth: 8
     trailParam: 2.2
     height: 10
     width: 8
@@ -136,6 +140,8 @@ cyanogen: {
     knockback: 0.6
     lifetime: 68
     puddleSize: 32
+despawnHit: true
+    
       buildingDamageMultiplier: 0.01
     trailColor: aef7e8
     trailLength: 60
@@ -168,6 +174,8 @@ azpanogen: {
     backColor: 82a467
     speed: 4.6
     knockback: 0.6
+despawnHit: true
+
     lifetime: 68
     puddleSize: 32
     trailColor: 82a467
