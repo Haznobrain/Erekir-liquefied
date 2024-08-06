@@ -1,5 +1,4 @@
 name: Broken Armor
-type: StatusEffect
 color: 989aa4
 healthMultiplier: 0.5
 effect: disperseTrail
