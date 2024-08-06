@@ -3,7 +3,7 @@ Events.run(Trigger.update, () => {
     const unit = Groups.unit.find(e =>
         e.type.name == "erekirliquefied-action" &&
         e.team != Vars.player.team &&
-        e.hasEffect(StatusEffects.guardian)
+        e.hasEffect(StatusEffects.boss)
                     )
     if (unit)
         Reflect.invoke(SoundControl, Vars.control.sound, "play", [actio_venit], Music)
