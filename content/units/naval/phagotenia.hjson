@@ -87,11 +87,10 @@ parts: [
   color: 000000
   radiusTo: 0
   progress: recoil
-  layer: 110
     }
 {
   type: HaloPart
-  haloRad: 8
+  haloRadius: 8
   triLength: 8
   triLengthTo: 0
   haloRotateSpeed: 8
