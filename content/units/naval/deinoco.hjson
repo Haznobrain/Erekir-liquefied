@@ -8,7 +8,7 @@ hitSize: 23
 armor: 2
 speed: 0.8
 targetAir: true
-faceTargets: true
+faceTarget: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 20
@@ -22,7 +22,6 @@ melting
   reload: 60
   x: 0
   y: -10
-  range: 184
   mirror: false
   rotate: true
   layerOffset: 2
