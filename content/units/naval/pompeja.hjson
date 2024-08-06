@@ -25,7 +25,6 @@ melting
 mirror: false
 y: 0
 x: 0
-range: 248
 name: pompeja-weapon
 layerOffset: 2
 rotate: true
