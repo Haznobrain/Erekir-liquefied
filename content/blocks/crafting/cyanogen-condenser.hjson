@@ -25,6 +25,7 @@ type: DrawDefault
 type: DrawBlurSpin
 suffix: -rotator
 blurTresh: 0.01
+rotateSpeed: 5
   }
 ]
 }
