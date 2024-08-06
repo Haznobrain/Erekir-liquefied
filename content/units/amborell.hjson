@@ -2,7 +2,7 @@ name: Amborella
 template: ErekirUnitType
 type: flying
 flying: true
-controller: DefenderAi
+controller: DefenderAI
 description: A small support unit that heals blocks while protecting them with a small forcefield.
 health: 480
 hitSize: 10
@@ -16,14 +16,13 @@ speed: 2.13
 targetAir: true
 accel: 0.08
 drag: 0.016
-faceTargets: true
+faceTarget: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 20
   weapons: [{
     x: 0
     name: amborell-weapon
-    range: 120
     mirror: true
     reload: 10
     shootX: 2.5
@@ -67,7 +66,6 @@ abilities: [
 {
 type: ForceFieldAbility
 radius: 40
-color: d1efff
 max: 150
 regen: 0.25
 cooldown: 360
