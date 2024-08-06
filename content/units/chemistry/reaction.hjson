@@ -5,7 +5,6 @@ health: 8000
 armor: 12
 description: A large unit with powerful, large legs that give it a very fast speed for its size. Can boost to go faster. Shoots 2 strong plasma flames and 2 sapping lasers.
 speed: 0.75
-multiTarget: true
 singleTarget: false
 shadowElevation: 0.3
 hitSize: 32
@@ -20,7 +19,7 @@ hovering: true
 legStraightness: 0.2
 legSpeed: 0.5
 legCount: 4
-legLength: 64
+legLength: 16
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
@@ -28,7 +27,7 @@ legBaseOffset: 8
 legMaxLength: 1.2
 legLengthScl: 0.96
 legMinLength: 0.8
-legForwardScale: 1.1
+legForwardScl: 1.1
 fogRadius: 35
 legSplashDamage: 45
 legSplashRange: 24
@@ -46,7 +45,6 @@ alternate: false
 continuous: true
 heatColor: fde588
 shootSound: torch
-range: 168
 name: reaction-weapon1
 mirror: true
 rotationLimit: 30
