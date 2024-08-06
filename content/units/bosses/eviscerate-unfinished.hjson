@@ -22,7 +22,6 @@ details: "This right here it peak engineering, equipped with enough armor to abs
 armor: 85
 targetAir: true
 lightRadius: 80
-multiTarget: true
 faceTarget: true
 lowAltitude: true
 fogRadius: 80
@@ -100,7 +99,6 @@ weapons: [
       collidesGround: false
       collidesTiles: false
       spawnBullets: [{
-        display: false
         damage: 0
         length: 300
         type: RailBulletType
@@ -113,8 +111,8 @@ weapons: [
           lightColor: d1efff
           lightInterp: slope
           type: WaveEffect
-          sizeFrom: 36
-          sizeTo: 36
+          sizeFrom: 38
+          sizeTo: 38
           lifetime: 6
           interp: slope
           strokeFrom: 0.1
