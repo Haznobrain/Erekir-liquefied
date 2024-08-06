@@ -9,7 +9,7 @@ rotateSpeed: 1.5
 armor: 10
 speed: 0.8
 targetAir: true
-faceTargets: true
+faceTarget: true
 lightRadius: 5
 singleTarget: true
 engineOffset: 30
