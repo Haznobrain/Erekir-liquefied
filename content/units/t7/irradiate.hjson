@@ -5,8 +5,7 @@ health: 540000
 armor: 28
 description: A very large 12 legged unit that while it moves slowly, summons a bunch of long range weapons to destroy ennemy targets.
 speed: 0.4
-multiTarget: true
-singleTarget: false
+singleTarget: true
 hitSize: 120
 hovering: true
 allowLegStep: true
@@ -23,7 +22,7 @@ legBaseOffset: 24
 legMaxLength: 1.05
 legLengthScl: 0.96
 legMinLength: 0.8
-legForwardScale: 1.1
+legForwardScl: 1
 fogRadius: 85
 legSplashDamage: 480
 legSplashRange: 40
@@ -102,9 +101,8 @@ mixColor: ffff0000
 ]
 rotate: true
 name: irradiate-double
-layerOffset: -5
+layerOffset: -0.001
 reload: 5
-range: 680
 shootSound: bolt
 alternate: false
 rotate: true
@@ -132,6 +130,7 @@ range: 680
 shootSound: plasmaboom
 x: 0
 y: -80
+shootY: 0
 bullet: {
 shootEffect: {
  type: MultiEffect
@@ -241,7 +240,6 @@ recoils: 5
 minWarmup: 0.96
 shootWarmupSpeed: 0.02
 reload: 8
-loopSound: spellLoop
 shootSound: malignShoot
 rotate: true
 shoot: {
@@ -273,7 +271,6 @@ recoilIndex: 1
 suffix: -barrel1
 moveY: -9
 heatColor: ffffff
-heatLayerOffest: 0.001
 progress: recoil
 children: [
 {
@@ -518,7 +515,6 @@ progress: recoil
 ]
 }
 ]
-range: 370
 velocityRnd: 0.15
 bullet: {
    damage: 70
@@ -535,7 +531,6 @@ bullet: {
   backColor: ffdf62
   trailColor: ffdf62
   lightningColor: ffdf62
-  circleColor: ffdf62
   frontColor: ffffff
   trailWidth: 3
   trailLength: 12
