@@ -80,14 +80,12 @@ type: RepairBeamWeapon
 name: trinacria-repair-huge
 repairSpeed: 2
 mirror: false
-unitSort: strongest
 beamWidth: 0.9
 pulseRadius: 1.4
 pulseStroke: 2.3
 recentDamageMultiplier: 1
 laserColor: 84f491
 healColor: 84f491
-range: 240
 bullet: {
   maxRange: 240
     }
@@ -105,7 +103,6 @@ pulseStroke: 2.3
 recentDamageMultiplier: 1
 laserColor: 84f491
 healColor: 84f491
-range: 200
 shootY: 7.5
 shootX: -0.5
 bullet: {
@@ -125,7 +122,6 @@ pulseStroke: 0.9
 recentDamageMultiplier: 1
 laserColor: 84f491
 healColor: 84f491
-range: 160
 shootY: 3.25
 bullet: {
   maxRange: 160
@@ -134,7 +130,6 @@ bullet: {
 {
 name: trinacria-gun
 reload: 160
-range: 248
 x: -20.25
 y: -4.5
 alternate: false
@@ -168,7 +163,7 @@ bullet: {
   homingPower: 0.6
   weaveRandom: true
   trailWidth: 2
-  trailScl: 2
+  trailParam: 2
   width: 20
   height: 26
   trailColor: 62ae7fcc
@@ -348,7 +343,6 @@ parts: [
     }
 ]
 reload: 480
-range: 80
 shootCone:180
 mirror: false
 shootY: 0
@@ -403,7 +397,6 @@ bullet: {
         lifetime: 0
         instantDisappear: true
         speed: 0
-        fragOffsetMax: 1
         fragBullet: {
             type: LaserBulletType
             damage: 90
@@ -422,10 +415,9 @@ bullet: {
         damage: 0
         pierce: true
         pierceBuilding: true
-        display: false
         trailLength: 40
         trailWidth: 8
-        trailScl: 1
+        trailParam: 1
         trailColor: ffffff
         lifetime: 24
         speed: 2.9
