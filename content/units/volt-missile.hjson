@@ -82,6 +82,7 @@ engineColor: 8ca9e8
 MissileAccelTime: 72
 trailColor: 9ff0ff
 weapons: [{
+    shootSound: none
     name: volt-missile
     mirror: false
     x: 0
@@ -93,7 +94,6 @@ weapons: [{
         bullet: {
           killShooter: true
             hitEffect: none
-shootSound: none
 type: ExplosionBulletType
 instantDissapear: true
 width: 0
