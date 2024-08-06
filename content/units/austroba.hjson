@@ -6,7 +6,7 @@ description: A small support unit that heals blocks and units while protecting t
 health: 750
 hitSize: 14
 armor: 2
-controller: DefenderAi
+controller: DefenderAI
 mineFloor: false
 mineWalls: true
 mineHardnessScaling: false
@@ -61,11 +61,9 @@ weapons: [{
             under: true
         }
 ]
-    outline: false
-    layerOffset: 1
+    layerOffset: 2
     inaccuracy: 30
     recoil: 0
-    range: 280
     mirror: false
     reload: 90
     layerOffset: 2
@@ -82,7 +80,6 @@ abilities: [
 {
 type: ForceFieldAbility
 radius: 56
-color: d1efff
 max: 300
 regen: 0.25
 cooldown: 360
