@@ -9,7 +9,7 @@ rotateSpeed: 1.5
 armor: 10
 speed: 1.3
 targetAir: true
-faceTargets: true
+faceTarget: true
 lightRadius: 5
 singleTarget: true
 fogRadius: 40
@@ -81,7 +81,6 @@ rotation: -45
     x: 0
     reload: 360
     continuous: true
-    range: 304
     bullet: {
       type: ContinuousLaserBulletType
       damage: 62.5
@@ -94,7 +93,7 @@ rotation: -45
       intervalBullet: {
           type: LightningBulletType
           length: 38
-          damage: 80
+          damage: 40
           lifetime: 12
           despawnSound: spark
         }
@@ -110,8 +109,8 @@ rotation: -45
   range: 184
   x: 0
   reload: 90
-  lifetime: 92
   bullet: {
+    lifetime: 92
     type: ArtilleryBulletType
     trailLength: 10
     trailColor: d1efff
@@ -130,7 +129,6 @@ rotation: -45
           sizeInterp: pow2In
           cone: 5
           colorFrom: d1efff
-          colorMid: 8ca9e8
           colorTo: ffffff
           lifetime: 12
           length: 12
@@ -144,7 +142,6 @@ rotation: -45
           sizeInterp: pow2In
           cone: 5
           colorFrom: d1efff
-          colorMid: 8ca9e8
           colorTo: ffffff
           length: 12
         }
@@ -161,7 +158,7 @@ rotation: -45
     trailChance: 1
     trailEffect: {
         type: ParticleEffect
-        length: 0
+        length: -0.001
         particles: 1
         lenFrom: 10
         line: true
@@ -170,7 +167,7 @@ rotation: -45
         lifetime: 30
         rotWithParent: true
         cone: 0
-        baseRot: 90
+        baseRotation: 90
           }
     height: 10
     width: 12
