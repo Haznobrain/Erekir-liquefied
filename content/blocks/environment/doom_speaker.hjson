@@ -9,4 +9,3 @@ breakable: false
 hasPower: false
 privileged: true
 category: logic
-isAir: true
