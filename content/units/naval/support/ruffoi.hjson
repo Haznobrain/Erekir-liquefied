@@ -70,7 +70,6 @@ weapons: [
 {
 name: ruffoi
 heatColor: ff0000
-range: 60
 reload: 150
 continuous: true
 top: false
@@ -137,7 +136,6 @@ pulseStroke: 2.0
 recentDamageMultiplier: 1
 laserColor: 84f491
 healColor: 84f491
-range: 100
 bullet: {
   maxRange: 100
     }
