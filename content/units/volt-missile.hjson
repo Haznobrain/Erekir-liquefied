@@ -95,7 +95,6 @@ weapons: [{
           killShooter: true
             hitEffect: none
 type: ExplosionBulletType
-instantDissapear: true
 width: 0
 despawnEffect: none
 buildingDamageMultiplier: 0.3
