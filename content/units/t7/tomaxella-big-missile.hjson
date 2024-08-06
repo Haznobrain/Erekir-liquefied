@@ -5,7 +5,7 @@ flying: true
 health: 90
 hitSize: 12
 rotateSpeed: 3
-controller: MissileAi
+controller: MissileAI
 lowAltitude: true
 lifetime: 138
 //nice!
@@ -34,7 +34,6 @@ parts: [
   y: -6
   followRotation: true
   stroke: 3
-  strokeTo: 0
   radius: 0
   radiusTo: 22
   progress: {
