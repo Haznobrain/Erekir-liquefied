@@ -9,7 +9,6 @@ allowLaunchLoadout: false
 allowLaunchSchematics: false
 addStartingItems: true
 overrideLaunchDefaults: true
-attackAfterWaves: true
 research: {
 parent: crevice
 }
