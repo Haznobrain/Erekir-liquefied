@@ -5,7 +5,8 @@ Events.run(Trigger.update, () => {
         e.team != Vars.player.team &&
         e.hasEffect(StatusEffects.boss)
                     )
-    if (unit)
+    if (unit){
         let actioVenit = Vars.tree.loadMusic("actio_venit");
-        Reflect.invoke(SoundControl, Vars.control.sound, "play", actioVenit, Music)
+    Reflect.invoke(SoundControl, Vars.control.sound, "play", actioVenit, Music)
+    }
 })
