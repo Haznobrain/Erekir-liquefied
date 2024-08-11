@@ -26,7 +26,6 @@ type: UnitAssemblerPlan
         requirements: [
           erekirliquefied-austroba/4
           carbide-wall-large/20
-          shielded-wall/4
 ]
 }
 ]
