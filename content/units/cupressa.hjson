@@ -83,6 +83,7 @@ bullet: {
   height: 18
   speed: 3
   lifetime: 120
+    scaledSplashDamage: true
   shootEffect: {
     type: MultiEffect
 effects: [
