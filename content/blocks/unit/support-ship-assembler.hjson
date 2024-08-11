@@ -2,7 +2,7 @@ type: UnitAssembler
   size: 5
 name: Support ship assembler
 description: assembles large support ships using payload as inputs. Requires cyanogen.
-areaSize: 14
+areaSize: 11
   consumes: {
     power: 10
       liquids: [
