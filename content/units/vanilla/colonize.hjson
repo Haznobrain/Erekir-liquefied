@@ -16,52 +16,40 @@ crushDamage: 50
 rotateSpeed: 0.76
 treadRects: [
 {
-x: 23
-y: 115
-height: 20
+x: -44
+y: 104
 width: 21
-}
-{
-x: 12
-y: 17
-height: 30
-width: 15
-}
-{
-x: 88
-y: -9
 height: 20
-width: 23
 }
 {
-x: 66
+x: -104
 y: 77
-height: 40
-width: 16
-}
-{
-x: 22
-y: 91
+with: 49
 height: 60
-width: 82
 }
 {
-x: 131
-y: 36
-height: 20
+x: -145
+y: 37
 width: 14
+height: 20
 }
 {
-x: 102
-y: -44
-height: 80
+x: -36
+y: 18
+width: 23
+height: 20
+}
+{
+x: -121
+y: -122
 width: 20
+height: 80
 }
 {
-x: 43
-y: -100
-height: 40
+x: -86
+y: -140
 width: 43
+height: 40
 }
 ]
 parts: [
@@ -158,7 +146,7 @@ effects: [
 trailRotation: true
 trailEffect: disperseTrail
 trailInterval: 3
-
+trailColor: f3e979
 intervalBullet: {
   type: LightningBulletType
     damage: 30
