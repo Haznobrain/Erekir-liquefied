@@ -766,6 +766,15 @@ type: MissileBulletType
 }
 }
 coolantMultiplier: 4
+research: {
+  parent: spray
+  objectives: [
+{
+type: OnSector
+preset: crossroads
+}
+]
+}
 coolant: {
   type: ConsumeLiquid
   liquid: water
