@@ -25,7 +25,7 @@ fogRadius: 45
 engineOffset: 18
 engineSize: 8
 lightRadius: 200
-research: quell
+research: dismember
 weapons: [
 {
 name: huerta
