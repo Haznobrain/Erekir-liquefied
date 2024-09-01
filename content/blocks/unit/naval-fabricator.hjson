@@ -25,11 +25,11 @@ time: 3600
 }
 ]
 research:{
-  parent: chemical-fabricator
+  parent: ship-fabricator
   objectives: [
     {
     type: OnSector
-    preset: lake
+    preset: erekirliquefied-slag-river
     }
     ]
     }
