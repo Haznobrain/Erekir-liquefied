@@ -29,7 +29,7 @@ research:{
   objectives: [
     {
     type: OnSector
-    preset: erekirliquefied-slag-river
+    preset: erekirliquefied-slag_river
     }
     ]
     }
