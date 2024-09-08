@@ -90,13 +90,13 @@ weapons: [
   parts: [
     {
     name: erekirliquefied-eviscerate-cover
-    heatColor: ff0000
+    heatColor: ff000066
     heatProgress: recoil
     layerOffset: 0.02
       }
     {
     name: erekirliquefied-eviscerate-unfinished-heat
-    colorTo: ff0000aa
+    colorTo: ff000066
     color: ff000000
     progress: recoil
     }
