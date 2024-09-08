@@ -29,7 +29,7 @@ engineColor: d1efff
 parts: [
   {
 type: HaloPart
-y: -150
+y: -120
 haloRadius: 40
 radius: 20
 tri: true
@@ -42,7 +42,7 @@ color: d1efff
 }
   {
 type: HaloPart
-y: -150
+y: -120
 haloRadius: 40
 radius: 20
 tri: true
@@ -56,7 +56,7 @@ shapeRotation: 180
 }
 {
 type: ShapePart
-y: -150
+y: -120
 radius: 30
 stroke: 3
 circle: true
@@ -71,7 +71,7 @@ radius: 120
 color1: d1efff
 color2: ffffff
 stroke: 5
-y: -150
+y: -120
 followRotation: true
 }
 ]
