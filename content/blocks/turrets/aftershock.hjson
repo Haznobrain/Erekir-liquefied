@@ -11,15 +11,91 @@ shootWarmupSpeed: 0.06
 warmupMaintainTime: 300
   recoil: 0
   range: 432
+AmmoUseEffect: {
+        randLength: false
+        type: ParticleEffect
+        casingFlip: true
+        cone: 5
+        region: erekirliquefied-casing
+        colorFrom: ffcbddff
+        colorTo: ffcbdd00
+        length: 20
+        spin: 0.6
+        lifetime: 70
+        particles: 1
+        baseRotation: 90
+        offset: -90
+        sizeFrom: 16
+        sizeTo: 15
+        interp: pow5Out
+        sizeInterp: pow10In
+          }
   ammoTypes: {
     thorium: {
       type: ArtilleryBulletType
       damage: 0
-      splashDamage: 85
+      splashDamage: 110
       splashDamageRadius: 80
       speed: 4
       lifetime: 108
       buildingDamageMultiplier: 0.2
+      smokeEffect: none
+      shootEffect: {
+        type: MultiEffect
+        effects: [
+        {
+        type: ParticleEffect
+        region: erekirliquefied-shootspike
+        sizeFrom: 20
+        sizeTo: 0
+        lifetime: 12
+        colorFrom: ffffff
+        colorTo: ffcbdd
+        cone: 0
+        length: -0.001
+        }
+        {
+        type: ParticleEffect
+        line: true
+        strokeFrom: 4
+        strokeTo: 0
+        lenFrom: 4
+        lenTo: 0
+        particles: 14
+        colorFrom: ffcbdd
+        colorTo: a2a2a2
+        lifetime: 40
+        length: 30
+        cone: 15
+        interp: pow5Out
+        sizeInterp: pow5In
+        }
+        {
+        type: ParticleEffect
+        colorFrom: b1b1b1
+        colorTo: b1b1b1
+        length: 26
+        sizeFrom: 8
+        particle: 5
+        lifetime: 100
+        cone: 15
+        interp: pow5Out
+        sizeInterp: pow5In
+        }
+        {
+        type: ParticleEffect
+        colorFrom: b1b1b1
+        colorTo: 9e9e9e
+        length: 26
+        sizeFrom: 5
+        particle: 10
+        lifetime: 90
+        cone: 15
+        interp: pow5Out
+        sizeInterp: pow5In
+        }
+        ]
+        }
       width: 16
       height: 20
       backColor: ffcbdd
@@ -29,13 +105,37 @@ warmupMaintainTime: 300
       despawnHit: true
       hitColor: ff5656
       hitShake: 1
-      hitEffect: scatheExplosion
+      despawnEffect: none
+      hitEffect: {
+        type: ExplosionEffect
+        waveRad: 80
+        waveLife: 15
+        waveStroke: 3
+        waveColor: ffcbdd
+        sparkColor: ffcbdd
+        smokes: 16
+        smokeSize: 8
+        smokeRad: 85
+        sparkRad: 85
+        }
       fragBullets: 2
       fragBullet: {
             width: 12
             hitColor: ff5656
             height: 16
-            hitEffect: scatheExplosion
+            despawnEffect: none
+            hitEffect: {
+              type: ExplosionEffect
+              waveRad: 80
+              waveLife: 15
+              waveStroke: 3
+              waveColor: ffcbdd
+              sparkColor: ffcbdd
+              smokes: 16
+              smokeSize: 8
+              smokeRad: 85
+              sparkRad: 85
+                }
             lifetime: 45
             speed: 3
             type: ArtilleryBulletType
@@ -61,13 +161,94 @@ warmupMaintainTime: 300
       despawnHit: true
       hitColor: ff5656
       hitShake: 1
-      hitEffect: scatheExplosion
+      despawnEffect: none
+      hitEffect: {
+        type: ExplosionEffect
+        waveRad: 80
+        waveLife: 15
+        waveStroke: 3
+        waveColor: ffcbdd
+        sparkColor: ffcbdd
+        smokes: 16
+        smokeSize: 8
+        smokeRad: 85
+        sparkRad: 85
+        }
+      smokeEffect: none
+      shootEffect: {
+        type: MultiEffect
+        effects: [
+        {
+        type: ParticleEffect
+        region: erekirliquefied-shootspike
+        sizeFrom: 20
+        sizeTo: 0
+        lifetime: 12
+        colorFrom: ffffff
+        colorTo: ff5656
+        cone: 0
+        length: -0.001
+        }
+        {
+        type: ParticleEffect
+        line: true
+        strokeFrom: 4
+        strokeTo: 0
+        lenFrom: 8
+        lenTo: 0
+        particles: 14
+        colorFrom: ff5656
+        colorTo: a2a2a2
+        lifetime: 40
+        length: 30
+        cone: 15
+        interp: pow5Out
+        sizeInterp: pow5In
+        }
+        {
+        type: ParticleEffect
+        colorFrom: b1b1b1
+        colorTo: b1b1b1
+        length: 26
+        sizeFrom: 8
+        particle: 5
+        lifetime: 100
+        cone: 15
+        interp: pow5Out
+        sizeInterp: pow5In
+        }
+        {
+        type: ParticleEffect
+        colorFrom: b1b1b1
+        colorTo: 9e9e9e
+        length: 26
+        sizeFrom: 5
+        particle: 10
+        lifetime: 90
+        cone: 15
+        interp: pow5Out
+        sizeInterp: pow5In
+        }
+        ]
+        }
       fragBullets: 2
       fragBullet: {
             width: 12
             hitColor: ff5656
             height: 16
-            hitEffect: scatheExplosion
+            despawnEffect: none
+            hitEffect: {
+              type: ExplosionEffect
+              waveRad: 80
+              waveLife: 15
+              waveStroke: 3
+              waveColor: ffcbdd
+              sparkColor: ffcbdd
+              smokes: 16
+              smokeSize: 8
+              smokeRad: 85
+              sparkRad: 85
+              }
             lifetime: 45
             speed: 3
             type: ArtilleryBulletType
@@ -79,7 +260,19 @@ warmupMaintainTime: 300
                       width: 12
                       hitColor: ff5656
                       height: 16
-                      hitEffect: scatheExplosion
+                       despawnEffect: none
+                      hitEffect: {
+                        type: ExplosionEffect
+                        waveRad: 80
+                        waveLife: 15
+                        waveStroke: 3
+                        waveColor: ffcbdd
+                        sparkColor: ffcbdd
+                        smokes: 16
+                        smokeSize: 8
+                        smokeRad: 85
+                        sparkRad: 85
+                          }
                       lifetime: 45
                       speed: 3
                       type: ArtilleryBulletType
@@ -97,6 +290,63 @@ warmupMaintainTime: 300
       speed: 4
       lifetime: 108
       buildingDamageMultiplier: 0.2
+      smokeEffect: none
+      shootEffect: {
+        type: MultiEffect
+        effects: [
+        {
+        type: ParticleEffect
+        region: erekirliquefied-shootspike
+        sizeFrom: 20
+        sizeTo: 0
+        lifetime: 12
+        colorFrom: ffffff
+        colorTo: 567148
+        cone: 0
+        length: -0.001
+        }
+        {
+        type: ParticleEffect
+        line: true
+        strokeFrom: 4
+        strokeTo: 0
+        lenFrom: 8
+        lenTo: 0
+        particles: 14
+        colorFrom: 567148
+        colorTo: a2a2a2
+        lifetime: 40
+        length: 30
+        cone: 15
+        interp: pow5Out
+        sizeInterp: pow5In
+        }
+        {
+        type: ParticleEffect
+        colorFrom: b1b1b1
+        colorTo: b1b1b1
+        length: 26
+        sizeFrom: 8
+        particle: 5
+        lifetime: 100
+        cone: 15
+        interp: pow5Out
+        sizeInterp: pow5In
+        }
+        {
+        type: ParticleEffect
+        colorFrom: b1b1b1
+        colorTo: 9e9e9e
+        length: 26
+        sizeFrom: 5
+        particle: 10
+        lifetime: 90
+        cone: 15
+        interp: pow5Out
+        sizeInterp: pow5In
+        }
+        ]
+        }
       width: 16
       height: 20
       frontColor: ffffff
@@ -106,7 +356,19 @@ warmupMaintainTime: 300
       despawnHit: true
       hitColor: 567148
       hitShake: 1
-      hitEffect: scatheExplosion
+      despawnEffect: none
+      hitEffect: {
+        type: ExplosionEffect
+        waveRad: 80
+        waveLife: 15
+        waveStroke: 3
+        waveColor: 567148
+        sparkColor: 567148
+        smokes: 16
+        smokeSize: 8
+        smokeRad: 85
+        sparkRad: 85
+        }
       fragBullets: 3
       fragBullet: {
             width: 12
@@ -120,6 +382,18 @@ warmupMaintainTime: 300
             splashDamageRadius: 80
             buildingDamageMultiplier: 0.2
             fragBullets: 4
+              hitEffect: {
+                  type: ExplosionEffect
+                  waveRad: 80
+                  waveLife: 15
+                  waveStroke: 3
+                  waveColor: 567148
+                  sparkColor: 567148
+                  smokes: 16
+                  smokeSize: 8
+                  smokeRad: 85
+                  sparkRad: 85
+                  }
                   fragBullet: {
                   type: LightningBulletType
                   lightningLength: 12
@@ -146,13 +420,94 @@ warmupMaintainTime: 300
       despawnHit: true
       hitColor: efff74
       hitShake: 1
-      hitEffect: scatheExplosion
+      despawnEffect: none
+      hitEffect: {
+        type: ExplosionEffect
+        waveRad: 80
+        waveLife: 15
+        waveStroke: 3
+        waveColor: efff74
+        sparkColor: efff74
+        smokes: 16
+        smokeSize: 8
+        smokeRad: 85
+        sparkRad: 85
+        }
+      smokeEffect: none
+      shootEffect: {
+        type: MultiEffect
+        effects: [
+        {
+        type: ParticleEffect
+        region: erekirliquefied-shootspike
+        sizeFrom: 20
+        sizeTo: 0
+        lifetime: 12
+        colorFrom: ffffff
+        colorTo: efff74
+        cone: 0
+        length: -0.001
+        }
+        {
+        type: ParticleEffect
+        line: true
+        strokeFrom: 4
+        strokeTo: 0
+        lenFrom: 4
+        lenTo: 0
+        particles: 14
+        colorFrom: efff74
+        colorTo: a2a2a2
+        lifetime: 40
+        length: 30
+        cone: 15
+        interp: pow5Out
+        sizeInterp: pow5In
+        }
+        {
+        type: ParticleEffect
+        colorFrom: b1b1b1
+        colorTo: b1b1b1
+        length: 26
+        sizeFrom: 8
+        particle: 5
+        lifetime: 100
+        cone: 15
+        interp: pow5Out
+        sizeInterp: pow5In
+        }
+        {
+        type: ParticleEffect
+        colorFrom: b1b1b1
+        colorTo: 9e9e9e
+        length: 26
+        sizeFrom: 5
+        particle: 10
+        lifetime: 90
+        cone: 15
+        interp: pow5Out
+        sizeInterp: pow5In
+        }
+        ]
+        }
       fragBullets: 4
       fragBullet: {
             width: 12
             hitColor: efff74
             height: 16
-            hitEffect: scatheExplosion
+            despawnEffect: none
+            hitEffect: {
+              type: ExplosionEffect
+              waveRad: 80
+              waveLife: 15
+              waveStroke: 3
+              waveColor: efff74
+              sparkColor: efff74
+              smokes: 16
+              smokeSize: 8
+              smokeRad: 85
+              sparkRad: 85
+              }
             lifetime: 45
             speed: 3
             type: ArtilleryBulletType
