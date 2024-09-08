@@ -17,16 +17,16 @@ ammoUseEffect: {
         casingFlip: true
         cone: 5
         region: erekirliquefied-casing
-        colorFrom: ffcbddff
-        colorTo: ffcbdd00
+        colorFrom: ffda6bff
+        colorTo: ffda6b00
         length: 20
         spin: 0.6
         lifetime: 70
         particles: 1
         baseRotation: 90
         offset: -90
-        sizeFrom: 16
-        sizeTo: 15
+        sizeFrom: 8
+        sizeTo: 7
         interp: pow5Out
         sizeInterp: pow10In
           }
@@ -46,7 +46,7 @@ ammoUseEffect: {
         {
         type: ParticleEffect
         region: erekirliquefied-shootspike
-        sizeFrom: 40
+        sizeFrom: 8
         sizeTo: 0
         lifetime: 12
         colorFrom: ffffff
@@ -182,7 +182,7 @@ ammoUseEffect: {
         {
         type: ParticleEffect
         region: erekirliquefied-shootspike
-        sizeFrom: 40
+        sizeFrom: 8
         sizeTo: 0
         lifetime: 12
         colorFrom: ffffff
@@ -299,7 +299,7 @@ ammoUseEffect: {
         {
         type: ParticleEffect
         region: erekirliquefied-shootspike
-        sizeFrom: 40
+        sizeFrom: 8
         sizeTo: 0
         lifetime: 12
         colorFrom: ffffff
@@ -443,7 +443,7 @@ ammoUseEffect: {
         {
         type: ParticleEffect
         region: erekirliquefied-shootspike
-        sizeFrom: 40
+        sizeFrom: 8
         sizeTo: 0
         lifetime: 12
         colorFrom: ffffff
