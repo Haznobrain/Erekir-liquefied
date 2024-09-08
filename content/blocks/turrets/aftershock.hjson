@@ -11,7 +11,7 @@ shootWarmupSpeed: 0.06
 warmupMaintainTime: 300
   recoil: 0
   range: 432
-AmmoUseEffect: {
+ammoUseEffect: {
         randLength: false
         type: ParticleEffect
         casingFlip: true
@@ -46,7 +46,7 @@ AmmoUseEffect: {
         {
         type: ParticleEffect
         region: erekirliquefied-shootspike
-        sizeFrom: 20
+        sizeFrom: 40
         sizeTo: 0
         lifetime: 12
         colorFrom: ffffff
@@ -182,7 +182,7 @@ AmmoUseEffect: {
         {
         type: ParticleEffect
         region: erekirliquefied-shootspike
-        sizeFrom: 20
+        sizeFrom: 40
         sizeTo: 0
         lifetime: 12
         colorFrom: ffffff
@@ -299,7 +299,7 @@ AmmoUseEffect: {
         {
         type: ParticleEffect
         region: erekirliquefied-shootspike
-        sizeFrom: 20
+        sizeFrom: 40
         sizeTo: 0
         lifetime: 12
         colorFrom: ffffff
@@ -443,7 +443,7 @@ AmmoUseEffect: {
         {
         type: ParticleEffect
         region: erekirliquefied-shootspike
-        sizeFrom: 20
+        sizeFrom: 40
         sizeTo: 0
         lifetime: 12
         colorFrom: ffffff
