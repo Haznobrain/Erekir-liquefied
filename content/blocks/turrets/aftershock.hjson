@@ -24,7 +24,7 @@ ammoUseEffect: {
         lifetime: 70
         particles: 1
         baseRotation: 90
-        offset: -90
+        offset: 0
         sizeFrom: 8
         sizeTo: 7
         interp: pow5Out
@@ -46,7 +46,7 @@ ammoUseEffect: {
         {
         type: ParticleEffect
         region: erekirliquefied-shootspike
-        sizeFrom: 8
+        sizeFrom: 16
         sizeTo: 0
         lifetime: 12
         colorFrom: ffffff
@@ -182,7 +182,7 @@ ammoUseEffect: {
         {
         type: ParticleEffect
         region: erekirliquefied-shootspike
-        sizeFrom: 8
+        sizeFrom: 16
         sizeTo: 0
         lifetime: 12
         colorFrom: ffffff
@@ -299,7 +299,7 @@ ammoUseEffect: {
         {
         type: ParticleEffect
         region: erekirliquefied-shootspike
-        sizeFrom: 8
+        sizeFrom: 16
         sizeTo: 0
         lifetime: 12
         colorFrom: ffffff
@@ -443,7 +443,7 @@ ammoUseEffect: {
         {
         type: ParticleEffect
         region: erekirliquefied-shootspike
-        sizeFrom: 8
+        sizeFrom: 16
         sizeTo: 0
         lifetime: 12
         colorFrom: ffffff
