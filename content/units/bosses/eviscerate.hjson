@@ -98,7 +98,7 @@ weapons: [
     name: erekirliquefied-eviscerate-unfinished-heat
     colorTo: ff0000aa
     color: ff000000
-    heatProgress: recoil
+    progress: recoil
     }
 ]
   bullet: {
