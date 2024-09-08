@@ -145,8 +145,8 @@ weapons: [
       pierceBuilding: true
       lightningColor: dcf3ffff
       lightningDamage: 150
-      speed: 2
-      lifetime: 640
+      speed: 20
+      lifetime: 64
       height: 60
       width: 30
       sprite: circle-bullet
@@ -167,9 +167,9 @@ weapons: [
           }
       spawnBullets: [{
         damage: 0
-        length: 300
+        length: 1280
         type: RailBulletType
-        despawnSound: plasmadrop
+        despawnSound: none
         pointEffectSpace: 6
         pierceEffect: none
         lineEffect: none
