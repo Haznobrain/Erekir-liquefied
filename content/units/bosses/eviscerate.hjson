@@ -92,6 +92,7 @@ weapons: [
     name: erekirliquefied-eviscerate-cover
     heatColor: ff0000
     heatProgress: recoil
+    layerOffset: 80.02
       }
 ]
   bullet: {
@@ -99,7 +100,7 @@ weapons: [
     colors: [dcf3ffaa, dcf3ffff, f2faff, ffffffff]
     damage: 1500
     knockback: 1
-    layer: 79
+    layer: 80.01
     hitEffect: {
         type: ParticleEffect
         line: true
@@ -151,7 +152,7 @@ weapons: [
       height: 60
       width: 30
       sprite: circle-bullet
-      layer: 79
+      layer: 80.01
       hitEffect: {
         type: ParticleEffect
         line: true
@@ -188,7 +189,7 @@ weapons: [
           strokeTo: 3
           colorFrom: d1efff
           colorTo: ffffff
-          layer: 79
+          layer: 80.01
               }}]
         }
   }
