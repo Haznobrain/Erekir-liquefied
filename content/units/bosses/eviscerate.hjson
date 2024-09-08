@@ -1,0 +1,365 @@
+type: flying
+speed: 0.41
+hitSize: 176
+template: ErekirUnitType
+flying: true
+engineOffset: 88
+engineSize: 16
+immunities: [
+    erekirliquefied-metalfrag,
+    melting,
+    burning,
+    ionized,
+    shocked,
+    slow,
+    sapped
+    ]
+name: "Eviscerate"
+localizedName: "[#ff6161]Eviscerate"
+health: 1500000
+description: "Assembled in high orbit, out of the sight of anyone, has now come down upon you to end your efforts after you failed to destroy the last consciousness."
+details: "The end is near"
+armor: 150
+targetAir: true
+lightRadius: 200
+faceTarget: true
+lowAltitude: true
+fogRadius: 160
+engineColor: d1efff
+parts: [
+  {
+type: HaloPart
+y: -230
+haloRadius: 40
+radius: 20
+tri: true
+triLength: 100
+layer: 110
+haloRotateSpeed: 0
+shapes: 2
+haloRotation: 90
+color: d1efff
+}
+  {
+type: HaloPart
+y: -230
+haloRadius: 40
+radius: 20
+tri: true
+triLength: 10
+layer: 110
+haloRotateSpeed: 0
+shapes: 2
+haloRotation: 90
+shapeRotation: 180
+  color: d1efff
+}
+{
+type: ShapePart
+y: -230
+radius: 30
+stroke: 3
+circle: true
+rotateSpeed: 5
+color: d1efff
+layer: 110
+hollow: true
+}
+{
+type: FlarePart
+radius: 60
+color1: d1efff
+color2: ffffff
+stroke: 5
+y: -230
+followRotation: true
+}
+]
+weapons: [
+  {
+  name: eviscerate
+  x: 0
+  y: 0
+  mirror: false
+  recoil: 0
+  reload: 500
+  continuous: true
+  heatColor: ff0000ff
+  shootSound: eviscerate-beam
+  shootY: -24
+  parts: [
+    {
+    name: erekirliquefied-eviscerate-cover
+    heatColor: ff0000
+    heatProgress: recoil
+      }
+]
+  bullet: {
+    type: ContinuousLaserBulletType
+    colors: [dcf3ffaa, dcf3ffff, f2faff, ffffffff]
+    damage: 1500
+    knockback: 1
+    hitEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 14
+        lenFrom: 40
+        lenTo: 0
+        strokeFrom: 4
+        strokeTo: 4
+        length: 100
+        lifetime: 15
+        interp: pow5Out
+        colorFrom: dcf3ffff
+        colorTo: dcf3ffff
+        lightColor: dcf3ffff
+          }
+    length: 1280
+    width: 24
+    hitSize: 24
+    shake: 3
+    lifetime: 180
+    shootEffect: {
+      type: ParticleEffect
+      cone: 30
+      length: 600
+      particles: 30
+      lenFrom: 40
+      lenTo: 10
+      strokeFrom: 8
+      strokeTo: 0
+      interp: pow10Out
+      colorFrom: dcf3ffff
+      colorTo: dcf3ffff
+      lightColor: dcf3ffff
+        }
+    bulletInterval: 5
+    intervalRandomSpread: 0
+    intervalBullet: {
+      type: BasicBulletType
+      frontColor: ffffff
+      backColor: dcf3ffaa
+      damage: 400
+      lightning: 5
+      pierce: true
+      pierceBuilding: true
+      lightningColor: dcf3ffff
+      lightningDamage: 150
+      speed: 2
+      lifetime: 640
+      height: 60
+      width: 30
+      sprite: circle-bullet
+      hitEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 14
+        lenFrom: 40
+        lenTo: 0
+        strokeFrom: 4
+        strokeTo: 4
+        length: 100
+        lifetime: 15
+        interp: pow5Out
+        colorFrom: dcf3ffff
+        colorTo: dcf3ffff
+        lightColor: dcf3ffff
+          }
+      spawnBullets: [{
+        damage: 0
+        length: 300
+        type: RailBulletType
+        despawnSound: plasmadrop
+        pointEffectSpace: 6
+        pierceEffect: none
+        lineEffect: none
+        endEffect: none
+        pointEffect: {
+          lightColor: d1efff
+          lightInterp: slope
+          type: WaveEffect
+          sizeFrom: 38
+          sizeTo: 38
+          lifetime: 6
+          interp: slope
+          strokeFrom: 0.1
+          strokeTo: 3
+          colorFrom: d1efff
+          colorTo: ffffff
+              }}]
+        }
+  }
+}
+{
+  name: eviscerate-unfinished-railgun1
+  reload: 30
+  x: 35
+  y: -58
+  rotate: true
+  rotateSpeed: 3
+  shootY: 1
+  shootSound: railgun
+  recoil: 2
+  heatColor: ff0000ff
+  shootCone: 2
+  bullet: {
+    type: RailBulletType
+    length: 1280
+    damage: 2000
+    hitColor: dcf3ffff
+    smokeEffect: colorSpark
+    hitEffect: {
+      type: WrapEffect
+      effect: dynamicSpikes
+      rotation: 24
+      color: dcf3ffff
+        }
+    endEffect: {
+      type: ParticleEffect
+      particles: 3
+      cone: 2
+      lifetime: 30
+      length: 0.001
+      lenFrom: 6
+      lenTo: 3
+      strokeFrom: 1
+      strokeTo: 0
+      line: true
+      colorFrom: ffffffff
+      colorTo: dcf3ffff
+      lightColor: dcf3ffff
+        }
+    shootEffect: shootBigColor
+    pointEffectSpace: 8
+    pointEffect: {
+      type: ParticleEffect
+      line: true
+      randLength: false
+      cone: 0
+      length: -0.001
+      lenFrom: 10
+      lenTo: 8
+      strokeFrom: 2
+      strokeTo: 0
+      lifetime: 20
+      colorFrom: ffffffff
+      colorTo: dcf3ffff
+      lightColor: dcf3ffff
+        }
+  }
+}
+{
+  name: eviscerate-unfinished-railgun2
+  reload: 90
+  x: 59.75
+  y: -36
+  rotate: true
+  rotateSpeed: 1.5
+  shootY: -5
+  shootSound: railgun
+  recoil: 4
+  heatColor: ff0000ff
+  shootCone: 2
+  bullet: {
+    type: RailBulletType
+    length: 1280
+    damage: 3000
+    hitColor: dcf3ffff
+    smokeEffect: colorSpark
+    hitEffect: {
+      type: WrapEffect
+      effect: dynamicSpikes
+      rotation: 32
+      color: dcf3ffff
+        }
+    endEffect: {
+      type: ParticleEffect
+      particles: 3
+      cone: 2
+      lifetime: 30
+      length: 0.001
+      lenFrom: 12
+      lenTo: 6
+      strokeFrom: 2
+      strokeTo: 0
+      line: true
+      colorFrom: ffffffff
+      colorTo: dcf3ffff
+      lightColor: dcf3ffff
+        }
+    shootEffect: shootBigColor
+    pointEffectSpace: 16
+    pointEffect: {
+      type: ParticleEffect
+      line: true
+      randLength: false
+      cone: 0
+      length: -0.001
+      lenFrom: 18
+      lenTo: 16
+      strokeFrom: 4
+      strokeTo: 0
+      lifetime: 30
+      colorFrom: ffffffff
+      colorTo: dcf3ffff
+      lightColor: dcf3ffff
+        }
+  }
+}
+{
+  name: eviscerate-unfinished-laser
+  reload: 20
+  shoot: {
+      type: ShootAlternate
+      barrels: 3
+      spread: 6
+      shots: 3
+      shotDelay: 4
+        }
+  x: 56
+  y: 40
+  rotate: true
+  rotateSpeed: 4
+  shootY: 16
+  shootSound: laser
+  recoil: 4
+  shootCone: 10
+  bullet: {
+    type: LaserBulletType
+    length: 600
+    damage: 250
+    sideLength: 60
+    sideWidth: 2
+    sideAngle: 22
+    colors: [dcf3ffaa, f2faff, ffffffff]
+      }
+}
+{
+  name: eviscerate-unfinished-laser
+  reload: 20
+  shoot: {
+      type: ShootAlternate
+      barrels: 3
+      spread: 6
+      shots: 3
+      shotDelay: 4
+        }
+  x: 56
+  y: 10
+  rotate: true
+  rotateSpeed: 4
+  shootY: 16
+  shootSound: laser
+  recoil: 4
+  shootCone: 10
+  bullet: {
+    type: LaserBulletType
+    length: 1200
+    damage: 1000
+    sideLength: 60
+    sideWidth: 2
+    sideAngle: 22
+    colors: [dcf3ffaa, f2faff, ffffffff]
+      }
+}
+]
