@@ -29,7 +29,7 @@ engineColor: d1efff
 parts: [
   {
 type: HaloPart
-y: -230
+y: -150
 haloRadius: 40
 radius: 20
 tri: true
@@ -42,7 +42,7 @@ color: d1efff
 }
   {
 type: HaloPart
-y: -230
+y: -150
 haloRadius: 40
 radius: 20
 tri: true
@@ -56,7 +56,7 @@ shapeRotation: 180
 }
 {
 type: ShapePart
-y: -230
+y: -150
 radius: 30
 stroke: 3
 circle: true
@@ -67,11 +67,11 @@ hollow: true
 }
 {
 type: FlarePart
-radius: 60
+radius: 120
 color1: d1efff
 color2: ffffff
 stroke: 5
-y: -230
+y: -150
 followRotation: true
 }
 ]
@@ -99,6 +99,7 @@ weapons: [
     colors: [dcf3ffaa, dcf3ffff, f2faff, ffffffff]
     damage: 1500
     knockback: 1
+    layer: 79
     hitEffect: {
         type: ParticleEffect
         line: true
@@ -150,6 +151,7 @@ weapons: [
       height: 60
       width: 30
       sprite: circle-bullet
+      layer: 79
       hitEffect: {
         type: ParticleEffect
         line: true
@@ -186,6 +188,7 @@ weapons: [
           strokeTo: 3
           colorFrom: d1efff
           colorTo: ffffff
+          layer: 79
               }}]
         }
   }
