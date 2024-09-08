@@ -52,7 +52,8 @@ AmmoUseEffect: {
         colorFrom: ffffff
         colorTo: ffcbdd
         cone: 0
-        length: -0.001
+        length: 20.001
+        baseLength: 20
         }
         {
         type: ParticleEffect
@@ -187,7 +188,8 @@ AmmoUseEffect: {
         colorFrom: ffffff
         colorTo: ff5656
         cone: 0
-        length: -0.001
+        length: 20.001
+        baseLength: 20
         }
         {
         type: ParticleEffect
@@ -303,7 +305,8 @@ AmmoUseEffect: {
         colorFrom: ffffff
         colorTo: 567148
         cone: 0
-        length: -0.001
+        length: 20.001
+        baseLength: 20
         }
         {
         type: ParticleEffect
@@ -446,7 +449,8 @@ AmmoUseEffect: {
         colorFrom: ffffff
         colorTo: efff74
         cone: 0
-        length: -0.001
+        length: 20.001
+        baseLength: 20
         }
         {
         type: ParticleEffect
