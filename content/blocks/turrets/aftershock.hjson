@@ -46,14 +46,14 @@ AmmoUseEffect: {
         {
         type: ParticleEffect
         region: erekirliquefied-shootspike
-        sizeFrom: 40
+        sizeFrom: 20
         sizeTo: 0
         lifetime: 12
         colorFrom: ffffff
         colorTo: ffcbdd
         cone: 0
         length: 20.001
-        baseLength: 20
+        baseLength: 40
         }
         {
         type: ParticleEffect
@@ -64,7 +64,7 @@ AmmoUseEffect: {
         lenTo: 0
         particles: 14
         colorFrom: ffcbdd
-        colorTo: a2a2a2
+        colorTo: 9e9e9e
         lifetime: 40
         length: 60
         cone: 15
@@ -73,8 +73,8 @@ AmmoUseEffect: {
         }
         {
         type: ParticleEffect
-        colorFrom: b1b1b1
-        colorTo: b1b1b1
+        colorFrom: 9e9e9e
+        colorTo: 9e9e9e
         length: 54
         sizeFrom: 8
         particle: 5
@@ -182,14 +182,14 @@ AmmoUseEffect: {
         {
         type: ParticleEffect
         region: erekirliquefied-shootspike
-        sizeFrom: 40
+        sizeFrom: 20
         sizeTo: 0
         lifetime: 12
         colorFrom: ffffff
         colorTo: ff5656
         cone: 0
         length: 20.001
-        baseLength: 20
+        baseLength: 40
         }
         {
         type: ParticleEffect
@@ -200,7 +200,7 @@ AmmoUseEffect: {
         lenTo: 0
         particles: 14
         colorFrom: ff5656
-        colorTo: a2a2a2
+        colorTo: 9e9e9e
         lifetime: 40
         length: 60
         cone: 15
@@ -209,8 +209,8 @@ AmmoUseEffect: {
         }
         {
         type: ParticleEffect
-        colorFrom: b1b1b1
-        colorTo: b1b1b1
+        colorFrom: 9e9e9e
+        colorTo: 9e9e9e
         length: 54
         sizeFrom: 8
         particle: 5
@@ -299,14 +299,14 @@ AmmoUseEffect: {
         {
         type: ParticleEffect
         region: erekirliquefied-shootspike
-        sizeFrom: 40
+        sizeFrom: 20
         sizeTo: 0
         lifetime: 12
         colorFrom: ffffff
         colorTo: 567148
         cone: 0
         length: 20.001
-        baseLength: 20
+        baseLength: 40
         }
         {
         type: ParticleEffect
@@ -317,7 +317,7 @@ AmmoUseEffect: {
         lenTo: 0
         particles: 14
         colorFrom: 567148
-        colorTo: a2a2a2
+        colorTo: 9e9e9e
         lifetime: 40
         length: 60
         cone: 15
@@ -326,8 +326,8 @@ AmmoUseEffect: {
         }
         {
         type: ParticleEffect
-        colorFrom: b1b1b1
-        colorTo: b1b1b1
+        colorFrom: 9e9e9e
+        colorTo: 9e9e9e
         length: 54
         sizeFrom: 8
         particle: 5
@@ -443,14 +443,14 @@ AmmoUseEffect: {
         {
         type: ParticleEffect
         region: erekirliquefied-shootspike
-        sizeFrom: 40
+        sizeFrom: 20
         sizeTo: 0
         lifetime: 12
         colorFrom: ffffff
         colorTo: efff74
         cone: 0
         length: 20.001
-        baseLength: 20
+        baseLength: 40
         }
         {
         type: ParticleEffect
@@ -461,7 +461,7 @@ AmmoUseEffect: {
         lenTo: 0
         particles: 14
         colorFrom: efff74
-        colorTo: a2a2a2
+        colorTo: 9e9e9e
         lifetime: 40
         length: 60
         cone: 15
@@ -470,8 +470,8 @@ AmmoUseEffect: {
         }
         {
         type: ParticleEffect
-        colorFrom: b1b1b1
-        colorTo: b1b1b1
+        colorFrom: 9e9e9e
+        colorTo: 9e9e9e
         length: 54
         sizeFrom: 8
         particle: 5
