@@ -6,6 +6,7 @@ category: turret
 size: 4
 recoil: 0
 outlineColor: 3d2925
+recoilTime: 60
 consumes: {
   power: 20
     }
@@ -15,14 +16,12 @@ inaccuracy: 5
 shootEffect: {
   type: ParticleEffect
   colorFrom: ffffffff
-  colorTo: ff0000aa
+  colorTo: ff0000
   sizeFrom: 5
   sizeTo: 0
-  interp: pow5Out
   sizeInterp: pow5In
   length: 120
   cone: 5
-  lifetime: 25
     }
 smokeEffect: none
 shootSound: flame
@@ -54,6 +53,7 @@ shootType: {
     speed: 10
     despawnEffect: none
     buildingDamageMultiplier: 0.1
+    collidesAir: false
       }
 requirements: [
   beryllium/1000
