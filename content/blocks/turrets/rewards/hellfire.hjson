@@ -4,6 +4,8 @@ description: "The reward for beating the basaltoid, fires a massive stream of da
 reload: 5
 category: turret
 size: 4
+recoil: 0
+outlineColor: 3d2925
 consumes: {
   power: 20
     }
@@ -13,13 +15,16 @@ inaccuracy: 5
 shootEffect: {
   type: ParticleEffect
   colorFrom: ffffffff
-  colorTo: ff0000
-  sizeFrom: 10
+  colorTo: ff0000aa
+  sizeFrom: 5
   sizeTo: 0
   interp: pow5Out
   sizeInterp: pow5In
   length: 120
+  cone: 5
+  lifetime: 25
     }
+smokeEffect: none
 shootSound: flame
 soundPitchMin: -5
 soundPitchMax: -1
