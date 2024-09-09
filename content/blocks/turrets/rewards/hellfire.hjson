@@ -2,6 +2,7 @@ type: PowerTurret
 name: Hellfire
 description: "The reward for beating the basaltoid, fires a massive stream of damaging flames at ennemy ground targets."
 reload: 5
+category: turret
 size: 4
 consumes: {
   power: 20
