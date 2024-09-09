@@ -1,0 +1,58 @@
+type: PowerTurret
+name: Hellfire
+description: "The reward for beating the basaltoid, fires a massive stream of damaging flames at ennemy ground targets."
+reload: 5
+size: 4
+consumes: {
+  power: 20
+    }
+heatColor: ff0000
+range: 120
+inaccuracy: 5
+shootEffect: {
+  type: ParticleEffect
+  colorFrom: ffffffff
+  colorTo: ff0000
+  sizeFrom: 10
+  sizeTo: 0
+  interp: pow5Out
+  sizeInterp: pow5In
+  length: 120
+    }
+shootSound: flame
+soundPitchMin: -5
+soundPitchMax: -1
+drawer: {
+  type: DrawTurret
+  basePrefix: basalt-
+  parts: [
+    {
+    type: RegionPart
+    moveY: -1
+    progress: recoil
+    heatProgress: recoil
+    under: true
+    suffix: -barrel
+      }
+  ]
+}
+targetAir: false
+shootType: {
+    type: BulletType
+    damage: 20
+    pierce: true
+    pierceBuilding: true
+    hitEffect: hitBulletColor
+    hitColor: ff0000
+    lifetime: 12
+    speed: 10
+    despawnEffect: none
+    buildingDamageMultiplier: 0.1
+      }
+requirements: [
+  beryllium/1000
+  silicon/600
+  oxide/200
+  graphite/400
+  tungsten/350
+  ]
