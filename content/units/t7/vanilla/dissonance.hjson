@@ -281,12 +281,12 @@ length: 0
     hitEffect: none
     despawnEffect: {
       type: MultiEffect
-      startDelay: 50
       effects: [
 {
 type: ParticleEffect
 region: erekirliquefied-target
 spin: 1
+      startDelay: 50
 layer: 110
 lifetime: 90
 sizeFrom: 8
@@ -302,6 +302,7 @@ sizeFrom: 12
 sizeTo: 8
 length: 0
 spin: 3
+      startDelay: 50
 colorFrom: ffffff00
 colorTo: ffffffff
 layer: 116
@@ -393,13 +394,13 @@ offset: -90
     hitEffect: none
     despawnEffect: {
       type: MultiEffect
-      startDelay: 50
       effects: [
 {
 type: ParticleEffect
 region: erekirliquefied-target
 spin: 1
 lifetime: 90
+      startDelay: 50
 sizeFrom: 8
 layer: 110
 sizeTo: 8
@@ -411,6 +412,7 @@ length: 0
 type: ParticleEffect
 region: erekirliquefied-purple-missile-bottom
 length: 80
+      startDelay: 50
 spin: 3
 colorFrom: 000000aa
 colorTo: 000000ff
