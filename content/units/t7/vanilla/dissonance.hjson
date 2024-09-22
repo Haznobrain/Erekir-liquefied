@@ -13,7 +13,6 @@ description: Fires ballistic missile and massive damaging orbs at ground targets
 engineSize: 12
 engineOffset: 48
 template: ErekirUnitType
-drawBody: false
 weapons: [
 {
 shootY: 0
@@ -32,8 +31,10 @@ radiusTo: 24
 colorFrom: f890ff
 colorTo: f890ff
 progress: charge
+under: true
   }
 {
+under: true
 type: RegionPart
 moveRot: -45
 mirror: true
