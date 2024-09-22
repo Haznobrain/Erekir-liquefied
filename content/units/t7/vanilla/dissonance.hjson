@@ -205,18 +205,10 @@ colorTo: f890ff
 {
 shootY: 0
 reload: 200
-shoot: {
-  type: ShootBarrel
-  barrels: [
-    28, -4, 0
-    28, 8, 0
-    -28, -4, 0
-    -28, 8, 0
-      ]
-  shots: 4
-    }
+y: -4
+x: 28
 ignoreRotation: true
-mirror: false
+mirror: true
 x: 0
 y: 0
 rotateSpeed: 360
@@ -294,6 +286,109 @@ lifetime: 90
     fragBullets: 1
     fragBullet: {
       type: BulletType
+      speed: 0
+      hittable: false
+      damage: 0
+      lifetime: 90
+      splashDamage: 120
+      splashDamageRadius: 80
+      hitEffect: sapExplosion
+      supressionRange: 100
+      supressionDuration: 300
+      collidesAir: false
+      collides: false
+      despawnHit: true
+      despawnSound: largeExplosion
+        }
+}
+rotate: true
+}
+{
+shootY: 0
+reload: 200
+rotate: true
+y: 8
+x: 28
+ignoreRotation: true
+mirror: true
+x: 0
+y: 0
+rotateSpeed: 360
+inaccuracy: 6
+shootSound: explosion
+bullet: {
+  type: PointBulletType
+  trailEffect: none
+  maxRange: 1000
+  shootEffect: {
+    type: MultiEffect
+    effects: [
+{
+type: WaveEffect
+lifetime: 15
+sizeTo: 40
+strokeFrom: 4
+layer: 116
+colorTo: f890ff
+}
+      {
+type: ParticleEffect
+length: 20
+colorFrom: 6e7080aa
+colorTo: 6e708000
+sizeFrom: 10
+lifetime: 80
+  }
+{
+type: ParticleEffect
+spin: 2
+region: erekirliquefied-purple-missile-top
+particles: 1
+colorFrom: 000000ff
+colorTo: 00000000
+sizeFrom: 8
+sizeTo: 12
+lifetime: 50
+length: 0
+  }
+]
+  }
+    smokeEffect: none
+    collides: false
+    collidesAir: false
+    collidesGround: false
+    collidesTiles: false
+    damage: 0
+    hitEffect: none
+    despawnEffect: {
+      type: MultiEffect
+      effects: [
+{
+type: ParticleEffect
+region: erekirliquefied-target
+spin: 1
+lifetime: 90
+sizeFrom: 8
+sizeTo: 8
+colorFrom: 000000ff
+colorTo: 000000ff
+length: 0
+}
+        {
+type: ParticleEffect
+region: erekirliquefied-purple-missile-bottom
+length: 0
+spin: 3
+colorFrom: 00000000
+colorTo: 000000ff
+lifetime: 90
+  }
+]
+    }
+    fragBullets: 1
+    fragBullet: {
+      type: BulletType
+      speed: 0
       hittable: false
       damage: 0
       lifetime: 90
