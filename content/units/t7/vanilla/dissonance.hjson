@@ -281,7 +281,7 @@ length: 0
     hitEffect: none
     despawnEffect: {
       type: MultiEffect
-      startDelay: 10
+      startDelay: 50
       effects: [
 {
 type: ParticleEffect
@@ -317,7 +317,7 @@ lifetime: 90
       speed: 0
       hittable: false
       damage: 0
-      lifetime: 100
+      lifetime: 150
       splashDamage: 120
       splashDamageRadius: 80
       hitEffect: sapExplosion
@@ -393,7 +393,7 @@ offset: -90
     hitEffect: none
     despawnEffect: {
       type: MultiEffect
-      startDelay: 10
+      startDelay: 50
       effects: [
 {
 type: ParticleEffect
@@ -432,7 +432,7 @@ randLength: false
       speed: 0
       hittable: false
       damage: 0
-      lifetime: 100
+      lifetime: 150
       splashDamage: 120
       splashDamageRadius: 80
       hitEffect: sapExplosion
