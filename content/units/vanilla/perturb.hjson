@@ -1,4 +1,4 @@
-name: Perturb
+name: Distortion
 type: flying
 flying: true
 description: A very large flying unit that shoots large volleys of missiles and constant missile fire at ennemy targets. Posseses destructive main missile that deals massive damage and disables regeneration for a long time.
