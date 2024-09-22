@@ -14,6 +14,8 @@ engineSize: 12
 engineOffset: 48
 template: ErekirUnitType
 lowAltitude: false
+range: 1000
+maxRange: 1000
 weapons: [
 {
 shootY: 0
@@ -247,8 +249,8 @@ type: ParticleEffect
 spin: 2
 region: erekirliquefied-purple-missile-top
 particles: 1
-colorFrom: 000000ff
-colorTo: 00000000
+colorFrom: ffffffff
+colorTo: ffffff00
 sizeFrom: 8
 sizeTo: 12
 lifetime: 50
@@ -283,8 +285,8 @@ type: ParticleEffect
 region: erekirliquefied-purple-missile-bottom
 length: 0
 spin: 3
-colorFrom: 000000aa
-colorTo: 000000ff
+colorFrom: ffffff00
+colorTo: ffffffff
 lifetime: 90
   }
 ]
