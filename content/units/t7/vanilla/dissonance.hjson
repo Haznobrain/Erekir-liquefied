@@ -17,6 +17,7 @@ lowAltitude: false
 range: 1000
 maxRange: 1000
 flying: true
+outlineRadius: 0
 weapons: [
 {
 shootY: 0
