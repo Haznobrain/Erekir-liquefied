@@ -13,11 +13,13 @@ description: Fires ballistic missile and massive damaging orbs at ground targets
 engineSize: 12
 engineOffset: 48
 template: ErekirUnitType
+lowAltitude: false
 weapons: [
 {
 shootY: 0
 x: 0
 y: 0
+recoil: 0
 mirror: false
 reload: 600
 name: dissonance
@@ -185,9 +187,10 @@ colorFrom: 6e7080aa
         damage: 15
         lightningColor: f890ff
         hitEffect: hitLancer
+        despawnSound: spark
           }
   }
-    pierceCap: 200
+    pierceCap: 40
     pierce: true
     pierceBuilding: true
     collidesAir: false
@@ -209,10 +212,9 @@ shootY: 0
 reload: 200
 y: -4
 x: 28
+rotate: true
 ignoreRotation: true
 mirror: true
-x: 0
-y: 0
 rotateSpeed: 360
 inaccuracy: 6
 shootSound: explosion
@@ -316,8 +318,7 @@ y: -4
 x: 28
 ignoreRotation: true
 mirror: true
-x: 0
-y: 0
+rotate: true
 rotateSpeed: 360
 inaccuracy: 6
 shootSound: explosion
