@@ -280,7 +280,7 @@ type: ParticleEffect
 region: erekirliquefied-purple-missile-bottom
 length: 0
 spin: 3
-colorFrom: 00000000
+colorFrom: 000000aa
 colorTo: 000000ff
 lifetime: 90
   }
@@ -354,7 +354,11 @@ colorTo: 00000000
 sizeFrom: 8
 sizeTo: 12
 lifetime: 50
-length: 0
+length: 80
+randLength: false
+baseLength: 0
+ignoreRotation: true
+offset: -90
   }
 ]
   }
@@ -383,11 +387,15 @@ length: 0
         {
 type: ParticleEffect
 region: erekirliquefied-purple-missile-bottom
-length: 0
+length: 80
 spin: 3
-colorFrom: 00000000
+colorFrom: 000000aa
 colorTo: 000000ff
 lifetime: 90
+baseLength: -80
+ignoreRotation: true
+offset: -90
+randLength: false
   }
 ]
     }
