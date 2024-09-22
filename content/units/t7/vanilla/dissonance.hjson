@@ -428,6 +428,7 @@ baseLength: -80
 ignoreRotation: true
 offset: -90
 randLength: false
+particles: 1
   }
 ]
     }
