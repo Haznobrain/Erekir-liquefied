@@ -219,6 +219,7 @@ bullet: {
   type: PointBulletType
   trailEffect: none
   maxRange: 1000
+  rangeOverride: 1000
   shootEffect: {
     type: MultiEffect
     effects: [
@@ -261,6 +262,7 @@ length: 0
     hitEffect: none
     despawnEffect: {
       type: MultiEffect
+      startDelay: 10
       effects: [
 {
 type: ParticleEffect
@@ -284,13 +286,15 @@ lifetime: 90
   }
 ]
     }
-    fragBullets: 1
+    lightning: 1
+    lightningLength: 2
+    lightningCone: 0
     fragBullet: {
       type: BulletType
       speed: 0
       hittable: false
       damage: 0
-      lifetime: 90
+      lifetime: 100
       splashDamage: 120
       splashDamageRadius: 80
       hitEffect: sapExplosion
@@ -307,8 +311,7 @@ rotate: true
 {
 shootY: 0
 reload: 200
-rotate: true
-y: 8
+y: -4
 x: 28
 ignoreRotation: true
 mirror: true
@@ -321,6 +324,7 @@ bullet: {
   type: PointBulletType
   trailEffect: none
   maxRange: 1000
+  rangeOverride: 1000
   shootEffect: {
     type: MultiEffect
     effects: [
@@ -363,6 +367,7 @@ length: 0
     hitEffect: none
     despawnEffect: {
       type: MultiEffect
+      startDelay: 10
       effects: [
 {
 type: ParticleEffect
@@ -386,13 +391,15 @@ lifetime: 90
   }
 ]
     }
-    fragBullets: 1
+    lightning: 1
+    lightningLength: 2
+    lightningCone: 0
     fragBullet: {
       type: BulletType
       speed: 0
       hittable: false
       damage: 0
-      lifetime: 90
+      lifetime: 100
       splashDamage: 120
       splashDamageRadius: 80
       hitEffect: sapExplosion
@@ -404,5 +411,6 @@ lifetime: 90
       despawnSound: largeExplosion
         }
 }
+rotate: true
 }
 ]
