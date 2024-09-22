@@ -36,6 +36,7 @@ colorFrom: f890ff
 colorTo: f890ff
 progress: charge
 under: true
+layer: 110
   }
 {
 under: true
@@ -418,8 +419,8 @@ region: erekirliquefied-purple-missile-bottom
 length: 80
       startDelay: 50
 spin: 3
-colorFrom: 000000aa
-colorTo: 000000ff
+colorFrom: ffffff00
+colorTo: ffffffff
 sizeFrom: 12
 sizeTo: 8
 lifetime: 90
