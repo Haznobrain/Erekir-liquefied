@@ -1,0 +1,309 @@
+type: flying
+name: Dissonance
+health: 250000
+armor: 24
+hitSize: 90
+speed: 0.65
+targetAir: false
+faceTargets: true
+lightRadius: 25
+singleTarget: true
+fogRadius: 100
+description: Fires ballistic missile and massive damaging orbs at ground targets.
+engineSize: 12
+engineOffset: 48
+template: ErekirUnitType
+drawBody: false
+weapons: [
+{
+shootY: 0
+x: 0
+y: 0
+mirror: false
+reload: 600
+name: dissonance
+parts: [
+{
+type: ShapePart
+circle: true
+y: 0
+radius: 0
+radiusTo: 24
+colorFrom: f890ff
+colorTo: f890ff
+progress: charge
+  }
+{
+type: RegionPart
+moveRot: -45
+mirror: true
+moveX: 4
+suffix: -arm
+progress: recoil
+  }
+]
+shootSound: dissonanceBlast
+shoot: {
+  firstShotDelay: 100
+    }
+bullet: {
+  type: BulletType
+  damage: 400
+  shootEffect: {
+    type: MultiEffect
+    effects: [
+{
+type: WaveEffect
+sizeTo: 150
+strokeFrom: 6
+colorTo: f890ff
+lifetime: 25
+  }
+      {
+type: ParticleEffect
+particles: 12
+sizeFrom: 10
+length: 120
+cone: 5
+offsetX: 0
+colorTo: 6e7080aa
+colorFrom: 6e7080aa
+  }
+      {
+type: ParticleEffect
+particles: 12
+sizeFrom: 10
+length: 120
+cone: 5
+offsetX: 5
+colorTo: 6e7080aa
+colorFrom: 6e7080aa
+  }
+      {
+type: ParticleEffect
+particles: 12
+sizeFrom: 10
+length: 120
+cone: 5
+offsetX: -5
+colorTo: 6e7080aa
+colorFrom: 6e7080aa
+  }
+      {
+type: ParticleEffect
+particles: 12
+sizeFrom: 10
+length: 120
+cone: 5
+offsetX: 10
+colorTo: 6e7080aa
+colorFrom: 6e7080aa
+  }
+      {
+type: ParticleEffect
+particles: 12
+sizeFrom: 10
+length: 120
+cone: 5
+offsetX: -10
+colorTo: 6e7080aa
+colorFrom: 6e7080aa
+  }
+      {
+type: ParticleEffect
+particles: 12
+sizeFrom: 10
+length: 120
+cone: 5
+offsetX: 15
+colorTo: 6e7080aa
+colorFrom: 6e7080aa
+  }
+      {
+type: ParticleEffect
+particles: 12
+sizeFrom: 10
+length: 120
+cone: 5
+offsetX: -15
+colorTo: 6e7080aa
+colorFrom: 6e7080aa
+  }
+      {
+type: ParticleEffect
+particles: 12
+sizeFrom: 10
+length: 120
+cone: 5
+offsetX: 20
+colorTo: 6e7080aa
+colorFrom: 6e7080aa
+  }
+      {
+type: ParticleEffect
+particles: 12
+sizeFrom: 10
+length: 120
+cone: 5
+offsetX: -20
+colorTo: 6e7080aa
+colorFrom: 6e7080aa
+  }
+]
+  }
+  hitEffect: none
+  despawnEffect: {
+    type: WaveEffect
+    lifetime: 150
+    interp: pow10Out
+    colorFrom: f890ff
+    colorTo: f890ff
+    strokeFrom: 8
+    strokeTo: 0
+      }
+  bulletInterval: 10
+  intervalBullets: 3
+  smokeEffect: none
+  intervalBullet: {
+    type: LightningBulletType
+    damage: 50
+    lightningLength: 50
+    lightningColor: f890ff
+    length: 8
+    stroke: 5
+    lightColor: f890ff
+    hitEffect: hitLancer
+    lifetime: 15
+    lightningType: {
+        type: LightningBulletType
+        status: electrified
+        lightningLength: 4
+        damage: 15
+        lightningColor: f890ff
+        hitEffect: hitLancer
+          }
+  }
+    pierceCap: 200
+    pierce: true
+    pierceBuilding: true
+    collidesAir: false
+    hitSize: 48
+    sprite: none
+    parts: [{
+type: ShapePart
+circle: true
+y: 0
+radius: 24
+colorFrom: f890ff
+colorTo: f890ff
+  }
+      ]
+      }
+{
+shootY: 0
+reload: 200
+shoot: {
+  type: ShootBarrel
+  barrels: [
+    28, -4, 0
+    28, 8, 0
+    -28, -4, 0
+    -28, 8, 0
+      ]
+  shots: 4
+    }
+ignoreRotation: true
+mirror: false
+x: 0
+y: 0
+rotateSpeed: 360
+inaccuracy: 6
+shootSound: explosion
+bullet: {
+  type: PointBulletType
+  trailEffect: none
+  maxRange: 1000
+  shootEffect: {
+    type: MultiEffect
+    effects: [
+{
+type: WaveEffect
+lifetime: 15
+sizeTo: 40
+strokeFrom: 4
+layer: 116
+colorTo: f890ff
+}
+      {
+type: ParticleEffect
+length: 20
+colorFrom: 6e7080aa
+colorTo: 6e708000
+sizeFrom: 10
+lifetime: 80
+  }
+{
+type: ParticleEffect
+spin: 2
+region: erekirliquefied-purple-missile-top
+particles: 1
+colorFrom: 000000ff
+colorTo: 00000000
+sizeFrom: 8
+sizeTo: 12
+lifetime: 50
+length: 0
+  }
+]
+  }
+    smokeEffect: none
+    collides: false
+    collidesAir: false
+    collidesGround: false
+    collidesTiles: false
+    damage: 0
+    hitEffect: none
+    despawnEffect: {
+      type: MultiEffect
+      effects: [
+{
+type: ParticleEffect
+region: erekirliquefied-target
+spin: 1
+lifetime: 90
+sizeFrom: 8
+sizeTo: 8
+colorFrom: 000000ff
+colorTo: 000000ff
+length: 0
+}
+        {
+type: ParticleEffect
+region: erekirliquefied-purple-missile-bottom
+length: 0
+spin: 3
+colorFrom: 00000000
+colorTo: 000000ff
+lifetime: 90
+  }
+]
+    }
+    fragBullets: 1
+    fragBullet: {
+      type: BulletType
+      hittable: false
+      damage: 0
+      lifetime: 90
+      splashDamage: 120
+      splashDamageRadius: 80
+      hitEffect: sapExplosion
+      supressionRange: 100
+      supressionDuration: 300
+      collidesAir: false
+      collides: false
+      despawnHit: true
+      despawnSound: largeExplosion
+        }
+}
+}
+]
