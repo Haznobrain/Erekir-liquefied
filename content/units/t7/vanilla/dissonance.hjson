@@ -17,7 +17,6 @@ lowAltitude: false
 range: 1000
 maxRange: 1000
 flying: true
-outlineRadius: 0
 weapons: [
 {
 shootY: 0
@@ -26,8 +25,6 @@ y: 0
 recoil: 0
 mirror: false
 reload: 600
-name: dissonance
-top: false
 parts: [
 {
 type: ShapePart
@@ -46,7 +43,7 @@ type: RegionPart
 moveRot: -45
 mirror: true
 moveX: 4
-suffix: -arm
+name: erekirliquefied-dissonance-arm
 progress: recoil
   }
 ]
@@ -237,6 +234,9 @@ bullet: {
   type: PointBulletType
   trailEffect: none
   maxRange: 1000
+  speed: 1000
+  lifetime: 1
+  scaleLife: true
   rangeOverride: 1000
   shootEffect: {
     type: MultiEffect
@@ -348,6 +348,9 @@ bullet: {
   type: PointBulletType
   trailEffect: none
   maxRange: 1000
+  speed: 1000
+  lifetime: 1
+  scaleLife: true
   rangeOverride: 1000
   shootEffect: {
     type: MultiEffect
