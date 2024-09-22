@@ -276,8 +276,8 @@ spin: 1
 lifetime: 90
 sizeFrom: 8
 sizeTo: 8
-colorFrom: 000000ff
-colorTo: 000000ff
+colorFrom: ffffffff
+colorTo: ffffffff
 length: 0
 }
         {
@@ -353,8 +353,8 @@ type: ParticleEffect
 spin: 2
 region: erekirliquefied-purple-missile-top
 particles: 1
-colorFrom: 000000ff
-colorTo: 00000000
+colorFrom: ffffffff
+colorTo: ffffff00
 sizeFrom: 8
 sizeTo: 12
 lifetime: 50
@@ -384,8 +384,8 @@ spin: 1
 lifetime: 90
 sizeFrom: 8
 sizeTo: 8
-colorFrom: 000000ff
-colorTo: 000000ff
+colorFrom: ffffffff
+colorTo: ffffffff
 length: 0
 }
         {
