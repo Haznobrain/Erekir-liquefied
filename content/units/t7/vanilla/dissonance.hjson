@@ -49,6 +49,8 @@ shoot: {
 bullet: {
   type: BulletType
   damage: 400
+  speed: 2
+  lifetime: 400
   shootEffect: {
     type: MultiEffect
     effects: [
