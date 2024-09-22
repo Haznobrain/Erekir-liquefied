@@ -16,6 +16,7 @@ template: ErekirUnitType
 lowAltitude: false
 range: 1000
 maxRange: 1000
+flying: true
 weapons: [
 {
 shootY: 0
@@ -297,6 +298,8 @@ length: 0
         {
 type: ParticleEffect
 region: erekirliquefied-purple-missile-bottom
+sizeFrom: 12
+sizeTo: 8
 length: 0
 spin: 3
 colorFrom: ffffff00
@@ -411,6 +414,8 @@ length: 80
 spin: 3
 colorFrom: 000000aa
 colorTo: 000000ff
+sizeFrom: 12
+sizeTo: 8
 lifetime: 90
 baseLength: -80
 ignoreRotation: true
