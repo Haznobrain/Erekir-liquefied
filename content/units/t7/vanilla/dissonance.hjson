@@ -21,6 +21,7 @@ y: 0
 mirror: false
 reload: 600
 name: dissonance
+top: false
 parts: [
 {
 type: ShapePart
