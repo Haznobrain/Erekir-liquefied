@@ -288,10 +288,10 @@ length: 0
 type: ParticleEffect
 region: erekirliquefied-target
 spin: 1
-      startDelay: 50
-layer: 110
 lifetime: 90
+      startDelay: 50
 sizeFrom: 8
+layer: 110
 sizeTo: 8
 colorFrom: ffffffff
 colorTo: ffffffff
@@ -300,15 +300,19 @@ length: 0
         {
 type: ParticleEffect
 region: erekirliquefied-purple-missile-bottom
-sizeFrom: 12
-sizeTo: 8
-length: 0
-spin: 3
+length: 80
       startDelay: 50
+spin: 3
 colorFrom: ffffff00
 colorTo: ffffffff
-layer: 116
+sizeFrom: 12
+sizeTo: 8
 lifetime: 90
+baseLength: -80
+ignoreRotation: true
+offset: -90
+randLength: false
+particles: 1
   }
 ]
     }
