@@ -56,7 +56,7 @@ shootStatusDuration: 100
 shootStatus: unmoving
 bullet: {
   type: BulletType
-  damage: 400
+  damage: 2400
   speed: 2
   lifetime: 400
   shootEffect: {
@@ -187,7 +187,7 @@ colorFrom: 6e7080aa
   smokeEffect: none
   intervalBullet: {
     type: LightningBulletType
-    damage: 50
+    damage: 300
     lightningLength: 50
     lightningColor: f890ff
     length: 8
@@ -199,7 +199,7 @@ colorFrom: 6e7080aa
         type: LightningBulletType
         status: electrified
         lightningLength: 4
-        damage: 15
+        damage: 65
         lightningColor: f890ff
         hitEffect: hitLancer
         despawnSound: spark
