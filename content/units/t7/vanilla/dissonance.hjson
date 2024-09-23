@@ -282,7 +282,7 @@ length: 0
     smokeEffect: none
     collides: false
     collidesAir: false
-    collidesGround: false
+    collidesGround: true
     collidesTiles: false
     damage: 0
     hitEffect: none
@@ -408,7 +408,7 @@ offset: -90
     smokeEffect: none
     collides: false
     collidesAir: false
-    collidesGround: false
+    collidesGround: true
     collidesTiles: false
     damage: 0
     hitEffect: none
