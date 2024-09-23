@@ -313,12 +313,14 @@ ignoreRotation: true
 offset: -90
 randLength: false
 particles: 1
+layer: 110
   }
 ]
     }
     lightning: 1
     lightningLength: 2
     lightningCone: 0
+    fragBullets: 1
     fragBullet: {
       type: BulletType
       speed: 0
@@ -433,12 +435,14 @@ ignoreRotation: true
 offset: -90
 randLength: false
 particles: 1
+layer: 110
   }
 ]
     }
     lightning: 1
     lightningLength: 2
     lightningCone: 0
+    fragBullets: 1
     fragBullet: {
       type: BulletType
       speed: 0
