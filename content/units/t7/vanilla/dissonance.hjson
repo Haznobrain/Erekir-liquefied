@@ -52,6 +52,8 @@ shootSound: dissonanceBlast
 shoot: {
   firstShotDelay: 100
     }
+shootStatusDuration: 100
+shootStatus: unmoving
 bullet: {
   type: BulletType
   damage: 400
@@ -231,6 +233,9 @@ mirror: true
 rotateSpeed: 360
 inaccuracy: 6
 shootSound: explosion
+shoot: {
+  firstShotDelay: 5
+  }
 bullet: {
   type: PointBulletType
   trailEffect: none
@@ -320,14 +325,14 @@ layer: 110
     lightning: 1
     lightningLength: 2
     lightningCone: 0
-    fragBullets: 1
+    fragBullets: 2
     fragBullet: {
       type: BulletType
       speed: 0
       hittable: false
       damage: 0
       lifetime: 150
-      splashDamage: 120
+      splashDamage: 100
       splashDamageRadius: 80
       hitEffect: sapExplosion
       supressionRange: 100
@@ -351,6 +356,10 @@ rotate: true
 rotateSpeed: 360
 inaccuracy: 6
 shootSound: explosion
+chargeSound: missileLock
+shoot: {
+  firstShotDelay: 5
+  }
 bullet: {
   type: PointBulletType
   trailEffect: none
@@ -442,14 +451,14 @@ layer: 110
     lightning: 1
     lightningLength: 2
     lightningCone: 0
-    fragBullets: 1
+    fragBullets: 2
     fragBullet: {
       type: BulletType
       speed: 0
       hittable: false
       damage: 0
       lifetime: 150
-      splashDamage: 120
+      splashDamage: 100
       splashDamageRadius: 80
       hitEffect: sapExplosion
       supressionRange: 100
