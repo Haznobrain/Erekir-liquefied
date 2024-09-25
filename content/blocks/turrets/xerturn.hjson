@@ -220,7 +220,7 @@ lifetime: 64
 }
 research: smite
 requirements: [
-      beryllium/8000
+      beryllium/2800
       tungsten/2500
       carbide/800
       phase-fabric/300
