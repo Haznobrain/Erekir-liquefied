@@ -19,7 +19,7 @@ xRand: 12
 shootWarmupSpeed: 0.026
 scaledHealth: 350
 requirements: [
-  beryllium/5000
+  beryllium/4000
   silicon/3000
   graphite/4000
   tungsten/1000
