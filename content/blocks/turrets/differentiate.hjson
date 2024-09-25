@@ -1,5 +1,5 @@
 type: ItemTurret
-reload: 10
+reload: 15
 description: Shoots differently depending on the ammunition provided to it. Gets a very large firerate boost when supplied with water
 shootSound: shootSnap
 name: Differentiate
@@ -302,6 +302,7 @@ surge-alloy: {
   rangeChange: -40
   damage: 145
   width: 16
+  reloadMultiplier: 0.8
   colors: [ffffa3, ffffff, ffcd66]
   sideAngle: 15
   lightningSpacing: 8
@@ -323,7 +324,7 @@ reloadMultiplier: 0.7
 }
 thorium: {
   type: PointBulletType
-  reloadMultiplier: 0.5
+  reloadMultiplier: 0.3
   rangeChange: 160
       buildingDamageMultiplier: 0.01
   splashDamage: 350
@@ -399,6 +400,7 @@ phase-fabric: {
   length: 560
   pointEffectSpace: 20
   ammoMultiplier: 5
+  reloadMultiplier: 0.3
   pierce: true
   pierceEffect: {
     particles: 1
