@@ -1,0 +1,53 @@
+{
+localizedName: Desolate Corridor
+description: A seemingly abandoned outpost from an obsolete team has been detected here. Attacking it may cause retaliation from large waves of different types of units, including potential tier 6 units.
+sector: 18 ##placeholder while i make the asteroid
+difficulty: 8
+planet: erekir
+allowLaunchLoadout: false
+allowLaunchSchematics: false
+addStartingItems: true
+overrideLaunchDefaults: true
+research: {
+parent: origin
+objectives: [
+  {
+    type: SectorComplete
+    preset: chasm
+      }
+    {
+    type: SectorComplete
+    preset: concave
+      }
+    {
+    type: SectorComplete
+    preset: erebus
+      }
+    {
+    type: SectorComplete
+    preset: erekir-junction
+      }
+    {
+    type: SectorComplete
+    preset: faultline
+      }
+    {
+    type: SectorComplete
+    preset: fissure
+      }
+    {
+    type: SectorComplete
+    preset: sinkhole
+      }
+    {
+    type: SectorComplete
+    preset: slag-river
+      }
+    fission,
+    amputate,
+    aftershock,
+    volt,
+    shatter
+      ]
+}
+}
