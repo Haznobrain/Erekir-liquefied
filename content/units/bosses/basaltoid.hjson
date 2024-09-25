@@ -121,7 +121,7 @@ fogRadius: 50
 rotateSpeed: 0.9
 engineColor: ff0000
 immunities: [
-  metalfrag
+  erekirliquefied-metalfrag
 ]
   weapons: [{
     name: basaltoid
