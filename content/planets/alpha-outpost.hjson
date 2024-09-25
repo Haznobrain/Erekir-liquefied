@@ -1,0 +1,44 @@
+type: planet
+generator: AsteroidGenerator
+parent: erekir
+localizedName: "[#d1efff]Alpha Outpost"
+radius: 0.3
+minZoom: 0.6
+atmosphereRadIn: 0
+name: Commarchya
+description: "A small asteroid with some ennemy forces"
+defaultEnv: 17
+accessible: true
+    hiddenItems: [
+        "copper",
+        "lead",
+        "scrap",
+        "coal",
+        "titanium",
+        "plastanium",
+        "spore-pod",
+        "blast-compound",
+        "pyratite",
+        "metaglass",
+    ],
+bloom: true
+orbitOffset: 30
+updateLighting: false
+tidalLock: true
+mesh: {
+  type: NoiseMesh
+  divisions: 3
+  radius: 0.2
+  planet: 
+  color1: 1b272e
+  color2: 7d3422
+  octaves: 6
+  persistence: 0.3
+  scale: 1
+  mag: 5
+  coct: 4
+  cper: 1.4
+  cscl: 0.3
+  cthresh: 0.01
+  }
+iconColor: ffd2a3
