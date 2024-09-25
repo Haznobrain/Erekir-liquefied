@@ -441,4 +441,12 @@ requirements: [
   phase-fabric/800
   ]
 category: turret
-research: ohm
+research: {
+        parent: aftershock
+        objectives: [
+{
+type: OnSector
+preset: desolate-corridor
+}
+]
+}
