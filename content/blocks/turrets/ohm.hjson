@@ -666,7 +666,15 @@ requirements: [
     azpacite/600
 ]
 category: turret
-research: malign
+research: {
+  parent: volt
+  objectives: [
+{
+type: OnSector
+preset: desolate-corridor
+}
+]
+}
 drawer: {
   type: DrawTurret
   parts: [
