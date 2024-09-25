@@ -172,4 +172,12 @@ type: HaloPart
 ]
 }
 ]
-research: malign
+research: {
+    parent: malign
+    objectives: [
+        {
+        type: OnSector
+        preset: origin
+        }
+        ]
+}
