@@ -9,6 +9,7 @@ shootWarmupSpeed: 0.03
 targetAir: true
 targetGround: true
 loopSound: none
+predictTarget: false
 shootY: 0
 shootEffect: {
     type: MultiEffect
