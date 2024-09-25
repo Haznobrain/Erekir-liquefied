@@ -9,6 +9,10 @@ name: Commarchya
 description: "A small asteroid with some ennemy forces"
 defaultEnv: 17
 accessible: true
+clearSectorOnLose: true,
+allowSectorInvasion: false,
+allowLaunchToNumbered: false,
+drawOrbit: false
     hiddenItems: [
         "copper",
         "lead",
