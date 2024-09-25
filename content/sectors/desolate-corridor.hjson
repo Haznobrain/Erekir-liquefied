@@ -41,7 +41,7 @@ objectives: [
       }
     {
     type: SectorComplete
-    preset: slag-river
+    preset: slag_river
       }
     fission,
     amputate,
