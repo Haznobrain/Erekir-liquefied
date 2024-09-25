@@ -1,9 +1,9 @@
 {
 localizedName: Desolate Corridor
 description: A seemingly abandoned outpost from an obsolete team has been detected here. Attacking it may cause retaliation from large waves of different types of units, including potential tier 6 units.
-sector: 18 ##placeholder while i make the asteroid
+sector: 0
 difficulty: 8
-planet: erekir
+planet: alpha-outpost
 allowLaunchLoadout: false
 allowLaunchSchematics: false
 addStartingItems: true
