@@ -1,6 +1,6 @@
 {
 localizedName: Cornered
-description: A small ennemy research facility has been detected here. Destroy the base and survive the large waves coming afterwards.
+description: A sector with plentiful ressources and high ennemy presence. Take over the sector and research the Shatter turret to deal with the latter waves.
 sector: 32
 captureWave: 56
 difficulty: 8
@@ -10,6 +10,6 @@ allowLaunchSchematics: false
 addStartingItems: true
 overrideLaunchDefaults: true
 research: {
-parent: stronghold
+parent: karst
 }
 }
