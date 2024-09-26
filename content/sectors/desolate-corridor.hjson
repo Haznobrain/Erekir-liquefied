@@ -8,6 +8,7 @@ allowLaunchLoadout: false
 allowLaunchSchematics: false
 addStartingItems: true
 overrideLaunchDefaults: true
+captureWave: 51
 research: {
 parent: origin
 objectives: [
