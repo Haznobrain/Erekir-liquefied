@@ -7,6 +7,7 @@ size: 3
 absorbLasers: true
 shieldHealth: 15000
 width: 48
+conductivePower: true
 length: 48
 cooldownNormal: 800
 cooldownLiquid: 600
