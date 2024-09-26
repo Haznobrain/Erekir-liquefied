@@ -1,7 +1,7 @@
 {
 localizedName: Cornered
 description: A sector with plentiful ressources and high ennemy presence. Take over the sector and research the Shatter turret to deal with the latter waves.
-sector: 32
+sector: 17
 captureWave: 56
 difficulty: 8
 planet: erekir
