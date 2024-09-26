@@ -105,7 +105,7 @@ research: {
   parent: smite
   objectives: [
     {
-    preset: origin
+    preset: cornered
     type: OnSector
     }
       ]
