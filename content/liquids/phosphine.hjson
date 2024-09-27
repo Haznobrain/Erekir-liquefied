@@ -1,0 +1,11 @@
+type: Liquid
+gas: true
+color: f3ff98
+gasColor: f3ff98
+lightColor: f3ff98cc
+flammability: 0.75
+temperature: 0.7
+heatCapacity: 0.1
+viscosity: 0
+explosiveness: 1
+research: neoplasm
