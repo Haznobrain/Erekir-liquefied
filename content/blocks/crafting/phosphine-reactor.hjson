@@ -1,6 +1,7 @@
 type: HeatCrafter
 heatRequirement: 12
-outputLiquid: phosphine/0.17
+outputLiquid: phosphine/0.017
+squareSprite: false
 name: Phosphine Reactor
 description: Uses atmospheric gases in a reaction with living beings to make phosphine.
 consumes: {
