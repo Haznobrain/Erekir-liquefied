@@ -11,7 +11,7 @@ consumes: {
 carbide/5
 ]
     liquids: [
-      cyanogen/0.4
+      phosphine/0.3
       hydrogen/0.5
     ]
     power: 20
