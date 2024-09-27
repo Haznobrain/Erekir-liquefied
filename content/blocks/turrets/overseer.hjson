@@ -15,6 +15,11 @@ predictTarget: false
 recoil: 4
 ammoCapacity: 100
 ammoPerShot: 20
+consumes: {
+  liquids: [
+    phosphine/0.15
+      ]
+}
 chargeSound: lasercharge2
   shoot: {
     firstShotDelay: 30
