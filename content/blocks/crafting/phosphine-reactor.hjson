@@ -1,0 +1,65 @@
+type: HeatCrafter
+heatRequirement: 12
+output: phosphine/0.17
+consumes: {
+  power: 5
+  liquids: [
+    {
+    type: ConsumeLiquid
+    liquid: neoplasm
+    amount: 0.084
+      }
+{
+    type: ConsumeLiquid
+    liquid: arkycite
+    amount: 0.3
+      ]
+}
+requirements: [
+    beryllium/400
+    silicon/500
+    phase-fabric/60
+    carbide/200
+    ]
+size: 3
+category: crafting
+research: {
+  parent: azpanogen-evaporator
+    }
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+}
+    {
+type: DrawLiquidTile
+padding: 2
+drawLiquid: neoplasm
+  }
+{
+type: DrawLiquidTile
+padding: 2
+drawLiquid: arkycite
+}
+{
+type: DrawFrames
+frames: 4
+interval: 5
+suffix: -frame
+  }
+{
+type: DrawLiquidTile
+padding: 2
+drawLiquid: phosphine
+}
+{
+type: DrawDefault
+  }
+{
+type: DrawGlowRegion
+color: f3ff98
+  }
+]
+}
