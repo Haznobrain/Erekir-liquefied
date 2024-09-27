@@ -61,5 +61,14 @@ type: DrawDefault
 type: DrawGlowRegion
 color: f3ff98
   }
+{
+type: DrawParticles
+color: f3ff98
+alpha: 0.6
+particleSize: 4
+particleRad: 12
+particleLife: 140
+}
 ]
 }
+ambientSound: extractLoop
