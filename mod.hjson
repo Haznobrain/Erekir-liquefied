@@ -1,11 +1,11 @@
 name: erekirliquefied
 displayName: Erekir Liquefied
 author: Haznobrain
-subtitle: "now with 100% extra scripts!"
+subtitle: "Download 0.2 for a surely stable and balanced release!"
 description:
  "A mod that was originally meant to add liquid related stuff to erekir but i ended up having too many ideas.
   helpers: GameStuffOfficial, @mr_shapka228, @smolkeys_
   special thanks to u/WishboneOk8660 on reddit, who made amazing fanart of the mod and the og idea for the support boat line."
-version: 1
+version: 0.2
 minGameVersion: 146
 repo: Haznobrain/Erekir-liquefied
