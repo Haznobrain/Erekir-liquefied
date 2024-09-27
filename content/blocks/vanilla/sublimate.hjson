@@ -1,0 +1,37 @@
+ammoTypes: {
+  ozone: {
+    type: ContinuousFlameBulletType
+    damage: 60
+    length: 130
+    knockback: 1
+    buildingDamageMultiplier: 0.3
+    pierceCap: 2
+    colors: [eb7abe66, e189f5bb, 907ef7cc, 91a4ff, ffffff]
+    }
+  cyanogen: {
+    type: ContinuousFlameBulletType
+    damage: 130
+    rangeChange: 70
+    length: 200
+    knockback: 2
+    pierceCap: 3
+    buildingDamageMultiplier: 0.3
+    colors: [465ab866, 66a6d2bb, 89e8b6cc, cafcbe, ffffff]
+    flareColor: 89e8b6
+    hitColor: 89e8b6
+    lightColor: 89e8b6
+    }
+  phosphine: {
+    type: ContinuousFlameBulletType
+    damage: 217
+    rangeChange: 120
+    length: 250
+    knockback: 1.5
+    pierceCap: 4
+    buildingDamageMultiplier: 0.1
+    colors: [f3ff9866, f4ff9fbb, f6ffaecc, f8ffc5, ffffff]
+    flareColor: f8ffc5
+    hitColor: f8ffc5
+    lightColor: f8ffc5
+    }
+    }
