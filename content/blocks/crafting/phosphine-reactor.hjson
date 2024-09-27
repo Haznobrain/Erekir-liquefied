@@ -4,15 +4,8 @@ output: phosphine/0.17
 consumes: {
   power: 5
   liquids: [
-    {
-    type: ConsumeLiquid
-    liquid: neoplasm
-    amount: 0.084
-      }
-{
-    type: ConsumeLiquid
-    liquid: arkycite
-    amount: 0.3
+    neoplasm/0.084
+    arkycite/0.3
       ]
 }
 requirements: [
