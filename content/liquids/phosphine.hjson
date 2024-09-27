@@ -9,3 +9,5 @@ heatCapacity: 0.1
 viscosity: 0
 explosiveness: 1
 research: neoplasm
+name: Phosphine
+description: A gas produced by organic beings. Used in a few important things.
