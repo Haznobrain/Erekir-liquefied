@@ -16,6 +16,7 @@ singleTarget: true
 fogRadius: 20
 engineOffset: 7
 engineSize: 3
+lowAltitude: true
 engines: [
 {
 x: 4
@@ -35,9 +36,8 @@ radius: 3
     name: incise
     top: false
     shootSound: missile
-    
     y: 0
-    shootY: 6
+    shootY: 4
     mirror: false
     x: 0
     reload: 160
@@ -100,23 +100,26 @@ radius: 3
           {
           type: ParticleEffect
           length: 20
-          sizeFrom: 5
+          sizeFrom: 3
           cone: 5
           interp: pow5Out
           sizeInterp: pow5In
           colorTo: a2a2a2
           lifetime: 30
+          particles: 3
           }
           {
           type: ParticleEffect
           line: true
-          strokeFrom: 4
+          strokeFrom: 3
           strokeTo: 0
-          lenFrom: 4
+          lenFrom: 3
           lenTo: 0
           colorTo: d1efff
           interp: pow5Out
           sizeInterp: pow5In
+          particles: 3
+          cone: 5
           }
           ]
           }
