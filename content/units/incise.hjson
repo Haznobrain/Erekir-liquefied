@@ -70,6 +70,7 @@ radius: 3
         drag: 0.03
         height: 6
         width: 5
+        pierceCap: 4
         parts: [
         {
         type: FlarePart
@@ -154,12 +155,13 @@ radius: 3
         length: 90
         width: 12
         lifetime: 25
+        pierceCap: 6
         colors: [d1efffaa, d1efff, ffffff]
         chargeEffect:{
           type: MultiEffect
           effects: [lancerLaserChargeBegin, lancerLaserCharge]
             }
-        shootEffect: lancerLaserShoot
+        shootEffect: hitLancer
         smokeEffect: lancerLaserShootSmoke
         hitEffect: hitLancer
         largeHit: true
