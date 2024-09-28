@@ -63,8 +63,8 @@ radius: 3
         lightningLengthRand: 2
         backColor: d1efff
         frontColor: ffffff
-        weaveMag: 6
-        weaveScl: 20
+        weaveMag: 20
+        weaveScl: 10
         speed: 6
         lifetime: 60
         drag: 0.03
@@ -134,7 +134,7 @@ radius: 3
     mirror: true
     y: 0
     top: false
-    layerOffset: -0.000001
+    layerOffset: -0.00001
     x: 0
     shootX: 3.5
     shootY: 7
