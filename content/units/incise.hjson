@@ -57,7 +57,7 @@ radius: 3
         pierce: true
         pierceBuilding: true
         lightning: 1
-        lightningDamage: 3
+        lightningDamage: 4
         lightningColor: d1efff
         lightningLength: 5
         lightningLengthRand: 2
@@ -151,7 +151,7 @@ radius: 3
       }
     bullet: {
         type: LaserBulletType
-        damage: 25
+        damage: 40
         length: 90
         width: 12
         lifetime: 25
