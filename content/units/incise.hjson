@@ -63,7 +63,7 @@ radius: 3
         lightningLengthRand: 2
         backColor: d1efff
         frontColor: ffffff
-        weaveMag: 20
+        weaveMag: 30
         weaveScl: 10
         speed: 6
         lifetime: 60
