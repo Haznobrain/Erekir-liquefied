@@ -2,9 +2,9 @@ name: Incise
 type: flying
 flying: true
 template: ErekirUnitType
-description: A more bulky air specialist that shoots a piercing short-range laser and piercing medium-range homing missiles.
-health: 1200
-hitSize: 16
+description: A more bulky air specialist that charges and fires damaging lasers and occasional bursts of missiles.
+health: 1150
+hitSize: 13
 armor: 3
 speed: 1.8
 drag: 0.016
@@ -34,48 +34,132 @@ radius: 3
 {
     name: incise
     top: false
-    shootSound: laser
+    shootSound: missile
+    
     y: 0
     shootY: 6
     mirror: false
     x: 0
-    reload: 45
+    reload: 160
+    heatColor: ff0000aa
     recoil: 0
     shootCone: 5
+    shoot: {
+      type: ShootSine
+      shots: 6
+      scl: 3
+      mag: 12
+      shotDelay: 2
+      }
     bullet: {
-      type: LaserBulletType
-      damage: 40
-      pierceCap: 10
-      length: 124
-      width: 6
-      recoil: 1
+        type: MissileBulletType
+        damage: 10
+        pierce: true
+        pierceBuilding: true
+        lightning: 1
+        lightningDamage: 3
+        lightningColor: d1efff
+        lightningLength: 5
+        lightningLengthRand: 2
+        backColor: d1efff
+        frontColor: ffffff
+        weaveMag: 6
+        weaveScl: 20
+        speed: 6
+        lifetime: 60
+        drag: 0.03
+        height: 6
+        width: 5
+        parts: [
+        {
+        type: FlarePart
+        radius: 6
+        radiusTo: 0
+        progress: life
+        color1: d1efff
+        color2: ffffff
+        y: -3
+        }
+          ]
+        hitEffect: {
+          type: MultiEffect
+          effects: [hitSquaresColor
+            {
+            type: WaveEffect
+            sizeTo: 20
+            strokeFrom: 3
+            colorTo: d1efff
+            }
+            ]
+          }
+        despawnEffect: none
+        despawnHit: true
+        smokeEffect: {
+          type: MultiEffect
+          effects: [
+          {
+          type: ParticleEffect
+          length: 20
+          sizeFrom: 5
+          cone: 5
+          interp: pow5Out
+          sizeInterp: pow5In
+          colorTo: a2a2a2
+          lifetime: 30
+          }
+          {
+          type: ParticleEffect
+          line: true
+          strokeFrom: 4
+          strokeTo: 0
+          lenFrom: 4
+          lenTo: 0
+          colorTo: d1efff
+          interp: pow5Out
+          sizeInterp: pow5In
+          }
+          ]
+          }
+      shootEffect: ShootBigColor
 }
 }
 {
   name: incise-weapon
     mirror: true
-    y: 0.5
+    y: 0
     top: false
-    x: 4
-    shootX: 0
+    layerOffset: -0.000001
+    x: 0
+    shootX: 3.5
     shootY: 7
-    reload: 30
-    shootCone: 15
-    shootSound: missile
+    reload: 60
+    shootCone: 1
+    shootSound: laser
+    soundPitchMin: 3
+    soundPitchMax: 4
+    chargeSound: laserCharge2
+    heatColor: ff0000aa
+    shoot: {
+      firstShotDelay: 40
+      }
     bullet: {
-        type: MissileBulletType
-        backColor: 8ca9e8
-        frontColor: ffffff
-        pierce: true
-        pierceCap: 5
-        damage: 20
-        lifetime: 32
-        speed: 5
-        trailColor: 8ca9e8
-        hitEffect: hitBulletColor
-        despawnEffect: hitBulletColor
-        hitColor: 8ca9e8
-     }     
+        type: LaserBulletType
+        damage: 25
+        length: 90
+        width: 12
+        lifetime: 25
+        colors: [d1efffaa, d1efff, ffffff]
+        chargeEffect:{
+          type: MultiEffect
+          effects: [lancerLaserChargeBegin, lancerLaserCharge]
+            }
+        shootEffect: lancerLaserShoot
+        smokeEffect: lancerLaserShootSmoke
+        hitEffect: hitLancer
+        largeHit: true
+        sideAngle: 10
+        sideLength: 15
+     }  
 }
   ]
 lightRadius: 200
