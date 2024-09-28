@@ -120,7 +120,10 @@ radius: 3
           }
           ]
           }
-      shootEffect: ShootBigColor
+      shootEffect: shootBigColor
+      trailColor: d1efff
+      trailLength: 6
+      trailWidth: 1.2
 }
 }
 {
