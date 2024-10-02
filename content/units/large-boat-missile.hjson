@@ -19,7 +19,7 @@ hidden: true
 engineOffset: 4
 engineSize: 0
 trailLength: 12
-trailScl: 4
+trailScl: 2.4
 trailColor: ffa665
 loopSound: torch-missile-loop
 abilities: [
