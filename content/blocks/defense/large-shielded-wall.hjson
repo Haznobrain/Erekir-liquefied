@@ -7,11 +7,16 @@ chanceDeflect: 8
 armor: 15
 size: 3
 outputsPower: false
+conductivePower: true
 insulated: true
 absorbLasers: true
 category: defense
+consumes: {
+    power: 0.34
+        }
 requirements: [
     phase-fabric/45
     surge-alloy/27
     beryllium/27
+    azpacite/12
   ]
