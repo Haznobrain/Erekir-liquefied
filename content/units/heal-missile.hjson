@@ -20,7 +20,7 @@ engineOffset: 2
 engineSize: 3
 engineColor: 96f58c
 trailLength: 12
-trailScl: 4
+trailScl: 1.1
 trailColor: 96f58c
 loopSound: missileTrail
 missileAccelTime: 10
