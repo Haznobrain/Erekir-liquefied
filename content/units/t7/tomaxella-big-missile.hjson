@@ -21,7 +21,7 @@ engineOffset: 6
 engineSize: 2
 engineColor: 84f491
 trailLength: 12
-trailScl: 4
+trailScl: 1.2
 trailColor: 84f491
 loopSound: missileTrail
 MissileAccelTime: 72
