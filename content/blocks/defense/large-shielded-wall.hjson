@@ -8,7 +8,7 @@ armor: 15
 size: 3
 outputsPower: false
 conductivePower: true
-insulated: true
+insulated: false
 absorbLasers: true
 category: defense
 consumes: {
