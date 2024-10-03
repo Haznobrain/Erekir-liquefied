@@ -1,7 +1,7 @@
 filter: [
-  large-tungsten-wall,
-  large-beryllium-wall,
-  large-carbide-wall,
+  tungsten-wall-large,
+  beryllium-wall-large,
+  carbide-wall-large,
   reinforced-surge-wall-large,
   reinforced-liquid-container,
   beam-node,
