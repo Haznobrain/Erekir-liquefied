@@ -1,0 +1,11 @@
+filter: [
+  large-tungsten-wall,
+  large-beryllium-wall,
+  large-carbide-wall,
+  reinforced-surge-wall-large,
+  reinforced-liquid-container,
+  beam-node,
+  erekirliquefied-large-azpacite-wall,
+  shielded-wall
+    ]
+  
