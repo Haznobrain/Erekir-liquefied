@@ -4,6 +4,7 @@ type: Reconstructor
 configurable: false
 constructTime: 2400
 category: units
+regionSuffix: -dark
   consumes: {
     power: 2
 items: {
