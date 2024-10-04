@@ -174,8 +174,8 @@ shootType: {
     type: MultiEffect
     effects:[shootSmokeSquareSparse, {
     type: WaveEffect
-    colorFrom: d33f3f
-    colorTo: d33f3f
+    colorFrom: f5773b
+    colorTo: f5773b
     sizeTo: 4
     strokeFrom: 4
     lifetime: 24
@@ -188,12 +188,12 @@ shootType: {
   speed: 0.1
   drag: -0.1
   lifetime: 63
-  trailLength: 60
+  trailLength: 30
   trailWidth: 1.5
-  trailColor: d33f3f
+  trailColor: f5773b
   type: BasicBulletType
   frontColor: ffffff
-  backColor: d33f3f
+  backColor: f5773b
   sprite: circle-bullet
   damage: 90
   splashDamage: 80
@@ -205,7 +205,7 @@ shootType: {
   fragBullet: {
     type: ShrapnelBulletType
     serrations: 0
-    toColor: d33f3f
+    toColor: f5773b
     length: 60
     lifetime: 30
     width: 12
@@ -213,12 +213,12 @@ shootType: {
     damage: 100
     status: melting
     statusDuration: 1200
-    knockback: 20
+    knockback: 1.2
     impact: true
     }
   fragRandomSpread: 0
-  knockback: 6
-  hitColor: d33f3f
+  knockback: 1
+  hitColor: f5773b
 }
 research: {
   parent: ohm
