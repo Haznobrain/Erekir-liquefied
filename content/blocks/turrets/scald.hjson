@@ -1,6 +1,7 @@
 shootY: 15
 type: PowerTurret
 reload: 20
+rotateSpeed: 1.4
 shootSound: malignShoot
 range: 520
 targetAir: true
