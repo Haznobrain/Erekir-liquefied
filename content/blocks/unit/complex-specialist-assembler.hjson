@@ -1,0 +1,45 @@
+type: UnitAssembler
+size: 7
+regionSuffix: -dark
+areaSize: 25
+droneType: erekirliquefied-warped-assembly-drone
+droneConstructTime: 900
+consumes: {
+  power: 60
+  liquids: [
+    phosphine/0.1
+    ]
+    }
+plans: [
+{
+type: UnitAssemblerPlan
+unit: disfigure
+requirements: [
+  erekirliquefied-incise/20
+  sublimate/6
+  erekirliquefied-large-impervium-wall/4
+    ]
+  }
+{
+type: UnitAssemblerPlan
+unit: tomaxella
+requirements: [
+  erekirliquefied-austroba/20
+  diffuse/8
+  erekirliquefied-large-impervium-wall/4  
+  ]
+  }
+{
+type: UnitAssemblerPlan
+unit: irradiate
+requirements: [
+    erekirliquefied-oxidize/30
+    erekirliquefied-watt/10
+    erekirliquefied-large-impervium-wall/5
+    ]
+  }
+  ]
+
+research: {
+  parent: advanced-assembler
+    }
