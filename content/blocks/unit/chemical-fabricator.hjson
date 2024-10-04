@@ -3,6 +3,7 @@ size: 3
 description: Produces chemical insectoid units
 type: unitFactory
 configurable: false
+regionSuffix: -dark
   consumes: {
     power: 2
   }
