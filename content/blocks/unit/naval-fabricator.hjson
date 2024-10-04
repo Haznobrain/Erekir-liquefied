@@ -3,6 +3,7 @@ size: 3
 description: Produces pyrolobus units.
 type: unitFactory
 configurable: true
+regionSuffix: -dark
   consumes: {
     power: 2
   }
