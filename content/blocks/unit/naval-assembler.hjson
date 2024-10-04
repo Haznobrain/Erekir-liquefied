@@ -3,6 +3,7 @@ type: UnitAssembler
 name: Specialist ship assembler
 description: assembles large naval units using payload as input. Requires cyanogen.
 areaSize: 11
+regionSuffix: -dark
   consumes: {
     power: 10
       liquids: [
