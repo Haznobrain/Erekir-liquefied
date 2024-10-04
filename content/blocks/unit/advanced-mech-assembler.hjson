@@ -4,6 +4,7 @@ size: 5
 type: UnitAssembler
 configurable: true
 areaSize: 20
+regionSuffix: -dark
 consumes: {
     power: 27
 liquids: [
