@@ -5,6 +5,7 @@ configurable: false
 description: Upgrades naval units to their second tier.
 constructTime: 2400
 category: units
+regionSuffix: -dark
   consumes: {
     power: 2
 items: {
