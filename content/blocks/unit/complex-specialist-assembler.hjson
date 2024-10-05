@@ -46,3 +46,13 @@ requirements: [
 research: {
   parent: advanced-assembler
     }
+requirements: [
+  beryllium/3500
+  surge-alloy/3000
+  silicon/4000
+  carbide/2000
+  tungsten/3000
+  azpacite/1800
+  phase-fabric/2000
+  impervium-alloy/700
+  ]
