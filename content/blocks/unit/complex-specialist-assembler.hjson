@@ -17,6 +17,7 @@ plans: [
 {
 type: UnitAssemblerPlan
 unit: disfigure
+time: 36000
 requirements: [
   erekirliquefied-incise/20
   sublimate/6
@@ -26,6 +27,7 @@ requirements: [
 {
 type: UnitAssemblerPlan
 unit: tomaxella
+time: 36000
 requirements: [
   erekirliquefied-austroba/20
   diffuse/8
@@ -35,6 +37,7 @@ requirements: [
 {
 type: UnitAssemblerPlan
 unit: irradiate
+time: 36000
 requirements: [
     erekirliquefied-oxidize/30
     erekirliquefied-watt/10
