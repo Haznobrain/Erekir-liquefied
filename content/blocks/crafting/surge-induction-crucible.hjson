@@ -29,9 +29,9 @@ suffix: -liquid
   }
 {
 type: DrawCircles
-color: ffc07324
+color: ffc073aa
 strokeMax: 2.5
-radius: 14
+radius: 18
 amount: 3
 }
 {
