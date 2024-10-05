@@ -11,6 +11,8 @@ description: Makes massive amounts of silicon and some tungsten from sand residu
 hasPower: true
 envDisabled: 0
 itemCapacity: 50
+hasLiquids: true
+liquidCapacity: 20
 drawer: {
   type: DrawMulti
   drawers: [
