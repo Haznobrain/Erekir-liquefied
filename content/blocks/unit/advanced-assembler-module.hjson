@@ -4,6 +4,7 @@ size: 5
 tier: 2
 name: Advanced Assembler Module
 description: Increases an assembler's assembly tier to tier 2 if a basic assembler module is already on it.
+regionSuffix: -dark
 requirements: [
   beryllium/4000
   carbide/2000
