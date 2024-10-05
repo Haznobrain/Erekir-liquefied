@@ -6,6 +6,7 @@ droneType: erekirliquefied-warped-assembly-drone
 droneConstructTime: 900
 name: Complex Specialist Assembler
 description: Assembles tier 7 units of 3 different lines. Requires a lot of power and some phosphine.
+category: units
 consumes: {
   power: 60
   liquids: [
