@@ -1,0 +1,60 @@
+type: GenericCrafter
+craftEffect: none
+outputItems: [
+    silicon/10
+    tungsten/2
+    ]
+craftTime: 55
+size: 5
+hasPower: true
+envDisabled: none
+itemCapacity: 50
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+}
+    {
+type: DrawLiquidRegion
+drawLiquid: hydrogen
+padding: 5
+  }
+{
+type: DrawArcSmelt
+flameRad: 1.5
+circleSpace: 3
+particles: 30
+particleRad: 14
+particleLen: 4
+}
+{
+type: DrawDefault
+  }
+]
+}
+fogRadius: 5
+ambientSound: smelter
+squareSprite: false
+ambientSoundVolume: 0.5
+consumes: {
+    power: 12
+    items: [
+        graphite/2
+        sand/7
+        ]
+    liquids: [
+        hydrogen/0.12
+        ]
+      }
+requirements: [
+  beryllium/400
+  tungsten/350
+  silicon/200
+  carbide/90
+  ]
+research: {
+  parent: silicon-arc-furnace
+    }
+category: crafting
