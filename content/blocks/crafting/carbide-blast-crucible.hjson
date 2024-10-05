@@ -1,0 +1,72 @@
+type: HeatCrafter
+category: crafting
+craftEffect: none
+outputItem: carbide/2
+craftTime: 150
+size: 5
+itemCapacity: 30
+maxEfficiency: 5
+hasLiquids: true
+hasPower: true
+hasItems: true
+outputLiquid: water/0.16666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+  }
+    {
+type: DrawLiquidRegion
+suffix: -hydrogen
+drawLiquid: hydrogen
+  }
+{
+type: DrawLiquidRegion
+suffix: -ozone
+drawLiquid: ozone
+  }
+{
+type: DrawCrucibleFlame
+flameRad: 1.5
+circleSpace: 3
+flameRadiusScl: 15
+flameRadiusMag: 0.9
+circleStroke: 2.25
+particles: 40
+particleRad: 24
+particleSize: 5
+}
+{
+  type: DrawDefault
+    }
+{
+  type: DrawHeatInput
+  suffix: -input
+    }
+  ]
+  }
+ambientSound: smelter
+ambientSoundVolume: 0.4
+heatRequirement: 15
+consumes: {
+  power: 5
+  items: [
+      tungsten/3
+      graphite/4
+      ]
+  liquids: [
+      ozone/0.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666
+      hydrogen/0.1
+      ]
+    }
+name: Carbide Blast Crucible
+description: Makes larger amounts of carbide while burning hydrogen and ozone to produce extra heat. Can be boosted further than a conventional crucible.
+requirements: [
+  tungsten/500
+  thorium/400
+  oxide/200
+  carbide/120
+  phase-fabric/30
+  ]
