@@ -6,6 +6,8 @@ outputItems: [
     ]
 craftTime: 55
 size: 5
+name: Silicon Arc Crucible
+description: Makes massive amounts of silicon and some tungsten from sand residues.
 hasPower: true
 envDisabled: none
 itemCapacity: 50
