@@ -9,7 +9,7 @@ size: 5
 name: Silicon Arc Crucible
 description: Makes massive amounts of silicon and some tungsten from sand residues.
 hasPower: true
-envDisabled: none
+envDisabled: 0
 itemCapacity: 50
 drawer: {
   type: DrawMulti
