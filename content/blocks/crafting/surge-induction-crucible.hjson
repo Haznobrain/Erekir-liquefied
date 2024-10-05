@@ -23,17 +23,17 @@ type: DrawRegion
 suffix: -bottom
   }
 {
+type: DrawLiquidRegion
+drawLiquid: slag
+suffix: -liquid
+  }
+{
 type: DrawCircles
 color: ffc07324
 strokeMax: 2.5
 radius: 14
 amount: 3
 }
-{
-type: DrawLiquidRegion
-drawLiquid: slag
-suffix: -liquid
-  }
 {
 type: DrawDefault
   }
