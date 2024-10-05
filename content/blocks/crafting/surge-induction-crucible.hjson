@@ -10,6 +10,11 @@ hasItems: true
 outputItem: surge-alloy/3
 ambientSound: smelter
 ambientSoundVolume: 1.1
+craftEffect: {
+  type: RadialEffect
+  effect: surgeCruciSmoke
+  lengthOffset: 6
+}
 drawer: {
 type: DrawMulti
 drawers: [
