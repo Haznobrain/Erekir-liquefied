@@ -1,0 +1,64 @@
+type: HeatCrafter
+heatRequirement: 10
+size: 5
+itemCapacity: 40
+craftTime: 160
+liquidCapacity: 600
+hasPower: true
+hasLiquids: true
+hasItems: true
+outputItem: surge-alloy/3
+ambientSound: smelter
+ambientSoundVolume: 1.1
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+  }
+{
+type: DrawCircles
+color: ffc07324
+strokeMax: 2.5
+radius: 14
+amount: 3
+}
+{
+type: DrawLiquidRegion
+drawLiquid: slag
+suffix: -liquid
+  }
+{
+type: DrawDefault
+  }
+{
+type: DrawHeatRegion
+color: ff6060cc
+suffix: -glow
+  }
+]
+}
+consumes: {
+  power: 8
+  items: [
+      silicon/6
+      tungsten/2
+      ]
+  liquids: [
+      slag/1
+      ]
+    }
+name: Surge Induction Smelter
+description: Uses powerful magnetic fields to melt slag, silicon, and extra tungsten into larger amounts of surge alloy.
+category: crafting
+research: {
+  parent: surge-crucible
+    }
+requirements: [
+  silicon/500
+  graphite/420 //nice
+  tungsten/420 //nice
+  oxide/220
+  thorium/300
+  ]
