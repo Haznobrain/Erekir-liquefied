@@ -21,7 +21,7 @@ type: DrawRegion
 suffix: -bottom
 }
     {
-type: DrawLiquidRegion
+type: DrawLiquidTile
 drawLiquid: hydrogen
 padding: 5
   }
@@ -49,7 +49,7 @@ consumes: {
         sand/7
         ]
     liquids: [
-        hydrogen/0.12
+        hydrogen/0.05
         ]
       }
 requirements: [
