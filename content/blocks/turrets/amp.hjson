@@ -25,7 +25,7 @@ splashDamage: 0
 bulletInterval: 5
 intervalBullets: 2
 intervalSpread: 180
-intervalAngle: 90
+intervalAngle: 0
 intervalRandomSpread: 0
 height: 0
 width: 0
