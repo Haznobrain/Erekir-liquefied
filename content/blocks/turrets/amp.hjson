@@ -71,6 +71,7 @@ colorTo: 92dd7eaa
 mixColorTo: 92dd7e
 blending: additive
 progress: warmup
+suffix: -mid-glow
 }
 ]
 }
@@ -83,6 +84,15 @@ moveRot: -15
 moveX: 3
 heatColor: 92dd7e
 heatRegionSuffix: -glow
+heatProgress: recoil
+progress: warmup
+moves: [
+  {
+type: PartMove
+y: -2
+rot: 5
+}
+]
 }
 ]
 }
