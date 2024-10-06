@@ -30,6 +30,16 @@ type: UnitAssemblerPlan
           erekirliquefied-large-azpacite-wall/12
 ]
 }
+{
+type: UnitAssemblerPlan
+  unit: colonize
+      time: 12400
+        requirements: [
+          locus/5
+          erekirliquefied-large-azpacite-wall/15
+          reinforced-surge-wall-large/4
+]
+}
   ]
 requirements: [
   beryllium/800
