@@ -31,6 +31,16 @@ type: UnitAssemblerPlan
           erekirliquefied-large-azpacite-wall/12
 ]
 }
+{
+type: UnitAssemblerPlan
+  unit: mutilate
+      time: 13000
+        requirements: [
+          erekirliquefied-incise/8
+          erekirliquefied-large-azpacite-wall/10
+          avert/2
+]
+}
   ]
 requirements: [
   beryllium/800
