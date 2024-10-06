@@ -19,6 +19,7 @@ alwaysShooting: true
 shootCone: 180
 hasPower: true
 shootY: 0
+rotateSpeed: 0
 shootType: {
   type: BasicBulletType
   damage: 0
