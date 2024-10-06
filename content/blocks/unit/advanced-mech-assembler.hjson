@@ -30,6 +30,16 @@ type: UnitAssemblerPlan
           erekirliquefied-large-azpacite-wall/24
 ]
 }
+{
+type: UnitAssemblerPlan
+  unit: lucana
+      time: 12000
+        requirements: [
+          cleroi/6
+          erekirliquefied-large-azpacite-wall/14
+          erekirliquefied-oxidize/2
+]
+}
   ]
 requirements: [
   beryllium/1200
