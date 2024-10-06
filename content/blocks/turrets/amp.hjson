@@ -1,7 +1,7 @@
 name: Amp
-description: shoots a long-range piercing pulse laser at ennemy ground targets and ignores armor.
+description: shoots a long-range piercing emp pulse at ennemy targets that constantly fires lasers to its sides.
 size: 4 
-reload: 12
+reload: 30
 range: 432
 heatRequirement: 20
 maxHeatEfficiency: 2
@@ -13,11 +13,37 @@ consumes: {
   power: 15
 } 
 shootType: {
-type: LaserBulletType
-  length: 432
-  width: 16
-  damage: 95
-  buildingDamageMultiplier: 0.01
+type: EmpBulletType
+radius: 24
+timeIncrease: 1
+damage: 105
+hittable: false
+absorbable: false
+speed: 4
+lifetime: 108
+splashDamage: 0
+bulletInterval: 5
+intervalBullets: 2
+intervalSpread: 180
+intervalAngle: 90
+intervalRandomSpread: 0
+height: 0
+width: 0
+intervalBullet: {
+  type: LaserBulletType
+  colors: [92dd7eaa, 92dd7e, ffffff]
+  damage: 6
+  hitEffect: hitLancer
+  length: 50
+  lifetime: 100
+  width: 14
+  sideWidth: 0
+  sideLength: 0
+  buildingDamageMultiplier: 0.7
+  }
+pierce: true
+pierceBuilding: true
+buildingDamageMultiplier: 0.8
 }
 requirements: [
 beryllium/350
@@ -26,8 +52,7 @@ silicon/600
 tungsten/400
 carbide/200
 ]
-drawer: [
-{
+drawer: {
 type: DrawTurret
 parts: [
 {
@@ -36,6 +61,18 @@ x: 0
 y: 0
 moveY: -2
 progress: recoil
+heatColor: ff0000aa
+children: [
+{
+type: RegionPart
+color: 00000000
+mixColor: 00000000
+colorTo: 92dd7eaa
+mixColorTo: 92dd7e
+blending: additive
+progress: warmup
+}
+]
 }
 {
 suffix: -blade
@@ -44,10 +81,11 @@ x: 0
 y: 0
 moveRot: -15
 moveX: 3
+heatColor: 92dd7e
+heatRegionSuffix: -glow
 }
 ]
 }
-]
 category: turret
 research:{
   parent: afflict
