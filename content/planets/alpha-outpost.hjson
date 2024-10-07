@@ -1,10 +1,30 @@
 type: planet
-generator: AsteroidGenerator
-parent: erekir
+generator:{
+    min: 3
+    max: 5
+    octaves: 2
+    persistence: 0.9
+    scale: 12
+    mag: 0.2    
+    tresh: 1
+    foct: 3
+    fmag: 0.3
+    fscl: 020
+    fper: 0.6
+    radMin: 2
+    radMax: 10
+    stoneChance: 0
+      iceChance: 0.5
+  carbonChance: 1
+  berylChance: 0
+  ferricChance: 0
+}
+parent: sun
+orbitRadius: 3
 localizedName: "[#d1efff]Alpha Outpost"
-radius: 0.3
-minZoom: 0.6
-atmosphereRadIn: 0
+radius: 0.5
+minZoom: 0.9
+atmosphereRadIn: 1
 name: alpha outpost
 description: "A small asteroid with some ennemy forces and a semi-abandoned base."
 defaultEnv: 17
@@ -34,7 +54,7 @@ mesh: {
   type: NoiseMesh
   divisions: 3
   radius: 0.2
-  planet: 
+  planet: alpha-outpost
   color1: 1b272e
   color2: 7d3422
   octaves: 6
