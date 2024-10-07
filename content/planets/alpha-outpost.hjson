@@ -1,6 +1,6 @@
 type: planet
 generator:{
-    min: 3
+    min: 5
     max: 5
     octaves: 2
     persistence: 0.9
@@ -20,13 +20,14 @@ generator:{
   ferricChance: 0
 }
 parent: sun
-orbitRadius: 3
+orbitRadius: 6
 localizedName: "[#d1efff]Alpha Outpost"
 radius: 0.5
 minZoom: 0.9
-atmosphereRadIn: 1
+atmosphereRadIn: 0.01
+atmosphereRadOut: 0.15
 name: alpha outpost
-description: "A small asteroid with some ennemy forces and a semi-abandoned base."
+description: "A small asteroid with some ennemy forces and a semi-abandoned base. Its proximity to the sun makes it extremely hot."
 defaultEnv: 17
 accessible: true
 clearSectorOnLose: true,
@@ -58,7 +59,7 @@ mesh: {
   color1: 1b272e
   color2: 7d3422
   octaves: 6
-  persistence: 0.3
+  persistence: 2
   scale: 1
   mag: 5
   coct: 4
