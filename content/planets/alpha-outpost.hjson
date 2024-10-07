@@ -5,8 +5,8 @@ localizedName: "[#d1efff]Alpha Outpost"
 radius: 0.3
 minZoom: 0.6
 atmosphereRadIn: 0
-name: Commarchya
-description: "A small asteroid with some ennemy forces"
+name: alpha outpost
+description: "A small asteroid with some ennemy forces and a semi-abandoned base."
 defaultEnv: 17
 accessible: true
 clearSectorOnLose: true,
