@@ -1,6 +1,5 @@
-{
-localizedName: Desolate Corridor
-description: A seemingly abandoned outpost from an obsolete team has been detected here. Attacking it may cause retaliation from large waves of different types of units, including potential tier 6 units.
+localizedName: "Desolate Corridor"
+description: "A seemingly abandoned outpost from an obsolete team has been detected here. Attacking it may cause retaliation from large waves of different types of units, including potential tier 6 units."
 sector: 0
 difficulty: 8
 planet: alpha-outpost
@@ -50,5 +49,4 @@ objectives: [
     volt,
     shatter
       ]
-}
 }
