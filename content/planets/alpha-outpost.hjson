@@ -13,6 +13,7 @@ clearSectorOnLose: true,
 allowSectorInvasion: false,
 allowLaunchToNumbered: false,
 drawOrbit: false
+alwaysUnlocked: true
     hiddenItems: [
         "copper",
         "lead",
