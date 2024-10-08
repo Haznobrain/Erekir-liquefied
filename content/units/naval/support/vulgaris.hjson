@@ -4,6 +4,7 @@ hitSize: 90
 name: Vulgaris
 description: "A powerful support ship equipped with a segmented shield and electric field. Fires powerful damaging orbs and missiles at close ennemy targets."
 armor: 29
+health: 49500
 rotateSpeed: 1.4
 faceTarget: false
 fogRadius: 30
@@ -35,6 +36,7 @@ cooldown: 600
 angle: 36
 angleOffset: 18
 whenShooting: false
+width: 10
   }
   {
 type: ShieldArcAbility
@@ -45,6 +47,7 @@ cooldown: 600
 angle: 36
 angleOffset: 54
 whenShooting: false
+width: 10
   }
     {
 type: ShieldArcAbility
@@ -55,6 +58,7 @@ cooldown: 600
 angle: 36
 angleOffset: 90
 whenShooting: false
+width: 10
   }
       {
 type: ShieldArcAbility
@@ -65,6 +69,7 @@ cooldown: 600
 angle: 36
 angleOffset: 126
 whenShooting: false
+width: 10
   }
       {
 type: ShieldArcAbility
@@ -75,6 +80,7 @@ cooldown: 600
 angle: 36
 angleOffset: 162
 whenShooting: false
+width: 10
   }
       {
 type: ShieldArcAbility
@@ -85,6 +91,7 @@ cooldown: 600
 angle: 36
 angleOffset: 198
 whenShooting: false
+width: 10
   }
       {
 type: ShieldArcAbility
@@ -95,6 +102,7 @@ cooldown: 600
 angle: 36
 angleOffset: 234
 whenShooting: false
+width: 10
   }
       {
 type: ShieldArcAbility
@@ -105,6 +113,7 @@ cooldown: 600
 angle: 36
 angleOffset: 270
 whenShooting: false
+width: 10
   }
       {
 type: ShieldArcAbility
@@ -115,6 +124,7 @@ cooldown: 600
 angle: 36
 angleOffset: 306
 whenShooting: false
+width: 10
   }
       {
 type: ShieldArcAbility
@@ -125,6 +135,7 @@ cooldown: 600
 angle: 36
 angleOffset: 342
 whenShooting: false
+width: 10
   }
 {
 type: EnergyFieldAbility
