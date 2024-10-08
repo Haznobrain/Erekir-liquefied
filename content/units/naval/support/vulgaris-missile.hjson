@@ -2,7 +2,7 @@ type: missile
 speed: 4
 hitSize: 10
 fogRadius: 0
-lifetime: 60
+lifetime: 100
 controller: MissileAI
 template: MissileUnitType
 hidden: true
@@ -34,7 +34,7 @@ parts: [
   colorFrom: 84f49100
   colorTo: ffa6a6
   blending: additive
-  suffix: -heat
+  suffix: -glow
     }
 ]
 deathExplosionEffect: none
