@@ -1,0 +1,294 @@
+type: naval
+speed: 0.506
+hitSize: 90
+name: Vulgaris
+description: "A powerful support ship equipped with a segmented shield and electric field. Fires powerful damaging orbs and missiles at close ennemy targets."
+armor: 29
+rotateSpeed: 1.4
+faceTarget: false
+fogRadius: 30
+template: ErekirUnitType
+research: advanced-naval-assembler
+abilities: [
+{
+type: MoveEffectAbility
+effect: {
+type: ParticleEffect
+length: 30
+baseLength: 30
+sizeInterp: pow5In
+lifetime: 200
+colorFrom: ffa166
+colorTo: ffa166
+particles: 12
+sizeFrom: 8
+}
+interval: 5
+  }
+{
+type: ShieldArcAbility
+radius: 140
+regen: 1.2
+max: 500
+cooldown: 600
+angle: 36
+angleOffset: 18
+  }
+  {
+type: ShieldArcAbility
+radius: 140
+regen: 1.2
+max: 500
+cooldown: 600
+angle: 36
+angleOffset: 54
+  }
+    {
+type: ShieldArcAbility
+radius: 140
+regen: 1.2
+max: 500
+cooldown: 600
+angle: 36
+angleOffset: 90
+  }
+      {
+type: ShieldArcAbility
+radius: 140
+regen: 1.2
+max: 500
+cooldown: 600
+angle: 36
+angleOffset: 126
+  }
+      {
+type: ShieldArcAbility
+radius: 140
+regen: 1.2
+max: 500
+cooldown: 600
+angle: 36
+angleOffset: 162
+  }
+      {
+type: ShieldArcAbility
+radius: 140
+regen: 1.2
+max: 500
+cooldown: 600
+angle: 36
+angleOffset: 198
+  }
+      {
+type: ShieldArcAbility
+radius: 140
+regen: 1.2
+max: 500
+cooldown: 600
+angle: 36
+angleOffset: 234
+  }
+      {
+type: ShieldArcAbility
+radius: 140
+regen: 1.2
+max: 500
+cooldown: 600
+angle: 36
+angleOffset: 270
+  }
+      {
+type: ShieldArcAbility
+radius: 140
+regen: 1.2
+max: 500
+cooldown: 600
+angle: 36
+angleOffset: 306
+  }
+      {
+type: ShieldArcAbility
+radius: 140
+regen: 1.2
+max: 500
+cooldown: 600
+angle: 36
+angleOffset: 342
+  }
+{
+type: EnergyFieldAbility
+damage: 75
+range: 130
+reload: 55
+effectRadius: 12
+  }
+{
+type: RepairFieldAbility
+amount: 600
+reload: 180
+range: 140
+  }
+]
+immunities: [
+  electrified,
+  burning,
+  melting
+  ]
+parts: [
+{
+type: RegionPart
+suffix: -buildzone
+layer: 122
+color: 84f491
+  }
+  ]
+//37x
+//32y
+//-45°
+weapons: [
+{
+name: vulgaris-missile-weapon
+shootY: 0
+layerOffset: -5
+reload: 60
+shoot: {
+  type: ShootBarrel
+  barrels: [
+      37, 32, -45,
+      39, 24, -45
+      ]
+  shots: 2
+    }
+rotate: false
+shootSound: missileLarge
+shootCone: 120
+bullet: {
+  spawnUnit: vulgaris-missile
+  shootEffect: {
+      type: MultiEffect
+      effects: [shootBigColor,{
+            type: WaveEffect
+            sizeTo: 20
+            colorTo: 84f491
+            lifetime: 10
+              }
+        ]
+              }
+    smokeEffect: shootBigSmoke2
+        }
+x: 0
+y: 0
+}
+{
+reload: 300
+shootY: 47
+shootSound: pulseBlast
+x: 0
+y: 0
+mirror: false
+rotate: false
+shootCone: 5
+parts: [
+  {
+  name: erekirliquefied-vulgaris-orb-weapon
+  layerOffset: -5
+    }
+{
+  name: erekirliquefied-vulgaris-heat
+  layerOffset: 0.01
+  color: ffffffaa
+  colorTo: ffffffff
+  progress: recoil
+    }
+]
+bullet: {
+  type: BulletType
+  hitSize: 40
+  parts: [
+    {
+    type: ShapePart
+    color: ffffffff
+    layer: 60
+    radius: 20
+    circle: true
+      }
+{
+    type: ShapePart
+    color: d7d7d7aa
+    layer: 59.9
+    radius: 21
+    circle: true
+      }
+    ]
+  damage: 200
+  splashDamage: 2500
+  splashDamageRadius: 60
+  hitEffect: {
+  type: MultiEffect
+  effects: [
+{
+type: WaveEffect
+sizeTo: 60
+colorTo: fffffaa
+strokeFrom: 6
+lifetime: 15
+  }
+    {
+type: ParticleEffect
+colorTo: ffffffaa
+sizeTo: 0
+sizeFrom: 10
+particles: 14
+length: 60
+interp: circleOut
+sizeInterp: pow5In
+lifetime: 300
+  }
+    {
+type: ParticleEffect
+colorTo: ffffffaa
+sizeTo: 0
+sizeFrom: 6
+particles: 20
+length: 60
+interp: circleOut
+sizeInterp: pow5In
+lifetime: 200
+  }
+    {
+type: ParticleEffect
+line: true
+colorTo: ffffffaa
+lenTo: 2
+strokeFrom: 2
+strokeTo: 0
+lenFrom: 10
+particles: 14
+length: 60
+interp: circleOut
+sizeInterp: pow5In
+  }
+]
+  }
+  despawnEffect: none
+  fragBullets: 15
+  fragRandomSpread: 0
+  fragSpread: 24
+  fragBullet: {
+    type: LaserBulletType
+    colors: [d7d7d7aa, d7d7d7, ffffff]
+    damage: 90
+    length: 60
+    width: 10
+    sideAngle: 24
+      }
+  collidesAir: false
+  speed: 3
+  lifetime: 80
+  trailScl: 3
+  trailInterval: 10
+  trailEffect: missileTrail
+  trailColor: ffffff
+    }
+}
+]
