@@ -21,6 +21,7 @@ lifetime: 200
 colorFrom: ffa166
 colorTo: ffa166
 particles: 12
+layer: 60
 sizeFrom: 8
 }
 interval: 5
@@ -33,6 +34,7 @@ max: 500
 cooldown: 600
 angle: 36
 angleOffset: 18
+whenShooting: false
   }
   {
 type: ShieldArcAbility
@@ -42,6 +44,7 @@ max: 500
 cooldown: 600
 angle: 36
 angleOffset: 54
+whenShooting: false
   }
     {
 type: ShieldArcAbility
@@ -51,6 +54,7 @@ max: 500
 cooldown: 600
 angle: 36
 angleOffset: 90
+whenShooting: false
   }
       {
 type: ShieldArcAbility
@@ -60,6 +64,7 @@ max: 500
 cooldown: 600
 angle: 36
 angleOffset: 126
+whenShooting: false
   }
       {
 type: ShieldArcAbility
@@ -69,6 +74,7 @@ max: 500
 cooldown: 600
 angle: 36
 angleOffset: 162
+whenShooting: false
   }
       {
 type: ShieldArcAbility
@@ -78,6 +84,7 @@ max: 500
 cooldown: 600
 angle: 36
 angleOffset: 198
+whenShooting: false
   }
       {
 type: ShieldArcAbility
@@ -87,6 +94,7 @@ max: 500
 cooldown: 600
 angle: 36
 angleOffset: 234
+whenShooting: false
   }
       {
 type: ShieldArcAbility
@@ -96,6 +104,7 @@ max: 500
 cooldown: 600
 angle: 36
 angleOffset: 270
+whenShooting: false
   }
       {
 type: ShieldArcAbility
@@ -105,6 +114,7 @@ max: 500
 cooldown: 600
 angle: 36
 angleOffset: 306
+whenShooting: false
   }
       {
 type: ShieldArcAbility
@@ -114,6 +124,7 @@ max: 500
 cooldown: 600
 angle: 36
 angleOffset: 342
+whenShooting: false
   }
 {
 type: EnergyFieldAbility
@@ -140,6 +151,7 @@ type: RegionPart
 suffix: -buildzone
 layer: 122
 color: 84f491
+outline: false
   }
   ]
 //37x
@@ -198,8 +210,11 @@ parts: [
   layerOffset: 0.01
   color: ffffffaa
   colorTo: ffffffff
+  mixColor: ffffffaa
+  mixColorTo: ffffffff
   progress: recoil
   blending: additive
+  outline: false
     }
     {
     type: ShapePart
