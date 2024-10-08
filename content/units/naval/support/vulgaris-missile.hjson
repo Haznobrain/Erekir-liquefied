@@ -1,0 +1,68 @@
+type: missile
+speed: 4
+hitSize: 10
+fogRadius: 0
+lifetime: 60
+controller: MissileAI
+template: MissileUnitType
+hidden: true
+hoverable: false
+allowedInPayload: false
+health: 100
+physics: false
+lowAltitude: true
+rotateSpeed: 2.1
+isEnemy: false
+playerControllable: false
+useUnitCap: false
+createWreck: false
+createScorch: false
+hidden: true
+engineOffset: 3
+engineSize: 4
+engineColor: d1efff
+trailLength: 12
+trailScl: 0.9
+trailColor: 84f491
+loopSound: missileTrail
+missileAccelTime: 0
+parts: [
+  {
+  type: RegionPart
+  blending: additive
+  progress: life
+  colorFrom: 84f49100
+  colorTo: ffa6a6
+  blending: additive
+  suffix: -heat
+    }
+]
+deathExplosionEffect: none
+weapons: [{
+    name: missile-explode
+      shootCone: 360
+      shootOnDeath: true
+      controllable: true
+      shootSound: none
+        bullet: {
+          killShooter: true
+            hitEffect: {
+                type: ExplosionEffect
+                waveColor: 84f491
+                smokeColor: 84f491
+                sparkColor: 84f491
+                waveRad: 40
+                sparkRad: 60
+                smokeSize: 4
+                smokeRad: 45
+          }
+type: ExplosionBulletType
+keepVelocity: false
+splashDamage: 125
+splashDamageRadius: 40
+healPercent: 5
+collidesTeam: true
+collidesAir: true
+
+  }
+}]
