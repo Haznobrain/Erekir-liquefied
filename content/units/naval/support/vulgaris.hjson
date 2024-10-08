@@ -199,7 +199,24 @@ parts: [
   color: ffffffaa
   colorTo: ffffffff
   progress: recoil
+  blending: additive
     }
+    {
+    type: ShapePart
+    color: ffffffff
+    layer: 60
+    radius: 20
+    circle: true
+    y: 47
+      }
+{
+    type: ShapePart
+    color: d7d7d7aa
+    layer: 59.9
+    radius: 21
+    circle: true
+    y: 47
+      }
 ]
 bullet: {
   type: BulletType
