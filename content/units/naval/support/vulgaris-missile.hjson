@@ -31,8 +31,10 @@ parts: [
   type: RegionPart
   blending: additive
   progress: life
-  colorFrom: 84f49100
+  color: 84f49100
   colorTo: ffa6a6
+  mixColor: 84f49100
+  mixColorTo: ffa6a6
   blending: additive
   suffix: -glow
     }
