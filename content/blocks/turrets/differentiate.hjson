@@ -324,10 +324,10 @@ reloadMultiplier: 0.7
 }
 thorium: {
   type: PointBulletType
-  reloadMultiplier: 0.3
+  reloadMultiplier: 0.1
   rangeChange: 160
       buildingDamageMultiplier: 0.01
-  splashDamage: 350
+  splashDamage: 240
   splashDamageRadius: 40
   shootEffect: {
       type: ParticleEffect
