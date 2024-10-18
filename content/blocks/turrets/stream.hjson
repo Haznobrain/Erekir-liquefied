@@ -6,7 +6,7 @@ health: 3200
 range: 224
 rotateSpeed: 3
 liquidCapacity: 40
-targetAir: false
+targetAir: true
 inaccuracy: 0
 shootCone: 1
 targetGround: true
