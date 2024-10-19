@@ -6,12 +6,12 @@ description: A support unit that drops bombs with a large hit radius, healing al
 health: 1500
 hitSize: 20
 armor: 4
-mineFloor: false
+mineFloor: true
 mineWalls: true
 faceTarget: false
 mineHardnessScaling: false
 circleTarget: true
-mineSpeed: 5
+mineSpeed: 0.8
 payloadCapacity: 576
 buildSpeed: 2.75
 mineTier: 4
