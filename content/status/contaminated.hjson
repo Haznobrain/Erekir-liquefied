@@ -10,3 +10,5 @@ show: true
 affinities: [wet]
 opposite: [freezing, burning, melting]
 damage: 0.01
+name: Contaminated
+localizedName: Contaminated
