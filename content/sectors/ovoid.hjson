@@ -1,7 +1,7 @@
 {
 localizedName: Ovoid
 description: No usual radar signatures detected, however there might still be an ennemy base here. You will be attacked immediatly upon landaing, be careful.
-sector: 3
+sector: 4
 difficulty: 6
 planet: erekir
 allowLaunchLoadout: false
