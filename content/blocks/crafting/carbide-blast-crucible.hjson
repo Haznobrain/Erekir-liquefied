@@ -72,3 +72,12 @@ requirements: [
   carbide/120
   phase-fabric/30
   ]
+research: {
+  parent: carbide-crucible
+  objectives: [
+  {
+  type: SectorComplete
+  preset: interlude
+  }
+]
+}
