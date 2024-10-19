@@ -60,5 +60,9 @@ requirements: [
   ]
 research: {
   parent: silicon-arc-furnace
+  objectives: [
+{
+type: OnSector
+preset: origin
     }
 category: crafting
