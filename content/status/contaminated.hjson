@@ -6,6 +6,7 @@ dragMultiplier: 1.3
 effect: neoplasiaSmoke
 color: c33e2b
 effectColor: c33e2b
+show: true
 affinities: [wet]
 opposite: [freezing, burning, melting]
 damage: 0.01
