@@ -5,6 +5,7 @@ noiseColor: f3ff98
 color: c33e2b
 drawNoise: true
 useWindVector: true
+status: erekirliquefied-contaminated
 sizeMax: 60
 sizeMin: 20
 minAlpha: 0.1
