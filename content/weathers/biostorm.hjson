@@ -1,3 +1,4 @@
+type: ParticleWeather
 name: Biostorm
 particleRegion: particle
 noiseColor: f3ff98
