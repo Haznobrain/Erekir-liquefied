@@ -6,7 +6,7 @@ description: A large support unit that protects and heals allied blocks and unit
 health: 6500
 hitSize: 36
 armor: 10
-mineFloor: false
+mineFloor: true
 mineWalls: true
 mineHardnessScaling: false
 circleTarget: true
