@@ -33,10 +33,11 @@ hovering: true
 fogRadius: 29
 lightRadius: 30
 allowLegStep: true
-omniMovement: false
+omniMovement: true
 singleTarget: true
 immunities: [
-  tarred
+  tarred,
+  erekirliquefied-contaminated
   ]
 weapons: [
 {
