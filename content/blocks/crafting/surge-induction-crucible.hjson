@@ -59,6 +59,12 @@ description: Uses powerful magnetic fields to melt slag, silicon, and extra tung
 category: crafting
 research: {
   parent: surge-crucible
+  objectives: [
+{
+type: OnSector
+preset: desolate-corridor
+}
+]
     }
 requirements: [
   silicon/500
