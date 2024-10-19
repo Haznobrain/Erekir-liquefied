@@ -21,6 +21,10 @@ size: 3
 category: crafting
 research: {
   parent: azpanogen-evaporator
+  objectives: [
+{
+type: SectorComplete
+preset: interlude
     }
 drawer: {
   type: DrawMulti
