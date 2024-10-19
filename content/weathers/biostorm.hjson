@@ -1,0 +1,17 @@
+name: Biostorm
+particleRegion: particle
+noiseColor: f3ff98
+color: c33e2b
+drawNoise: true
+useWindVector: true
+sizeMax: 60
+sizeMin: 20
+minAlpha: 0.1
+maxAlpha: 0.4
+density: 1600
+baseSpeed: 6.5
+opacityMultiplier: 0.4
+force: 0.4
+sound: windhowl
+soundVol: 0.9
+duration: 54000
