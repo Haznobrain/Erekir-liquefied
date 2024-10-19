@@ -1,0 +1,11 @@
+type: StatusEffect
+buildSpeedMultiplier: 0.9
+speedMultiplier: 0.95
+healthMultiplier: 1.02
+dragMultiplier: 1.3
+effect: neoplasiaSmoke
+color: c33e2b
+effectColor: c33e2b
+affinities: [wet]
+opposite: [freezing, burning, melting]
+damage: 0.01
