@@ -1,0 +1,21 @@
+{
+localizedName: Interlude
+description: The malis is on its last leg. Destroy the large amount of high tier units here and go on.
+sector: 66
+captureWave: 24
+difficulty: 4
+planet: erekir
+allowLaunchLoadout: false
+allowLaunchSchematics: false
+addStartingItems: true
+overrideLaunchDefaults: true
+research: {
+parent: desolate-corridor
+objectives: [
+  {
+    type: SectorComplete
+    preset: desolate-corridor
+      }
+  ]
+}
+}
