@@ -1,0 +1,20 @@
+{
+localizedName: Swamp
+description: A sector with plentyful arkycite. Upon landing you will be under threat from ennemy boat units and ennemy mechs.
+sector: 19
+captureWave: 35
+difficulty: 7
+planet: erekir
+allowLaunchLoadout: false
+allowLaunchSchematics: false
+addStartingItems: true
+overrideLaunchDefaults: true
+research: {
+parent: crevice
+objectives: [
+  {
+    type: SectorComplete
+    preset: crevice
+}
+  ]
+}
