@@ -26,6 +26,8 @@ research: {
 type: SectorComplete
 preset: interlude
     }
+]
+}
 drawer: {
   type: DrawMulti
   drawers: [
