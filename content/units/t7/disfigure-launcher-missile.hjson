@@ -27,8 +27,8 @@ missileAccelTime: 72
 parts: [
 {
   type: FlarePart
-  color1: ffffff
-  color2: d1efff
+  color2: ffffff
+  color1: d1efff
   y: -2
   followRotation: true
   stroke: 3
