@@ -1,18 +1,27 @@
 type: LiquidTurret
 name: Hellstorm
-description: shoots a fragmentary incendiary bullet.
+description: shoots innacurate fragmentary artillery at ennemy ground targets.
 range: 192
 size: 3
 health: 3550
 targetGround: true
 targetAir: false
-rotateSpeed: 2.8
-reload: 140
+rotateSpeed: 4
+reload: 100
 recoil: 1
 shootSound: artillery
 loopSound: none
 inaccuracy: 2
 shootY: 24
+inaccuracy: 20
+consumeAmmoOnce: false
+ammoPerShot: 10
+velocityRnd: 0.3
+shoot: {
+  type: ShootPattern
+  shots: 4
+  shotDelay: 2
+  }
   ammoTypes:{
     ozone: {
       buildingDamageMultiplier: 0.01
@@ -25,6 +34,9 @@ shootY: 24
         fragBullets: 4
         trailInterp: slope
         trailLength: 10
+        trailWidth: 2.3
+        trailSinMag: 1
+        trailSinScl: 5
         width: 14
         height: 17
         trailParam: 2.2
@@ -34,7 +46,10 @@ shootY: 24
         trailColor: ffcbdd
         splashDamage: 60
         splashDamageRadius: 40
-despawnHit: true
+        despawnHit: true
+        hitColor: ffcbdd
+        shootEffect: shootBigColor
+        smokeEffect: shootSmokeSquareSparse
         fragBullet: {
       buildingDamageMultiplier: 0.01
          type: ArtilleryBulletType
@@ -42,8 +57,8 @@ despawnHit: true
         damage: 0
         splashDamage: 0
         shrinkInterp: slope
-despawnHit: true
-        fragBullets: 1
+        despawnHit: true
+        fragBullets: 2
         puddles: 1
         lifetime: 30
         trailInterp: slope
@@ -53,8 +68,11 @@ despawnHit: true
         hitEffect: massiveExplosion
         frontColor: ffffff
         trailColor: ffcbdd
+        trailWidth: 1.4
+        trailSinMag: 0.6
+        trailSinScl: 5
         splashDamage: 20
-        splashDamageRadius: 10
+        splashDamageRadius: 20
         puddleLiquid: oil
         puddleAmount: 10
         fragBullet: {
@@ -62,20 +80,23 @@ despawnHit: true
         type: ArtilleryBulletType
         speed: 0.8
         lifetime: 20
-despawnHit: true
+        despawnHit: true
         damage: 0
         splashDamage: 0
         shrinkInterp: slope
         trailInterp: slope
         trailLength: 10
+        trailWidth: 1.4
+        trailSinMag: 0.6
+        trailSinScl: 5
         puddles: 1
         hitEffect: massiveExplosion
         trailParam: 2.2
         backColor: ffcbdd
         frontColor: ffffff
         trailColor: ffcbdd
-        splashDamage: 10
-        splashDamageRadius: 10
+        splashDamage: 12
+        splashDamageRadius: 20
         puddleLiquid: slag
         puddleAmount: 10
         }
@@ -93,6 +114,9 @@ despawnHit: true
         fragBullets: 4
         trailInterp: slope
         trailLength: 10
+        trailWidth: 2.4
+        trailSinMag: 1
+        trailSinScl: 5
         width: 14
         height: 17
         trailParam: 2.2
@@ -102,6 +126,12 @@ despawnHit: true
         splashDamage: 35
         hitEffect: massiveExplosion
         splashDamageRadius: 32
+        incendAmound: 4
+        incendSpread: 8
+        incendChance: 1
+        hitColor: d1efff
+        shootEffect: shootBigColor
+        smokeEffect: shootSmokeSquareSparse
         fragBullet: {
          type: ArtilleryBulletType
         speed: 1
@@ -109,6 +139,9 @@ despawnHit: true
         damage: 0
       buildingDamageMultiplier: 0.01
 despawnHit: true
+        trailWidth: 1.4
+        trailSinMag: 0.6
+        trailSinScl: 5
         splashDamage: 0
         shrinkInterp: slope
         fragBullets: 1
@@ -121,9 +154,12 @@ despawnHit: true
         trailColor: d1efff
         splashDamage: 10
         hitEffect: massiveExplosion
-        splashDamageRadius: 10
+        splashDamageRadius: 20
         puddleLiquid: oil
         puddleAmount: 15
+        incendAmound: 4
+        incendSpread: 8
+        incendChance: 1
         fragBullet: {
         type: ArtilleryBulletType
         speed: 0.8
@@ -138,13 +174,19 @@ despawnHit: true
         trailParam: 2.2
         backColor: d1efff
         frontColor: ffffff
+        trailWidth: 1.4
+        trailSinMag: 0.6
+        trailSinScl: 5
         trailColor: d1efff
         hitEffect: massiveExplosion
         splashDamage: 10
       buildingDamageMultiplier: 0.01
-        splashDamageRadius: 10
+        splashDamageRadius: 20
         puddleLiquid: slag
         puddleAmount: 10
+        incendAmound: 4
+        incendSpread: 8
+        incendChance: 1
         }
 }
 }
@@ -166,9 +208,18 @@ despawnHit: true
         backColor: 68ffe1
         frontColor: ffffff
         trailColor: 68ffe1
+        trailWidth: 2.4
+        trailSinMag: 1
+        trailSinScl: 5
         splashDamage: 95
         splashDamageRadius: 60
         hitEffect: massiveExplosion
+        incendAmound: 10
+        incendSpread: 16
+        incendChance: 1
+        hitColor: 68ffe1
+        shootEffect: shootBigColor
+        smokeEffect: shootSmokeSquareSparse
         fragBullet: {
       buildingDamageMultiplier: 0.01
          type: ArtilleryBulletType
@@ -187,10 +238,16 @@ despawnHit: true
         backColor: 68ffe1
         frontColor: ffffff
         trailColor: 68ffe1
+        trailWidth: 1.4
+        trailSinMag: 0.6
+        trailSinScl: 5
         splashDamage: 10
         splashDamageRadius: 10
         puddleLiquid: oil
         puddleAmount: 20
+        incendAmound: 10
+        incendSpread: 16
+        incendChance: 1
         fragBullet: {
       buildingDamageMultiplier: 0.01
         type: ArtilleryBulletType
@@ -205,6 +262,9 @@ despawnHit: true
         trailInterp: slope
         trailLength: 10
         trailParam: 2.2
+        trailWidth: 1.4
+        trailSinMag: 0.6
+        trailSinScl: 5
         backColor: 68ffe1
         frontColor: ffffff
         trailColor: 68ffe1
@@ -212,6 +272,9 @@ despawnHit: true
         splashDamageRadius: 10
         puddleLiquid: slag
         puddleAmount: 10
+        incendAmound: 10
+        incendSpread: 16
+        incendChance: 1
         }
 }
 }
@@ -233,10 +296,16 @@ despawnHit: true
         backColor: 82a467
         frontColor: ffffff
         trailColor: 82a467
+        trailWidth: 2.4
+        trailSinMag: 1
+        trailSinScl: 5
         splashDamage: 110
         splashDamagePierce: true
         splashDamageRadius: 80
         hitEffect: massiveExplosion
+        hitColor: 82a467
+        shootEffect: shootBigColor
+        smokeEffect: shootSmokeSquareSparse
         fragBullet: {
          type: ArtilleryBulletType
         hitEffect: massiveExplosion
@@ -252,6 +321,9 @@ despawnHit: true
         trailInterp: slope
         trailLength: 10
         trailParam: 2.2
+        trailWidth: 1.4
+        trailSinMag: 0.6
+        trailSinScl: 5
         backColor: 82a467
         frontColor: ffffff
         trailColor: 82a467
@@ -272,6 +344,9 @@ despawnHit: true
         shrinkInterp: slope
         trailInterp: slope
         puddles: 1
+        trailWidth: 1.4
+        trailSinMag: 0.6
+        trailSinScl: 5
         trailLength: 10
         trailParam: 2.2
         backColor: 82a467
