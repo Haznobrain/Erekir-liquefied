@@ -12,7 +12,7 @@ recoil: 1
 shootSound: artillery
 loopSound: none
 inaccuracy: 2
-shootY: 24
+shootY: 12
 inaccuracy: 20
 consumeAmmoOnce: false
 ammoPerShot: 10
