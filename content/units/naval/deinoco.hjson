@@ -27,7 +27,7 @@ melting
   layerOffset: 2
   shoot: {
     type: ShootSpread
-    shots: 3
+    shots: 6
     spread: 20
     shotDelay: 2
     }
@@ -62,7 +62,7 @@ melting
         speed: 5
         lifetime: 37
         damage: 30
-        splashDamage: 10
+        splashDamage: 15
         splashDamageRadius: 10
         width: 6
         height: 6
