@@ -66,15 +66,15 @@ weapons: [{
           killShooter: true
             hitEffect: {
                 type: ExplosionEffect
-                waveRad: 40
+                waveRad: 60
                 sparkRad: 60
-                smokeSize: 4
+                smokeSize: 5
                 smokeRad: 45
           }
 collidesAir: false
 type: ExplosionBulletType
 keepVelocity: false
-splashDamage: 125
-splashDamageRadius: 40
+splashDamage: 250
+splashDamageRadius: 60
   }
 }]
