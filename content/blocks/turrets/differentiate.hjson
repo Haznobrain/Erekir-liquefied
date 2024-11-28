@@ -488,7 +488,7 @@ cesium: {
     type: MissileBulletType
       buildingDamageMultiplier: 0.01
     damage: 45
-    splashDamage: 60
+    splashDamage: 20
     splashDamageRadius: 48
     pierce: true
     rangeChange: 280
@@ -517,7 +517,7 @@ cesium: {
       type: MissileBulletType
       buildingDamageMultiplier: 0.01
       damage: 45
-      splashDamage: 60
+      splashDamage: 20
       splashDamageRadius: 48
       pierce: true
       pierceBuilding: true
@@ -544,7 +544,7 @@ cesium: {
             type: MissileBulletType
             damage: 45
             pierce: true
-            splashDamage: 60
+            splashDamage: 20
             splashDamageRadius: 48
       buildingDamageMultiplier: 0.01
             pierceBuilding: true
@@ -767,7 +767,7 @@ type: MissileBulletType
 }
 }
 }
-coolantMultiplier: 4
+coolantMultiplier: 2
 research: {
   parent: spray
   objectives: [
