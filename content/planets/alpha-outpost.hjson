@@ -26,7 +26,7 @@ radius: 0.5
 minZoom: 0.9
 atmosphereRadIn: 0.01
 atmosphereRadOut: 0.15
-name: alpha outpost
+localizedName: alpha outpost
 description: "A small asteroid with some ennemy forces and a semi-abandoned base. Its proximity to the sun makes it extremely hot."
 defaultEnv: 17
 accessible: true
