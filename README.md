@@ -2,7 +2,7 @@
 ## I made this mod pretty much alone and the stuff that was made by others has credit given in its description or file.
 
 My discord is either mindustridiot_06647 or haznobrainDev.
-Discord server link: https://discord.gg/xS2CDQF2
+Discord server link: https://discord.gg/GKUXnhya
 
 <br>the sprite quality may vary a lot.
 ## What does this add?
