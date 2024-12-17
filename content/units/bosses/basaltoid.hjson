@@ -172,7 +172,7 @@ immunities: [
     suffix: -blade
     x: 0
     y: 0
-    moveRot: 25
+    moveRot: -25
     moveX: 8
     moveY: 5
     mirror: true
