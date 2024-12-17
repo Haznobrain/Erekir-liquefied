@@ -9,6 +9,7 @@ hitSize: 100
 armor: 100
 speed: 0.6
 fallSpeed: 0.0015
+drawCell: false
 fallEffect: {
 type: ParticleEffect
 length: 24
@@ -134,6 +135,7 @@ immunities: [
     reload: 10
     shootCone: 5
     inaccuracy: 6
+    cooldownTime: 600
     shoot: {
       shots: 5
       shotDelay: 5
@@ -192,9 +194,11 @@ cooldownTime: 600
 rotate: true
 bullet: {
   type: LaserBulletType
-  damage: 415
+  damage: 640
+  status: melting
+  hitColor: ff0000
   colors: [ff0000,ff0000,ff0000]
-  length: 200
+  length: 230
   width: 6
   }
 }
