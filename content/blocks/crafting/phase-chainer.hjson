@@ -1,0 +1,83 @@
+type: HeatCrafter
+category: crafting
+requirements: [
+    carbide/300
+    silicon/500
+    thorium/400
+    tungsten/400
+    phase-fabric/200
+    azpacite/150
+      ]
+size: 5
+itemCapacity: 80
+heatRequirement: 12
+craftTime: 300
+liquidCapacity: 90
+ambientSound: techLoop
+ambientSoundVolume: 0.05
+outputItem: phase-fabric/6
+drawer: {
+    type: DrawMulti
+    drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+  }
+      {
+type: DrawLiquidRegion
+drawLiquid: ozone
+suffix: -ozone
+    }
+{
+type: DrawLiquidRegion
+drawLiquid: nitrogen
+suffix: -nitrogen
+}
+{
+type: DrawSpikes
+color: ffd59e
+stroke: 2.5
+layers: 2
+amount: 12
+rotateSpeed: 0.5
+layerSpeed: -1.1
+}
+{
+type: DrawMultiWeave
+glowColor: ff6666cc
+  }
+{
+type: DrawDefault
+  }
+{
+type: DrawHeatInput
+  }
+{
+type: DrawHeatRegion
+suffix: -vents
+color: ff664d
+  }
+]
+}
+consumes: {
+  power: 15
+  items: [
+        thorium/8
+        sand/20
+        ]
+  liquids: [
+      ozone/0.1
+      nitrogen/0.05
+        ]
+    }
+research: {
+  parent: phase-synthesizer
+  objectives: [
+{
+type: OnSector
+preset: interlude
+  }
+    ]
+}
+name: Phase Chainer
+description: Creates a lot more phase fabric by assembling it on a baseplate of carbide and phase fabric and then cutting it. This substrate allows phase fibers to grow quicker and as such make it a lot better for large scale production.
