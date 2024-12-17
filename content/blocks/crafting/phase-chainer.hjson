@@ -9,6 +9,7 @@ requirements: [
     azpacite/150
       ]
 size: 5
+hasLiquids: true
 itemCapacity: 80
 heatRequirement: 12
 craftTime: 300
