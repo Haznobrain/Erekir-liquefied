@@ -1,0 +1,72 @@
+type: GenericCrafter
+outputLiquid: neoplasm/0,168
+size: 2
+drawer:{
+  type: DrawMulti
+  drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+  }
+    {
+type: DrawLiquidTile
+drawLiquid: arkycite
+padding: 3
+  }
+{
+type: DrawCircles
+color: feb380cc
+strokeMax: 3.25
+radius: 4.0625
+amount: 5
+timeScl: 150
+}
+{
+type: DrawRegion
+suffix: -center
+}
+{
+type: DrawCells
+color: c33e2b
+particleColorFrom: e8803f
+particleColorTo: 8c1225
+particles: 50
+range: 4
+}
+{
+type: DrawDefault
+  }
+]
+}
+consumes: {
+  power: 14
+  liquids: [
+    arkycite/0.84
+    water/0.1666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666
+    ]
+  items: [
+    phase-fabric/1
+    ]
+    }
+craftTime: 180
+ambientSound: bioLoop
+liquidCapacity: 40
+hasLiquids: true
+category: crafting
+research: {
+  parent: neoplasia-reactor
+  objectives: [
+{
+type: SectorComplete
+preset: interlude
+    }
+]
+}
+requirements: [
+  tungsten/450
+  carbide/100
+  oxide/50
+  silicon/200
+  phase-fabric/80
+  surge-alloy/30
+  ]
