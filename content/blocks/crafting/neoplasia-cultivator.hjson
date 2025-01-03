@@ -1,6 +1,7 @@
 type: GenericCrafter
 outputLiquid: neoplasm/0.168
 size: 2
+squareSprite: false
 drawer:{
   type: DrawMulti
   drawers: [
@@ -11,7 +12,7 @@ suffix: -bottom
     {
 type: DrawLiquidTile
 drawLiquid: arkycite
-padding: 3
+padding: 1
   }
 {
 type: DrawCircles
@@ -36,6 +37,12 @@ range: 4
 {
 type: DrawDefault
   }
+{
+type: DrawGlowRegion
+suffix: -glow
+color: 70170b
+alpha: 0.7
+}
 ]
 }
 consumes: {
