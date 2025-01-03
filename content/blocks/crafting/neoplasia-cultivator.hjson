@@ -2,6 +2,8 @@ type: GenericCrafter
 outputLiquid: neoplasm/0.168
 size: 2
 squareSprite: false
+name: Neoplasia Cultivator
+description: Creates neoplasm in a safe environment, cannot explode but needs a lot of power.
 drawer:{
   type: DrawMulti
   drawers: [
