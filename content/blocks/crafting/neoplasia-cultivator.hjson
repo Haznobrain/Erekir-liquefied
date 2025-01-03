@@ -1,5 +1,5 @@
 type: GenericCrafter
-outputLiquid: neoplasm/0,168
+outputLiquid: neoplasm/0.168
 size: 2
 drawer:{
   type: DrawMulti
