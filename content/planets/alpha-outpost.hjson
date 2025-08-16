@@ -47,6 +47,21 @@ alwaysUnlocked: true
         "pyratite",
         "metaglass",
     ],
+itemWhiteList: [
+"beryllium",
+"graphite",
+"sand",
+"oxide",
+"silicon",
+"phase-fabric",
+"surge-alloy",
+"tungsten",
+"thorium",
+"carbide",
+erekirliquefied-azpacite,
+erekirliquefied-cesium,
+erekirliquefied-impervium-alloy
+]
 bloom: true
 orbitOffset: 30
 updateLighting: false
