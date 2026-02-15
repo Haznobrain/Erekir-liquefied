@@ -5,7 +5,9 @@ subtitle: "Download 0.2 for a surely stable and balanced release!"
 description:
  "A mod that was originally meant to add liquid related stuff to erekir but i ended up having too many ideas.
   helpers: GameStuffOfficial, @mr_shapka228, @smolkeys_
-  special thanks to u/WishboneOk8660 on reddit, who made amazing fanart of the mod and the og idea for the support boat line."
+  special thanks to u/WishboneOk8660 on reddit, who made amazing fanart of the mod and the og idea for the support boat line.
+
+  Mod kind of abandoned, will just move it up to newer versions anytime one comes out"
 version: 0.2
-minGameVersion: 150
+minGameVersion: 155
 repo: Haznobrain/Erekir-liquefied
