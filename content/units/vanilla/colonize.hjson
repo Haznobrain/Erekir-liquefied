@@ -81,14 +81,13 @@ rotateSpeed: 1.4
 heatColor: ffee71
 shoot: {
 type: ShootMulti
-source: ShootAlternate
-dest: [
-{
+source: {
   type: ShootAlternate
   barrels: 3
   shots: 3
   spread: 4
 }
+dest: [
 {
   type: ShootHelix
   scl: 4
